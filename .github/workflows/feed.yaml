@@ -10,6 +10,11 @@ jobs:
   feed:
     runs-on: ubuntu-latest
     steps:
+      - name: Setup Go
+        uses: actions/setup-go@v2
+        with:
+          go-version: ^1.17
+
       - name: Install gsrf
         run: go install github.com/toga4/gsrf@latest
 
