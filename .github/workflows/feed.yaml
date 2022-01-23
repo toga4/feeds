@@ -10,11 +10,8 @@ jobs:
   feed:
     runs-on: ubuntu-latest
     steps:
-      - name: Check out code
-        uses: actions/checkout@v2
-
       - name: Install gsrf
-        run: go install github.com/toga4/gsrf
+        run: go install github.com/toga4/gsrf@latest
 
       - run: mkdir -p dist
 
