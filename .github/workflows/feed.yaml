@@ -1,0 +1,27 @@
+name: Feed
+on:
+  schedule:
+    - cron: "0 * * * *"
+  push:
+    branches:
+      - main
+
+jobs:
+  feed:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out code
+        uses: actions/checkout@v2
+
+      - name: Install gsrf
+        run: go install github.com/toga4/gsrf
+
+      - run: mkdir -p dist
+
+      - name: Generate releases feed from starred repositories
+        run: gsrf -user toga4 -link https://toga4.github.io/feeds/starred-releases.atom > dist/starred-releases.atom
+
+      - uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./dist
