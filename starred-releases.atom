@@ -1,8 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?><feed xmlns="http://www.w3.org/2005/Atom">
   <title>Releases from Starred by toga4</title>
   <id>https://toga4.github.io/feeds/starred-releases.atom</id>
-  <updated>2022-01-23T04:38:06Z</updated>
+  <updated>2022-01-23T10:45:46Z</updated>
   <link href="https://toga4.github.io/feeds/starred-releases.atom"></link>
+  <entry>
+    <title>Release notes from alacritty - Alacritty Version 0.10.0</title>
+    <updated>2022-01-23T10:45:46Z</updated>
+    <id>tag:github.com,2008:Repository/51980455/v0.10.0</id>
+    <content type="html">&lt;h3&gt;Packaging&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;New &lt;code&gt;extra/alacritty-msg.man&lt;/code&gt; manpage for the &lt;code&gt;alacritty msg&lt;/code&gt; subcommand&lt;/li&gt;&#xA;&lt;li&gt;Minimum Rust version has been bumped to 1.53.0&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3&gt;Added&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Option &lt;code&gt;colors.transparent_background_colors&lt;/code&gt; to allow applying opacity to all background colors&lt;/li&gt;&#xA;&lt;li&gt;Support for running multiple windows from a single Alacritty instance (see docs/features.md)&lt;/li&gt;&#xA;&lt;li&gt;Urgency support on Wayland via &lt;code&gt;xdg_activation_v1&lt;/code&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3&gt;Changed&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;code&gt;ExpandSelection&lt;/code&gt; is now a configurable mouse binding action&lt;/li&gt;&#xA;&lt;li&gt;Config option &lt;code&gt;background_opacity&lt;/code&gt;, you should use &lt;code&gt;window.opacity&lt;/code&gt; instead&lt;/li&gt;&#xA;&lt;li&gt;Reload configuration files when their symbolic link is replaced&lt;/li&gt;&#xA;&lt;li&gt;Strip trailing whitespaces when yanking from a block selection&lt;/li&gt;&#xA;&lt;li&gt;Display area keeps history position when viewport is cleared&lt;/li&gt;&#xA;&lt;li&gt;Commands spawn from the current directory of the foreground shell in Unix-like systems&lt;/li&gt;&#xA;&lt;li&gt;Remove trailing newline from strings taken from hints or simple/semantic selections&lt;/li&gt;&#xA;&lt;li&gt;Builtin font is now used for box drawing characters from &lt;code&gt;U+2500&lt;/code&gt; to &lt;code&gt;U+259f&lt;/code&gt;&lt;/li&gt;&#xA;&lt;li&gt;Logs now print the time since startup instead of the local time&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3&gt;Fixed&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Line indicator obstructing vi mode cursor when scrolled into history&lt;/li&gt;&#xA;&lt;li&gt;Vi mode search starting in the line below the vi cursor&lt;/li&gt;&#xA;&lt;li&gt;Invisible cursor with matching foreground/background colors&lt;/li&gt;&#xA;&lt;li&gt;Crash when hovering over a match emptied by post-processing&lt;/li&gt;&#xA;&lt;li&gt;Crash when the vi cursor is on the scrollback and viewport clear is invoked&lt;/li&gt;&#xA;&lt;li&gt;Freeze when the vi cursor is on the scrollback and scrollback clear is invoked&lt;/li&gt;&#xA;&lt;li&gt;Vi cursor on topmost of the display moving downward when scrolled into history with active output&lt;/li&gt;&#xA;&lt;li&gt;Input lag on Wayland with Nvidia binary driver&lt;/li&gt;&#xA;&lt;li&gt;Crash when hovering the mouse over fullwidth characters&lt;/li&gt;&#xA;&lt;li&gt;Do not create logfile if the file already exists&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/alacritty/alacritty/releases/tag/v0.10.0" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>chrisduerr</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from alacritty - alacritty_terminal_v0.16.0</title>
+    <updated>2022-01-23T10:33:56Z</updated>
+    <id>tag:github.com,2008:Repository/51980455/alacritty_terminal_v0.16.0</id>
+    <content type="html">&lt;p&gt;Alacritty Terminal version 0.16.0&lt;/p&gt;</content>
+    <link href="https://github.com/alacritty/alacritty/releases/tag/alacritty_terminal_v0.16.0" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>chrisduerr</name>
+    </author>
+  </entry>
   <entry>
     <title>Release notes from kitty - Nightly builds</title>
     <updated>2022-01-23T04:38:06Z</updated>
@@ -89,28 +111,6 @@
     <summary type="html"></summary>
     <author>
       <name>anchoreops</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from http2curl - v2.2.6</title>
-    <updated>2022-01-20T13:48:26Z</updated>
-    <id>tag:github.com,2008:Repository/41481523/v2.2.6</id>
-    <content type="html">&lt;h2&gt;&lt;a href=&#34;https://github.com/moul/http2curl/compare/v2.2.5...v2.2.6&#34;&gt;2.2.6&lt;/a&gt; (2022-01-20)&lt;/h2&gt;&#xA;&lt;h3&gt;Bug Fixes&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;deps:&lt;/strong&gt; update remark monorepo (&lt;a href=&#34;https://github.com/moul/http2curl/commit/208b62bcd01ac32556cb5c195c0c19122e3be85b&#34;&gt;208b62b&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/moul/http2curl/releases/tag/v2.2.6" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>github-actions[bot]</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from terraform - v1.1.4</title>
-    <updated>2022-01-19T18:40:36Z</updated>
-    <id>tag:github.com,2008:Repository/17728164/v1.1.4</id>
-    <content type="html">&lt;h2&gt;1.1.4 (January 19, 2022)&lt;/h2&gt;&#xA;&lt;p&gt;BUG FIXES:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;config: Non-nullable variables with null inputs were not given default values when checking validation statements (&lt;a href=&#34;https://github.com/hashicorp/terraform/issues/30330&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/hashicorp/terraform/pull/30330/hovercard&#34;&gt;#30330&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;config: Terraform will no longer incorrectly report &#34;Cross-package move statement&#34; when an external package has changed a resource from no &lt;code&gt;count&lt;/code&gt; to using &lt;code&gt;count&lt;/code&gt;, or vice-versa. (&lt;a href=&#34;https://github.com/hashicorp/terraform/issues/30333&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/hashicorp/terraform/pull/30333/hovercard&#34;&gt;#30333&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/hashicorp/terraform/releases/tag/v1.1.4" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>hc-github-team-tf-core</name>
     </author>
   </entry>
 </feed>
