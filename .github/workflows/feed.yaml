@@ -22,6 +22,8 @@ jobs:
 
       - name: Generate releases feed url from starred repositories
         run: gh api 'users/toga4/starred?per_page=1000' | jq -r ".[] | .full_name" | xargs -IZZ -n 1 echo "https://github.com/ZZ/releases.atom" > feed.txt
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Generate releases feed from starred repositories
         run: feedle -title "Releases from Starred by toga4" -link https://toga4.github.io/feeds/starred-releases.atom < feed.txt > dist/starred-releases.atom
