@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?><feed xmlns="http://www.w3.org/2005/Atom">
   <title>Releases from Starred by toga4</title>
   <id>https://toga4.github.io/feeds/starred-releases.atom</id>
-  <updated>2022-01-26T18:47:39Z</updated>
+  <updated>2022-01-26T21:24:22Z</updated>
   <link href="https://toga4.github.io/feeds/starred-releases.atom"></link>
   <entry>
-    <title>Release notes from chakra-ui - @chakra-ui/skeleton@1.2.7</title>
-    <updated>2022-01-26T18:47:39Z</updated>
-    <id>tag:github.com,2008:Repository/202890778/@chakra-ui/skeleton@1.2.7</id>
-    <content type="html">&lt;h3&gt;Patch Changes&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Updated dependencies []:&#xA;&lt;ul&gt;&#xA;&lt;li&gt;@chakra-ui/system@1.10.1&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/chakra-ui/chakra-ui/releases/tag/%40chakra-ui%2Fskeleton%401.2.7" rel="alternate"></link>
+    <title>Release notes from kitty - Nightly builds</title>
+    <updated>2022-01-26T21:24:22Z</updated>
+    <id>tag:github.com,2008:Repository/71056775/nightly</id>
+    <content type="html">&lt;p&gt;Nightly release, generated on: 2022-01-26 21:23:13 UTC from commit: &lt;a class=&#34;commit-link&#34; data-hovercard-type=&#34;commit&#34; data-hovercard-url=&#34;https://github.com/kovidgoyal/kitty/commit/97e58c5b86a9712c462ecac1558e4c76a4e9430f/hovercard&#34; href=&#34;https://github.com/kovidgoyal/kitty/commit/97e58c5b86a9712c462ecac1558e4c76a4e9430f&#34;&gt;&lt;tt&gt;97e58c5&lt;/tt&gt;&lt;/a&gt;. For how to install nightly builds, see: &lt;a href=&#34;https://sw.kovidgoyal.net/kitty/binary/#customizing-the-installation&#34; rel=&#34;nofollow&#34;&gt;https://sw.kovidgoyal.net/kitty/binary/#customizing-the-installation&lt;/a&gt;&lt;/p&gt;</content>
+    <link href="https://github.com/kovidgoyal/kitty/releases/tag/nightly" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
-      <name>github-actions[bot]</name>
+      <name>kovidgoyal</name>
     </author>
   </entry>
   <entry>
-    <title>Release notes from chakra-ui - @chakra-ui/react@1.8.1</title>
+    <title>Release notes from chakra-ui - @chakra-ui/color-mode@1.4.1</title>
     <updated>2022-01-26T18:47:39Z</updated>
-    <id>tag:github.com,2008:Repository/202890778/@chakra-ui/react@1.8.1</id>
-    <content type="html">&lt;h3&gt;Patch Changes&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Updated dependencies []:&#xA;&lt;ul&gt;&#xA;&lt;li&gt;@chakra-ui/system@1.10.1&lt;/li&gt;&#xA;&lt;li&gt;@chakra-ui/provider@1.7.7&lt;/li&gt;&#xA;&lt;li&gt;@chakra-ui/skeleton@1.2.7&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/chakra-ui/chakra-ui/releases/tag/%40chakra-ui%2Freact%401.8.1" rel="alternate"></link>
+    <id>tag:github.com,2008:Repository/202890778/@chakra-ui/color-mode@1.4.1</id>
+    <content type="html">&lt;h3&gt;Patch Changes&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/pull/5459&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/chakra-ui/chakra-ui/pull/5459/hovercard&#34;&gt;#5459&lt;/a&gt;&lt;br&gt;&#xA;&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/commit/1bd1f2ffef44d810a099b001be98e3bfa229ddad&#34;&gt;&lt;code&gt;1bd1f2ffe&lt;/code&gt;&lt;/a&gt;&lt;br&gt;&#xA;Thanks &lt;a href=&#34;https://github.com/TimKolberger&#34;&gt;@TimKolberger&lt;/a&gt;! - Fixed an issue&lt;br&gt;&#xA;where the ColorModeScript tried to access a non-existent variable&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/chakra-ui/chakra-ui/releases/tag/%40chakra-ui%2Fcolor-mode%401.4.1" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>github-actions[bot]</name>
@@ -37,22 +37,33 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from chakra-ui - @chakra-ui/system@1.10.1</title>
+    <title>Release notes from chakra-ui - @chakra-ui/react@1.8.1</title>
     <updated>2022-01-26T18:47:39Z</updated>
-    <id>tag:github.com,2008:Repository/202890778/@chakra-ui/system@1.10.1</id>
-    <content type="html">&lt;h3&gt;Patch Changes&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Updated dependencies&lt;br&gt;&#xA;[&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/commit/1bd1f2ffef44d810a099b001be98e3bfa229ddad&#34;&gt;&lt;code&gt;1bd1f2ffe&lt;/code&gt;&lt;/a&gt;]:&#xA;&lt;ul&gt;&#xA;&lt;li&gt;@chakra-ui/color-mode@1.4.1&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/chakra-ui/chakra-ui/releases/tag/%40chakra-ui%2Fsystem%401.10.1" rel="alternate"></link>
+    <id>tag:github.com,2008:Repository/202890778/@chakra-ui/react@1.8.1</id>
+    <content type="html">&lt;h3&gt;Patch Changes&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Updated dependencies []:&#xA;&lt;ul&gt;&#xA;&lt;li&gt;@chakra-ui/system@1.10.1&lt;/li&gt;&#xA;&lt;li&gt;@chakra-ui/provider@1.7.7&lt;/li&gt;&#xA;&lt;li&gt;@chakra-ui/skeleton@1.2.7&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/chakra-ui/chakra-ui/releases/tag/%40chakra-ui%2Freact%401.8.1" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>github-actions[bot]</name>
     </author>
   </entry>
   <entry>
-    <title>Release notes from chakra-ui - @chakra-ui/color-mode@1.4.1</title>
+    <title>Release notes from chakra-ui - @chakra-ui/skeleton@1.2.7</title>
     <updated>2022-01-26T18:47:39Z</updated>
-    <id>tag:github.com,2008:Repository/202890778/@chakra-ui/color-mode@1.4.1</id>
-    <content type="html">&lt;h3&gt;Patch Changes&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/pull/5459&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/chakra-ui/chakra-ui/pull/5459/hovercard&#34;&gt;#5459&lt;/a&gt;&lt;br&gt;&#xA;&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/commit/1bd1f2ffef44d810a099b001be98e3bfa229ddad&#34;&gt;&lt;code&gt;1bd1f2ffe&lt;/code&gt;&lt;/a&gt;&lt;br&gt;&#xA;Thanks &lt;a href=&#34;https://github.com/TimKolberger&#34;&gt;@TimKolberger&lt;/a&gt;! - Fixed an issue&lt;br&gt;&#xA;where the ColorModeScript tried to access a non-existent variable&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/chakra-ui/chakra-ui/releases/tag/%40chakra-ui%2Fcolor-mode%401.4.1" rel="alternate"></link>
+    <id>tag:github.com,2008:Repository/202890778/@chakra-ui/skeleton@1.2.7</id>
+    <content type="html">&lt;h3&gt;Patch Changes&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Updated dependencies []:&#xA;&lt;ul&gt;&#xA;&lt;li&gt;@chakra-ui/system@1.10.1&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/chakra-ui/chakra-ui/releases/tag/%40chakra-ui%2Fskeleton%401.2.7" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>github-actions[bot]</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from chakra-ui - @chakra-ui/system@1.10.1</title>
+    <updated>2022-01-26T18:47:39Z</updated>
+    <id>tag:github.com,2008:Repository/202890778/@chakra-ui/system@1.10.1</id>
+    <content type="html">&lt;h3&gt;Patch Changes&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Updated dependencies&lt;br&gt;&#xA;[&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/commit/1bd1f2ffef44d810a099b001be98e3bfa229ddad&#34;&gt;&lt;code&gt;1bd1f2ffe&lt;/code&gt;&lt;/a&gt;]:&#xA;&lt;ul&gt;&#xA;&lt;li&gt;@chakra-ui/color-mode@1.4.1&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/chakra-ui/chakra-ui/releases/tag/%40chakra-ui%2Fsystem%401.10.1" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>github-actions[bot]</name>
@@ -100,17 +111,6 @@
     <summary type="html"></summary>
     <author>
       <name>github-actions[bot]</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from kitty - Nightly builds</title>
-    <updated>2022-01-25T21:24:37Z</updated>
-    <id>tag:github.com,2008:Repository/71056775/nightly</id>
-    <content type="html">&lt;p&gt;Nightly release, generated on: 2022-01-25 21:23:42 UTC from commit: &lt;a class=&#34;commit-link&#34; data-hovercard-type=&#34;commit&#34; data-hovercard-url=&#34;https://github.com/kovidgoyal/kitty/commit/44e3a6f0fba7fecdd6297b9cd07f13c02674a4e5/hovercard&#34; href=&#34;https://github.com/kovidgoyal/kitty/commit/44e3a6f0fba7fecdd6297b9cd07f13c02674a4e5&#34;&gt;&lt;tt&gt;44e3a6f&lt;/tt&gt;&lt;/a&gt;. For how to install nightly builds, see: &lt;a href=&#34;https://sw.kovidgoyal.net/kitty/binary/#customizing-the-installation&#34; rel=&#34;nofollow&#34;&gt;https://sw.kovidgoyal.net/kitty/binary/#customizing-the-installation&lt;/a&gt;&lt;/p&gt;</content>
-    <link href="https://github.com/kovidgoyal/kitty/releases/tag/nightly" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>kovidgoyal</name>
     </author>
   </entry>
 </feed>
