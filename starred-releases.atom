@@ -1,8 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?><feed xmlns="http://www.w3.org/2005/Atom">
   <title>Releases from Starred by toga4</title>
   <id>https://toga4.github.io/feeds/starred-releases.atom</id>
-  <updated>2022-01-31T06:31:44Z</updated>
+  <updated>2022-01-31T13:43:52Z</updated>
   <link href="https://toga4.github.io/feeds/starred-releases.atom"></link>
+  <entry>
+    <title>Release notes from go - go1.18beta2: cmd/go: rewrite TestScript/cgo_stale_precompiled to be agnostic to st…</title>
+    <updated>2022-01-31T13:43:52Z</updated>
+    <id>tag:github.com,2008:Repository/23096959/go1.18beta2</id>
+    <content type="html">&lt;p&gt;…aleness&lt;/p&gt;&#xA;&lt;p&gt;The configuration set by x/build/cmd/releasebot causes runtime/cgo to&lt;br&gt;&#xA;be stale in the darwin/amd64 release (see &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;534243358&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/golang/go/issues/36025&#34; data-hovercard-type=&#34;issue&#34; data-hovercard-url=&#34;/golang/go/issues/36025/hovercard&#34; href=&#34;https://github.com/golang/go/issues/36025&#34;&gt;#36025&lt;/a&gt;, &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;520105120&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/golang/go/issues/35459&#34; data-hovercard-type=&#34;issue&#34; data-hovercard-url=&#34;/golang/go/issues/35459/hovercard&#34; href=&#34;https://github.com/golang/go/issues/35459&#34;&gt;#35459&lt;/a&gt;).&lt;br&gt;&#xA;That staleness is mostly benign because we can reasonably assume that&lt;br&gt;&#xA;users on macOS will either disable CGO entirely or have a C compiler&lt;br&gt;&#xA;installed to rebuild (and cache) the stale packages if needed.&lt;/p&gt;&#xA;&lt;p&gt;Fixes &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1117746034&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/golang/go/issues/50892&#34; data-hovercard-type=&#34;issue&#34; data-hovercard-url=&#34;/golang/go/issues/50892/hovercard&#34; href=&#34;https://github.com/golang/go/issues/50892&#34;&gt;#50892&lt;/a&gt;&lt;br&gt;&#xA;Fixes &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1117757068&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/golang/go/issues/50893&#34; data-hovercard-type=&#34;issue&#34; data-hovercard-url=&#34;/golang/go/issues/50893/hovercard&#34; href=&#34;https://github.com/golang/go/issues/50893&#34;&gt;#50893&lt;/a&gt;&lt;br&gt;&#xA;Updates &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;899776900&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/golang/go/issues/46347&#34; data-hovercard-type=&#34;issue&#34; data-hovercard-url=&#34;/golang/go/issues/46347/hovercard&#34; href=&#34;https://github.com/golang/go/issues/46347&#34;&gt;#46347&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;Change-Id: Ib9ce6b5014de436264238f680f7ca4ae02c9a220&lt;br&gt;&#xA;Reviewed-on: &lt;a href=&#34;https://go-review.googlesource.com/c/go/+/381854&#34; rel=&#34;nofollow&#34;&gt;https://go-review.googlesource.com/c/go/+/381854&lt;/a&gt;&lt;br&gt;&#xA;Trust: Bryan Mills &lt;a href=&#34;mailto:bcmills@google.com&#34;&gt;bcmills@google.com&lt;/a&gt;&lt;br&gt;&#xA;Run-TryBot: Bryan Mills &lt;a href=&#34;mailto:bcmills@google.com&#34;&gt;bcmills@google.com&lt;/a&gt;&lt;br&gt;&#xA;TryBot-Result: Gopher Robot &lt;a href=&#34;mailto:gobot@golang.org&#34;&gt;gobot@golang.org&lt;/a&gt;&lt;br&gt;&#xA;Reviewed-by: Russ Cox &lt;a href=&#34;mailto:rsc@golang.org&#34;&gt;rsc@golang.org&lt;/a&gt;&lt;/p&gt;</content>
+    <link href="https://github.com/golang/go/releases/tag/go1.18beta2" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>bcmills</name>
+    </author>
+  </entry>
   <entry>
     <title>Release notes from oidc - v1.0.2-beta.1</title>
     <updated>2022-01-31T06:31:44Z</updated>
@@ -70,33 +81,11 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from chakra-ui - @chakra-ui/color-mode@1.4.1</title>
+    <title>Release notes from chakra-ui - @chakra-ui/react@1.8.1</title>
     <updated>2022-01-26T18:47:39Z</updated>
-    <id>tag:github.com,2008:Repository/202890778/@chakra-ui/color-mode@1.4.1</id>
-    <content type="html">&lt;h3&gt;Patch Changes&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/pull/5459&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/chakra-ui/chakra-ui/pull/5459/hovercard&#34;&gt;#5459&lt;/a&gt;&lt;br&gt;&#xA;&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/commit/1bd1f2ffef44d810a099b001be98e3bfa229ddad&#34;&gt;&lt;code&gt;1bd1f2ffe&lt;/code&gt;&lt;/a&gt;&lt;br&gt;&#xA;Thanks &lt;a href=&#34;https://github.com/TimKolberger&#34;&gt;@TimKolberger&lt;/a&gt;! - Fixed an issue&lt;br&gt;&#xA;where the ColorModeScript tried to access a non-existent variable&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/chakra-ui/chakra-ui/releases/tag/%40chakra-ui%2Fcolor-mode%401.4.1" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>github-actions[bot]</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from chakra-ui - @chakra-ui/provider@1.7.7</title>
-    <updated>2022-01-26T18:47:39Z</updated>
-    <id>tag:github.com,2008:Repository/202890778/@chakra-ui/provider@1.7.7</id>
-    <content type="html">&lt;h3&gt;Patch Changes&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Updated dependencies []:&#xA;&lt;ul&gt;&#xA;&lt;li&gt;@chakra-ui/system@1.10.1&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/chakra-ui/chakra-ui/releases/tag/%40chakra-ui%2Fprovider%401.7.7" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>github-actions[bot]</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from chakra-ui - @chakra-ui/props-docs@1.0.45</title>
-    <updated>2022-01-26T18:47:39Z</updated>
-    <id>tag:github.com,2008:Repository/202890778/@chakra-ui/props-docs@1.0.45</id>
-    <content type="html">&lt;h3&gt;Patch Changes&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Updated dependencies []:&#xA;&lt;ul&gt;&#xA;&lt;li&gt;@chakra-ui/react@1.8.1&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/chakra-ui/chakra-ui/releases/tag/%40chakra-ui%2Fprops-docs%401.0.45" rel="alternate"></link>
+    <id>tag:github.com,2008:Repository/202890778/@chakra-ui/react@1.8.1</id>
+    <content type="html">&lt;h3&gt;Patch Changes&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Updated dependencies []:&#xA;&lt;ul&gt;&#xA;&lt;li&gt;@chakra-ui/system@1.10.1&lt;/li&gt;&#xA;&lt;li&gt;@chakra-ui/provider@1.7.7&lt;/li&gt;&#xA;&lt;li&gt;@chakra-ui/skeleton@1.2.7&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/chakra-ui/chakra-ui/releases/tag/%40chakra-ui%2Freact%401.8.1" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>github-actions[bot]</name>
@@ -108,6 +97,17 @@
     <id>tag:github.com,2008:Repository/202890778/@chakra-ui/skeleton@1.2.7</id>
     <content type="html">&lt;h3&gt;Patch Changes&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Updated dependencies []:&#xA;&lt;ul&gt;&#xA;&lt;li&gt;@chakra-ui/system@1.10.1&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
     <link href="https://github.com/chakra-ui/chakra-ui/releases/tag/%40chakra-ui%2Fskeleton%401.2.7" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>github-actions[bot]</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from chakra-ui - @chakra-ui/provider@1.7.7</title>
+    <updated>2022-01-26T18:47:39Z</updated>
+    <id>tag:github.com,2008:Repository/202890778/@chakra-ui/provider@1.7.7</id>
+    <content type="html">&lt;h3&gt;Patch Changes&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Updated dependencies []:&#xA;&lt;ul&gt;&#xA;&lt;li&gt;@chakra-ui/system@1.10.1&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/chakra-ui/chakra-ui/releases/tag/%40chakra-ui%2Fprovider%401.7.7" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>github-actions[bot]</name>
