@@ -1,8 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?><feed xmlns="http://www.w3.org/2005/Atom">
   <title>Releases from Starred by toga4</title>
   <id>https://toga4.github.io/feeds/starred-releases.atom</id>
-  <updated>2022-02-01T17:28:08Z</updated>
+  <updated>2022-02-01T22:36:04Z</updated>
   <link href="https://toga4.github.io/feeds/starred-releases.atom"></link>
+  <entry>
+    <title>Release notes from kustomize - kyaml/v0.13.2</title>
+    <updated>2022-02-01T22:36:04Z</updated>
+    <id>tag:github.com,2008:Repository/133067498/kyaml/v0.13.2</id>
+    <content type="html">&lt;p&gt;&lt;a class=&#34;commit-link&#34; data-hovercard-type=&#34;commit&#34; data-hovercard-url=&#34;https://github.com/kubernetes-sigs/kustomize/commit/3687250ca2975f57d7ec362eed8f116b8dcc8cf2/hovercard&#34; href=&#34;https://github.com/kubernetes-sigs/kustomize/commit/3687250ca2975f57d7ec362eed8f116b8dcc8cf2&#34;&gt;&lt;tt&gt;3687250&lt;/tt&gt;&lt;/a&gt; Add TrackableFilter interface (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1109758720&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/kubernetes-sigs/kustomize/issues/4410&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/kubernetes-sigs/kustomize/pull/4410/hovercard&#34; href=&#34;https://github.com/kubernetes-sigs/kustomize/pull/4410&#34;&gt;#4410&lt;/a&gt;)&lt;br&gt;&#xA;&lt;a class=&#34;commit-link&#34; data-hovercard-type=&#34;commit&#34; data-hovercard-url=&#34;https://github.com/kubernetes-sigs/kustomize/commit/31b7cf9e0ade317f39133c7de81ba0881ced6d00/hovercard&#34; href=&#34;https://github.com/kubernetes-sigs/kustomize/commit/31b7cf9e0ade317f39133c7de81ba0881ced6d00&#34;&gt;&lt;tt&gt;31b7cf9&lt;/tt&gt;&lt;/a&gt; &lt;code&gt;kustomize build ...&lt;/code&gt; now complete file paths on ZSH. (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1064812165&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/kubernetes-sigs/kustomize/issues/4310&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/kubernetes-sigs/kustomize/pull/4310/hovercard&#34; href=&#34;https://github.com/kubernetes-sigs/kustomize/pull/4310&#34;&gt;#4310&lt;/a&gt;)&lt;br&gt;&#xA;&lt;a class=&#34;commit-link&#34; data-hovercard-type=&#34;commit&#34; data-hovercard-url=&#34;https://github.com/kubernetes-sigs/kustomize/commit/c659306ee26c8f6f54f518ca637a4fb361e892f4/hovercard&#34; href=&#34;https://github.com/kubernetes-sigs/kustomize/commit/c659306ee26c8f6f54f518ca637a4fb361e892f4&#34;&gt;&lt;tt&gt;c659306&lt;/tt&gt;&lt;/a&gt; Don&#39;t surface entire node content in error message (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1087261672&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/kubernetes-sigs/kustomize/issues/4352&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/kubernetes-sigs/kustomize/pull/4352/hovercard&#34; href=&#34;https://github.com/kubernetes-sigs/kustomize/pull/4352&#34;&gt;#4352&lt;/a&gt;)&lt;/p&gt;</content>
+    <link href="https://github.com/kubernetes-sigs/kustomize/releases/tag/kyaml%2Fv0.13.2" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>KnVerey</name>
+    </author>
+  </entry>
   <entry>
     <title>Release notes from cli - GitHub CLI 2.5.0</title>
     <updated>2022-02-01T17:28:08Z</updated>
@@ -100,17 +111,6 @@
     <summary type="html"></summary>
     <author>
       <name>github-actions[bot]</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from apd - v3.0.1</title>
-    <updated>2022-01-29T20:24:25Z</updated>
-    <id>tag:github.com,2008:Repository/75918965/v3.0.1</id>
-    <content type="html">&lt;h2&gt;What&#39;s Changed&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;apd: avoid function calls on hot paths by &lt;a class=&#34;user-mention&#34; data-hovercard-type=&#34;user&#34; data-hovercard-url=&#34;/users/nvanbenschoten/hovercard&#34; data-octo-click=&#34;hovercard-link-click&#34; data-octo-dimensions=&#34;link_type:self&#34; href=&#34;https://github.com/nvanbenschoten&#34;&gt;@nvanbenschoten&lt;/a&gt; in &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1105361792&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/cockroachdb/apd/issues/112&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/cockroachdb/apd/pull/112/hovercard&#34; href=&#34;https://github.com/cockroachdb/apd/pull/112&#34;&gt;#112&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: &lt;a class=&#34;commit-link&#34; href=&#34;https://github.com/cockroachdb/apd/compare/v3.0.0...v3.0.1&#34;&gt;&lt;tt&gt;v3.0.0...v3.0.1&lt;/tt&gt;&lt;/a&gt;&lt;/p&gt;</content>
-    <link href="https://github.com/cockroachdb/apd/releases/tag/v3.0.1" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>nvanbenschoten</name>
     </author>
   </entry>
 </feed>
