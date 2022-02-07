@@ -1,8 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?><feed xmlns="http://www.w3.org/2005/Atom">
   <title>Releases from Starred by toga4</title>
   <id>https://toga4.github.io/feeds/starred-releases.atom</id>
-  <updated>2022-02-07T15:55:11Z</updated>
+  <updated>2022-02-07T17:03:09Z</updated>
   <link href="https://toga4.github.io/feeds/starred-releases.atom"></link>
+  <entry>
+    <title>Release notes from syft - v0.37.7: dont add signing artifact (#802)</title>
+    <updated>2022-02-07T17:03:09Z</updated>
+    <id>tag:github.com,2008:Repository/262126497/v0.37.7</id>
+    <content type="html">&lt;p&gt;Signed-off-by: Alex Goodman &lt;a href=&#34;mailto:alex.goodman@anchore.com&#34;&gt;alex.goodman@anchore.com&lt;/a&gt;&lt;/p&gt;</content>
+    <link href="https://github.com/anchore/syft/releases/tag/v0.37.7" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>wagoodman</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from zap - v1.21.0</title>
+    <updated>2022-02-07T16:55:11Z</updated>
+    <id>tag:github.com,2008:Repository/52034309/v1.21.0</id>
+    <content type="html">&lt;h2&gt;1.21.0 (7 Feb 2022)&lt;/h2&gt;&#xA;&lt;p&gt;Enhancements:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/uber-go/zap/pull/1047&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/uber-go/zap/pull/1047/hovercard&#34;&gt;#1047&lt;/a&gt;: Add &lt;code&gt;zapcore.ParseLevel&lt;/code&gt; to parse a &lt;code&gt;Level&lt;/code&gt; from a string.&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/uber-go/zap/pull/1048&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/uber-go/zap/pull/1048/hovercard&#34;&gt;#1048&lt;/a&gt;: Add &lt;code&gt;zap.ParseAtomicLevel&lt;/code&gt; to parse an &lt;code&gt;AtomicLevel&lt;/code&gt; from a&lt;br&gt;&#xA;string.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Bugfixes:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/uber-go/zap/pull/1058&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/uber-go/zap/pull/1058/hovercard&#34;&gt;#1058&lt;/a&gt;: Fix panic in JSON encoder when &lt;code&gt;EncodeLevel&lt;/code&gt; is unset.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Other changes:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/uber-go/zap/pull/1052&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/uber-go/zap/pull/1052/hovercard&#34;&gt;#1052&lt;/a&gt;: Improve encoding performance when the &lt;code&gt;AddCaller&lt;/code&gt; and&lt;br&gt;&#xA;&lt;code&gt;AddStacktrace&lt;/code&gt; options are used together.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Thanks to &lt;a class=&#34;user-mention&#34; data-hovercard-type=&#34;user&#34; data-hovercard-url=&#34;/users/aerosol/hovercard&#34; data-octo-click=&#34;hovercard-link-click&#34; data-octo-dimensions=&#34;link_type:self&#34; href=&#34;https://github.com/aerosol&#34;&gt;@aerosol&lt;/a&gt; and &lt;a class=&#34;user-mention&#34; data-hovercard-type=&#34;user&#34; data-hovercard-url=&#34;/users/Techassi/hovercard&#34; data-octo-click=&#34;hovercard-link-click&#34; data-octo-dimensions=&#34;link_type:self&#34; href=&#34;https://github.com/Techassi&#34;&gt;@Techassi&lt;/a&gt; for their contributions to this release.&lt;/p&gt;</content>
+    <link href="https://github.com/uber-go/zap/releases/tag/v1.21.0" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>abhinav</name>
+    </author>
+  </entry>
   <entry>
     <title>Release notes from syft - v0.37.6: Stabilize CI behavior (#796)</title>
     <updated>2022-02-07T15:55:11Z</updated>
@@ -26,50 +48,6 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from chakra-ui - @chakra-ui/textarea@1.2.6</title>
-    <updated>2022-02-05T13:36:51Z</updated>
-    <id>tag:github.com,2008:Repository/202890778/@chakra-ui/textarea@1.2.6</id>
-    <content type="html">&lt;h3&gt;Patch Changes&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/pull/5536&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/chakra-ui/chakra-ui/pull/5536/hovercard&#34;&gt;#5536&lt;/a&gt;&lt;br&gt;&#xA;&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/commit/a503acabefcaea86cb7f40a6305830f09d2d6083&#34;&gt;&lt;code&gt;a503acabe&lt;/code&gt;&lt;/a&gt;&lt;br&gt;&#xA;Thanks &lt;a href=&#34;https://github.com/TimKolberger&#34;&gt;@TimKolberger&lt;/a&gt;! - Bumped patch&lt;br&gt;&#xA;version for every package to fix release process.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Updated dependencies&lt;br&gt;&#xA;[&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/commit/a503acabefcaea86cb7f40a6305830f09d2d6083&#34;&gt;&lt;code&gt;a503acabe&lt;/code&gt;&lt;/a&gt;]:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;@chakra-ui/form-control@1.5.6&lt;/li&gt;&#xA;&lt;li&gt;@chakra-ui/utils@1.10.2&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/chakra-ui/chakra-ui/releases/tag/%40chakra-ui%2Ftextarea%401.2.6" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>github-actions[bot]</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from chakra-ui - @chakra-ui/tag@1.2.5</title>
-    <updated>2022-02-05T13:36:51Z</updated>
-    <id>tag:github.com,2008:Repository/202890778/@chakra-ui/tag@1.2.5</id>
-    <content type="html">&lt;h3&gt;Patch Changes&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/pull/5536&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/chakra-ui/chakra-ui/pull/5536/hovercard&#34;&gt;#5536&lt;/a&gt;&lt;br&gt;&#xA;&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/commit/a503acabefcaea86cb7f40a6305830f09d2d6083&#34;&gt;&lt;code&gt;a503acabe&lt;/code&gt;&lt;/a&gt;&lt;br&gt;&#xA;Thanks &lt;a href=&#34;https://github.com/TimKolberger&#34;&gt;@TimKolberger&lt;/a&gt;! - Bumped patch&lt;br&gt;&#xA;version for every package to fix release process.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Updated dependencies&lt;br&gt;&#xA;[&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/commit/a503acabefcaea86cb7f40a6305830f09d2d6083&#34;&gt;&lt;code&gt;a503acabe&lt;/code&gt;&lt;/a&gt;]:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;@chakra-ui/icon@2.0.3&lt;/li&gt;&#xA;&lt;li&gt;@chakra-ui/utils@1.10.2&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/chakra-ui/chakra-ui/releases/tag/%40chakra-ui%2Ftag%401.2.5" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>github-actions[bot]</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from chakra-ui - @chakra-ui/tooltip@1.4.6</title>
-    <updated>2022-02-05T13:36:51Z</updated>
-    <id>tag:github.com,2008:Repository/202890778/@chakra-ui/tooltip@1.4.6</id>
-    <content type="html">&lt;h3&gt;Patch Changes&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/pull/5536&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/chakra-ui/chakra-ui/pull/5536/hovercard&#34;&gt;#5536&lt;/a&gt;&lt;br&gt;&#xA;&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/commit/a503acabefcaea86cb7f40a6305830f09d2d6083&#34;&gt;&lt;code&gt;a503acabe&lt;/code&gt;&lt;/a&gt;&lt;br&gt;&#xA;Thanks &lt;a href=&#34;https://github.com/TimKolberger&#34;&gt;@TimKolberger&lt;/a&gt;! - Bumped patch&lt;br&gt;&#xA;version for every package to fix release process.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Updated dependencies&lt;br&gt;&#xA;[&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/commit/a503acabefcaea86cb7f40a6305830f09d2d6083&#34;&gt;&lt;code&gt;a503acabe&lt;/code&gt;&lt;/a&gt;]:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;@chakra-ui/hooks@1.8.2&lt;/li&gt;&#xA;&lt;li&gt;@chakra-ui/popper@2.4.2&lt;/li&gt;&#xA;&lt;li&gt;@chakra-ui/portal@1.3.5&lt;/li&gt;&#xA;&lt;li&gt;@chakra-ui/react-utils@1.2.2&lt;/li&gt;&#xA;&lt;li&gt;@chakra-ui/utils@1.10.2&lt;/li&gt;&#xA;&lt;li&gt;@chakra-ui/visually-hidden@1.1.4&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/chakra-ui/chakra-ui/releases/tag/%40chakra-ui%2Ftooltip%401.4.6" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>github-actions[bot]</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from chakra-ui - @chakra-ui/transition@1.4.5</title>
-    <updated>2022-02-05T13:36:51Z</updated>
-    <id>tag:github.com,2008:Repository/202890778/@chakra-ui/transition@1.4.5</id>
-    <content type="html">&lt;h3&gt;Patch Changes&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/pull/5536&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/chakra-ui/chakra-ui/pull/5536/hovercard&#34;&gt;#5536&lt;/a&gt;&lt;br&gt;&#xA;&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/commit/a503acabefcaea86cb7f40a6305830f09d2d6083&#34;&gt;&lt;code&gt;a503acabe&lt;/code&gt;&lt;/a&gt;&lt;br&gt;&#xA;Thanks &lt;a href=&#34;https://github.com/TimKolberger&#34;&gt;@TimKolberger&lt;/a&gt;! - Bumped patch&lt;br&gt;&#xA;version for every package to fix release process.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Updated dependencies&lt;br&gt;&#xA;[&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/commit/a503acabefcaea86cb7f40a6305830f09d2d6083&#34;&gt;&lt;code&gt;a503acabe&lt;/code&gt;&lt;/a&gt;]:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;@chakra-ui/utils@1.10.2&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/chakra-ui/chakra-ui/releases/tag/%40chakra-ui%2Ftransition%401.4.5" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>github-actions[bot]</name>
-    </author>
-  </entry>
-  <entry>
     <title>Release notes from chakra-ui - @chakra-ui/utils@1.10.2</title>
     <updated>2022-02-05T13:36:51Z</updated>
     <id>tag:github.com,2008:Repository/202890778/@chakra-ui/utils@1.10.2</id>
@@ -81,22 +59,44 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from chakra-ui - @chakra-ui/visually-hidden@1.1.4</title>
+    <title>Release notes from chakra-ui - storybook-addon@1.0.1</title>
     <updated>2022-02-05T13:36:51Z</updated>
-    <id>tag:github.com,2008:Repository/202890778/@chakra-ui/visually-hidden@1.1.4</id>
-    <content type="html">&lt;h3&gt;Patch Changes&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/pull/5536&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/chakra-ui/chakra-ui/pull/5536/hovercard&#34;&gt;#5536&lt;/a&gt;&lt;br&gt;&#xA;&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/commit/a503acabefcaea86cb7f40a6305830f09d2d6083&#34;&gt;&lt;code&gt;a503acabe&lt;/code&gt;&lt;/a&gt;&lt;br&gt;&#xA;Thanks &lt;a href=&#34;https://github.com/TimKolberger&#34;&gt;@TimKolberger&lt;/a&gt;! - Bumped patch&lt;br&gt;&#xA;version for every package to fix release process.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Updated dependencies&lt;br&gt;&#xA;[&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/commit/a503acabefcaea86cb7f40a6305830f09d2d6083&#34;&gt;&lt;code&gt;a503acabe&lt;/code&gt;&lt;/a&gt;]:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;@chakra-ui/utils@1.10.2&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/chakra-ui/chakra-ui/releases/tag/%40chakra-ui%2Fvisually-hidden%401.1.4" rel="alternate"></link>
+    <id>tag:github.com,2008:Repository/202890778/storybook-addon@1.0.1</id>
+    <content type="html">&lt;h3&gt;Patch Changes&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/pull/5536&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/chakra-ui/chakra-ui/pull/5536/hovercard&#34;&gt;#5536&lt;/a&gt;&lt;br&gt;&#xA;&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/commit/a503acabefcaea86cb7f40a6305830f09d2d6083&#34;&gt;&lt;code&gt;a503acabe&lt;/code&gt;&lt;/a&gt;&lt;br&gt;&#xA;Thanks &lt;a href=&#34;https://github.com/TimKolberger&#34;&gt;@TimKolberger&lt;/a&gt;! - Bumped patch&lt;br&gt;&#xA;version for every package to fix release process.&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/chakra-ui/chakra-ui/releases/tag/storybook-addon%401.0.1" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>github-actions[bot]</name>
     </author>
   </entry>
   <entry>
-    <title>Release notes from chakra-ui - storybook-addon@1.0.1</title>
+    <title>Release notes from chakra-ui - @chakra-ui/toast@1.5.4</title>
     <updated>2022-02-05T13:36:51Z</updated>
-    <id>tag:github.com,2008:Repository/202890778/storybook-addon@1.0.1</id>
-    <content type="html">&lt;h3&gt;Patch Changes&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/pull/5536&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/chakra-ui/chakra-ui/pull/5536/hovercard&#34;&gt;#5536&lt;/a&gt;&lt;br&gt;&#xA;&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/commit/a503acabefcaea86cb7f40a6305830f09d2d6083&#34;&gt;&lt;code&gt;a503acabe&lt;/code&gt;&lt;/a&gt;&lt;br&gt;&#xA;Thanks &lt;a href=&#34;https://github.com/TimKolberger&#34;&gt;@TimKolberger&lt;/a&gt;! - Bumped patch&lt;br&gt;&#xA;version for every package to fix release process.&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/chakra-ui/chakra-ui/releases/tag/storybook-addon%401.0.1" rel="alternate"></link>
+    <id>tag:github.com,2008:Repository/202890778/@chakra-ui/toast@1.5.4</id>
+    <content type="html">&lt;h3&gt;Patch Changes&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/pull/5536&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/chakra-ui/chakra-ui/pull/5536/hovercard&#34;&gt;#5536&lt;/a&gt;&lt;br&gt;&#xA;&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/commit/a503acabefcaea86cb7f40a6305830f09d2d6083&#34;&gt;&lt;code&gt;a503acabe&lt;/code&gt;&lt;/a&gt;&lt;br&gt;&#xA;Thanks &lt;a href=&#34;https://github.com/TimKolberger&#34;&gt;@TimKolberger&lt;/a&gt;! - Bumped patch&lt;br&gt;&#xA;version for every package to fix release process.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Updated dependencies&lt;br&gt;&#xA;[&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/commit/a503acabefcaea86cb7f40a6305830f09d2d6083&#34;&gt;&lt;code&gt;a503acabe&lt;/code&gt;&lt;/a&gt;]:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;@chakra-ui/alert@1.3.5&lt;/li&gt;&#xA;&lt;li&gt;@chakra-ui/close-button@1.2.5&lt;/li&gt;&#xA;&lt;li&gt;@chakra-ui/hooks@1.8.2&lt;/li&gt;&#xA;&lt;li&gt;@chakra-ui/theme@1.13.2&lt;/li&gt;&#xA;&lt;li&gt;@chakra-ui/transition@1.4.5&lt;/li&gt;&#xA;&lt;li&gt;@chakra-ui/utils@1.10.2&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/chakra-ui/chakra-ui/releases/tag/%40chakra-ui%2Ftoast%401.5.4" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>github-actions[bot]</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from chakra-ui - @chakra-ui/theme-tools@1.3.4</title>
+    <updated>2022-02-05T13:36:51Z</updated>
+    <id>tag:github.com,2008:Repository/202890778/@chakra-ui/theme-tools@1.3.4</id>
+    <content type="html">&lt;h3&gt;Patch Changes&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/pull/5536&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/chakra-ui/chakra-ui/pull/5536/hovercard&#34;&gt;#5536&lt;/a&gt;&lt;br&gt;&#xA;&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/commit/a503acabefcaea86cb7f40a6305830f09d2d6083&#34;&gt;&lt;code&gt;a503acabe&lt;/code&gt;&lt;/a&gt;&lt;br&gt;&#xA;Thanks &lt;a href=&#34;https://github.com/TimKolberger&#34;&gt;@TimKolberger&lt;/a&gt;! - Bumped patch&lt;br&gt;&#xA;version for every package to fix release process.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Updated dependencies&lt;br&gt;&#xA;[&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/commit/a503acabefcaea86cb7f40a6305830f09d2d6083&#34;&gt;&lt;code&gt;a503acabe&lt;/code&gt;&lt;/a&gt;]:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;@chakra-ui/utils@1.10.2&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/chakra-ui/chakra-ui/releases/tag/%40chakra-ui%2Ftheme-tools%401.3.4" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>github-actions[bot]</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from chakra-ui - @chakra-ui/visually-hidden@1.1.4</title>
+    <updated>2022-02-05T13:36:51Z</updated>
+    <id>tag:github.com,2008:Repository/202890778/@chakra-ui/visually-hidden@1.1.4</id>
+    <content type="html">&lt;h3&gt;Patch Changes&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/pull/5536&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/chakra-ui/chakra-ui/pull/5536/hovercard&#34;&gt;#5536&lt;/a&gt;&lt;br&gt;&#xA;&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/commit/a503acabefcaea86cb7f40a6305830f09d2d6083&#34;&gt;&lt;code&gt;a503acabe&lt;/code&gt;&lt;/a&gt;&lt;br&gt;&#xA;Thanks &lt;a href=&#34;https://github.com/TimKolberger&#34;&gt;@TimKolberger&lt;/a&gt;! - Bumped patch&lt;br&gt;&#xA;version for every package to fix release process.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Updated dependencies&lt;br&gt;&#xA;[&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/commit/a503acabefcaea86cb7f40a6305830f09d2d6083&#34;&gt;&lt;code&gt;a503acabe&lt;/code&gt;&lt;/a&gt;]:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;@chakra-ui/utils@1.10.2&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/chakra-ui/chakra-ui/releases/tag/%40chakra-ui%2Fvisually-hidden%401.1.4" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>github-actions[bot]</name>
