@@ -1,17 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?><feed xmlns="http://www.w3.org/2005/Atom">
   <title>Releases from Starred by toga4</title>
   <id>https://toga4.github.io/feeds/starred-releases.atom</id>
-  <updated>2022-02-07T23:47:47Z</updated>
+  <updated>2022-02-08T01:25:04Z</updated>
   <link href="https://toga4.github.io/feeds/starred-releases.atom"></link>
   <entry>
-    <title>Release notes from syft - v0.37.10: serialize notarization (#806)</title>
-    <updated>2022-02-07T23:47:47Z</updated>
+    <title>Release notes from syft - v0.37.10</title>
+    <updated>2022-02-08T01:25:04Z</updated>
     <id>tag:github.com,2008:Repository/262126497/v0.37.10</id>
-    <content type="html">&lt;p&gt;Signed-off-by: Alex Goodman &lt;a href=&#34;mailto:alex.goodman@anchore.com&#34;&gt;alex.goodman@anchore.com&lt;/a&gt;&lt;/p&gt;</content>
+    <content type="html">&lt;h1&gt;Changelog&lt;/h1&gt;&#xA;&lt;h2&gt;&lt;a href=&#34;https://github.com/anchore/syft/tree/v0.37.10&#34;&gt;v0.37.10&lt;/a&gt; (2022-02-08)&lt;/h2&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://github.com/anchore/syft/compare/v0.36.0...v0.37.10&#34;&gt;Full Changelog&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h3&gt;Added Features&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Add distro information to package URLs for OS packages [&lt;a href=&#34;https://github.com/anchore/syft/pull/754&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/anchore/syft/pull/754/hovercard&#34;&gt;PR #754&lt;/a&gt;] [&lt;a href=&#34;https://github.com/wagoodman&#34;&gt;wagoodman&lt;/a&gt;]&lt;/li&gt;&#xA;&lt;li&gt;Encode upstream qualifier on OS package pURLs [&lt;a href=&#34;https://github.com/anchore/syft/pull/769&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/anchore/syft/pull/769/hovercard&#34;&gt;PR #769&lt;/a&gt;] [&lt;a href=&#34;https://github.com/wagoodman&#34;&gt;wagoodman&lt;/a&gt;]&lt;/li&gt;&#xA;&lt;li&gt;Extract language and package type from pURLs on SBOM decode [&lt;a href=&#34;https://github.com/anchore/syft/pull/777&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/anchore/syft/pull/777/hovercard&#34;&gt;PR #777&lt;/a&gt;] [&lt;a href=&#34;https://github.com/wagoodman&#34;&gt;wagoodman&lt;/a&gt;]&lt;/li&gt;&#xA;&lt;li&gt;Update SPDX license list to 3.16 [&lt;a href=&#34;https://github.com/anchore/syft/pull/801&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/anchore/syft/pull/801/hovercard&#34;&gt;PR #801&lt;/a&gt;] [&lt;a href=&#34;https://github.com/kzantow&#34;&gt;kzantow&lt;/a&gt;]&lt;/li&gt;&#xA;&lt;li&gt;Extend CycloneDX presenters with syft-specific values [&lt;a href=&#34;https://github.com/anchore/syft/issues/154&#34; data-hovercard-type=&#34;issue&#34; data-hovercard-url=&#34;/anchore/syft/issues/154/hovercard&#34;&gt;Issue #154&lt;/a&gt;]&lt;/li&gt;&#xA;&lt;li&gt;Extend CycloneDX presenter with dependency graph [&lt;a href=&#34;https://github.com/anchore/syft/issues/155&#34; data-hovercard-type=&#34;issue&#34; data-hovercard-url=&#34;/anchore/syft/issues/155/hovercard&#34;&gt;Issue #155&lt;/a&gt;]&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
     <link href="https://github.com/anchore/syft/releases/tag/v0.37.10" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
-      <name>wagoodman</name>
+      <name>anchoreops</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from google-cloud-go - pubsublite pubsublite/v1.2.2</title>
+    <updated>2022-02-08T01:22:24Z</updated>
+    <id>tag:github.com,2008:Repository/19608522/pubsublite/v1.2.2</id>
+    <content type="html">&lt;h3&gt;Features&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;pubsublite:&lt;/strong&gt; add C++ rules for Pub/Sub Lite (&lt;a href=&#34;https://www.github.com/googleapis/google-cloud-go/commit/3e7185c241d97ee342f132ae04bc93bb79a8e897&#34;&gt;3e7185c&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3&gt;Bug Fixes&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;pubsublite:&lt;/strong&gt; mitigate gRPC stream connection issues (&lt;a href=&#34;https://www.github.com/googleapis/google-cloud-go/issues/5382&#34;&gt;#5382&lt;/a&gt;) (&lt;a href=&#34;https://www.github.com/googleapis/google-cloud-go/commit/8763ef3d2da18e8fed6e350aef76d26a135246c2&#34;&gt;8763ef3&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3&gt;Documentation&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;pubsublite:&lt;/strong&gt; update comments for regional topics (&lt;a href=&#34;https://www.github.com/googleapis/google-cloud-go/issues/5202&#34;&gt;#5202&lt;/a&gt;) (&lt;a href=&#34;https://www.github.com/googleapis/google-cloud-go/commit/78054682770af3b35cb0002c3c34006ec36590ef&#34;&gt;7805468&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/googleapis/google-cloud-go/releases/tag/pubsublite%2Fv1.2.2" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>github-actions[bot]</name>
     </author>
   </entry>
   <entry>
@@ -97,17 +108,6 @@
     <id>tag:github.com,2008:Repository/262126497/v0.37.6</id>
     <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;reduce parallelism of builds and increase install.sh test setup buffer&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Signed-off-by: Alex Goodman &lt;a href=&#34;mailto:alex.goodman@anchore.com&#34;&gt;alex.goodman@anchore.com&lt;/a&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;change logging mechanism for signing&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Signed-off-by: Alex Goodman &lt;a href=&#34;mailto:alex.goodman@anchore.com&#34;&gt;alex.goodman@anchore.com&lt;/a&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;restore automatic parallelism determination for goreleaser&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Signed-off-by: Alex Goodman &lt;a href=&#34;mailto:alex.goodman@anchore.com&#34;&gt;alex.goodman@anchore.com&lt;/a&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;rm logging goreleaser version&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Signed-off-by: Alex Goodman &lt;a href=&#34;mailto:alex.goodman@anchore.com&#34;&gt;alex.goodman@anchore.com&lt;/a&gt;&lt;/p&gt;</content>
     <link href="https://github.com/anchore/syft/releases/tag/v0.37.6" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>wagoodman</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from syft - v0.37.5: docker auth must occur after setting up prod keychain (#795)</title>
-    <updated>2022-02-05T15:23:05Z</updated>
-    <id>tag:github.com,2008:Repository/262126497/v0.37.5</id>
-    <content type="html">&lt;p&gt;Signed-off-by: Alex Goodman &lt;a href=&#34;mailto:alex.goodman@anchore.com&#34;&gt;alex.goodman@anchore.com&lt;/a&gt;&lt;/p&gt;</content>
-    <link href="https://github.com/anchore/syft/releases/tag/v0.37.5" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>wagoodman</name>
