@@ -1,8 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?><feed xmlns="http://www.w3.org/2005/Atom">
   <title>Releases from Starred by toga4</title>
   <id>https://toga4.github.io/feeds/starred-releases.atom</id>
-  <updated>2022-02-08T22:03:44Z</updated>
+  <updated>2022-02-08T23:47:25Z</updated>
   <link href="https://toga4.github.io/feeds/starred-releases.atom"></link>
+  <entry>
+    <title>Release notes from google-cloud-go - pubsub pubsub/v1.18.0</title>
+    <updated>2022-02-08T23:47:25Z</updated>
+    <id>tag:github.com,2008:Repository/19608522/pubsub/v1.18.0</id>
+    <content type="html">&lt;h3&gt;Features&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;pubsub:&lt;/strong&gt; add exactly once delivery flag (&lt;a href=&#34;https://www.github.com/googleapis/google-cloud-go/commit/f71dc3dfefa54ab41861aea15971108850a9f98b&#34;&gt;f71dc3d&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;pubsub:&lt;/strong&gt; add exactly once delivery flag (&lt;a href=&#34;https://www.github.com/googleapis/google-cloud-go/commit/f71dc3dfefa54ab41861aea15971108850a9f98b&#34;&gt;f71dc3d&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3&gt;Bug Fixes&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;pubsub:&lt;/strong&gt; add deadletter and retries handling in the fake pubsub (&lt;a href=&#34;https://www.github.com/googleapis/google-cloud-go/issues/5320&#34;&gt;#5320&lt;/a&gt;) (&lt;a href=&#34;https://www.github.com/googleapis/google-cloud-go/commit/116a61008e174e5d49b9485d78bc13f64461322f&#34;&gt;116a610&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;pubsub:&lt;/strong&gt; pass context into checkOrdering to allow cancel (&lt;a href=&#34;https://www.github.com/googleapis/google-cloud-go/issues/5316&#34;&gt;#5316&lt;/a&gt;) (&lt;a href=&#34;https://www.github.com/googleapis/google-cloud-go/commit/fc08c49fc013cbad00642bbba317e02f0ba15a6d&#34;&gt;fc08c49&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/googleapis/google-cloud-go/releases/tag/pubsub%2Fv1.18.0" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>github-actions[bot]</name>
+    </author>
+  </entry>
   <entry>
     <title>Release notes from telepresence - rpc/v2.5.0-test.2</title>
     <updated>2022-02-08T22:03:44Z</updated>
@@ -100,17 +111,6 @@
     <summary type="html"></summary>
     <author>
       <name>derekparker</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from syft - v0.37.7: dont add signing artifact (#802)</title>
-    <updated>2022-02-07T17:03:09Z</updated>
-    <id>tag:github.com,2008:Repository/262126497/v0.37.7</id>
-    <content type="html">&lt;p&gt;Signed-off-by: Alex Goodman &lt;a href=&#34;mailto:alex.goodman@anchore.com&#34;&gt;alex.goodman@anchore.com&lt;/a&gt;&lt;/p&gt;</content>
-    <link href="https://github.com/anchore/syft/releases/tag/v0.37.7" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>wagoodman</name>
     </author>
   </entry>
 </feed>
