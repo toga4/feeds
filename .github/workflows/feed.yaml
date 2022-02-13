@@ -42,7 +42,7 @@ jobs:
 
       - uses: r7kamura/weneedfeed-action@v3
         with:
-          base_url: https://toga4.github.io/weneedfeed-feeds
+          base_url: https://toga4.github.io/feeds/weneedfeed
 
       - name: Upload feed as artifact
         uses: actions/upload-artifact@v2
