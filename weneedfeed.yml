@@ -1,0 +1,9 @@
+pages:
+  - id: prtimes-fountainpen
+    title: PR TIMES - 万年筆
+    description: 「万年筆」に関するプレスリリース一覧
+    url: https://prtimes.jp/topics/keywords/%E4%B8%87%E5%B9%B4%E7%AD%86
+    item_selector: div.container-thumbnail-list article
+    item_link_selector: a.link-thumbnail
+    item_title_selector: a.thumbnail-title
+    item_time_selector: time
