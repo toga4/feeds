@@ -1,8 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?><feed xmlns="http://www.w3.org/2005/Atom">
   <title>Releases from Starred by toga4</title>
   <id>https://toga4.github.io/feeds/starred-releases.atom</id>
-  <updated>2022-02-21T11:18:16Z</updated>
+  <updated>2022-02-22T01:41:52Z</updated>
   <link href="https://toga4.github.io/feeds/starred-releases.atom"></link>
+  <entry>
+    <title>Release notes from jwx - v1.2.19</title>
+    <updated>2022-02-22T01:41:52Z</updated>
+    <id>tag:github.com,2008:Repository/45516769/v1.2.19</id>
+    <content type="html">&lt;div class=&#34;snippet-clipboard-content position-relative overflow-auto&#34; data-snippet-clipboard-copy-content=&#34;v1.2.19 22 Feb 2022&#xA;[New Feature]&#xA;  * [jwk] jwk.Parse (and (jwk.AutoRefresh).Configure) can accept a new&#xA;    option `jwk.WithIgnoreParseError(bool)`, which allows users to ignore&#xA;    errors during parsing of each key contained in the JWKS, allowing&#xA;    you to &amp;quot;skip&amp;quot; invalid keys.&#xA;&#xA;    This option should not be used lightly, as it hides the presence of&#xA;    possibly faulty keys. However, this can be an escape hatch if you are&#xA;    faced with a faulty JWKS that you do not control.&#34;&gt;&lt;pre&gt;&lt;code&gt;v1.2.19 22 Feb 2022&#xA;[New Feature]&#xA;  * [jwk] jwk.Parse (and (jwk.AutoRefresh).Configure) can accept a new&#xA;    option `jwk.WithIgnoreParseError(bool)`, which allows users to ignore&#xA;    errors during parsing of each key contained in the JWKS, allowing&#xA;    you to &#34;skip&#34; invalid keys.&#xA;&#xA;    This option should not be used lightly, as it hides the presence of&#xA;    possibly faulty keys. However, this can be an escape hatch if you are&#xA;    faced with a faulty JWKS that you do not control.&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content>
+    <link href="https://github.com/lestrrat-go/jwx/releases/tag/v1.2.19" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>lestrrat</name>
+    </author>
+  </entry>
   <entry>
     <title>Release notes from ddosify - v0.7.4</title>
     <updated>2022-02-21T11:18:16Z</updated>
@@ -23,6 +34,17 @@
     <summary type="html"></summary>
     <author>
       <name>kchibisov</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from chakra-ui - @chakra-ui/toast@1.5.6</title>
+    <updated>2022-02-20T12:41:24Z</updated>
+    <id>tag:github.com,2008:Repository/202890778/@chakra-ui/toast@1.5.6</id>
+    <content type="html">&lt;h3&gt;Patch Changes&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/commit/e1fe48cbe37324744cfe6184d785c093cda1125e&#34;&gt;&lt;code&gt;e1fe48cbe&lt;/code&gt;&lt;/a&gt;&lt;br&gt;&#xA;Thanks &lt;a href=&#34;https://github.com/TimKolberger&#34;&gt;@TimKolberger&lt;/a&gt;! - Bumped patch&lt;br&gt;&#xA;version for every package to fix release process. Root cause was a bug in our&lt;br&gt;&#xA;CI configuration.&lt;/li&gt;&#xA;&lt;li&gt;Updated dependencies&lt;br&gt;&#xA;[&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/commit/e1fe48cbe37324744cfe6184d785c093cda1125e&#34;&gt;&lt;code&gt;e1fe48cbe&lt;/code&gt;&lt;/a&gt;]:&#xA;&lt;ul&gt;&#xA;&lt;li&gt;@chakra-ui/alert@1.3.7&lt;/li&gt;&#xA;&lt;li&gt;@chakra-ui/close-button@1.2.7&lt;/li&gt;&#xA;&lt;li&gt;@chakra-ui/hooks@1.8.4&lt;/li&gt;&#xA;&lt;li&gt;@chakra-ui/theme@1.13.4&lt;/li&gt;&#xA;&lt;li&gt;@chakra-ui/transition@1.4.7&lt;/li&gt;&#xA;&lt;li&gt;@chakra-ui/utils@1.10.4&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/chakra-ui/chakra-ui/releases/tag/%40chakra-ui%2Ftoast%401.5.6" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>github-actions[bot]</name>
     </author>
   </entry>
   <entry>
@@ -48,44 +70,11 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from chakra-ui - @chakra-ui/textarea@1.2.8</title>
+    <title>Release notes from chakra-ui - @chakra-ui/tooltip@1.4.8</title>
     <updated>2022-02-20T12:41:24Z</updated>
-    <id>tag:github.com,2008:Repository/202890778/@chakra-ui/textarea@1.2.8</id>
-    <content type="html">&lt;h3&gt;Patch Changes&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/commit/e1fe48cbe37324744cfe6184d785c093cda1125e&#34;&gt;&lt;code&gt;e1fe48cbe&lt;/code&gt;&lt;/a&gt;&lt;br&gt;&#xA;Thanks &lt;a href=&#34;https://github.com/TimKolberger&#34;&gt;@TimKolberger&lt;/a&gt;! - Bumped patch&lt;br&gt;&#xA;version for every package to fix release process. Root cause was a bug in our&lt;br&gt;&#xA;CI configuration.&lt;/li&gt;&#xA;&lt;li&gt;Updated dependencies&lt;br&gt;&#xA;[&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/commit/e1fe48cbe37324744cfe6184d785c093cda1125e&#34;&gt;&lt;code&gt;e1fe48cbe&lt;/code&gt;&lt;/a&gt;]:&#xA;&lt;ul&gt;&#xA;&lt;li&gt;@chakra-ui/form-control@1.5.8&lt;/li&gt;&#xA;&lt;li&gt;@chakra-ui/utils@1.10.4&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/chakra-ui/chakra-ui/releases/tag/%40chakra-ui%2Ftextarea%401.2.8" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>github-actions[bot]</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from chakra-ui - @chakra-ui/theme@1.13.4</title>
-    <updated>2022-02-20T12:41:24Z</updated>
-    <id>tag:github.com,2008:Repository/202890778/@chakra-ui/theme@1.13.4</id>
-    <content type="html">&lt;h3&gt;Patch Changes&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/commit/e1fe48cbe37324744cfe6184d785c093cda1125e&#34;&gt;&lt;code&gt;e1fe48cbe&lt;/code&gt;&lt;/a&gt;&lt;br&gt;&#xA;Thanks &lt;a href=&#34;https://github.com/TimKolberger&#34;&gt;@TimKolberger&lt;/a&gt;! - Bumped patch&lt;br&gt;&#xA;version for every package to fix release process. Root cause was a bug in our&lt;br&gt;&#xA;CI configuration.&lt;/li&gt;&#xA;&lt;li&gt;Updated dependencies&lt;br&gt;&#xA;[&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/commit/e1fe48cbe37324744cfe6184d785c093cda1125e&#34;&gt;&lt;code&gt;e1fe48cbe&lt;/code&gt;&lt;/a&gt;]:&#xA;&lt;ul&gt;&#xA;&lt;li&gt;@chakra-ui/anatomy@1.2.5&lt;/li&gt;&#xA;&lt;li&gt;@chakra-ui/theme-tools@1.3.6&lt;/li&gt;&#xA;&lt;li&gt;@chakra-ui/utils@1.10.4&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/chakra-ui/chakra-ui/releases/tag/%40chakra-ui%2Ftheme%401.13.4" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>github-actions[bot]</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from chakra-ui - storybook-addon@1.0.2</title>
-    <updated>2022-02-20T12:41:24Z</updated>
-    <id>tag:github.com,2008:Repository/202890778/storybook-addon@1.0.2</id>
-    <content type="html">&lt;h3&gt;Patch Changes&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/commit/e1fe48cbe37324744cfe6184d785c093cda1125e&#34;&gt;&lt;code&gt;e1fe48cbe&lt;/code&gt;&lt;/a&gt;&lt;br&gt;&#xA;Thanks &lt;a href=&#34;https://github.com/TimKolberger&#34;&gt;@TimKolberger&lt;/a&gt;! - Bumped patch&lt;br&gt;&#xA;version for every package to fix release process. Root cause was a bug in our&lt;br&gt;&#xA;CI configuration.&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/chakra-ui/chakra-ui/releases/tag/storybook-addon%401.0.2" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>github-actions[bot]</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from chakra-ui - @chakra-ui/theme-tools@1.3.6</title>
-    <updated>2022-02-20T12:41:24Z</updated>
-    <id>tag:github.com,2008:Repository/202890778/@chakra-ui/theme-tools@1.3.6</id>
-    <content type="html">&lt;h3&gt;Patch Changes&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/commit/e1fe48cbe37324744cfe6184d785c093cda1125e&#34;&gt;&lt;code&gt;e1fe48cbe&lt;/code&gt;&lt;/a&gt;&lt;br&gt;&#xA;Thanks &lt;a href=&#34;https://github.com/TimKolberger&#34;&gt;@TimKolberger&lt;/a&gt;! - Bumped patch&lt;br&gt;&#xA;version for every package to fix release process. Root cause was a bug in our&lt;br&gt;&#xA;CI configuration.&lt;/li&gt;&#xA;&lt;li&gt;Updated dependencies&lt;br&gt;&#xA;[&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/commit/e1fe48cbe37324744cfe6184d785c093cda1125e&#34;&gt;&lt;code&gt;e1fe48cbe&lt;/code&gt;&lt;/a&gt;]:&#xA;&lt;ul&gt;&#xA;&lt;li&gt;@chakra-ui/utils@1.10.4&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/chakra-ui/chakra-ui/releases/tag/%40chakra-ui%2Ftheme-tools%401.3.6" rel="alternate"></link>
+    <id>tag:github.com,2008:Repository/202890778/@chakra-ui/tooltip@1.4.8</id>
+    <content type="html">&lt;h3&gt;Patch Changes&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/commit/e1fe48cbe37324744cfe6184d785c093cda1125e&#34;&gt;&lt;code&gt;e1fe48cbe&lt;/code&gt;&lt;/a&gt;&lt;br&gt;&#xA;Thanks &lt;a href=&#34;https://github.com/TimKolberger&#34;&gt;@TimKolberger&lt;/a&gt;! - Bumped patch&lt;br&gt;&#xA;version for every package to fix release process. Root cause was a bug in our&lt;br&gt;&#xA;CI configuration.&lt;/li&gt;&#xA;&lt;li&gt;Updated dependencies&lt;br&gt;&#xA;[&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/commit/e1fe48cbe37324744cfe6184d785c093cda1125e&#34;&gt;&lt;code&gt;e1fe48cbe&lt;/code&gt;&lt;/a&gt;]:&#xA;&lt;ul&gt;&#xA;&lt;li&gt;@chakra-ui/hooks@1.8.4&lt;/li&gt;&#xA;&lt;li&gt;@chakra-ui/popper@2.4.3&lt;/li&gt;&#xA;&lt;li&gt;@chakra-ui/portal@1.3.7&lt;/li&gt;&#xA;&lt;li&gt;@chakra-ui/react-utils@1.2.3&lt;/li&gt;&#xA;&lt;li&gt;@chakra-ui/utils@1.10.4&lt;/li&gt;&#xA;&lt;li&gt;@chakra-ui/visually-hidden@1.1.6&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/chakra-ui/chakra-ui/releases/tag/%40chakra-ui%2Ftooltip%401.4.8" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>github-actions[bot]</name>
@@ -103,11 +92,22 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from chakra-ui - @chakra-ui/tooltip@1.4.8</title>
+    <title>Release notes from chakra-ui - @chakra-ui/textarea@1.2.8</title>
     <updated>2022-02-20T12:41:24Z</updated>
-    <id>tag:github.com,2008:Repository/202890778/@chakra-ui/tooltip@1.4.8</id>
-    <content type="html">&lt;h3&gt;Patch Changes&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/commit/e1fe48cbe37324744cfe6184d785c093cda1125e&#34;&gt;&lt;code&gt;e1fe48cbe&lt;/code&gt;&lt;/a&gt;&lt;br&gt;&#xA;Thanks &lt;a href=&#34;https://github.com/TimKolberger&#34;&gt;@TimKolberger&lt;/a&gt;! - Bumped patch&lt;br&gt;&#xA;version for every package to fix release process. Root cause was a bug in our&lt;br&gt;&#xA;CI configuration.&lt;/li&gt;&#xA;&lt;li&gt;Updated dependencies&lt;br&gt;&#xA;[&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/commit/e1fe48cbe37324744cfe6184d785c093cda1125e&#34;&gt;&lt;code&gt;e1fe48cbe&lt;/code&gt;&lt;/a&gt;]:&#xA;&lt;ul&gt;&#xA;&lt;li&gt;@chakra-ui/hooks@1.8.4&lt;/li&gt;&#xA;&lt;li&gt;@chakra-ui/popper@2.4.3&lt;/li&gt;&#xA;&lt;li&gt;@chakra-ui/portal@1.3.7&lt;/li&gt;&#xA;&lt;li&gt;@chakra-ui/react-utils@1.2.3&lt;/li&gt;&#xA;&lt;li&gt;@chakra-ui/utils@1.10.4&lt;/li&gt;&#xA;&lt;li&gt;@chakra-ui/visually-hidden@1.1.6&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/chakra-ui/chakra-ui/releases/tag/%40chakra-ui%2Ftooltip%401.4.8" rel="alternate"></link>
+    <id>tag:github.com,2008:Repository/202890778/@chakra-ui/textarea@1.2.8</id>
+    <content type="html">&lt;h3&gt;Patch Changes&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/commit/e1fe48cbe37324744cfe6184d785c093cda1125e&#34;&gt;&lt;code&gt;e1fe48cbe&lt;/code&gt;&lt;/a&gt;&lt;br&gt;&#xA;Thanks &lt;a href=&#34;https://github.com/TimKolberger&#34;&gt;@TimKolberger&lt;/a&gt;! - Bumped patch&lt;br&gt;&#xA;version for every package to fix release process. Root cause was a bug in our&lt;br&gt;&#xA;CI configuration.&lt;/li&gt;&#xA;&lt;li&gt;Updated dependencies&lt;br&gt;&#xA;[&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/commit/e1fe48cbe37324744cfe6184d785c093cda1125e&#34;&gt;&lt;code&gt;e1fe48cbe&lt;/code&gt;&lt;/a&gt;]:&#xA;&lt;ul&gt;&#xA;&lt;li&gt;@chakra-ui/form-control@1.5.8&lt;/li&gt;&#xA;&lt;li&gt;@chakra-ui/utils@1.10.4&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/chakra-ui/chakra-ui/releases/tag/%40chakra-ui%2Ftextarea%401.2.8" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>github-actions[bot]</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from chakra-ui - @chakra-ui/theme@1.13.4</title>
+    <updated>2022-02-20T12:41:24Z</updated>
+    <id>tag:github.com,2008:Repository/202890778/@chakra-ui/theme@1.13.4</id>
+    <content type="html">&lt;h3&gt;Patch Changes&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/commit/e1fe48cbe37324744cfe6184d785c093cda1125e&#34;&gt;&lt;code&gt;e1fe48cbe&lt;/code&gt;&lt;/a&gt;&lt;br&gt;&#xA;Thanks &lt;a href=&#34;https://github.com/TimKolberger&#34;&gt;@TimKolberger&lt;/a&gt;! - Bumped patch&lt;br&gt;&#xA;version for every package to fix release process. Root cause was a bug in our&lt;br&gt;&#xA;CI configuration.&lt;/li&gt;&#xA;&lt;li&gt;Updated dependencies&lt;br&gt;&#xA;[&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/commit/e1fe48cbe37324744cfe6184d785c093cda1125e&#34;&gt;&lt;code&gt;e1fe48cbe&lt;/code&gt;&lt;/a&gt;]:&#xA;&lt;ul&gt;&#xA;&lt;li&gt;@chakra-ui/anatomy@1.2.5&lt;/li&gt;&#xA;&lt;li&gt;@chakra-ui/theme-tools@1.3.6&lt;/li&gt;&#xA;&lt;li&gt;@chakra-ui/utils@1.10.4&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/chakra-ui/chakra-ui/releases/tag/%40chakra-ui%2Ftheme%401.13.4" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>github-actions[bot]</name>
