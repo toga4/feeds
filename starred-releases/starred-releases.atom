@@ -1,8 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?><feed xmlns="http://www.w3.org/2005/Atom">
   <title>Releases from Starred by toga4</title>
   <id>https://toga4.github.io/feeds/starred-releases.atom</id>
-  <updated>2022-03-01T09:09:08Z</updated>
+  <updated>2022-03-01T14:37:58Z</updated>
   <link href="https://toga4.github.io/feeds/starred-releases.atom"></link>
+  <entry>
+    <title>Release notes from cli - v2.5.2-pre0: Fix obtained scope mapping to include implied scopes (#5256)</title>
+    <updated>2022-03-01T14:37:58Z</updated>
+    <id>tag:github.com,2008:Repository/212613049/v2.5.2-pre0</id>
+    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;Fix obtained scope mapping to include missing scopes&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;As is, &lt;code&gt;gotScopes&lt;/code&gt; does not contain certain scopes because it doesn&#39;t check for the &#34;special&#34; scopes that imply other scopes. For example, the &lt;code&gt;repo&lt;/code&gt; scope implies &lt;code&gt;repo:invite&lt;/code&gt;.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Add a comment in ScopesSuggestion explaining branch statements&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Delete whitespace to appease go-fmt&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/cli/cli/releases/tag/v2.5.2-pre0" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>mario-campos</name>
+    </author>
+  </entry>
   <entry>
     <title>Release notes from oidc - v1.1.1</title>
     <updated>2022-03-01T09:09:08Z</updated>
@@ -48,55 +59,11 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from chakra-ui - @chakra-ui/tabs@1.6.8</title>
+    <title>Release notes from chakra-ui - @chakra-ui/select@1.2.9</title>
     <updated>2022-02-28T23:07:28Z</updated>
-    <id>tag:github.com,2008:Repository/202890778/@chakra-ui/tabs@1.6.8</id>
-    <content type="html">&lt;h3&gt;Patch Changes&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Updated dependencies&lt;br&gt;&#xA;[&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/commit/5cd5cff35e4837539d83a2157a07585d461b0aac&#34;&gt;&lt;code&gt;5cd5cff35&lt;/code&gt;&lt;/a&gt;]:&#xA;&lt;ul&gt;&#xA;&lt;li&gt;@chakra-ui/hooks@1.8.5&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/chakra-ui/chakra-ui/releases/tag/%40chakra-ui%2Ftabs%401.6.8" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>github-actions[bot]</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from chakra-ui - @chakra-ui/tooltip@1.4.9</title>
-    <updated>2022-02-28T23:07:28Z</updated>
-    <id>tag:github.com,2008:Repository/202890778/@chakra-ui/tooltip@1.4.9</id>
-    <content type="html">&lt;h3&gt;Patch Changes&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Updated dependencies&lt;br&gt;&#xA;[&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/commit/5cd5cff35e4837539d83a2157a07585d461b0aac&#34;&gt;&lt;code&gt;5cd5cff35&lt;/code&gt;&lt;/a&gt;]:&#xA;&lt;ul&gt;&#xA;&lt;li&gt;@chakra-ui/hooks@1.8.5&lt;/li&gt;&#xA;&lt;li&gt;@chakra-ui/portal@1.3.8&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/chakra-ui/chakra-ui/releases/tag/%40chakra-ui%2Ftooltip%401.4.9" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>github-actions[bot]</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from chakra-ui - @chakra-ui/skeleton@1.2.12</title>
-    <updated>2022-02-28T23:07:28Z</updated>
-    <id>tag:github.com,2008:Repository/202890778/@chakra-ui/skeleton@1.2.12</id>
-    <content type="html">&lt;h3&gt;Patch Changes&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Updated dependencies&lt;br&gt;&#xA;[&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/commit/d6bed344f30af50c84d3ed802ec3f0c981586588&#34;&gt;&lt;code&gt;d6bed344f&lt;/code&gt;&lt;/a&gt;,&lt;br&gt;&#xA;&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/commit/5cd5cff35e4837539d83a2157a07585d461b0aac&#34;&gt;&lt;code&gt;5cd5cff35&lt;/code&gt;&lt;/a&gt;]:&#xA;&lt;ul&gt;&#xA;&lt;li&gt;@chakra-ui/media-query@2.0.4&lt;/li&gt;&#xA;&lt;li&gt;@chakra-ui/hooks@1.8.5&lt;/li&gt;&#xA;&lt;li&gt;@chakra-ui/system@1.11.2&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/chakra-ui/chakra-ui/releases/tag/%40chakra-ui%2Fskeleton%401.2.12" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>github-actions[bot]</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from chakra-ui - @chakra-ui/system@1.11.2</title>
-    <updated>2022-02-28T23:07:28Z</updated>
-    <id>tag:github.com,2008:Repository/202890778/@chakra-ui/system@1.11.2</id>
-    <content type="html">&lt;h3&gt;Patch Changes&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Updated dependencies&lt;br&gt;&#xA;[&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/commit/001751162dd1922d8ab53820f405665f0785f196&#34;&gt;&lt;code&gt;001751162&lt;/code&gt;&lt;/a&gt;]:&#xA;&lt;ul&gt;&#xA;&lt;li&gt;@chakra-ui/color-mode@1.4.6&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/chakra-ui/chakra-ui/releases/tag/%40chakra-ui%2Fsystem%401.11.2" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>github-actions[bot]</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from chakra-ui - @chakra-ui/toast@1.5.7</title>
-    <updated>2022-02-28T23:07:28Z</updated>
-    <id>tag:github.com,2008:Repository/202890778/@chakra-ui/toast@1.5.7</id>
-    <content type="html">&lt;h3&gt;Patch Changes&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Updated dependencies&lt;br&gt;&#xA;[&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/commit/fbe94622357e22acaf8bab0eae33ceae663d7a5b&#34;&gt;&lt;code&gt;fbe946223&lt;/code&gt;&lt;/a&gt;,&lt;br&gt;&#xA;&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/commit/5cd5cff35e4837539d83a2157a07585d461b0aac&#34;&gt;&lt;code&gt;5cd5cff35&lt;/code&gt;&lt;/a&gt;]:&#xA;&lt;ul&gt;&#xA;&lt;li&gt;@chakra-ui/theme@1.14.0&lt;/li&gt;&#xA;&lt;li&gt;@chakra-ui/hooks@1.8.5&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/chakra-ui/chakra-ui/releases/tag/%40chakra-ui%2Ftoast%401.5.7" rel="alternate"></link>
+    <id>tag:github.com,2008:Repository/202890778/@chakra-ui/select@1.2.9</id>
+    <content type="html">&lt;h3&gt;Patch Changes&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Updated dependencies []:&#xA;&lt;ul&gt;&#xA;&lt;li&gt;@chakra-ui/form-control@1.5.9&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/chakra-ui/chakra-ui/releases/tag/%40chakra-ui%2Fselect%401.2.9" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>github-actions[bot]</name>
@@ -114,11 +81,22 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from chakra-ui - @chakra-ui/select@1.2.9</title>
+    <title>Release notes from chakra-ui - @chakra-ui/tooltip@1.4.9</title>
     <updated>2022-02-28T23:07:28Z</updated>
-    <id>tag:github.com,2008:Repository/202890778/@chakra-ui/select@1.2.9</id>
-    <content type="html">&lt;h3&gt;Patch Changes&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Updated dependencies []:&#xA;&lt;ul&gt;&#xA;&lt;li&gt;@chakra-ui/form-control@1.5.9&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/chakra-ui/chakra-ui/releases/tag/%40chakra-ui%2Fselect%401.2.9" rel="alternate"></link>
+    <id>tag:github.com,2008:Repository/202890778/@chakra-ui/tooltip@1.4.9</id>
+    <content type="html">&lt;h3&gt;Patch Changes&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Updated dependencies&lt;br&gt;&#xA;[&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/commit/5cd5cff35e4837539d83a2157a07585d461b0aac&#34;&gt;&lt;code&gt;5cd5cff35&lt;/code&gt;&lt;/a&gt;]:&#xA;&lt;ul&gt;&#xA;&lt;li&gt;@chakra-ui/hooks@1.8.5&lt;/li&gt;&#xA;&lt;li&gt;@chakra-ui/portal@1.3.8&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/chakra-ui/chakra-ui/releases/tag/%40chakra-ui%2Ftooltip%401.4.9" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>github-actions[bot]</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from chakra-ui - @chakra-ui/toast@1.5.7</title>
+    <updated>2022-02-28T23:07:28Z</updated>
+    <id>tag:github.com,2008:Repository/202890778/@chakra-ui/toast@1.5.7</id>
+    <content type="html">&lt;h3&gt;Patch Changes&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Updated dependencies&lt;br&gt;&#xA;[&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/commit/fbe94622357e22acaf8bab0eae33ceae663d7a5b&#34;&gt;&lt;code&gt;fbe946223&lt;/code&gt;&lt;/a&gt;,&lt;br&gt;&#xA;&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/commit/5cd5cff35e4837539d83a2157a07585d461b0aac&#34;&gt;&lt;code&gt;5cd5cff35&lt;/code&gt;&lt;/a&gt;]:&#xA;&lt;ul&gt;&#xA;&lt;li&gt;@chakra-ui/theme@1.14.0&lt;/li&gt;&#xA;&lt;li&gt;@chakra-ui/hooks@1.8.5&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/chakra-ui/chakra-ui/releases/tag/%40chakra-ui%2Ftoast%401.5.7" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>github-actions[bot]</name>
@@ -136,11 +114,44 @@
     </author>
   </entry>
   <entry>
+    <title>Release notes from chakra-ui - @chakra-ui/system@1.11.2</title>
+    <updated>2022-02-28T23:07:28Z</updated>
+    <id>tag:github.com,2008:Repository/202890778/@chakra-ui/system@1.11.2</id>
+    <content type="html">&lt;h3&gt;Patch Changes&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Updated dependencies&lt;br&gt;&#xA;[&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/commit/001751162dd1922d8ab53820f405665f0785f196&#34;&gt;&lt;code&gt;001751162&lt;/code&gt;&lt;/a&gt;]:&#xA;&lt;ul&gt;&#xA;&lt;li&gt;@chakra-ui/color-mode@1.4.6&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/chakra-ui/chakra-ui/releases/tag/%40chakra-ui%2Fsystem%401.11.2" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>github-actions[bot]</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from chakra-ui - @chakra-ui/tabs@1.6.8</title>
+    <updated>2022-02-28T23:07:28Z</updated>
+    <id>tag:github.com,2008:Repository/202890778/@chakra-ui/tabs@1.6.8</id>
+    <content type="html">&lt;h3&gt;Patch Changes&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Updated dependencies&lt;br&gt;&#xA;[&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/commit/5cd5cff35e4837539d83a2157a07585d461b0aac&#34;&gt;&lt;code&gt;5cd5cff35&lt;/code&gt;&lt;/a&gt;]:&#xA;&lt;ul&gt;&#xA;&lt;li&gt;@chakra-ui/hooks@1.8.5&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/chakra-ui/chakra-ui/releases/tag/%40chakra-ui%2Ftabs%401.6.8" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>github-actions[bot]</name>
+    </author>
+  </entry>
+  <entry>
     <title>Release notes from chakra-ui - @chakra-ui/slider@1.5.9</title>
     <updated>2022-02-28T23:07:28Z</updated>
     <id>tag:github.com,2008:Repository/202890778/@chakra-ui/slider@1.5.9</id>
     <content type="html">&lt;h3&gt;Patch Changes&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Updated dependencies&lt;br&gt;&#xA;[&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/commit/5cd5cff35e4837539d83a2157a07585d461b0aac&#34;&gt;&lt;code&gt;5cd5cff35&lt;/code&gt;&lt;/a&gt;]:&#xA;&lt;ul&gt;&#xA;&lt;li&gt;@chakra-ui/hooks@1.8.5&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
     <link href="https://github.com/chakra-ui/chakra-ui/releases/tag/%40chakra-ui%2Fslider%401.5.9" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>github-actions[bot]</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from chakra-ui - @chakra-ui/skeleton@1.2.12</title>
+    <updated>2022-02-28T23:07:28Z</updated>
+    <id>tag:github.com,2008:Repository/202890778/@chakra-ui/skeleton@1.2.12</id>
+    <content type="html">&lt;h3&gt;Patch Changes&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Updated dependencies&lt;br&gt;&#xA;[&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/commit/d6bed344f30af50c84d3ed802ec3f0c981586588&#34;&gt;&lt;code&gt;d6bed344f&lt;/code&gt;&lt;/a&gt;,&lt;br&gt;&#xA;&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/commit/5cd5cff35e4837539d83a2157a07585d461b0aac&#34;&gt;&lt;code&gt;5cd5cff35&lt;/code&gt;&lt;/a&gt;]:&#xA;&lt;ul&gt;&#xA;&lt;li&gt;@chakra-ui/media-query@2.0.4&lt;/li&gt;&#xA;&lt;li&gt;@chakra-ui/hooks@1.8.5&lt;/li&gt;&#xA;&lt;li&gt;@chakra-ui/system@1.11.2&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/chakra-ui/chakra-ui/releases/tag/%40chakra-ui%2Fskeleton%401.2.12" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>github-actions[bot]</name>
@@ -246,22 +257,22 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from telepresence - v2.5.3-rc.0</title>
+    <title>Release notes from telepresence - rpc/v2.5.3-rc.0</title>
     <updated>2022-02-25T15:06:10Z</updated>
-    <id>tag:github.com,2008:Repository/82933315/v2.5.3-rc.0</id>
+    <id>tag:github.com,2008:Repository/82933315/rpc/v2.5.3-rc.0</id>
     <content type="html">&lt;p&gt;v2.5.3-rc.0&lt;/p&gt;</content>
-    <link href="https://github.com/telepresenceio/telepresence/releases/tag/v2.5.3-rc.0" rel="alternate"></link>
+    <link href="https://github.com/telepresenceio/telepresence/releases/tag/rpc%2Fv2.5.3-rc.0" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>njayp</name>
     </author>
   </entry>
   <entry>
-    <title>Release notes from telepresence - rpc/v2.5.3-rc.0</title>
+    <title>Release notes from telepresence - v2.5.3-rc.0</title>
     <updated>2022-02-25T15:06:10Z</updated>
-    <id>tag:github.com,2008:Repository/82933315/rpc/v2.5.3-rc.0</id>
+    <id>tag:github.com,2008:Repository/82933315/v2.5.3-rc.0</id>
     <content type="html">&lt;p&gt;v2.5.3-rc.0&lt;/p&gt;</content>
-    <link href="https://github.com/telepresenceio/telepresence/releases/tag/rpc%2Fv2.5.3-rc.0" rel="alternate"></link>
+    <link href="https://github.com/telepresenceio/telepresence/releases/tag/v2.5.3-rc.0" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>njayp</name>
@@ -301,11 +312,77 @@
     </author>
   </entry>
   <entry>
+    <title>Release notes from google-cloud-go - dataqna: v0.3.0</title>
+    <updated>2022-02-23T23:31:22Z</updated>
+    <id>tag:github.com,2008:Repository/19608522/dataqna/v0.3.0</id>
+    <content type="html">&lt;h2&gt;&lt;a href=&#34;https://github.com/googleapis/google-cloud-go/compare/dataqna/v0.2.0...dataqna/v0.3.0&#34;&gt;0.3.0&lt;/a&gt; (2022-02-23)&lt;/h2&gt;&#xA;&lt;h3&gt;Features&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;dataqna:&lt;/strong&gt; set versionClient to module version (&lt;a href=&#34;https://github.com/googleapis/google-cloud-go/commit/55f0d92bf112f14b024b4ab0076c9875a17423c9&#34;&gt;55f0d92&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/googleapis/google-cloud-go/releases/tag/dataqna%2Fv0.3.0" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>release-please[bot]</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from google-cloud-go - datastream: v0.3.0</title>
+    <updated>2022-02-23T23:31:22Z</updated>
+    <id>tag:github.com,2008:Repository/19608522/datastream/v0.3.0</id>
+    <content type="html">&lt;h2&gt;&lt;a href=&#34;https://github.com/googleapis/google-cloud-go/compare/datastream/v0.2.0...datastream/v0.3.0&#34;&gt;0.3.0&lt;/a&gt; (2022-02-23)&lt;/h2&gt;&#xA;&lt;h3&gt;Features&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;datastream:&lt;/strong&gt; set versionClient to module version (&lt;a href=&#34;https://github.com/googleapis/google-cloud-go/commit/55f0d92bf112f14b024b4ab0076c9875a17423c9&#34;&gt;55f0d92&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/googleapis/google-cloud-go/releases/tag/datastream%2Fv0.3.0" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>release-please[bot]</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from google-cloud-go - deploy: v1.2.0</title>
+    <updated>2022-02-23T23:31:22Z</updated>
+    <id>tag:github.com,2008:Repository/19608522/deploy/v1.2.0</id>
+    <content type="html">&lt;h2&gt;&lt;a href=&#34;https://github.com/googleapis/google-cloud-go/compare/deploy/v1.1.0...deploy/v1.2.0&#34;&gt;1.2.0&lt;/a&gt; (2022-02-23)&lt;/h2&gt;&#xA;&lt;h3&gt;Features&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;deploy:&lt;/strong&gt; set versionClient to module version (&lt;a href=&#34;https://github.com/googleapis/google-cloud-go/commit/55f0d92bf112f14b024b4ab0076c9875a17423c9&#34;&gt;55f0d92&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/googleapis/google-cloud-go/releases/tag/deploy%2Fv1.2.0" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>release-please[bot]</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from google-cloud-go - dialogflow: v1.6.0</title>
+    <updated>2022-02-23T23:31:22Z</updated>
+    <id>tag:github.com,2008:Repository/19608522/dialogflow/v1.6.0</id>
+    <content type="html">&lt;h2&gt;&lt;a href=&#34;https://github.com/googleapis/google-cloud-go/compare/dialogflow/v1.5.0...dialogflow/v1.6.0&#34;&gt;1.6.0&lt;/a&gt; (2022-02-23)&lt;/h2&gt;&#xA;&lt;h3&gt;Features&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;dialogflow:&lt;/strong&gt; set versionClient to module version (&lt;a href=&#34;https://github.com/googleapis/google-cloud-go/commit/55f0d92bf112f14b024b4ab0076c9875a17423c9&#34;&gt;55f0d92&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/googleapis/google-cloud-go/releases/tag/dialogflow%2Fv1.6.0" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>release-please[bot]</name>
+    </author>
+  </entry>
+  <entry>
     <title>Release notes from google-cloud-go - datacatalog: v1.3.0</title>
     <updated>2022-02-23T23:31:22Z</updated>
     <id>tag:github.com,2008:Repository/19608522/datacatalog/v1.3.0</id>
     <content type="html">&lt;h2&gt;&lt;a href=&#34;https://github.com/googleapis/google-cloud-go/compare/datacatalog/v1.2.0...datacatalog/v1.3.0&#34;&gt;1.3.0&lt;/a&gt; (2022-02-23)&lt;/h2&gt;&#xA;&lt;h3&gt;Features&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;datacatalog:&lt;/strong&gt; set versionClient to module version (&lt;a href=&#34;https://github.com/googleapis/google-cloud-go/commit/55f0d92bf112f14b024b4ab0076c9875a17423c9&#34;&gt;55f0d92&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
     <link href="https://github.com/googleapis/google-cloud-go/releases/tag/datacatalog%2Fv1.3.0" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>release-please[bot]</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from google-cloud-go - dataproc: v1.5.0</title>
+    <updated>2022-02-23T23:31:22Z</updated>
+    <id>tag:github.com,2008:Repository/19608522/dataproc/v1.5.0</id>
+    <content type="html">&lt;h2&gt;&lt;a href=&#34;https://github.com/googleapis/google-cloud-go/compare/dataproc/v1.4.0...dataproc/v1.5.0&#34;&gt;1.5.0&lt;/a&gt; (2022-02-23)&lt;/h2&gt;&#xA;&lt;h3&gt;Features&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;dataproc:&lt;/strong&gt; set versionClient to module version (&lt;a href=&#34;https://github.com/googleapis/google-cloud-go/commit/55f0d92bf112f14b024b4ab0076c9875a17423c9&#34;&gt;55f0d92&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/googleapis/google-cloud-go/releases/tag/dataproc%2Fv1.5.0" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>release-please[bot]</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from google-cloud-go - dataplex: v0.4.0</title>
+    <updated>2022-02-23T23:31:22Z</updated>
+    <id>tag:github.com,2008:Repository/19608522/dataplex/v0.4.0</id>
+    <content type="html">&lt;h2&gt;&lt;a href=&#34;https://github.com/googleapis/google-cloud-go/compare/dataplex/v0.3.0...dataplex/v0.4.0&#34;&gt;0.4.0&lt;/a&gt; (2022-02-23)&lt;/h2&gt;&#xA;&lt;h3&gt;Features&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;dataplex:&lt;/strong&gt; set versionClient to module version (&lt;a href=&#34;https://github.com/googleapis/google-cloud-go/commit/55f0d92bf112f14b024b4ab0076c9875a17423c9&#34;&gt;55f0d92&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/googleapis/google-cloud-go/releases/tag/dataplex%2Fv0.4.0" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>release-please[bot]</name>
@@ -334,77 +411,11 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from google-cloud-go - dialogflow: v1.6.0</title>
-    <updated>2022-02-23T23:31:22Z</updated>
-    <id>tag:github.com,2008:Repository/19608522/dialogflow/v1.6.0</id>
-    <content type="html">&lt;h2&gt;&lt;a href=&#34;https://github.com/googleapis/google-cloud-go/compare/dialogflow/v1.5.0...dialogflow/v1.6.0&#34;&gt;1.6.0&lt;/a&gt; (2022-02-23)&lt;/h2&gt;&#xA;&lt;h3&gt;Features&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;dialogflow:&lt;/strong&gt; set versionClient to module version (&lt;a href=&#34;https://github.com/googleapis/google-cloud-go/commit/55f0d92bf112f14b024b4ab0076c9875a17423c9&#34;&gt;55f0d92&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/googleapis/google-cloud-go/releases/tag/dialogflow%2Fv1.6.0" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>release-please[bot]</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from google-cloud-go - datastream: v0.3.0</title>
-    <updated>2022-02-23T23:31:22Z</updated>
-    <id>tag:github.com,2008:Repository/19608522/datastream/v0.3.0</id>
-    <content type="html">&lt;h2&gt;&lt;a href=&#34;https://github.com/googleapis/google-cloud-go/compare/datastream/v0.2.0...datastream/v0.3.0&#34;&gt;0.3.0&lt;/a&gt; (2022-02-23)&lt;/h2&gt;&#xA;&lt;h3&gt;Features&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;datastream:&lt;/strong&gt; set versionClient to module version (&lt;a href=&#34;https://github.com/googleapis/google-cloud-go/commit/55f0d92bf112f14b024b4ab0076c9875a17423c9&#34;&gt;55f0d92&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/googleapis/google-cloud-go/releases/tag/datastream%2Fv0.3.0" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>release-please[bot]</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from google-cloud-go - dataproc: v1.5.0</title>
-    <updated>2022-02-23T23:31:22Z</updated>
-    <id>tag:github.com,2008:Repository/19608522/dataproc/v1.5.0</id>
-    <content type="html">&lt;h2&gt;&lt;a href=&#34;https://github.com/googleapis/google-cloud-go/compare/dataproc/v1.4.0...dataproc/v1.5.0&#34;&gt;1.5.0&lt;/a&gt; (2022-02-23)&lt;/h2&gt;&#xA;&lt;h3&gt;Features&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;dataproc:&lt;/strong&gt; set versionClient to module version (&lt;a href=&#34;https://github.com/googleapis/google-cloud-go/commit/55f0d92bf112f14b024b4ab0076c9875a17423c9&#34;&gt;55f0d92&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/googleapis/google-cloud-go/releases/tag/dataproc%2Fv1.5.0" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>release-please[bot]</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from google-cloud-go - dataqna: v0.3.0</title>
-    <updated>2022-02-23T23:31:22Z</updated>
-    <id>tag:github.com,2008:Repository/19608522/dataqna/v0.3.0</id>
-    <content type="html">&lt;h2&gt;&lt;a href=&#34;https://github.com/googleapis/google-cloud-go/compare/dataqna/v0.2.0...dataqna/v0.3.0&#34;&gt;0.3.0&lt;/a&gt; (2022-02-23)&lt;/h2&gt;&#xA;&lt;h3&gt;Features&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;dataqna:&lt;/strong&gt; set versionClient to module version (&lt;a href=&#34;https://github.com/googleapis/google-cloud-go/commit/55f0d92bf112f14b024b4ab0076c9875a17423c9&#34;&gt;55f0d92&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/googleapis/google-cloud-go/releases/tag/dataqna%2Fv0.3.0" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>release-please[bot]</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from google-cloud-go - deploy: v1.2.0</title>
-    <updated>2022-02-23T23:31:22Z</updated>
-    <id>tag:github.com,2008:Repository/19608522/deploy/v1.2.0</id>
-    <content type="html">&lt;h2&gt;&lt;a href=&#34;https://github.com/googleapis/google-cloud-go/compare/deploy/v1.1.0...deploy/v1.2.0&#34;&gt;1.2.0&lt;/a&gt; (2022-02-23)&lt;/h2&gt;&#xA;&lt;h3&gt;Features&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;deploy:&lt;/strong&gt; set versionClient to module version (&lt;a href=&#34;https://github.com/googleapis/google-cloud-go/commit/55f0d92bf112f14b024b4ab0076c9875a17423c9&#34;&gt;55f0d92&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/googleapis/google-cloud-go/releases/tag/deploy%2Fv1.2.0" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>release-please[bot]</name>
-    </author>
-  </entry>
-  <entry>
     <title>Release notes from google-cloud-go - datalabeling: v0.3.0</title>
     <updated>2022-02-23T23:31:22Z</updated>
     <id>tag:github.com,2008:Repository/19608522/datalabeling/v0.3.0</id>
     <content type="html">&lt;h2&gt;&lt;a href=&#34;https://github.com/googleapis/google-cloud-go/compare/datalabeling/v0.2.0...datalabeling/v0.3.0&#34;&gt;0.3.0&lt;/a&gt; (2022-02-23)&lt;/h2&gt;&#xA;&lt;h3&gt;Features&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;datalabeling:&lt;/strong&gt; set versionClient to module version (&lt;a href=&#34;https://github.com/googleapis/google-cloud-go/commit/55f0d92bf112f14b024b4ab0076c9875a17423c9&#34;&gt;55f0d92&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
     <link href="https://github.com/googleapis/google-cloud-go/releases/tag/datalabeling%2Fv0.3.0" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>release-please[bot]</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from google-cloud-go - dataplex: v0.4.0</title>
-    <updated>2022-02-23T23:31:22Z</updated>
-    <id>tag:github.com,2008:Repository/19608522/dataplex/v0.4.0</id>
-    <content type="html">&lt;h2&gt;&lt;a href=&#34;https://github.com/googleapis/google-cloud-go/compare/dataplex/v0.3.0...dataplex/v0.4.0&#34;&gt;0.4.0&lt;/a&gt; (2022-02-23)&lt;/h2&gt;&#xA;&lt;h3&gt;Features&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;dataplex:&lt;/strong&gt; set versionClient to module version (&lt;a href=&#34;https://github.com/googleapis/google-cloud-go/commit/55f0d92bf112f14b024b4ab0076c9875a17423c9&#34;&gt;55f0d92&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/googleapis/google-cloud-go/releases/tag/dataplex%2Fv0.4.0" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>release-please[bot]</name>
@@ -3906,17 +3917,6 @@
     <summary type="html"></summary>
     <author>
       <name>nuta</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from cli - GitHub CLI 1.13.1</title>
-    <updated>2021-07-21T10:26:27Z</updated>
-    <id>tag:github.com,2008:Repository/212613049/v1.13.1</id>
-    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;Fix linux packages so that the binary location is &lt;code&gt;/usr/bin/gh&lt;/code&gt; not &lt;code&gt;/usr/gh&lt;/code&gt; &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;949014051&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/cli/cli/issues/4025&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/cli/cli/pull/4025/hovercard&#34; href=&#34;https://github.com/cli/cli/pull/4025&#34;&gt;#4025&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;See &lt;a href=&#34;https://github.com/cli/cli/releases/tag/v1.13.0&#34;&gt;what&#39;s new in v1.13.0&lt;/a&gt;&lt;/p&gt;</content>
-    <link href="https://github.com/cli/cli/releases/tag/v1.13.1" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>github-actions[bot]</name>
     </author>
   </entry>
   <entry>
