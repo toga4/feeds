@@ -1,8 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?><feed xmlns="http://www.w3.org/2005/Atom">
   <title>Releases from Starred by toga4</title>
   <id>https://toga4.github.io/feeds/starred-releases.atom</id>
-  <updated>2022-03-13T14:41:33Z</updated>
+  <updated>2022-03-14T08:03:54Z</updated>
   <link href="https://toga4.github.io/feeds/starred-releases.atom"></link>
+  <entry>
+    <title>Release notes from lima - v0.9.0</title>
+    <updated>2022-03-14T08:03:54Z</updated>
+    <id>tag:github.com,2008:Repository/367284699/v0.9.0</id>
+    <content type="html">&lt;p&gt;&lt;g-emoji class=&#34;g-emoji&#34; alias=&#34;warning&#34; fallback-src=&#34;https://github.githubassets.com/images/icons/emoji/unicode/26a0.png&#34;&gt;⚠️&lt;/g-emoji&gt; Running recent Linux guests on M1 macOS needs Homebrew&#39;s QEMU 6.2.0_1 or later.&lt;br&gt;&#xA;&lt;strong&gt;Run &lt;code&gt;brew upgrade&lt;/code&gt; to upgrade QEMU.&lt;/strong&gt;&lt;br&gt;&#xA;Intel macOS users are NOT affected by this issue.&lt;br&gt;&#xA;For the further information, see &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1168011888&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/lima-vm/lima/issues/734&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/lima-vm/lima/pull/734/hovercard&#34; href=&#34;https://github.com/lima-vm/lima/pull/734&#34;&gt;#734&lt;/a&gt; and &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1167203637&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/Homebrew/homebrew-core/issues/96743&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/Homebrew/homebrew-core/pull/96743/hovercard&#34; href=&#34;https://github.com/Homebrew/homebrew-core/pull/96743&#34;&gt;Homebrew/homebrew-core#96743&lt;/a&gt; .&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2&gt;Changes&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;nerdctl:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Update to &lt;a href=&#34;https://github.com/containerd/nerdctl/releases/tag/v0.17.1&#34;&gt;v0.17.1&lt;/a&gt; (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1158238942&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/lima-vm/lima/issues/694&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/lima-vm/lima/pull/694/hovercard&#34; href=&#34;https://github.com/lima-vm/lima/pull/694&#34;&gt;#694&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;Automatically upgrade existing installation of containerd/nerdctl inside the guest (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1158238942&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/lima-vm/lima/issues/694&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/lima-vm/lima/pull/694/hovercard&#34; href=&#34;https://github.com/lima-vm/lima/pull/694&#34;&gt;#694&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;Use fuse-overlayfs only when kernel &amp;lt; 5.13, and use real overlayfs on kernel &amp;gt;= 5.13. Instances created with an old release of Lima will continue to use fuse-overlayfs. (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1159476162&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/lima-vm/lima/issues/695&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/lima-vm/lima/pull/695/hovercard&#34; href=&#34;https://github.com/lima-vm/lima/pull/695&#34;&gt;#695&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;code&gt;limactl&lt;/code&gt; CLI:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Support &lt;code&gt;limactl start template://TEMPLATE&lt;/code&gt; (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1146621078&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/lima-vm/lima/issues/674&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/lima-vm/lima/pull/674/hovercard&#34; href=&#34;https://github.com/lima-vm/lima/pull/674&#34;&gt;#674&lt;/a&gt;), e.g., &lt;code&gt;limactl start --name=default template://docker&lt;/code&gt;. The template can be also chosen from TUI.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;div class=&#34;highlight highlight-text-shell-session position-relative overflow-auto&#34; data-snippet-clipboard-copy-content=&#34;$ limactl start&#xA;? Creating an instance &amp;quot;default&amp;quot;  [Use arrows to move, type to filter]&#xA;  Proceed with the current configuration&#xA;  Open an editor to review or modify the current configuration&#xA;&amp;gt; Choose another example (docker, podman, archlinux, fedora, ...)&#xA;  Exit&#xA;&#xA;? Choose an example  [Use arrows to move, type to filter]&#xA;&amp;gt; almalinux&#xA;  alpine&#xA;  archlinux&#xA;  debian&#xA;  default&#xA;  docker&#xA;  faasd&#xA;...&#34;&gt;&lt;pre&gt;$ &lt;span class=&#34;pl-s1&#34;&gt;limactl start&lt;/span&gt;&#xA;&lt;span class=&#34;pl-c1&#34;&gt;? Creating an instance &#34;default&#34;  [Use arrows to move, type to filter]&lt;/span&gt;&#xA;&lt;span class=&#34;pl-c1&#34;&gt;  Proceed with the current configuration&lt;/span&gt;&#xA;&lt;span class=&#34;pl-c1&#34;&gt;  Open an editor to review or modify the current configuration&lt;/span&gt;&#xA;&amp;gt; &lt;span class=&#34;pl-s1&#34;&gt;Choose another example (docker, podman, archlinux, fedora, ...)&lt;/span&gt;&#xA;&lt;span class=&#34;pl-c1&#34;&gt;  Exit&lt;/span&gt;&#xA;&#xA;&lt;span class=&#34;pl-c1&#34;&gt;? Choose an example  [Use arrows to move, type to filter]&lt;/span&gt;&#xA;&amp;gt; &lt;span class=&#34;pl-s1&#34;&gt;almalinux&lt;/span&gt;&#xA;&lt;span class=&#34;pl-c1&#34;&gt;  alpine&lt;/span&gt;&#xA;&lt;span class=&#34;pl-c1&#34;&gt;  archlinux&lt;/span&gt;&#xA;&lt;span class=&#34;pl-c1&#34;&gt;  debian&lt;/span&gt;&#xA;&lt;span class=&#34;pl-c1&#34;&gt;  default&lt;/span&gt;&#xA;&lt;span class=&#34;pl-c1&#34;&gt;  docker&lt;/span&gt;&#xA;&lt;span class=&#34;pl-c1&#34;&gt;  faasd&lt;/span&gt;&#xA;&lt;span class=&#34;pl-c1&#34;&gt;...&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Examples:&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Add &lt;a href=&#34;https://github.com/lima-vm/lima/blob/v0.9.0/examples/buildkit.yaml&#34;&gt;&lt;code&gt;buildkit.yaml&lt;/code&gt;&lt;/a&gt; (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1139802440&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/lima-vm/lima/issues/653&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/lima-vm/lima/pull/653/hovercard&#34; href=&#34;https://github.com/lima-vm/lima/pull/653&#34;&gt;#653&lt;/a&gt;, thanks to &lt;a class=&#34;user-mention&#34; data-hovercard-type=&#34;user&#34; data-hovercard-url=&#34;/users/developer-guy/hovercard&#34; data-octo-click=&#34;hovercard-link-click&#34; data-octo-dimensions=&#34;link_type:self&#34; href=&#34;https://github.com/developer-guy&#34;&gt;@developer-guy&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;Add &lt;a href=&#34;https://github.com/lima-vm/lima/blob/v0.9.0/examples/oraclelinux.yaml&#34;&gt;&lt;code&gt;oraclelinux.yaml&lt;/code&gt;&lt;/a&gt; (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1162176799&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/lima-vm/lima/issues/700&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/lima-vm/lima/pull/700/hovercard&#34; href=&#34;https://github.com/lima-vm/lima/pull/700&#34;&gt;#700&lt;/a&gt;, thanks to &lt;a class=&#34;user-mention&#34; data-hovercard-type=&#34;user&#34; data-hovercard-url=&#34;/users/chrisperelstein/hovercard&#34; data-octo-click=&#34;hovercard-link-click&#34; data-octo-dimensions=&#34;link_type:self&#34; href=&#34;https://github.com/chrisperelstein&#34;&gt;@chrisperelstein&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Other changes: &lt;a href=&#34;https://github.com/lima-vm/lima/milestone/18?closed=1&#34;&gt;https://github.com/lima-vm/lima/milestone/18?closed=1&lt;/a&gt;&lt;br&gt;&#xA;Thanks to &lt;a class=&#34;user-mention&#34; data-hovercard-type=&#34;user&#34; data-hovercard-url=&#34;/users/chrisperelstein/hovercard&#34; data-octo-click=&#34;hovercard-link-click&#34; data-octo-dimensions=&#34;link_type:self&#34; href=&#34;https://github.com/chrisperelstein&#34;&gt;@chrisperelstein&lt;/a&gt; &lt;a class=&#34;user-mention&#34; data-hovercard-type=&#34;user&#34; data-hovercard-url=&#34;/users/developer-guy/hovercard&#34; data-octo-click=&#34;hovercard-link-click&#34; data-octo-dimensions=&#34;link_type:self&#34; href=&#34;https://github.com/developer-guy&#34;&gt;@developer-guy&lt;/a&gt; &lt;a class=&#34;user-mention&#34; data-hovercard-type=&#34;user&#34; data-hovercard-url=&#34;/users/deviantintegral/hovercard&#34; data-octo-click=&#34;hovercard-link-click&#34; data-octo-dimensions=&#34;link_type:self&#34; href=&#34;https://github.com/deviantintegral&#34;&gt;@deviantintegral&lt;/a&gt; &lt;a class=&#34;user-mention&#34; data-hovercard-type=&#34;user&#34; data-hovercard-url=&#34;/users/jandubois/hovercard&#34; data-octo-click=&#34;hovercard-link-click&#34; data-octo-dimensions=&#34;link_type:self&#34; href=&#34;https://github.com/jandubois&#34;&gt;@jandubois&lt;/a&gt; &lt;a class=&#34;user-mention&#34; data-hovercard-type=&#34;user&#34; data-hovercard-url=&#34;/users/jwhb/hovercard&#34; data-octo-click=&#34;hovercard-link-click&#34; data-octo-dimensions=&#34;link_type:self&#34; href=&#34;https://github.com/jwhb&#34;&gt;@jwhb&lt;/a&gt; &lt;a class=&#34;user-mention&#34; data-hovercard-type=&#34;user&#34; data-hovercard-url=&#34;/users/samuelkarp/hovercard&#34; data-octo-click=&#34;hovercard-link-click&#34; data-octo-dimensions=&#34;link_type:self&#34; href=&#34;https://github.com/samuelkarp&#34;&gt;@samuelkarp&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h2&gt;Homebrew&lt;/h2&gt;&#xA;&lt;p&gt;&lt;code&gt;brew install lima&lt;/code&gt;&lt;br&gt;&#xA;&lt;a class=&#34;commit-link&#34; data-hovercard-type=&#34;commit&#34; data-hovercard-url=&#34;https://github.com/Homebrew/homebrew-core/commit/dfb16b662187d68a8c1b20b4f8f998d54601ae80/hovercard&#34; href=&#34;https://github.com/Homebrew/homebrew-core/commit/dfb16b662187d68a8c1b20b4f8f998d54601ae80&#34;&gt;Homebrew/homebrew-core@&lt;tt&gt;dfb16b6&lt;/tt&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h2&gt;Usage&lt;/h2&gt;&#xA;&lt;div class=&#34;highlight highlight-text-shell-session position-relative overflow-auto&#34; data-snippet-clipboard-copy-content=&#34;[macOS]$ limactl start&#xA;...&#xA;INFO[0029] READY. Run `lima` to open the shell.&#xA;&#xA;[macOS]$ lima uname&#xA;Linux&#34;&gt;&lt;pre&gt;&lt;span class=&#34;pl-c1&#34;&gt;[macOS]$ limactl start&lt;/span&gt;&#xA;&lt;span class=&#34;pl-c1&#34;&gt;...&lt;/span&gt;&#xA;&lt;span class=&#34;pl-c1&#34;&gt;INFO[0029] READY. Run `lima` to open the shell.&lt;/span&gt;&#xA;&#xA;&lt;span class=&#34;pl-c1&#34;&gt;[macOS]$ lima uname&lt;/span&gt;&#xA;&lt;span class=&#34;pl-c1&#34;&gt;Linux&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;The binaries were built automatically on GitHub Actions.&lt;br&gt;&#xA;The build log is available for 90 days: &lt;a href=&#34;https://github.com/lima-vm/lima/actions/runs/1967583891&#34;&gt;https://github.com/lima-vm/lima/actions/runs/1967583891&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;The sha256sum of the SHA256SUMS file itself is &lt;code&gt;a10848bd3bfa41b395ca54473bc82fe59081cc4e0b11f7b6c7c35a18ba633374&lt;/code&gt; .&lt;/p&gt;</content>
+    <link href="https://github.com/lima-vm/lima/releases/tag/v0.9.0" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>github-actions[bot]</name>
+    </author>
+  </entry>
   <entry>
     <title>Release notes from excelize - v2.4.1</title>
     <updated>2022-03-13T14:41:33Z</updated>
@@ -42,17 +53,6 @@
     <id>tag:github.com,2008:Repository/41481523/v2.3.0</id>
     <content type="html">&lt;h1&gt;&lt;a href=&#34;https://github.com/moul/http2curl/compare/v2.2.6...v2.3.0&#34;&gt;2.3.0&lt;/a&gt; (2022-03-12)&lt;/h1&gt;&#xA;&lt;h3&gt;Bug Fixes&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Avoid clobbering body so subsequent reads like middleware will not get nil (&lt;a href=&#34;https://github.com/moul/http2curl/commit/42acf3442b67b4ff5ad601e249c55127992bcf3f&#34;&gt;42acf34&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3&gt;Features&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;avoid clobbering original body for next read (&lt;a href=&#34;https://github.com/moul/http2curl/issues/45&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/moul/http2curl/pull/45/hovercard&#34;&gt;#45&lt;/a&gt;) (&lt;a href=&#34;https://github.com/moul/http2curl/commit/ee0b0d51c1663e9e5ed3e11d1e7d2d02179f86ea&#34;&gt;ee0b0d5&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
     <link href="https://github.com/moul/http2curl/releases/tag/v2.3.0" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>github-actions[bot]</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from lima - v0.9.0</title>
-    <updated>2022-03-12T04:34:57Z</updated>
-    <id>tag:github.com,2008:Repository/367284699/v0.9.0</id>
-    <content type="html">&lt;h3&gt;&lt;g-emoji class=&#34;g-emoji&#34; alias=&#34;warning&#34; fallback-src=&#34;https://github.githubassets.com/images/icons/emoji/unicode/26a0.png&#34;&gt;⚠️&lt;/g-emoji&gt; March 2022 update of Ubuntu does not work on ARM&lt;/h3&gt;&#xA;&lt;p&gt;Ubuntu kernel 5.13.0-35.40 (5.4.0-103.117 for 20.04 LTS) released in March 2022 is not bootable on ARM hosts:&lt;/p&gt;&#xA;&lt;div class=&#34;snippet-clipboard-content position-relative overflow-auto&#34; data-snippet-clipboard-copy-content=&#34;(~/.lima/default/serial.log)&#xA;...&#xA;EFI stub: Booting Linux Kernel...&#xA;EFI stub: ERROR: FIRMWARE BUG: kernel image not aligned on 64k boundary&#xA;EFI stub: Using DTB from configuration table&#xA;EFI stub: Exiting boot services and installing virtual address map...&#xA;SetUefiImageMemoryAttributes - 0x000000013F500000 - 0x0000000000040000 (0x0000000000000008)&#xA;SetUefiImageMemoryAttributes - 0x000000013C190000 - 0x0000000000040000 (0x0000000000000008)&#xA;SetUefiImageMemoryAttributes - 0x000000013C140000 - 0x0000000000040000 (0x0000000000000008)&#xA;SetUefiImageMemoryAttributes - 0x000000013F4C0000 - 0x0000000000030000 (0x0000000000000008)&#xA;SetUefiImageMemoryAttributes - 0x000000013C0F0000 - 0x0000000000040000 (0x0000000000000008)&#xA;SetUefiImageMemoryAttributes - 0x000000013BCB0000 - 0x0000000000040000 (0x0000000000000008)&#xA;SetUefiImageMemoryAttributes - 0x000000013BB00000 - 0x0000000000030000 (0x0000000000000008)&#xA;SetUefiImageMemoryAttributes - 0x000000013BAC0000 - 0x0000000000030000 (0x0000000000000008)&#xA;(hangs here)&#34;&gt;&lt;pre&gt;&lt;code&gt;(~/.lima/default/serial.log)&#xA;...&#xA;EFI stub: Booting Linux Kernel...&#xA;EFI stub: ERROR: FIRMWARE BUG: kernel image not aligned on 64k boundary&#xA;EFI stub: Using DTB from configuration table&#xA;EFI stub: Exiting boot services and installing virtual address map...&#xA;SetUefiImageMemoryAttributes - 0x000000013F500000 - 0x0000000000040000 (0x0000000000000008)&#xA;SetUefiImageMemoryAttributes - 0x000000013C190000 - 0x0000000000040000 (0x0000000000000008)&#xA;SetUefiImageMemoryAttributes - 0x000000013C140000 - 0x0000000000040000 (0x0000000000000008)&#xA;SetUefiImageMemoryAttributes - 0x000000013F4C0000 - 0x0000000000030000 (0x0000000000000008)&#xA;SetUefiImageMemoryAttributes - 0x000000013C0F0000 - 0x0000000000040000 (0x0000000000000008)&#xA;SetUefiImageMemoryAttributes - 0x000000013BCB0000 - 0x0000000000040000 (0x0000000000000008)&#xA;SetUefiImageMemoryAttributes - 0x000000013BB00000 - 0x0000000000030000 (0x0000000000000008)&#xA;SetUefiImageMemoryAttributes - 0x000000013BAC0000 - 0x0000000000030000 (0x0000000000000008)&#xA;(hangs here)&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&#xA;&lt;p&gt;Until the issue gets resolved, it is HIGHLY RECOMMENDED to run the following command inside the Ubuntu shell to avoid upgrading the kernel:&lt;/p&gt;&#xA;&lt;div class=&#34;highlight highlight-source-shell position-relative overflow-auto&#34; data-snippet-clipboard-copy-content=&#34;sudo apt-mark hold linux-image-$(uname -r)&#34;&gt;&lt;pre&gt;sudo apt-mark hold linux-image-&lt;span class=&#34;pl-s&#34;&gt;&lt;span class=&#34;pl-pds&#34;&gt;$(&lt;/span&gt;uname -r&lt;span class=&#34;pl-pds&#34;&gt;)&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;&#xA;&lt;p&gt;(Make sure to unhold it when we get the fix)&lt;/p&gt;&#xA;&lt;p&gt;If your kernel was already upgraded and the VM does not boot, try running Lima with the following environment variable to show the video display:&lt;/p&gt;&#xA;&lt;div class=&#34;highlight highlight-source-shell position-relative overflow-auto&#34; data-snippet-clipboard-copy-content=&#34;export QEMU_SYSTEM_AARCH64=&amp;quot;qemu-system-aarch64 -display cocoa&amp;quot;&#34;&gt;&lt;pre&gt;&lt;span class=&#34;pl-k&#34;&gt;export&lt;/span&gt; QEMU_SYSTEM_AARCH64=&lt;span class=&#34;pl-s&#34;&gt;&lt;span class=&#34;pl-pds&#34;&gt;&#34;&lt;/span&gt;qemu-system-aarch64 -display cocoa&lt;span class=&#34;pl-pds&#34;&gt;&#34;&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;&#xA;&lt;p&gt;After the display is shown, press the Esc key several times to show the GRUB prompt for choosing an older kernel.&lt;br&gt;&#xA;You can also mount the disk image from another instance to modify the GRUB config or rescue the data inside the image.&lt;br&gt;&#xA;&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1165079465&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/lima-vm/lima/issues/712&#34; data-hovercard-type=&#34;issue&#34; data-hovercard-url=&#34;/lima-vm/lima/issues/712/hovercard?comment_id=1065266828&amp;amp;comment_type=issue_comment&#34; href=&#34;https://github.com/lima-vm/lima/issues/712#issuecomment-1065266828&#34;&gt;#712 (comment)&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;g-emoji class=&#34;g-emoji&#34; alias=&#34;star&#34; fallback-src=&#34;https://github.githubassets.com/images/icons/emoji/unicode/2b50.png&#34;&gt;⭐&lt;/g-emoji&gt; Subscribe to &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1165079465&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/lima-vm/lima/issues/712&#34; data-hovercard-type=&#34;issue&#34; data-hovercard-url=&#34;/lima-vm/lima/issues/712/hovercard&#34; href=&#34;https://github.com/lima-vm/lima/issues/712&#34;&gt;#712&lt;/a&gt;  and &lt;a href=&#34;https://gitlab.com/qemu-project/qemu/-/issues/899&#34; rel=&#34;nofollow&#34;&gt;https://gitlab.com/qemu-project/qemu/-/issues/899&lt;/a&gt;  for receiving future updates about this issue.&lt;/p&gt;&#xA;&lt;h4&gt;&lt;g-emoji class=&#34;g-emoji&#34; alias=&#34;pray&#34; fallback-src=&#34;https://github.githubassets.com/images/icons/emoji/unicode/1f64f.png&#34;&gt;🙏&lt;/g-emoji&gt; Help wanted for testing&lt;/h4&gt;&#xA;&lt;p&gt;This QEMU patch may fix the issue: &lt;a class=&#34;commit-link&#34; data-hovercard-type=&#34;commit&#34; data-hovercard-url=&#34;https://github.com/AkihiroSuda/homebrew-core/commit/177d583c741f4f50a12f326f632c54dbf169d37b/hovercard&#34; href=&#34;https://github.com/AkihiroSuda/homebrew-core/commit/177d583c741f4f50a12f326f632c54dbf169d37b&#34;&gt;AkihiroSuda/homebrew-core@&lt;tt&gt;177d583&lt;/tt&gt;&lt;/a&gt;&lt;br&gt;&#xA;(from &lt;a href=&#34;https://gitlab.com/qemu-project/qemu/-/issues/899&#34; rel=&#34;nofollow&#34;&gt;https://gitlab.com/qemu-project/qemu/-/issues/899&lt;/a&gt;)&lt;/p&gt;&#xA;&lt;p&gt;Download &lt;code&gt;qemu.rb&lt;/code&gt; and run &lt;code&gt;brew install --build-from-source ./qemu.rb&lt;/code&gt; to apply the patch.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2&gt;Changes&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;nerdctl:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Update to &lt;a href=&#34;https://github.com/containerd/nerdctl/releases/tag/v0.17.1&#34;&gt;v0.17.1&lt;/a&gt; (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1158238942&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/lima-vm/lima/issues/694&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/lima-vm/lima/pull/694/hovercard&#34; href=&#34;https://github.com/lima-vm/lima/pull/694&#34;&gt;#694&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;Automatically upgrade existing installation of containerd/nerdctl inside the guest (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1158238942&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/lima-vm/lima/issues/694&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/lima-vm/lima/pull/694/hovercard&#34; href=&#34;https://github.com/lima-vm/lima/pull/694&#34;&gt;#694&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;Use fuse-overlayfs only when kernel &amp;lt; 5.13, and use real overlayfs on kernel &amp;gt;= 5.13. Instances created with an old release of Lima will continue to use fuse-overlayfs. (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1159476162&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/lima-vm/lima/issues/695&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/lima-vm/lima/pull/695/hovercard&#34; href=&#34;https://github.com/lima-vm/lima/pull/695&#34;&gt;#695&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;code&gt;limactl&lt;/code&gt; CLI:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Support &lt;code&gt;limactl start template://TEMPLATE&lt;/code&gt; (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1146621078&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/lima-vm/lima/issues/674&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/lima-vm/lima/pull/674/hovercard&#34; href=&#34;https://github.com/lima-vm/lima/pull/674&#34;&gt;#674&lt;/a&gt;), e.g., &lt;code&gt;limactl start --name=default template://docker&lt;/code&gt;. The template can be also chosen from TUI.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;div class=&#34;highlight highlight-text-shell-session position-relative overflow-auto&#34; data-snippet-clipboard-copy-content=&#34;$ limactl start&#xA;? Creating an instance &amp;quot;default&amp;quot;  [Use arrows to move, type to filter]&#xA;  Proceed with the current configuration&#xA;  Open an editor to review or modify the current configuration&#xA;&amp;gt; Choose another example (docker, podman, archlinux, fedora, ...)&#xA;  Exit&#xA;&#xA;? Choose an example  [Use arrows to move, type to filter]&#xA;&amp;gt; almalinux&#xA;  alpine&#xA;  archlinux&#xA;  debian&#xA;  default&#xA;  docker&#xA;  faasd&#xA;...&#34;&gt;&lt;pre&gt;$ &lt;span class=&#34;pl-s1&#34;&gt;limactl start&lt;/span&gt;&#xA;&lt;span class=&#34;pl-c1&#34;&gt;? Creating an instance &#34;default&#34;  [Use arrows to move, type to filter]&lt;/span&gt;&#xA;&lt;span class=&#34;pl-c1&#34;&gt;  Proceed with the current configuration&lt;/span&gt;&#xA;&lt;span class=&#34;pl-c1&#34;&gt;  Open an editor to review or modify the current configuration&lt;/span&gt;&#xA;&amp;gt; &lt;span class=&#34;pl-s1&#34;&gt;Choose another example (docker, podman, archlinux, fedora, ...)&lt;/span&gt;&#xA;&lt;span class=&#34;pl-c1&#34;&gt;  Exit&lt;/span&gt;&#xA;&#xA;&lt;span class=&#34;pl-c1&#34;&gt;? Choose an example  [Use arrows to move, type to filter]&lt;/span&gt;&#xA;&amp;gt; &lt;span class=&#34;pl-s1&#34;&gt;almalinux&lt;/span&gt;&#xA;&lt;span class=&#34;pl-c1&#34;&gt;  alpine&lt;/span&gt;&#xA;&lt;span class=&#34;pl-c1&#34;&gt;  archlinux&lt;/span&gt;&#xA;&lt;span class=&#34;pl-c1&#34;&gt;  debian&lt;/span&gt;&#xA;&lt;span class=&#34;pl-c1&#34;&gt;  default&lt;/span&gt;&#xA;&lt;span class=&#34;pl-c1&#34;&gt;  docker&lt;/span&gt;&#xA;&lt;span class=&#34;pl-c1&#34;&gt;  faasd&lt;/span&gt;&#xA;&lt;span class=&#34;pl-c1&#34;&gt;...&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Examples:&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Add &lt;a href=&#34;https://github.com/lima-vm/lima/blob/v0.9.0/examples/buildkit.yaml&#34;&gt;&lt;code&gt;buildkit.yaml&lt;/code&gt;&lt;/a&gt; (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1139802440&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/lima-vm/lima/issues/653&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/lima-vm/lima/pull/653/hovercard&#34; href=&#34;https://github.com/lima-vm/lima/pull/653&#34;&gt;#653&lt;/a&gt;, thanks to &lt;a class=&#34;user-mention&#34; data-hovercard-type=&#34;user&#34; data-hovercard-url=&#34;/users/developer-guy/hovercard&#34; data-octo-click=&#34;hovercard-link-click&#34; data-octo-dimensions=&#34;link_type:self&#34; href=&#34;https://github.com/developer-guy&#34;&gt;@developer-guy&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;Add &lt;a href=&#34;https://github.com/lima-vm/lima/blob/v0.9.0/examples/oraclelinux.yaml&#34;&gt;&lt;code&gt;oraclelinux.yaml&lt;/code&gt;&lt;/a&gt; (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1162176799&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/lima-vm/lima/issues/700&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/lima-vm/lima/pull/700/hovercard&#34; href=&#34;https://github.com/lima-vm/lima/pull/700&#34;&gt;#700&lt;/a&gt;, thanks to &lt;a class=&#34;user-mention&#34; data-hovercard-type=&#34;user&#34; data-hovercard-url=&#34;/users/chrisperelstein/hovercard&#34; data-octo-click=&#34;hovercard-link-click&#34; data-octo-dimensions=&#34;link_type:self&#34; href=&#34;https://github.com/chrisperelstein&#34;&gt;@chrisperelstein&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Other changes: &lt;a href=&#34;https://github.com/lima-vm/lima/milestone/18?closed=1&#34;&gt;https://github.com/lima-vm/lima/milestone/18?closed=1&lt;/a&gt;&lt;br&gt;&#xA;Thanks to &lt;a class=&#34;user-mention&#34; data-hovercard-type=&#34;user&#34; data-hovercard-url=&#34;/users/chrisperelstein/hovercard&#34; data-octo-click=&#34;hovercard-link-click&#34; data-octo-dimensions=&#34;link_type:self&#34; href=&#34;https://github.com/chrisperelstein&#34;&gt;@chrisperelstein&lt;/a&gt; &lt;a class=&#34;user-mention&#34; data-hovercard-type=&#34;user&#34; data-hovercard-url=&#34;/users/developer-guy/hovercard&#34; data-octo-click=&#34;hovercard-link-click&#34; data-octo-dimensions=&#34;link_type:self&#34; href=&#34;https://github.com/developer-guy&#34;&gt;@developer-guy&lt;/a&gt; &lt;a class=&#34;user-mention&#34; data-hovercard-type=&#34;user&#34; data-hovercard-url=&#34;/users/deviantintegral/hovercard&#34; data-octo-click=&#34;hovercard-link-click&#34; data-octo-dimensions=&#34;link_type:self&#34; href=&#34;https://github.com/deviantintegral&#34;&gt;@deviantintegral&lt;/a&gt; &lt;a class=&#34;user-mention&#34; data-hovercard-type=&#34;user&#34; data-hovercard-url=&#34;/users/jandubois/hovercard&#34; data-octo-click=&#34;hovercard-link-click&#34; data-octo-dimensions=&#34;link_type:self&#34; href=&#34;https://github.com/jandubois&#34;&gt;@jandubois&lt;/a&gt; &lt;a class=&#34;user-mention&#34; data-hovercard-type=&#34;user&#34; data-hovercard-url=&#34;/users/jwhb/hovercard&#34; data-octo-click=&#34;hovercard-link-click&#34; data-octo-dimensions=&#34;link_type:self&#34; href=&#34;https://github.com/jwhb&#34;&gt;@jwhb&lt;/a&gt; &lt;a class=&#34;user-mention&#34; data-hovercard-type=&#34;user&#34; data-hovercard-url=&#34;/users/samuelkarp/hovercard&#34; data-octo-click=&#34;hovercard-link-click&#34; data-octo-dimensions=&#34;link_type:self&#34; href=&#34;https://github.com/samuelkarp&#34;&gt;@samuelkarp&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h2&gt;Homebrew&lt;/h2&gt;&#xA;&lt;p&gt;&lt;code&gt;brew install lima&lt;/code&gt;&lt;br&gt;&#xA;&lt;a class=&#34;commit-link&#34; data-hovercard-type=&#34;commit&#34; data-hovercard-url=&#34;https://github.com/Homebrew/homebrew-core/commit/dfb16b662187d68a8c1b20b4f8f998d54601ae80/hovercard&#34; href=&#34;https://github.com/Homebrew/homebrew-core/commit/dfb16b662187d68a8c1b20b4f8f998d54601ae80&#34;&gt;Homebrew/homebrew-core@&lt;tt&gt;dfb16b6&lt;/tt&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h2&gt;Usage&lt;/h2&gt;&#xA;&lt;div class=&#34;highlight highlight-text-shell-session position-relative overflow-auto&#34; data-snippet-clipboard-copy-content=&#34;[macOS]$ limactl start&#xA;...&#xA;INFO[0029] READY. Run `lima` to open the shell.&#xA;&#xA;[macOS]$ lima uname&#xA;Linux&#34;&gt;&lt;pre&gt;&lt;span class=&#34;pl-c1&#34;&gt;[macOS]$ limactl start&lt;/span&gt;&#xA;&lt;span class=&#34;pl-c1&#34;&gt;...&lt;/span&gt;&#xA;&lt;span class=&#34;pl-c1&#34;&gt;INFO[0029] READY. Run `lima` to open the shell.&lt;/span&gt;&#xA;&#xA;&lt;span class=&#34;pl-c1&#34;&gt;[macOS]$ lima uname&lt;/span&gt;&#xA;&lt;span class=&#34;pl-c1&#34;&gt;Linux&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;The binaries were built automatically on GitHub Actions.&lt;br&gt;&#xA;The build log is available for 90 days: &lt;a href=&#34;https://github.com/lima-vm/lima/actions/runs/1967583891&#34;&gt;https://github.com/lima-vm/lima/actions/runs/1967583891&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;The sha256sum of the SHA256SUMS file itself is &lt;code&gt;a10848bd3bfa41b395ca54473bc82fe59081cc4e0b11f7b6c7c35a18ba633374&lt;/code&gt; .&lt;/p&gt;</content>
-    <link href="https://github.com/lima-vm/lima/releases/tag/v0.9.0" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>github-actions[bot]</name>
@@ -301,22 +301,22 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from telepresence - v2.5.4-test.0</title>
+    <title>Release notes from telepresence - rpc/v2.5.4-test.0</title>
     <updated>2022-03-07T19:32:37Z</updated>
-    <id>tag:github.com,2008:Repository/82933315/v2.5.4-test.0</id>
+    <id>tag:github.com,2008:Repository/82933315/rpc/v2.5.4-test.0</id>
     <content type="html">&lt;p&gt;v2.5.4-test.0&lt;/p&gt;</content>
-    <link href="https://github.com/telepresenceio/telepresence/releases/tag/v2.5.4-test.0" rel="alternate"></link>
+    <link href="https://github.com/telepresenceio/telepresence/releases/tag/rpc%2Fv2.5.4-test.0" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>maxlegault</name>
     </author>
   </entry>
   <entry>
-    <title>Release notes from telepresence - rpc/v2.5.4-test.0</title>
+    <title>Release notes from telepresence - v2.5.4-test.0</title>
     <updated>2022-03-07T19:32:37Z</updated>
-    <id>tag:github.com,2008:Repository/82933315/rpc/v2.5.4-test.0</id>
+    <id>tag:github.com,2008:Repository/82933315/v2.5.4-test.0</id>
     <content type="html">&lt;p&gt;v2.5.4-test.0&lt;/p&gt;</content>
-    <link href="https://github.com/telepresenceio/telepresence/releases/tag/rpc%2Fv2.5.4-test.0" rel="alternate"></link>
+    <link href="https://github.com/telepresenceio/telepresence/releases/tag/v2.5.4-test.0" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>maxlegault</name>
@@ -466,17 +466,6 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from google-cloud-go - websecurityscanner: v1.2.0</title>
-    <updated>2022-03-02T20:22:34Z</updated>
-    <id>tag:github.com,2008:Repository/19608522/websecurityscanner/v1.2.0</id>
-    <content type="html">&lt;h2&gt;&lt;a href=&#34;https://github.com/googleapis/google-cloud-go/compare/websecurityscanner/v1.1.0...websecurityscanner/v1.2.0&#34;&gt;1.2.0&lt;/a&gt; (2022-02-23)&lt;/h2&gt;&#xA;&lt;h3&gt;Features&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;websecurityscanner:&lt;/strong&gt; set versionClient to module version (&lt;a href=&#34;https://github.com/googleapis/google-cloud-go/commit/55f0d92bf112f14b024b4ab0076c9875a17423c9&#34;&gt;55f0d92&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/googleapis/google-cloud-go/releases/tag/websecurityscanner%2Fv1.2.0" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>chingor13</name>
-    </author>
-  </entry>
-  <entry>
     <title>Release notes from google-cloud-go - webrisk: v1.2.0</title>
     <updated>2022-03-02T20:22:34Z</updated>
     <id>tag:github.com,2008:Repository/19608522/webrisk/v1.2.0</id>
@@ -499,17 +488,6 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from google-cloud-go - vision: v1.2.0</title>
-    <updated>2022-03-02T20:22:34Z</updated>
-    <id>tag:github.com,2008:Repository/19608522/vision/v1.2.0</id>
-    <content type="html">&lt;h2&gt;&lt;a href=&#34;https://github.com/googleapis/google-cloud-go/compare/vision/v1.1.0...vision/v1.2.0&#34;&gt;1.2.0&lt;/a&gt; (2022-02-23)&lt;/h2&gt;&#xA;&lt;h3&gt;Features&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;vision:&lt;/strong&gt; set versionClient to module version (&lt;a href=&#34;https://github.com/googleapis/google-cloud-go/commit/55f0d92bf112f14b024b4ab0076c9875a17423c9&#34;&gt;55f0d92&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/googleapis/google-cloud-go/releases/tag/vision%2Fv1.2.0" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>chingor13</name>
-    </author>
-  </entry>
-  <entry>
     <title>Release notes from google-cloud-go - vmmigration: v0.3.0</title>
     <updated>2022-03-02T20:22:34Z</updated>
     <id>tag:github.com,2008:Repository/19608522/vmmigration/v0.3.0</id>
@@ -521,11 +499,33 @@
     </author>
   </entry>
   <entry>
+    <title>Release notes from google-cloud-go - websecurityscanner: v1.2.0</title>
+    <updated>2022-03-02T20:22:34Z</updated>
+    <id>tag:github.com,2008:Repository/19608522/websecurityscanner/v1.2.0</id>
+    <content type="html">&lt;h2&gt;&lt;a href=&#34;https://github.com/googleapis/google-cloud-go/compare/websecurityscanner/v1.1.0...websecurityscanner/v1.2.0&#34;&gt;1.2.0&lt;/a&gt; (2022-02-23)&lt;/h2&gt;&#xA;&lt;h3&gt;Features&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;websecurityscanner:&lt;/strong&gt; set versionClient to module version (&lt;a href=&#34;https://github.com/googleapis/google-cloud-go/commit/55f0d92bf112f14b024b4ab0076c9875a17423c9&#34;&gt;55f0d92&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/googleapis/google-cloud-go/releases/tag/websecurityscanner%2Fv1.2.0" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>chingor13</name>
+    </author>
+  </entry>
+  <entry>
     <title>Release notes from google-cloud-go - workflows: v1.3.0</title>
     <updated>2022-03-02T20:22:34Z</updated>
     <id>tag:github.com,2008:Repository/19608522/workflows/v1.3.0</id>
     <content type="html">&lt;h2&gt;&lt;a href=&#34;https://github.com/googleapis/google-cloud-go/compare/workflows/v1.2.0...workflows/v1.3.0&#34;&gt;1.3.0&lt;/a&gt; (2022-02-23)&lt;/h2&gt;&#xA;&lt;h3&gt;Features&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;workflows:&lt;/strong&gt; set versionClient to module version (&lt;a href=&#34;https://github.com/googleapis/google-cloud-go/commit/55f0d92bf112f14b024b4ab0076c9875a17423c9&#34;&gt;55f0d92&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
     <link href="https://github.com/googleapis/google-cloud-go/releases/tag/workflows%2Fv1.3.0" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>chingor13</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from google-cloud-go - vision: v1.2.0</title>
+    <updated>2022-03-02T20:22:34Z</updated>
+    <id>tag:github.com,2008:Repository/19608522/vision/v1.2.0</id>
+    <content type="html">&lt;h2&gt;&lt;a href=&#34;https://github.com/googleapis/google-cloud-go/compare/vision/v1.1.0...vision/v1.2.0&#34;&gt;1.2.0&lt;/a&gt; (2022-02-23)&lt;/h2&gt;&#xA;&lt;h3&gt;Features&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;vision:&lt;/strong&gt; set versionClient to module version (&lt;a href=&#34;https://github.com/googleapis/google-cloud-go/commit/55f0d92bf112f14b024b4ab0076c9875a17423c9&#34;&gt;55f0d92&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/googleapis/google-cloud-go/releases/tag/vision%2Fv1.2.0" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>chingor13</name>
@@ -620,50 +620,6 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from chakra-ui - @chakra-ui/slider@1.5.9</title>
-    <updated>2022-02-28T23:07:28Z</updated>
-    <id>tag:github.com,2008:Repository/202890778/@chakra-ui/slider@1.5.9</id>
-    <content type="html">&lt;h3&gt;Patch Changes&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Updated dependencies&lt;br&gt;&#xA;[&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/commit/5cd5cff35e4837539d83a2157a07585d461b0aac&#34;&gt;&lt;code&gt;5cd5cff35&lt;/code&gt;&lt;/a&gt;]:&#xA;&lt;ul&gt;&#xA;&lt;li&gt;@chakra-ui/hooks@1.8.5&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/chakra-ui/chakra-ui/releases/tag/%40chakra-ui%2Fslider%401.5.9" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>github-actions[bot]</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from chakra-ui - @chakra-ui/skeleton@1.2.12</title>
-    <updated>2022-02-28T23:07:28Z</updated>
-    <id>tag:github.com,2008:Repository/202890778/@chakra-ui/skeleton@1.2.12</id>
-    <content type="html">&lt;h3&gt;Patch Changes&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Updated dependencies&lt;br&gt;&#xA;[&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/commit/d6bed344f30af50c84d3ed802ec3f0c981586588&#34;&gt;&lt;code&gt;d6bed344f&lt;/code&gt;&lt;/a&gt;,&lt;br&gt;&#xA;&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/commit/5cd5cff35e4837539d83a2157a07585d461b0aac&#34;&gt;&lt;code&gt;5cd5cff35&lt;/code&gt;&lt;/a&gt;]:&#xA;&lt;ul&gt;&#xA;&lt;li&gt;@chakra-ui/media-query@2.0.4&lt;/li&gt;&#xA;&lt;li&gt;@chakra-ui/hooks@1.8.5&lt;/li&gt;&#xA;&lt;li&gt;@chakra-ui/system@1.11.2&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/chakra-ui/chakra-ui/releases/tag/%40chakra-ui%2Fskeleton%401.2.12" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>github-actions[bot]</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from chakra-ui - @chakra-ui/system@1.11.2</title>
-    <updated>2022-02-28T23:07:28Z</updated>
-    <id>tag:github.com,2008:Repository/202890778/@chakra-ui/system@1.11.2</id>
-    <content type="html">&lt;h3&gt;Patch Changes&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Updated dependencies&lt;br&gt;&#xA;[&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/commit/001751162dd1922d8ab53820f405665f0785f196&#34;&gt;&lt;code&gt;001751162&lt;/code&gt;&lt;/a&gt;]:&#xA;&lt;ul&gt;&#xA;&lt;li&gt;@chakra-ui/color-mode@1.4.6&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/chakra-ui/chakra-ui/releases/tag/%40chakra-ui%2Fsystem%401.11.2" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>github-actions[bot]</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from chakra-ui - @chakra-ui/switch@1.3.8</title>
-    <updated>2022-02-28T23:07:28Z</updated>
-    <id>tag:github.com,2008:Repository/202890778/@chakra-ui/switch@1.3.8</id>
-    <content type="html">&lt;h3&gt;Patch Changes&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Updated dependencies []:&#xA;&lt;ul&gt;&#xA;&lt;li&gt;@chakra-ui/checkbox@1.6.8&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/chakra-ui/chakra-ui/releases/tag/%40chakra-ui%2Fswitch%401.3.8" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>github-actions[bot]</name>
-    </author>
-  </entry>
-  <entry>
     <title>Release notes from chakra-ui - @chakra-ui/tabs@1.6.8</title>
     <updated>2022-02-28T23:07:28Z</updated>
     <id>tag:github.com,2008:Repository/202890778/@chakra-ui/tabs@1.6.8</id>
@@ -719,11 +675,55 @@
     </author>
   </entry>
   <entry>
+    <title>Release notes from chakra-ui - @chakra-ui/system@1.11.2</title>
+    <updated>2022-02-28T23:07:28Z</updated>
+    <id>tag:github.com,2008:Repository/202890778/@chakra-ui/system@1.11.2</id>
+    <content type="html">&lt;h3&gt;Patch Changes&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Updated dependencies&lt;br&gt;&#xA;[&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/commit/001751162dd1922d8ab53820f405665f0785f196&#34;&gt;&lt;code&gt;001751162&lt;/code&gt;&lt;/a&gt;]:&#xA;&lt;ul&gt;&#xA;&lt;li&gt;@chakra-ui/color-mode@1.4.6&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/chakra-ui/chakra-ui/releases/tag/%40chakra-ui%2Fsystem%401.11.2" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>github-actions[bot]</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from chakra-ui - @chakra-ui/skeleton@1.2.12</title>
+    <updated>2022-02-28T23:07:28Z</updated>
+    <id>tag:github.com,2008:Repository/202890778/@chakra-ui/skeleton@1.2.12</id>
+    <content type="html">&lt;h3&gt;Patch Changes&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Updated dependencies&lt;br&gt;&#xA;[&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/commit/d6bed344f30af50c84d3ed802ec3f0c981586588&#34;&gt;&lt;code&gt;d6bed344f&lt;/code&gt;&lt;/a&gt;,&lt;br&gt;&#xA;&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/commit/5cd5cff35e4837539d83a2157a07585d461b0aac&#34;&gt;&lt;code&gt;5cd5cff35&lt;/code&gt;&lt;/a&gt;]:&#xA;&lt;ul&gt;&#xA;&lt;li&gt;@chakra-ui/media-query@2.0.4&lt;/li&gt;&#xA;&lt;li&gt;@chakra-ui/hooks@1.8.5&lt;/li&gt;&#xA;&lt;li&gt;@chakra-ui/system@1.11.2&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/chakra-ui/chakra-ui/releases/tag/%40chakra-ui%2Fskeleton%401.2.12" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>github-actions[bot]</name>
+    </author>
+  </entry>
+  <entry>
     <title>Release notes from chakra-ui - @chakra-ui/select@1.2.9</title>
     <updated>2022-02-28T23:07:28Z</updated>
     <id>tag:github.com,2008:Repository/202890778/@chakra-ui/select@1.2.9</id>
     <content type="html">&lt;h3&gt;Patch Changes&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Updated dependencies []:&#xA;&lt;ul&gt;&#xA;&lt;li&gt;@chakra-ui/form-control@1.5.9&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
     <link href="https://github.com/chakra-ui/chakra-ui/releases/tag/%40chakra-ui%2Fselect%401.2.9" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>github-actions[bot]</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from chakra-ui - @chakra-ui/slider@1.5.9</title>
+    <updated>2022-02-28T23:07:28Z</updated>
+    <id>tag:github.com,2008:Repository/202890778/@chakra-ui/slider@1.5.9</id>
+    <content type="html">&lt;h3&gt;Patch Changes&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Updated dependencies&lt;br&gt;&#xA;[&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/commit/5cd5cff35e4837539d83a2157a07585d461b0aac&#34;&gt;&lt;code&gt;5cd5cff35&lt;/code&gt;&lt;/a&gt;]:&#xA;&lt;ul&gt;&#xA;&lt;li&gt;@chakra-ui/hooks@1.8.5&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/chakra-ui/chakra-ui/releases/tag/%40chakra-ui%2Fslider%401.5.9" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>github-actions[bot]</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from chakra-ui - @chakra-ui/switch@1.3.8</title>
+    <updated>2022-02-28T23:07:28Z</updated>
+    <id>tag:github.com,2008:Repository/202890778/@chakra-ui/switch@1.3.8</id>
+    <content type="html">&lt;h3&gt;Patch Changes&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Updated dependencies []:&#xA;&lt;ul&gt;&#xA;&lt;li&gt;@chakra-ui/checkbox@1.6.8&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/chakra-ui/chakra-ui/releases/tag/%40chakra-ui%2Fswitch%401.3.8" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>github-actions[bot]</name>
