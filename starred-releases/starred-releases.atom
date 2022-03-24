@@ -1,13 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?><feed xmlns="http://www.w3.org/2005/Atom">
   <title>Releases from Starred by toga4</title>
   <id>https://toga4.github.io/feeds/starred-releases.atom</id>
-  <updated>2022-03-24T19:58:11Z</updated>
+  <updated>2022-03-24T21:02:46Z</updated>
   <link href="https://toga4.github.io/feeds/starred-releases.atom"></link>
   <entry>
+    <title>Release notes from kustomize - kustomize/v4.5.3</title>
+    <updated>2022-03-24T21:02:46Z</updated>
+    <id>tag:github.com,2008:Repository/133067498/kustomize/v4.5.3</id>
+    <content type="html">&lt;h3&gt;Enhancements&lt;/h3&gt;&#xA;&lt;p&gt;&lt;a class=&#34;commit-link&#34; data-hovercard-type=&#34;commit&#34; data-hovercard-url=&#34;https://github.com/kubernetes-sigs/kustomize/commit/97de780feb5156a4ad05551e511775ed06e4c2b0/hovercard&#34; href=&#34;https://github.com/kubernetes-sigs/kustomize/commit/97de780feb5156a4ad05551e511775ed06e4c2b0&#34;&gt;&lt;tt&gt;97de780&lt;/tt&gt;&lt;/a&gt; Support expanding anchor tags (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1099526174&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/kubernetes-sigs/kustomize/issues/4383&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/kubernetes-sigs/kustomize/pull/4383/hovercard&#34; href=&#34;https://github.com/kubernetes-sigs/kustomize/pull/4383&#34;&gt;#4383&lt;/a&gt;)&lt;br&gt;&#xA;&lt;a class=&#34;commit-link&#34; data-hovercard-type=&#34;commit&#34; data-hovercard-url=&#34;https://github.com/kubernetes-sigs/kustomize/commit/26b9af03790443ddb294e5976611446eb0b4d0e0/hovercard&#34; href=&#34;https://github.com/kubernetes-sigs/kustomize/commit/26b9af03790443ddb294e5976611446eb0b4d0e0&#34;&gt;&lt;tt&gt;26b9af0&lt;/tt&gt;&lt;/a&gt; Allow setting every array element in replacements (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1115512559&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/kubernetes-sigs/kustomize/issues/4424&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/kubernetes-sigs/kustomize/pull/4424/hovercard&#34; href=&#34;https://github.com/kubernetes-sigs/kustomize/pull/4424&#34;&gt;#4424&lt;/a&gt;)&lt;br&gt;&#xA;&lt;a class=&#34;commit-link&#34; data-hovercard-type=&#34;commit&#34; data-hovercard-url=&#34;https://github.com/kubernetes-sigs/kustomize/commit/d1d578c39289860826d8f18481776ae7330ba1c7/hovercard&#34; href=&#34;https://github.com/kubernetes-sigs/kustomize/commit/d1d578c39289860826d8f18481776ae7330ba1c7&#34;&gt;&lt;tt&gt;d1d578c&lt;/tt&gt;&lt;/a&gt; Support for multiple replacements in a single file (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1148548093&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/kubernetes-sigs/kustomize/issues/4485&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/kubernetes-sigs/kustomize/pull/4485/hovercard&#34; href=&#34;https://github.com/kubernetes-sigs/kustomize/pull/4485&#34;&gt;#4485&lt;/a&gt;)&lt;/p&gt;&#xA;&lt;h3&gt;Bug Fixes&lt;/h3&gt;&#xA;&lt;p&gt;&lt;a class=&#34;commit-link&#34; data-hovercard-type=&#34;commit&#34; data-hovercard-url=&#34;https://github.com/kubernetes-sigs/kustomize/commit/7b0ec99d90393051b8a0b872787d6976f63f4ba5/hovercard&#34; href=&#34;https://github.com/kubernetes-sigs/kustomize/commit/7b0ec99d90393051b8a0b872787d6976f63f4ba5&#34;&gt;&lt;tt&gt;7b0ec99&lt;/tt&gt;&lt;/a&gt; Retain quotes in namespace transformer filter (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1114472330&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/kubernetes-sigs/kustomize/issues/4421&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/kubernetes-sigs/kustomize/pull/4421/hovercard&#34; href=&#34;https://github.com/kubernetes-sigs/kustomize/pull/4421&#34;&gt;#4421&lt;/a&gt;)&lt;br&gt;&#xA;&lt;a class=&#34;commit-link&#34; data-hovercard-type=&#34;commit&#34; data-hovercard-url=&#34;https://github.com/kubernetes-sigs/kustomize/commit/cb80659c22d884d5f62b4541ea081b1ee9e7eced/hovercard&#34; href=&#34;https://github.com/kubernetes-sigs/kustomize/commit/cb80659c22d884d5f62b4541ea081b1ee9e7eced&#34;&gt;&lt;tt&gt;cb80659&lt;/tt&gt;&lt;/a&gt; Preserve scalar types when using the replacement filter (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1150710751&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/kubernetes-sigs/kustomize/issues/4494&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/kubernetes-sigs/kustomize/pull/4494/hovercard&#34; href=&#34;https://github.com/kubernetes-sigs/kustomize/pull/4494&#34;&gt;#4494&lt;/a&gt;)&lt;br&gt;&#xA;&lt;a class=&#34;commit-link&#34; data-hovercard-type=&#34;commit&#34; data-hovercard-url=&#34;https://github.com/kubernetes-sigs/kustomize/commit/7a3c426899308f8fc6e27d5496a6a9a3b8b5cdd5/hovercard&#34; href=&#34;https://github.com/kubernetes-sigs/kustomize/commit/7a3c426899308f8fc6e27d5496a6a9a3b8b5cdd5&#34;&gt;&lt;tt&gt;7a3c426&lt;/tt&gt;&lt;/a&gt; Fix image name parsing with tag and digest (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1108630622&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/kubernetes-sigs/kustomize/issues/4406&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/kubernetes-sigs/kustomize/pull/4406/hovercard&#34; href=&#34;https://github.com/kubernetes-sigs/kustomize/pull/4406&#34;&gt;#4406&lt;/a&gt;)&lt;br&gt;&#xA;&lt;a class=&#34;commit-link&#34; data-hovercard-type=&#34;commit&#34; data-hovercard-url=&#34;https://github.com/kubernetes-sigs/kustomize/commit/3421fcf81e8ff75fc6376b2c2158691ba8177b07/hovercard&#34; href=&#34;https://github.com/kubernetes-sigs/kustomize/commit/3421fcf81e8ff75fc6376b2c2158691ba8177b07&#34;&gt;&lt;tt&gt;3421fcf&lt;/tt&gt;&lt;/a&gt; bump dependency cobra to pick up latest vulnerability solution&lt;/p&gt;</content>
+    <link href="https://github.com/kubernetes-sigs/kustomize/releases/tag/kustomize%2Fv4.5.3" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>KnVerey</name>
+    </author>
+  </entry>
+  <entry>
     <title>Release notes from kustomize - kyaml/v0.13.4</title>
-    <updated>2022-03-24T19:58:11Z</updated>
+    <updated>2022-03-24T20:58:59Z</updated>
     <id>tag:github.com,2008:Repository/133067498/kyaml/v0.13.4</id>
-    <content type="html">&lt;p&gt;&lt;a class=&#34;commit-link&#34; data-hovercard-type=&#34;commit&#34; data-hovercard-url=&#34;https://github.com/kubernetes-sigs/kustomize/commit/7b0ec99d90393051b8a0b872787d6976f63f4ba5/hovercard&#34; href=&#34;https://github.com/kubernetes-sigs/kustomize/commit/7b0ec99d90393051b8a0b872787d6976f63f4ba5&#34;&gt;&lt;tt&gt;7b0ec99&lt;/tt&gt;&lt;/a&gt; Retain quotes in namespace transformer filter (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1114472330&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/kubernetes-sigs/kustomize/issues/4421&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/kubernetes-sigs/kustomize/pull/4421/hovercard&#34; href=&#34;https://github.com/kubernetes-sigs/kustomize/pull/4421&#34;&gt;#4421&lt;/a&gt;)&lt;br&gt;&#xA;&lt;a class=&#34;commit-link&#34; data-hovercard-type=&#34;commit&#34; data-hovercard-url=&#34;https://github.com/kubernetes-sigs/kustomize/commit/97de780feb5156a4ad05551e511775ed06e4c2b0/hovercard&#34; href=&#34;https://github.com/kubernetes-sigs/kustomize/commit/97de780feb5156a4ad05551e511775ed06e4c2b0&#34;&gt;&lt;tt&gt;97de780&lt;/tt&gt;&lt;/a&gt; Support expanding anchor tags (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1099526174&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/kubernetes-sigs/kustomize/issues/4383&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/kubernetes-sigs/kustomize/pull/4383/hovercard&#34; href=&#34;https://github.com/kubernetes-sigs/kustomize/pull/4383&#34;&gt;#4383&lt;/a&gt;) (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1129199346&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/kubernetes-sigs/kustomize/issues/4467&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/kubernetes-sigs/kustomize/pull/4467/hovercard&#34; href=&#34;https://github.com/kubernetes-sigs/kustomize/pull/4467&#34;&gt;#4467&lt;/a&gt;)&lt;br&gt;&#xA;&lt;a class=&#34;commit-link&#34; data-hovercard-type=&#34;commit&#34; data-hovercard-url=&#34;https://github.com/kubernetes-sigs/kustomize/commit/26b9af03790443ddb294e5976611446eb0b4d0e0/hovercard&#34; href=&#34;https://github.com/kubernetes-sigs/kustomize/commit/26b9af03790443ddb294e5976611446eb0b4d0e0&#34;&gt;&lt;tt&gt;26b9af0&lt;/tt&gt;&lt;/a&gt; Allow setting every array element in replacements (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1115512559&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/kubernetes-sigs/kustomize/issues/4424&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/kubernetes-sigs/kustomize/pull/4424/hovercard&#34; href=&#34;https://github.com/kubernetes-sigs/kustomize/pull/4424&#34;&gt;#4424&lt;/a&gt;)&lt;/p&gt;</content>
+    <content type="html">&lt;p&gt;&lt;a class=&#34;commit-link&#34; data-hovercard-type=&#34;commit&#34; data-hovercard-url=&#34;https://github.com/kubernetes-sigs/kustomize/commit/7b0ec99d90393051b8a0b872787d6976f63f4ba5/hovercard&#34; href=&#34;https://github.com/kubernetes-sigs/kustomize/commit/7b0ec99d90393051b8a0b872787d6976f63f4ba5&#34;&gt;&lt;tt&gt;7b0ec99&lt;/tt&gt;&lt;/a&gt; Retain quotes in namespace transformer filter (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1114472330&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/kubernetes-sigs/kustomize/issues/4421&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/kubernetes-sigs/kustomize/pull/4421/hovercard&#34; href=&#34;https://github.com/kubernetes-sigs/kustomize/pull/4421&#34;&gt;#4421&lt;/a&gt;)&lt;br&gt;&#xA;&lt;a class=&#34;commit-link&#34; data-hovercard-type=&#34;commit&#34; data-hovercard-url=&#34;https://github.com/kubernetes-sigs/kustomize/commit/97de780feb5156a4ad05551e511775ed06e4c2b0/hovercard&#34; href=&#34;https://github.com/kubernetes-sigs/kustomize/commit/97de780feb5156a4ad05551e511775ed06e4c2b0&#34;&gt;&lt;tt&gt;97de780&lt;/tt&gt;&lt;/a&gt; Support expanding anchor tags (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1099526174&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/kubernetes-sigs/kustomize/issues/4383&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/kubernetes-sigs/kustomize/pull/4383/hovercard&#34; href=&#34;https://github.com/kubernetes-sigs/kustomize/pull/4383&#34;&gt;#4383&lt;/a&gt;)&lt;br&gt;&#xA;fn framework: Enable validation using openAPI schema for functionConfig (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1129199346&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/kubernetes-sigs/kustomize/issues/4467&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/kubernetes-sigs/kustomize/pull/4467/hovercard&#34; href=&#34;https://github.com/kubernetes-sigs/kustomize/pull/4467&#34;&gt;#4467&lt;/a&gt;)&lt;br&gt;&#xA;&lt;a class=&#34;commit-link&#34; data-hovercard-type=&#34;commit&#34; data-hovercard-url=&#34;https://github.com/kubernetes-sigs/kustomize/commit/26b9af03790443ddb294e5976611446eb0b4d0e0/hovercard&#34; href=&#34;https://github.com/kubernetes-sigs/kustomize/commit/26b9af03790443ddb294e5976611446eb0b4d0e0&#34;&gt;&lt;tt&gt;26b9af0&lt;/tt&gt;&lt;/a&gt; Allow setting every array element in replacements (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1115512559&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/kubernetes-sigs/kustomize/issues/4424&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/kubernetes-sigs/kustomize/pull/4424/hovercard&#34; href=&#34;https://github.com/kubernetes-sigs/kustomize/pull/4424&#34;&gt;#4424&lt;/a&gt;)&lt;/p&gt;</content>
     <link href="https://github.com/kubernetes-sigs/kustomize/releases/tag/kyaml%2Fv0.13.4" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
@@ -15,14 +26,47 @@
     </author>
   </entry>
   <entry>
+    <title>Release notes from kustomize - api/v0.11.3</title>
+    <updated>2022-03-24T20:33:49Z</updated>
+    <id>tag:github.com,2008:Repository/133067498/api/v0.11.3</id>
+    <content type="html">&lt;p&gt;&lt;a class=&#34;commit-link&#34; data-hovercard-type=&#34;commit&#34; data-hovercard-url=&#34;https://github.com/kubernetes-sigs/kustomize/commit/cb80659c22d884d5f62b4541ea081b1ee9e7eced/hovercard&#34; href=&#34;https://github.com/kubernetes-sigs/kustomize/commit/cb80659c22d884d5f62b4541ea081b1ee9e7eced&#34;&gt;&lt;tt&gt;cb80659&lt;/tt&gt;&lt;/a&gt; Preserve scalar types when using the replacement filter (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1150710751&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/kubernetes-sigs/kustomize/issues/4494&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/kubernetes-sigs/kustomize/pull/4494/hovercard&#34; href=&#34;https://github.com/kubernetes-sigs/kustomize/pull/4494&#34;&gt;#4494&lt;/a&gt;)&lt;br&gt;&#xA;&lt;a class=&#34;commit-link&#34; data-hovercard-type=&#34;commit&#34; data-hovercard-url=&#34;https://github.com/kubernetes-sigs/kustomize/commit/d1d578c39289860826d8f18481776ae7330ba1c7/hovercard&#34; href=&#34;https://github.com/kubernetes-sigs/kustomize/commit/d1d578c39289860826d8f18481776ae7330ba1c7&#34;&gt;&lt;tt&gt;d1d578c&lt;/tt&gt;&lt;/a&gt; Support for multiple replacements in a single file (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1148548093&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/kubernetes-sigs/kustomize/issues/4485&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/kubernetes-sigs/kustomize/pull/4485/hovercard&#34; href=&#34;https://github.com/kubernetes-sigs/kustomize/pull/4485&#34;&gt;#4485&lt;/a&gt;)&lt;br&gt;&#xA;&lt;a class=&#34;commit-link&#34; data-hovercard-type=&#34;commit&#34; data-hovercard-url=&#34;https://github.com/kubernetes-sigs/kustomize/commit/7a3c426899308f8fc6e27d5496a6a9a3b8b5cdd5/hovercard&#34; href=&#34;https://github.com/kubernetes-sigs/kustomize/commit/7a3c426899308f8fc6e27d5496a6a9a3b8b5cdd5&#34;&gt;&lt;tt&gt;7a3c426&lt;/tt&gt;&lt;/a&gt; Fix image name parsing with tag and digest (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1108630622&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/kubernetes-sigs/kustomize/issues/4406&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/kubernetes-sigs/kustomize/pull/4406/hovercard&#34; href=&#34;https://github.com/kubernetes-sigs/kustomize/pull/4406&#34;&gt;#4406&lt;/a&gt;)&lt;/p&gt;</content>
+    <link href="https://github.com/kubernetes-sigs/kustomize/releases/tag/api%2Fv0.11.3" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>KnVerey</name>
+    </author>
+  </entry>
+  <entry>
     <title>Release notes from grype - v0.34.7</title>
-    <updated>2022-03-24T18:11:17Z</updated>
+    <updated>2022-03-24T20:32:33Z</updated>
     <id>tag:github.com,2008:Repository/267054247/v0.34.7</id>
-    <content type="html">&lt;p&gt;Update syft to v0.42.4 (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1179851314&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/anchore/grype/issues/697&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/anchore/grype/pull/697/hovercard&#34; href=&#34;https://github.com/anchore/grype/pull/697&#34;&gt;#697&lt;/a&gt;)&lt;/p&gt;</content>
+    <content type="html">&lt;h1&gt;Changelog&lt;/h1&gt;&#xA;&lt;h2&gt;&lt;a href=&#34;https://github.com/anchore/grype/tree/v0.34.7&#34;&gt;v0.34.7&lt;/a&gt; (2022-03-24)&lt;/h2&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://github.com/anchore/grype/compare/v0.34.6...v0.34.7&#34;&gt;Full Changelog&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h3&gt;Bug Fixes&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Bump strset version to fix 386 builds [&lt;a href=&#34;https://github.com/anchore/grype/pull/689&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/anchore/grype/pull/689/hovercard&#34;&gt;PR #689&lt;/a&gt;] [&lt;a href=&#34;https://github.com/wagoodman&#34;&gt;wagoodman&lt;/a&gt;]&lt;/li&gt;&#xA;&lt;li&gt;Grype cannot handle empty SBOMs, results in SIGSEGV [&lt;a href=&#34;https://github.com/anchore/grype/issues/693&#34; data-hovercard-type=&#34;issue&#34; data-hovercard-url=&#34;/anchore/grype/issues/693/hovercard&#34;&gt;Issue #693&lt;/a&gt;] [&lt;a href=&#34;https://github.com/luhring&#34;&gt;luhring&lt;/a&gt;]&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
     <link href="https://github.com/anchore/grype/releases/tag/v0.34.7" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
-      <name>kzantow</name>
+      <name>anchoreops</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from kustomize - kyaml/v0.13.5</title>
+    <updated>2022-03-24T20:27:17Z</updated>
+    <id>tag:github.com,2008:Repository/133067498/kyaml/v0.13.5</id>
+    <content type="html">&lt;p&gt;&#34;Release kyaml/v0.13.5 on branch release-kyaml-v0.13&#34;&lt;/p&gt;</content>
+    <link href="https://github.com/kubernetes-sigs/kustomize/releases/tag/kyaml%2Fv0.13.5" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>natasha41575</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from kustomize - cmd/config/v0.10.5</title>
+    <updated>2022-03-24T20:14:45Z</updated>
+    <id>tag:github.com,2008:Repository/133067498/cmd/config/v0.10.5</id>
+    <content type="html">&lt;p&gt;Update kyaml dependency.&lt;/p&gt;</content>
+    <link href="https://github.com/kubernetes-sigs/kustomize/releases/tag/cmd%2Fconfig%2Fv0.10.5" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>KnVerey</name>
     </author>
   </entry>
   <entry>
@@ -81,22 +125,22 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from telepresence - v2.5.4-rc.3</title>
+    <title>Release notes from telepresence - rpc/v2.5.4-rc.3</title>
     <updated>2022-03-23T14:14:59Z</updated>
-    <id>tag:github.com,2008:Repository/82933315/v2.5.4-rc.3</id>
+    <id>tag:github.com,2008:Repository/82933315/rpc/v2.5.4-rc.3</id>
     <content type="html">&lt;p&gt;v2.5.4-rc.3&lt;/p&gt;</content>
-    <link href="https://github.com/telepresenceio/telepresence/releases/tag/v2.5.4-rc.3" rel="alternate"></link>
+    <link href="https://github.com/telepresenceio/telepresence/releases/tag/rpc%2Fv2.5.4-rc.3" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>josecv</name>
     </author>
   </entry>
   <entry>
-    <title>Release notes from telepresence - rpc/v2.5.4-rc.3</title>
+    <title>Release notes from telepresence - v2.5.4-rc.3</title>
     <updated>2022-03-23T14:14:59Z</updated>
-    <id>tag:github.com,2008:Repository/82933315/rpc/v2.5.4-rc.3</id>
+    <id>tag:github.com,2008:Repository/82933315/v2.5.4-rc.3</id>
     <content type="html">&lt;p&gt;v2.5.4-rc.3&lt;/p&gt;</content>
-    <link href="https://github.com/telepresenceio/telepresence/releases/tag/rpc%2Fv2.5.4-rc.3" rel="alternate"></link>
+    <link href="https://github.com/telepresenceio/telepresence/releases/tag/v2.5.4-rc.3" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>josecv</name>
@@ -389,17 +433,6 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from google-cloud-go - video: v1.4.0</title>
-    <updated>2022-03-15T20:13:06Z</updated>
-    <id>tag:github.com,2008:Repository/19608522/video/v1.4.0</id>
-    <content type="html">&lt;h2&gt;&lt;a href=&#34;https://github.com/googleapis/google-cloud-go/compare/video/v1.3.0...video/v1.4.0&#34;&gt;1.4.0&lt;/a&gt; (2022-03-14)&lt;/h2&gt;&#xA;&lt;h3&gt;Features&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;video/stitcher:&lt;/strong&gt; start generating apiv1 (&lt;a href=&#34;https://github.com/googleapis/google-cloud-go/issues/5720&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/googleapis/google-cloud-go/pull/5720/hovercard&#34;&gt;#5720&lt;/a&gt;) (&lt;a href=&#34;https://github.com/googleapis/google-cloud-go/commit/4ca8fea35c1c5f3e2675c666e238bb1dc3561d52&#34;&gt;4ca8fea&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/googleapis/google-cloud-go/releases/tag/video%2Fv1.4.0" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>release-please[bot]</name>
-    </author>
-  </entry>
-  <entry>
     <title>Release notes from google-cloud-go - analytics: v0.6.0</title>
     <updated>2022-03-15T20:13:06Z</updated>
     <id>tag:github.com,2008:Repository/19608522/analytics/v0.6.0</id>
@@ -411,11 +444,11 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from google-cloud-go - dialogflow: v1.7.0</title>
-    <updated>2022-03-15T20:13:05Z</updated>
-    <id>tag:github.com,2008:Repository/19608522/dialogflow/v1.7.0</id>
-    <content type="html">&lt;h2&gt;&lt;a href=&#34;https://github.com/googleapis/google-cloud-go/compare/dialogflow/v1.6.0...dialogflow/v1.7.0&#34;&gt;1.7.0&lt;/a&gt; (2022-03-14)&lt;/h2&gt;&#xA;&lt;h3&gt;Features&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;dialogflow:&lt;/strong&gt; added ConversationModel resource and its APIs feat: added ConversationDataset resource and its APIs feat: added SetSuggestionFeatureConfig and ClearSuggestionFeatureConfig APIs for ConversationProfile feat: added new knowledge type of Document content feat: added states of Document feat: added metadata for the Knowledge operation docs: updated copyright (&lt;a href=&#34;https://github.com/googleapis/google-cloud-go/commit/96c9d7ee74af075fdd17b02233ac92fba6d89988&#34;&gt;96c9d7e&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/googleapis/google-cloud-go/releases/tag/dialogflow%2Fv1.7.0" rel="alternate"></link>
+    <title>Release notes from google-cloud-go - video: v1.4.0</title>
+    <updated>2022-03-15T20:13:06Z</updated>
+    <id>tag:github.com,2008:Repository/19608522/video/v1.4.0</id>
+    <content type="html">&lt;h2&gt;&lt;a href=&#34;https://github.com/googleapis/google-cloud-go/compare/video/v1.3.0...video/v1.4.0&#34;&gt;1.4.0&lt;/a&gt; (2022-03-14)&lt;/h2&gt;&#xA;&lt;h3&gt;Features&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;video/stitcher:&lt;/strong&gt; start generating apiv1 (&lt;a href=&#34;https://github.com/googleapis/google-cloud-go/issues/5720&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/googleapis/google-cloud-go/pull/5720/hovercard&#34;&gt;#5720&lt;/a&gt;) (&lt;a href=&#34;https://github.com/googleapis/google-cloud-go/commit/4ca8fea35c1c5f3e2675c666e238bb1dc3561d52&#34;&gt;4ca8fea&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/googleapis/google-cloud-go/releases/tag/video%2Fv1.4.0" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>release-please[bot]</name>
@@ -449,6 +482,17 @@
     <id>tag:github.com,2008:Repository/19608522/gkehub/v0.5.0</id>
     <content type="html">&lt;h2&gt;&lt;a href=&#34;https://github.com/googleapis/google-cloud-go/compare/gkehub/v0.4.0...gkehub/v0.5.0&#34;&gt;0.5.0&lt;/a&gt; (2022-03-14)&lt;/h2&gt;&#xA;&lt;h3&gt;Features&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;gkehub:&lt;/strong&gt; added support for k8s_version field docs: k8s_version field is not part of resource_options struct (&lt;a href=&#34;https://github.com/googleapis/google-cloud-go/commit/a4f8273697a888473689db9b887298c74e0aebf3&#34;&gt;a4f8273&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
     <link href="https://github.com/googleapis/google-cloud-go/releases/tag/gkehub%2Fv0.5.0" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>release-please[bot]</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from google-cloud-go - dialogflow: v1.7.0</title>
+    <updated>2022-03-15T20:13:05Z</updated>
+    <id>tag:github.com,2008:Repository/19608522/dialogflow/v1.7.0</id>
+    <content type="html">&lt;h2&gt;&lt;a href=&#34;https://github.com/googleapis/google-cloud-go/compare/dialogflow/v1.6.0...dialogflow/v1.7.0&#34;&gt;1.7.0&lt;/a&gt; (2022-03-14)&lt;/h2&gt;&#xA;&lt;h3&gt;Features&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;dialogflow:&lt;/strong&gt; added ConversationModel resource and its APIs feat: added ConversationDataset resource and its APIs feat: added SetSuggestionFeatureConfig and ClearSuggestionFeatureConfig APIs for ConversationProfile feat: added new knowledge type of Document content feat: added states of Document feat: added metadata for the Knowledge operation docs: updated copyright (&lt;a href=&#34;https://github.com/googleapis/google-cloud-go/commit/96c9d7ee74af075fdd17b02233ac92fba6d89988&#34;&gt;96c9d7e&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/googleapis/google-cloud-go/releases/tag/dialogflow%2Fv1.7.0" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>release-please[bot]</name>
@@ -631,22 +675,22 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from telepresence - v2.5.4-test.3</title>
+    <title>Release notes from telepresence - rpc/v2.5.4-test.3</title>
     <updated>2022-03-11T14:51:42Z</updated>
-    <id>tag:github.com,2008:Repository/82933315/v2.5.4-test.3</id>
+    <id>tag:github.com,2008:Repository/82933315/rpc/v2.5.4-test.3</id>
     <content type="html">&lt;p&gt;v2.5.4-test.3&lt;/p&gt;</content>
-    <link href="https://github.com/telepresenceio/telepresence/releases/tag/v2.5.4-test.3" rel="alternate"></link>
+    <link href="https://github.com/telepresenceio/telepresence/releases/tag/rpc%2Fv2.5.4-test.3" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>josecv</name>
     </author>
   </entry>
   <entry>
-    <title>Release notes from telepresence - rpc/v2.5.4-test.3</title>
+    <title>Release notes from telepresence - v2.5.4-test.3</title>
     <updated>2022-03-11T14:51:42Z</updated>
-    <id>tag:github.com,2008:Repository/82933315/rpc/v2.5.4-test.3</id>
+    <id>tag:github.com,2008:Repository/82933315/v2.5.4-test.3</id>
     <content type="html">&lt;p&gt;v2.5.4-test.3&lt;/p&gt;</content>
-    <link href="https://github.com/telepresenceio/telepresence/releases/tag/rpc%2Fv2.5.4-test.3" rel="alternate"></link>
+    <link href="https://github.com/telepresenceio/telepresence/releases/tag/v2.5.4-test.3" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>josecv</name>
@@ -961,44 +1005,11 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from chakra-ui - @chakra-ui/tooltip@1.4.9</title>
-    <updated>2022-02-28T23:07:28Z</updated>
-    <id>tag:github.com,2008:Repository/202890778/@chakra-ui/tooltip@1.4.9</id>
-    <content type="html">&lt;h3&gt;Patch Changes&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Updated dependencies&lt;br&gt;&#xA;[&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/commit/5cd5cff35e4837539d83a2157a07585d461b0aac&#34;&gt;&lt;code&gt;5cd5cff35&lt;/code&gt;&lt;/a&gt;]:&#xA;&lt;ul&gt;&#xA;&lt;li&gt;@chakra-ui/hooks@1.8.5&lt;/li&gt;&#xA;&lt;li&gt;@chakra-ui/portal@1.3.8&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/chakra-ui/chakra-ui/releases/tag/%40chakra-ui%2Ftooltip%401.4.9" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>github-actions[bot]</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from chakra-ui - @chakra-ui/skeleton@1.2.12</title>
-    <updated>2022-02-28T23:07:28Z</updated>
-    <id>tag:github.com,2008:Repository/202890778/@chakra-ui/skeleton@1.2.12</id>
-    <content type="html">&lt;h3&gt;Patch Changes&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Updated dependencies&lt;br&gt;&#xA;[&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/commit/d6bed344f30af50c84d3ed802ec3f0c981586588&#34;&gt;&lt;code&gt;d6bed344f&lt;/code&gt;&lt;/a&gt;,&lt;br&gt;&#xA;&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/commit/5cd5cff35e4837539d83a2157a07585d461b0aac&#34;&gt;&lt;code&gt;5cd5cff35&lt;/code&gt;&lt;/a&gt;]:&#xA;&lt;ul&gt;&#xA;&lt;li&gt;@chakra-ui/media-query@2.0.4&lt;/li&gt;&#xA;&lt;li&gt;@chakra-ui/hooks@1.8.5&lt;/li&gt;&#xA;&lt;li&gt;@chakra-ui/system@1.11.2&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/chakra-ui/chakra-ui/releases/tag/%40chakra-ui%2Fskeleton%401.2.12" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>github-actions[bot]</name>
-    </author>
-  </entry>
-  <entry>
     <title>Release notes from chakra-ui - @chakra-ui/switch@1.3.8</title>
     <updated>2022-02-28T23:07:28Z</updated>
     <id>tag:github.com,2008:Repository/202890778/@chakra-ui/switch@1.3.8</id>
     <content type="html">&lt;h3&gt;Patch Changes&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Updated dependencies []:&#xA;&lt;ul&gt;&#xA;&lt;li&gt;@chakra-ui/checkbox@1.6.8&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
     <link href="https://github.com/chakra-ui/chakra-ui/releases/tag/%40chakra-ui%2Fswitch%401.3.8" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>github-actions[bot]</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from chakra-ui - @chakra-ui/system@1.11.2</title>
-    <updated>2022-02-28T23:07:28Z</updated>
-    <id>tag:github.com,2008:Repository/202890778/@chakra-ui/system@1.11.2</id>
-    <content type="html">&lt;h3&gt;Patch Changes&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Updated dependencies&lt;br&gt;&#xA;[&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/commit/001751162dd1922d8ab53820f405665f0785f196&#34;&gt;&lt;code&gt;001751162&lt;/code&gt;&lt;/a&gt;]:&#xA;&lt;ul&gt;&#xA;&lt;li&gt;@chakra-ui/color-mode@1.4.6&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/chakra-ui/chakra-ui/releases/tag/%40chakra-ui%2Fsystem%401.11.2" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>github-actions[bot]</name>
@@ -1016,11 +1027,22 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from chakra-ui - @chakra-ui/toast@1.5.7</title>
+    <title>Release notes from chakra-ui - @chakra-ui/skeleton@1.2.12</title>
     <updated>2022-02-28T23:07:28Z</updated>
-    <id>tag:github.com,2008:Repository/202890778/@chakra-ui/toast@1.5.7</id>
-    <content type="html">&lt;h3&gt;Patch Changes&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Updated dependencies&lt;br&gt;&#xA;[&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/commit/fbe94622357e22acaf8bab0eae33ceae663d7a5b&#34;&gt;&lt;code&gt;fbe946223&lt;/code&gt;&lt;/a&gt;,&lt;br&gt;&#xA;&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/commit/5cd5cff35e4837539d83a2157a07585d461b0aac&#34;&gt;&lt;code&gt;5cd5cff35&lt;/code&gt;&lt;/a&gt;]:&#xA;&lt;ul&gt;&#xA;&lt;li&gt;@chakra-ui/theme@1.14.0&lt;/li&gt;&#xA;&lt;li&gt;@chakra-ui/hooks@1.8.5&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/chakra-ui/chakra-ui/releases/tag/%40chakra-ui%2Ftoast%401.5.7" rel="alternate"></link>
+    <id>tag:github.com,2008:Repository/202890778/@chakra-ui/skeleton@1.2.12</id>
+    <content type="html">&lt;h3&gt;Patch Changes&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Updated dependencies&lt;br&gt;&#xA;[&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/commit/d6bed344f30af50c84d3ed802ec3f0c981586588&#34;&gt;&lt;code&gt;d6bed344f&lt;/code&gt;&lt;/a&gt;,&lt;br&gt;&#xA;&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/commit/5cd5cff35e4837539d83a2157a07585d461b0aac&#34;&gt;&lt;code&gt;5cd5cff35&lt;/code&gt;&lt;/a&gt;]:&#xA;&lt;ul&gt;&#xA;&lt;li&gt;@chakra-ui/media-query@2.0.4&lt;/li&gt;&#xA;&lt;li&gt;@chakra-ui/hooks@1.8.5&lt;/li&gt;&#xA;&lt;li&gt;@chakra-ui/system@1.11.2&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/chakra-ui/chakra-ui/releases/tag/%40chakra-ui%2Fskeleton%401.2.12" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>github-actions[bot]</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from chakra-ui - @chakra-ui/theme@1.14.0</title>
+    <updated>2022-02-28T23:07:28Z</updated>
+    <id>tag:github.com,2008:Repository/202890778/@chakra-ui/theme@1.14.0</id>
+    <content type="html">&lt;h3&gt;Minor Changes&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/pull/4443&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/chakra-ui/chakra-ui/pull/4443/hovercard&#34;&gt;#4443&lt;/a&gt;&lt;br&gt;&#xA;&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/commit/fbe94622357e22acaf8bab0eae33ceae663d7a5b&#34;&gt;&lt;code&gt;fbe946223&lt;/code&gt;&lt;/a&gt;&lt;br&gt;&#xA;Thanks &lt;a href=&#34;https://github.com/heozeop&#34;&gt;@heozeop&lt;/a&gt;! - Add styles for new &lt;code&gt;textarea&lt;/code&gt;&lt;br&gt;&#xA;element in &lt;code&gt;Editable&lt;/code&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3&gt;Patch Changes&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Updated dependencies&lt;br&gt;&#xA;[&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/commit/fbe94622357e22acaf8bab0eae33ceae663d7a5b&#34;&gt;&lt;code&gt;fbe946223&lt;/code&gt;&lt;/a&gt;]:&#xA;&lt;ul&gt;&#xA;&lt;li&gt;@chakra-ui/anatomy@1.3.0&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/chakra-ui/chakra-ui/releases/tag/%40chakra-ui%2Ftheme%401.14.0" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>github-actions[bot]</name>
@@ -1038,6 +1060,28 @@
     </author>
   </entry>
   <entry>
+    <title>Release notes from chakra-ui - @chakra-ui/toast@1.5.7</title>
+    <updated>2022-02-28T23:07:28Z</updated>
+    <id>tag:github.com,2008:Repository/202890778/@chakra-ui/toast@1.5.7</id>
+    <content type="html">&lt;h3&gt;Patch Changes&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Updated dependencies&lt;br&gt;&#xA;[&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/commit/fbe94622357e22acaf8bab0eae33ceae663d7a5b&#34;&gt;&lt;code&gt;fbe946223&lt;/code&gt;&lt;/a&gt;,&lt;br&gt;&#xA;&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/commit/5cd5cff35e4837539d83a2157a07585d461b0aac&#34;&gt;&lt;code&gt;5cd5cff35&lt;/code&gt;&lt;/a&gt;]:&#xA;&lt;ul&gt;&#xA;&lt;li&gt;@chakra-ui/theme@1.14.0&lt;/li&gt;&#xA;&lt;li&gt;@chakra-ui/hooks@1.8.5&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/chakra-ui/chakra-ui/releases/tag/%40chakra-ui%2Ftoast%401.5.7" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>github-actions[bot]</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from chakra-ui - @chakra-ui/tooltip@1.4.9</title>
+    <updated>2022-02-28T23:07:28Z</updated>
+    <id>tag:github.com,2008:Repository/202890778/@chakra-ui/tooltip@1.4.9</id>
+    <content type="html">&lt;h3&gt;Patch Changes&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Updated dependencies&lt;br&gt;&#xA;[&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/commit/5cd5cff35e4837539d83a2157a07585d461b0aac&#34;&gt;&lt;code&gt;5cd5cff35&lt;/code&gt;&lt;/a&gt;]:&#xA;&lt;ul&gt;&#xA;&lt;li&gt;@chakra-ui/hooks@1.8.5&lt;/li&gt;&#xA;&lt;li&gt;@chakra-ui/portal@1.3.8&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/chakra-ui/chakra-ui/releases/tag/%40chakra-ui%2Ftooltip%401.4.9" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>github-actions[bot]</name>
+    </author>
+  </entry>
+  <entry>
     <title>Release notes from chakra-ui - @chakra-ui/textarea@1.2.9</title>
     <updated>2022-02-28T23:07:28Z</updated>
     <id>tag:github.com,2008:Repository/202890778/@chakra-ui/textarea@1.2.9</id>
@@ -1049,11 +1093,11 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from chakra-ui - @chakra-ui/theme@1.14.0</title>
+    <title>Release notes from chakra-ui - @chakra-ui/system@1.11.2</title>
     <updated>2022-02-28T23:07:28Z</updated>
-    <id>tag:github.com,2008:Repository/202890778/@chakra-ui/theme@1.14.0</id>
-    <content type="html">&lt;h3&gt;Minor Changes&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/pull/4443&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/chakra-ui/chakra-ui/pull/4443/hovercard&#34;&gt;#4443&lt;/a&gt;&lt;br&gt;&#xA;&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/commit/fbe94622357e22acaf8bab0eae33ceae663d7a5b&#34;&gt;&lt;code&gt;fbe946223&lt;/code&gt;&lt;/a&gt;&lt;br&gt;&#xA;Thanks &lt;a href=&#34;https://github.com/heozeop&#34;&gt;@heozeop&lt;/a&gt;! - Add styles for new &lt;code&gt;textarea&lt;/code&gt;&lt;br&gt;&#xA;element in &lt;code&gt;Editable&lt;/code&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3&gt;Patch Changes&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Updated dependencies&lt;br&gt;&#xA;[&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/commit/fbe94622357e22acaf8bab0eae33ceae663d7a5b&#34;&gt;&lt;code&gt;fbe946223&lt;/code&gt;&lt;/a&gt;]:&#xA;&lt;ul&gt;&#xA;&lt;li&gt;@chakra-ui/anatomy@1.3.0&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/chakra-ui/chakra-ui/releases/tag/%40chakra-ui%2Ftheme%401.14.0" rel="alternate"></link>
+    <id>tag:github.com,2008:Repository/202890778/@chakra-ui/system@1.11.2</id>
+    <content type="html">&lt;h3&gt;Patch Changes&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Updated dependencies&lt;br&gt;&#xA;[&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/commit/001751162dd1922d8ab53820f405665f0785f196&#34;&gt;&lt;code&gt;001751162&lt;/code&gt;&lt;/a&gt;]:&#xA;&lt;ul&gt;&#xA;&lt;li&gt;@chakra-ui/color-mode@1.4.6&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/chakra-ui/chakra-ui/releases/tag/%40chakra-ui%2Fsystem%401.11.2" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>github-actions[bot]</name>
@@ -1566,28 +1610,6 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from kustomize - api/v0.11.1</title>
-    <updated>2022-02-02T19:01:15Z</updated>
-    <id>tag:github.com,2008:Repository/133067498/api/v0.11.1</id>
-    <content type="html">&lt;p&gt;&lt;a class=&#34;commit-link&#34; data-hovercard-type=&#34;commit&#34; data-hovercard-url=&#34;https://github.com/kubernetes-sigs/kustomize/commit/a86723c3a376e429e063b5393cdf0e411cc121b7/hovercard&#34; href=&#34;https://github.com/kubernetes-sigs/kustomize/commit/a86723c3a376e429e063b5393cdf0e411cc121b7&#34;&gt;&lt;tt&gt;a86723c&lt;/tt&gt;&lt;/a&gt; Fix regression &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1103768426&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/kubernetes-sigs/kustomize/issues/4388&#34; data-hovercard-type=&#34;issue&#34; data-hovercard-url=&#34;/kubernetes-sigs/kustomize/issues/4388/hovercard&#34; href=&#34;https://github.com/kubernetes-sigs/kustomize/issues/4388&#34;&gt;#4388&lt;/a&gt;, which changed the order produced by sorting &lt;code&gt;IdSlice&lt;/code&gt;.  (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1122158142&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/kubernetes-sigs/kustomize/issues/4445&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/kubernetes-sigs/kustomize/pull/4445/hovercard&#34; href=&#34;https://github.com/kubernetes-sigs/kustomize/pull/4445&#34;&gt;#4445&lt;/a&gt;)&lt;/p&gt;</content>
-    <link href="https://github.com/kubernetes-sigs/kustomize/releases/tag/api%2Fv0.11.1" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>KnVerey</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from kustomize - cmd/config/v0.10.4</title>
-    <updated>2022-02-02T18:44:31Z</updated>
-    <id>tag:github.com,2008:Repository/133067498/cmd/config/v0.10.4</id>
-    <content type="html">&lt;p&gt;&lt;a class=&#34;commit-link&#34; data-hovercard-type=&#34;commit&#34; data-hovercard-url=&#34;https://github.com/kubernetes-sigs/kustomize/commit/32e13bdf664257c90f609cb14a1bf09242f0efba/hovercard&#34; href=&#34;https://github.com/kubernetes-sigs/kustomize/commit/32e13bdf664257c90f609cb14a1bf09242f0efba&#34;&gt;&lt;tt&gt;32e13bd&lt;/tt&gt;&lt;/a&gt; Pin to kyaml v0.13.3&lt;/p&gt;</content>
-    <link href="https://github.com/kubernetes-sigs/kustomize/releases/tag/cmd%2Fconfig%2Fv0.10.4" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>KnVerey</name>
-    </author>
-  </entry>
-  <entry>
     <title>Release notes from kustomize - kyaml/v0.13.3</title>
     <updated>2022-02-02T18:35:48Z</updated>
     <id>tag:github.com,2008:Repository/133067498/kyaml/v0.13.3</id>
@@ -1629,28 +1651,6 @@
     <summary type="html"></summary>
     <author>
       <name>github-actions[bot]</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from kustomize - cmd/config/v0.10.3</title>
-    <updated>2022-02-01T23:29:05Z</updated>
-    <id>tag:github.com,2008:Repository/133067498/cmd/config/v0.10.3</id>
-    <content type="html">&lt;p&gt;&lt;a class=&#34;commit-link&#34; data-hovercard-type=&#34;commit&#34; data-hovercard-url=&#34;https://github.com/kubernetes-sigs/kustomize/commit/7af5ce56bdf519a231e2d85a865577a014ef6c7c/hovercard&#34; href=&#34;https://github.com/kubernetes-sigs/kustomize/commit/7af5ce56bdf519a231e2d85a865577a014ef6c7c&#34;&gt;&lt;tt&gt;7af5ce5&lt;/tt&gt;&lt;/a&gt; Fix deprecated command on run-fns help docs (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1109879871&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/kubernetes-sigs/kustomize/issues/4411&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/kubernetes-sigs/kustomize/pull/4411/hovercard&#34; href=&#34;https://github.com/kubernetes-sigs/kustomize/pull/4411&#34;&gt;#4411&lt;/a&gt;)&lt;br&gt;&#xA;&lt;a class=&#34;commit-link&#34; data-hovercard-type=&#34;commit&#34; data-hovercard-url=&#34;https://github.com/kubernetes-sigs/kustomize/commit/31b7cf9e0ade317f39133c7de81ba0881ced6d00/hovercard&#34; href=&#34;https://github.com/kubernetes-sigs/kustomize/commit/31b7cf9e0ade317f39133c7de81ba0881ced6d00&#34;&gt;&lt;tt&gt;31b7cf9&lt;/tt&gt;&lt;/a&gt; Commands now complete file paths on ZSH. (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1064812165&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/kubernetes-sigs/kustomize/issues/4310&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/kubernetes-sigs/kustomize/pull/4310/hovercard&#34; href=&#34;https://github.com/kubernetes-sigs/kustomize/pull/4310&#34;&gt;#4310&lt;/a&gt;)&lt;/p&gt;</content>
-    <link href="https://github.com/kubernetes-sigs/kustomize/releases/tag/cmd%2Fconfig%2Fv0.10.3" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>KnVerey</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from kustomize - kyaml/v0.13.2</title>
-    <updated>2022-02-01T22:36:04Z</updated>
-    <id>tag:github.com,2008:Repository/133067498/kyaml/v0.13.2</id>
-    <content type="html">&lt;p&gt;&lt;a class=&#34;commit-link&#34; data-hovercard-type=&#34;commit&#34; data-hovercard-url=&#34;https://github.com/kubernetes-sigs/kustomize/commit/3687250ca2975f57d7ec362eed8f116b8dcc8cf2/hovercard&#34; href=&#34;https://github.com/kubernetes-sigs/kustomize/commit/3687250ca2975f57d7ec362eed8f116b8dcc8cf2&#34;&gt;&lt;tt&gt;3687250&lt;/tt&gt;&lt;/a&gt; Add TrackableFilter interface (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1109758720&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/kubernetes-sigs/kustomize/issues/4410&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/kubernetes-sigs/kustomize/pull/4410/hovercard&#34; href=&#34;https://github.com/kubernetes-sigs/kustomize/pull/4410&#34;&gt;#4410&lt;/a&gt;)&lt;br&gt;&#xA;&lt;a class=&#34;commit-link&#34; data-hovercard-type=&#34;commit&#34; data-hovercard-url=&#34;https://github.com/kubernetes-sigs/kustomize/commit/31b7cf9e0ade317f39133c7de81ba0881ced6d00/hovercard&#34; href=&#34;https://github.com/kubernetes-sigs/kustomize/commit/31b7cf9e0ade317f39133c7de81ba0881ced6d00&#34;&gt;&lt;tt&gt;31b7cf9&lt;/tt&gt;&lt;/a&gt; &lt;code&gt;kustomize build ...&lt;/code&gt; now complete file paths on ZSH. (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1064812165&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/kubernetes-sigs/kustomize/issues/4310&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/kubernetes-sigs/kustomize/pull/4310/hovercard&#34; href=&#34;https://github.com/kubernetes-sigs/kustomize/pull/4310&#34;&gt;#4310&lt;/a&gt;)&lt;br&gt;&#xA;&lt;a class=&#34;commit-link&#34; data-hovercard-type=&#34;commit&#34; data-hovercard-url=&#34;https://github.com/kubernetes-sigs/kustomize/commit/c659306ee26c8f6f54f518ca637a4fb361e892f4/hovercard&#34; href=&#34;https://github.com/kubernetes-sigs/kustomize/commit/c659306ee26c8f6f54f518ca637a4fb361e892f4&#34;&gt;&lt;tt&gt;c659306&lt;/tt&gt;&lt;/a&gt; Don&#39;t surface entire node content in error message (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1087261672&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/kubernetes-sigs/kustomize/issues/4352&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/kubernetes-sigs/kustomize/pull/4352/hovercard&#34; href=&#34;https://github.com/kubernetes-sigs/kustomize/pull/4352&#34;&gt;#4352&lt;/a&gt;)&lt;/p&gt;</content>
-    <link href="https://github.com/kubernetes-sigs/kustomize/releases/tag/kyaml%2Fv0.13.2" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>KnVerey</name>
     </author>
   </entry>
   <entry>
