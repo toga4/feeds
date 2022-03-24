@@ -1,8 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?><feed xmlns="http://www.w3.org/2005/Atom">
   <title>Releases from Starred by toga4</title>
   <id>https://toga4.github.io/feeds/starred-releases.atom</id>
-  <updated>2022-03-24T08:42:50Z</updated>
+  <updated>2022-03-24T12:07:35Z</updated>
   <link href="https://toga4.github.io/feeds/starred-releases.atom"></link>
+  <entry>
+    <title>Release notes from golangci-lint - v1.45.2</title>
+    <updated>2022-03-24T12:07:35Z</updated>
+    <id>tag:github.com,2008:Repository/132145189/v1.45.2</id>
+    <content type="html">&lt;h2&gt;Changelog&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a class=&#34;commit-link&#34; data-hovercard-type=&#34;commit&#34; data-hovercard-url=&#34;https://github.com/golangci/golangci-lint/commit/8bdc4d3f8044b1a20e10a9f519b5f738e8188877/hovercard&#34; href=&#34;https://github.com/golangci/golangci-lint/commit/8bdc4d3f8044b1a20e10a9f519b5f738e8188877&#34;&gt;&lt;tt&gt;8bdc4d3&lt;/tt&gt;&lt;/a&gt; fix: help command (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1179358238&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/golangci/golangci-lint/issues/2681&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/golangci/golangci-lint/pull/2681/hovercard&#34; href=&#34;https://github.com/golangci/golangci-lint/pull/2681&#34;&gt;#2681&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/golangci/golangci-lint/releases/tag/v1.45.2" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>golangci-releaser</name>
+    </author>
+  </entry>
   <entry>
     <title>Release notes from golangci-lint - v1.45.1</title>
     <updated>2022-03-24T08:42:50Z</updated>
@@ -367,11 +378,11 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from google-cloud-go - aiplatform: v1.6.0</title>
+    <title>Release notes from google-cloud-go - dialogflow: v1.7.0</title>
     <updated>2022-03-15T20:13:05Z</updated>
-    <id>tag:github.com,2008:Repository/19608522/aiplatform/v1.6.0</id>
-    <content type="html">&lt;h2&gt;&lt;a href=&#34;https://github.com/googleapis/google-cloud-go/compare/aiplatform/v1.5.0...aiplatform/v1.6.0&#34;&gt;1.6.0&lt;/a&gt; (2022-03-14)&lt;/h2&gt;&#xA;&lt;h3&gt;Features&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;aiplatform:&lt;/strong&gt; start generating apiv1beta1 (&lt;a href=&#34;https://github.com/googleapis/google-cloud-go/issues/5738&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/googleapis/google-cloud-go/pull/5738/hovercard&#34;&gt;#5738&lt;/a&gt;) (&lt;a href=&#34;https://github.com/googleapis/google-cloud-go/commit/a213bff65e4e47912f94ab5cb1426dbb142fa493&#34;&gt;a213bff&lt;/a&gt;), refs &lt;a href=&#34;https://github.com/googleapis/google-cloud-go/issues/5737&#34; data-hovercard-type=&#34;issue&#34; data-hovercard-url=&#34;/googleapis/google-cloud-go/issues/5737/hovercard&#34;&gt;#5737&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/googleapis/google-cloud-go/releases/tag/aiplatform%2Fv1.6.0" rel="alternate"></link>
+    <id>tag:github.com,2008:Repository/19608522/dialogflow/v1.7.0</id>
+    <content type="html">&lt;h2&gt;&lt;a href=&#34;https://github.com/googleapis/google-cloud-go/compare/dialogflow/v1.6.0...dialogflow/v1.7.0&#34;&gt;1.7.0&lt;/a&gt; (2022-03-14)&lt;/h2&gt;&#xA;&lt;h3&gt;Features&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;dialogflow:&lt;/strong&gt; added ConversationModel resource and its APIs feat: added ConversationDataset resource and its APIs feat: added SetSuggestionFeatureConfig and ClearSuggestionFeatureConfig APIs for ConversationProfile feat: added new knowledge type of Document content feat: added states of Document feat: added metadata for the Knowledge operation docs: updated copyright (&lt;a href=&#34;https://github.com/googleapis/google-cloud-go/commit/96c9d7ee74af075fdd17b02233ac92fba6d89988&#34;&gt;96c9d7e&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/googleapis/google-cloud-go/releases/tag/dialogflow%2Fv1.7.0" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>release-please[bot]</name>
@@ -400,11 +411,11 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from google-cloud-go - dialogflow: v1.7.0</title>
+    <title>Release notes from google-cloud-go - aiplatform: v1.6.0</title>
     <updated>2022-03-15T20:13:05Z</updated>
-    <id>tag:github.com,2008:Repository/19608522/dialogflow/v1.7.0</id>
-    <content type="html">&lt;h2&gt;&lt;a href=&#34;https://github.com/googleapis/google-cloud-go/compare/dialogflow/v1.6.0...dialogflow/v1.7.0&#34;&gt;1.7.0&lt;/a&gt; (2022-03-14)&lt;/h2&gt;&#xA;&lt;h3&gt;Features&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;dialogflow:&lt;/strong&gt; added ConversationModel resource and its APIs feat: added ConversationDataset resource and its APIs feat: added SetSuggestionFeatureConfig and ClearSuggestionFeatureConfig APIs for ConversationProfile feat: added new knowledge type of Document content feat: added states of Document feat: added metadata for the Knowledge operation docs: updated copyright (&lt;a href=&#34;https://github.com/googleapis/google-cloud-go/commit/96c9d7ee74af075fdd17b02233ac92fba6d89988&#34;&gt;96c9d7e&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/googleapis/google-cloud-go/releases/tag/dialogflow%2Fv1.7.0" rel="alternate"></link>
+    <id>tag:github.com,2008:Repository/19608522/aiplatform/v1.6.0</id>
+    <content type="html">&lt;h2&gt;&lt;a href=&#34;https://github.com/googleapis/google-cloud-go/compare/aiplatform/v1.5.0...aiplatform/v1.6.0&#34;&gt;1.6.0&lt;/a&gt; (2022-03-14)&lt;/h2&gt;&#xA;&lt;h3&gt;Features&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;aiplatform:&lt;/strong&gt; start generating apiv1beta1 (&lt;a href=&#34;https://github.com/googleapis/google-cloud-go/issues/5738&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/googleapis/google-cloud-go/pull/5738/hovercard&#34;&gt;#5738&lt;/a&gt;) (&lt;a href=&#34;https://github.com/googleapis/google-cloud-go/commit/a213bff65e4e47912f94ab5cb1426dbb142fa493&#34;&gt;a213bff&lt;/a&gt;), refs &lt;a href=&#34;https://github.com/googleapis/google-cloud-go/issues/5737&#34; data-hovercard-type=&#34;issue&#34; data-hovercard-url=&#34;/googleapis/google-cloud-go/issues/5737/hovercard&#34;&gt;#5737&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/googleapis/google-cloud-go/releases/tag/aiplatform%2Fv1.6.0" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>release-please[bot]</name>
@@ -477,22 +488,22 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from telepresence - rpc/v2.5.4-rc.0</title>
+    <title>Release notes from telepresence - v2.5.4-rc.0</title>
     <updated>2022-03-15T03:56:22Z</updated>
-    <id>tag:github.com,2008:Repository/82933315/rpc/v2.5.4-rc.0</id>
+    <id>tag:github.com,2008:Repository/82933315/v2.5.4-rc.0</id>
     <content type="html">&lt;p&gt;v2.5.4-rc.0&lt;/p&gt;</content>
-    <link href="https://github.com/telepresenceio/telepresence/releases/tag/rpc%2Fv2.5.4-rc.0" rel="alternate"></link>
+    <link href="https://github.com/telepresenceio/telepresence/releases/tag/v2.5.4-rc.0" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>njayp</name>
     </author>
   </entry>
   <entry>
-    <title>Release notes from telepresence - v2.5.4-rc.0</title>
+    <title>Release notes from telepresence - rpc/v2.5.4-rc.0</title>
     <updated>2022-03-15T03:56:22Z</updated>
-    <id>tag:github.com,2008:Repository/82933315/v2.5.4-rc.0</id>
+    <id>tag:github.com,2008:Repository/82933315/rpc/v2.5.4-rc.0</id>
     <content type="html">&lt;p&gt;v2.5.4-rc.0&lt;/p&gt;</content>
-    <link href="https://github.com/telepresenceio/telepresence/releases/tag/v2.5.4-rc.0" rel="alternate"></link>
+    <link href="https://github.com/telepresenceio/telepresence/releases/tag/rpc%2Fv2.5.4-rc.0" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>njayp</name>
@@ -587,22 +598,22 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from telepresence - rpc/v2.5.4-test.3</title>
+    <title>Release notes from telepresence - v2.5.4-test.3</title>
     <updated>2022-03-11T14:51:42Z</updated>
-    <id>tag:github.com,2008:Repository/82933315/rpc/v2.5.4-test.3</id>
+    <id>tag:github.com,2008:Repository/82933315/v2.5.4-test.3</id>
     <content type="html">&lt;p&gt;v2.5.4-test.3&lt;/p&gt;</content>
-    <link href="https://github.com/telepresenceio/telepresence/releases/tag/rpc%2Fv2.5.4-test.3" rel="alternate"></link>
+    <link href="https://github.com/telepresenceio/telepresence/releases/tag/v2.5.4-test.3" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>josecv</name>
     </author>
   </entry>
   <entry>
-    <title>Release notes from telepresence - v2.5.4-test.3</title>
+    <title>Release notes from telepresence - rpc/v2.5.4-test.3</title>
     <updated>2022-03-11T14:51:42Z</updated>
-    <id>tag:github.com,2008:Repository/82933315/v2.5.4-test.3</id>
+    <id>tag:github.com,2008:Repository/82933315/rpc/v2.5.4-test.3</id>
     <content type="html">&lt;p&gt;v2.5.4-test.3&lt;/p&gt;</content>
-    <link href="https://github.com/telepresenceio/telepresence/releases/tag/v2.5.4-test.3" rel="alternate"></link>
+    <link href="https://github.com/telepresenceio/telepresence/releases/tag/rpc%2Fv2.5.4-test.3" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>josecv</name>
@@ -928,77 +939,11 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from chakra-ui - @chakra-ui/tabs@1.6.8</title>
+    <title>Release notes from chakra-ui - @chakra-ui/tooltip@1.4.9</title>
     <updated>2022-02-28T23:07:28Z</updated>
-    <id>tag:github.com,2008:Repository/202890778/@chakra-ui/tabs@1.6.8</id>
-    <content type="html">&lt;h3&gt;Patch Changes&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Updated dependencies&lt;br&gt;&#xA;[&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/commit/5cd5cff35e4837539d83a2157a07585d461b0aac&#34;&gt;&lt;code&gt;5cd5cff35&lt;/code&gt;&lt;/a&gt;]:&#xA;&lt;ul&gt;&#xA;&lt;li&gt;@chakra-ui/hooks@1.8.5&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/chakra-ui/chakra-ui/releases/tag/%40chakra-ui%2Ftabs%401.6.8" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>github-actions[bot]</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from chakra-ui - @chakra-ui/skeleton@1.2.12</title>
-    <updated>2022-02-28T23:07:28Z</updated>
-    <id>tag:github.com,2008:Repository/202890778/@chakra-ui/skeleton@1.2.12</id>
-    <content type="html">&lt;h3&gt;Patch Changes&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Updated dependencies&lt;br&gt;&#xA;[&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/commit/d6bed344f30af50c84d3ed802ec3f0c981586588&#34;&gt;&lt;code&gt;d6bed344f&lt;/code&gt;&lt;/a&gt;,&lt;br&gt;&#xA;&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/commit/5cd5cff35e4837539d83a2157a07585d461b0aac&#34;&gt;&lt;code&gt;5cd5cff35&lt;/code&gt;&lt;/a&gt;]:&#xA;&lt;ul&gt;&#xA;&lt;li&gt;@chakra-ui/media-query@2.0.4&lt;/li&gt;&#xA;&lt;li&gt;@chakra-ui/hooks@1.8.5&lt;/li&gt;&#xA;&lt;li&gt;@chakra-ui/system@1.11.2&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/chakra-ui/chakra-ui/releases/tag/%40chakra-ui%2Fskeleton%401.2.12" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>github-actions[bot]</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from chakra-ui - @chakra-ui/select@1.2.9</title>
-    <updated>2022-02-28T23:07:28Z</updated>
-    <id>tag:github.com,2008:Repository/202890778/@chakra-ui/select@1.2.9</id>
-    <content type="html">&lt;h3&gt;Patch Changes&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Updated dependencies []:&#xA;&lt;ul&gt;&#xA;&lt;li&gt;@chakra-ui/form-control@1.5.9&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/chakra-ui/chakra-ui/releases/tag/%40chakra-ui%2Fselect%401.2.9" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>github-actions[bot]</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from chakra-ui - @chakra-ui/system@1.11.2</title>
-    <updated>2022-02-28T23:07:28Z</updated>
-    <id>tag:github.com,2008:Repository/202890778/@chakra-ui/system@1.11.2</id>
-    <content type="html">&lt;h3&gt;Patch Changes&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Updated dependencies&lt;br&gt;&#xA;[&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/commit/001751162dd1922d8ab53820f405665f0785f196&#34;&gt;&lt;code&gt;001751162&lt;/code&gt;&lt;/a&gt;]:&#xA;&lt;ul&gt;&#xA;&lt;li&gt;@chakra-ui/color-mode@1.4.6&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/chakra-ui/chakra-ui/releases/tag/%40chakra-ui%2Fsystem%401.11.2" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>github-actions[bot]</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from chakra-ui - @chakra-ui/slider@1.5.9</title>
-    <updated>2022-02-28T23:07:28Z</updated>
-    <id>tag:github.com,2008:Repository/202890778/@chakra-ui/slider@1.5.9</id>
-    <content type="html">&lt;h3&gt;Patch Changes&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Updated dependencies&lt;br&gt;&#xA;[&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/commit/5cd5cff35e4837539d83a2157a07585d461b0aac&#34;&gt;&lt;code&gt;5cd5cff35&lt;/code&gt;&lt;/a&gt;]:&#xA;&lt;ul&gt;&#xA;&lt;li&gt;@chakra-ui/hooks@1.8.5&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/chakra-ui/chakra-ui/releases/tag/%40chakra-ui%2Fslider%401.5.9" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>github-actions[bot]</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from chakra-ui - @chakra-ui/switch@1.3.8</title>
-    <updated>2022-02-28T23:07:28Z</updated>
-    <id>tag:github.com,2008:Repository/202890778/@chakra-ui/switch@1.3.8</id>
-    <content type="html">&lt;h3&gt;Patch Changes&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Updated dependencies []:&#xA;&lt;ul&gt;&#xA;&lt;li&gt;@chakra-ui/checkbox@1.6.8&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/chakra-ui/chakra-ui/releases/tag/%40chakra-ui%2Fswitch%401.3.8" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>github-actions[bot]</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from chakra-ui - @chakra-ui/toast@1.5.7</title>
-    <updated>2022-02-28T23:07:28Z</updated>
-    <id>tag:github.com,2008:Repository/202890778/@chakra-ui/toast@1.5.7</id>
-    <content type="html">&lt;h3&gt;Patch Changes&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Updated dependencies&lt;br&gt;&#xA;[&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/commit/fbe94622357e22acaf8bab0eae33ceae663d7a5b&#34;&gt;&lt;code&gt;fbe946223&lt;/code&gt;&lt;/a&gt;,&lt;br&gt;&#xA;&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/commit/5cd5cff35e4837539d83a2157a07585d461b0aac&#34;&gt;&lt;code&gt;5cd5cff35&lt;/code&gt;&lt;/a&gt;]:&#xA;&lt;ul&gt;&#xA;&lt;li&gt;@chakra-ui/theme@1.14.0&lt;/li&gt;&#xA;&lt;li&gt;@chakra-ui/hooks@1.8.5&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/chakra-ui/chakra-ui/releases/tag/%40chakra-ui%2Ftoast%401.5.7" rel="alternate"></link>
+    <id>tag:github.com,2008:Repository/202890778/@chakra-ui/tooltip@1.4.9</id>
+    <content type="html">&lt;h3&gt;Patch Changes&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Updated dependencies&lt;br&gt;&#xA;[&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/commit/5cd5cff35e4837539d83a2157a07585d461b0aac&#34;&gt;&lt;code&gt;5cd5cff35&lt;/code&gt;&lt;/a&gt;]:&#xA;&lt;ul&gt;&#xA;&lt;li&gt;@chakra-ui/hooks@1.8.5&lt;/li&gt;&#xA;&lt;li&gt;@chakra-ui/portal@1.3.8&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/chakra-ui/chakra-ui/releases/tag/%40chakra-ui%2Ftooltip%401.4.9" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>github-actions[bot]</name>
@@ -1016,11 +961,77 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from chakra-ui - @chakra-ui/tooltip@1.4.9</title>
+    <title>Release notes from chakra-ui - @chakra-ui/tabs@1.6.8</title>
     <updated>2022-02-28T23:07:28Z</updated>
-    <id>tag:github.com,2008:Repository/202890778/@chakra-ui/tooltip@1.4.9</id>
-    <content type="html">&lt;h3&gt;Patch Changes&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Updated dependencies&lt;br&gt;&#xA;[&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/commit/5cd5cff35e4837539d83a2157a07585d461b0aac&#34;&gt;&lt;code&gt;5cd5cff35&lt;/code&gt;&lt;/a&gt;]:&#xA;&lt;ul&gt;&#xA;&lt;li&gt;@chakra-ui/hooks@1.8.5&lt;/li&gt;&#xA;&lt;li&gt;@chakra-ui/portal@1.3.8&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/chakra-ui/chakra-ui/releases/tag/%40chakra-ui%2Ftooltip%401.4.9" rel="alternate"></link>
+    <id>tag:github.com,2008:Repository/202890778/@chakra-ui/tabs@1.6.8</id>
+    <content type="html">&lt;h3&gt;Patch Changes&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Updated dependencies&lt;br&gt;&#xA;[&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/commit/5cd5cff35e4837539d83a2157a07585d461b0aac&#34;&gt;&lt;code&gt;5cd5cff35&lt;/code&gt;&lt;/a&gt;]:&#xA;&lt;ul&gt;&#xA;&lt;li&gt;@chakra-ui/hooks@1.8.5&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/chakra-ui/chakra-ui/releases/tag/%40chakra-ui%2Ftabs%401.6.8" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>github-actions[bot]</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from chakra-ui - @chakra-ui/switch@1.3.8</title>
+    <updated>2022-02-28T23:07:28Z</updated>
+    <id>tag:github.com,2008:Repository/202890778/@chakra-ui/switch@1.3.8</id>
+    <content type="html">&lt;h3&gt;Patch Changes&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Updated dependencies []:&#xA;&lt;ul&gt;&#xA;&lt;li&gt;@chakra-ui/checkbox@1.6.8&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/chakra-ui/chakra-ui/releases/tag/%40chakra-ui%2Fswitch%401.3.8" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>github-actions[bot]</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from chakra-ui - @chakra-ui/select@1.2.9</title>
+    <updated>2022-02-28T23:07:28Z</updated>
+    <id>tag:github.com,2008:Repository/202890778/@chakra-ui/select@1.2.9</id>
+    <content type="html">&lt;h3&gt;Patch Changes&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Updated dependencies []:&#xA;&lt;ul&gt;&#xA;&lt;li&gt;@chakra-ui/form-control@1.5.9&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/chakra-ui/chakra-ui/releases/tag/%40chakra-ui%2Fselect%401.2.9" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>github-actions[bot]</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from chakra-ui - @chakra-ui/skeleton@1.2.12</title>
+    <updated>2022-02-28T23:07:28Z</updated>
+    <id>tag:github.com,2008:Repository/202890778/@chakra-ui/skeleton@1.2.12</id>
+    <content type="html">&lt;h3&gt;Patch Changes&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Updated dependencies&lt;br&gt;&#xA;[&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/commit/d6bed344f30af50c84d3ed802ec3f0c981586588&#34;&gt;&lt;code&gt;d6bed344f&lt;/code&gt;&lt;/a&gt;,&lt;br&gt;&#xA;&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/commit/5cd5cff35e4837539d83a2157a07585d461b0aac&#34;&gt;&lt;code&gt;5cd5cff35&lt;/code&gt;&lt;/a&gt;]:&#xA;&lt;ul&gt;&#xA;&lt;li&gt;@chakra-ui/media-query@2.0.4&lt;/li&gt;&#xA;&lt;li&gt;@chakra-ui/hooks@1.8.5&lt;/li&gt;&#xA;&lt;li&gt;@chakra-ui/system@1.11.2&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/chakra-ui/chakra-ui/releases/tag/%40chakra-ui%2Fskeleton%401.2.12" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>github-actions[bot]</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from chakra-ui - @chakra-ui/toast@1.5.7</title>
+    <updated>2022-02-28T23:07:28Z</updated>
+    <id>tag:github.com,2008:Repository/202890778/@chakra-ui/toast@1.5.7</id>
+    <content type="html">&lt;h3&gt;Patch Changes&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Updated dependencies&lt;br&gt;&#xA;[&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/commit/fbe94622357e22acaf8bab0eae33ceae663d7a5b&#34;&gt;&lt;code&gt;fbe946223&lt;/code&gt;&lt;/a&gt;,&lt;br&gt;&#xA;&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/commit/5cd5cff35e4837539d83a2157a07585d461b0aac&#34;&gt;&lt;code&gt;5cd5cff35&lt;/code&gt;&lt;/a&gt;]:&#xA;&lt;ul&gt;&#xA;&lt;li&gt;@chakra-ui/theme@1.14.0&lt;/li&gt;&#xA;&lt;li&gt;@chakra-ui/hooks@1.8.5&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/chakra-ui/chakra-ui/releases/tag/%40chakra-ui%2Ftoast%401.5.7" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>github-actions[bot]</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from chakra-ui - @chakra-ui/slider@1.5.9</title>
+    <updated>2022-02-28T23:07:28Z</updated>
+    <id>tag:github.com,2008:Repository/202890778/@chakra-ui/slider@1.5.9</id>
+    <content type="html">&lt;h3&gt;Patch Changes&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Updated dependencies&lt;br&gt;&#xA;[&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/commit/5cd5cff35e4837539d83a2157a07585d461b0aac&#34;&gt;&lt;code&gt;5cd5cff35&lt;/code&gt;&lt;/a&gt;]:&#xA;&lt;ul&gt;&#xA;&lt;li&gt;@chakra-ui/hooks@1.8.5&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/chakra-ui/chakra-ui/releases/tag/%40chakra-ui%2Fslider%401.5.9" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>github-actions[bot]</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from chakra-ui - @chakra-ui/system@1.11.2</title>
+    <updated>2022-02-28T23:07:28Z</updated>
+    <id>tag:github.com,2008:Repository/202890778/@chakra-ui/system@1.11.2</id>
+    <content type="html">&lt;h3&gt;Patch Changes&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Updated dependencies&lt;br&gt;&#xA;[&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/commit/001751162dd1922d8ab53820f405665f0785f196&#34;&gt;&lt;code&gt;001751162&lt;/code&gt;&lt;/a&gt;]:&#xA;&lt;ul&gt;&#xA;&lt;li&gt;@chakra-ui/color-mode@1.4.6&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/chakra-ui/chakra-ui/releases/tag/%40chakra-ui%2Fsystem%401.11.2" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>github-actions[bot]</name>
@@ -4390,17 +4401,6 @@
     <summary type="html"></summary>
     <author>
       <name>github-actions[bot]</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from golangci-lint - v1.41.0</title>
-    <updated>2021-06-16T20:12:09Z</updated>
-    <id>tag:github.com,2008:Repository/132145189/v1.41.0</id>
-    <content type="html">&lt;h2&gt;Changelog&lt;/h2&gt;&#xA;&lt;p&gt;&lt;a class=&#34;commit-link&#34; data-hovercard-type=&#34;commit&#34; data-hovercard-url=&#34;https://github.com/golangci/golangci-lint/commit/52b55141c4cd62e056aad6c135e624c6566c34f3/hovercard&#34; href=&#34;https://github.com/golangci/golangci-lint/commit/52b55141c4cd62e056aad6c135e624c6566c34f3&#34;&gt;&lt;tt&gt;52b5514&lt;/tt&gt;&lt;/a&gt; Bump github.com/jgautheron/goconst from 0.5.6 to 0.5.7(&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;916619982&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/golangci/golangci-lint/issues/2044&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/golangci/golangci-lint/pull/2044/hovercard&#34; href=&#34;https://github.com/golangci/golangci-lint/pull/2044&#34;&gt;#2044&lt;/a&gt;)&lt;br&gt;&#xA;&lt;a class=&#34;commit-link&#34; data-hovercard-type=&#34;commit&#34; data-hovercard-url=&#34;https://github.com/golangci/golangci-lint/commit/f900232b9be606e13b3c9dafb2db51c063f958a2/hovercard&#34; href=&#34;https://github.com/golangci/golangci-lint/commit/f900232b9be606e13b3c9dafb2db51c063f958a2&#34;&gt;&lt;tt&gt;f900232&lt;/tt&gt;&lt;/a&gt; Update errorlint to HEAD (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;893743114&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/golangci/golangci-lint/issues/1996&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/golangci/golangci-lint/pull/1996/hovercard&#34; href=&#34;https://github.com/golangci/golangci-lint/pull/1996&#34;&gt;#1996&lt;/a&gt;)&lt;br&gt;&#xA;&lt;a class=&#34;commit-link&#34; data-hovercard-type=&#34;commit&#34; data-hovercard-url=&#34;https://github.com/golangci/golangci-lint/commit/1c2c8ffd2835d19deb7cebf10714a70ed898cedb/hovercard&#34; href=&#34;https://github.com/golangci/golangci-lint/commit/1c2c8ffd2835d19deb7cebf10714a70ed898cedb&#34;&gt;&lt;tt&gt;1c2c8ff&lt;/tt&gt;&lt;/a&gt; Update godot to 1.4.7 (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;898968937&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/golangci/golangci-lint/issues/2010&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/golangci/golangci-lint/pull/2010/hovercard&#34; href=&#34;https://github.com/golangci/golangci-lint/pull/2010&#34;&gt;#2010&lt;/a&gt;)&lt;br&gt;&#xA;&lt;a class=&#34;commit-link&#34; data-hovercard-type=&#34;commit&#34; data-hovercard-url=&#34;https://github.com/golangci/golangci-lint/commit/5d84fa5ecd54c0cb3007fc3a3adc611ebe0f3bae/hovercard&#34; href=&#34;https://github.com/golangci/golangci-lint/commit/5d84fa5ecd54c0cb3007fc3a3adc611ebe0f3bae&#34;&gt;&lt;tt&gt;5d84fa5&lt;/tt&gt;&lt;/a&gt; Update makezero to HEAD (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;897087400&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/golangci/golangci-lint/issues/2006&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/golangci/golangci-lint/pull/2006/hovercard&#34; href=&#34;https://github.com/golangci/golangci-lint/pull/2006&#34;&gt;#2006&lt;/a&gt;)&lt;br&gt;&#xA;&lt;a class=&#34;commit-link&#34; data-hovercard-type=&#34;commit&#34; data-hovercard-url=&#34;https://github.com/golangci/golangci-lint/commit/46009fbddcedab0337cda2ce6c20c8d973b97e56/hovercard&#34; href=&#34;https://github.com/golangci/golangci-lint/commit/46009fbddcedab0337cda2ce6c20c8d973b97e56&#34;&gt;&lt;tt&gt;46009fb&lt;/tt&gt;&lt;/a&gt; Update rowserrcheck to v1.1.0 (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;893745639&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/golangci/golangci-lint/issues/1997&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/golangci/golangci-lint/pull/1997/hovercard&#34; href=&#34;https://github.com/golangci/golangci-lint/pull/1997&#34;&gt;#1997&lt;/a&gt;)&lt;br&gt;&#xA;&lt;a class=&#34;commit-link&#34; data-hovercard-type=&#34;commit&#34; data-hovercard-url=&#34;https://github.com/golangci/golangci-lint/commit/2dcc761d21d470df5a35f62017eb673296b7ef8d/hovercard&#34; href=&#34;https://github.com/golangci/golangci-lint/commit/2dcc761d21d470df5a35f62017eb673296b7ef8d&#34;&gt;&lt;tt&gt;2dcc761&lt;/tt&gt;&lt;/a&gt; Update wastedassign to v2.0.6 (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;906388448&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/golangci/golangci-lint/issues/2020&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/golangci/golangci-lint/pull/2020/hovercard&#34; href=&#34;https://github.com/golangci/golangci-lint/pull/2020&#34;&gt;#2020&lt;/a&gt;)&lt;br&gt;&#xA;&lt;a class=&#34;commit-link&#34; data-hovercard-type=&#34;commit&#34; data-hovercard-url=&#34;https://github.com/golangci/golangci-lint/commit/4c27b33c49b579f5e02ce0edac59a8dd511383bf/hovercard&#34; href=&#34;https://github.com/golangci/golangci-lint/commit/4c27b33c49b579f5e02ce0edac59a8dd511383bf&#34;&gt;&lt;tt&gt;4c27b33&lt;/tt&gt;&lt;/a&gt; build(deps): bump actions/cache from 2.1.5 to 2.1.6 (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;907062209&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/golangci/golangci-lint/issues/2023&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/golangci/golangci-lint/pull/2023/hovercard&#34; href=&#34;https://github.com/golangci/golangci-lint/pull/2023&#34;&gt;#2023&lt;/a&gt;)&lt;br&gt;&#xA;&lt;a class=&#34;commit-link&#34; data-hovercard-type=&#34;commit&#34; data-hovercard-url=&#34;https://github.com/golangci/golangci-lint/commit/4e9866ade9bf13bdf59586dc07dca7dfa4c06702/hovercard&#34; href=&#34;https://github.com/golangci/golangci-lint/commit/4e9866ade9bf13bdf59586dc07dca7dfa4c06702&#34;&gt;&lt;tt&gt;4e9866a&lt;/tt&gt;&lt;/a&gt; build(deps): bump github.com/ashanbrown/forbidigo from 1.1.0 to 1.2.0 (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;892907836&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/golangci/golangci-lint/issues/1991&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/golangci/golangci-lint/pull/1991/hovercard&#34; href=&#34;https://github.com/golangci/golangci-lint/pull/1991&#34;&gt;#1991&lt;/a&gt;)&lt;br&gt;&#xA;&lt;a class=&#34;commit-link&#34; data-hovercard-type=&#34;commit&#34; data-hovercard-url=&#34;https://github.com/golangci/golangci-lint/commit/874304dd9017cfef01bdf172b571693e1843b12d/hovercard&#34; href=&#34;https://github.com/golangci/golangci-lint/commit/874304dd9017cfef01bdf172b571693e1843b12d&#34;&gt;&lt;tt&gt;874304d&lt;/tt&gt;&lt;/a&gt; build(deps): bump github.com/charithe/durationcheck from 0.0.6 to 0.0.7 (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;892907180&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/golangci/golangci-lint/issues/1990&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/golangci/golangci-lint/pull/1990/hovercard&#34; href=&#34;https://github.com/golangci/golangci-lint/pull/1990&#34;&gt;#1990&lt;/a&gt;)&lt;br&gt;&#xA;&lt;a class=&#34;commit-link&#34; data-hovercard-type=&#34;commit&#34; data-hovercard-url=&#34;https://github.com/golangci/golangci-lint/commit/6a269af7a6297a7043587c3393ddae2daf953155/hovercard&#34; href=&#34;https://github.com/golangci/golangci-lint/commit/6a269af7a6297a7043587c3393ddae2daf953155&#34;&gt;&lt;tt&gt;6a269af&lt;/tt&gt;&lt;/a&gt; build(deps): bump github.com/charithe/durationcheck from 0.0.7 to 0.0.8 (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;920013522&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/golangci/golangci-lint/issues/2052&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/golangci/golangci-lint/pull/2052/hovercard&#34; href=&#34;https://github.com/golangci/golangci-lint/pull/2052&#34;&gt;#2052&lt;/a&gt;)&lt;br&gt;&#xA;&lt;a class=&#34;commit-link&#34; data-hovercard-type=&#34;commit&#34; data-hovercard-url=&#34;https://github.com/golangci/golangci-lint/commit/4143f57ac62a0977a1471d1a0f94f7d10afb00c4/hovercard&#34; href=&#34;https://github.com/golangci/golangci-lint/commit/4143f57ac62a0977a1471d1a0f94f7d10afb00c4&#34;&gt;&lt;tt&gt;4143f57&lt;/tt&gt;&lt;/a&gt; build(deps): bump github.com/fatih/color from 1.10.0 to 1.11.0 (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;892907963&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/golangci/golangci-lint/issues/1992&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/golangci/golangci-lint/pull/1992/hovercard&#34; href=&#34;https://github.com/golangci/golangci-lint/pull/1992&#34;&gt;#1992&lt;/a&gt;)&lt;br&gt;&#xA;&lt;a class=&#34;commit-link&#34; data-hovercard-type=&#34;commit&#34; data-hovercard-url=&#34;https://github.com/golangci/golangci-lint/commit/b5d847f07f3059e2c3d8a52be50c8c1970f97f71/hovercard&#34; href=&#34;https://github.com/golangci/golangci-lint/commit/b5d847f07f3059e2c3d8a52be50c8c1970f97f71&#34;&gt;&lt;tt&gt;b5d847f&lt;/tt&gt;&lt;/a&gt; build(deps): bump github.com/mgechev/revive from 1.0.6 to 1.0.7 (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;907068533&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/golangci/golangci-lint/issues/2027&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/golangci/golangci-lint/pull/2027/hovercard&#34; href=&#34;https://github.com/golangci/golangci-lint/pull/2027&#34;&gt;#2027&lt;/a&gt;)&lt;br&gt;&#xA;&lt;a class=&#34;commit-link&#34; data-hovercard-type=&#34;commit&#34; data-hovercard-url=&#34;https://github.com/golangci/golangci-lint/commit/6ffa139c1b1128b3e5166c167036079ea3a17fa9/hovercard&#34; href=&#34;https://github.com/golangci/golangci-lint/commit/6ffa139c1b1128b3e5166c167036079ea3a17fa9&#34;&gt;&lt;tt&gt;6ffa139&lt;/tt&gt;&lt;/a&gt; build(deps): bump github.com/securego/gosec/v2 from 2.7.0 to 2.8.0 (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;907068010&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/golangci/golangci-lint/issues/2025&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/golangci/golangci-lint/pull/2025/hovercard&#34; href=&#34;https://github.com/golangci/golangci-lint/pull/2025&#34;&gt;#2025&lt;/a&gt;)&lt;br&gt;&#xA;&lt;a class=&#34;commit-link&#34; data-hovercard-type=&#34;commit&#34; data-hovercard-url=&#34;https://github.com/golangci/golangci-lint/commit/555cde6b6d90c1805e120ede1bcb6cd83dc1f9ca/hovercard&#34; href=&#34;https://github.com/golangci/golangci-lint/commit/555cde6b6d90c1805e120ede1bcb6cd83dc1f9ca&#34;&gt;&lt;tt&gt;555cde6&lt;/tt&gt;&lt;/a&gt; build(deps): bump github.com/shirou/gopsutil/v3 from 3.21.4 to 3.21.5 (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;913110738&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/golangci/golangci-lint/issues/2042&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/golangci/golangci-lint/pull/2042/hovercard&#34; href=&#34;https://github.com/golangci/golangci-lint/pull/2042&#34;&gt;#2042&lt;/a&gt;)&lt;br&gt;&#xA;&lt;a class=&#34;commit-link&#34; data-hovercard-type=&#34;commit&#34; data-hovercard-url=&#34;https://github.com/golangci/golangci-lint/commit/fe0db3db215535884342b3b884ec0e637314921d/hovercard&#34; href=&#34;https://github.com/golangci/golangci-lint/commit/fe0db3db215535884342b3b884ec0e637314921d&#34;&gt;&lt;tt&gt;fe0db3d&lt;/tt&gt;&lt;/a&gt; build(deps): bump github.com/tommy-muehle/go-mnd/v2 from 2.3.2 to 2.4.0 (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;907067714&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/golangci/golangci-lint/issues/2024&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/golangci/golangci-lint/pull/2024/hovercard&#34; href=&#34;https://github.com/golangci/golangci-lint/pull/2024&#34;&gt;#2024&lt;/a&gt;)&lt;br&gt;&#xA;&lt;a class=&#34;commit-link&#34; data-hovercard-type=&#34;commit&#34; data-hovercard-url=&#34;https://github.com/golangci/golangci-lint/commit/55133bf47585b024003ee59c4f3925437226eb89/hovercard&#34; href=&#34;https://github.com/golangci/golangci-lint/commit/55133bf47585b024003ee59c4f3925437226eb89&#34;&gt;&lt;tt&gt;55133bf&lt;/tt&gt;&lt;/a&gt; build(deps): bump golang.org/x/tools from 0.1.2 to 0.1.3 (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;920014001&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/golangci/golangci-lint/issues/2053&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/golangci/golangci-lint/pull/2053/hovercard&#34; href=&#34;https://github.com/golangci/golangci-lint/pull/2053&#34;&gt;#2053&lt;/a&gt;)&lt;br&gt;&#xA;&lt;a class=&#34;commit-link&#34; data-hovercard-type=&#34;commit&#34; data-hovercard-url=&#34;https://github.com/golangci/golangci-lint/commit/a68a88ee02344ab570cafd5f53ac8d0f5adee299/hovercard&#34; href=&#34;https://github.com/golangci/golangci-lint/commit/a68a88ee02344ab570cafd5f53ac8d0f5adee299&#34;&gt;&lt;tt&gt;a68a88e&lt;/tt&gt;&lt;/a&gt; build(deps): bump honnef.co/go/tools from v0.1.4 to v0.2.0 (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;906311558&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/golangci/golangci-lint/issues/2019&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/golangci/golangci-lint/pull/2019/hovercard&#34; href=&#34;https://github.com/golangci/golangci-lint/pull/2019&#34;&gt;#2019&lt;/a&gt;)&lt;br&gt;&#xA;&lt;a class=&#34;commit-link&#34; data-hovercard-type=&#34;commit&#34; data-hovercard-url=&#34;https://github.com/golangci/golangci-lint/commit/fd6fce9e90414fa6dd4753c5dd65c86e21b34058/hovercard&#34; href=&#34;https://github.com/golangci/golangci-lint/commit/fd6fce9e90414fa6dd4753c5dd65c86e21b34058&#34;&gt;&lt;tt&gt;fd6fce9&lt;/tt&gt;&lt;/a&gt; build(deps): bump ws from 5.2.2 to 5.2.3 in /.github/peril (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;916642870&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/golangci/golangci-lint/issues/2045&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/golangci/golangci-lint/pull/2045/hovercard&#34; href=&#34;https://github.com/golangci/golangci-lint/pull/2045&#34;&gt;#2045&lt;/a&gt;)&lt;br&gt;&#xA;&lt;a class=&#34;commit-link&#34; data-hovercard-type=&#34;commit&#34; data-hovercard-url=&#34;https://github.com/golangci/golangci-lint/commit/505ed3c0f7fc4941a76e52c00e462ad38ecb79ec/hovercard&#34; href=&#34;https://github.com/golangci/golangci-lint/commit/505ed3c0f7fc4941a76e52c00e462ad38ecb79ec&#34;&gt;&lt;tt&gt;505ed3c&lt;/tt&gt;&lt;/a&gt; doc: Un-deprecate enable-all option. (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;908930406&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/golangci/golangci-lint/issues/2039&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/golangci/golangci-lint/pull/2039/hovercard&#34; href=&#34;https://github.com/golangci/golangci-lint/pull/2039&#34;&gt;#2039&lt;/a&gt;)&lt;br&gt;&#xA;&lt;a class=&#34;commit-link&#34; data-hovercard-type=&#34;commit&#34; data-hovercard-url=&#34;https://github.com/golangci/golangci-lint/commit/3c795d8637855c813c7c22fb36a3521c726bcd87/hovercard&#34; href=&#34;https://github.com/golangci/golangci-lint/commit/3c795d8637855c813c7c22fb36a3521c726bcd87&#34;&gt;&lt;tt&gt;3c795d8&lt;/tt&gt;&lt;/a&gt; doc: add all integrations to docs introduction page (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;909975580&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/golangci/golangci-lint/issues/2040&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/golangci/golangci-lint/pull/2040/hovercard&#34; href=&#34;https://github.com/golangci/golangci-lint/pull/2040&#34;&gt;#2040&lt;/a&gt;)&lt;br&gt;&#xA;&lt;a class=&#34;commit-link&#34; data-hovercard-type=&#34;commit&#34; data-hovercard-url=&#34;https://github.com/golangci/golangci-lint/commit/7776b546b816dbd578e529ed0e629dfb913071dc/hovercard&#34; href=&#34;https://github.com/golangci/golangci-lint/commit/7776b546b816dbd578e529ed0e629dfb913071dc&#34;&gt;&lt;tt&gt;7776b54&lt;/tt&gt;&lt;/a&gt; gomodguard: fix problem where duplicate issues were being reported (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;904115360&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/golangci/golangci-lint/issues/2018&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/golangci/golangci-lint/pull/2018/hovercard&#34; href=&#34;https://github.com/golangci/golangci-lint/pull/2018&#34;&gt;#2018&lt;/a&gt;)&lt;br&gt;&#xA;&lt;a class=&#34;commit-link&#34; data-hovercard-type=&#34;commit&#34; data-hovercard-url=&#34;https://github.com/golangci/golangci-lint/commit/6172338bd468cb2ca90afa22ada72cef4e390262/hovercard&#34; href=&#34;https://github.com/golangci/golangci-lint/commit/6172338bd468cb2ca90afa22ada72cef4e390262&#34;&gt;&lt;tt&gt;6172338&lt;/tt&gt;&lt;/a&gt; nolintlint: fix false positive. (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;899967777&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/golangci/golangci-lint/issues/2013&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/golangci/golangci-lint/pull/2013/hovercard&#34; href=&#34;https://github.com/golangci/golangci-lint/pull/2013&#34;&gt;#2013&lt;/a&gt;)&lt;br&gt;&#xA;&lt;a class=&#34;commit-link&#34; data-hovercard-type=&#34;commit&#34; data-hovercard-url=&#34;https://github.com/golangci/golangci-lint/commit/2862ca630ca03d6071cee454c54046d0362a1707/hovercard&#34; href=&#34;https://github.com/golangci/golangci-lint/commit/2862ca630ca03d6071cee454c54046d0362a1707&#34;&gt;&lt;tt&gt;2862ca6&lt;/tt&gt;&lt;/a&gt; output: generate HTML report (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;913609501&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/golangci/golangci-lint/issues/2043&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/golangci/golangci-lint/pull/2043/hovercard&#34; href=&#34;https://github.com/golangci/golangci-lint/pull/2043&#34;&gt;#2043&lt;/a&gt;)&lt;br&gt;&#xA;&lt;a class=&#34;commit-link&#34; data-hovercard-type=&#34;commit&#34; data-hovercard-url=&#34;https://github.com/golangci/golangci-lint/commit/eed344f619dea041f87bcbaf200cdba1af2c859e/hovercard&#34; href=&#34;https://github.com/golangci/golangci-lint/commit/eed344f619dea041f87bcbaf200cdba1af2c859e&#34;&gt;&lt;tt&gt;eed344f&lt;/tt&gt;&lt;/a&gt; revive: allow to disable rule (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;921138502&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/golangci/golangci-lint/issues/2055&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/golangci/golangci-lint/pull/2055/hovercard&#34; href=&#34;https://github.com/golangci/golangci-lint/pull/2055&#34;&gt;#2055&lt;/a&gt;)&lt;br&gt;&#xA;&lt;a class=&#34;commit-link&#34; data-hovercard-type=&#34;commit&#34; data-hovercard-url=&#34;https://github.com/golangci/golangci-lint/commit/cf8fd685d0d31dfc26ecdcde5463b1aeebac3edb/hovercard&#34; href=&#34;https://github.com/golangci/golangci-lint/commit/cf8fd685d0d31dfc26ecdcde5463b1aeebac3edb&#34;&gt;&lt;tt&gt;cf8fd68&lt;/tt&gt;&lt;/a&gt; revive: fix add-constant rule support. (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;895517519&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/golangci/golangci-lint/issues/2003&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/golangci/golangci-lint/pull/2003/hovercard&#34; href=&#34;https://github.com/golangci/golangci-lint/pull/2003&#34;&gt;#2003&lt;/a&gt;)&lt;br&gt;&#xA;&lt;a class=&#34;commit-link&#34; data-hovercard-type=&#34;commit&#34; data-hovercard-url=&#34;https://github.com/golangci/golangci-lint/commit/fb7c90d6ee085a0c3a529ba53329c6b675d4fbcd/hovercard&#34; href=&#34;https://github.com/golangci/golangci-lint/commit/fb7c90d6ee085a0c3a529ba53329c6b675d4fbcd&#34;&gt;&lt;tt&gt;fb7c90d&lt;/tt&gt;&lt;/a&gt; revive: fix excludes (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;896998487&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/golangci/golangci-lint/issues/2005&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/golangci/golangci-lint/pull/2005/hovercard&#34; href=&#34;https://github.com/golangci/golangci-lint/pull/2005&#34;&gt;#2005&lt;/a&gt;)&lt;br&gt;&#xA;&lt;a class=&#34;commit-link&#34; data-hovercard-type=&#34;commit&#34; data-hovercard-url=&#34;https://github.com/golangci/golangci-lint/commit/62668d41d087e2710f89bcce581dfd114e91d0d4/hovercard&#34; href=&#34;https://github.com/golangci/golangci-lint/commit/62668d41d087e2710f89bcce581dfd114e91d0d4&#34;&gt;&lt;tt&gt;62668d4&lt;/tt&gt;&lt;/a&gt; revive: improve &#39;exported&#39; rule output. (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;893230345&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/golangci/golangci-lint/issues/1994&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/golangci/golangci-lint/pull/1994/hovercard&#34; href=&#34;https://github.com/golangci/golangci-lint/pull/1994&#34;&gt;#1994&lt;/a&gt;)&lt;br&gt;&#xA;&lt;a class=&#34;commit-link&#34; data-hovercard-type=&#34;commit&#34; data-hovercard-url=&#34;https://github.com/golangci/golangci-lint/commit/b916c9318bf31c6dca73e64c1751bd62a661e2bb/hovercard&#34; href=&#34;https://github.com/golangci/golangci-lint/commit/b916c9318bf31c6dca73e64c1751bd62a661e2bb&#34;&gt;&lt;tt&gt;b916c93&lt;/tt&gt;&lt;/a&gt; staticcheck: configuration for &lt;code&gt;staticcheck&lt;/code&gt;, &lt;code&gt;gosimple&lt;/code&gt;, &lt;code&gt;stylecheck&lt;/code&gt; (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;902781310&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/golangci/golangci-lint/issues/2017&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/golangci/golangci-lint/pull/2017/hovercard&#34; href=&#34;https://github.com/golangci/golangci-lint/pull/2017&#34;&gt;#2017&lt;/a&gt;)&lt;/p&gt;</content>
-    <link href="https://github.com/golangci/golangci-lint/releases/tag/v1.41.0" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>golangci-releaser</name>
     </author>
   </entry>
   <entry>
