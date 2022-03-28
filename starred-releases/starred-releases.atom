@@ -1,91 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?><feed xmlns="http://www.w3.org/2005/Atom">
   <title>Releases from Starred by toga4</title>
   <id>https://toga4.github.io/feeds/starred-releases.atom</id>
-  <updated>2022-03-28T09:23:49Z</updated>
+  <updated>2022-03-28T10:27:27Z</updated>
   <link href="https://toga4.github.io/feeds/starred-releases.atom"></link>
+  <entry>
+    <title>Release notes from terraform - v1.2.0-alpha-20220328</title>
+    <updated>2022-03-28T10:27:27Z</updated>
+    <id>tag:github.com,2008:Repository/17728164/v1.2.0-alpha-20220328</id>
+    <content type="html">&lt;h2&gt;1.2.0 (Unreleased)&lt;/h2&gt;&#xA;&lt;p&gt;NEW FEATURES:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;code&gt;precondition&lt;/code&gt; and &lt;code&gt;postcondition&lt;/code&gt; check blocks for resources, data sources, and module output values: module authors can now document assumptions and assertions about configuration and state values. If these conditions are not met, Terraform will report a custom error message to the user and halt further evaluation.&lt;/li&gt;&#xA;&lt;li&gt;Terraform now supports &lt;a href=&#34;https://www.terraform.io/cloud-docs/workspaces/settings/run-tasks&#34; rel=&#34;nofollow&#34;&gt;run tasks&lt;/a&gt;, a Terraform Cloud integration for executing remote operations, for the post plan stage of a run.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;ENHANCEMENTS:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;The &#34;Invalid for_each argument&#34; error message for unknown maps/sets now includes an additional paragraph to try to help the user notice they can move apply-time values into the map &lt;em&gt;values&lt;/em&gt; instead of the map &lt;em&gt;keys&lt;/em&gt;, and thus avoid the problem without resorting to &lt;code&gt;-target&lt;/code&gt;. (&lt;a href=&#34;https://github.com/hashicorp/terraform/issues/30327&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/hashicorp/terraform/pull/30327/hovercard&#34;&gt;#30327&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;When showing the progress of a remote operation running in Terraform Cloud, Terraform CLI will include information about post-plan &lt;a href=&#34;https://www.terraform.io/cloud-docs/workspaces/settings/run-tasks&#34; rel=&#34;nofollow&#34;&gt;run tasks&lt;/a&gt;. (&lt;a href=&#34;https://github.com/hashicorp/terraform/issues/30141&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/hashicorp/terraform/pull/30141/hovercard&#34;&gt;#30141&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;Error messages for preconditions, postconditions, and custom variable validations are now evaluated as expressions, allowing interpolation of relevant values into the output. (&lt;a href=&#34;https://github.com/hashicorp/terraform/issues/30613&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/hashicorp/terraform/pull/30613/hovercard&#34;&gt;#30613&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;There are some small improvements to the error and warning messages Terraform will emit in the case of invalid provider configuration passing between modules. There are no changes to which situations will produce errors and warnings, but the messages now include additional information intended to clarify what problem Terraform is describing and how to address it. (&lt;a href=&#34;https://github.com/hashicorp/terraform/issues/30639&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/hashicorp/terraform/pull/30639/hovercard&#34;&gt;#30639&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;When running &lt;code&gt;terraform plan&lt;/code&gt;, only show external changes which may have contributed to the current plan (&lt;a href=&#34;https://github.com/hashicorp/terraform/issues/30486&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/hashicorp/terraform/pull/30486/hovercard&#34;&gt;#30486&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;BUG FIXES:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Terraform now handles type constraints, nullability, and custom variable validation properly for root module variables. Previously there was an order of operations problem where the nullability and custom variable validation were checked too early, prior to dealing with the type constraints, and thus that logic could potentially &#34;see&#34; an incorrectly-typed value in spite of the type constraint, leading to incorrect errors. (&lt;a href=&#34;https://github.com/hashicorp/terraform/issues/29959&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/hashicorp/terraform/pull/29959/hovercard&#34;&gt;#29959&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;&lt;code&gt;terraform show -json&lt;/code&gt;: JSON plan output now correctly maps aliased providers to their configurations, and includes the full provider source address alongside the short provider name. (&lt;a href=&#34;https://github.com/hashicorp/terraform/issues/30138&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/hashicorp/terraform/pull/30138/hovercard&#34;&gt;#30138&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;Terraform now prints a warning when adding an attribute to &lt;code&gt;ignore_changes&lt;/code&gt; that is managed only by the provider (non-optional computed attribute). (&lt;a href=&#34;https://github.com/hashicorp/terraform/issues/30517&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/hashicorp/terraform/pull/30517/hovercard&#34;&gt;#30517&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;Terraform will prioritize local terraform variables over remote terraform variables in operations such as &lt;code&gt;import&lt;/code&gt;, &lt;code&gt;plan&lt;/code&gt;, &lt;code&gt;refresh&lt;/code&gt; and &lt;code&gt;apply&lt;/code&gt; for workspaces in local execution mode. This behavior applies to both &lt;code&gt;remote&lt;/code&gt; backend and the &lt;code&gt;cloud&lt;/code&gt; integration configuration. (&lt;a href=&#34;https://github.com/hashicorp/terraform/issues/29972&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/hashicorp/terraform/pull/29972/hovercard&#34;&gt;#29972&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;Terraform now outputs an error when &lt;code&gt;cidrnetmask()&lt;/code&gt; is called with an IPv6 address. (&lt;a href=&#34;https://github.com/hashicorp/terraform/issues/30703&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/hashicorp/terraform/pull/30703/hovercard&#34;&gt;#30703&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;UPGRADE NOTES:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;The Terraform Cloud integration relies on the Go-TFE SDK. Terraform has upgraded this dependency to use its new major version 1.0 [&lt;a href=&#34;https://github.com/hashicorp/terraform/issues/30626&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/hashicorp/terraform/pull/30626/hovercard&#34;&gt;#30626&lt;/a&gt;]. &lt;a href=&#34;https://github.com/hashicorp/go-tfe/releases/tag/v1.0.0&#34;&gt;Go-TFE v1.0.0 CHANGELOG&lt;/a&gt;.&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/hashicorp/terraform/releases/tag/v1.2.0-alpha-20220328" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>hc-github-team-tf-core</name>
+    </author>
+  </entry>
   <entry>
     <title>Release notes from casbin - v2.43.1</title>
     <updated>2022-03-28T09:23:49Z</updated>
     <id>tag:github.com,2008:Repository/87617508/v2.43.1</id>
     <content type="html">&lt;h2&gt;&lt;a href=&#34;https://github.com/casbin/casbin/compare/v2.43.0...v2.43.1&#34;&gt;2.43.1&lt;/a&gt; (2022-03-28)&lt;/h2&gt;&#xA;&lt;h3&gt;Bug Fixes&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;wrong locks with &lt;code&gt;BuildRoleLinks&lt;/code&gt; and &lt;code&gt;SetWatcher&lt;/code&gt; (&lt;a href=&#34;https://github.com/casbin/casbin/issues/977&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/casbin/casbin/pull/977/hovercard&#34;&gt;#977&lt;/a&gt;) (&lt;a href=&#34;https://github.com/casbin/casbin/commit/371eae6008ef850aff8de7c8c61cdeba4dd03b5b&#34;&gt;371eae6&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
     <link href="https://github.com/casbin/casbin/releases/tag/v2.43.1" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>github-actions[bot]</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from chakra-ui - @chakra-ui/tooltip@1.5.0</title>
-    <updated>2022-03-27T11:35:32Z</updated>
-    <id>tag:github.com,2008:Repository/202890778/@chakra-ui/tooltip@1.5.0</id>
-    <content type="html">&lt;h3&gt;Minor Changes&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/pull/5199&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/chakra-ui/chakra-ui/pull/5199/hovercard&#34;&gt;#5199&lt;/a&gt;&lt;br&gt;&#xA;&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/commit/73a06ae8ce1bee644e10f245edcf2f9f2b773964&#34;&gt;&lt;code&gt;73a06ae8c&lt;/code&gt;&lt;/a&gt;&lt;br&gt;&#xA;Thanks &lt;a href=&#34;https://github.com/mlajtos&#34;&gt;@mlajtos&lt;/a&gt;! - Control whether Tooltip can&lt;br&gt;&#xA;be closed with Esc key&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3&gt;Patch Changes&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Updated dependencies&lt;br&gt;&#xA;[&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/commit/73a06ae8ce1bee644e10f245edcf2f9f2b773964&#34;&gt;&lt;code&gt;73a06ae8c&lt;/code&gt;&lt;/a&gt;]:&#xA;&lt;ul&gt;&#xA;&lt;li&gt;@chakra-ui/hooks@1.9.0&lt;/li&gt;&#xA;&lt;li&gt;@chakra-ui/portal@1.3.9&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/chakra-ui/chakra-ui/releases/tag/%40chakra-ui%2Ftooltip%401.5.0" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>github-actions[bot]</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from chakra-ui - @chakra-ui/slider@1.5.10</title>
-    <updated>2022-03-27T11:35:32Z</updated>
-    <id>tag:github.com,2008:Repository/202890778/@chakra-ui/slider@1.5.10</id>
-    <content type="html">&lt;h3&gt;Patch Changes&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Updated dependencies&lt;br&gt;&#xA;[&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/commit/73a06ae8ce1bee644e10f245edcf2f9f2b773964&#34;&gt;&lt;code&gt;73a06ae8c&lt;/code&gt;&lt;/a&gt;]:&#xA;&lt;ul&gt;&#xA;&lt;li&gt;@chakra-ui/hooks@1.9.0&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/chakra-ui/chakra-ui/releases/tag/%40chakra-ui%2Fslider%401.5.10" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>github-actions[bot]</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from chakra-ui - @chakra-ui/skeleton@1.2.13</title>
-    <updated>2022-03-27T11:35:32Z</updated>
-    <id>tag:github.com,2008:Repository/202890778/@chakra-ui/skeleton@1.2.13</id>
-    <content type="html">&lt;h3&gt;Patch Changes&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Updated dependencies&lt;br&gt;&#xA;[&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/commit/73a06ae8ce1bee644e10f245edcf2f9f2b773964&#34;&gt;&lt;code&gt;73a06ae8c&lt;/code&gt;&lt;/a&gt;,&lt;br&gt;&#xA;&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/commit/cedec803fb05b5d92ef32c67352265fc7636500c&#34;&gt;&lt;code&gt;cedec803f&lt;/code&gt;&lt;/a&gt;]:&#xA;&lt;ul&gt;&#xA;&lt;li&gt;@chakra-ui/hooks@1.9.0&lt;/li&gt;&#xA;&lt;li&gt;@chakra-ui/system@1.12.0&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/chakra-ui/chakra-ui/releases/tag/%40chakra-ui%2Fskeleton%401.2.13" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>github-actions[bot]</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from chakra-ui - @chakra-ui/tabs@1.6.9</title>
-    <updated>2022-03-27T11:35:32Z</updated>
-    <id>tag:github.com,2008:Repository/202890778/@chakra-ui/tabs@1.6.9</id>
-    <content type="html">&lt;h3&gt;Patch Changes&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/pull/5665&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/chakra-ui/chakra-ui/pull/5665/hovercard&#34;&gt;#5665&lt;/a&gt;&lt;br&gt;&#xA;&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/commit/63c2bc070303ecdf4947c896b85bf602381040a4&#34;&gt;&lt;code&gt;63c2bc070&lt;/code&gt;&lt;/a&gt;&lt;br&gt;&#xA;Thanks &lt;a href=&#34;https://github.com/josulliv101&#34;&gt;@josulliv101&lt;/a&gt;! - Add height &amp;amp; width to&lt;br&gt;&#xA;the TabIndicator transition properties&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Updated dependencies&lt;br&gt;&#xA;[&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/commit/73a06ae8ce1bee644e10f245edcf2f9f2b773964&#34;&gt;&lt;code&gt;73a06ae8c&lt;/code&gt;&lt;/a&gt;]:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;@chakra-ui/hooks@1.9.0&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/chakra-ui/chakra-ui/releases/tag/%40chakra-ui%2Ftabs%401.6.9" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>github-actions[bot]</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from chakra-ui - @chakra-ui/switch@1.3.9</title>
-    <updated>2022-03-27T11:35:32Z</updated>
-    <id>tag:github.com,2008:Repository/202890778/@chakra-ui/switch@1.3.9</id>
-    <content type="html">&lt;h3&gt;Patch Changes&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Updated dependencies&lt;br&gt;&#xA;[&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/commit/a7be72918f1e74ce20eb31544433e4321caf5c78&#34;&gt;&lt;code&gt;a7be72918&lt;/code&gt;&lt;/a&gt;]:&#xA;&lt;ul&gt;&#xA;&lt;li&gt;@chakra-ui/checkbox@1.7.0&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/chakra-ui/chakra-ui/releases/tag/%40chakra-ui%2Fswitch%401.3.9" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>github-actions[bot]</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from chakra-ui - @chakra-ui/system@1.12.0</title>
-    <updated>2022-03-27T11:35:32Z</updated>
-    <id>tag:github.com,2008:Repository/202890778/@chakra-ui/system@1.12.0</id>
-    <content type="html">&lt;h3&gt;Minor Changes&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/pull/5532&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/chakra-ui/chakra-ui/pull/5532/hovercard&#34;&gt;#5532&lt;/a&gt;&lt;br&gt;&#xA;&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/commit/cedec803fb05b5d92ef32c67352265fc7636500c&#34;&gt;&lt;code&gt;cedec803f&lt;/code&gt;&lt;/a&gt;&lt;br&gt;&#xA;Thanks &lt;a href=&#34;https://github.com/TimKolberger&#34;&gt;@TimKolberger&lt;/a&gt;! - Added&lt;br&gt;&#xA;&lt;code&gt;[data-theme]&lt;/code&gt; to the CSS variables root selector. This allows the semantic&lt;br&gt;&#xA;tokens to change according to &lt;code&gt;data-theme=&#34;dark&#34;&lt;/code&gt; and &lt;code&gt;data-theme=&#34;light&#34;&lt;/code&gt; DOM&lt;br&gt;&#xA;element attributes.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3&gt;Patch Changes&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Updated dependencies&lt;br&gt;&#xA;[&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/commit/00d5d151631436777a8dc71a0b46c2be52e71631&#34;&gt;&lt;code&gt;00d5d1516&lt;/code&gt;&lt;/a&gt;,&lt;br&gt;&#xA;&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/commit/dc2c578f6b9686499911fa77d6b61dd0ced077ea&#34;&gt;&lt;code&gt;dc2c578f6&lt;/code&gt;&lt;/a&gt;]:&#xA;&lt;ul&gt;&#xA;&lt;li&gt;@chakra-ui/styled-system@1.19.0&lt;/li&gt;&#xA;&lt;li&gt;@chakra-ui/color-mode@1.4.7&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/chakra-ui/chakra-ui/releases/tag/%40chakra-ui%2Fsystem%401.12.0" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>github-actions[bot]</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from chakra-ui - @chakra-ui/textarea@1.2.10</title>
-    <updated>2022-03-27T11:35:32Z</updated>
-    <id>tag:github.com,2008:Repository/202890778/@chakra-ui/textarea@1.2.10</id>
-    <content type="html">&lt;h3&gt;Patch Changes&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Updated dependencies []:&#xA;&lt;ul&gt;&#xA;&lt;li&gt;@chakra-ui/form-control@1.5.10&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/chakra-ui/chakra-ui/releases/tag/%40chakra-ui%2Ftextarea%401.2.10" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>github-actions[bot]</name>
@@ -103,11 +37,22 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from chakra-ui - @chakra-ui/styled-system@1.19.0</title>
+    <title>Release notes from chakra-ui - @chakra-ui/tabs@1.6.9</title>
     <updated>2022-03-27T11:35:32Z</updated>
-    <id>tag:github.com,2008:Repository/202890778/@chakra-ui/styled-system@1.19.0</id>
-    <content type="html">&lt;h3&gt;Minor Changes&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/pull/5532&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/chakra-ui/chakra-ui/pull/5532/hovercard&#34;&gt;#5532&lt;/a&gt;&lt;br&gt;&#xA;&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/commit/00d5d151631436777a8dc71a0b46c2be52e71631&#34;&gt;&lt;code&gt;00d5d1516&lt;/code&gt;&lt;/a&gt;&lt;br&gt;&#xA;Thanks &lt;a href=&#34;https://github.com/TimKolberger&#34;&gt;@TimKolberger&lt;/a&gt;! - Updated &lt;code&gt;_dark&lt;/code&gt; and&lt;br&gt;&#xA;&lt;code&gt;_light&lt;/code&gt; pseudo selectors to allow semantic tokens to change with the&lt;br&gt;&#xA;&lt;code&gt;data-theme&lt;/code&gt; attributes.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3&gt;Patch Changes&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/pull/5702&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/chakra-ui/chakra-ui/pull/5702/hovercard&#34;&gt;#5702&lt;/a&gt;&lt;br&gt;&#xA;&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/commit/dc2c578f6b9686499911fa77d6b61dd0ced077ea&#34;&gt;&lt;code&gt;dc2c578f6&lt;/code&gt;&lt;/a&gt;&lt;br&gt;&#xA;Thanks &lt;a href=&#34;https://github.com/ardnahcivar&#34;&gt;@ardnahcivar&lt;/a&gt;! - Added &lt;code&gt;number&lt;/code&gt; type&lt;br&gt;&#xA;for text underline offset of text decoration props&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/chakra-ui/chakra-ui/releases/tag/%40chakra-ui%2Fstyled-system%401.19.0" rel="alternate"></link>
+    <id>tag:github.com,2008:Repository/202890778/@chakra-ui/tabs@1.6.9</id>
+    <content type="html">&lt;h3&gt;Patch Changes&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/pull/5665&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/chakra-ui/chakra-ui/pull/5665/hovercard&#34;&gt;#5665&lt;/a&gt;&lt;br&gt;&#xA;&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/commit/63c2bc070303ecdf4947c896b85bf602381040a4&#34;&gt;&lt;code&gt;63c2bc070&lt;/code&gt;&lt;/a&gt;&lt;br&gt;&#xA;Thanks &lt;a href=&#34;https://github.com/josulliv101&#34;&gt;@josulliv101&lt;/a&gt;! - Add height &amp;amp; width to&lt;br&gt;&#xA;the TabIndicator transition properties&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Updated dependencies&lt;br&gt;&#xA;[&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/commit/73a06ae8ce1bee644e10f245edcf2f9f2b773964&#34;&gt;&lt;code&gt;73a06ae8c&lt;/code&gt;&lt;/a&gt;]:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;@chakra-ui/hooks@1.9.0&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/chakra-ui/chakra-ui/releases/tag/%40chakra-ui%2Ftabs%401.6.9" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>github-actions[bot]</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from chakra-ui - @chakra-ui/system@1.12.0</title>
+    <updated>2022-03-27T11:35:32Z</updated>
+    <id>tag:github.com,2008:Repository/202890778/@chakra-ui/system@1.12.0</id>
+    <content type="html">&lt;h3&gt;Minor Changes&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/pull/5532&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/chakra-ui/chakra-ui/pull/5532/hovercard&#34;&gt;#5532&lt;/a&gt;&lt;br&gt;&#xA;&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/commit/cedec803fb05b5d92ef32c67352265fc7636500c&#34;&gt;&lt;code&gt;cedec803f&lt;/code&gt;&lt;/a&gt;&lt;br&gt;&#xA;Thanks &lt;a href=&#34;https://github.com/TimKolberger&#34;&gt;@TimKolberger&lt;/a&gt;! - Added&lt;br&gt;&#xA;&lt;code&gt;[data-theme]&lt;/code&gt; to the CSS variables root selector. This allows the semantic&lt;br&gt;&#xA;tokens to change according to &lt;code&gt;data-theme=&#34;dark&#34;&lt;/code&gt; and &lt;code&gt;data-theme=&#34;light&#34;&lt;/code&gt; DOM&lt;br&gt;&#xA;element attributes.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3&gt;Patch Changes&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Updated dependencies&lt;br&gt;&#xA;[&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/commit/00d5d151631436777a8dc71a0b46c2be52e71631&#34;&gt;&lt;code&gt;00d5d1516&lt;/code&gt;&lt;/a&gt;,&lt;br&gt;&#xA;&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/commit/dc2c578f6b9686499911fa77d6b61dd0ced077ea&#34;&gt;&lt;code&gt;dc2c578f6&lt;/code&gt;&lt;/a&gt;]:&#xA;&lt;ul&gt;&#xA;&lt;li&gt;@chakra-ui/styled-system@1.19.0&lt;/li&gt;&#xA;&lt;li&gt;@chakra-ui/color-mode@1.4.7&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/chakra-ui/chakra-ui/releases/tag/%40chakra-ui%2Fsystem%401.12.0" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>github-actions[bot]</name>
@@ -119,6 +64,72 @@
     <id>tag:github.com,2008:Repository/202890778/@chakra-ui/select@1.2.10</id>
     <content type="html">&lt;h3&gt;Patch Changes&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Updated dependencies []:&#xA;&lt;ul&gt;&#xA;&lt;li&gt;@chakra-ui/form-control@1.5.10&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
     <link href="https://github.com/chakra-ui/chakra-ui/releases/tag/%40chakra-ui%2Fselect%401.2.10" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>github-actions[bot]</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from chakra-ui - @chakra-ui/skeleton@1.2.13</title>
+    <updated>2022-03-27T11:35:32Z</updated>
+    <id>tag:github.com,2008:Repository/202890778/@chakra-ui/skeleton@1.2.13</id>
+    <content type="html">&lt;h3&gt;Patch Changes&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Updated dependencies&lt;br&gt;&#xA;[&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/commit/73a06ae8ce1bee644e10f245edcf2f9f2b773964&#34;&gt;&lt;code&gt;73a06ae8c&lt;/code&gt;&lt;/a&gt;,&lt;br&gt;&#xA;&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/commit/cedec803fb05b5d92ef32c67352265fc7636500c&#34;&gt;&lt;code&gt;cedec803f&lt;/code&gt;&lt;/a&gt;]:&#xA;&lt;ul&gt;&#xA;&lt;li&gt;@chakra-ui/hooks@1.9.0&lt;/li&gt;&#xA;&lt;li&gt;@chakra-ui/system@1.12.0&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/chakra-ui/chakra-ui/releases/tag/%40chakra-ui%2Fskeleton%401.2.13" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>github-actions[bot]</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from chakra-ui - @chakra-ui/slider@1.5.10</title>
+    <updated>2022-03-27T11:35:32Z</updated>
+    <id>tag:github.com,2008:Repository/202890778/@chakra-ui/slider@1.5.10</id>
+    <content type="html">&lt;h3&gt;Patch Changes&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Updated dependencies&lt;br&gt;&#xA;[&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/commit/73a06ae8ce1bee644e10f245edcf2f9f2b773964&#34;&gt;&lt;code&gt;73a06ae8c&lt;/code&gt;&lt;/a&gt;]:&#xA;&lt;ul&gt;&#xA;&lt;li&gt;@chakra-ui/hooks@1.9.0&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/chakra-ui/chakra-ui/releases/tag/%40chakra-ui%2Fslider%401.5.10" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>github-actions[bot]</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from chakra-ui - @chakra-ui/switch@1.3.9</title>
+    <updated>2022-03-27T11:35:32Z</updated>
+    <id>tag:github.com,2008:Repository/202890778/@chakra-ui/switch@1.3.9</id>
+    <content type="html">&lt;h3&gt;Patch Changes&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Updated dependencies&lt;br&gt;&#xA;[&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/commit/a7be72918f1e74ce20eb31544433e4321caf5c78&#34;&gt;&lt;code&gt;a7be72918&lt;/code&gt;&lt;/a&gt;]:&#xA;&lt;ul&gt;&#xA;&lt;li&gt;@chakra-ui/checkbox@1.7.0&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/chakra-ui/chakra-ui/releases/tag/%40chakra-ui%2Fswitch%401.3.9" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>github-actions[bot]</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from chakra-ui - @chakra-ui/styled-system@1.19.0</title>
+    <updated>2022-03-27T11:35:32Z</updated>
+    <id>tag:github.com,2008:Repository/202890778/@chakra-ui/styled-system@1.19.0</id>
+    <content type="html">&lt;h3&gt;Minor Changes&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/pull/5532&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/chakra-ui/chakra-ui/pull/5532/hovercard&#34;&gt;#5532&lt;/a&gt;&lt;br&gt;&#xA;&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/commit/00d5d151631436777a8dc71a0b46c2be52e71631&#34;&gt;&lt;code&gt;00d5d1516&lt;/code&gt;&lt;/a&gt;&lt;br&gt;&#xA;Thanks &lt;a href=&#34;https://github.com/TimKolberger&#34;&gt;@TimKolberger&lt;/a&gt;! - Updated &lt;code&gt;_dark&lt;/code&gt; and&lt;br&gt;&#xA;&lt;code&gt;_light&lt;/code&gt; pseudo selectors to allow semantic tokens to change with the&lt;br&gt;&#xA;&lt;code&gt;data-theme&lt;/code&gt; attributes.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3&gt;Patch Changes&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/pull/5702&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/chakra-ui/chakra-ui/pull/5702/hovercard&#34;&gt;#5702&lt;/a&gt;&lt;br&gt;&#xA;&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/commit/dc2c578f6b9686499911fa77d6b61dd0ced077ea&#34;&gt;&lt;code&gt;dc2c578f6&lt;/code&gt;&lt;/a&gt;&lt;br&gt;&#xA;Thanks &lt;a href=&#34;https://github.com/ardnahcivar&#34;&gt;@ardnahcivar&lt;/a&gt;! - Added &lt;code&gt;number&lt;/code&gt; type&lt;br&gt;&#xA;for text underline offset of text decoration props&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/chakra-ui/chakra-ui/releases/tag/%40chakra-ui%2Fstyled-system%401.19.0" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>github-actions[bot]</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from chakra-ui - @chakra-ui/textarea@1.2.10</title>
+    <updated>2022-03-27T11:35:32Z</updated>
+    <id>tag:github.com,2008:Repository/202890778/@chakra-ui/textarea@1.2.10</id>
+    <content type="html">&lt;h3&gt;Patch Changes&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Updated dependencies []:&#xA;&lt;ul&gt;&#xA;&lt;li&gt;@chakra-ui/form-control@1.5.10&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/chakra-ui/chakra-ui/releases/tag/%40chakra-ui%2Ftextarea%401.2.10" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>github-actions[bot]</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from chakra-ui - @chakra-ui/tooltip@1.5.0</title>
+    <updated>2022-03-27T11:35:32Z</updated>
+    <id>tag:github.com,2008:Repository/202890778/@chakra-ui/tooltip@1.5.0</id>
+    <content type="html">&lt;h3&gt;Minor Changes&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/pull/5199&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/chakra-ui/chakra-ui/pull/5199/hovercard&#34;&gt;#5199&lt;/a&gt;&lt;br&gt;&#xA;&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/commit/73a06ae8ce1bee644e10f245edcf2f9f2b773964&#34;&gt;&lt;code&gt;73a06ae8c&lt;/code&gt;&lt;/a&gt;&lt;br&gt;&#xA;Thanks &lt;a href=&#34;https://github.com/mlajtos&#34;&gt;@mlajtos&lt;/a&gt;! - Control whether Tooltip can&lt;br&gt;&#xA;be closed with Esc key&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3&gt;Patch Changes&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Updated dependencies&lt;br&gt;&#xA;[&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/commit/73a06ae8ce1bee644e10f245edcf2f9f2b773964&#34;&gt;&lt;code&gt;73a06ae8c&lt;/code&gt;&lt;/a&gt;]:&#xA;&lt;ul&gt;&#xA;&lt;li&gt;@chakra-ui/hooks@1.9.0&lt;/li&gt;&#xA;&lt;li&gt;@chakra-ui/portal@1.3.9&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/chakra-ui/chakra-ui/releases/tag/%40chakra-ui%2Ftooltip%401.5.0" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>github-actions[bot]</name>
@@ -818,22 +829,22 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from telepresence - v2.5.4-test.3</title>
+    <title>Release notes from telepresence - rpc/v2.5.4-test.3</title>
     <updated>2022-03-11T14:51:42Z</updated>
-    <id>tag:github.com,2008:Repository/82933315/v2.5.4-test.3</id>
+    <id>tag:github.com,2008:Repository/82933315/rpc/v2.5.4-test.3</id>
     <content type="html">&lt;p&gt;v2.5.4-test.3&lt;/p&gt;</content>
-    <link href="https://github.com/telepresenceio/telepresence/releases/tag/v2.5.4-test.3" rel="alternate"></link>
+    <link href="https://github.com/telepresenceio/telepresence/releases/tag/rpc%2Fv2.5.4-test.3" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>josecv</name>
     </author>
   </entry>
   <entry>
-    <title>Release notes from telepresence - rpc/v2.5.4-test.3</title>
+    <title>Release notes from telepresence - v2.5.4-test.3</title>
     <updated>2022-03-11T14:51:42Z</updated>
-    <id>tag:github.com,2008:Repository/82933315/rpc/v2.5.4-test.3</id>
+    <id>tag:github.com,2008:Repository/82933315/v2.5.4-test.3</id>
     <content type="html">&lt;p&gt;v2.5.4-test.3&lt;/p&gt;</content>
-    <link href="https://github.com/telepresenceio/telepresence/releases/tag/rpc%2Fv2.5.4-test.3" rel="alternate"></link>
+    <link href="https://github.com/telepresenceio/telepresence/releases/tag/v2.5.4-test.3" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>josecv</name>
@@ -3029,17 +3040,6 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from terraform - v1.1.0-beta2</title>
-    <updated>2021-11-17T23:29:49Z</updated>
-    <id>tag:github.com,2008:Repository/17728164/v1.1.0-beta2</id>
-    <content type="html">&lt;h2&gt;1.1.0 (Unreleased)&lt;/h2&gt;&#xA;&lt;p&gt;UPGRADE NOTES:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Terraform on macOS now requires macOS 10.13 High Sierra or later; Older macOS versions are no longer supported.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;The &lt;code&gt;terraform graph&lt;/code&gt; command no longer supports &lt;code&gt;-type=validate&lt;/code&gt; and &lt;code&gt;-type=eval&lt;/code&gt; options. The validate graph is always the same as the plan graph anyway, and the &#34;eval&#34; graph was just an implementation detail of the &lt;code&gt;terraform console&lt;/code&gt; command. The default behavior of creating a plan graph should be a reasonable replacement for both of the removed graph modes. (Please note that &lt;code&gt;terraform graph&lt;/code&gt; is not covered by the Terraform v1.0 compatibility promises, because its behavior inherently exposes Terraform Core implementation details, so we recommend it only for interactive debugging tasks and not for use in automation.)&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;code&gt;terraform apply&lt;/code&gt; with a previously-saved plan file will now verify that the provider plugin packages used to create the plan fully match the ones used during apply, using the same checksum scheme that Terraform normally uses for the dependency lock file. Previously Terraform was checking consistency of plugins from a plan file using a legacy mechanism which covered only the main plugin executable, not any other files that might be distributed alongside in the plugin package.&lt;/p&gt;&#xA;&lt;p&gt;This additional check should not affect typical plugins that conform to the expectation that a plugin package&#39;s contents are immutable once released, but may affect a hypothetical in-house plugin that intentionally modifies extra files in its package directory somehow between plan and apply. If you have such a plugin, you&#39;ll need to change its approach to store those files in some other location separate from the package directory. This is a minor compatibility break motivated by increasing the assurance that plugins have not been inadvertently or maliciously modified between plan and apply.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;code&gt;terraform state mv&lt;/code&gt; will now error when legacy &lt;code&gt;-backup&lt;/code&gt; or &lt;code&gt;-backup-out&lt;/code&gt; options are used without the &lt;code&gt;-state&lt;/code&gt; option on non-local backends. These options operate on a local state file only. Previously, these options were accepted but ignored silently when used with non-local backends.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;backend/azurerm: a new opt-in flag &lt;code&gt;use_microsoft_graph&lt;/code&gt; is available which switches to using MSAL authentication tokens and Microsoft Graph rather than using ADAL tokens and Azure Active Directory Graph which is now &lt;a href=&#34;https://docs.microsoft.com/en-us/graph/migrate-azure-ad-graph-faq&#34; rel=&#34;nofollow&#34;&gt;deprecated by Microsoft&lt;/a&gt;. This functionality is disabled by default but will be enabled by default in a future version of Terraform. We encourage you to configure and test this setting with your own Azure AD tenant prior to Terraform 1.2. (&lt;a href=&#34;https://github.com/hashicorp/terraform/issues/29968&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/hashicorp/terraform/pull/29968/hovercard&#34;&gt;#29968&lt;/a&gt;)&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;NEW FEATURES:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;code&gt;moved&lt;/code&gt; blocks for refactoring within modules: Module authors can now record in module source code whenever they&#39;ve changed the address of a resource or resource instance, and then during planning Terraform will automatically migrate existing objects in the state to new addresses.&lt;/p&gt;&#xA;&lt;p&gt;This therefore avoids the need for module users to manually run &lt;code&gt;terraform state mv&lt;/code&gt; after upgrading to a newer module version, as long as the change is expressible as static configuration. However, &lt;code&gt;terraform state mv&lt;/code&gt; remains available for use in more complex migration situations that are not well-suited to declarative configuration.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;A new &lt;code&gt;cloud&lt;/code&gt; option in the &lt;code&gt;terraform&lt;/code&gt; settings block adds a more native integration for Terraform Cloud and its &lt;a href=&#34;https://www.terraform.io/docs/cloud/run/cli.html&#34; rel=&#34;nofollow&#34;&gt;CLI-driven run workflow&lt;/a&gt;. The Cloud integration includes several enhancements, including per-run variable support using the &lt;code&gt;-var&lt;/code&gt; flag, the ability to map Terraform Cloud workspaces to the current configuration via &lt;a href=&#34;https://www.terraform.io/docs/cloud/api/workspaces.html#get-tags&#34; rel=&#34;nofollow&#34;&gt;Workspace Tags&lt;/a&gt;, and an improved user experience for Terraform Cloud/Enterprise users with actionable error messages and prompts. (&lt;a href=&#34;https://github.com/hashicorp/terraform/pull/29826&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/hashicorp/terraform/pull/29826/hovercard&#34;&gt;#29826&lt;/a&gt;)&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;code&gt;terraform plan&lt;/code&gt; and &lt;code&gt;terraform apply&lt;/code&gt;: When Terraform plans to destroy a resource instance due to it no longer being declared in the configuration, the proposed plan output will now include a note hinting at what situation prompted that proposal, so you can more easily see what configuration change might avoid the object being destroyed. (&lt;a href=&#34;https://github.com/hashicorp/terraform/pull/29637&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/hashicorp/terraform/pull/29637/hovercard&#34;&gt;#29637&lt;/a&gt;)&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;code&gt;terraform plan&lt;/code&gt; and &lt;code&gt;terraform apply&lt;/code&gt;: When Terraform automatically moves a singleton resource instance to index zero or vice-versa in response to adding or removing &lt;code&gt;count&lt;/code&gt;, it&#39;ll report explicitly that it did so as part of the plan output. (&lt;a href=&#34;https://github.com/hashicorp/terraform/pull/29605&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/hashicorp/terraform/pull/29605/hovercard&#34;&gt;#29605&lt;/a&gt;)&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;config: a new &lt;code&gt;type()&lt;/code&gt; function, available only in &lt;code&gt;terraform console&lt;/code&gt;. (&lt;a href=&#34;https://github.com/hashicorp/terraform/issues/28501&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/hashicorp/terraform/pull/28501/hovercard&#34;&gt;#28501&lt;/a&gt;)&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;ENHANCEMENTS:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;config: Terraform now checks the syntax of and normalizes module source addresses (the &lt;code&gt;source&lt;/code&gt; argument in &lt;code&gt;module&lt;/code&gt; blocks) during configuration decoding rather than only at module installation time. This is largely just an internal refactoring, but a visible benefit of this change is that the &lt;code&gt;terraform init&lt;/code&gt; messages about module downloading will now show the canonical module package address Terraform is downloading from, after interpreting the special shorthands for common cases like GitHub URLs. (&lt;a href=&#34;https://github.com/hashicorp/terraform/issues/28854&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/hashicorp/terraform/pull/28854/hovercard&#34;&gt;#28854&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;config: A new variable attribute &lt;code&gt;nullable&lt;/code&gt;, which defines whether a variable can be null within a module. Setting &lt;code&gt;nullable&lt;/code&gt; to &lt;code&gt;false&lt;/code&gt; ensures that a variable value will not be &lt;code&gt;null&lt;/code&gt;, and that a non-null default is used when &lt;code&gt;null&lt;/code&gt; is given as a module argument (&lt;a href=&#34;https://github.com/hashicorp/terraform/issues/29832&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/hashicorp/terraform/pull/29832/hovercard&#34;&gt;#29832&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;&lt;code&gt;terraform plan&lt;/code&gt; and &lt;code&gt;terraform apply&lt;/code&gt;: Terraform will now report explicitly in the UI if it automatically moves a resource instance to a new address as a result of adding or removing the &lt;code&gt;count&lt;/code&gt; argument from an existing resource. For example, if you previously had &lt;code&gt;resource &#34;aws_subnet&#34; &#34;example&#34;&lt;/code&gt; &lt;em&gt;without&lt;/em&gt; &lt;code&gt;count&lt;/code&gt;, you might have &lt;code&gt;aws_subnet.example&lt;/code&gt; already bound to a remote object in your state. If you add &lt;code&gt;count = 1&lt;/code&gt; to that resource then Terraform would previously silently rebind the object to &lt;code&gt;aws_subnet.example[0]&lt;/code&gt; as part of planning, whereas now Terraform will mention that it did so explicitly in the plan description. (&lt;a href=&#34;https://github.com/hashicorp/terraform/issues/29605&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/hashicorp/terraform/pull/29605/hovercard&#34;&gt;#29605&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;&lt;code&gt;terraform workspace delete&lt;/code&gt;: will now allow deleting a workspace whose state contains only data resource instances and output values, without running &lt;code&gt;terraform destroy&lt;/code&gt; first. Previously the presence of data resources would require using &lt;code&gt;-force&lt;/code&gt; to override the safety check guarding against accidentally forgetting about remote objects, but a data resource is not responsible for the management of its associated remote object(s) anyway. (&lt;a href=&#34;https://github.com/hashicorp/terraform/issues/29754&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/hashicorp/terraform/pull/29754/hovercard&#34;&gt;#29754&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;provisioner/remote-exec and provisioner/file: When using SSH agent authentication mode on Windows, Terraform can now detect and use &lt;a href=&#34;https://devblogs.microsoft.com/powershell/using-the-openssh-beta-in-windows-10-fall-creators-update-and-windows-server-1709/&#34; rel=&#34;nofollow&#34;&gt;the Windows 10 built-in OpenSSH Client&lt;/a&gt;&#39;s SSH Agent, when available, in addition to the existing support for the third-party solution &lt;a href=&#34;https://documentation.help/PuTTY/pageant.html&#34; rel=&#34;nofollow&#34;&gt;Pageant&lt;/a&gt; that was already supported. (&lt;a href=&#34;https://github.com/hashicorp/terraform/issues/29747&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/hashicorp/terraform/pull/29747/hovercard&#34;&gt;#29747&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;cli: &lt;code&gt;terraform state mv&lt;/code&gt; will now error when legacy &lt;code&gt;-backup&lt;/code&gt; or &lt;code&gt;-backup-out&lt;/code&gt; options are used without the &lt;code&gt;-state&lt;/code&gt; option on non-local backends (&lt;a href=&#34;https://github.com/hashicorp/terraform/issues/27908&#34; data-hovercard-type=&#34;issue&#34; data-hovercard-url=&#34;/hashicorp/terraform/issues/27908/hovercard&#34;&gt;#27908&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;BUG FIXES:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;backend/oss: Flatten &lt;code&gt;assume_role&lt;/code&gt; block attributes, so that they may be more easily represented in a compatible way with &lt;code&gt;terraform_remote_state&lt;/code&gt; (&lt;a href=&#34;https://github.com/hashicorp/terraform/issues/29307&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/hashicorp/terraform/pull/29307/hovercard&#34;&gt;#29307&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;config: Fixed a bug in which &lt;code&gt;ignore_changes = all&lt;/code&gt; would not work in override files (&lt;a href=&#34;https://github.com/hashicorp/terraform/issues/29849&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/hashicorp/terraform/pull/29849/hovercard&#34;&gt;#29849&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;core: Use more precise typing information of resources during config validation (&lt;a href=&#34;https://github.com/hashicorp/terraform/issues/29862&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/hashicorp/terraform/pull/29862/hovercard&#34;&gt;#29862&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;core: Fixed an issue where provider configuration input variables were not properly merging with values in configuration (&lt;a href=&#34;https://github.com/hashicorp/terraform/issues/29000&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/hashicorp/terraform/pull/29000/hovercard&#34;&gt;#29000&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;core: Reduce scope of dependencies that may defer reading of data sources when using &lt;code&gt;depends_on&lt;/code&gt; or directly referencing managed resources (&lt;a href=&#34;https://github.com/hashicorp/terraform/issues/29682&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/hashicorp/terraform/pull/29682/hovercard&#34;&gt;#29682&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;core: &lt;code&gt;ignore_changes&lt;/code&gt; could cause a null map to be converted to an empty map (&lt;a href=&#34;https://github.com/hashicorp/terraform/issues/29928&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/hashicorp/terraform/pull/29928/hovercard&#34;&gt;#29928&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;cli: Blocks using SchemaConfigModeAttr in the provider SDK can now represented in the plan json output (&lt;a href=&#34;https://github.com/hashicorp/terraform/issues/29522&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/hashicorp/terraform/pull/29522/hovercard&#34;&gt;#29522&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;cli: Prevent applying a stale planfile when there was no previous state (&lt;a href=&#34;https://github.com/hashicorp/terraform/issues/29755&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/hashicorp/terraform/pull/29755/hovercard&#34;&gt;#29755&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;cli: Improve list nested attribute rendering (&lt;a href=&#34;https://github.com/hashicorp/terraform/issues/29827&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/hashicorp/terraform/pull/29827/hovercard&#34;&gt;#29827&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;command: Fixed an issue where the backend cache hash value was being updated too early in backend initialization/migrate flows, causing situations where &lt;code&gt;init&lt;/code&gt; would not properly restart a backend migration process if that process failed previously. (&lt;a href=&#34;https://github.com/hashicorp/terraform/issues/29860&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/hashicorp/terraform/pull/29860/hovercard&#34;&gt;#29860&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/hashicorp/terraform/releases/tag/v1.1.0-beta2" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>hc-github-team-tf-core</name>
-    </author>
-  </entry>
-  <entry>
     <title>Release notes from functions-framework-go - functions-framework-go v1.5.1</title>
     <updated>2021-11-17T23:15:49Z</updated>
     <id>tag:github.com,2008:Repository/215139378/v1.5.1</id>
@@ -4679,22 +4679,22 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from triangula - v1.1.6</title>
+    <title>Release notes from triangula - v1.1.5</title>
     <updated>2021-05-11T13:31:09Z</updated>
-    <id>tag:github.com,2008:Repository/354015172/v1.1.6</id>
+    <id>tag:github.com,2008:Repository/354015172/v1.1.5</id>
     <content type="html">&lt;p&gt;Refactor for more flexibility&lt;/p&gt;</content>
-    <link href="https://github.com/rh12503/triangula/releases/tag/v1.1.6" rel="alternate"></link>
+    <link href="https://github.com/rh12503/triangula/releases/tag/v1.1.5" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>rh12503</name>
     </author>
   </entry>
   <entry>
-    <title>Release notes from triangula - v1.1.5</title>
+    <title>Release notes from triangula - v1.1.6</title>
     <updated>2021-05-11T13:31:09Z</updated>
-    <id>tag:github.com,2008:Repository/354015172/v1.1.5</id>
+    <id>tag:github.com,2008:Repository/354015172/v1.1.6</id>
     <content type="html">&lt;p&gt;Refactor for more flexibility&lt;/p&gt;</content>
-    <link href="https://github.com/rh12503/triangula/releases/tag/v1.1.5" rel="alternate"></link>
+    <link href="https://github.com/rh12503/triangula/releases/tag/v1.1.6" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>rh12503</name>
