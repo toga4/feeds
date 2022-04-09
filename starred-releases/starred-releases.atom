@@ -26,22 +26,22 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from telepresence - v2.5.5</title>
+    <title>Release notes from telepresence - rpc/v2.5.5</title>
     <updated>2022-04-08T21:37:42Z</updated>
-    <id>tag:github.com,2008:Repository/82933315/v2.5.5</id>
+    <id>tag:github.com,2008:Repository/82933315/rpc/v2.5.5</id>
     <content type="html">&lt;p&gt;v2.5.5&lt;/p&gt;</content>
-    <link href="https://github.com/telepresenceio/telepresence/releases/tag/v2.5.5" rel="alternate"></link>
+    <link href="https://github.com/telepresenceio/telepresence/releases/tag/rpc%2Fv2.5.5" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>njayp</name>
     </author>
   </entry>
   <entry>
-    <title>Release notes from telepresence - rpc/v2.5.5</title>
+    <title>Release notes from telepresence - v2.5.5</title>
     <updated>2022-04-08T21:37:42Z</updated>
-    <id>tag:github.com,2008:Repository/82933315/rpc/v2.5.5</id>
+    <id>tag:github.com,2008:Repository/82933315/v2.5.5</id>
     <content type="html">&lt;p&gt;v2.5.5&lt;/p&gt;</content>
-    <link href="https://github.com/telepresenceio/telepresence/releases/tag/rpc%2Fv2.5.5" rel="alternate"></link>
+    <link href="https://github.com/telepresenceio/telepresence/releases/tag/v2.5.5" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>njayp</name>
@@ -125,22 +125,22 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from chakra-ui - @chakra-ui/toast@2.0.0-next.0</title>
+    <title>Release notes from chakra-ui - @chakra-ui/storybook-addon@2.0.0-next.0</title>
     <updated>2022-04-07T20:03:50Z</updated>
-    <id>tag:github.com,2008:Repository/202890778/@chakra-ui/toast@2.0.0-next.0</id>
-    <content type="html">&lt;h3&gt;Major Changes&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/pull/5797&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/chakra-ui/chakra-ui/pull/5797/hovercard&#34;&gt;#5797&lt;/a&gt;&lt;br&gt;&#xA;&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/commit/c7a1a53ace53020e23c1b92d48ff16d8d8e95709&#34;&gt;&lt;code&gt;c7a1a53ac&lt;/code&gt;&lt;/a&gt;&lt;br&gt;&#xA;Thanks &lt;a href=&#34;https://github.com/TimKolberger&#34;&gt;@TimKolberger&lt;/a&gt;! - Add support for&lt;br&gt;&#xA;React 18.&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;Please note: There are &lt;strong&gt;no breaking changes&lt;/strong&gt; to the hook &lt;code&gt;useToast&lt;/code&gt;. There&lt;br&gt;&#xA;are only breaking changes to &lt;code&gt;createStandaloneToast&lt;/code&gt;.&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;h3&gt;Breaking changes to &lt;code&gt;createStandaloneToast&lt;/code&gt;&lt;/h3&gt;&#xA;&lt;p&gt;With React &amp;lt;17 Chakra UI was able to render the toast container DOM element&lt;br&gt;&#xA;for you. To allow Chakra UI to support all React versions &amp;gt;=16.8 you need to&lt;br&gt;&#xA;render the DOM element in your application code.&lt;/p&gt;&#xA;&lt;h4&gt;before&lt;/h4&gt;&#xA;&lt;div class=&#34;highlight highlight-source-ts position-relative overflow-auto&#34; data-snippet-clipboard-copy-content=&#34;import { createStandaloneToast } from &amp;quot;@chakra-ui/toast&amp;quot;&#xA;&#xA;const toast = createStandaloneToast()&#xA;toast({ title: &amp;quot;Chakra UI&amp;quot; })&#34;&gt;&lt;pre&gt;&lt;span class=&#34;pl-k&#34;&gt;import&lt;/span&gt; &lt;span class=&#34;pl-kos&#34;&gt;{&lt;/span&gt; &lt;span class=&#34;pl-s1&#34;&gt;createStandaloneToast&lt;/span&gt; &lt;span class=&#34;pl-kos&#34;&gt;}&lt;/span&gt; &lt;span class=&#34;pl-k&#34;&gt;from&lt;/span&gt; &lt;span class=&#34;pl-s&#34;&gt;&#34;@chakra-ui/toast&#34;&lt;/span&gt;&#xA;&#xA;&lt;span class=&#34;pl-k&#34;&gt;const&lt;/span&gt; &lt;span class=&#34;pl-s1&#34;&gt;toast&lt;/span&gt; &lt;span class=&#34;pl-c1&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;pl-en&#34;&gt;createStandaloneToast&lt;/span&gt;&lt;span class=&#34;pl-kos&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;pl-kos&#34;&gt;)&lt;/span&gt;&#xA;&lt;span class=&#34;pl-en&#34;&gt;toast&lt;/span&gt;&lt;span class=&#34;pl-kos&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;pl-kos&#34;&gt;{&lt;/span&gt; &lt;span class=&#34;pl-c1&#34;&gt;title&lt;/span&gt;: &lt;span class=&#34;pl-s&#34;&gt;&#34;Chakra UI&#34;&lt;/span&gt; &lt;span class=&#34;pl-kos&#34;&gt;}&lt;/span&gt;&lt;span class=&#34;pl-kos&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;&#xA;&lt;h4&gt;with React 17&lt;/h4&gt;&#xA;&lt;div class=&#34;highlight highlight-source-tsx position-relative overflow-auto&#34; data-snippet-clipboard-copy-content=&#34;import { createStandaloneToast } from &amp;quot;@chakra-ui/toast&amp;quot;&#xA;import * as ReactDOM from &amp;quot;react-dom&amp;quot;&#xA;&#xA;const toastContainerElement = document.createElement(&amp;quot;div&amp;quot;)&#xA;window.document.body.append(toastContainerElement)&#xA;&#xA;const { ToastContainer, toast } = createStandaloneToast()&#xA;ReactDOM.render(&amp;lt;ToastContainer /&amp;gt;, toastContainerElement)&#xA;&#xA;toast({ title: &amp;quot;Chakra UI&amp;quot; })&#34;&gt;&lt;pre&gt;&lt;span class=&#34;pl-k&#34;&gt;import&lt;/span&gt; &lt;span class=&#34;pl-kos&#34;&gt;{&lt;/span&gt; &lt;span class=&#34;pl-s1&#34;&gt;createStandaloneToast&lt;/span&gt; &lt;span class=&#34;pl-kos&#34;&gt;}&lt;/span&gt; &lt;span class=&#34;pl-k&#34;&gt;from&lt;/span&gt; &lt;span class=&#34;pl-s&#34;&gt;&#34;@chakra-ui/toast&#34;&lt;/span&gt;&#xA;&lt;span class=&#34;pl-k&#34;&gt;import&lt;/span&gt; &lt;span class=&#34;pl-c1&#34;&gt;*&lt;/span&gt; &lt;span class=&#34;pl-k&#34;&gt;as&lt;/span&gt; &lt;span class=&#34;pl-smi&#34;&gt;ReactDOM&lt;/span&gt; &lt;span class=&#34;pl-k&#34;&gt;from&lt;/span&gt; &lt;span class=&#34;pl-s&#34;&gt;&#34;react-dom&#34;&lt;/span&gt;&#xA;&#xA;&lt;span class=&#34;pl-k&#34;&gt;const&lt;/span&gt; &lt;span class=&#34;pl-s1&#34;&gt;toastContainerElement&lt;/span&gt; &lt;span class=&#34;pl-c1&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;pl-smi&#34;&gt;document&lt;/span&gt;&lt;span class=&#34;pl-kos&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;pl-en&#34;&gt;createElement&lt;/span&gt;&lt;span class=&#34;pl-kos&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;pl-s&#34;&gt;&#34;div&#34;&lt;/span&gt;&lt;span class=&#34;pl-kos&#34;&gt;)&lt;/span&gt;&#xA;&lt;span class=&#34;pl-smi&#34;&gt;window&lt;/span&gt;&lt;span class=&#34;pl-kos&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;pl-c1&#34;&gt;document&lt;/span&gt;&lt;span class=&#34;pl-kos&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;pl-c1&#34;&gt;body&lt;/span&gt;&lt;span class=&#34;pl-kos&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;pl-en&#34;&gt;append&lt;/span&gt;&lt;span class=&#34;pl-kos&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;pl-s1&#34;&gt;toastContainerElement&lt;/span&gt;&lt;span class=&#34;pl-kos&#34;&gt;)&lt;/span&gt;&#xA;&#xA;&lt;span class=&#34;pl-k&#34;&gt;const&lt;/span&gt; &lt;span class=&#34;pl-kos&#34;&gt;{&lt;/span&gt; ToastContainer&lt;span class=&#34;pl-kos&#34;&gt;,&lt;/span&gt; toast &lt;span class=&#34;pl-kos&#34;&gt;}&lt;/span&gt; &lt;span class=&#34;pl-c1&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;pl-en&#34;&gt;createStandaloneToast&lt;/span&gt;&lt;span class=&#34;pl-kos&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;pl-kos&#34;&gt;)&lt;/span&gt;&#xA;&lt;span class=&#34;pl-smi&#34;&gt;ReactDOM&lt;/span&gt;&lt;span class=&#34;pl-kos&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;pl-en&#34;&gt;render&lt;/span&gt;&lt;span class=&#34;pl-kos&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;pl-c1&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;pl-smi&#34;&gt;ToastContainer&lt;/span&gt; &lt;span class=&#34;pl-c1&#34;&gt;/&lt;/span&gt;&lt;span class=&#34;pl-c1&#34;&gt;&amp;gt;&lt;/span&gt;&lt;span class=&#34;pl-kos&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;pl-s1&#34;&gt;toastContainerElement&lt;/span&gt;&lt;span class=&#34;pl-kos&#34;&gt;)&lt;/span&gt;&#xA;&#xA;&lt;span class=&#34;pl-en&#34;&gt;toast&lt;/span&gt;&lt;span class=&#34;pl-kos&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;pl-kos&#34;&gt;{&lt;/span&gt; &lt;span class=&#34;pl-c1&#34;&gt;title&lt;/span&gt;: &lt;span class=&#34;pl-s&#34;&gt;&#34;Chakra UI&#34;&lt;/span&gt; &lt;span class=&#34;pl-kos&#34;&gt;}&lt;/span&gt;&lt;span class=&#34;pl-kos&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;&#xA;&lt;h4&gt;with React 18&lt;/h4&gt;&#xA;&lt;div class=&#34;highlight highlight-source-tsx position-relative overflow-auto&#34; data-snippet-clipboard-copy-content=&#34;import { createStandaloneToast } from &amp;quot;@chakra-ui/toast&amp;quot;&#xA;import * as ReactDOM from &amp;quot;react-dom/client&amp;quot;&#xA;&#xA;const toastContainerElement = document.createElement(&amp;quot;div&amp;quot;)&#xA;window.document.body.append(toastContainerElement)&#xA;&#xA;const { ToastContainer, toast } = createStandaloneToast()&#xA;const root = ReactDOM.createRoot(toastContainerElement)&#xA;root.render(&amp;lt;ToastContainer /&amp;gt;)&#xA;&#xA;toast({ title: &amp;quot;Chakra UI&amp;quot; })&#34;&gt;&lt;pre&gt;&lt;span class=&#34;pl-k&#34;&gt;import&lt;/span&gt; &lt;span class=&#34;pl-kos&#34;&gt;{&lt;/span&gt; &lt;span class=&#34;pl-s1&#34;&gt;createStandaloneToast&lt;/span&gt; &lt;span class=&#34;pl-kos&#34;&gt;}&lt;/span&gt; &lt;span class=&#34;pl-k&#34;&gt;from&lt;/span&gt; &lt;span class=&#34;pl-s&#34;&gt;&#34;@chakra-ui/toast&#34;&lt;/span&gt;&#xA;&lt;span class=&#34;pl-k&#34;&gt;import&lt;/span&gt; &lt;span class=&#34;pl-c1&#34;&gt;*&lt;/span&gt; &lt;span class=&#34;pl-k&#34;&gt;as&lt;/span&gt; &lt;span class=&#34;pl-smi&#34;&gt;ReactDOM&lt;/span&gt; &lt;span class=&#34;pl-k&#34;&gt;from&lt;/span&gt; &lt;span class=&#34;pl-s&#34;&gt;&#34;react-dom/client&#34;&lt;/span&gt;&#xA;&#xA;&lt;span class=&#34;pl-k&#34;&gt;const&lt;/span&gt; &lt;span class=&#34;pl-s1&#34;&gt;toastContainerElement&lt;/span&gt; &lt;span class=&#34;pl-c1&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;pl-smi&#34;&gt;document&lt;/span&gt;&lt;span class=&#34;pl-kos&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;pl-en&#34;&gt;createElement&lt;/span&gt;&lt;span class=&#34;pl-kos&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;pl-s&#34;&gt;&#34;div&#34;&lt;/span&gt;&lt;span class=&#34;pl-kos&#34;&gt;)&lt;/span&gt;&#xA;&lt;span class=&#34;pl-smi&#34;&gt;window&lt;/span&gt;&lt;span class=&#34;pl-kos&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;pl-c1&#34;&gt;document&lt;/span&gt;&lt;span class=&#34;pl-kos&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;pl-c1&#34;&gt;body&lt;/span&gt;&lt;span class=&#34;pl-kos&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;pl-en&#34;&gt;append&lt;/span&gt;&lt;span class=&#34;pl-kos&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;pl-s1&#34;&gt;toastContainerElement&lt;/span&gt;&lt;span class=&#34;pl-kos&#34;&gt;)&lt;/span&gt;&#xA;&#xA;&lt;span class=&#34;pl-k&#34;&gt;const&lt;/span&gt; &lt;span class=&#34;pl-kos&#34;&gt;{&lt;/span&gt; ToastContainer&lt;span class=&#34;pl-kos&#34;&gt;,&lt;/span&gt; toast &lt;span class=&#34;pl-kos&#34;&gt;}&lt;/span&gt; &lt;span class=&#34;pl-c1&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;pl-en&#34;&gt;createStandaloneToast&lt;/span&gt;&lt;span class=&#34;pl-kos&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;pl-kos&#34;&gt;)&lt;/span&gt;&#xA;&lt;span class=&#34;pl-k&#34;&gt;const&lt;/span&gt; &lt;span class=&#34;pl-s1&#34;&gt;root&lt;/span&gt; &lt;span class=&#34;pl-c1&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;pl-smi&#34;&gt;ReactDOM&lt;/span&gt;&lt;span class=&#34;pl-kos&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;pl-en&#34;&gt;createRoot&lt;/span&gt;&lt;span class=&#34;pl-kos&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;pl-s1&#34;&gt;toastContainerElement&lt;/span&gt;&lt;span class=&#34;pl-kos&#34;&gt;)&lt;/span&gt;&#xA;&lt;span class=&#34;pl-s1&#34;&gt;root&lt;/span&gt;&lt;span class=&#34;pl-kos&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;pl-en&#34;&gt;render&lt;/span&gt;&lt;span class=&#34;pl-kos&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;pl-c1&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;pl-smi&#34;&gt;ToastContainer&lt;/span&gt; &lt;span class=&#34;pl-c1&#34;&gt;/&lt;/span&gt;&lt;span class=&#34;pl-c1&#34;&gt;&amp;gt;&lt;/span&gt;&lt;span class=&#34;pl-kos&#34;&gt;)&lt;/span&gt;&#xA;&#xA;&lt;span class=&#34;pl-en&#34;&gt;toast&lt;/span&gt;&lt;span class=&#34;pl-kos&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;pl-kos&#34;&gt;{&lt;/span&gt; &lt;span class=&#34;pl-c1&#34;&gt;title&lt;/span&gt;: &lt;span class=&#34;pl-s&#34;&gt;&#34;Chakra UI&#34;&lt;/span&gt; &lt;span class=&#34;pl-kos&#34;&gt;}&lt;/span&gt;&lt;span class=&#34;pl-kos&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/chakra-ui/chakra-ui/releases/tag/%40chakra-ui%2Ftoast%402.0.0-next.0" rel="alternate"></link>
+    <id>tag:github.com,2008:Repository/202890778/@chakra-ui/storybook-addon@2.0.0-next.0</id>
+    <content type="html">&lt;h3&gt;Patch Changes&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Updated dependencies&lt;br&gt;&#xA;[&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/commit/c7a1a53ace53020e23c1b92d48ff16d8d8e95709&#34;&gt;&lt;code&gt;c7a1a53ac&lt;/code&gt;&lt;/a&gt;]:&#xA;&lt;ul&gt;&#xA;&lt;li&gt;@chakra-ui/react@2.0.0-next.0&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/chakra-ui/chakra-ui/releases/tag/%40chakra-ui%2Fstorybook-addon%402.0.0-next.0" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>github-actions[bot]</name>
     </author>
   </entry>
   <entry>
-    <title>Release notes from chakra-ui - @chakra-ui/storybook-addon@2.0.0-next.0</title>
+    <title>Release notes from chakra-ui - @chakra-ui/toast@2.0.0-next.0</title>
     <updated>2022-04-07T20:03:50Z</updated>
-    <id>tag:github.com,2008:Repository/202890778/@chakra-ui/storybook-addon@2.0.0-next.0</id>
-    <content type="html">&lt;h3&gt;Patch Changes&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Updated dependencies&lt;br&gt;&#xA;[&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/commit/c7a1a53ace53020e23c1b92d48ff16d8d8e95709&#34;&gt;&lt;code&gt;c7a1a53ac&lt;/code&gt;&lt;/a&gt;]:&#xA;&lt;ul&gt;&#xA;&lt;li&gt;@chakra-ui/react@2.0.0-next.0&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/chakra-ui/chakra-ui/releases/tag/%40chakra-ui%2Fstorybook-addon%402.0.0-next.0" rel="alternate"></link>
+    <id>tag:github.com,2008:Repository/202890778/@chakra-ui/toast@2.0.0-next.0</id>
+    <content type="html">&lt;h3&gt;Major Changes&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/pull/5797&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/chakra-ui/chakra-ui/pull/5797/hovercard&#34;&gt;#5797&lt;/a&gt;&lt;br&gt;&#xA;&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/commit/c7a1a53ace53020e23c1b92d48ff16d8d8e95709&#34;&gt;&lt;code&gt;c7a1a53ac&lt;/code&gt;&lt;/a&gt;&lt;br&gt;&#xA;Thanks &lt;a href=&#34;https://github.com/TimKolberger&#34;&gt;@TimKolberger&lt;/a&gt;! - Add support for&lt;br&gt;&#xA;React 18.&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;Please note: There are &lt;strong&gt;no breaking changes&lt;/strong&gt; to the hook &lt;code&gt;useToast&lt;/code&gt;. There&lt;br&gt;&#xA;are only breaking changes to &lt;code&gt;createStandaloneToast&lt;/code&gt;.&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;h3&gt;Breaking changes to &lt;code&gt;createStandaloneToast&lt;/code&gt;&lt;/h3&gt;&#xA;&lt;p&gt;With React &amp;lt;17 Chakra UI was able to render the toast container DOM element&lt;br&gt;&#xA;for you. To allow Chakra UI to support all React versions &amp;gt;=16.8 you need to&lt;br&gt;&#xA;render the DOM element in your application code.&lt;/p&gt;&#xA;&lt;h4&gt;before&lt;/h4&gt;&#xA;&lt;div class=&#34;highlight highlight-source-ts position-relative overflow-auto&#34; data-snippet-clipboard-copy-content=&#34;import { createStandaloneToast } from &amp;quot;@chakra-ui/toast&amp;quot;&#xA;&#xA;const toast = createStandaloneToast()&#xA;toast({ title: &amp;quot;Chakra UI&amp;quot; })&#34;&gt;&lt;pre&gt;&lt;span class=&#34;pl-k&#34;&gt;import&lt;/span&gt; &lt;span class=&#34;pl-kos&#34;&gt;{&lt;/span&gt; &lt;span class=&#34;pl-s1&#34;&gt;createStandaloneToast&lt;/span&gt; &lt;span class=&#34;pl-kos&#34;&gt;}&lt;/span&gt; &lt;span class=&#34;pl-k&#34;&gt;from&lt;/span&gt; &lt;span class=&#34;pl-s&#34;&gt;&#34;@chakra-ui/toast&#34;&lt;/span&gt;&#xA;&#xA;&lt;span class=&#34;pl-k&#34;&gt;const&lt;/span&gt; &lt;span class=&#34;pl-s1&#34;&gt;toast&lt;/span&gt; &lt;span class=&#34;pl-c1&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;pl-en&#34;&gt;createStandaloneToast&lt;/span&gt;&lt;span class=&#34;pl-kos&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;pl-kos&#34;&gt;)&lt;/span&gt;&#xA;&lt;span class=&#34;pl-en&#34;&gt;toast&lt;/span&gt;&lt;span class=&#34;pl-kos&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;pl-kos&#34;&gt;{&lt;/span&gt; &lt;span class=&#34;pl-c1&#34;&gt;title&lt;/span&gt;: &lt;span class=&#34;pl-s&#34;&gt;&#34;Chakra UI&#34;&lt;/span&gt; &lt;span class=&#34;pl-kos&#34;&gt;}&lt;/span&gt;&lt;span class=&#34;pl-kos&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;&#xA;&lt;h4&gt;with React 17&lt;/h4&gt;&#xA;&lt;div class=&#34;highlight highlight-source-tsx position-relative overflow-auto&#34; data-snippet-clipboard-copy-content=&#34;import { createStandaloneToast } from &amp;quot;@chakra-ui/toast&amp;quot;&#xA;import * as ReactDOM from &amp;quot;react-dom&amp;quot;&#xA;&#xA;const toastContainerElement = document.createElement(&amp;quot;div&amp;quot;)&#xA;window.document.body.append(toastContainerElement)&#xA;&#xA;const { ToastContainer, toast } = createStandaloneToast()&#xA;ReactDOM.render(&amp;lt;ToastContainer /&amp;gt;, toastContainerElement)&#xA;&#xA;toast({ title: &amp;quot;Chakra UI&amp;quot; })&#34;&gt;&lt;pre&gt;&lt;span class=&#34;pl-k&#34;&gt;import&lt;/span&gt; &lt;span class=&#34;pl-kos&#34;&gt;{&lt;/span&gt; &lt;span class=&#34;pl-s1&#34;&gt;createStandaloneToast&lt;/span&gt; &lt;span class=&#34;pl-kos&#34;&gt;}&lt;/span&gt; &lt;span class=&#34;pl-k&#34;&gt;from&lt;/span&gt; &lt;span class=&#34;pl-s&#34;&gt;&#34;@chakra-ui/toast&#34;&lt;/span&gt;&#xA;&lt;span class=&#34;pl-k&#34;&gt;import&lt;/span&gt; &lt;span class=&#34;pl-c1&#34;&gt;*&lt;/span&gt; &lt;span class=&#34;pl-k&#34;&gt;as&lt;/span&gt; &lt;span class=&#34;pl-smi&#34;&gt;ReactDOM&lt;/span&gt; &lt;span class=&#34;pl-k&#34;&gt;from&lt;/span&gt; &lt;span class=&#34;pl-s&#34;&gt;&#34;react-dom&#34;&lt;/span&gt;&#xA;&#xA;&lt;span class=&#34;pl-k&#34;&gt;const&lt;/span&gt; &lt;span class=&#34;pl-s1&#34;&gt;toastContainerElement&lt;/span&gt; &lt;span class=&#34;pl-c1&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;pl-smi&#34;&gt;document&lt;/span&gt;&lt;span class=&#34;pl-kos&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;pl-en&#34;&gt;createElement&lt;/span&gt;&lt;span class=&#34;pl-kos&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;pl-s&#34;&gt;&#34;div&#34;&lt;/span&gt;&lt;span class=&#34;pl-kos&#34;&gt;)&lt;/span&gt;&#xA;&lt;span class=&#34;pl-smi&#34;&gt;window&lt;/span&gt;&lt;span class=&#34;pl-kos&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;pl-c1&#34;&gt;document&lt;/span&gt;&lt;span class=&#34;pl-kos&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;pl-c1&#34;&gt;body&lt;/span&gt;&lt;span class=&#34;pl-kos&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;pl-en&#34;&gt;append&lt;/span&gt;&lt;span class=&#34;pl-kos&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;pl-s1&#34;&gt;toastContainerElement&lt;/span&gt;&lt;span class=&#34;pl-kos&#34;&gt;)&lt;/span&gt;&#xA;&#xA;&lt;span class=&#34;pl-k&#34;&gt;const&lt;/span&gt; &lt;span class=&#34;pl-kos&#34;&gt;{&lt;/span&gt; ToastContainer&lt;span class=&#34;pl-kos&#34;&gt;,&lt;/span&gt; toast &lt;span class=&#34;pl-kos&#34;&gt;}&lt;/span&gt; &lt;span class=&#34;pl-c1&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;pl-en&#34;&gt;createStandaloneToast&lt;/span&gt;&lt;span class=&#34;pl-kos&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;pl-kos&#34;&gt;)&lt;/span&gt;&#xA;&lt;span class=&#34;pl-smi&#34;&gt;ReactDOM&lt;/span&gt;&lt;span class=&#34;pl-kos&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;pl-en&#34;&gt;render&lt;/span&gt;&lt;span class=&#34;pl-kos&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;pl-c1&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;pl-smi&#34;&gt;ToastContainer&lt;/span&gt; &lt;span class=&#34;pl-c1&#34;&gt;/&lt;/span&gt;&lt;span class=&#34;pl-c1&#34;&gt;&amp;gt;&lt;/span&gt;&lt;span class=&#34;pl-kos&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;pl-s1&#34;&gt;toastContainerElement&lt;/span&gt;&lt;span class=&#34;pl-kos&#34;&gt;)&lt;/span&gt;&#xA;&#xA;&lt;span class=&#34;pl-en&#34;&gt;toast&lt;/span&gt;&lt;span class=&#34;pl-kos&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;pl-kos&#34;&gt;{&lt;/span&gt; &lt;span class=&#34;pl-c1&#34;&gt;title&lt;/span&gt;: &lt;span class=&#34;pl-s&#34;&gt;&#34;Chakra UI&#34;&lt;/span&gt; &lt;span class=&#34;pl-kos&#34;&gt;}&lt;/span&gt;&lt;span class=&#34;pl-kos&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;&#xA;&lt;h4&gt;with React 18&lt;/h4&gt;&#xA;&lt;div class=&#34;highlight highlight-source-tsx position-relative overflow-auto&#34; data-snippet-clipboard-copy-content=&#34;import { createStandaloneToast } from &amp;quot;@chakra-ui/toast&amp;quot;&#xA;import * as ReactDOM from &amp;quot;react-dom/client&amp;quot;&#xA;&#xA;const toastContainerElement = document.createElement(&amp;quot;div&amp;quot;)&#xA;window.document.body.append(toastContainerElement)&#xA;&#xA;const { ToastContainer, toast } = createStandaloneToast()&#xA;const root = ReactDOM.createRoot(toastContainerElement)&#xA;root.render(&amp;lt;ToastContainer /&amp;gt;)&#xA;&#xA;toast({ title: &amp;quot;Chakra UI&amp;quot; })&#34;&gt;&lt;pre&gt;&lt;span class=&#34;pl-k&#34;&gt;import&lt;/span&gt; &lt;span class=&#34;pl-kos&#34;&gt;{&lt;/span&gt; &lt;span class=&#34;pl-s1&#34;&gt;createStandaloneToast&lt;/span&gt; &lt;span class=&#34;pl-kos&#34;&gt;}&lt;/span&gt; &lt;span class=&#34;pl-k&#34;&gt;from&lt;/span&gt; &lt;span class=&#34;pl-s&#34;&gt;&#34;@chakra-ui/toast&#34;&lt;/span&gt;&#xA;&lt;span class=&#34;pl-k&#34;&gt;import&lt;/span&gt; &lt;span class=&#34;pl-c1&#34;&gt;*&lt;/span&gt; &lt;span class=&#34;pl-k&#34;&gt;as&lt;/span&gt; &lt;span class=&#34;pl-smi&#34;&gt;ReactDOM&lt;/span&gt; &lt;span class=&#34;pl-k&#34;&gt;from&lt;/span&gt; &lt;span class=&#34;pl-s&#34;&gt;&#34;react-dom/client&#34;&lt;/span&gt;&#xA;&#xA;&lt;span class=&#34;pl-k&#34;&gt;const&lt;/span&gt; &lt;span class=&#34;pl-s1&#34;&gt;toastContainerElement&lt;/span&gt; &lt;span class=&#34;pl-c1&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;pl-smi&#34;&gt;document&lt;/span&gt;&lt;span class=&#34;pl-kos&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;pl-en&#34;&gt;createElement&lt;/span&gt;&lt;span class=&#34;pl-kos&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;pl-s&#34;&gt;&#34;div&#34;&lt;/span&gt;&lt;span class=&#34;pl-kos&#34;&gt;)&lt;/span&gt;&#xA;&lt;span class=&#34;pl-smi&#34;&gt;window&lt;/span&gt;&lt;span class=&#34;pl-kos&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;pl-c1&#34;&gt;document&lt;/span&gt;&lt;span class=&#34;pl-kos&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;pl-c1&#34;&gt;body&lt;/span&gt;&lt;span class=&#34;pl-kos&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;pl-en&#34;&gt;append&lt;/span&gt;&lt;span class=&#34;pl-kos&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;pl-s1&#34;&gt;toastContainerElement&lt;/span&gt;&lt;span class=&#34;pl-kos&#34;&gt;)&lt;/span&gt;&#xA;&#xA;&lt;span class=&#34;pl-k&#34;&gt;const&lt;/span&gt; &lt;span class=&#34;pl-kos&#34;&gt;{&lt;/span&gt; ToastContainer&lt;span class=&#34;pl-kos&#34;&gt;,&lt;/span&gt; toast &lt;span class=&#34;pl-kos&#34;&gt;}&lt;/span&gt; &lt;span class=&#34;pl-c1&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;pl-en&#34;&gt;createStandaloneToast&lt;/span&gt;&lt;span class=&#34;pl-kos&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;pl-kos&#34;&gt;)&lt;/span&gt;&#xA;&lt;span class=&#34;pl-k&#34;&gt;const&lt;/span&gt; &lt;span class=&#34;pl-s1&#34;&gt;root&lt;/span&gt; &lt;span class=&#34;pl-c1&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;pl-smi&#34;&gt;ReactDOM&lt;/span&gt;&lt;span class=&#34;pl-kos&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;pl-en&#34;&gt;createRoot&lt;/span&gt;&lt;span class=&#34;pl-kos&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;pl-s1&#34;&gt;toastContainerElement&lt;/span&gt;&lt;span class=&#34;pl-kos&#34;&gt;)&lt;/span&gt;&#xA;&lt;span class=&#34;pl-s1&#34;&gt;root&lt;/span&gt;&lt;span class=&#34;pl-kos&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;pl-en&#34;&gt;render&lt;/span&gt;&lt;span class=&#34;pl-kos&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;pl-c1&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;pl-smi&#34;&gt;ToastContainer&lt;/span&gt; &lt;span class=&#34;pl-c1&#34;&gt;/&lt;/span&gt;&lt;span class=&#34;pl-c1&#34;&gt;&amp;gt;&lt;/span&gt;&lt;span class=&#34;pl-kos&#34;&gt;)&lt;/span&gt;&#xA;&#xA;&lt;span class=&#34;pl-en&#34;&gt;toast&lt;/span&gt;&lt;span class=&#34;pl-kos&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;pl-kos&#34;&gt;{&lt;/span&gt; &lt;span class=&#34;pl-c1&#34;&gt;title&lt;/span&gt;: &lt;span class=&#34;pl-s&#34;&gt;&#34;Chakra UI&#34;&lt;/span&gt; &lt;span class=&#34;pl-kos&#34;&gt;}&lt;/span&gt;&lt;span class=&#34;pl-kos&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/chakra-ui/chakra-ui/releases/tag/%40chakra-ui%2Ftoast%402.0.0-next.0" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>github-actions[bot]</name>
@@ -169,39 +169,6 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from chakra-ui - @chakra-ui/tabs@1.6.10</title>
-    <updated>2022-04-07T15:34:46Z</updated>
-    <id>tag:github.com,2008:Repository/202890778/@chakra-ui/tabs@1.6.10</id>
-    <content type="html">&lt;h3&gt;Patch Changes&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Updated dependencies&lt;br&gt;&#xA;[&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/commit/a3b04dc1ae49ad0d804bddc17fdca3afa218665c&#34;&gt;&lt;code&gt;a3b04dc1a&lt;/code&gt;&lt;/a&gt;]:&#xA;&lt;ul&gt;&#xA;&lt;li&gt;@chakra-ui/hooks@1.9.1&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/chakra-ui/chakra-ui/releases/tag/%40chakra-ui%2Ftabs%401.6.10" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>github-actions[bot]</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from chakra-ui - @chakra-ui/switch@1.3.10</title>
-    <updated>2022-04-07T15:34:46Z</updated>
-    <id>tag:github.com,2008:Repository/202890778/@chakra-ui/switch@1.3.10</id>
-    <content type="html">&lt;h3&gt;Patch Changes&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Updated dependencies&lt;br&gt;&#xA;[&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/commit/c220af15274377575d03900f0baaa1c0a1400778&#34;&gt;&lt;code&gt;c220af152&lt;/code&gt;&lt;/a&gt;,&lt;br&gt;&#xA;&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/commit/b19c892702f029c078f8d5bfaf0f89b573c6cd90&#34;&gt;&lt;code&gt;b19c89270&lt;/code&gt;&lt;/a&gt;]:&#xA;&lt;ul&gt;&#xA;&lt;li&gt;@chakra-ui/checkbox@1.7.1&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/chakra-ui/chakra-ui/releases/tag/%40chakra-ui%2Fswitch%401.3.10" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>github-actions[bot]</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from chakra-ui - @chakra-ui/toast@1.5.9</title>
-    <updated>2022-04-07T15:34:46Z</updated>
-    <id>tag:github.com,2008:Repository/202890778/@chakra-ui/toast@1.5.9</id>
-    <content type="html">&lt;h3&gt;Patch Changes&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Updated dependencies&lt;br&gt;&#xA;[&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/commit/a3b04dc1ae49ad0d804bddc17fdca3afa218665c&#34;&gt;&lt;code&gt;a3b04dc1a&lt;/code&gt;&lt;/a&gt;,&lt;br&gt;&#xA;&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/commit/b19c892702f029c078f8d5bfaf0f89b573c6cd90&#34;&gt;&lt;code&gt;b19c89270&lt;/code&gt;&lt;/a&gt;,&lt;br&gt;&#xA;&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/commit/aaadcd0ed9388417b0b647d75055ede0613d3495&#34;&gt;&lt;code&gt;aaadcd0ed&lt;/code&gt;&lt;/a&gt;]:&#xA;&lt;ul&gt;&#xA;&lt;li&gt;@chakra-ui/hooks@1.9.1&lt;/li&gt;&#xA;&lt;li&gt;@chakra-ui/theme@1.14.1&lt;/li&gt;&#xA;&lt;li&gt;@chakra-ui/transition@1.4.8&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/chakra-ui/chakra-ui/releases/tag/%40chakra-ui%2Ftoast%401.5.9" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>github-actions[bot]</name>
-    </author>
-  </entry>
-  <entry>
     <title>Release notes from chakra-ui - @chakra-ui/tooltip@1.5.1</title>
     <updated>2022-04-07T15:34:46Z</updated>
     <id>tag:github.com,2008:Repository/202890778/@chakra-ui/tooltip@1.5.1</id>
@@ -224,11 +191,44 @@
     </author>
   </entry>
   <entry>
+    <title>Release notes from chakra-ui - @chakra-ui/switch@1.3.10</title>
+    <updated>2022-04-07T15:34:46Z</updated>
+    <id>tag:github.com,2008:Repository/202890778/@chakra-ui/switch@1.3.10</id>
+    <content type="html">&lt;h3&gt;Patch Changes&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Updated dependencies&lt;br&gt;&#xA;[&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/commit/c220af15274377575d03900f0baaa1c0a1400778&#34;&gt;&lt;code&gt;c220af152&lt;/code&gt;&lt;/a&gt;,&lt;br&gt;&#xA;&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/commit/b19c892702f029c078f8d5bfaf0f89b573c6cd90&#34;&gt;&lt;code&gt;b19c89270&lt;/code&gt;&lt;/a&gt;]:&#xA;&lt;ul&gt;&#xA;&lt;li&gt;@chakra-ui/checkbox@1.7.1&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/chakra-ui/chakra-ui/releases/tag/%40chakra-ui%2Fswitch%401.3.10" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>github-actions[bot]</name>
+    </author>
+  </entry>
+  <entry>
     <title>Release notes from chakra-ui - @chakra-ui/theme@1.14.1</title>
     <updated>2022-04-07T15:34:46Z</updated>
     <id>tag:github.com,2008:Repository/202890778/@chakra-ui/theme@1.14.1</id>
     <content type="html">&lt;h3&gt;Patch Changes&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/pull/5790&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/chakra-ui/chakra-ui/pull/5790/hovercard&#34;&gt;#5790&lt;/a&gt;&lt;br&gt;&#xA;&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/commit/b19c892702f029c078f8d5bfaf0f89b573c6cd90&#34;&gt;&lt;code&gt;b19c89270&lt;/code&gt;&lt;/a&gt;&lt;br&gt;&#xA;Thanks &lt;a href=&#34;https://github.com/ugogo&#34;&gt;@ugogo&lt;/a&gt;! - Fix radio cursor when disabled&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
     <link href="https://github.com/chakra-ui/chakra-ui/releases/tag/%40chakra-ui%2Ftheme%401.14.1" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>github-actions[bot]</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from chakra-ui - @chakra-ui/tabs@1.6.10</title>
+    <updated>2022-04-07T15:34:46Z</updated>
+    <id>tag:github.com,2008:Repository/202890778/@chakra-ui/tabs@1.6.10</id>
+    <content type="html">&lt;h3&gt;Patch Changes&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Updated dependencies&lt;br&gt;&#xA;[&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/commit/a3b04dc1ae49ad0d804bddc17fdca3afa218665c&#34;&gt;&lt;code&gt;a3b04dc1a&lt;/code&gt;&lt;/a&gt;]:&#xA;&lt;ul&gt;&#xA;&lt;li&gt;@chakra-ui/hooks@1.9.1&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/chakra-ui/chakra-ui/releases/tag/%40chakra-ui%2Ftabs%401.6.10" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>github-actions[bot]</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from chakra-ui - @chakra-ui/toast@1.5.9</title>
+    <updated>2022-04-07T15:34:46Z</updated>
+    <id>tag:github.com,2008:Repository/202890778/@chakra-ui/toast@1.5.9</id>
+    <content type="html">&lt;h3&gt;Patch Changes&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Updated dependencies&lt;br&gt;&#xA;[&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/commit/a3b04dc1ae49ad0d804bddc17fdca3afa218665c&#34;&gt;&lt;code&gt;a3b04dc1a&lt;/code&gt;&lt;/a&gt;,&lt;br&gt;&#xA;&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/commit/b19c892702f029c078f8d5bfaf0f89b573c6cd90&#34;&gt;&lt;code&gt;b19c89270&lt;/code&gt;&lt;/a&gt;,&lt;br&gt;&#xA;&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/commit/aaadcd0ed9388417b0b647d75055ede0613d3495&#34;&gt;&lt;code&gt;aaadcd0ed&lt;/code&gt;&lt;/a&gt;]:&#xA;&lt;ul&gt;&#xA;&lt;li&gt;@chakra-ui/hooks@1.9.1&lt;/li&gt;&#xA;&lt;li&gt;@chakra-ui/theme@1.14.1&lt;/li&gt;&#xA;&lt;li&gt;@chakra-ui/transition@1.4.8&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/chakra-ui/chakra-ui/releases/tag/%40chakra-ui%2Ftoast%401.5.9" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>github-actions[bot]</name>
@@ -345,39 +345,6 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from google-cloud-go - aiplatform: v1.8.0</title>
-    <updated>2022-04-06T14:01:08Z</updated>
-    <id>tag:github.com,2008:Repository/19608522/aiplatform/v1.8.0</id>
-    <content type="html">&lt;h2&gt;&lt;a href=&#34;https://github.com/googleapis/google-cloud-go/compare/aiplatform/v1.7.0...aiplatform/v1.8.0&#34;&gt;1.8.0&lt;/a&gt; (2022-04-06)&lt;/h2&gt;&#xA;&lt;h3&gt;Features&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;aiplatform:&lt;/strong&gt; add ImportModelEvaluation in aiplatform v1 model_service.proto feat: add data_item_schema_uri, annotation_schema_uri, explanation_specs to ModelEvaluationExplanationSpec in aiplatform v1 model_evaluation.proto (&lt;a href=&#34;https://github.com/googleapis/google-cloud-go/commit/21a3cced42fe30abd4457b377ec78640e80babc8&#34;&gt;21a3cce&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/googleapis/google-cloud-go/releases/tag/aiplatform%2Fv1.8.0" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>release-please[bot]</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from google-cloud-go - run: v0.1.0</title>
-    <updated>2022-04-06T14:01:08Z</updated>
-    <id>tag:github.com,2008:Repository/19608522/run/v0.1.0</id>
-    <content type="html">&lt;h2&gt;0.1.0 (2022-04-06)&lt;/h2&gt;&#xA;&lt;h3&gt;Features&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;run:&lt;/strong&gt; start generating apiv2 (&lt;a href=&#34;https://github.com/googleapis/google-cloud-go/issues/5825&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/googleapis/google-cloud-go/pull/5825/hovercard&#34;&gt;#5825&lt;/a&gt;) (&lt;a href=&#34;https://github.com/googleapis/google-cloud-go/commit/2602a20ca8eba1ba2b1e59bb27a7b44132d63032&#34;&gt;2602a20&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/googleapis/google-cloud-go/releases/tag/run%2Fv0.1.0" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>release-please[bot]</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from google-cloud-go - dialogflow: v1.8.0</title>
-    <updated>2022-04-06T14:01:08Z</updated>
-    <id>tag:github.com,2008:Repository/19608522/dialogflow/v1.8.0</id>
-    <content type="html">&lt;h2&gt;&lt;a href=&#34;https://github.com/googleapis/google-cloud-go/compare/dialogflow/v1.7.0...dialogflow/v1.8.0&#34;&gt;1.8.0&lt;/a&gt; (2022-04-06)&lt;/h2&gt;&#xA;&lt;h3&gt;Features&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;dialogflow/cx:&lt;/strong&gt; added support for locking an agent for changes feat: added data format specification for export agent (&lt;a href=&#34;https://github.com/googleapis/google-cloud-go/commit/81c4c9116178711059772f41bbf76d423ffebc95&#34;&gt;81c4c91&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;dialogflow/cx:&lt;/strong&gt; added support for locking an agent for changes feat: added data format specification for export agent (&lt;a href=&#34;https://github.com/googleapis/google-cloud-go/commit/81c4c9116178711059772f41bbf76d423ffebc95&#34;&gt;81c4c91&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/googleapis/google-cloud-go/releases/tag/dialogflow%2Fv1.8.0" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>release-please[bot]</name>
-    </author>
-  </entry>
-  <entry>
     <title>Release notes from google-cloud-go - storagetransfer: v1.3.0</title>
     <updated>2022-04-06T14:01:08Z</updated>
     <id>tag:github.com,2008:Repository/19608522/storagetransfer/v1.3.0</id>
@@ -400,11 +367,44 @@
     </author>
   </entry>
   <entry>
+    <title>Release notes from google-cloud-go - dialogflow: v1.8.0</title>
+    <updated>2022-04-06T14:01:08Z</updated>
+    <id>tag:github.com,2008:Repository/19608522/dialogflow/v1.8.0</id>
+    <content type="html">&lt;h2&gt;&lt;a href=&#34;https://github.com/googleapis/google-cloud-go/compare/dialogflow/v1.7.0...dialogflow/v1.8.0&#34;&gt;1.8.0&lt;/a&gt; (2022-04-06)&lt;/h2&gt;&#xA;&lt;h3&gt;Features&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;dialogflow/cx:&lt;/strong&gt; added support for locking an agent for changes feat: added data format specification for export agent (&lt;a href=&#34;https://github.com/googleapis/google-cloud-go/commit/81c4c9116178711059772f41bbf76d423ffebc95&#34;&gt;81c4c91&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;dialogflow/cx:&lt;/strong&gt; added support for locking an agent for changes feat: added data format specification for export agent (&lt;a href=&#34;https://github.com/googleapis/google-cloud-go/commit/81c4c9116178711059772f41bbf76d423ffebc95&#34;&gt;81c4c91&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/googleapis/google-cloud-go/releases/tag/dialogflow%2Fv1.8.0" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>release-please[bot]</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from google-cloud-go - aiplatform: v1.8.0</title>
+    <updated>2022-04-06T14:01:08Z</updated>
+    <id>tag:github.com,2008:Repository/19608522/aiplatform/v1.8.0</id>
+    <content type="html">&lt;h2&gt;&lt;a href=&#34;https://github.com/googleapis/google-cloud-go/compare/aiplatform/v1.7.0...aiplatform/v1.8.0&#34;&gt;1.8.0&lt;/a&gt; (2022-04-06)&lt;/h2&gt;&#xA;&lt;h3&gt;Features&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;aiplatform:&lt;/strong&gt; add ImportModelEvaluation in aiplatform v1 model_service.proto feat: add data_item_schema_uri, annotation_schema_uri, explanation_specs to ModelEvaluationExplanationSpec in aiplatform v1 model_evaluation.proto (&lt;a href=&#34;https://github.com/googleapis/google-cloud-go/commit/21a3cced42fe30abd4457b377ec78640e80babc8&#34;&gt;21a3cce&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/googleapis/google-cloud-go/releases/tag/aiplatform%2Fv1.8.0" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>release-please[bot]</name>
+    </author>
+  </entry>
+  <entry>
     <title>Release notes from google-cloud-go - secretmanager: v1.4.0</title>
     <updated>2022-04-06T14:01:08Z</updated>
     <id>tag:github.com,2008:Repository/19608522/secretmanager/v1.4.0</id>
     <content type="html">&lt;h2&gt;&lt;a href=&#34;https://github.com/googleapis/google-cloud-go/compare/secretmanager/v1.3.0...secretmanager/v1.4.0&#34;&gt;1.4.0&lt;/a&gt; (2022-04-06)&lt;/h2&gt;&#xA;&lt;h3&gt;Features&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;secretmanager:&lt;/strong&gt; Added support for accessing secret versions by alias Clients can now associate custom strings with specified secret versions for later access. (&lt;a href=&#34;https://github.com/googleapis/google-cloud-go/commit/6ffce1dbf567758d23ac39aaf63dc17ced5e4db9&#34;&gt;6ffce1d&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
     <link href="https://github.com/googleapis/google-cloud-go/releases/tag/secretmanager%2Fv1.4.0" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>release-please[bot]</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from google-cloud-go - run: v0.1.0</title>
+    <updated>2022-04-06T14:01:08Z</updated>
+    <id>tag:github.com,2008:Repository/19608522/run/v0.1.0</id>
+    <content type="html">&lt;h2&gt;0.1.0 (2022-04-06)&lt;/h2&gt;&#xA;&lt;h3&gt;Features&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;run:&lt;/strong&gt; start generating apiv2 (&lt;a href=&#34;https://github.com/googleapis/google-cloud-go/issues/5825&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/googleapis/google-cloud-go/pull/5825/hovercard&#34;&gt;#5825&lt;/a&gt;) (&lt;a href=&#34;https://github.com/googleapis/google-cloud-go/commit/2602a20ca8eba1ba2b1e59bb27a7b44132d63032&#34;&gt;2602a20&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/googleapis/google-cloud-go/releases/tag/run%2Fv0.1.0" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>release-please[bot]</name>
@@ -741,22 +741,22 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from telepresence - v2.5.4</title>
+    <title>Release notes from telepresence - rpc/v2.5.4</title>
     <updated>2022-03-29T20:35:12Z</updated>
-    <id>tag:github.com,2008:Repository/82933315/v2.5.4</id>
+    <id>tag:github.com,2008:Repository/82933315/rpc/v2.5.4</id>
     <content type="html">&lt;p&gt;v2.5.4&lt;/p&gt;</content>
-    <link href="https://github.com/telepresenceio/telepresence/releases/tag/v2.5.4" rel="alternate"></link>
+    <link href="https://github.com/telepresenceio/telepresence/releases/tag/rpc%2Fv2.5.4" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>njayp</name>
     </author>
   </entry>
   <entry>
-    <title>Release notes from telepresence - rpc/v2.5.4</title>
+    <title>Release notes from telepresence - v2.5.4</title>
     <updated>2022-03-29T20:35:12Z</updated>
-    <id>tag:github.com,2008:Repository/82933315/rpc/v2.5.4</id>
+    <id>tag:github.com,2008:Repository/82933315/v2.5.4</id>
     <content type="html">&lt;p&gt;v2.5.4&lt;/p&gt;</content>
-    <link href="https://github.com/telepresenceio/telepresence/releases/tag/rpc%2Fv2.5.4" rel="alternate"></link>
+    <link href="https://github.com/telepresenceio/telepresence/releases/tag/v2.5.4" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>njayp</name>
