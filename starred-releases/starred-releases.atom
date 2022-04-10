@@ -1,8 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?><feed xmlns="http://www.w3.org/2005/Atom">
   <title>Releases from Starred by toga4</title>
   <id>https://toga4.github.io/feeds/starred-releases.atom</id>
-  <updated>2022-04-10T02:57:15Z</updated>
+  <updated>2022-04-10T16:13:31Z</updated>
   <link href="https://toga4.github.io/feeds/starred-releases.atom"></link>
+  <entry>
+    <title>Release notes from excelize - v2.6.0</title>
+    <updated>2022-04-10T16:13:31Z</updated>
+    <id>tag:github.com,2008:Repository/66841911/v2.6.0</id>
+    <content type="html">&lt;p&gt;We are pleased to announce the release of version 2.6.0. Featured are a handful of new areas of functionality and numerous bug fixes.&lt;/p&gt;&#xA;&lt;p&gt;A summary of changes is available in the &lt;a href=&#34;https://github.com/xuri/excelize/releases/tag/v2.6.0&#34;&gt;Release Notes&lt;/a&gt;. A full list of changes is available in the &lt;a href=&#34;https://github.com/xuri/excelize/compare/v2.5.0...v2.6.0&#34;&gt;changelog&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;h2&gt;Release Notes&lt;/h2&gt;&#xA;&lt;p&gt;The most notable changes in this release are:&lt;/p&gt;&#xA;&lt;h3&gt;Compatibility&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Rename exported constants &lt;code&gt;NameSpaceDublinCoreMetadataIntiative&lt;/code&gt; to &lt;code&gt;NameSpaceDublinCoreMetadataInitiative&lt;/code&gt; for typo fix&lt;/li&gt;&#xA;&lt;li&gt;Rename exported variable &lt;code&gt;ErrUnsupportEncryptMechanism&lt;/code&gt; to &lt;code&gt;ErrUnsupportedEncryptMechanism&lt;/code&gt;&lt;/li&gt;&#xA;&lt;li&gt;Rename exported variable &lt;code&gt;ErrDataValidationFormulaLenth&lt;/code&gt; to &lt;code&gt;ErrDataValidationFormulaLength&lt;/code&gt;&lt;/li&gt;&#xA;&lt;li&gt;Rename exported variable &lt;code&gt;ErrDefinedNameduplicate&lt;/code&gt; to &lt;code&gt;ErrDefinedNameDuplicate&lt;/code&gt;&lt;/li&gt;&#xA;&lt;li&gt;Remove exported variable &lt;code&gt;XMLHeaderByte&lt;/code&gt;&lt;/li&gt;&#xA;&lt;li&gt;Remove second useless parameter &lt;code&gt;isCurrentSheet&lt;/code&gt; and error returns of the function &lt;code&gt;SetSqrefDropList&lt;/code&gt;&lt;/li&gt;&#xA;&lt;li&gt;Remove &lt;code&gt;TotalRows&lt;/code&gt; of row iterator&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3&gt;Notable Features&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;code&gt;ProtectSheet&lt;/code&gt; now support protect sheet with specify algorithm: XOR, MD4, MD5, SHA1, SHA256, SHA384, and SHA512&lt;/li&gt;&#xA;&lt;li&gt;&lt;code&gt;UnprotectSheet&lt;/code&gt; now support specified the second optional password parameter to remove sheet protection with password verification&lt;/li&gt;&#xA;&lt;li&gt;New support 71 formula functions: AVERAGEIFS, BETADIST, BETA.DIST, BETAINV, BETA.INV, BINOMDIST, BINOM.DIST, BINOM.DIST.RANGE, BINOM.INV, CHIINV, CHITEST, CHISQ.DIST, CHISQ.DIST.RT, CHISQ.INV, CHISQ.INV.RT, CHISQ.TEST, CONFIDENCE.T, CORREL, COVAR, COVARIANCE.P, CRITBINOM, ERROR.TYPE, EXPON.DIST, EXPONDIST, F.DIST, F.DIST.RT, FDIST, F.INV, F.INV.RT, FINV, FORMULATEXT, F.TEST, FTEST, GAMMA.DIST, GAMMADIST, GAMMA.INV, GAMMAINV, GAMMALN.PRECISE, GAUSS, HOUR, HYPGEOM.DIST, HYPGEOMDIST, INDIRECT, LOGINV, LOGNORM.DIST, LOGNORMDIST, LOGNORM.INV, MODE, MODE.MULT, MODE.SNGL, NEGBINOM.DIST, NEGBINOMDIST, PHI, SECOND, SERIESSUM, SUMIFS, SUMPRODUCT, SUMX2MY2, SUMX2PY2, SUMXMY2, T.DIST, T.DIST.2T, T.DIST.RT, TDIST, TIMEVALUE, T.INV, T.INV.2T, TINV, T.TEST, TTEST, TYPE&lt;/li&gt;&#xA;&lt;li&gt;Check file extension on save the workbook&lt;/li&gt;&#xA;&lt;li&gt;Support workbook views mode and ruler display settings&lt;/li&gt;&#xA;&lt;li&gt;Improve number format support, introduced NFP (number format parser) dependencies module for custom dates and times number format and text place holder support, include local month name and AM/PM format in 19 languages (Afrikaans, Bangla, Chinese, English, French, German, Austria, Irish, Italian, Russian, Spanish, Thai, Tibetan, Turkish, Welsh, Wolof, Xhosa, Yi and Zulu) support for number format, related issues &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;652517627&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/qax-os/excelize/issues/660&#34; data-hovercard-type=&#34;issue&#34; data-hovercard-url=&#34;/qax-os/excelize/issues/660/hovercard&#34; href=&#34;https://github.com/qax-os/excelize/issues/660&#34;&gt;#660&lt;/a&gt;, &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;788678634&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/qax-os/excelize/issues/764&#34; data-hovercard-type=&#34;issue&#34; data-hovercard-url=&#34;/qax-os/excelize/issues/764/hovercard&#34; href=&#34;https://github.com/qax-os/excelize/issues/764&#34;&gt;#764&lt;/a&gt;, &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1077053445&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/qax-os/excelize/issues/1093&#34; data-hovercard-type=&#34;issue&#34; data-hovercard-url=&#34;/qax-os/excelize/issues/1093/hovercard&#34; href=&#34;https://github.com/qax-os/excelize/issues/1093&#34;&gt;#1093&lt;/a&gt;, &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1093088253&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/qax-os/excelize/issues/1112&#34; data-hovercard-type=&#34;issue&#34; data-hovercard-url=&#34;/qax-os/excelize/issues/1112/hovercard&#34; href=&#34;https://github.com/qax-os/excelize/issues/1112&#34;&gt;#1112&lt;/a&gt;, &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1117962951&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/qax-os/excelize/issues/1133&#34; data-hovercard-type=&#34;issue&#34; data-hovercard-url=&#34;/qax-os/excelize/issues/1133/hovercard&#34; href=&#34;https://github.com/qax-os/excelize/issues/1133&#34;&gt;#1133&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;New exported functions &lt;code&gt;SetWorkbookPrOptions&lt;/code&gt; and &lt;code&gt;GetWorkbookPrOptions&lt;/code&gt; to support setting and getting the &lt;code&gt;FilterPrivacy&lt;/code&gt; and &lt;code&gt;CodeName&lt;/code&gt; properties of the workbook, resolve limitations when adding VBA project to the workbook, related issue &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1139978014&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/qax-os/excelize/issues/1148&#34; data-hovercard-type=&#34;issue&#34; data-hovercard-url=&#34;/qax-os/excelize/issues/1148/hovercard&#34; href=&#34;https://github.com/qax-os/excelize/issues/1148&#34;&gt;#1148&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Formula engine now support calculation with the none parameter formula function after infix operator notation&lt;/li&gt;&#xA;&lt;li&gt;Support to read boolean data type cell value&lt;/li&gt;&#xA;&lt;li&gt;Support set hole size when create the doughnut chart by &lt;code&gt;AddChart&lt;/code&gt; function, resolve issue &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1160558049&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/qax-os/excelize/issues/1172&#34; data-hovercard-type=&#34;issue&#34; data-hovercard-url=&#34;/qax-os/excelize/issues/1172/hovercard&#34; href=&#34;https://github.com/qax-os/excelize/issues/1172&#34;&gt;#1172&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Export 4 errors &lt;code&gt;ErrPasswordLengthInvalid&lt;/code&gt;, &lt;code&gt;ErrUnsupportedHashAlgorithm&lt;/code&gt;, &lt;code&gt;ErrUnsupportedNumberFormat&lt;/code&gt;, &lt;code&gt;ErrWorkbookExt&lt;/code&gt; so users can act differently on the different type of errors&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3&gt;Improve the Compatibility&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Improve compatibility with LibreOffice, fixed the issue auto filter doesn&#39;t work on LibreOffice if the sheet name has spaces, resolve issue &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1104875081&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/qax-os/excelize/issues/1122&#34; data-hovercard-type=&#34;issue&#34; data-hovercard-url=&#34;/qax-os/excelize/issues/1122/hovercard&#34; href=&#34;https://github.com/qax-os/excelize/issues/1122&#34;&gt;#1122&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Improve the compatibility with alternate content, support preserve alternate content in the workbook, worksheet, and drawingML&lt;/li&gt;&#xA;&lt;li&gt;Improve the compatibility with page setup DPI fields&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3&gt;Bug Fixes&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Fix missing page setup of worksheet after re-saving the spreadsheet, resolve issue &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1097687727&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/qax-os/excelize/issues/1117&#34; data-hovercard-type=&#34;issue&#34; data-hovercard-url=&#34;/qax-os/excelize/issues/1117/hovercard&#34; href=&#34;https://github.com/qax-os/excelize/issues/1117&#34;&gt;#1117&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Fix merged cells doesn&#39;t updated after opertaion in some cases&lt;/li&gt;&#xA;&lt;li&gt;Fix style parsing issue, which causes bold and other style missing, resolve issue &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1101471828&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/qax-os/excelize/issues/1119&#34; data-hovercard-type=&#34;issue&#34; data-hovercard-url=&#34;/qax-os/excelize/issues/1119/hovercard&#34; href=&#34;https://github.com/qax-os/excelize/issues/1119&#34;&gt;#1119&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Fix file corrupted when save as in XLAM / XLSM / XLTM / XLTX extension in some case&lt;/li&gt;&#xA;&lt;li&gt;Correct cells style in merge range, make cell support inheritance columns/rows style, resolve issue &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1112914877&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/qax-os/excelize/issues/1129&#34; data-hovercard-type=&#34;issue&#34; data-hovercard-url=&#34;/qax-os/excelize/issues/1129/hovercard&#34; href=&#34;https://github.com/qax-os/excelize/issues/1129&#34;&gt;#1129&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Fix incorrect style ID returned on getting cell style in some cases&lt;/li&gt;&#xA;&lt;li&gt;Fix incorrect build-in number format: 42&lt;/li&gt;&#xA;&lt;li&gt;Fixed parsing decimal precision issue in some case&lt;/li&gt;&#xA;&lt;li&gt;&lt;code&gt;SetCellDefault&lt;/code&gt; support non-numeric value, resolve issue &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1125474921&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/qax-os/excelize/issues/1139&#34; data-hovercard-type=&#34;issue&#34; data-hovercard-url=&#34;/qax-os/excelize/issues/1139/hovercard&#34; href=&#34;https://github.com/qax-os/excelize/issues/1139&#34;&gt;#1139&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Fixed show sheet tabs setting was missing on save as spreadsheet in some cases, resolve issue &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1150996872&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/qax-os/excelize/issues/1160&#34; data-hovercard-type=&#34;issue&#34; data-hovercard-url=&#34;/qax-os/excelize/issues/1160/hovercard&#34; href=&#34;https://github.com/qax-os/excelize/issues/1160&#34;&gt;#1160&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Fix nested formula calculation result error, resolve issue &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1155653637&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/qax-os/excelize/issues/1164&#34; data-hovercard-type=&#34;issue&#34; data-hovercard-url=&#34;/qax-os/excelize/issues/1164/hovercard&#34; href=&#34;https://github.com/qax-os/excelize/issues/1164&#34;&gt;#1164&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Fix a part of formula function calculation result precision issue and inconsistent result precision of formula calculation under x86 and arm64 processor (CPU) architecture&lt;/li&gt;&#xA;&lt;li&gt;This fix scientific notation parsing issue in some case&lt;/li&gt;&#xA;&lt;li&gt;Fix the issue that the chart axis maximum and minimum didn&#39;t work when the value is 0&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3&gt;Performance&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Improve streaming reading performance, based on the previously released version, reduce memory usage by about 50% at most for reading large data spreadsheet, and reduce 80% GC times for the row&#39;s iterator&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3&gt;Miscellaneous&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;The dependencies module has been updated&lt;/li&gt;&#xA;&lt;li&gt;Unit tests and godoc updated&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://xuri.me/excelize&#34; rel=&#34;nofollow&#34;&gt;Documentation website&lt;/a&gt; with multilingual: Arabic, German, Spanish, English, French, Russian, Chinese, Japanese, and Korean, which has been updated&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/qax-os/excelize/releases/tag/v2.6.0" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>xuri</name>
+    </author>
+  </entry>
   <entry>
     <title>Release notes from monokle - v1.6.4-nightly-2022-04-10.0</title>
     <updated>2022-04-10T02:57:15Z</updated>
@@ -37,22 +48,22 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from telepresence - rpc/v2.5.5</title>
+    <title>Release notes from telepresence - v2.5.5</title>
     <updated>2022-04-08T21:37:42Z</updated>
-    <id>tag:github.com,2008:Repository/82933315/rpc/v2.5.5</id>
+    <id>tag:github.com,2008:Repository/82933315/v2.5.5</id>
     <content type="html">&lt;p&gt;v2.5.5&lt;/p&gt;</content>
-    <link href="https://github.com/telepresenceio/telepresence/releases/tag/rpc%2Fv2.5.5" rel="alternate"></link>
+    <link href="https://github.com/telepresenceio/telepresence/releases/tag/v2.5.5" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>njayp</name>
     </author>
   </entry>
   <entry>
-    <title>Release notes from telepresence - v2.5.5</title>
+    <title>Release notes from telepresence - rpc/v2.5.5</title>
     <updated>2022-04-08T21:37:42Z</updated>
-    <id>tag:github.com,2008:Repository/82933315/v2.5.5</id>
+    <id>tag:github.com,2008:Repository/82933315/rpc/v2.5.5</id>
     <content type="html">&lt;p&gt;v2.5.5&lt;/p&gt;</content>
-    <link href="https://github.com/telepresenceio/telepresence/releases/tag/v2.5.5" rel="alternate"></link>
+    <link href="https://github.com/telepresenceio/telepresence/releases/tag/rpc%2Fv2.5.5" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>njayp</name>
@@ -202,22 +213,22 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from chakra-ui - @chakra-ui/switch@1.3.10</title>
+    <title>Release notes from chakra-ui - @chakra-ui/tabs@1.6.10</title>
     <updated>2022-04-07T15:34:46Z</updated>
-    <id>tag:github.com,2008:Repository/202890778/@chakra-ui/switch@1.3.10</id>
-    <content type="html">&lt;h3&gt;Patch Changes&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Updated dependencies&lt;br&gt;&#xA;[&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/commit/c220af15274377575d03900f0baaa1c0a1400778&#34;&gt;&lt;code&gt;c220af152&lt;/code&gt;&lt;/a&gt;,&lt;br&gt;&#xA;&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/commit/b19c892702f029c078f8d5bfaf0f89b573c6cd90&#34;&gt;&lt;code&gt;b19c89270&lt;/code&gt;&lt;/a&gt;]:&#xA;&lt;ul&gt;&#xA;&lt;li&gt;@chakra-ui/checkbox@1.7.1&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/chakra-ui/chakra-ui/releases/tag/%40chakra-ui%2Fswitch%401.3.10" rel="alternate"></link>
+    <id>tag:github.com,2008:Repository/202890778/@chakra-ui/tabs@1.6.10</id>
+    <content type="html">&lt;h3&gt;Patch Changes&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Updated dependencies&lt;br&gt;&#xA;[&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/commit/a3b04dc1ae49ad0d804bddc17fdca3afa218665c&#34;&gt;&lt;code&gt;a3b04dc1a&lt;/code&gt;&lt;/a&gt;]:&#xA;&lt;ul&gt;&#xA;&lt;li&gt;@chakra-ui/hooks@1.9.1&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/chakra-ui/chakra-ui/releases/tag/%40chakra-ui%2Ftabs%401.6.10" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>github-actions[bot]</name>
     </author>
   </entry>
   <entry>
-    <title>Release notes from chakra-ui - @chakra-ui/tabs@1.6.10</title>
+    <title>Release notes from chakra-ui - @chakra-ui/transition@1.4.8</title>
     <updated>2022-04-07T15:34:46Z</updated>
-    <id>tag:github.com,2008:Repository/202890778/@chakra-ui/tabs@1.6.10</id>
-    <content type="html">&lt;h3&gt;Patch Changes&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Updated dependencies&lt;br&gt;&#xA;[&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/commit/a3b04dc1ae49ad0d804bddc17fdca3afa218665c&#34;&gt;&lt;code&gt;a3b04dc1a&lt;/code&gt;&lt;/a&gt;]:&#xA;&lt;ul&gt;&#xA;&lt;li&gt;@chakra-ui/hooks@1.9.1&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/chakra-ui/chakra-ui/releases/tag/%40chakra-ui%2Ftabs%401.6.10" rel="alternate"></link>
+    <id>tag:github.com,2008:Repository/202890778/@chakra-ui/transition@1.4.8</id>
+    <content type="html">&lt;h3&gt;Patch Changes&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/pull/5783&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/chakra-ui/chakra-ui/pull/5783/hovercard&#34;&gt;#5783&lt;/a&gt;&lt;br&gt;&#xA;&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/commit/aaadcd0ed9388417b0b647d75055ede0613d3495&#34;&gt;&lt;code&gt;aaadcd0ed&lt;/code&gt;&lt;/a&gt;&lt;br&gt;&#xA;Thanks &lt;a href=&#34;https://github.com/cadejscroggins&#34;&gt;@cadejscroggins&lt;/a&gt;! - Fix&lt;br&gt;&#xA;intermittent Collapse component overflow initial/hidden issue&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/chakra-ui/chakra-ui/releases/tag/%40chakra-ui%2Ftransition%401.4.8" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>github-actions[bot]</name>
@@ -235,11 +246,11 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from chakra-ui - @chakra-ui/transition@1.4.8</title>
+    <title>Release notes from chakra-ui - @chakra-ui/switch@1.3.10</title>
     <updated>2022-04-07T15:34:46Z</updated>
-    <id>tag:github.com,2008:Repository/202890778/@chakra-ui/transition@1.4.8</id>
-    <content type="html">&lt;h3&gt;Patch Changes&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/pull/5783&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/chakra-ui/chakra-ui/pull/5783/hovercard&#34;&gt;#5783&lt;/a&gt;&lt;br&gt;&#xA;&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/commit/aaadcd0ed9388417b0b647d75055ede0613d3495&#34;&gt;&lt;code&gt;aaadcd0ed&lt;/code&gt;&lt;/a&gt;&lt;br&gt;&#xA;Thanks &lt;a href=&#34;https://github.com/cadejscroggins&#34;&gt;@cadejscroggins&lt;/a&gt;! - Fix&lt;br&gt;&#xA;intermittent Collapse component overflow initial/hidden issue&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/chakra-ui/chakra-ui/releases/tag/%40chakra-ui%2Ftransition%401.4.8" rel="alternate"></link>
+    <id>tag:github.com,2008:Repository/202890778/@chakra-ui/switch@1.3.10</id>
+    <content type="html">&lt;h3&gt;Patch Changes&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Updated dependencies&lt;br&gt;&#xA;[&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/commit/c220af15274377575d03900f0baaa1c0a1400778&#34;&gt;&lt;code&gt;c220af152&lt;/code&gt;&lt;/a&gt;,&lt;br&gt;&#xA;&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/commit/b19c892702f029c078f8d5bfaf0f89b573c6cd90&#34;&gt;&lt;code&gt;b19c89270&lt;/code&gt;&lt;/a&gt;]:&#xA;&lt;ul&gt;&#xA;&lt;li&gt;@chakra-ui/checkbox@1.7.1&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/chakra-ui/chakra-ui/releases/tag/%40chakra-ui%2Fswitch%401.3.10" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>github-actions[bot]</name>
@@ -268,22 +279,22 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from telepresence - rpc/v2.5.5-rc.0</title>
+    <title>Release notes from telepresence - v2.5.5-rc.0</title>
     <updated>2022-04-07T14:40:58Z</updated>
-    <id>tag:github.com,2008:Repository/82933315/rpc/v2.5.5-rc.0</id>
+    <id>tag:github.com,2008:Repository/82933315/v2.5.5-rc.0</id>
     <content type="html">&lt;p&gt;v2.5.5-rc.0&lt;/p&gt;</content>
-    <link href="https://github.com/telepresenceio/telepresence/releases/tag/rpc%2Fv2.5.5-rc.0" rel="alternate"></link>
+    <link href="https://github.com/telepresenceio/telepresence/releases/tag/v2.5.5-rc.0" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>njayp</name>
     </author>
   </entry>
   <entry>
-    <title>Release notes from telepresence - v2.5.5-rc.0</title>
+    <title>Release notes from telepresence - rpc/v2.5.5-rc.0</title>
     <updated>2022-04-07T14:40:58Z</updated>
-    <id>tag:github.com,2008:Repository/82933315/v2.5.5-rc.0</id>
+    <id>tag:github.com,2008:Repository/82933315/rpc/v2.5.5-rc.0</id>
     <content type="html">&lt;p&gt;v2.5.5-rc.0&lt;/p&gt;</content>
-    <link href="https://github.com/telepresenceio/telepresence/releases/tag/v2.5.5-rc.0" rel="alternate"></link>
+    <link href="https://github.com/telepresenceio/telepresence/releases/tag/rpc%2Fv2.5.5-rc.0" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>njayp</name>
@@ -356,33 +367,11 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from google-cloud-go - aiplatform: v1.8.0</title>
+    <title>Release notes from google-cloud-go - storagetransfer: v1.3.0</title>
     <updated>2022-04-06T14:01:08Z</updated>
-    <id>tag:github.com,2008:Repository/19608522/aiplatform/v1.8.0</id>
-    <content type="html">&lt;h2&gt;&lt;a href=&#34;https://github.com/googleapis/google-cloud-go/compare/aiplatform/v1.7.0...aiplatform/v1.8.0&#34;&gt;1.8.0&lt;/a&gt; (2022-04-06)&lt;/h2&gt;&#xA;&lt;h3&gt;Features&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;aiplatform:&lt;/strong&gt; add ImportModelEvaluation in aiplatform v1 model_service.proto feat: add data_item_schema_uri, annotation_schema_uri, explanation_specs to ModelEvaluationExplanationSpec in aiplatform v1 model_evaluation.proto (&lt;a href=&#34;https://github.com/googleapis/google-cloud-go/commit/21a3cced42fe30abd4457b377ec78640e80babc8&#34;&gt;21a3cce&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/googleapis/google-cloud-go/releases/tag/aiplatform%2Fv1.8.0" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>release-please[bot]</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from google-cloud-go - dialogflow: v1.8.0</title>
-    <updated>2022-04-06T14:01:08Z</updated>
-    <id>tag:github.com,2008:Repository/19608522/dialogflow/v1.8.0</id>
-    <content type="html">&lt;h2&gt;&lt;a href=&#34;https://github.com/googleapis/google-cloud-go/compare/dialogflow/v1.7.0...dialogflow/v1.8.0&#34;&gt;1.8.0&lt;/a&gt; (2022-04-06)&lt;/h2&gt;&#xA;&lt;h3&gt;Features&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;dialogflow/cx:&lt;/strong&gt; added support for locking an agent for changes feat: added data format specification for export agent (&lt;a href=&#34;https://github.com/googleapis/google-cloud-go/commit/81c4c9116178711059772f41bbf76d423ffebc95&#34;&gt;81c4c91&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;dialogflow/cx:&lt;/strong&gt; added support for locking an agent for changes feat: added data format specification for export agent (&lt;a href=&#34;https://github.com/googleapis/google-cloud-go/commit/81c4c9116178711059772f41bbf76d423ffebc95&#34;&gt;81c4c91&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/googleapis/google-cloud-go/releases/tag/dialogflow%2Fv1.8.0" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>release-please[bot]</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from google-cloud-go - dlp: v1.4.0</title>
-    <updated>2022-04-06T14:01:08Z</updated>
-    <id>tag:github.com,2008:Repository/19608522/dlp/v1.4.0</id>
-    <content type="html">&lt;h2&gt;&lt;a href=&#34;https://github.com/googleapis/google-cloud-go/compare/dlp/v1.3.0...dlp/v1.4.0&#34;&gt;1.4.0&lt;/a&gt; (2022-04-06)&lt;/h2&gt;&#xA;&lt;h3&gt;Features&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;dlp:&lt;/strong&gt; add DataProfilePubSubMessage supporting pub/sub integration (&lt;a href=&#34;https://github.com/googleapis/google-cloud-go/commit/57896d1491c04fa53d3f3e2344ef10c3d91c4b65&#34;&gt;57896d1&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;dlp:&lt;/strong&gt; new Bytes and File types: POWERPOINT and EXCEL (&lt;a href=&#34;https://github.com/googleapis/google-cloud-go/commit/81c4c9116178711059772f41bbf76d423ffebc95&#34;&gt;81c4c91&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/googleapis/google-cloud-go/releases/tag/dlp%2Fv1.4.0" rel="alternate"></link>
+    <id>tag:github.com,2008:Repository/19608522/storagetransfer/v1.3.0</id>
+    <content type="html">&lt;h2&gt;&lt;a href=&#34;https://github.com/googleapis/google-cloud-go/compare/storagetransfer/v1.2.0...storagetransfer/v1.3.0&#34;&gt;1.3.0&lt;/a&gt; (2022-04-06)&lt;/h2&gt;&#xA;&lt;h3&gt;Features&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;storagetransfer:&lt;/strong&gt; add support for Agent Pools feat: add support for transfers between file systems feat: add support for metadata preservation feat: add support for transferring a specific list of objects (manifest) feat: add support for Cloud Logging (&lt;a href=&#34;https://github.com/googleapis/google-cloud-go/commit/6ffce1dbf567758d23ac39aaf63dc17ced5e4db9&#34;&gt;6ffce1d&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/googleapis/google-cloud-go/releases/tag/storagetransfer%2Fv1.3.0" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>release-please[bot]</name>
@@ -400,22 +389,44 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from google-cloud-go - secretmanager: v1.4.0</title>
+    <title>Release notes from google-cloud-go - dialogflow: v1.8.0</title>
     <updated>2022-04-06T14:01:08Z</updated>
-    <id>tag:github.com,2008:Repository/19608522/secretmanager/v1.4.0</id>
-    <content type="html">&lt;h2&gt;&lt;a href=&#34;https://github.com/googleapis/google-cloud-go/compare/secretmanager/v1.3.0...secretmanager/v1.4.0&#34;&gt;1.4.0&lt;/a&gt; (2022-04-06)&lt;/h2&gt;&#xA;&lt;h3&gt;Features&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;secretmanager:&lt;/strong&gt; Added support for accessing secret versions by alias Clients can now associate custom strings with specified secret versions for later access. (&lt;a href=&#34;https://github.com/googleapis/google-cloud-go/commit/6ffce1dbf567758d23ac39aaf63dc17ced5e4db9&#34;&gt;6ffce1d&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/googleapis/google-cloud-go/releases/tag/secretmanager%2Fv1.4.0" rel="alternate"></link>
+    <id>tag:github.com,2008:Repository/19608522/dialogflow/v1.8.0</id>
+    <content type="html">&lt;h2&gt;&lt;a href=&#34;https://github.com/googleapis/google-cloud-go/compare/dialogflow/v1.7.0...dialogflow/v1.8.0&#34;&gt;1.8.0&lt;/a&gt; (2022-04-06)&lt;/h2&gt;&#xA;&lt;h3&gt;Features&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;dialogflow/cx:&lt;/strong&gt; added support for locking an agent for changes feat: added data format specification for export agent (&lt;a href=&#34;https://github.com/googleapis/google-cloud-go/commit/81c4c9116178711059772f41bbf76d423ffebc95&#34;&gt;81c4c91&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;dialogflow/cx:&lt;/strong&gt; added support for locking an agent for changes feat: added data format specification for export agent (&lt;a href=&#34;https://github.com/googleapis/google-cloud-go/commit/81c4c9116178711059772f41bbf76d423ffebc95&#34;&gt;81c4c91&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/googleapis/google-cloud-go/releases/tag/dialogflow%2Fv1.8.0" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>release-please[bot]</name>
     </author>
   </entry>
   <entry>
-    <title>Release notes from google-cloud-go - storagetransfer: v1.3.0</title>
+    <title>Release notes from google-cloud-go - aiplatform: v1.8.0</title>
     <updated>2022-04-06T14:01:08Z</updated>
-    <id>tag:github.com,2008:Repository/19608522/storagetransfer/v1.3.0</id>
-    <content type="html">&lt;h2&gt;&lt;a href=&#34;https://github.com/googleapis/google-cloud-go/compare/storagetransfer/v1.2.0...storagetransfer/v1.3.0&#34;&gt;1.3.0&lt;/a&gt; (2022-04-06)&lt;/h2&gt;&#xA;&lt;h3&gt;Features&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;storagetransfer:&lt;/strong&gt; add support for Agent Pools feat: add support for transfers between file systems feat: add support for metadata preservation feat: add support for transferring a specific list of objects (manifest) feat: add support for Cloud Logging (&lt;a href=&#34;https://github.com/googleapis/google-cloud-go/commit/6ffce1dbf567758d23ac39aaf63dc17ced5e4db9&#34;&gt;6ffce1d&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/googleapis/google-cloud-go/releases/tag/storagetransfer%2Fv1.3.0" rel="alternate"></link>
+    <id>tag:github.com,2008:Repository/19608522/aiplatform/v1.8.0</id>
+    <content type="html">&lt;h2&gt;&lt;a href=&#34;https://github.com/googleapis/google-cloud-go/compare/aiplatform/v1.7.0...aiplatform/v1.8.0&#34;&gt;1.8.0&lt;/a&gt; (2022-04-06)&lt;/h2&gt;&#xA;&lt;h3&gt;Features&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;aiplatform:&lt;/strong&gt; add ImportModelEvaluation in aiplatform v1 model_service.proto feat: add data_item_schema_uri, annotation_schema_uri, explanation_specs to ModelEvaluationExplanationSpec in aiplatform v1 model_evaluation.proto (&lt;a href=&#34;https://github.com/googleapis/google-cloud-go/commit/21a3cced42fe30abd4457b377ec78640e80babc8&#34;&gt;21a3cce&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/googleapis/google-cloud-go/releases/tag/aiplatform%2Fv1.8.0" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>release-please[bot]</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from google-cloud-go - dlp: v1.4.0</title>
+    <updated>2022-04-06T14:01:08Z</updated>
+    <id>tag:github.com,2008:Repository/19608522/dlp/v1.4.0</id>
+    <content type="html">&lt;h2&gt;&lt;a href=&#34;https://github.com/googleapis/google-cloud-go/compare/dlp/v1.3.0...dlp/v1.4.0&#34;&gt;1.4.0&lt;/a&gt; (2022-04-06)&lt;/h2&gt;&#xA;&lt;h3&gt;Features&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;dlp:&lt;/strong&gt; add DataProfilePubSubMessage supporting pub/sub integration (&lt;a href=&#34;https://github.com/googleapis/google-cloud-go/commit/57896d1491c04fa53d3f3e2344ef10c3d91c4b65&#34;&gt;57896d1&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;dlp:&lt;/strong&gt; new Bytes and File types: POWERPOINT and EXCEL (&lt;a href=&#34;https://github.com/googleapis/google-cloud-go/commit/81c4c9116178711059772f41bbf76d423ffebc95&#34;&gt;81c4c91&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/googleapis/google-cloud-go/releases/tag/dlp%2Fv1.4.0" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>release-please[bot]</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from google-cloud-go - secretmanager: v1.4.0</title>
+    <updated>2022-04-06T14:01:08Z</updated>
+    <id>tag:github.com,2008:Repository/19608522/secretmanager/v1.4.0</id>
+    <content type="html">&lt;h2&gt;&lt;a href=&#34;https://github.com/googleapis/google-cloud-go/compare/secretmanager/v1.3.0...secretmanager/v1.4.0&#34;&gt;1.4.0&lt;/a&gt; (2022-04-06)&lt;/h2&gt;&#xA;&lt;h3&gt;Features&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;secretmanager:&lt;/strong&gt; Added support for accessing secret versions by alias Clients can now associate custom strings with specified secret versions for later access. (&lt;a href=&#34;https://github.com/googleapis/google-cloud-go/commit/6ffce1dbf567758d23ac39aaf63dc17ced5e4db9&#34;&gt;6ffce1d&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/googleapis/google-cloud-go/releases/tag/secretmanager%2Fv1.4.0" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>release-please[bot]</name>
@@ -4203,17 +4214,6 @@
     <summary type="html"></summary>
     <author>
       <name>itchyny</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from excelize - v2.0.1</title>
-    <updated>2021-07-29T01:26:36Z</updated>
-    <id>tag:github.com,2008:Repository/66841911/v2.0.1</id>
-    <content type="html">&lt;p&gt;We are pleased to announce the release of version 2.0.1. Featured are a handful of new areas of functionality and numerous bug fixes.&lt;/p&gt;&#xA;&lt;p&gt;A summary of changes is available in the &lt;a href=&#34;https://github.com/xuri/excelize/releases/tag/v2.0.1&#34;&gt;Release Notes&lt;/a&gt;. A full list of changes is available in the &lt;a href=&#34;https://github.com/xuri/excelize/compare/v2.0.0...v2.0.1&#34;&gt;change log&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;h2&gt;Release Notes&lt;/h2&gt;&#xA;&lt;p&gt;The most notable changes in this release are:&lt;/p&gt;&#xA;&lt;h4&gt;Notable Features&lt;/h4&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;New function &lt;a href=&#34;https://pkg.go.dev/github.com/xuri/excelize/v2@v2.0.1#File.SetHeaderFooter&#34; rel=&#34;nofollow&#34;&gt;&lt;code&gt;SetHeaderFooter()&lt;/code&gt;&lt;/a&gt; init set header and footer support, relate issue &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;439070847&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/qax-os/excelize/issues/394&#34; data-hovercard-type=&#34;issue&#34; data-hovercard-url=&#34;/qax-os/excelize/issues/394/hovercard&#34; href=&#34;https://github.com/qax-os/excelize/issues/394&#34;&gt;#394&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;New function &lt;a href=&#34;https://pkg.go.dev/github.com/xuri/excelize/v2@v2.0.1#File.SetColStyle&#34; rel=&#34;nofollow&#34;&gt;&lt;code&gt;SetColStyle()&lt;/code&gt;&lt;/a&gt; support to set style by columns, relate issue &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;440829743&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/qax-os/excelize/issues/397&#34; data-hovercard-type=&#34;issue&#34; data-hovercard-url=&#34;/qax-os/excelize/issues/397/hovercard&#34; href=&#34;https://github.com/qax-os/excelize/issues/397&#34;&gt;#397&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;New functions &lt;a href=&#34;https://pkg.go.dev/github.com/xuri/excelize/v2@v2.0.1#File.SetDefaultFont&#34; rel=&#34;nofollow&#34;&gt;&lt;code&gt;SetDefaultFont()&lt;/code&gt;&lt;/a&gt; and &lt;a href=&#34;https://pkg.go.dev/github.com/xuri/excelize/v2@v2.0.1#File.GetDefaultFont&#34; rel=&#34;nofollow&#34;&gt;&lt;code&gt;GetDefaultFont()&lt;/code&gt;&lt;/a&gt; support to change the default font, relate issue &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;437285396&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/qax-os/excelize/issues/390&#34; data-hovercard-type=&#34;issue&#34; data-hovercard-url=&#34;/qax-os/excelize/issues/390/hovercard&#34; href=&#34;https://github.com/qax-os/excelize/issues/390&#34;&gt;#390&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;New functions &lt;a href=&#34;https://pkg.go.dev/github.com/xuri/excelize/v2@v2.0.1#File.SetDocProps&#34; rel=&#34;nofollow&#34;&gt;&lt;code&gt;SetDocProps()&lt;/code&gt;&lt;/a&gt; and &lt;a href=&#34;https://pkg.go.dev/github.com/xuri/excelize/v2@v2.0.1#File.GetDocProps&#34; rel=&#34;nofollow&#34;&gt;&lt;code&gt;GetDocProps()&lt;/code&gt;&lt;/a&gt;, support to set and get doc properties, relate issue &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;450916246&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/qax-os/excelize/issues/415&#34; data-hovercard-type=&#34;issue&#34; data-hovercard-url=&#34;/qax-os/excelize/issues/415/hovercard&#34; href=&#34;https://github.com/qax-os/excelize/issues/415&#34;&gt;#415&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;The function &lt;a href=&#34;https://pkg.go.dev/github.com/xuri/excelize/v2@v2.0.1#File.AddChart&#34; rel=&#34;nofollow&#34;&gt;&lt;code&gt;AddChart()&lt;/code&gt;&lt;/a&gt; now support to create new 26 types of chart: cone, pyramid and cylinder series chart for column and bar, surface 3D, wireframe Surface 3D, contour and wireframe contour，bubble and a 3D bubble chart, unsupported chart type add error prompt&lt;/li&gt;&#xA;&lt;li&gt;New functions &lt;a href=&#34;https://pkg.go.dev/github.com/xuri/excelize/v2@v2.0.1#File.SetDefinedName&#34; rel=&#34;nofollow&#34;&gt;&lt;code&gt;SetDefinedName()&lt;/code&gt;&lt;/a&gt; and &lt;a href=&#34;https://pkg.go.dev/github.com/xuri/excelize/v2@v2.0.1#File.GetDefinedName&#34; rel=&#34;nofollow&#34;&gt;&lt;code&gt;GetDefinedName()&lt;/code&gt;&lt;/a&gt; support to set and get defined names&lt;/li&gt;&#xA;&lt;li&gt;More detailed error information when open the encrypted file&lt;/li&gt;&#xA;&lt;li&gt;The function &lt;a href=&#34;https://pkg.go.dev/github.com/xuri/excelize/v2@v2.0.1#File.AddPicture&#34; rel=&#34;nofollow&#34;&gt;&lt;code&gt;AddPicture()&lt;/code&gt;&lt;/a&gt; now support to add TIF and TIFF format images&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h4&gt;Bug Fixes&lt;/h4&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Fix structs fields definition errors and keep double quotes in data validation formula&lt;/li&gt;&#xA;&lt;li&gt;Fix comments duplicate caused by inner counting errors, resolve issue &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;426024591&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/qax-os/excelize/issues/373&#34; data-hovercard-type=&#34;issue&#34; data-hovercard-url=&#34;/qax-os/excelize/issues/373/hovercard&#34; href=&#34;https://github.com/qax-os/excelize/issues/373&#34;&gt;#373&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Fix read file error caused by getting sheet map errors, resolve issue &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;444905259&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/qax-os/excelize/issues/404&#34; data-hovercard-type=&#34;issue&#34; data-hovercard-url=&#34;/qax-os/excelize/issues/404/hovercard&#34; href=&#34;https://github.com/qax-os/excelize/issues/404&#34;&gt;#404&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Enhance compatibility with PivotTable, resolve issue &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;449672138&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/qax-os/excelize/issues/413&#34; data-hovercard-type=&#34;issue&#34; data-hovercard-url=&#34;/qax-os/excelize/issues/413/hovercard&#34; href=&#34;https://github.com/qax-os/excelize/issues/413&#34;&gt;#413&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Enhance compatibility with font size and a bold style, resolve issue &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;448900691&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/qax-os/excelize/issues/411&#34; data-hovercard-type=&#34;issue&#34; data-hovercard-url=&#34;/qax-os/excelize/issues/411/hovercard&#34; href=&#34;https://github.com/qax-os/excelize/issues/411&#34;&gt;#411&lt;/a&gt;, &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;453432586&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/qax-os/excelize/issues/420&#34; data-hovercard-type=&#34;issue&#34; data-hovercard-url=&#34;/qax-os/excelize/issues/420/hovercard&#34; href=&#34;https://github.com/qax-os/excelize/issues/420&#34;&gt;#420&lt;/a&gt;, and &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;454725348&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/qax-os/excelize/issues/425&#34; data-hovercard-type=&#34;issue&#34; data-hovercard-url=&#34;/qax-os/excelize/issues/425/hovercard&#34; href=&#34;https://github.com/qax-os/excelize/issues/425&#34;&gt;#425&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Enhance recalculation adjuster to resolve file broken issue, after insert or remove rows in some case, relate issue &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;453437525&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/qax-os/excelize/issues/421&#34; data-hovercard-type=&#34;issue&#34; data-hovercard-url=&#34;/qax-os/excelize/issues/421/hovercard&#34; href=&#34;https://github.com/qax-os/excelize/issues/421&#34;&gt;#421&lt;/a&gt; and &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;454085383&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/qax-os/excelize/issues/424&#34; data-hovercard-type=&#34;issue&#34; data-hovercard-url=&#34;/qax-os/excelize/issues/424/hovercard&#34; href=&#34;https://github.com/qax-os/excelize/issues/424&#34;&gt;#424&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Fix hide sheet does not work in some case, relate issue &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;453407072&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/qax-os/excelize/issues/418&#34; data-hovercard-type=&#34;issue&#34; data-hovercard-url=&#34;/qax-os/excelize/issues/418/hovercard&#34; href=&#34;https://github.com/qax-os/excelize/issues/418&#34;&gt;#418&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Fix multi-chart series caused file corrupted by avoid accent theme color index overflow, relate issue &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;453760211&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/qax-os/excelize/issues/422&#34; data-hovercard-type=&#34;issue&#34; data-hovercard-url=&#34;/qax-os/excelize/issues/422/hovercard&#34; href=&#34;https://github.com/qax-os/excelize/issues/422&#34;&gt;#422&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h4&gt;Miscellaneous&lt;/h4&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Improve unit testing coverage (Line Coverage: 96.05%)&lt;/li&gt;&#xA;&lt;li&gt;Optimize code, fix golint issues&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/qax-os/excelize/releases/tag/v2.0.1" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>xuri</name>
     </author>
   </entry>
   <entry>
