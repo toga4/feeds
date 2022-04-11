@@ -1,8 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?><feed xmlns="http://www.w3.org/2005/Atom">
   <title>Releases from Starred by toga4</title>
   <id>https://toga4.github.io/feeds/starred-releases.atom</id>
-  <updated>2022-04-11T05:13:44Z</updated>
+  <updated>2022-04-11T22:35:19Z</updated>
   <link href="https://toga4.github.io/feeds/starred-releases.atom"></link>
+  <entry>
+    <title>Release notes from google-cloud-go - pubsub: v1.20.0</title>
+    <updated>2022-04-11T22:35:19Z</updated>
+    <id>tag:github.com,2008:Repository/19608522/pubsub/v1.20.0</id>
+    <content type="html">&lt;h2&gt;&lt;a href=&#34;https://github.com/googleapis/google-cloud-go/compare/pubsub/v1.19.0...pubsub/v1.20.0&#34;&gt;1.20.0&lt;/a&gt; (2022-04-11)&lt;/h2&gt;&#xA;&lt;h3&gt;Features&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;pubsub/pstest:&lt;/strong&gt; add topic retention support (&lt;a href=&#34;https://github.com/googleapis/google-cloud-go/issues/4790&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/googleapis/google-cloud-go/pull/4790/hovercard&#34;&gt;#4790&lt;/a&gt;) (&lt;a href=&#34;https://github.com/googleapis/google-cloud-go/commit/0a4ad6a72ddc379a94a88ec70ac678a227843cfd&#34;&gt;0a4ad6a&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3&gt;Bug Fixes&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;pubsub:&lt;/strong&gt; ignore grpc errors in ack/modack (&lt;a href=&#34;https://github.com/googleapis/google-cloud-go/issues/5796&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/googleapis/google-cloud-go/pull/5796/hovercard&#34;&gt;#5796&lt;/a&gt;) (&lt;a href=&#34;https://github.com/googleapis/google-cloud-go/commit/4fb9aecd2bc415c846e26eb960859e10e1af61f3&#34;&gt;4fb9aec&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/googleapis/google-cloud-go/releases/tag/pubsub%2Fv1.20.0" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>release-please[bot]</name>
+    </author>
+  </entry>
   <entry>
     <title>Release notes from google-cloud-go - spanner: v1.31.0</title>
     <updated>2022-04-11T05:13:44Z</updated>
@@ -70,22 +81,22 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from telepresence - v2.5.5</title>
+    <title>Release notes from telepresence - rpc/v2.5.5</title>
     <updated>2022-04-08T21:37:42Z</updated>
-    <id>tag:github.com,2008:Repository/82933315/v2.5.5</id>
+    <id>tag:github.com,2008:Repository/82933315/rpc/v2.5.5</id>
     <content type="html">&lt;p&gt;v2.5.5&lt;/p&gt;</content>
-    <link href="https://github.com/telepresenceio/telepresence/releases/tag/v2.5.5" rel="alternate"></link>
+    <link href="https://github.com/telepresenceio/telepresence/releases/tag/rpc%2Fv2.5.5" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>njayp</name>
     </author>
   </entry>
   <entry>
-    <title>Release notes from telepresence - rpc/v2.5.5</title>
+    <title>Release notes from telepresence - v2.5.5</title>
     <updated>2022-04-08T21:37:42Z</updated>
-    <id>tag:github.com,2008:Repository/82933315/rpc/v2.5.5</id>
+    <id>tag:github.com,2008:Repository/82933315/v2.5.5</id>
     <content type="html">&lt;p&gt;v2.5.5&lt;/p&gt;</content>
-    <link href="https://github.com/telepresenceio/telepresence/releases/tag/rpc%2Fv2.5.5" rel="alternate"></link>
+    <link href="https://github.com/telepresenceio/telepresence/releases/tag/v2.5.5" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>njayp</name>
@@ -224,11 +235,11 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from chakra-ui - @chakra-ui/transition@1.4.8</title>
+    <title>Release notes from chakra-ui - @chakra-ui/tabs@1.6.10</title>
     <updated>2022-04-07T15:34:46Z</updated>
-    <id>tag:github.com,2008:Repository/202890778/@chakra-ui/transition@1.4.8</id>
-    <content type="html">&lt;h3&gt;Patch Changes&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/pull/5783&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/chakra-ui/chakra-ui/pull/5783/hovercard&#34;&gt;#5783&lt;/a&gt;&lt;br&gt;&#xA;&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/commit/aaadcd0ed9388417b0b647d75055ede0613d3495&#34;&gt;&lt;code&gt;aaadcd0ed&lt;/code&gt;&lt;/a&gt;&lt;br&gt;&#xA;Thanks &lt;a href=&#34;https://github.com/cadejscroggins&#34;&gt;@cadejscroggins&lt;/a&gt;! - Fix&lt;br&gt;&#xA;intermittent Collapse component overflow initial/hidden issue&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/chakra-ui/chakra-ui/releases/tag/%40chakra-ui%2Ftransition%401.4.8" rel="alternate"></link>
+    <id>tag:github.com,2008:Repository/202890778/@chakra-ui/tabs@1.6.10</id>
+    <content type="html">&lt;h3&gt;Patch Changes&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Updated dependencies&lt;br&gt;&#xA;[&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/commit/a3b04dc1ae49ad0d804bddc17fdca3afa218665c&#34;&gt;&lt;code&gt;a3b04dc1a&lt;/code&gt;&lt;/a&gt;]:&#xA;&lt;ul&gt;&#xA;&lt;li&gt;@chakra-ui/hooks@1.9.1&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/chakra-ui/chakra-ui/releases/tag/%40chakra-ui%2Ftabs%401.6.10" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>github-actions[bot]</name>
@@ -246,22 +257,11 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from chakra-ui - @chakra-ui/switch@1.3.10</title>
+    <title>Release notes from chakra-ui - @chakra-ui/transition@1.4.8</title>
     <updated>2022-04-07T15:34:46Z</updated>
-    <id>tag:github.com,2008:Repository/202890778/@chakra-ui/switch@1.3.10</id>
-    <content type="html">&lt;h3&gt;Patch Changes&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Updated dependencies&lt;br&gt;&#xA;[&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/commit/c220af15274377575d03900f0baaa1c0a1400778&#34;&gt;&lt;code&gt;c220af152&lt;/code&gt;&lt;/a&gt;,&lt;br&gt;&#xA;&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/commit/b19c892702f029c078f8d5bfaf0f89b573c6cd90&#34;&gt;&lt;code&gt;b19c89270&lt;/code&gt;&lt;/a&gt;]:&#xA;&lt;ul&gt;&#xA;&lt;li&gt;@chakra-ui/checkbox@1.7.1&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/chakra-ui/chakra-ui/releases/tag/%40chakra-ui%2Fswitch%401.3.10" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>github-actions[bot]</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from chakra-ui - @chakra-ui/tabs@1.6.10</title>
-    <updated>2022-04-07T15:34:46Z</updated>
-    <id>tag:github.com,2008:Repository/202890778/@chakra-ui/tabs@1.6.10</id>
-    <content type="html">&lt;h3&gt;Patch Changes&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Updated dependencies&lt;br&gt;&#xA;[&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/commit/a3b04dc1ae49ad0d804bddc17fdca3afa218665c&#34;&gt;&lt;code&gt;a3b04dc1a&lt;/code&gt;&lt;/a&gt;]:&#xA;&lt;ul&gt;&#xA;&lt;li&gt;@chakra-ui/hooks@1.9.1&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/chakra-ui/chakra-ui/releases/tag/%40chakra-ui%2Ftabs%401.6.10" rel="alternate"></link>
+    <id>tag:github.com,2008:Repository/202890778/@chakra-ui/transition@1.4.8</id>
+    <content type="html">&lt;h3&gt;Patch Changes&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/pull/5783&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/chakra-ui/chakra-ui/pull/5783/hovercard&#34;&gt;#5783&lt;/a&gt;&lt;br&gt;&#xA;&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/commit/aaadcd0ed9388417b0b647d75055ede0613d3495&#34;&gt;&lt;code&gt;aaadcd0ed&lt;/code&gt;&lt;/a&gt;&lt;br&gt;&#xA;Thanks &lt;a href=&#34;https://github.com/cadejscroggins&#34;&gt;@cadejscroggins&lt;/a&gt;! - Fix&lt;br&gt;&#xA;intermittent Collapse component overflow initial/hidden issue&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/chakra-ui/chakra-ui/releases/tag/%40chakra-ui%2Ftransition%401.4.8" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>github-actions[bot]</name>
@@ -273,6 +273,17 @@
     <id>tag:github.com,2008:Repository/202890778/@chakra-ui/toast@1.5.9</id>
     <content type="html">&lt;h3&gt;Patch Changes&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Updated dependencies&lt;br&gt;&#xA;[&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/commit/a3b04dc1ae49ad0d804bddc17fdca3afa218665c&#34;&gt;&lt;code&gt;a3b04dc1a&lt;/code&gt;&lt;/a&gt;,&lt;br&gt;&#xA;&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/commit/b19c892702f029c078f8d5bfaf0f89b573c6cd90&#34;&gt;&lt;code&gt;b19c89270&lt;/code&gt;&lt;/a&gt;,&lt;br&gt;&#xA;&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/commit/aaadcd0ed9388417b0b647d75055ede0613d3495&#34;&gt;&lt;code&gt;aaadcd0ed&lt;/code&gt;&lt;/a&gt;]:&#xA;&lt;ul&gt;&#xA;&lt;li&gt;@chakra-ui/hooks@1.9.1&lt;/li&gt;&#xA;&lt;li&gt;@chakra-ui/theme@1.14.1&lt;/li&gt;&#xA;&lt;li&gt;@chakra-ui/transition@1.4.8&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
     <link href="https://github.com/chakra-ui/chakra-ui/releases/tag/%40chakra-ui%2Ftoast%401.5.9" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>github-actions[bot]</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from chakra-ui - @chakra-ui/switch@1.3.10</title>
+    <updated>2022-04-07T15:34:46Z</updated>
+    <id>tag:github.com,2008:Repository/202890778/@chakra-ui/switch@1.3.10</id>
+    <content type="html">&lt;h3&gt;Patch Changes&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Updated dependencies&lt;br&gt;&#xA;[&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/commit/c220af15274377575d03900f0baaa1c0a1400778&#34;&gt;&lt;code&gt;c220af152&lt;/code&gt;&lt;/a&gt;,&lt;br&gt;&#xA;&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/commit/b19c892702f029c078f8d5bfaf0f89b573c6cd90&#34;&gt;&lt;code&gt;b19c89270&lt;/code&gt;&lt;/a&gt;]:&#xA;&lt;ul&gt;&#xA;&lt;li&gt;@chakra-ui/checkbox@1.7.1&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/chakra-ui/chakra-ui/releases/tag/%40chakra-ui%2Fswitch%401.3.10" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>github-actions[bot]</name>
@@ -301,22 +312,22 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from telepresence - v2.5.5-rc.0</title>
+    <title>Release notes from telepresence - rpc/v2.5.5-rc.0</title>
     <updated>2022-04-07T14:40:58Z</updated>
-    <id>tag:github.com,2008:Repository/82933315/v2.5.5-rc.0</id>
+    <id>tag:github.com,2008:Repository/82933315/rpc/v2.5.5-rc.0</id>
     <content type="html">&lt;p&gt;v2.5.5-rc.0&lt;/p&gt;</content>
-    <link href="https://github.com/telepresenceio/telepresence/releases/tag/v2.5.5-rc.0" rel="alternate"></link>
+    <link href="https://github.com/telepresenceio/telepresence/releases/tag/rpc%2Fv2.5.5-rc.0" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>njayp</name>
     </author>
   </entry>
   <entry>
-    <title>Release notes from telepresence - rpc/v2.5.5-rc.0</title>
+    <title>Release notes from telepresence - v2.5.5-rc.0</title>
     <updated>2022-04-07T14:40:58Z</updated>
-    <id>tag:github.com,2008:Repository/82933315/rpc/v2.5.5-rc.0</id>
+    <id>tag:github.com,2008:Repository/82933315/v2.5.5-rc.0</id>
     <content type="html">&lt;p&gt;v2.5.5-rc.0&lt;/p&gt;</content>
-    <link href="https://github.com/telepresenceio/telepresence/releases/tag/rpc%2Fv2.5.5-rc.0" rel="alternate"></link>
+    <link href="https://github.com/telepresenceio/telepresence/releases/tag/v2.5.5-rc.0" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>njayp</name>
@@ -400,6 +411,17 @@
     </author>
   </entry>
   <entry>
+    <title>Release notes from google-cloud-go - storagetransfer: v1.3.0</title>
+    <updated>2022-04-06T14:01:08Z</updated>
+    <id>tag:github.com,2008:Repository/19608522/storagetransfer/v1.3.0</id>
+    <content type="html">&lt;h2&gt;&lt;a href=&#34;https://github.com/googleapis/google-cloud-go/compare/storagetransfer/v1.2.0...storagetransfer/v1.3.0&#34;&gt;1.3.0&lt;/a&gt; (2022-04-06)&lt;/h2&gt;&#xA;&lt;h3&gt;Features&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;storagetransfer:&lt;/strong&gt; add support for Agent Pools feat: add support for transfers between file systems feat: add support for metadata preservation feat: add support for transferring a specific list of objects (manifest) feat: add support for Cloud Logging (&lt;a href=&#34;https://github.com/googleapis/google-cloud-go/commit/6ffce1dbf567758d23ac39aaf63dc17ced5e4db9&#34;&gt;6ffce1d&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/googleapis/google-cloud-go/releases/tag/storagetransfer%2Fv1.3.0" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>release-please[bot]</name>
+    </author>
+  </entry>
+  <entry>
     <title>Release notes from google-cloud-go - secretmanager: v1.4.0</title>
     <updated>2022-04-06T14:01:08Z</updated>
     <id>tag:github.com,2008:Repository/19608522/secretmanager/v1.4.0</id>
@@ -438,17 +460,6 @@
     <id>tag:github.com,2008:Repository/19608522/dialogflow/v1.8.0</id>
     <content type="html">&lt;h2&gt;&lt;a href=&#34;https://github.com/googleapis/google-cloud-go/compare/dialogflow/v1.7.0...dialogflow/v1.8.0&#34;&gt;1.8.0&lt;/a&gt; (2022-04-06)&lt;/h2&gt;&#xA;&lt;h3&gt;Features&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;dialogflow/cx:&lt;/strong&gt; added support for locking an agent for changes feat: added data format specification for export agent (&lt;a href=&#34;https://github.com/googleapis/google-cloud-go/commit/81c4c9116178711059772f41bbf76d423ffebc95&#34;&gt;81c4c91&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;dialogflow/cx:&lt;/strong&gt; added support for locking an agent for changes feat: added data format specification for export agent (&lt;a href=&#34;https://github.com/googleapis/google-cloud-go/commit/81c4c9116178711059772f41bbf76d423ffebc95&#34;&gt;81c4c91&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
     <link href="https://github.com/googleapis/google-cloud-go/releases/tag/dialogflow%2Fv1.8.0" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>release-please[bot]</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from google-cloud-go - storagetransfer: v1.3.0</title>
-    <updated>2022-04-06T14:01:08Z</updated>
-    <id>tag:github.com,2008:Repository/19608522/storagetransfer/v1.3.0</id>
-    <content type="html">&lt;h2&gt;&lt;a href=&#34;https://github.com/googleapis/google-cloud-go/compare/storagetransfer/v1.2.0...storagetransfer/v1.3.0&#34;&gt;1.3.0&lt;/a&gt; (2022-04-06)&lt;/h2&gt;&#xA;&lt;h3&gt;Features&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;storagetransfer:&lt;/strong&gt; add support for Agent Pools feat: add support for transfers between file systems feat: add support for metadata preservation feat: add support for transferring a specific list of objects (manifest) feat: add support for Cloud Logging (&lt;a href=&#34;https://github.com/googleapis/google-cloud-go/commit/6ffce1dbf567758d23ac39aaf63dc17ced5e4db9&#34;&gt;6ffce1d&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/googleapis/google-cloud-go/releases/tag/storagetransfer%2Fv1.3.0" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>release-please[bot]</name>
@@ -708,17 +719,6 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from google-cloud-go - bigquery: v1.30.1</title>
-    <updated>2022-03-30T02:01:27Z</updated>
-    <id>tag:github.com,2008:Repository/19608522/bigquery/v1.30.1</id>
-    <content type="html">&lt;h3&gt;&lt;a href=&#34;https://github.com/googleapis/google-cloud-go/compare/bigquery/v1.30.0...bigquery/v1.30.1&#34;&gt;1.30.1&lt;/a&gt; (2022-03-30)&lt;/h3&gt;&#xA;&lt;h3&gt;Bug Fixes&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;bigquery/storage/managedwriter:&lt;/strong&gt; correct enum processing in NormalizeDescriptor (&lt;a href=&#34;https://github.com/googleapis/google-cloud-go/issues/5811&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/googleapis/google-cloud-go/pull/5811/hovercard&#34;&gt;#5811&lt;/a&gt;) (&lt;a href=&#34;https://github.com/googleapis/google-cloud-go/commit/52cf48edff487352c2755de86e2ea069b1b29617&#34;&gt;52cf48e&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;bigquery:&lt;/strong&gt; improve retry for table create (&lt;a href=&#34;https://github.com/googleapis/google-cloud-go/issues/5807&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/googleapis/google-cloud-go/pull/5807/hovercard&#34;&gt;#5807&lt;/a&gt;) (&lt;a href=&#34;https://github.com/googleapis/google-cloud-go/commit/f27d1dc43acbd437f517c05d65c992644f3f3111&#34;&gt;f27d1dc&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/googleapis/google-cloud-go/releases/tag/bigquery%2Fv1.30.1" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>release-please[bot]</name>
-    </author>
-  </entry>
-  <entry>
     <title>Release notes from react-router - v0.0.0-experimental-compat.4</title>
     <updated>2022-03-30T01:44:13Z</updated>
     <id>tag:github.com,2008:Repository/19872456/v0.0.0-experimental-compat.4</id>
@@ -763,22 +763,22 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from telepresence - rpc/v2.5.4</title>
+    <title>Release notes from telepresence - v2.5.4</title>
     <updated>2022-03-29T20:35:12Z</updated>
-    <id>tag:github.com,2008:Repository/82933315/rpc/v2.5.4</id>
+    <id>tag:github.com,2008:Repository/82933315/v2.5.4</id>
     <content type="html">&lt;p&gt;v2.5.4&lt;/p&gt;</content>
-    <link href="https://github.com/telepresenceio/telepresence/releases/tag/rpc%2Fv2.5.4" rel="alternate"></link>
+    <link href="https://github.com/telepresenceio/telepresence/releases/tag/v2.5.4" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>njayp</name>
     </author>
   </entry>
   <entry>
-    <title>Release notes from telepresence - v2.5.4</title>
+    <title>Release notes from telepresence - rpc/v2.5.4</title>
     <updated>2022-03-29T20:35:12Z</updated>
-    <id>tag:github.com,2008:Repository/82933315/v2.5.4</id>
+    <id>tag:github.com,2008:Repository/82933315/rpc/v2.5.4</id>
     <content type="html">&lt;p&gt;v2.5.4&lt;/p&gt;</content>
-    <link href="https://github.com/telepresenceio/telepresence/releases/tag/v2.5.4" rel="alternate"></link>
+    <link href="https://github.com/telepresenceio/telepresence/releases/tag/rpc%2Fv2.5.4" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>njayp</name>
@@ -4844,22 +4844,22 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from triangula - v1.1.6</title>
+    <title>Release notes from triangula - v1.1.5</title>
     <updated>2021-05-11T13:31:09Z</updated>
-    <id>tag:github.com,2008:Repository/354015172/v1.1.6</id>
+    <id>tag:github.com,2008:Repository/354015172/v1.1.5</id>
     <content type="html">&lt;p&gt;Refactor for more flexibility&lt;/p&gt;</content>
-    <link href="https://github.com/rh12503/triangula/releases/tag/v1.1.6" rel="alternate"></link>
+    <link href="https://github.com/rh12503/triangula/releases/tag/v1.1.5" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>rh12503</name>
     </author>
   </entry>
   <entry>
-    <title>Release notes from triangula - v1.1.5</title>
+    <title>Release notes from triangula - v1.1.6</title>
     <updated>2021-05-11T13:31:09Z</updated>
-    <id>tag:github.com,2008:Repository/354015172/v1.1.5</id>
+    <id>tag:github.com,2008:Repository/354015172/v1.1.6</id>
     <content type="html">&lt;p&gt;Refactor for more flexibility&lt;/p&gt;</content>
-    <link href="https://github.com/rh12503/triangula/releases/tag/v1.1.5" rel="alternate"></link>
+    <link href="https://github.com/rh12503/triangula/releases/tag/v1.1.6" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>rh12503</name>
