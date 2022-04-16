@@ -1,8 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?><feed xmlns="http://www.w3.org/2005/Atom">
   <title>Releases from Starred by toga4</title>
   <id>https://toga4.github.io/feeds/starred-releases.atom</id>
-  <updated>2022-04-16T02:54:27Z</updated>
+  <updated>2022-04-16T07:06:35Z</updated>
   <link href="https://toga4.github.io/feeds/starred-releases.atom"></link>
+  <entry>
+    <title>Release notes from casbin - v2.44.1</title>
+    <updated>2022-04-16T07:06:35Z</updated>
+    <id>tag:github.com,2008:Repository/87617508/v2.44.1</id>
+    <content type="html">&lt;h2&gt;&lt;a href=&#34;https://github.com/casbin/casbin/compare/v2.44.0...v2.44.1&#34;&gt;2.44.1&lt;/a&gt; (2022-04-16)&lt;/h2&gt;&#xA;&lt;h3&gt;Bug Fixes&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;lock less when syncing (&lt;a href=&#34;https://github.com/casbin/casbin/issues/988&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/casbin/casbin/pull/988/hovercard&#34;&gt;#988&lt;/a&gt;) (&lt;a href=&#34;https://github.com/casbin/casbin/commit/756b994db3cff63585de139e173a847e4ceeb0ba&#34;&gt;756b994&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/casbin/casbin/releases/tag/v2.44.1" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>github-actions[bot]</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from jwx - v2.0.0-beta2</title>
+    <updated>2022-04-16T06:53:46Z</updated>
+    <id>tag:github.com,2008:Repository/45516769/v2.0.0-beta2</id>
+    <content type="html">&lt;div class=&#34;snippet-clipboard-content position-relative overflow-auto&#34; data-snippet-clipboard-copy-content=&#34;v2.0.0-beta2 - 16 Apr 2022&#xA;[jwk]&#xA;  * Updated `jwk.Set` API and reflected pending changes from v1 which were&#xA;    left over. Please see Changes-v2.md file for details.&#xA;&#xA;  * Added `jwk.CachedSet`, a shim over `jwk.Cache` that allows you to&#xA;    have to write wrappers around `jwk.Cache` that retrieves a particular&#xA;    `jwk.Set` out of it. You can use it to, for example, pass `jwk.CachedSet`&#xA;    to a `jws.Verify`&#xA;&#xA;      cache := jwk.NewCache(ctx)&#xA;      cache.Register(ctx, jwksURL)&#xA;      cachedSet := jwk.NewCachedSet(cache, jwksURL)&#xA;      jws.Verify(signed, jws.WithKeySet(cachedSet))&#34;&gt;&lt;pre class=&#34;notranslate&#34;&gt;&lt;code class=&#34;notranslate&#34;&gt;v2.0.0-beta2 - 16 Apr 2022&#xA;[jwk]&#xA;  * Updated `jwk.Set` API and reflected pending changes from v1 which were&#xA;    left over. Please see Changes-v2.md file for details.&#xA;&#xA;  * Added `jwk.CachedSet`, a shim over `jwk.Cache` that allows you to&#xA;    have to write wrappers around `jwk.Cache` that retrieves a particular&#xA;    `jwk.Set` out of it. You can use it to, for example, pass `jwk.CachedSet`&#xA;    to a `jws.Verify`&#xA;&#xA;      cache := jwk.NewCache(ctx)&#xA;      cache.Register(ctx, jwksURL)&#xA;      cachedSet := jwk.NewCachedSet(cache, jwksURL)&#xA;      jws.Verify(signed, jws.WithKeySet(cachedSet))&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content>
+    <link href="https://github.com/lestrrat-go/jwx/releases/tag/v2.0.0-beta2" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>lestrrat</name>
+    </author>
+  </entry>
   <entry>
     <title>Release notes from monokle - v1.6.4-nightly-2022-04-16.0</title>
     <updated>2022-04-16T02:54:27Z</updated>
@@ -23,6 +45,83 @@
     <summary type="html"></summary>
     <author>
       <name>anchoreops</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from chakra-ui - @chakra-ui/utils@2.0.0-next.0</title>
+    <updated>2022-04-15T15:22:40Z</updated>
+    <id>tag:github.com,2008:Repository/202890778/@chakra-ui/utils@2.0.0-next.0</id>
+    <content type="html">&lt;h3&gt;Major Changes&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/pull/5879&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/chakra-ui/chakra-ui/pull/5879/hovercard&#34;&gt;#5879&lt;/a&gt;&lt;br&gt;&#xA;&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/commit/c390af4859bcbcf12c982c677492cd6d4960889f&#34;&gt;&lt;code&gt;c390af485&lt;/code&gt;&lt;/a&gt;&lt;br&gt;&#xA;Thanks &lt;a href=&#34;https://github.com/TimKolberger&#34;&gt;@TimKolberger&lt;/a&gt;! - Bump all packages&lt;br&gt;&#xA;to next major for Chakra UI version 2.&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/chakra-ui/chakra-ui/releases/tag/%40chakra-ui%2Futils%402.0.0-next.0" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>github-actions[bot]</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from chakra-ui - @chakra-ui/theme@2.0.0-next.0</title>
+    <updated>2022-04-15T15:22:40Z</updated>
+    <id>tag:github.com,2008:Repository/202890778/@chakra-ui/theme@2.0.0-next.0</id>
+    <content type="html">&lt;h3&gt;Major Changes&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/pull/5879&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/chakra-ui/chakra-ui/pull/5879/hovercard&#34;&gt;#5879&lt;/a&gt;&lt;br&gt;&#xA;&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/commit/c390af4859bcbcf12c982c677492cd6d4960889f&#34;&gt;&lt;code&gt;c390af485&lt;/code&gt;&lt;/a&gt;&lt;br&gt;&#xA;Thanks &lt;a href=&#34;https://github.com/TimKolberger&#34;&gt;@TimKolberger&lt;/a&gt;! - Bump all packages&lt;br&gt;&#xA;to next major for Chakra UI version 2.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/pull/5828&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/chakra-ui/chakra-ui/pull/5828/hovercard&#34;&gt;#5828&lt;/a&gt;&lt;br&gt;&#xA;&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/commit/1a47fd27e6e37ff5d149e0469888eed0ec306632&#34;&gt;&lt;code&gt;1a47fd27e&lt;/code&gt;&lt;/a&gt;&lt;br&gt;&#xA;Thanks &lt;a href=&#34;https://github.com/segunadebayo&#34;&gt;@segunadebayo&lt;/a&gt;! - ### Remove&lt;br&gt;&#xA;deprecations&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Affected components or packages:&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Button, Icon Button, Input, NumberInput, Radio, Checkbox, Select&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Removed the &lt;code&gt;isFullWidth&lt;/code&gt; deprecation. Use &lt;code&gt;width=full&lt;/code&gt; or &lt;code&gt;width=100%&lt;/code&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;strong&gt;Checkbox&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Removed &lt;code&gt;defaultIsChecked&lt;/code&gt;. Use &lt;code&gt;defaultChecked&lt;/code&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;strong&gt;Color mode&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Removed references to &lt;code&gt;--chakra-ui-color-mode&lt;/code&gt;. Use &lt;code&gt;data-theme&lt;/code&gt; property&lt;br&gt;&#xA;instead&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;strong&gt;Hooks&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Removed &lt;code&gt;useEventCallback&lt;/code&gt; hook&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;strong&gt;Input / NumberInput&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Removed the &lt;code&gt;isFullWidth&lt;/code&gt; deprecation. Use &lt;code&gt;width=full&lt;/code&gt; or &lt;code&gt;width=100%&lt;/code&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;strong&gt;Grid&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Removed the &lt;code&gt;area&lt;/code&gt; prop from &lt;code&gt;Grid&lt;/code&gt; component. Should be passed to the&lt;br&gt;&#xA;&lt;code&gt;GridItem&lt;/code&gt; instead.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;strong&gt;Styled system&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Removed the &lt;code&gt;d&lt;/code&gt; style prop. Use &lt;code&gt;display&lt;/code&gt; instead.&lt;/li&gt;&#xA;&lt;li&gt;Removed the &lt;code&gt;isTruncated&lt;/code&gt; style prop. Use &lt;code&gt;noOfLines={1}&lt;/code&gt; instead.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;strong&gt;Theme&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Removed deprecated types.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3&gt;Patch Changes&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Updated dependencies&lt;br&gt;&#xA;[&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/commit/c390af4859bcbcf12c982c677492cd6d4960889f&#34;&gt;&lt;code&gt;c390af485&lt;/code&gt;&lt;/a&gt;]:&#xA;&lt;ul&gt;&#xA;&lt;li&gt;@chakra-ui/anatomy@2.0.0-next.0&lt;/li&gt;&#xA;&lt;li&gt;@chakra-ui/system@2.0.0-next.0&lt;/li&gt;&#xA;&lt;li&gt;@chakra-ui/utils@2.0.0-next.0&lt;/li&gt;&#xA;&lt;li&gt;@chakra-ui/theme-tools@2.0.0-next.0&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/chakra-ui/chakra-ui/releases/tag/%40chakra-ui%2Ftheme%402.0.0-next.0" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>github-actions[bot]</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from chakra-ui - @chakra-ui/visually-hidden@2.0.0-next.0</title>
+    <updated>2022-04-15T15:22:40Z</updated>
+    <id>tag:github.com,2008:Repository/202890778/@chakra-ui/visually-hidden@2.0.0-next.0</id>
+    <content type="html">&lt;h3&gt;Major Changes&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/pull/5879&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/chakra-ui/chakra-ui/pull/5879/hovercard&#34;&gt;#5879&lt;/a&gt;&lt;br&gt;&#xA;&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/commit/c390af4859bcbcf12c982c677492cd6d4960889f&#34;&gt;&lt;code&gt;c390af485&lt;/code&gt;&lt;/a&gt;&lt;br&gt;&#xA;Thanks &lt;a href=&#34;https://github.com/TimKolberger&#34;&gt;@TimKolberger&lt;/a&gt;! - Bump all packages&lt;br&gt;&#xA;to next major for Chakra UI version 2.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3&gt;Patch Changes&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Updated dependencies&lt;br&gt;&#xA;[&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/commit/c390af4859bcbcf12c982c677492cd6d4960889f&#34;&gt;&lt;code&gt;c390af485&lt;/code&gt;&lt;/a&gt;]:&#xA;&lt;ul&gt;&#xA;&lt;li&gt;@chakra-ui/system@2.0.0-next.0&lt;/li&gt;&#xA;&lt;li&gt;@chakra-ui/utils@2.0.0-next.0&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/chakra-ui/chakra-ui/releases/tag/%40chakra-ui%2Fvisually-hidden%402.0.0-next.0" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>github-actions[bot]</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from chakra-ui - @chakra-ui/theme-tools@2.0.0-next.0</title>
+    <updated>2022-04-15T15:22:40Z</updated>
+    <id>tag:github.com,2008:Repository/202890778/@chakra-ui/theme-tools@2.0.0-next.0</id>
+    <content type="html">&lt;h3&gt;Patch Changes&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Updated dependencies&lt;br&gt;&#xA;[&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/commit/c390af4859bcbcf12c982c677492cd6d4960889f&#34;&gt;&lt;code&gt;c390af485&lt;/code&gt;&lt;/a&gt;]:&#xA;&lt;ul&gt;&#xA;&lt;li&gt;@chakra-ui/system@2.0.0-next.0&lt;/li&gt;&#xA;&lt;li&gt;@chakra-ui/utils@2.0.0-next.0&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/chakra-ui/chakra-ui/releases/tag/%40chakra-ui%2Ftheme-tools%402.0.0-next.0" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>github-actions[bot]</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from chakra-ui - @chakra-ui/toast@2.0.0-next.1</title>
+    <updated>2022-04-15T15:22:40Z</updated>
+    <id>tag:github.com,2008:Repository/202890778/@chakra-ui/toast@2.0.0-next.1</id>
+    <content type="html">&lt;h3&gt;Major Changes&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/pull/5879&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/chakra-ui/chakra-ui/pull/5879/hovercard&#34;&gt;#5879&lt;/a&gt;&lt;br&gt;&#xA;&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/commit/c390af4859bcbcf12c982c677492cd6d4960889f&#34;&gt;&lt;code&gt;c390af485&lt;/code&gt;&lt;/a&gt;&lt;br&gt;&#xA;Thanks &lt;a href=&#34;https://github.com/TimKolberger&#34;&gt;@TimKolberger&lt;/a&gt;! - Bump all packages&lt;br&gt;&#xA;to next major for Chakra UI version 2.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3&gt;Patch Changes&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/pull/5850&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/chakra-ui/chakra-ui/pull/5850/hovercard&#34;&gt;#5850&lt;/a&gt;&lt;br&gt;&#xA;&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/commit/1f62d9a658f0179e60524f13a21543194f034fe5&#34;&gt;&lt;code&gt;1f62d9a65&lt;/code&gt;&lt;/a&gt;&lt;br&gt;&#xA;Thanks &lt;a href=&#34;https://github.com/TimKolberger&#34;&gt;@TimKolberger&lt;/a&gt;! - Removed dependency&lt;br&gt;&#xA;to @reach-ui/alert&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/pull/5873&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/chakra-ui/chakra-ui/pull/5873/hovercard&#34;&gt;#5873&lt;/a&gt;&lt;br&gt;&#xA;&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/commit/3285faddf3019c6951f3823bf38951fbb8accb9e&#34;&gt;&lt;code&gt;3285faddf&lt;/code&gt;&lt;/a&gt;&lt;br&gt;&#xA;Thanks &lt;a href=&#34;https://github.com/TimKolberger&#34;&gt;@TimKolberger&lt;/a&gt;! - Added memoization&lt;br&gt;&#xA;to the toast function from &lt;code&gt;useToast&lt;/code&gt;&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Updated dependencies&lt;br&gt;&#xA;[&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/commit/c390af4859bcbcf12c982c677492cd6d4960889f&#34;&gt;&lt;code&gt;c390af485&lt;/code&gt;&lt;/a&gt;,&lt;br&gt;&#xA;&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/commit/1a47fd27e6e37ff5d149e0469888eed0ec306632&#34;&gt;&lt;code&gt;1a47fd27e&lt;/code&gt;&lt;/a&gt;]:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;@chakra-ui/alert@2.0.0-next.0&lt;/li&gt;&#xA;&lt;li&gt;@chakra-ui/close-button@2.0.0-next.0&lt;/li&gt;&#xA;&lt;li&gt;@chakra-ui/hooks@2.0.0-next.0&lt;/li&gt;&#xA;&lt;li&gt;@chakra-ui/portal@2.0.0-next.0&lt;/li&gt;&#xA;&lt;li&gt;@chakra-ui/react-utils@2.0.0-next.0&lt;/li&gt;&#xA;&lt;li&gt;@chakra-ui/system@2.0.0-next.0&lt;/li&gt;&#xA;&lt;li&gt;@chakra-ui/theme@2.0.0-next.0&lt;/li&gt;&#xA;&lt;li&gt;@chakra-ui/transition@2.0.0-next.0&lt;/li&gt;&#xA;&lt;li&gt;@chakra-ui/utils@2.0.0-next.0&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/chakra-ui/chakra-ui/releases/tag/%40chakra-ui%2Ftoast%402.0.0-next.1" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>github-actions[bot]</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from chakra-ui - @chakra-ui/textarea@2.0.0-next.0</title>
+    <updated>2022-04-15T15:22:40Z</updated>
+    <id>tag:github.com,2008:Repository/202890778/@chakra-ui/textarea@2.0.0-next.0</id>
+    <content type="html">&lt;h3&gt;Major Changes&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/pull/5879&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/chakra-ui/chakra-ui/pull/5879/hovercard&#34;&gt;#5879&lt;/a&gt;&lt;br&gt;&#xA;&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/commit/c390af4859bcbcf12c982c677492cd6d4960889f&#34;&gt;&lt;code&gt;c390af485&lt;/code&gt;&lt;/a&gt;&lt;br&gt;&#xA;Thanks &lt;a href=&#34;https://github.com/TimKolberger&#34;&gt;@TimKolberger&lt;/a&gt;! - Bump all packages&lt;br&gt;&#xA;to next major for Chakra UI version 2.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/pull/5828&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/chakra-ui/chakra-ui/pull/5828/hovercard&#34;&gt;#5828&lt;/a&gt;&lt;br&gt;&#xA;&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/commit/1a47fd27e6e37ff5d149e0469888eed0ec306632&#34;&gt;&lt;code&gt;1a47fd27e&lt;/code&gt;&lt;/a&gt;&lt;br&gt;&#xA;Thanks &lt;a href=&#34;https://github.com/segunadebayo&#34;&gt;@segunadebayo&lt;/a&gt;! - ### Remove&lt;br&gt;&#xA;deprecations&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Affected components or packages:&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Button, Icon Button, Input, NumberInput, Radio, Checkbox, Select&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Removed the &lt;code&gt;isFullWidth&lt;/code&gt; deprecation. Use &lt;code&gt;width=full&lt;/code&gt; or &lt;code&gt;width=100%&lt;/code&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;strong&gt;Checkbox&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Removed &lt;code&gt;defaultIsChecked&lt;/code&gt;. Use &lt;code&gt;defaultChecked&lt;/code&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;strong&gt;Color mode&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Removed references to &lt;code&gt;--chakra-ui-color-mode&lt;/code&gt;. Use &lt;code&gt;data-theme&lt;/code&gt; property&lt;br&gt;&#xA;instead&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;strong&gt;Hooks&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Removed &lt;code&gt;useEventCallback&lt;/code&gt; hook&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;strong&gt;Input / NumberInput&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Removed the &lt;code&gt;isFullWidth&lt;/code&gt; deprecation. Use &lt;code&gt;width=full&lt;/code&gt; or &lt;code&gt;width=100%&lt;/code&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;strong&gt;Grid&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Removed the &lt;code&gt;area&lt;/code&gt; prop from &lt;code&gt;Grid&lt;/code&gt; component. Should be passed to the&lt;br&gt;&#xA;&lt;code&gt;GridItem&lt;/code&gt; instead.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;strong&gt;Styled system&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Removed the &lt;code&gt;d&lt;/code&gt; style prop. Use &lt;code&gt;display&lt;/code&gt; instead.&lt;/li&gt;&#xA;&lt;li&gt;Removed the &lt;code&gt;isTruncated&lt;/code&gt; style prop. Use &lt;code&gt;noOfLines={1}&lt;/code&gt; instead.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;strong&gt;Theme&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Removed deprecated types.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3&gt;Patch Changes&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Updated dependencies&lt;br&gt;&#xA;[&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/commit/c390af4859bcbcf12c982c677492cd6d4960889f&#34;&gt;&lt;code&gt;c390af485&lt;/code&gt;&lt;/a&gt;]:&#xA;&lt;ul&gt;&#xA;&lt;li&gt;@chakra-ui/form-control@2.0.0-next.0&lt;/li&gt;&#xA;&lt;li&gt;@chakra-ui/system@2.0.0-next.0&lt;/li&gt;&#xA;&lt;li&gt;@chakra-ui/utils@2.0.0-next.0&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/chakra-ui/chakra-ui/releases/tag/%40chakra-ui%2Ftextarea%402.0.0-next.0" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>github-actions[bot]</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from chakra-ui - storybook-addon@2.0.0-next.0</title>
+    <updated>2022-04-15T15:22:40Z</updated>
+    <id>tag:github.com,2008:Repository/202890778/storybook-addon@2.0.0-next.0</id>
+    <content type="html">&lt;h3&gt;Major Changes&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/pull/5879&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/chakra-ui/chakra-ui/pull/5879/hovercard&#34;&gt;#5879&lt;/a&gt;&lt;br&gt;&#xA;&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/commit/c390af4859bcbcf12c982c677492cd6d4960889f&#34;&gt;&lt;code&gt;c390af485&lt;/code&gt;&lt;/a&gt;&lt;br&gt;&#xA;Thanks &lt;a href=&#34;https://github.com/TimKolberger&#34;&gt;@TimKolberger&lt;/a&gt;! - Bump all packages&lt;br&gt;&#xA;to next major for Chakra UI version 2.&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/chakra-ui/chakra-ui/releases/tag/storybook-addon%402.0.0-next.0" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>github-actions[bot]</name>
     </author>
   </entry>
   <entry>
@@ -48,61 +147,6 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from chakra-ui - @chakra-ui/theme@2.0.0-next.0</title>
-    <updated>2022-04-15T15:22:40Z</updated>
-    <id>tag:github.com,2008:Repository/202890778/@chakra-ui/theme@2.0.0-next.0</id>
-    <content type="html">&lt;h3&gt;Major Changes&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/pull/5879&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/chakra-ui/chakra-ui/pull/5879/hovercard&#34;&gt;#5879&lt;/a&gt;&lt;br&gt;&#xA;&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/commit/c390af4859bcbcf12c982c677492cd6d4960889f&#34;&gt;&lt;code&gt;c390af485&lt;/code&gt;&lt;/a&gt;&lt;br&gt;&#xA;Thanks &lt;a href=&#34;https://github.com/TimKolberger&#34;&gt;@TimKolberger&lt;/a&gt;! - Bump all packages&lt;br&gt;&#xA;to next major for Chakra UI version 2.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/pull/5828&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/chakra-ui/chakra-ui/pull/5828/hovercard&#34;&gt;#5828&lt;/a&gt;&lt;br&gt;&#xA;&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/commit/1a47fd27e6e37ff5d149e0469888eed0ec306632&#34;&gt;&lt;code&gt;1a47fd27e&lt;/code&gt;&lt;/a&gt;&lt;br&gt;&#xA;Thanks &lt;a href=&#34;https://github.com/segunadebayo&#34;&gt;@segunadebayo&lt;/a&gt;! - ### Remove&lt;br&gt;&#xA;deprecations&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Affected components or packages:&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Button, Icon Button, Input, NumberInput, Radio, Checkbox, Select&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Removed the &lt;code&gt;isFullWidth&lt;/code&gt; deprecation. Use &lt;code&gt;width=full&lt;/code&gt; or &lt;code&gt;width=100%&lt;/code&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;strong&gt;Checkbox&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Removed &lt;code&gt;defaultIsChecked&lt;/code&gt;. Use &lt;code&gt;defaultChecked&lt;/code&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;strong&gt;Color mode&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Removed references to &lt;code&gt;--chakra-ui-color-mode&lt;/code&gt;. Use &lt;code&gt;data-theme&lt;/code&gt; property&lt;br&gt;&#xA;instead&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;strong&gt;Hooks&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Removed &lt;code&gt;useEventCallback&lt;/code&gt; hook&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;strong&gt;Input / NumberInput&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Removed the &lt;code&gt;isFullWidth&lt;/code&gt; deprecation. Use &lt;code&gt;width=full&lt;/code&gt; or &lt;code&gt;width=100%&lt;/code&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;strong&gt;Grid&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Removed the &lt;code&gt;area&lt;/code&gt; prop from &lt;code&gt;Grid&lt;/code&gt; component. Should be passed to the&lt;br&gt;&#xA;&lt;code&gt;GridItem&lt;/code&gt; instead.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;strong&gt;Styled system&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Removed the &lt;code&gt;d&lt;/code&gt; style prop. Use &lt;code&gt;display&lt;/code&gt; instead.&lt;/li&gt;&#xA;&lt;li&gt;Removed the &lt;code&gt;isTruncated&lt;/code&gt; style prop. Use &lt;code&gt;noOfLines={1}&lt;/code&gt; instead.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;strong&gt;Theme&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Removed deprecated types.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3&gt;Patch Changes&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Updated dependencies&lt;br&gt;&#xA;[&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/commit/c390af4859bcbcf12c982c677492cd6d4960889f&#34;&gt;&lt;code&gt;c390af485&lt;/code&gt;&lt;/a&gt;]:&#xA;&lt;ul&gt;&#xA;&lt;li&gt;@chakra-ui/anatomy@2.0.0-next.0&lt;/li&gt;&#xA;&lt;li&gt;@chakra-ui/system@2.0.0-next.0&lt;/li&gt;&#xA;&lt;li&gt;@chakra-ui/utils@2.0.0-next.0&lt;/li&gt;&#xA;&lt;li&gt;@chakra-ui/theme-tools@2.0.0-next.0&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/chakra-ui/chakra-ui/releases/tag/%40chakra-ui%2Ftheme%402.0.0-next.0" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>github-actions[bot]</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from chakra-ui - @chakra-ui/textarea@2.0.0-next.0</title>
-    <updated>2022-04-15T15:22:40Z</updated>
-    <id>tag:github.com,2008:Repository/202890778/@chakra-ui/textarea@2.0.0-next.0</id>
-    <content type="html">&lt;h3&gt;Major Changes&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/pull/5879&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/chakra-ui/chakra-ui/pull/5879/hovercard&#34;&gt;#5879&lt;/a&gt;&lt;br&gt;&#xA;&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/commit/c390af4859bcbcf12c982c677492cd6d4960889f&#34;&gt;&lt;code&gt;c390af485&lt;/code&gt;&lt;/a&gt;&lt;br&gt;&#xA;Thanks &lt;a href=&#34;https://github.com/TimKolberger&#34;&gt;@TimKolberger&lt;/a&gt;! - Bump all packages&lt;br&gt;&#xA;to next major for Chakra UI version 2.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/pull/5828&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/chakra-ui/chakra-ui/pull/5828/hovercard&#34;&gt;#5828&lt;/a&gt;&lt;br&gt;&#xA;&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/commit/1a47fd27e6e37ff5d149e0469888eed0ec306632&#34;&gt;&lt;code&gt;1a47fd27e&lt;/code&gt;&lt;/a&gt;&lt;br&gt;&#xA;Thanks &lt;a href=&#34;https://github.com/segunadebayo&#34;&gt;@segunadebayo&lt;/a&gt;! - ### Remove&lt;br&gt;&#xA;deprecations&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Affected components or packages:&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Button, Icon Button, Input, NumberInput, Radio, Checkbox, Select&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Removed the &lt;code&gt;isFullWidth&lt;/code&gt; deprecation. Use &lt;code&gt;width=full&lt;/code&gt; or &lt;code&gt;width=100%&lt;/code&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;strong&gt;Checkbox&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Removed &lt;code&gt;defaultIsChecked&lt;/code&gt;. Use &lt;code&gt;defaultChecked&lt;/code&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;strong&gt;Color mode&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Removed references to &lt;code&gt;--chakra-ui-color-mode&lt;/code&gt;. Use &lt;code&gt;data-theme&lt;/code&gt; property&lt;br&gt;&#xA;instead&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;strong&gt;Hooks&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Removed &lt;code&gt;useEventCallback&lt;/code&gt; hook&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;strong&gt;Input / NumberInput&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Removed the &lt;code&gt;isFullWidth&lt;/code&gt; deprecation. Use &lt;code&gt;width=full&lt;/code&gt; or &lt;code&gt;width=100%&lt;/code&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;strong&gt;Grid&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Removed the &lt;code&gt;area&lt;/code&gt; prop from &lt;code&gt;Grid&lt;/code&gt; component. Should be passed to the&lt;br&gt;&#xA;&lt;code&gt;GridItem&lt;/code&gt; instead.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;strong&gt;Styled system&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Removed the &lt;code&gt;d&lt;/code&gt; style prop. Use &lt;code&gt;display&lt;/code&gt; instead.&lt;/li&gt;&#xA;&lt;li&gt;Removed the &lt;code&gt;isTruncated&lt;/code&gt; style prop. Use &lt;code&gt;noOfLines={1}&lt;/code&gt; instead.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;strong&gt;Theme&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Removed deprecated types.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3&gt;Patch Changes&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Updated dependencies&lt;br&gt;&#xA;[&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/commit/c390af4859bcbcf12c982c677492cd6d4960889f&#34;&gt;&lt;code&gt;c390af485&lt;/code&gt;&lt;/a&gt;]:&#xA;&lt;ul&gt;&#xA;&lt;li&gt;@chakra-ui/form-control@2.0.0-next.0&lt;/li&gt;&#xA;&lt;li&gt;@chakra-ui/system@2.0.0-next.0&lt;/li&gt;&#xA;&lt;li&gt;@chakra-ui/utils@2.0.0-next.0&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/chakra-ui/chakra-ui/releases/tag/%40chakra-ui%2Ftextarea%402.0.0-next.0" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>github-actions[bot]</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from chakra-ui - @chakra-ui/theme-tools@2.0.0-next.0</title>
-    <updated>2022-04-15T15:22:40Z</updated>
-    <id>tag:github.com,2008:Repository/202890778/@chakra-ui/theme-tools@2.0.0-next.0</id>
-    <content type="html">&lt;h3&gt;Patch Changes&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Updated dependencies&lt;br&gt;&#xA;[&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/commit/c390af4859bcbcf12c982c677492cd6d4960889f&#34;&gt;&lt;code&gt;c390af485&lt;/code&gt;&lt;/a&gt;]:&#xA;&lt;ul&gt;&#xA;&lt;li&gt;@chakra-ui/system@2.0.0-next.0&lt;/li&gt;&#xA;&lt;li&gt;@chakra-ui/utils@2.0.0-next.0&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/chakra-ui/chakra-ui/releases/tag/%40chakra-ui%2Ftheme-tools%402.0.0-next.0" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>github-actions[bot]</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from chakra-ui - storybook-addon@2.0.0-next.0</title>
-    <updated>2022-04-15T15:22:40Z</updated>
-    <id>tag:github.com,2008:Repository/202890778/storybook-addon@2.0.0-next.0</id>
-    <content type="html">&lt;h3&gt;Major Changes&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/pull/5879&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/chakra-ui/chakra-ui/pull/5879/hovercard&#34;&gt;#5879&lt;/a&gt;&lt;br&gt;&#xA;&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/commit/c390af4859bcbcf12c982c677492cd6d4960889f&#34;&gt;&lt;code&gt;c390af485&lt;/code&gt;&lt;/a&gt;&lt;br&gt;&#xA;Thanks &lt;a href=&#34;https://github.com/TimKolberger&#34;&gt;@TimKolberger&lt;/a&gt;! - Bump all packages&lt;br&gt;&#xA;to next major for Chakra UI version 2.&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/chakra-ui/chakra-ui/releases/tag/storybook-addon%402.0.0-next.0" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>github-actions[bot]</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from chakra-ui - @chakra-ui/visually-hidden@2.0.0-next.0</title>
-    <updated>2022-04-15T15:22:40Z</updated>
-    <id>tag:github.com,2008:Repository/202890778/@chakra-ui/visually-hidden@2.0.0-next.0</id>
-    <content type="html">&lt;h3&gt;Major Changes&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/pull/5879&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/chakra-ui/chakra-ui/pull/5879/hovercard&#34;&gt;#5879&lt;/a&gt;&lt;br&gt;&#xA;&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/commit/c390af4859bcbcf12c982c677492cd6d4960889f&#34;&gt;&lt;code&gt;c390af485&lt;/code&gt;&lt;/a&gt;&lt;br&gt;&#xA;Thanks &lt;a href=&#34;https://github.com/TimKolberger&#34;&gt;@TimKolberger&lt;/a&gt;! - Bump all packages&lt;br&gt;&#xA;to next major for Chakra UI version 2.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3&gt;Patch Changes&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Updated dependencies&lt;br&gt;&#xA;[&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/commit/c390af4859bcbcf12c982c677492cd6d4960889f&#34;&gt;&lt;code&gt;c390af485&lt;/code&gt;&lt;/a&gt;]:&#xA;&lt;ul&gt;&#xA;&lt;li&gt;@chakra-ui/system@2.0.0-next.0&lt;/li&gt;&#xA;&lt;li&gt;@chakra-ui/utils@2.0.0-next.0&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/chakra-ui/chakra-ui/releases/tag/%40chakra-ui%2Fvisually-hidden%402.0.0-next.0" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>github-actions[bot]</name>
-    </author>
-  </entry>
-  <entry>
     <title>Release notes from chakra-ui - @chakra-ui/tag@2.0.0-next.0</title>
     <updated>2022-04-15T15:22:40Z</updated>
     <id>tag:github.com,2008:Repository/202890778/@chakra-ui/tag@2.0.0-next.0</id>
@@ -114,25 +158,14 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from chakra-ui - @chakra-ui/utils@2.0.0-next.0</title>
-    <updated>2022-04-15T15:22:40Z</updated>
-    <id>tag:github.com,2008:Repository/202890778/@chakra-ui/utils@2.0.0-next.0</id>
-    <content type="html">&lt;h3&gt;Major Changes&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/pull/5879&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/chakra-ui/chakra-ui/pull/5879/hovercard&#34;&gt;#5879&lt;/a&gt;&lt;br&gt;&#xA;&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/commit/c390af4859bcbcf12c982c677492cd6d4960889f&#34;&gt;&lt;code&gt;c390af485&lt;/code&gt;&lt;/a&gt;&lt;br&gt;&#xA;Thanks &lt;a href=&#34;https://github.com/TimKolberger&#34;&gt;@TimKolberger&lt;/a&gt;! - Bump all packages&lt;br&gt;&#xA;to next major for Chakra UI version 2.&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/chakra-ui/chakra-ui/releases/tag/%40chakra-ui%2Futils%402.0.0-next.0" rel="alternate"></link>
+    <title>Release notes from telepresence - v2.5.6-rc.0</title>
+    <updated>2022-04-15T15:06:27Z</updated>
+    <id>tag:github.com,2008:Repository/82933315/v2.5.6-rc.0</id>
+    <content type="html">&lt;p&gt;v2.5.6-rc.0&lt;/p&gt;</content>
+    <link href="https://github.com/telepresenceio/telepresence/releases/tag/v2.5.6-rc.0" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
-      <name>github-actions[bot]</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from chakra-ui - @chakra-ui/toast@2.0.0-next.1</title>
-    <updated>2022-04-15T15:22:40Z</updated>
-    <id>tag:github.com,2008:Repository/202890778/@chakra-ui/toast@2.0.0-next.1</id>
-    <content type="html">&lt;h3&gt;Major Changes&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/pull/5879&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/chakra-ui/chakra-ui/pull/5879/hovercard&#34;&gt;#5879&lt;/a&gt;&lt;br&gt;&#xA;&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/commit/c390af4859bcbcf12c982c677492cd6d4960889f&#34;&gt;&lt;code&gt;c390af485&lt;/code&gt;&lt;/a&gt;&lt;br&gt;&#xA;Thanks &lt;a href=&#34;https://github.com/TimKolberger&#34;&gt;@TimKolberger&lt;/a&gt;! - Bump all packages&lt;br&gt;&#xA;to next major for Chakra UI version 2.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3&gt;Patch Changes&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/pull/5850&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/chakra-ui/chakra-ui/pull/5850/hovercard&#34;&gt;#5850&lt;/a&gt;&lt;br&gt;&#xA;&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/commit/1f62d9a658f0179e60524f13a21543194f034fe5&#34;&gt;&lt;code&gt;1f62d9a65&lt;/code&gt;&lt;/a&gt;&lt;br&gt;&#xA;Thanks &lt;a href=&#34;https://github.com/TimKolberger&#34;&gt;@TimKolberger&lt;/a&gt;! - Removed dependency&lt;br&gt;&#xA;to @reach-ui/alert&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/pull/5873&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/chakra-ui/chakra-ui/pull/5873/hovercard&#34;&gt;#5873&lt;/a&gt;&lt;br&gt;&#xA;&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/commit/3285faddf3019c6951f3823bf38951fbb8accb9e&#34;&gt;&lt;code&gt;3285faddf&lt;/code&gt;&lt;/a&gt;&lt;br&gt;&#xA;Thanks &lt;a href=&#34;https://github.com/TimKolberger&#34;&gt;@TimKolberger&lt;/a&gt;! - Added memoization&lt;br&gt;&#xA;to the toast function from &lt;code&gt;useToast&lt;/code&gt;&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Updated dependencies&lt;br&gt;&#xA;[&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/commit/c390af4859bcbcf12c982c677492cd6d4960889f&#34;&gt;&lt;code&gt;c390af485&lt;/code&gt;&lt;/a&gt;,&lt;br&gt;&#xA;&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/commit/1a47fd27e6e37ff5d149e0469888eed0ec306632&#34;&gt;&lt;code&gt;1a47fd27e&lt;/code&gt;&lt;/a&gt;]:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;@chakra-ui/alert@2.0.0-next.0&lt;/li&gt;&#xA;&lt;li&gt;@chakra-ui/close-button@2.0.0-next.0&lt;/li&gt;&#xA;&lt;li&gt;@chakra-ui/hooks@2.0.0-next.0&lt;/li&gt;&#xA;&lt;li&gt;@chakra-ui/portal@2.0.0-next.0&lt;/li&gt;&#xA;&lt;li&gt;@chakra-ui/react-utils@2.0.0-next.0&lt;/li&gt;&#xA;&lt;li&gt;@chakra-ui/system@2.0.0-next.0&lt;/li&gt;&#xA;&lt;li&gt;@chakra-ui/theme@2.0.0-next.0&lt;/li&gt;&#xA;&lt;li&gt;@chakra-ui/transition@2.0.0-next.0&lt;/li&gt;&#xA;&lt;li&gt;@chakra-ui/utils@2.0.0-next.0&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/chakra-ui/chakra-ui/releases/tag/%40chakra-ui%2Ftoast%402.0.0-next.1" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>github-actions[bot]</name>
+      <name>njayp</name>
     </author>
   </entry>
   <entry>
@@ -141,17 +174,6 @@
     <id>tag:github.com,2008:Repository/82933315/rpc/v2.5.6-rc.0</id>
     <content type="html">&lt;p&gt;v2.5.6-rc.0&lt;/p&gt;</content>
     <link href="https://github.com/telepresenceio/telepresence/releases/tag/rpc%2Fv2.5.6-rc.0" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>njayp</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from telepresence - v2.5.6-rc.0</title>
-    <updated>2022-04-15T15:06:27Z</updated>
-    <id>tag:github.com,2008:Repository/82933315/v2.5.6-rc.0</id>
-    <content type="html">&lt;p&gt;v2.5.6-rc.0&lt;/p&gt;</content>
-    <link href="https://github.com/telepresenceio/telepresence/releases/tag/v2.5.6-rc.0" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>njayp</name>
@@ -174,6 +196,17 @@
     <id>tag:github.com,2008:Repository/19608522/certificatemanager/v0.2.0</id>
     <content type="html">&lt;h2&gt;&lt;a href=&#34;https://github.com/googleapis/google-cloud-go/compare/certificatemanager/v0.1.0...certificatemanager/v0.2.0&#34;&gt;0.2.0&lt;/a&gt; (2022-04-14)&lt;/h2&gt;&#xA;&lt;h3&gt;Features&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;certificatemanager:&lt;/strong&gt; start generating apiv1 (&lt;a href=&#34;https://github.com/googleapis/google-cloud-go/issues/5727&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/googleapis/google-cloud-go/pull/5727/hovercard&#34;&gt;#5727&lt;/a&gt;) (&lt;a href=&#34;https://github.com/googleapis/google-cloud-go/commit/d8343ddb41680214b490b11589ff193c71543b3a&#34;&gt;d8343dd&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3&gt;Bug Fixes&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;certificatemanager:&lt;/strong&gt; fix versioning for release-please (&lt;a href=&#34;https://github.com/googleapis/google-cloud-go/issues/5896&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/googleapis/google-cloud-go/pull/5896/hovercard&#34;&gt;#5896&lt;/a&gt;) (&lt;a href=&#34;https://github.com/googleapis/google-cloud-go/commit/14378c899f195232577e1d41e9302ff33a38363f&#34;&gt;14378c8&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3&gt;Miscellaneous Chores&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;certificatemanager:&lt;/strong&gt; release 0.1.0 (&lt;a href=&#34;https://github.com/googleapis/google-cloud-go/issues/5743&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/googleapis/google-cloud-go/pull/5743/hovercard&#34;&gt;#5743&lt;/a&gt;) (&lt;a href=&#34;https://github.com/googleapis/google-cloud-go/commit/24a817a2a75dde10bcbecf2ced8f399cb05dc011&#34;&gt;24a817a&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;certificatemanager:&lt;/strong&gt; release v0.1.0 (&lt;a href=&#34;https://github.com/googleapis/google-cloud-go/issues/5758&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/googleapis/google-cloud-go/pull/5758/hovercard&#34;&gt;#5758&lt;/a&gt;) (&lt;a href=&#34;https://github.com/googleapis/google-cloud-go/commit/809f4ba385e2e9ed61df8ecbb6df7b371dc10641&#34;&gt;809f4ba&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;certificatemanager:&lt;/strong&gt; try to fix release-please (&lt;a href=&#34;https://github.com/googleapis/google-cloud-go/issues/5898&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/googleapis/google-cloud-go/pull/5898/hovercard&#34;&gt;#5898&lt;/a&gt;) (&lt;a href=&#34;https://github.com/googleapis/google-cloud-go/commit/fe0f044c2bd26e721e3ed85b69e530a9dfee7d2c&#34;&gt;fe0f044&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
     <link href="https://github.com/googleapis/google-cloud-go/releases/tag/certificatemanager%2Fv0.2.0" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>release-please[bot]</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from google-cloud-go - monitoring: v1.5.0</title>
+    <updated>2022-04-14T17:44:50Z</updated>
+    <id>tag:github.com,2008:Repository/19608522/monitoring/v1.5.0</id>
+    <content type="html">&lt;h2&gt;&lt;a href=&#34;https://github.com/googleapis/google-cloud-go/compare/monitoring/v1.4.0...monitoring/v1.5.0&#34;&gt;1.5.0&lt;/a&gt; (2022-04-14)&lt;/h2&gt;&#xA;&lt;h3&gt;Features&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;monitoring/dashboard:&lt;/strong&gt; Sync public protos with latests public api state. This adds support for collapsible groups, filters, labels, drilldowns, logs panels and tables (&lt;a href=&#34;https://github.com/googleapis/google-cloud-go/commit/19a9ef2d9b8d77d3bc3e4c11c7f1f3e47700edd4&#34;&gt;19a9ef2&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/googleapis/google-cloud-go/releases/tag/monitoring%2Fv1.5.0" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>release-please[bot]</name>
@@ -207,17 +240,6 @@
     <id>tag:github.com,2008:Repository/19608522/compute/v1.6.0</id>
     <content type="html">&lt;h2&gt;&lt;a href=&#34;https://github.com/googleapis/google-cloud-go/compare/compute/v1.5.0...compute/v1.6.0&#34;&gt;1.6.0&lt;/a&gt; (2022-04-14)&lt;/h2&gt;&#xA;&lt;h3&gt;Features&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;compute:&lt;/strong&gt; update compute API to revision 20220322 (&lt;a href=&#34;https://github.com/googleapis/google-cloud-go/issues/710&#34; data-hovercard-type=&#34;issue&#34; data-hovercard-url=&#34;/googleapis/google-cloud-go/issues/710/hovercard&#34;&gt;#710&lt;/a&gt;) (&lt;a href=&#34;https://github.com/googleapis/google-cloud-go/commit/bb5da6b3c34079a01d18b766b67f626cff18d849&#34;&gt;bb5da6b&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3&gt;Bug Fixes&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;compute:&lt;/strong&gt; remove proto3_optional from parent_id (&lt;a href=&#34;https://github.com/googleapis/google-cloud-go/issues/712&#34; data-hovercard-type=&#34;issue&#34; data-hovercard-url=&#34;/googleapis/google-cloud-go/issues/712/hovercard&#34;&gt;#712&lt;/a&gt;) (&lt;a href=&#34;https://github.com/googleapis/google-cloud-go/commit/19a9ef2d9b8d77d3bc3e4c11c7f1f3e47700edd4&#34;&gt;19a9ef2&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;compute:&lt;/strong&gt; replace missing REQUIRED for parent_id (&lt;a href=&#34;https://github.com/googleapis/google-cloud-go/issues/711&#34; data-hovercard-type=&#34;issue&#34; data-hovercard-url=&#34;/googleapis/google-cloud-go/issues/711/hovercard&#34;&gt;#711&lt;/a&gt;) (&lt;a href=&#34;https://github.com/googleapis/google-cloud-go/commit/19a9ef2d9b8d77d3bc3e4c11c7f1f3e47700edd4&#34;&gt;19a9ef2&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
     <link href="https://github.com/googleapis/google-cloud-go/releases/tag/compute%2Fv1.6.0" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>release-please[bot]</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from google-cloud-go - monitoring: v1.5.0</title>
-    <updated>2022-04-14T17:44:50Z</updated>
-    <id>tag:github.com,2008:Repository/19608522/monitoring/v1.5.0</id>
-    <content type="html">&lt;h2&gt;&lt;a href=&#34;https://github.com/googleapis/google-cloud-go/compare/monitoring/v1.4.0...monitoring/v1.5.0&#34;&gt;1.5.0&lt;/a&gt; (2022-04-14)&lt;/h2&gt;&#xA;&lt;h3&gt;Features&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;monitoring/dashboard:&lt;/strong&gt; Sync public protos with latests public api state. This adds support for collapsible groups, filters, labels, drilldowns, logs panels and tables (&lt;a href=&#34;https://github.com/googleapis/google-cloud-go/commit/19a9ef2d9b8d77d3bc3e4c11c7f1f3e47700edd4&#34;&gt;19a9ef2&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/googleapis/google-cloud-go/releases/tag/monitoring%2Fv1.5.0" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>release-please[bot]</name>
@@ -2611,17 +2633,6 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from jwx - v1.2.16</title>
-    <updated>2022-01-12T05:30:30Z</updated>
-    <id>tag:github.com,2008:Repository/45516769/v1.2.16</id>
-    <content type="html">&lt;div class=&#34;snippet-clipboard-content position-relative overflow-auto&#34; data-snippet-clipboard-copy-content=&#34;v1.2.16 12 Jan 2022&#xA;[Bug Fixes]&#xA;  * Peviously, `jws.Sign()` could not create a signed payload with&#xA;    detached and unencoded payload, even when the documentation said it could.&#xA;    Now you may use the `jws.Sign()` in the following way to create&#xA;    a JWS message with detached, unencoded state:&#xA;&#xA;       hdrs := jws.NewHeaders()&#xA;       hdrs.Set(&amp;quot;b64&amp;quot;, false)&#xA;       hdrs.Set(&amp;quot;crit&amp;quot;, &amp;quot;b64&amp;quot;)&#xA;       jws.Sign(nil, alg, key, jws.WithDetachedPayload(payload), jws.WithHeaders(hdrs))&#xA;&#xA;    Notice the use of `nil` for the first parameter, and the use of&#xA;    `jws.WithDetachedPayload()`.&#xA;&#xA;    We realize this is not exactly a clean API, but this is currently the&#xA;    only way to implement this in a backward-compatible fashion. Most likely&#xA;    this will change in a future major version.&#xA;[Miscellaneous]&#xA;  * `jws.WithDetachedPayload()` is now of type `jws.SignVerifyOption`, which&#xA;    satisfies both `jws.SignOption` and `jws.VerifyOption&#34;&gt;&lt;pre&gt;&lt;code&gt;v1.2.16 12 Jan 2022&#xA;[Bug Fixes]&#xA;  * Peviously, `jws.Sign()` could not create a signed payload with&#xA;    detached and unencoded payload, even when the documentation said it could.&#xA;    Now you may use the `jws.Sign()` in the following way to create&#xA;    a JWS message with detached, unencoded state:&#xA;&#xA;       hdrs := jws.NewHeaders()&#xA;       hdrs.Set(&#34;b64&#34;, false)&#xA;       hdrs.Set(&#34;crit&#34;, &#34;b64&#34;)&#xA;       jws.Sign(nil, alg, key, jws.WithDetachedPayload(payload), jws.WithHeaders(hdrs))&#xA;&#xA;    Notice the use of `nil` for the first parameter, and the use of&#xA;    `jws.WithDetachedPayload()`.&#xA;&#xA;    We realize this is not exactly a clean API, but this is currently the&#xA;    only way to implement this in a backward-compatible fashion. Most likely&#xA;    this will change in a future major version.&#xA;[Miscellaneous]&#xA;  * `jws.WithDetachedPayload()` is now of type `jws.SignVerifyOption`, which&#xA;    satisfies both `jws.SignOption` and `jws.VerifyOption&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content>
-    <link href="https://github.com/lestrrat-go/jwx/releases/tag/v1.2.16" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>lestrrat</name>
-    </author>
-  </entry>
-  <entry>
     <title>Release notes from apd - v3.0.0</title>
     <updated>2022-01-10T21:12:45Z</updated>
     <id>tag:github.com,2008:Repository/75918965/v3.0.0</id>
@@ -2938,17 +2949,6 @@
     <summary type="html"></summary>
     <author>
       <name>derailed</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from casbin - v2.40.4</title>
-    <updated>2021-12-17T02:53:17Z</updated>
-    <id>tag:github.com,2008:Repository/87617508/v2.40.4</id>
-    <content type="html">&lt;h2&gt;&lt;a href=&#34;https://github.com/casbin/casbin/compare/v2.40.3...v2.40.4&#34;&gt;2.40.4&lt;/a&gt; (2021-12-17)&lt;/h2&gt;&#xA;&lt;h3&gt;Bug Fixes&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;CasbinJsGetPermissionForUser ignore p_eft and test (&lt;a href=&#34;https://github.com/casbin/casbin/issues/938&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/casbin/casbin/pull/938/hovercard&#34;&gt;#938&lt;/a&gt;) (&lt;a href=&#34;https://github.com/casbin/casbin/commit/8ff3dc70ce457d841a2418bbd581645499fb4723&#34;&gt;8ff3dc7&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/casbin/casbin/releases/tag/v2.40.4" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>github-actions[bot]</name>
     </author>
   </entry>
   <entry>
@@ -4855,22 +4855,22 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from triangula - v1.1.6</title>
+    <title>Release notes from triangula - v1.1.5</title>
     <updated>2021-05-11T13:31:09Z</updated>
-    <id>tag:github.com,2008:Repository/354015172/v1.1.6</id>
+    <id>tag:github.com,2008:Repository/354015172/v1.1.5</id>
     <content type="html">&lt;p&gt;Refactor for more flexibility&lt;/p&gt;</content>
-    <link href="https://github.com/rh12503/triangula/releases/tag/v1.1.6" rel="alternate"></link>
+    <link href="https://github.com/rh12503/triangula/releases/tag/v1.1.5" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>rh12503</name>
     </author>
   </entry>
   <entry>
-    <title>Release notes from triangula - v1.1.5</title>
+    <title>Release notes from triangula - v1.1.6</title>
     <updated>2021-05-11T13:31:09Z</updated>
-    <id>tag:github.com,2008:Repository/354015172/v1.1.5</id>
+    <id>tag:github.com,2008:Repository/354015172/v1.1.6</id>
     <content type="html">&lt;p&gt;Refactor for more flexibility&lt;/p&gt;</content>
-    <link href="https://github.com/rh12503/triangula/releases/tag/v1.1.5" rel="alternate"></link>
+    <link href="https://github.com/rh12503/triangula/releases/tag/v1.1.6" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>rh12503</name>
