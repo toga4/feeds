@@ -1,8 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?><feed xmlns="http://www.w3.org/2005/Atom">
   <title>Releases from Starred by toga4</title>
   <id>https://toga4.github.io/feeds/starred-releases.atom</id>
-  <updated>2022-05-02T17:00:41Z</updated>
+  <updated>2022-05-02T18:25:26Z</updated>
   <link href="https://toga4.github.io/feeds/starred-releases.atom"></link>
+  <entry>
+    <title>Release notes from external-secrets - v0.5.0</title>
+    <updated>2022-05-02T18:25:26Z</updated>
+    <id>tag:github.com,2008:Repository/313628863/v0.5.0</id>
+    <content type="html">&lt;p&gt;Image: &lt;code&gt;ghcr.io/external-secrets/external-secrets:v0.5.0&lt;/code&gt;&lt;/p&gt;&#xA;&lt;h1&gt;Changes&lt;/h1&gt;&#xA;&lt;h2&gt;Breaking Changes&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;In &lt;code&gt;v0.5.0&lt;/code&gt;, we are introducing a new api version for both &lt;code&gt;ExternalSecrets&lt;/code&gt;, &lt;code&gt;SecretStores&lt;/code&gt; and &lt;code&gt;ClusterSecretStore&lt;/code&gt; resources. There is a breaking change when updating &lt;code&gt;ExternalSecrets&lt;/code&gt; versions regarding &lt;code&gt;dataFrom&lt;/code&gt;. For more information, please see &lt;a href=&#34;https://external-secrets.io/v0.5.0/guides-v1beta1/&#34; rel=&#34;nofollow&#34;&gt;this guide&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;code&gt;v1alpha1&lt;/code&gt; is deprecated and will be removed once the CRDs are promoted to GA.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;Note: If you are deploying external-secrets into a GKE cluster, you might need to add a firewall rule allowing traffic to port 9443 (see &lt;a href=&#34;https://cloud.google.com/kubernetes-engine/docs/how-to/private-clusters#add_firewall_rules&#34; rel=&#34;nofollow&#34;&gt;https://cloud.google.com/kubernetes-engine/docs/how-to/private-clusters#add_firewall_rules&lt;/a&gt;)&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;h2&gt;Global Changes&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Added a Validation and Conversion Webhooks for the project (webhook deployment)&lt;/li&gt;&#xA;&lt;li&gt;Added a certificate injector to allow Validating and Conversion Webhook automatic setup (cert-controller deployment)&lt;/li&gt;&#xA;&lt;li&gt;Added &lt;a href=&#34;https://external-secrets.io/v0.5.0/api-clusterexternalsecret/&#34; rel=&#34;nofollow&#34;&gt;ClusterExternalSecret resource&lt;/a&gt;!&lt;/li&gt;&#xA;&lt;li&gt;Added some cool &lt;a href=&#34;https://external-secrets.io/v0.5.0/eso-blogs/&#34; rel=&#34;nofollow&#34;&gt;external resources&lt;/a&gt; to our docs! If you have any content of your own, please submit a PR :)&lt;/li&gt;&#xA;&lt;li&gt;Images are now signed and verified with &lt;code&gt;cosign&lt;/code&gt;&lt;/li&gt;&#xA;&lt;li&gt;Our charts now support namespaced RBACs (to use with scoped Namespace :))&lt;/li&gt;&#xA;&lt;li&gt;Added a creationPolicy: Orphan - to allow Secrets to be maintained even after the ExternalSecret gets deleted.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2&gt;Global Fixes&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Fixed a bug in templateFrom functionality (not rendering if empty data was provided)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2&gt;Provider Specific&lt;/h2&gt;&#xA;&lt;h3&gt;Kubernetes&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Remote Kubernetes provider was added! Come check it out ;)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3&gt;Azure Keyvault&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;dataFrom now supports find operations - allowing users to Get All Secrets and bind them to a single Kubernetes Secret.&lt;/li&gt;&#xA;&lt;li&gt;Implemented compatibility with Azure Workload Identity!&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3&gt;IBM Secrets Manager&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Added support for &lt;code&gt;public_cert&lt;/code&gt; and &lt;code&gt;kv&lt;/code&gt; secret types&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3&gt;GCP&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Workload Identity now works with clusters in different projects than the Secret Manager!&lt;/li&gt;&#xA;&lt;li&gt;Fixed Memory Leak issues with GCP Provider&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3&gt;Hashicorp Vault&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;JWT authentication method now supports Kubernetes Service Accounts.&lt;/li&gt;&#xA;&lt;li&gt;dataFrom now supports find operations - allowing users to Get All Secrets and bind them to a single Kubernetes Secret.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3&gt;Yandex Lockbox&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Fixed Yandex Lockbox Connection Leaks&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3&gt;AWS Secrets Manager and Parameter Store&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;dataFrom now supports find operations - allowing users to Get All Secrets and bind them to a single Kubernetes Secret.&lt;/li&gt;&#xA;&lt;li&gt;Added a deletionPolicy - to allow delete Secrets if the content within a provider is no longer available.&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/external-secrets/external-secrets/releases/tag/v0.5.0" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>github-actions[bot]</name>
+    </author>
+  </entry>
   <entry>
     <title>Release notes from monokle - v1.7.0</title>
     <updated>2022-05-02T17:00:41Z</updated>
@@ -235,22 +246,22 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from telepresence - rpc/v2.5.8-rc.0</title>
+    <title>Release notes from telepresence - v2.5.8-rc.0</title>
     <updated>2022-04-27T15:48:20Z</updated>
-    <id>tag:github.com,2008:Repository/82933315/rpc/v2.5.8-rc.0</id>
+    <id>tag:github.com,2008:Repository/82933315/v2.5.8-rc.0</id>
     <content type="html">&lt;p&gt;v2.5.8-rc.0&lt;/p&gt;</content>
-    <link href="https://github.com/telepresenceio/telepresence/releases/tag/rpc%2Fv2.5.8-rc.0" rel="alternate"></link>
+    <link href="https://github.com/telepresenceio/telepresence/releases/tag/v2.5.8-rc.0" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>njayp</name>
     </author>
   </entry>
   <entry>
-    <title>Release notes from telepresence - v2.5.8-rc.0</title>
+    <title>Release notes from telepresence - rpc/v2.5.8-rc.0</title>
     <updated>2022-04-27T15:48:20Z</updated>
-    <id>tag:github.com,2008:Repository/82933315/v2.5.8-rc.0</id>
+    <id>tag:github.com,2008:Repository/82933315/rpc/v2.5.8-rc.0</id>
     <content type="html">&lt;p&gt;v2.5.8-rc.0&lt;/p&gt;</content>
-    <link href="https://github.com/telepresenceio/telepresence/releases/tag/v2.5.8-rc.0" rel="alternate"></link>
+    <link href="https://github.com/telepresenceio/telepresence/releases/tag/rpc%2Fv2.5.8-rc.0" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>njayp</name>
@@ -411,22 +422,22 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from telepresence - v2.5.7-rc.0</title>
+    <title>Release notes from telepresence - rpc/v2.5.7-rc.0</title>
     <updated>2022-04-25T16:36:38Z</updated>
-    <id>tag:github.com,2008:Repository/82933315/v2.5.7-rc.0</id>
+    <id>tag:github.com,2008:Repository/82933315/rpc/v2.5.7-rc.0</id>
     <content type="html">&lt;p&gt;v2.5.7-rc.0&lt;/p&gt;</content>
-    <link href="https://github.com/telepresenceio/telepresence/releases/tag/v2.5.7-rc.0" rel="alternate"></link>
+    <link href="https://github.com/telepresenceio/telepresence/releases/tag/rpc%2Fv2.5.7-rc.0" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>njayp</name>
     </author>
   </entry>
   <entry>
-    <title>Release notes from telepresence - rpc/v2.5.7-rc.0</title>
+    <title>Release notes from telepresence - v2.5.7-rc.0</title>
     <updated>2022-04-25T16:36:38Z</updated>
-    <id>tag:github.com,2008:Repository/82933315/rpc/v2.5.7-rc.0</id>
+    <id>tag:github.com,2008:Repository/82933315/v2.5.7-rc.0</id>
     <content type="html">&lt;p&gt;v2.5.7-rc.0&lt;/p&gt;</content>
-    <link href="https://github.com/telepresenceio/telepresence/releases/tag/rpc%2Fv2.5.7-rc.0" rel="alternate"></link>
+    <link href="https://github.com/telepresenceio/telepresence/releases/tag/v2.5.7-rc.0" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>njayp</name>
@@ -521,55 +532,22 @@
     </author>
   </entry>
   <entry>
+    <title>Release notes from chakra-ui - @chakra-ui/transition@2.0.0-next.1</title>
+    <updated>2022-04-22T06:05:47Z</updated>
+    <id>tag:github.com,2008:Repository/202890778/@chakra-ui/transition@2.0.0-next.1</id>
+    <content type="html">&lt;h3&gt;Major Changes&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/pull/5882&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/chakra-ui/chakra-ui/pull/5882/hovercard&#34;&gt;#5882&lt;/a&gt;&lt;br&gt;&#xA;&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/commit/41b3119f59226f7c70942d6fd0f46480f9bcf196&#34;&gt;&lt;code&gt;41b3119f5&lt;/code&gt;&lt;/a&gt;&lt;br&gt;&#xA;Thanks &lt;a href=&#34;https://github.com/TimKolberger&#34;&gt;@TimKolberger&lt;/a&gt;! - Bump peer&lt;br&gt;&#xA;depencency to React and ReactDOM to &amp;gt;=18&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3&gt;Patch Changes&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Updated dependencies&lt;br&gt;&#xA;[&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/commit/41b3119f59226f7c70942d6fd0f46480f9bcf196&#34;&gt;&lt;code&gt;41b3119f5&lt;/code&gt;&lt;/a&gt;]:&#xA;&lt;ul&gt;&#xA;&lt;li&gt;@chakra-ui/utils@2.0.0-next.1&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/chakra-ui/chakra-ui/releases/tag/%40chakra-ui%2Ftransition%402.0.0-next.1" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>github-actions[bot]</name>
+    </author>
+  </entry>
+  <entry>
     <title>Release notes from chakra-ui - @chakra-ui/tag@2.0.0-next.1</title>
     <updated>2022-04-22T06:05:47Z</updated>
     <id>tag:github.com,2008:Repository/202890778/@chakra-ui/tag@2.0.0-next.1</id>
     <content type="html">&lt;h3&gt;Major Changes&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/pull/5882&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/chakra-ui/chakra-ui/pull/5882/hovercard&#34;&gt;#5882&lt;/a&gt;&lt;br&gt;&#xA;&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/commit/41b3119f59226f7c70942d6fd0f46480f9bcf196&#34;&gt;&lt;code&gt;41b3119f5&lt;/code&gt;&lt;/a&gt;&lt;br&gt;&#xA;Thanks &lt;a href=&#34;https://github.com/TimKolberger&#34;&gt;@TimKolberger&lt;/a&gt;! - Bump peer&lt;br&gt;&#xA;depencency to React and ReactDOM to &amp;gt;=18&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3&gt;Patch Changes&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Updated dependencies&lt;br&gt;&#xA;[&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/commit/41b3119f59226f7c70942d6fd0f46480f9bcf196&#34;&gt;&lt;code&gt;41b3119f5&lt;/code&gt;&lt;/a&gt;]:&#xA;&lt;ul&gt;&#xA;&lt;li&gt;@chakra-ui/icon@3.0.0-next.1&lt;/li&gt;&#xA;&lt;li&gt;@chakra-ui/utils@2.0.0-next.1&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
     <link href="https://github.com/chakra-ui/chakra-ui/releases/tag/%40chakra-ui%2Ftag%402.0.0-next.1" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>github-actions[bot]</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from chakra-ui - @chakra-ui/theme@2.0.0-next.1</title>
-    <updated>2022-04-22T06:05:47Z</updated>
-    <id>tag:github.com,2008:Repository/202890778/@chakra-ui/theme@2.0.0-next.1</id>
-    <content type="html">&lt;h3&gt;Major Changes&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/pull/5882&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/chakra-ui/chakra-ui/pull/5882/hovercard&#34;&gt;#5882&lt;/a&gt;&lt;br&gt;&#xA;&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/commit/41b3119f59226f7c70942d6fd0f46480f9bcf196&#34;&gt;&lt;code&gt;41b3119f5&lt;/code&gt;&lt;/a&gt;&lt;br&gt;&#xA;Thanks &lt;a href=&#34;https://github.com/TimKolberger&#34;&gt;@TimKolberger&lt;/a&gt;! - Bump peer&lt;br&gt;&#xA;depencency to React and ReactDOM to &amp;gt;=18&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3&gt;Patch Changes&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/commit/3e6ac56be82a6117e4dee484be0956e35fc58ed1&#34;&gt;&lt;code&gt;3e6ac56be&lt;/code&gt;&lt;/a&gt;&lt;br&gt;&#xA;Thanks &lt;a href=&#34;https://github.com/segunadebayo&#34;&gt;@segunadebayo&lt;/a&gt;! - Fix typescript&lt;br&gt;&#xA;errors&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/pull/5892&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/chakra-ui/chakra-ui/pull/5892/hovercard&#34;&gt;#5892&lt;/a&gt;&lt;br&gt;&#xA;&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/commit/ef6a22549ef93093602ca2913fa6defe6f617df0&#34;&gt;&lt;code&gt;ef6a22549&lt;/code&gt;&lt;/a&gt;&lt;br&gt;&#xA;Thanks &lt;a href=&#34;https://github.com/segunadebayo&#34;&gt;@segunadebayo&lt;/a&gt;! - Improve&lt;br&gt;&#xA;accessibility of input placeholders&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Updated dependencies&lt;br&gt;&#xA;[&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/commit/41b3119f59226f7c70942d6fd0f46480f9bcf196&#34;&gt;&lt;code&gt;41b3119f5&lt;/code&gt;&lt;/a&gt;]:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;@chakra-ui/anatomy@2.0.0-next.1&lt;/li&gt;&#xA;&lt;li&gt;@chakra-ui/theme-tools@2.0.0-next.1&lt;/li&gt;&#xA;&lt;li&gt;@chakra-ui/utils@2.0.0-next.1&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/chakra-ui/chakra-ui/releases/tag/%40chakra-ui%2Ftheme%402.0.0-next.1" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>github-actions[bot]</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from chakra-ui - @chakra-ui/textarea@2.0.0-next.1</title>
-    <updated>2022-04-22T06:05:47Z</updated>
-    <id>tag:github.com,2008:Repository/202890778/@chakra-ui/textarea@2.0.0-next.1</id>
-    <content type="html">&lt;h3&gt;Major Changes&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/pull/5882&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/chakra-ui/chakra-ui/pull/5882/hovercard&#34;&gt;#5882&lt;/a&gt;&lt;br&gt;&#xA;&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/commit/41b3119f59226f7c70942d6fd0f46480f9bcf196&#34;&gt;&lt;code&gt;41b3119f5&lt;/code&gt;&lt;/a&gt;&lt;br&gt;&#xA;Thanks &lt;a href=&#34;https://github.com/TimKolberger&#34;&gt;@TimKolberger&lt;/a&gt;! - Bump peer&lt;br&gt;&#xA;depencency to React and ReactDOM to &amp;gt;=18&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3&gt;Patch Changes&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Updated dependencies&lt;br&gt;&#xA;[&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/commit/41b3119f59226f7c70942d6fd0f46480f9bcf196&#34;&gt;&lt;code&gt;41b3119f5&lt;/code&gt;&lt;/a&gt;]:&#xA;&lt;ul&gt;&#xA;&lt;li&gt;@chakra-ui/form-control@2.0.0-next.1&lt;/li&gt;&#xA;&lt;li&gt;@chakra-ui/utils@2.0.0-next.1&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/chakra-ui/chakra-ui/releases/tag/%40chakra-ui%2Ftextarea%402.0.0-next.1" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>github-actions[bot]</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from chakra-ui - @chakra-ui/visually-hidden@2.0.0-next.1</title>
-    <updated>2022-04-22T06:05:47Z</updated>
-    <id>tag:github.com,2008:Repository/202890778/@chakra-ui/visually-hidden@2.0.0-next.1</id>
-    <content type="html">&lt;h3&gt;Major Changes&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/pull/5882&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/chakra-ui/chakra-ui/pull/5882/hovercard&#34;&gt;#5882&lt;/a&gt;&lt;br&gt;&#xA;&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/commit/41b3119f59226f7c70942d6fd0f46480f9bcf196&#34;&gt;&lt;code&gt;41b3119f5&lt;/code&gt;&lt;/a&gt;&lt;br&gt;&#xA;Thanks &lt;a href=&#34;https://github.com/TimKolberger&#34;&gt;@TimKolberger&lt;/a&gt;! - Bump peer&lt;br&gt;&#xA;depencency to React and ReactDOM to &amp;gt;=18&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3&gt;Patch Changes&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Updated dependencies&lt;br&gt;&#xA;[&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/commit/41b3119f59226f7c70942d6fd0f46480f9bcf196&#34;&gt;&lt;code&gt;41b3119f5&lt;/code&gt;&lt;/a&gt;]:&#xA;&lt;ul&gt;&#xA;&lt;li&gt;@chakra-ui/utils@2.0.0-next.1&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/chakra-ui/chakra-ui/releases/tag/%40chakra-ui%2Fvisually-hidden%402.0.0-next.1" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>github-actions[bot]</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from chakra-ui - @chakra-ui/tooltip@2.0.0-next.1</title>
-    <updated>2022-04-22T06:05:47Z</updated>
-    <id>tag:github.com,2008:Repository/202890778/@chakra-ui/tooltip@2.0.0-next.1</id>
-    <content type="html">&lt;h3&gt;Major Changes&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/pull/5882&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/chakra-ui/chakra-ui/pull/5882/hovercard&#34;&gt;#5882&lt;/a&gt;&lt;br&gt;&#xA;&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/commit/41b3119f59226f7c70942d6fd0f46480f9bcf196&#34;&gt;&lt;code&gt;41b3119f5&lt;/code&gt;&lt;/a&gt;&lt;br&gt;&#xA;Thanks &lt;a href=&#34;https://github.com/TimKolberger&#34;&gt;@TimKolberger&lt;/a&gt;! - Bump peer&lt;br&gt;&#xA;depencency to React and ReactDOM to &amp;gt;=18&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3&gt;Patch Changes&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Updated dependencies&lt;br&gt;&#xA;[&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/commit/41b3119f59226f7c70942d6fd0f46480f9bcf196&#34;&gt;&lt;code&gt;41b3119f5&lt;/code&gt;&lt;/a&gt;]:&#xA;&lt;ul&gt;&#xA;&lt;li&gt;@chakra-ui/hooks@2.0.0-next.1&lt;/li&gt;&#xA;&lt;li&gt;@chakra-ui/popper@3.0.0-next.1&lt;/li&gt;&#xA;&lt;li&gt;@chakra-ui/portal@2.0.0-next.1&lt;/li&gt;&#xA;&lt;li&gt;@chakra-ui/react-utils@2.0.0-next.1&lt;/li&gt;&#xA;&lt;li&gt;@chakra-ui/utils@2.0.0-next.1&lt;/li&gt;&#xA;&lt;li&gt;@chakra-ui/visually-hidden@2.0.0-next.1&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/chakra-ui/chakra-ui/releases/tag/%40chakra-ui%2Ftooltip%402.0.0-next.1" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>github-actions[bot]</name>
@@ -587,11 +565,55 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from chakra-ui - @chakra-ui/transition@2.0.0-next.1</title>
+    <title>Release notes from chakra-ui - @chakra-ui/toast@2.0.0-next.2</title>
     <updated>2022-04-22T06:05:47Z</updated>
-    <id>tag:github.com,2008:Repository/202890778/@chakra-ui/transition@2.0.0-next.1</id>
+    <id>tag:github.com,2008:Repository/202890778/@chakra-ui/toast@2.0.0-next.2</id>
+    <content type="html">&lt;h3&gt;Major Changes&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/pull/5882&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/chakra-ui/chakra-ui/pull/5882/hovercard&#34;&gt;#5882&lt;/a&gt;&lt;br&gt;&#xA;&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/commit/41b3119f59226f7c70942d6fd0f46480f9bcf196&#34;&gt;&lt;code&gt;41b3119f5&lt;/code&gt;&lt;/a&gt;&lt;br&gt;&#xA;Thanks &lt;a href=&#34;https://github.com/TimKolberger&#34;&gt;@TimKolberger&lt;/a&gt;! - Bump peer&lt;br&gt;&#xA;depencency to React and ReactDOM to &amp;gt;=18&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3&gt;Patch Changes&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Updated dependencies&lt;br&gt;&#xA;[&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/commit/3e6ac56be82a6117e4dee484be0956e35fc58ed1&#34;&gt;&lt;code&gt;3e6ac56be&lt;/code&gt;&lt;/a&gt;,&lt;br&gt;&#xA;&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/commit/ef6a22549ef93093602ca2913fa6defe6f617df0&#34;&gt;&lt;code&gt;ef6a22549&lt;/code&gt;&lt;/a&gt;,&lt;br&gt;&#xA;&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/commit/41b3119f59226f7c70942d6fd0f46480f9bcf196&#34;&gt;&lt;code&gt;41b3119f5&lt;/code&gt;&lt;/a&gt;]:&#xA;&lt;ul&gt;&#xA;&lt;li&gt;@chakra-ui/theme@2.0.0-next.1&lt;/li&gt;&#xA;&lt;li&gt;@chakra-ui/alert@2.0.0-next.1&lt;/li&gt;&#xA;&lt;li&gt;@chakra-ui/close-button@2.0.0-next.1&lt;/li&gt;&#xA;&lt;li&gt;@chakra-ui/hooks@2.0.0-next.1&lt;/li&gt;&#xA;&lt;li&gt;@chakra-ui/portal@2.0.0-next.1&lt;/li&gt;&#xA;&lt;li&gt;@chakra-ui/react-utils@2.0.0-next.1&lt;/li&gt;&#xA;&lt;li&gt;@chakra-ui/system@2.0.0-next.1&lt;/li&gt;&#xA;&lt;li&gt;@chakra-ui/transition@2.0.0-next.1&lt;/li&gt;&#xA;&lt;li&gt;@chakra-ui/utils@2.0.0-next.1&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/chakra-ui/chakra-ui/releases/tag/%40chakra-ui%2Ftoast%402.0.0-next.2" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>github-actions[bot]</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from chakra-ui - @chakra-ui/textarea@2.0.0-next.1</title>
+    <updated>2022-04-22T06:05:47Z</updated>
+    <id>tag:github.com,2008:Repository/202890778/@chakra-ui/textarea@2.0.0-next.1</id>
+    <content type="html">&lt;h3&gt;Major Changes&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/pull/5882&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/chakra-ui/chakra-ui/pull/5882/hovercard&#34;&gt;#5882&lt;/a&gt;&lt;br&gt;&#xA;&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/commit/41b3119f59226f7c70942d6fd0f46480f9bcf196&#34;&gt;&lt;code&gt;41b3119f5&lt;/code&gt;&lt;/a&gt;&lt;br&gt;&#xA;Thanks &lt;a href=&#34;https://github.com/TimKolberger&#34;&gt;@TimKolberger&lt;/a&gt;! - Bump peer&lt;br&gt;&#xA;depencency to React and ReactDOM to &amp;gt;=18&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3&gt;Patch Changes&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Updated dependencies&lt;br&gt;&#xA;[&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/commit/41b3119f59226f7c70942d6fd0f46480f9bcf196&#34;&gt;&lt;code&gt;41b3119f5&lt;/code&gt;&lt;/a&gt;]:&#xA;&lt;ul&gt;&#xA;&lt;li&gt;@chakra-ui/form-control@2.0.0-next.1&lt;/li&gt;&#xA;&lt;li&gt;@chakra-ui/utils@2.0.0-next.1&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/chakra-ui/chakra-ui/releases/tag/%40chakra-ui%2Ftextarea%402.0.0-next.1" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>github-actions[bot]</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from chakra-ui - storybook-addon@2.0.0-next.1</title>
+    <updated>2022-04-22T06:05:47Z</updated>
+    <id>tag:github.com,2008:Repository/202890778/storybook-addon@2.0.0-next.1</id>
+    <content type="html">&lt;h3&gt;Major Changes&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/pull/5882&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/chakra-ui/chakra-ui/pull/5882/hovercard&#34;&gt;#5882&lt;/a&gt;&lt;br&gt;&#xA;&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/commit/41b3119f59226f7c70942d6fd0f46480f9bcf196&#34;&gt;&lt;code&gt;41b3119f5&lt;/code&gt;&lt;/a&gt;&lt;br&gt;&#xA;Thanks &lt;a href=&#34;https://github.com/TimKolberger&#34;&gt;@TimKolberger&lt;/a&gt;! - Bump peer&lt;br&gt;&#xA;depencency to React and ReactDOM to &amp;gt;=18&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/chakra-ui/chakra-ui/releases/tag/storybook-addon%402.0.0-next.1" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>github-actions[bot]</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from chakra-ui - @chakra-ui/tooltip@2.0.0-next.1</title>
+    <updated>2022-04-22T06:05:47Z</updated>
+    <id>tag:github.com,2008:Repository/202890778/@chakra-ui/tooltip@2.0.0-next.1</id>
+    <content type="html">&lt;h3&gt;Major Changes&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/pull/5882&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/chakra-ui/chakra-ui/pull/5882/hovercard&#34;&gt;#5882&lt;/a&gt;&lt;br&gt;&#xA;&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/commit/41b3119f59226f7c70942d6fd0f46480f9bcf196&#34;&gt;&lt;code&gt;41b3119f5&lt;/code&gt;&lt;/a&gt;&lt;br&gt;&#xA;Thanks &lt;a href=&#34;https://github.com/TimKolberger&#34;&gt;@TimKolberger&lt;/a&gt;! - Bump peer&lt;br&gt;&#xA;depencency to React and ReactDOM to &amp;gt;=18&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3&gt;Patch Changes&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Updated dependencies&lt;br&gt;&#xA;[&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/commit/41b3119f59226f7c70942d6fd0f46480f9bcf196&#34;&gt;&lt;code&gt;41b3119f5&lt;/code&gt;&lt;/a&gt;]:&#xA;&lt;ul&gt;&#xA;&lt;li&gt;@chakra-ui/hooks@2.0.0-next.1&lt;/li&gt;&#xA;&lt;li&gt;@chakra-ui/popper@3.0.0-next.1&lt;/li&gt;&#xA;&lt;li&gt;@chakra-ui/portal@2.0.0-next.1&lt;/li&gt;&#xA;&lt;li&gt;@chakra-ui/react-utils@2.0.0-next.1&lt;/li&gt;&#xA;&lt;li&gt;@chakra-ui/utils@2.0.0-next.1&lt;/li&gt;&#xA;&lt;li&gt;@chakra-ui/visually-hidden@2.0.0-next.1&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/chakra-ui/chakra-ui/releases/tag/%40chakra-ui%2Ftooltip%402.0.0-next.1" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>github-actions[bot]</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from chakra-ui - @chakra-ui/visually-hidden@2.0.0-next.1</title>
+    <updated>2022-04-22T06:05:47Z</updated>
+    <id>tag:github.com,2008:Repository/202890778/@chakra-ui/visually-hidden@2.0.0-next.1</id>
     <content type="html">&lt;h3&gt;Major Changes&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/pull/5882&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/chakra-ui/chakra-ui/pull/5882/hovercard&#34;&gt;#5882&lt;/a&gt;&lt;br&gt;&#xA;&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/commit/41b3119f59226f7c70942d6fd0f46480f9bcf196&#34;&gt;&lt;code&gt;41b3119f5&lt;/code&gt;&lt;/a&gt;&lt;br&gt;&#xA;Thanks &lt;a href=&#34;https://github.com/TimKolberger&#34;&gt;@TimKolberger&lt;/a&gt;! - Bump peer&lt;br&gt;&#xA;depencency to React and ReactDOM to &amp;gt;=18&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3&gt;Patch Changes&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Updated dependencies&lt;br&gt;&#xA;[&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/commit/41b3119f59226f7c70942d6fd0f46480f9bcf196&#34;&gt;&lt;code&gt;41b3119f5&lt;/code&gt;&lt;/a&gt;]:&#xA;&lt;ul&gt;&#xA;&lt;li&gt;@chakra-ui/utils@2.0.0-next.1&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/chakra-ui/chakra-ui/releases/tag/%40chakra-ui%2Ftransition%402.0.0-next.1" rel="alternate"></link>
+    <link href="https://github.com/chakra-ui/chakra-ui/releases/tag/%40chakra-ui%2Fvisually-hidden%402.0.0-next.1" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>github-actions[bot]</name>
@@ -609,22 +631,11 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from chakra-ui - @chakra-ui/toast@2.0.0-next.2</title>
+    <title>Release notes from chakra-ui - @chakra-ui/theme@2.0.0-next.1</title>
     <updated>2022-04-22T06:05:47Z</updated>
-    <id>tag:github.com,2008:Repository/202890778/@chakra-ui/toast@2.0.0-next.2</id>
-    <content type="html">&lt;h3&gt;Major Changes&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/pull/5882&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/chakra-ui/chakra-ui/pull/5882/hovercard&#34;&gt;#5882&lt;/a&gt;&lt;br&gt;&#xA;&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/commit/41b3119f59226f7c70942d6fd0f46480f9bcf196&#34;&gt;&lt;code&gt;41b3119f5&lt;/code&gt;&lt;/a&gt;&lt;br&gt;&#xA;Thanks &lt;a href=&#34;https://github.com/TimKolberger&#34;&gt;@TimKolberger&lt;/a&gt;! - Bump peer&lt;br&gt;&#xA;depencency to React and ReactDOM to &amp;gt;=18&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3&gt;Patch Changes&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Updated dependencies&lt;br&gt;&#xA;[&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/commit/3e6ac56be82a6117e4dee484be0956e35fc58ed1&#34;&gt;&lt;code&gt;3e6ac56be&lt;/code&gt;&lt;/a&gt;,&lt;br&gt;&#xA;&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/commit/ef6a22549ef93093602ca2913fa6defe6f617df0&#34;&gt;&lt;code&gt;ef6a22549&lt;/code&gt;&lt;/a&gt;,&lt;br&gt;&#xA;&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/commit/41b3119f59226f7c70942d6fd0f46480f9bcf196&#34;&gt;&lt;code&gt;41b3119f5&lt;/code&gt;&lt;/a&gt;]:&#xA;&lt;ul&gt;&#xA;&lt;li&gt;@chakra-ui/theme@2.0.0-next.1&lt;/li&gt;&#xA;&lt;li&gt;@chakra-ui/alert@2.0.0-next.1&lt;/li&gt;&#xA;&lt;li&gt;@chakra-ui/close-button@2.0.0-next.1&lt;/li&gt;&#xA;&lt;li&gt;@chakra-ui/hooks@2.0.0-next.1&lt;/li&gt;&#xA;&lt;li&gt;@chakra-ui/portal@2.0.0-next.1&lt;/li&gt;&#xA;&lt;li&gt;@chakra-ui/react-utils@2.0.0-next.1&lt;/li&gt;&#xA;&lt;li&gt;@chakra-ui/system@2.0.0-next.1&lt;/li&gt;&#xA;&lt;li&gt;@chakra-ui/transition@2.0.0-next.1&lt;/li&gt;&#xA;&lt;li&gt;@chakra-ui/utils@2.0.0-next.1&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/chakra-ui/chakra-ui/releases/tag/%40chakra-ui%2Ftoast%402.0.0-next.2" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>github-actions[bot]</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from chakra-ui - storybook-addon@2.0.0-next.1</title>
-    <updated>2022-04-22T06:05:47Z</updated>
-    <id>tag:github.com,2008:Repository/202890778/storybook-addon@2.0.0-next.1</id>
-    <content type="html">&lt;h3&gt;Major Changes&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/pull/5882&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/chakra-ui/chakra-ui/pull/5882/hovercard&#34;&gt;#5882&lt;/a&gt;&lt;br&gt;&#xA;&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/commit/41b3119f59226f7c70942d6fd0f46480f9bcf196&#34;&gt;&lt;code&gt;41b3119f5&lt;/code&gt;&lt;/a&gt;&lt;br&gt;&#xA;Thanks &lt;a href=&#34;https://github.com/TimKolberger&#34;&gt;@TimKolberger&lt;/a&gt;! - Bump peer&lt;br&gt;&#xA;depencency to React and ReactDOM to &amp;gt;=18&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/chakra-ui/chakra-ui/releases/tag/storybook-addon%402.0.0-next.1" rel="alternate"></link>
+    <id>tag:github.com,2008:Repository/202890778/@chakra-ui/theme@2.0.0-next.1</id>
+    <content type="html">&lt;h3&gt;Major Changes&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/pull/5882&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/chakra-ui/chakra-ui/pull/5882/hovercard&#34;&gt;#5882&lt;/a&gt;&lt;br&gt;&#xA;&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/commit/41b3119f59226f7c70942d6fd0f46480f9bcf196&#34;&gt;&lt;code&gt;41b3119f5&lt;/code&gt;&lt;/a&gt;&lt;br&gt;&#xA;Thanks &lt;a href=&#34;https://github.com/TimKolberger&#34;&gt;@TimKolberger&lt;/a&gt;! - Bump peer&lt;br&gt;&#xA;depencency to React and ReactDOM to &amp;gt;=18&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3&gt;Patch Changes&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/commit/3e6ac56be82a6117e4dee484be0956e35fc58ed1&#34;&gt;&lt;code&gt;3e6ac56be&lt;/code&gt;&lt;/a&gt;&lt;br&gt;&#xA;Thanks &lt;a href=&#34;https://github.com/segunadebayo&#34;&gt;@segunadebayo&lt;/a&gt;! - Fix typescript&lt;br&gt;&#xA;errors&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/pull/5892&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/chakra-ui/chakra-ui/pull/5892/hovercard&#34;&gt;#5892&lt;/a&gt;&lt;br&gt;&#xA;&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/commit/ef6a22549ef93093602ca2913fa6defe6f617df0&#34;&gt;&lt;code&gt;ef6a22549&lt;/code&gt;&lt;/a&gt;&lt;br&gt;&#xA;Thanks &lt;a href=&#34;https://github.com/segunadebayo&#34;&gt;@segunadebayo&lt;/a&gt;! - Improve&lt;br&gt;&#xA;accessibility of input placeholders&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Updated dependencies&lt;br&gt;&#xA;[&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/commit/41b3119f59226f7c70942d6fd0f46480f9bcf196&#34;&gt;&lt;code&gt;41b3119f5&lt;/code&gt;&lt;/a&gt;]:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;@chakra-ui/anatomy@2.0.0-next.1&lt;/li&gt;&#xA;&lt;li&gt;@chakra-ui/theme-tools@2.0.0-next.1&lt;/li&gt;&#xA;&lt;li&gt;@chakra-ui/utils@2.0.0-next.1&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/chakra-ui/chakra-ui/releases/tag/%40chakra-ui%2Ftheme%402.0.0-next.1" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>github-actions[bot]</name>
@@ -664,17 +675,6 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from google-cloud-go - eventarc: v1.5.0</title>
-    <updated>2022-04-20T21:05:58Z</updated>
-    <id>tag:github.com,2008:Repository/19608522/eventarc/v1.5.0</id>
-    <content type="html">&lt;h2&gt;&lt;a href=&#34;https://github.com/googleapis/google-cloud-go/compare/eventarc/v1.4.0...eventarc/v1.5.0&#34;&gt;1.5.0&lt;/a&gt; (2022-04-20)&lt;/h2&gt;&#xA;&lt;h3&gt;Features&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;eventarc/publishing:&lt;/strong&gt; Add publishing methods for channel resources (&lt;a href=&#34;https://github.com/googleapis/google-cloud-go/commit/689cad94fdcf54cebd22aecfcdad4d8b44f58df9&#34;&gt;689cad9&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/googleapis/google-cloud-go/releases/tag/eventarc%2Fv1.5.0" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>release-please[bot]</name>
-    </author>
-  </entry>
-  <entry>
     <title>Release notes from google-cloud-go - securitycenter: v1.7.0</title>
     <updated>2022-04-20T21:05:58Z</updated>
     <id>tag:github.com,2008:Repository/19608522/securitycenter/v1.7.0</id>
@@ -686,11 +686,11 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from google-cloud-go - aiplatform: v1.9.0</title>
+    <title>Release notes from google-cloud-go - eventarc: v1.5.0</title>
     <updated>2022-04-20T21:05:58Z</updated>
-    <id>tag:github.com,2008:Repository/19608522/aiplatform/v1.9.0</id>
-    <content type="html">&lt;h2&gt;&lt;a href=&#34;https://github.com/googleapis/google-cloud-go/compare/aiplatform/v1.8.0...aiplatform/v1.9.0&#34;&gt;1.9.0&lt;/a&gt; (2022-04-20)&lt;/h2&gt;&#xA;&lt;h3&gt;&lt;g-emoji class=&#34;g-emoji&#34; alias=&#34;warning&#34; fallback-src=&#34;https://github.githubassets.com/images/icons/emoji/unicode/26a0.png&#34;&gt;⚠&lt;/g-emoji&gt; BREAKING CHANGES&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;aiplatform:&lt;/strong&gt; (php) remove several &lt;code&gt;REQUIRED&lt;/code&gt; field annotations in featurestore.proto, metadata.proto, and pipeline_job.proto&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;aiplatform:&lt;/strong&gt; (php) remove several &lt;code&gt;REQUIRED&lt;/code&gt; field annotations in featurestore.proto, metadata.proto, and pipeline_job.proto&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3&gt;Features&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;aiplatform:&lt;/strong&gt; add reserved_ip_ranges to CustomJobSpec in aiplatform v1 custom_job.proto feat: add nfs_mounts to WorkPoolSpec in aiplatform v1 custom_job.proto feat: add JOB_STATE_UPDATING to JobState in aiplatform v1 job_state.proto feat: add MfsMount in aiplatform v1 machine_resources.proto feat: add ConvexAutomatedStoppingSpec to StudySpec in aiplatform v1 study.proto (&lt;a href=&#34;https://github.com/googleapis/google-cloud-go/commit/e71a99d3edc21c937aa9d7bfd61288b0073a5275&#34;&gt;e71a99d&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;aiplatform:&lt;/strong&gt; rename Similarity to Examples, and similarity to examples in ExplanationParameters in aiplatform v1beta1 explanation.proto feat: add reserved_ip_ranges to CustomJobSpec in aiplatform v1beta1 custom_job.proto feat: add nfs_mounts to WorkPoolSpec in aiplatform v1beta1 custom_job.proto feat: add PredictRequestResponseLoggingConfig to aiplatform v1beta1 endpoint.proto feat: add model_version_id to DeployedModel in aiplatform v1beta1 endpoint.proto feat: add JOB_STATE_UPDATING to JobState in aiplatform v1beta1 job_state.proto feat: add MfsMount in aiplatform v1beta1 machine_resources.proto feat: add version_id to Model in aiplatform v1beta1 model.proto feat: add LatestMonitoringPipelineMetadata to ModelDeploymentMonitoringJob in aiplatform v1beta1 model_deployment_monitoring_job.proto feat: add ListModelVersion, DeleteModelVersion, and MergeVersionAliases rpcs to aiplatform v1beta1 model_service.proto feat: add model_version_id to UploadModelRequest and UploadModelResponse in aiplatform v1beta1 model_service.proto feat: add model_version_id to PredictResponse in aiplatform v1beta1 prediction_service.proto feat: add ConvexAutomatedStoppingSpec to StudySpec in aiplatform v1beta1 study.proto feat: add model_id and parent_model to TrainingPipeline in aiplatform v1beta1 training_pipeline.proto (&lt;a href=&#34;https://github.com/googleapis/google-cloud-go/commit/e71a99d3edc21c937aa9d7bfd61288b0073a5275&#34;&gt;e71a99d&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3&gt;Miscellaneous Chores&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;aiplatform:&lt;/strong&gt; release 1.9.0 (&lt;a href=&#34;https://github.com/googleapis/google-cloud-go/issues/5921&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/googleapis/google-cloud-go/pull/5921/hovercard&#34;&gt;#5921&lt;/a&gt;) (&lt;a href=&#34;https://github.com/googleapis/google-cloud-go/commit/a1a59ce55a289f88a46508dfccf52ce5517a9c8b&#34;&gt;a1a59ce&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/googleapis/google-cloud-go/releases/tag/aiplatform%2Fv1.9.0" rel="alternate"></link>
+    <id>tag:github.com,2008:Repository/19608522/eventarc/v1.5.0</id>
+    <content type="html">&lt;h2&gt;&lt;a href=&#34;https://github.com/googleapis/google-cloud-go/compare/eventarc/v1.4.0...eventarc/v1.5.0&#34;&gt;1.5.0&lt;/a&gt; (2022-04-20)&lt;/h2&gt;&#xA;&lt;h3&gt;Features&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;eventarc/publishing:&lt;/strong&gt; Add publishing methods for channel resources (&lt;a href=&#34;https://github.com/googleapis/google-cloud-go/commit/689cad94fdcf54cebd22aecfcdad4d8b44f58df9&#34;&gt;689cad9&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/googleapis/google-cloud-go/releases/tag/eventarc%2Fv1.5.0" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>release-please[bot]</name>
@@ -702,6 +702,17 @@
     <id>tag:github.com,2008:Repository/19608522/dialogflow/v1.8.1</id>
     <content type="html">&lt;h3&gt;&lt;a href=&#34;https://github.com/googleapis/google-cloud-go/compare/dialogflow/v1.8.0...dialogflow/v1.8.1&#34;&gt;1.8.1&lt;/a&gt; (2022-04-20)&lt;/h3&gt;&#xA;&lt;h3&gt;Bug Fixes&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;dialogflow:&lt;/strong&gt; correct broken ConversationModelEvaluation resource pattern (&lt;a href=&#34;https://github.com/googleapis/google-cloud-go/commit/689cad94fdcf54cebd22aecfcdad4d8b44f58df9&#34;&gt;689cad9&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
     <link href="https://github.com/googleapis/google-cloud-go/releases/tag/dialogflow%2Fv1.8.1" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>release-please[bot]</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from google-cloud-go - aiplatform: v1.9.0</title>
+    <updated>2022-04-20T21:05:58Z</updated>
+    <id>tag:github.com,2008:Repository/19608522/aiplatform/v1.9.0</id>
+    <content type="html">&lt;h2&gt;&lt;a href=&#34;https://github.com/googleapis/google-cloud-go/compare/aiplatform/v1.8.0...aiplatform/v1.9.0&#34;&gt;1.9.0&lt;/a&gt; (2022-04-20)&lt;/h2&gt;&#xA;&lt;h3&gt;&lt;g-emoji class=&#34;g-emoji&#34; alias=&#34;warning&#34; fallback-src=&#34;https://github.githubassets.com/images/icons/emoji/unicode/26a0.png&#34;&gt;⚠&lt;/g-emoji&gt; BREAKING CHANGES&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;aiplatform:&lt;/strong&gt; (php) remove several &lt;code&gt;REQUIRED&lt;/code&gt; field annotations in featurestore.proto, metadata.proto, and pipeline_job.proto&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;aiplatform:&lt;/strong&gt; (php) remove several &lt;code&gt;REQUIRED&lt;/code&gt; field annotations in featurestore.proto, metadata.proto, and pipeline_job.proto&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3&gt;Features&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;aiplatform:&lt;/strong&gt; add reserved_ip_ranges to CustomJobSpec in aiplatform v1 custom_job.proto feat: add nfs_mounts to WorkPoolSpec in aiplatform v1 custom_job.proto feat: add JOB_STATE_UPDATING to JobState in aiplatform v1 job_state.proto feat: add MfsMount in aiplatform v1 machine_resources.proto feat: add ConvexAutomatedStoppingSpec to StudySpec in aiplatform v1 study.proto (&lt;a href=&#34;https://github.com/googleapis/google-cloud-go/commit/e71a99d3edc21c937aa9d7bfd61288b0073a5275&#34;&gt;e71a99d&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;aiplatform:&lt;/strong&gt; rename Similarity to Examples, and similarity to examples in ExplanationParameters in aiplatform v1beta1 explanation.proto feat: add reserved_ip_ranges to CustomJobSpec in aiplatform v1beta1 custom_job.proto feat: add nfs_mounts to WorkPoolSpec in aiplatform v1beta1 custom_job.proto feat: add PredictRequestResponseLoggingConfig to aiplatform v1beta1 endpoint.proto feat: add model_version_id to DeployedModel in aiplatform v1beta1 endpoint.proto feat: add JOB_STATE_UPDATING to JobState in aiplatform v1beta1 job_state.proto feat: add MfsMount in aiplatform v1beta1 machine_resources.proto feat: add version_id to Model in aiplatform v1beta1 model.proto feat: add LatestMonitoringPipelineMetadata to ModelDeploymentMonitoringJob in aiplatform v1beta1 model_deployment_monitoring_job.proto feat: add ListModelVersion, DeleteModelVersion, and MergeVersionAliases rpcs to aiplatform v1beta1 model_service.proto feat: add model_version_id to UploadModelRequest and UploadModelResponse in aiplatform v1beta1 model_service.proto feat: add model_version_id to PredictResponse in aiplatform v1beta1 prediction_service.proto feat: add ConvexAutomatedStoppingSpec to StudySpec in aiplatform v1beta1 study.proto feat: add model_id and parent_model to TrainingPipeline in aiplatform v1beta1 training_pipeline.proto (&lt;a href=&#34;https://github.com/googleapis/google-cloud-go/commit/e71a99d3edc21c937aa9d7bfd61288b0073a5275&#34;&gt;e71a99d&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3&gt;Miscellaneous Chores&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;aiplatform:&lt;/strong&gt; release 1.9.0 (&lt;a href=&#34;https://github.com/googleapis/google-cloud-go/issues/5921&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/googleapis/google-cloud-go/pull/5921/hovercard&#34;&gt;#5921&lt;/a&gt;) (&lt;a href=&#34;https://github.com/googleapis/google-cloud-go/commit/a1a59ce55a289f88a46508dfccf52ce5517a9c8b&#34;&gt;a1a59ce&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/googleapis/google-cloud-go/releases/tag/aiplatform%2Fv1.9.0" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>release-please[bot]</name>
@@ -1054,17 +1065,6 @@
     <id>tag:github.com,2008:Repository/407242578/v0.7.0</id>
     <content type="html">&lt;h3&gt;Features&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;allow opt-out of exporting environment variables (&lt;a href=&#34;https://www.github.com/google-github-actions/auth/issues/157&#34;&gt;#157&lt;/a&gt;) (&lt;a href=&#34;https://www.github.com/google-github-actions/auth/commit/d16fd896f76605863c491de993d3e5d5cf4f68f8&#34;&gt;d16fd89&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
     <link href="https://github.com/google-github-actions/auth/releases/tag/v0.7.0" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>github-actions[bot]</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from external-secrets - v0.5.0</title>
-    <updated>2022-04-05T20:36:00Z</updated>
-    <id>tag:github.com,2008:Repository/313628863/v0.5.0</id>
-    <content type="html">&lt;p&gt;Image: &lt;code&gt;ghcr.io/external-secrets/external-secrets:v0.5.0&lt;/code&gt;&lt;/p&gt;&#xA;&lt;h1&gt;Changes&lt;/h1&gt;&#xA;&lt;h2&gt;Breaking Changes&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;In &lt;code&gt;v0.5.0&lt;/code&gt;, we are introducing a new api version for both &lt;code&gt;ExternalSecrets&lt;/code&gt;, &lt;code&gt;SecretStores&lt;/code&gt; and &lt;code&gt;ClusterSecretStore&lt;/code&gt; resources. There is a breaking change when updating &lt;code&gt;ExternalSecrets&lt;/code&gt; versions regarding &lt;code&gt;dataFrom&lt;/code&gt;. For more information, please see &lt;a href=&#34;https://external-secrets.io/v0.5.0/guides-v1beta1/&#34; rel=&#34;nofollow&#34;&gt;this guide&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;code&gt;v1alpha1&lt;/code&gt; is deprecated and will be removed once the CRDs are promoted to GA.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;Note: If you are deploying external-secrets into a GKE cluster, you might need to add a firewall rule allowing traffic to port 9443 (see &lt;a href=&#34;https://cloud.google.com/kubernetes-engine/docs/how-to/private-clusters#add_firewall_rules&#34; rel=&#34;nofollow&#34;&gt;https://cloud.google.com/kubernetes-engine/docs/how-to/private-clusters#add_firewall_rules&lt;/a&gt;)&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;h2&gt;Global Changes&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Added a Validation and Conversion Webhooks for the project&lt;/li&gt;&#xA;&lt;li&gt;Added a certificate injector to allow Validating and Conversion Webhook automatic setup&lt;/li&gt;&#xA;&lt;li&gt;Added &lt;a href=&#34;https://external-secrets.io/v0.5.0/api-clusterexternalsecret/&#34; rel=&#34;nofollow&#34;&gt;ClusterExternalSecret resource&lt;/a&gt;!&lt;/li&gt;&#xA;&lt;li&gt;Added some cool &lt;a href=&#34;https://external-secrets.io/v0.5.0/eso-blogs/&#34; rel=&#34;nofollow&#34;&gt;external resources&lt;/a&gt; to our docs! If you have any content of your own, please submit a PR :)&lt;/li&gt;&#xA;&lt;li&gt;Images are now signed and verified with &lt;code&gt;cosign&lt;/code&gt;&lt;/li&gt;&#xA;&lt;li&gt;Our charts now support namespaced RBACs (to use with scoped Namespace :))&lt;/li&gt;&#xA;&lt;li&gt;Added a creationPolicy: Orphan - to allow Secrets to be maintained even after the ExternalSecret gets deleted.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2&gt;Global Fixes&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Fixed a bug in templateFrom functionality (not rendering if empty data was provided)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2&gt;Provider Specific&lt;/h2&gt;&#xA;&lt;h3&gt;Kubernetes&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Remote Kubernetes provider was added! Come check it out ;)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3&gt;Azure Keyvault&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;dataFrom now supports find operations - allowing users to Get All Secrets and bind them to a single Kubernetes Secret.&lt;/li&gt;&#xA;&lt;li&gt;Implemented compatibility with Azure Workload Identity!&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3&gt;IBM Secrets Manager&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Added support for &lt;code&gt;public_cert&lt;/code&gt; and &lt;code&gt;kv&lt;/code&gt; secret types&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3&gt;GCP&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Workload Identity now works with clusters in different projects than the Secret Manager!&lt;/li&gt;&#xA;&lt;li&gt;Fixed Memory Leak issues with GCP Provider&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3&gt;Hashicorp Vault&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;JWT authentication method now supports Kubernetes Service Accounts.&lt;/li&gt;&#xA;&lt;li&gt;dataFrom now supports find operations - allowing users to Get All Secrets and bind them to a single Kubernetes Secret.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3&gt;Yandex Lockbox&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Fixed Yandex Lockbox Connection Leaks&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3&gt;AWS Secrets Manager and Parameter Store&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;dataFrom now supports find operations - allowing users to Get All Secrets and bind them to a single Kubernetes Secret.&lt;/li&gt;&#xA;&lt;li&gt;Added a deletionPolicy - to allow delete Secrets if the content within a provider is no longer available.&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/external-secrets/external-secrets/releases/tag/v0.5.0" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>github-actions[bot]</name>
