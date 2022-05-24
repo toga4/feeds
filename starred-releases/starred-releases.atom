@@ -1,8 +1,140 @@
 <?xml version="1.0" encoding="UTF-8"?><feed xmlns="http://www.w3.org/2005/Atom">
   <title>Releases from Starred by toga4</title>
   <id>https://toga4.github.io/feeds/starred-releases.atom</id>
-  <updated>2022-05-24T15:30:47Z</updated>
+  <updated>2022-05-24T17:07:22Z</updated>
   <link href="https://toga4.github.io/feeds/starred-releases.atom"></link>
+  <entry>
+    <title>Release notes from chakra-ui - @chakra-ui/toast@2.0.5</title>
+    <updated>2022-05-24T17:07:22Z</updated>
+    <id>tag:github.com,2008:Repository/202890778/@chakra-ui/toast@2.0.5</id>
+    <content type="html">&lt;h3&gt;Patch Changes&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/pull/6097&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/chakra-ui/chakra-ui/pull/6097/hovercard&#34;&gt;#6097&lt;/a&gt;&lt;br&gt;&#xA;&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/commit/5dd3c85345872f789cf82009167b69896f789731&#34;&gt;&lt;code&gt;5dd3c8534&lt;/code&gt;&lt;/a&gt;&lt;br&gt;&#xA;Thanks &lt;a href=&#34;https://github.com/itkrt2y&#34;&gt;@itkrt2y&lt;/a&gt;! - Fix SSR errors with toast and&lt;br&gt;&#xA;&lt;code&gt;use-sync-external-store&lt;/code&gt; due to lack of &lt;code&gt;getServerSnapshot&lt;/code&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/chakra-ui/chakra-ui/releases/tag/%40chakra-ui%2Ftoast%402.0.5" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>github-actions[bot]</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from chakra-ui - storybook-addon@2.0.5</title>
+    <updated>2022-05-24T17:07:22Z</updated>
+    <id>tag:github.com,2008:Repository/202890778/storybook-addon@2.0.5</id>
+    <content type="html">&lt;h3&gt;Patch Changes&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Updated dependencies []:&#xA;&lt;ul&gt;&#xA;&lt;li&gt;@chakra-ui/storybook-addon@3.0.2&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/chakra-ui/chakra-ui/releases/tag/storybook-addon%402.0.5" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>github-actions[bot]</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from google-cloud-go - vision: v2.0.0</title>
+    <updated>2022-05-24T16:27:02Z</updated>
+    <id>tag:github.com,2008:Repository/19608522/vision/v2.0.0</id>
+    <content type="html">&lt;h2&gt;&lt;a href=&#34;https://github.com/googleapis/google-cloud-go/compare/vision/v1.2.0...vision/v2.0.0&#34;&gt;2.0.0&lt;/a&gt; (2022-05-24)&lt;/h2&gt;&#xA;&lt;h3&gt;&lt;g-emoji class=&#34;g-emoji&#34; alias=&#34;warning&#34; fallback-src=&#34;https://github.githubassets.com/images/icons/emoji/unicode/26a0.png&#34;&gt;⚠&lt;/g-emoji&gt; BREAKING CHANGES&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;vision/v2:&lt;/strong&gt; removed fields from SafeSearchAnnotation in &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1240588079&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/googleapis/go-genproto/issues/809&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/googleapis/go-genproto/pull/809/hovercard&#34; href=&#34;https://github.com/googleapis/go-genproto/pull/809&#34;&gt;googleapis/go-genproto#809&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3&gt;Features&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;vision/v2:&lt;/strong&gt; Release breaking changes as v2 module (&lt;a href=&#34;https://github.com/googleapis/google-cloud-go/issues/6072&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/googleapis/google-cloud-go/pull/6072/hovercard&#34;&gt;#6072&lt;/a&gt;) (&lt;a href=&#34;https://github.com/googleapis/google-cloud-go/commit/9a4ff7f694c6ff53c36c6eb9d52ceb9ec118f12c&#34;&gt;9a4ff7f&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/googleapis/google-cloud-go/releases/tag/vision%2Fv2.0.0" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>release-please[bot]</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from google-cloud-go - speech: v1.4.0</title>
+    <updated>2022-05-24T16:27:01Z</updated>
+    <id>tag:github.com,2008:Repository/19608522/speech/v1.4.0</id>
+    <content type="html">&lt;h2&gt;&lt;a href=&#34;https://github.com/googleapis/google-cloud-go/compare/speech/v1.3.1...speech/v1.4.0&#34;&gt;1.4.0&lt;/a&gt; (2022-05-24)&lt;/h2&gt;&#xA;&lt;h3&gt;Features&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;speech:&lt;/strong&gt; Add adaptation proto for v1 api (&lt;a href=&#34;https://github.com/googleapis/google-cloud-go/commit/6ef576e2d821d079e7b940cd5d49fe3ca64a7ba2&#34;&gt;6ef576e&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/googleapis/google-cloud-go/releases/tag/speech%2Fv1.4.0" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>release-please[bot]</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from google-cloud-go - security: v1.4.0</title>
+    <updated>2022-05-24T16:26:59Z</updated>
+    <id>tag:github.com,2008:Repository/19608522/security/v1.4.0</id>
+    <content type="html">&lt;h2&gt;&lt;a href=&#34;https://github.com/googleapis/google-cloud-go/compare/security/v1.3.0...security/v1.4.0&#34;&gt;1.4.0&lt;/a&gt; (2022-05-24)&lt;/h2&gt;&#xA;&lt;h3&gt;Features&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;security/privateca:&lt;/strong&gt; Provide interfaces for location and IAM policy calls (&lt;a href=&#34;https://github.com/googleapis/google-cloud-go/commit/6ef576e2d821d079e7b940cd5d49fe3ca64a7ba2&#34;&gt;6ef576e&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/googleapis/google-cloud-go/releases/tag/security%2Fv1.4.0" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>release-please[bot]</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from google-cloud-go - run: v0.1.1</title>
+    <updated>2022-05-24T16:26:58Z</updated>
+    <id>tag:github.com,2008:Repository/19608522/run/v0.1.1</id>
+    <content type="html">&lt;h3&gt;&lt;a href=&#34;https://github.com/googleapis/google-cloud-go/compare/run/v0.1.0...run/v0.1.1&#34;&gt;0.1.1&lt;/a&gt; (2022-05-24)&lt;/h3&gt;&#xA;&lt;h3&gt;Bug Fixes&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;run:&lt;/strong&gt; Updates pre-release Cloud Run v2 Preview client libraries to work with the latest API revision (&lt;a href=&#34;https://github.com/googleapis/google-cloud-go/commit/6ef576e2d821d079e7b940cd5d49fe3ca64a7ba2&#34;&gt;6ef576e&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/googleapis/google-cloud-go/releases/tag/run%2Fv0.1.1" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>release-please[bot]</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from google-cloud-go - retail: v1.3.0</title>
+    <updated>2022-05-24T16:26:56Z</updated>
+    <id>tag:github.com,2008:Repository/19608522/retail/v1.3.0</id>
+    <content type="html">&lt;h2&gt;&lt;a href=&#34;https://github.com/googleapis/google-cloud-go/compare/retail/v1.2.0...retail/v1.3.0&#34;&gt;1.3.0&lt;/a&gt; (2022-05-24)&lt;/h2&gt;&#xA;&lt;h3&gt;Features&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;retail:&lt;/strong&gt; start generating apiv2alpha and apiv2beta (&lt;a href=&#34;https://github.com/googleapis/google-cloud-go/issues/6073&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/googleapis/google-cloud-go/pull/6073/hovercard&#34;&gt;#6073&lt;/a&gt;) (&lt;a href=&#34;https://github.com/googleapis/google-cloud-go/commit/ec90f7b224c67a02eb293224916c019054f5749d&#34;&gt;ec90f7b&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/googleapis/google-cloud-go/releases/tag/retail%2Fv1.3.0" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>release-please[bot]</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from google-cloud-go - recaptchaenterprise: v2.0.0</title>
+    <updated>2022-05-24T16:26:55Z</updated>
+    <id>tag:github.com,2008:Repository/19608522/recaptchaenterprise/v2.0.0</id>
+    <content type="html">&lt;h2&gt;&lt;a href=&#34;https://github.com/googleapis/google-cloud-go/compare/recaptchaenterprise/v1.3.1...recaptchaenterprise/v2.0.0&#34;&gt;2.0.0&lt;/a&gt; (2022-05-24)&lt;/h2&gt;&#xA;&lt;h3&gt;&lt;g-emoji class=&#34;g-emoji&#34; alias=&#34;warning&#34; fallback-src=&#34;https://github.githubassets.com/images/icons/emoji/unicode/26a0.png&#34;&gt;⚠&lt;/g-emoji&gt; BREAKING CHANGES&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;recaptchaenterprise/v2:&lt;/strong&gt; parent changed to project in &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1226079696&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/googleapis/go-genproto/issues/808&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/googleapis/go-genproto/pull/808/hovercard&#34; href=&#34;https://github.com/googleapis/go-genproto/pull/808&#34;&gt;googleapis/go-genproto#808&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3&gt;Features&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;recaptchaenterprise/v2:&lt;/strong&gt; Release breaking changes as v2 module (&lt;a href=&#34;https://github.com/googleapis/google-cloud-go/issues/6062&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/googleapis/google-cloud-go/pull/6062/hovercard&#34;&gt;#6062&lt;/a&gt;) (&lt;a href=&#34;https://github.com/googleapis/google-cloud-go/commit/1266896827d1b788931f348c399ef1fb6fd33ef7&#34;&gt;1266896&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/googleapis/google-cloud-go/releases/tag/recaptchaenterprise%2Fv2.0.0" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>release-please[bot]</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from google-cloud-go - iap: v1.3.0</title>
+    <updated>2022-05-24T16:26:53Z</updated>
+    <id>tag:github.com,2008:Repository/19608522/iap/v1.3.0</id>
+    <content type="html">&lt;h2&gt;&lt;a href=&#34;https://github.com/googleapis/google-cloud-go/compare/iap/v1.2.0...iap/v1.3.0&#34;&gt;1.3.0&lt;/a&gt; (2022-05-24)&lt;/h2&gt;&#xA;&lt;h3&gt;Features&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;iap:&lt;/strong&gt; add the TunnelDestGroup-related methods and types feat: add ReauthSettings to the UpdateIapSettingsRequest (&lt;a href=&#34;https://github.com/googleapis/google-cloud-go/commit/6ef576e2d821d079e7b940cd5d49fe3ca64a7ba2&#34;&gt;6ef576e&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/googleapis/google-cloud-go/releases/tag/iap%2Fv1.3.0" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>release-please[bot]</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from google-cloud-go - gkemulticloud: v0.2.0</title>
+    <updated>2022-05-24T16:26:52Z</updated>
+    <id>tag:github.com,2008:Repository/19608522/gkemulticloud/v0.2.0</id>
+    <content type="html">&lt;h2&gt;&lt;a href=&#34;https://github.com/googleapis/google-cloud-go/compare/gkemulticloud/v0.1.0...gkemulticloud/v0.2.0&#34;&gt;0.2.0&lt;/a&gt; (2022-05-24)&lt;/h2&gt;&#xA;&lt;h3&gt;Features&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;gkemulticloud:&lt;/strong&gt; Added support for other languages.Clients can now use this library to create gke clusters in cloud providers such as AWS and Azure (&lt;a href=&#34;https://github.com/googleapis/google-cloud-go/commit/6ef576e2d821d079e7b940cd5d49fe3ca64a7ba2&#34;&gt;6ef576e&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/googleapis/google-cloud-go/releases/tag/gkemulticloud%2Fv0.2.0" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>release-please[bot]</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from google-cloud-go - eventarc: v1.6.0</title>
+    <updated>2022-05-24T16:26:50Z</updated>
+    <id>tag:github.com,2008:Repository/19608522/eventarc/v1.6.0</id>
+    <content type="html">&lt;h2&gt;&lt;a href=&#34;https://github.com/googleapis/google-cloud-go/compare/eventarc/v1.5.0...eventarc/v1.6.0&#34;&gt;1.6.0&lt;/a&gt; (2022-05-24)&lt;/h2&gt;&#xA;&lt;h3&gt;Features&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;eventarc:&lt;/strong&gt; Add Provider resources (&lt;a href=&#34;https://github.com/googleapis/google-cloud-go/commit/da99e5f7905367388d967aab12b4949bb4b250ff&#34;&gt;da99e5f&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/googleapis/google-cloud-go/releases/tag/eventarc%2Fv1.6.0" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>release-please[bot]</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from google-cloud-go - dialogflow: v1.9.0</title>
+    <updated>2022-05-24T16:26:49Z</updated>
+    <id>tag:github.com,2008:Repository/19608522/dialogflow/v1.9.0</id>
+    <content type="html">&lt;h2&gt;&lt;a href=&#34;https://github.com/googleapis/google-cloud-go/compare/dialogflow/v1.8.1...dialogflow/v1.9.0&#34;&gt;1.9.0&lt;/a&gt; (2022-05-24)&lt;/h2&gt;&#xA;&lt;h3&gt;Features&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;dialogflow/cx:&lt;/strong&gt; add audio export settings to security settings docs: update the doc on diagnostic info (&lt;a href=&#34;https://github.com/googleapis/google-cloud-go/commit/6ef576e2d821d079e7b940cd5d49fe3ca64a7ba2&#34;&gt;6ef576e&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/googleapis/google-cloud-go/releases/tag/dialogflow%2Fv1.9.0" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>release-please[bot]</name>
+    </author>
+  </entry>
   <entry>
     <title>Release notes from cli - GitHub CLI 2.11.1</title>
     <updated>2022-05-24T15:30:47Z</updated>
@@ -37,6 +169,17 @@
     </author>
   </entry>
   <entry>
+    <title>Release notes from chakra-ui - @chakra-ui/visually-hidden@2.0.1</title>
+    <updated>2022-05-24T12:28:34Z</updated>
+    <id>tag:github.com,2008:Repository/202890778/@chakra-ui/visually-hidden@2.0.1</id>
+    <content type="html">&lt;h3&gt;Patch Changes&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Updated dependencies&lt;br&gt;&#xA;[&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/commit/f77e3c98f72fa17353e9fdad4c51810e83d9cb1c&#34;&gt;&lt;code&gt;f77e3c98f&lt;/code&gt;&lt;/a&gt;]:&#xA;&lt;ul&gt;&#xA;&lt;li&gt;@chakra-ui/utils@2.0.1&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/chakra-ui/chakra-ui/releases/tag/%40chakra-ui%2Fvisually-hidden%402.0.1" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>github-actions[bot]</name>
+    </author>
+  </entry>
+  <entry>
     <title>Release notes from chakra-ui - @chakra-ui/toast@2.0.4</title>
     <updated>2022-05-24T12:28:34Z</updated>
     <id>tag:github.com,2008:Repository/202890778/@chakra-ui/toast@2.0.4</id>
@@ -48,55 +191,11 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from chakra-ui - @chakra-ui/textarea@2.0.2</title>
+    <title>Release notes from chakra-ui - @chakra-ui/theme-tools@2.0.1</title>
     <updated>2022-05-24T12:28:34Z</updated>
-    <id>tag:github.com,2008:Repository/202890778/@chakra-ui/textarea@2.0.2</id>
-    <content type="html">&lt;h3&gt;Patch Changes&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Updated dependencies&lt;br&gt;&#xA;[&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/commit/f77e3c98f72fa17353e9fdad4c51810e83d9cb1c&#34;&gt;&lt;code&gt;f77e3c98f&lt;/code&gt;&lt;/a&gt;]:&#xA;&lt;ul&gt;&#xA;&lt;li&gt;@chakra-ui/utils@2.0.1&lt;/li&gt;&#xA;&lt;li&gt;@chakra-ui/form-control@2.0.1&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/chakra-ui/chakra-ui/releases/tag/%40chakra-ui%2Ftextarea%402.0.2" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>github-actions[bot]</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from chakra-ui - @chakra-ui/tag@2.0.1</title>
-    <updated>2022-05-24T12:28:34Z</updated>
-    <id>tag:github.com,2008:Repository/202890778/@chakra-ui/tag@2.0.1</id>
-    <content type="html">&lt;h3&gt;Patch Changes&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Updated dependencies&lt;br&gt;&#xA;[&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/commit/f77e3c98f72fa17353e9fdad4c51810e83d9cb1c&#34;&gt;&lt;code&gt;f77e3c98f&lt;/code&gt;&lt;/a&gt;]:&#xA;&lt;ul&gt;&#xA;&lt;li&gt;@chakra-ui/utils@2.0.1&lt;/li&gt;&#xA;&lt;li&gt;@chakra-ui/icon@3.0.1&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/chakra-ui/chakra-ui/releases/tag/%40chakra-ui%2Ftag%402.0.1" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>github-actions[bot]</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from chakra-ui - @chakra-ui/utils@2.0.1</title>
-    <updated>2022-05-24T12:28:34Z</updated>
-    <id>tag:github.com,2008:Repository/202890778/@chakra-ui/utils@2.0.1</id>
-    <content type="html">&lt;h3&gt;Patch Changes&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/pull/6089&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/chakra-ui/chakra-ui/pull/6089/hovercard&#34;&gt;#6089&lt;/a&gt;&lt;br&gt;&#xA;&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/commit/f77e3c98f72fa17353e9fdad4c51810e83d9cb1c&#34;&gt;&lt;code&gt;f77e3c98f&lt;/code&gt;&lt;/a&gt;&lt;br&gt;&#xA;Thanks &lt;a href=&#34;https://github.com/segunadebayo&#34;&gt;@segunadebayo&lt;/a&gt;! - Expose&lt;br&gt;&#xA;&lt;code&gt;toMediaQuery&lt;/code&gt; internal function for use in the styled system package&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/chakra-ui/chakra-ui/releases/tag/%40chakra-ui%2Futils%402.0.1" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>github-actions[bot]</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from chakra-ui - storybook-addon@2.0.4</title>
-    <updated>2022-05-24T12:28:34Z</updated>
-    <id>tag:github.com,2008:Repository/202890778/storybook-addon@2.0.4</id>
-    <content type="html">&lt;h3&gt;Patch Changes&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Updated dependencies []:&#xA;&lt;ul&gt;&#xA;&lt;li&gt;@chakra-ui/storybook-addon@3.0.1&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/chakra-ui/chakra-ui/releases/tag/storybook-addon%402.0.4" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>github-actions[bot]</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from chakra-ui - @chakra-ui/visually-hidden@2.0.1</title>
-    <updated>2022-05-24T12:28:34Z</updated>
-    <id>tag:github.com,2008:Repository/202890778/@chakra-ui/visually-hidden@2.0.1</id>
+    <id>tag:github.com,2008:Repository/202890778/@chakra-ui/theme-tools@2.0.1</id>
     <content type="html">&lt;h3&gt;Patch Changes&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Updated dependencies&lt;br&gt;&#xA;[&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/commit/f77e3c98f72fa17353e9fdad4c51810e83d9cb1c&#34;&gt;&lt;code&gt;f77e3c98f&lt;/code&gt;&lt;/a&gt;]:&#xA;&lt;ul&gt;&#xA;&lt;li&gt;@chakra-ui/utils@2.0.1&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/chakra-ui/chakra-ui/releases/tag/%40chakra-ui%2Fvisually-hidden%402.0.1" rel="alternate"></link>
+    <link href="https://github.com/chakra-ui/chakra-ui/releases/tag/%40chakra-ui%2Ftheme-tools%402.0.1" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>github-actions[bot]</name>
@@ -125,11 +224,22 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from chakra-ui - @chakra-ui/theme-tools@2.0.1</title>
+    <title>Release notes from chakra-ui - @chakra-ui/utils@2.0.1</title>
     <updated>2022-05-24T12:28:34Z</updated>
-    <id>tag:github.com,2008:Repository/202890778/@chakra-ui/theme-tools@2.0.1</id>
-    <content type="html">&lt;h3&gt;Patch Changes&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Updated dependencies&lt;br&gt;&#xA;[&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/commit/f77e3c98f72fa17353e9fdad4c51810e83d9cb1c&#34;&gt;&lt;code&gt;f77e3c98f&lt;/code&gt;&lt;/a&gt;]:&#xA;&lt;ul&gt;&#xA;&lt;li&gt;@chakra-ui/utils@2.0.1&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/chakra-ui/chakra-ui/releases/tag/%40chakra-ui%2Ftheme-tools%402.0.1" rel="alternate"></link>
+    <id>tag:github.com,2008:Repository/202890778/@chakra-ui/utils@2.0.1</id>
+    <content type="html">&lt;h3&gt;Patch Changes&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/pull/6089&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/chakra-ui/chakra-ui/pull/6089/hovercard&#34;&gt;#6089&lt;/a&gt;&lt;br&gt;&#xA;&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/commit/f77e3c98f72fa17353e9fdad4c51810e83d9cb1c&#34;&gt;&lt;code&gt;f77e3c98f&lt;/code&gt;&lt;/a&gt;&lt;br&gt;&#xA;Thanks &lt;a href=&#34;https://github.com/segunadebayo&#34;&gt;@segunadebayo&lt;/a&gt;! - Expose&lt;br&gt;&#xA;&lt;code&gt;toMediaQuery&lt;/code&gt; internal function for use in the styled system package&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/chakra-ui/chakra-ui/releases/tag/%40chakra-ui%2Futils%402.0.1" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>github-actions[bot]</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from chakra-ui - storybook-addon@2.0.4</title>
+    <updated>2022-05-24T12:28:34Z</updated>
+    <id>tag:github.com,2008:Repository/202890778/storybook-addon@2.0.4</id>
+    <content type="html">&lt;h3&gt;Patch Changes&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Updated dependencies []:&#xA;&lt;ul&gt;&#xA;&lt;li&gt;@chakra-ui/storybook-addon@3.0.1&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/chakra-ui/chakra-ui/releases/tag/storybook-addon%402.0.4" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>github-actions[bot]</name>
@@ -510,17 +620,6 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from google-cloud-go - profiler: v0.3.0</title>
-    <updated>2022-05-19T22:37:47Z</updated>
-    <id>tag:github.com,2008:Repository/19608522/profiler/v0.3.0</id>
-    <content type="html">&lt;h2&gt;&lt;a href=&#34;https://github.com/googleapis/google-cloud-go/compare/profiler/v0.2.0...profiler/v0.3.0&#34;&gt;0.3.0&lt;/a&gt; (2022-05-19)&lt;/h2&gt;&#xA;&lt;h3&gt;Bug Fixes&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;profiler:&lt;/strong&gt; relax service name regexp to allow service names starting with numbers to be used (&lt;a href=&#34;https://github.com/googleapis/google-cloud-go/issues/5994&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/googleapis/google-cloud-go/pull/5994/hovercard&#34;&gt;#5994&lt;/a&gt;) (&lt;a href=&#34;https://github.com/googleapis/google-cloud-go/commit/a1d8ac99b714d7df4923acbb794dbe04ce748013&#34;&gt;a1d8ac9&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3&gt;Miscellaneous Chores&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;profiler:&lt;/strong&gt; use 0.3.0 as release (&lt;a href=&#34;https://github.com/googleapis/google-cloud-go/issues/6030&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/googleapis/google-cloud-go/pull/6030/hovercard&#34;&gt;#6030&lt;/a&gt;) (&lt;a href=&#34;https://github.com/googleapis/google-cloud-go/commit/7a90829b62843a2cd38e6c1dfac35c137d33a40c&#34;&gt;7a90829&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/googleapis/google-cloud-go/releases/tag/profiler%2Fv0.3.0" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>release-please[bot]</name>
-    </author>
-  </entry>
-  <entry>
     <title>Release notes from colima - v0.4.2</title>
     <updated>2022-05-19T20:52:27Z</updated>
     <id>tag:github.com,2008:Repository/403020531/v0.4.2</id>
@@ -540,17 +639,6 @@
     <summary type="html"></summary>
     <author>
       <name>apparentlymart</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from google-cloud-go - storage: v1.22.1</title>
-    <updated>2022-05-19T17:27:36Z</updated>
-    <id>tag:github.com,2008:Repository/19608522/storage/v1.22.1</id>
-    <content type="html">&lt;h3&gt;&lt;a href=&#34;https://github.com/googleapis/google-cloud-go/compare/storage/v1.22.0...storage/v1.22.1&#34;&gt;1.22.1&lt;/a&gt; (2022-05-19)&lt;/h3&gt;&#xA;&lt;h3&gt;Bug Fixes&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;storage:&lt;/strong&gt; bump genproto, remove deadcode (&lt;a href=&#34;https://github.com/googleapis/google-cloud-go/issues/6059&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/googleapis/google-cloud-go/pull/6059/hovercard&#34;&gt;#6059&lt;/a&gt;) (&lt;a href=&#34;https://github.com/googleapis/google-cloud-go/commit/bb10f9faca57dc3b987e0fb601090887b3507f07&#34;&gt;bb10f9f&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;storage:&lt;/strong&gt; remove field that no longer exists (&lt;a href=&#34;https://github.com/googleapis/google-cloud-go/issues/6061&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/googleapis/google-cloud-go/pull/6061/hovercard&#34;&gt;#6061&lt;/a&gt;) (&lt;a href=&#34;https://github.com/googleapis/google-cloud-go/commit/ee150cfd194463ddfcb59898cfb0237e47777973&#34;&gt;ee150cf&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/googleapis/google-cloud-go/releases/tag/storage%2Fv1.22.1" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>release-please[bot]</name>
     </author>
   </entry>
   <entry>
@@ -628,28 +716,6 @@
     <summary type="html"></summary>
     <author>
       <name>sethvargo</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from google-cloud-go - gkemulticloud: v0.1.0</title>
-    <updated>2022-05-17T16:54:43Z</updated>
-    <id>tag:github.com,2008:Repository/19608522/gkemulticloud/v0.1.0</id>
-    <content type="html">&lt;h2&gt;0.1.0 (2022-05-16)&lt;/h2&gt;&#xA;&lt;h3&gt;Features&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;gkemulticloud:&lt;/strong&gt; start generating apiv1 (&lt;a href=&#34;https://github.com/googleapis/google-cloud-go/issues/6036&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/googleapis/google-cloud-go/pull/6036/hovercard&#34;&gt;#6036&lt;/a&gt;) (&lt;a href=&#34;https://github.com/googleapis/google-cloud-go/commit/dc2b168162ba358435c7191f9d02edaea17d19bb&#34;&gt;dc2b168&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/googleapis/google-cloud-go/releases/tag/gkemulticloud%2Fv0.1.0" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>release-please[bot]</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from google-cloud-go - gkebackup: v0.1.0</title>
-    <updated>2022-05-17T16:54:43Z</updated>
-    <id>tag:github.com,2008:Repository/19608522/gkebackup/v0.1.0</id>
-    <content type="html">&lt;h2&gt;0.1.0 (2022-05-16)&lt;/h2&gt;&#xA;&lt;h3&gt;Features&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;gkebackup:&lt;/strong&gt; start generating apiv1 (&lt;a href=&#34;https://github.com/googleapis/google-cloud-go/issues/6031&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/googleapis/google-cloud-go/pull/6031/hovercard&#34;&gt;#6031&lt;/a&gt;) (&lt;a href=&#34;https://github.com/googleapis/google-cloud-go/commit/4816e84076d62c0952eec0a7de80a230dc9074fe&#34;&gt;4816e84&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/googleapis/google-cloud-go/releases/tag/gkebackup%2Fv0.1.0" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>release-please[bot]</name>
     </author>
   </entry>
   <entry>
@@ -939,61 +1005,6 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from google-cloud-go - workflows: v1.4.0</title>
-    <updated>2022-05-10T16:05:45Z</updated>
-    <id>tag:github.com,2008:Repository/19608522/workflows/v1.4.0</id>
-    <content type="html">&lt;h2&gt;&lt;a href=&#34;https://github.com/googleapis/google-cloud-go/compare/workflows/v1.3.0...workflows/v1.4.0&#34;&gt;1.4.0&lt;/a&gt; (2022-05-09)&lt;/h2&gt;&#xA;&lt;h3&gt;Features&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;workflows:&lt;/strong&gt; start generating apiv1 (&lt;a href=&#34;https://github.com/googleapis/google-cloud-go/issues/6008&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/googleapis/google-cloud-go/pull/6008/hovercard&#34;&gt;#6008&lt;/a&gt;) (&lt;a href=&#34;https://github.com/googleapis/google-cloud-go/commit/41540c47fdf433b00a9ded3fa2a23f1b933ed1be&#34;&gt;41540c4&lt;/a&gt;), refs &lt;a href=&#34;https://github.com/googleapis/google-cloud-go/issues/5962&#34; data-hovercard-type=&#34;issue&#34; data-hovercard-url=&#34;/googleapis/google-cloud-go/issues/5962/hovercard&#34;&gt;#5962&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/googleapis/google-cloud-go/releases/tag/workflows%2Fv1.4.0" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>release-please[bot]</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from google-cloud-go - notebooks: v0.4.0</title>
-    <updated>2022-05-10T16:05:45Z</updated>
-    <id>tag:github.com,2008:Repository/19608522/notebooks/v0.4.0</id>
-    <content type="html">&lt;h2&gt;&lt;a href=&#34;https://github.com/googleapis/google-cloud-go/compare/notebooks/v0.3.0...notebooks/v0.4.0&#34;&gt;0.4.0&lt;/a&gt; (2022-05-09)&lt;/h2&gt;&#xA;&lt;h3&gt;Features&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;notebooks:&lt;/strong&gt; start generating apiv1 (&lt;a href=&#34;https://github.com/googleapis/google-cloud-go/issues/6004&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/googleapis/google-cloud-go/pull/6004/hovercard&#34;&gt;#6004&lt;/a&gt;) (&lt;a href=&#34;https://github.com/googleapis/google-cloud-go/commit/1084ab16ca4dab6022bb06fdf5c380e52044171f&#34;&gt;1084ab1&lt;/a&gt;), refs &lt;a href=&#34;https://github.com/googleapis/google-cloud-go/issues/5961&#34; data-hovercard-type=&#34;issue&#34; data-hovercard-url=&#34;/googleapis/google-cloud-go/issues/5961/hovercard&#34;&gt;#5961&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/googleapis/google-cloud-go/releases/tag/notebooks%2Fv0.4.0" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>release-please[bot]</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from google-cloud-go - datastream: v0.4.0</title>
-    <updated>2022-05-10T16:05:45Z</updated>
-    <id>tag:github.com,2008:Repository/19608522/datastream/v0.4.0</id>
-    <content type="html">&lt;h2&gt;&lt;a href=&#34;https://github.com/googleapis/google-cloud-go/compare/datastream/v0.3.0...datastream/v0.4.0&#34;&gt;0.4.0&lt;/a&gt; (2022-05-09)&lt;/h2&gt;&#xA;&lt;h3&gt;Features&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;datastream:&lt;/strong&gt; start generating apiv1 (&lt;a href=&#34;https://github.com/googleapis/google-cloud-go/issues/6003&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/googleapis/google-cloud-go/pull/6003/hovercard&#34;&gt;#6003&lt;/a&gt;) (&lt;a href=&#34;https://github.com/googleapis/google-cloud-go/commit/0c9e0f9d4c7ddfe020b61f0cf8540246c4c9695e&#34;&gt;0c9e0f9&lt;/a&gt;), refs &lt;a href=&#34;https://github.com/googleapis/google-cloud-go/issues/5958&#34; data-hovercard-type=&#34;issue&#34; data-hovercard-url=&#34;/googleapis/google-cloud-go/issues/5958/hovercard&#34;&gt;#5958&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/googleapis/google-cloud-go/releases/tag/datastream%2Fv0.4.0" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>release-please[bot]</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from google-cloud-go - assuredworkloads: v0.6.0</title>
-    <updated>2022-05-10T16:05:45Z</updated>
-    <id>tag:github.com,2008:Repository/19608522/assuredworkloads/v0.6.0</id>
-    <content type="html">&lt;h2&gt;&lt;a href=&#34;https://github.com/googleapis/google-cloud-go/compare/assuredworkloads/v0.5.0...assuredworkloads/v0.6.0&#34;&gt;0.6.0&lt;/a&gt; (2022-05-09)&lt;/h2&gt;&#xA;&lt;h3&gt;Features&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;assuredworkloads:&lt;/strong&gt; start generating apiv1 (&lt;a href=&#34;https://github.com/googleapis/google-cloud-go/issues/5985&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/googleapis/google-cloud-go/pull/5985/hovercard&#34;&gt;#5985&lt;/a&gt;) (&lt;a href=&#34;https://github.com/googleapis/google-cloud-go/commit/e3ec68d44a4b50b2d1d2da23d0a57f0bae20fed8&#34;&gt;e3ec68d&lt;/a&gt;), refs &lt;a href=&#34;https://github.com/googleapis/google-cloud-go/issues/5954&#34; data-hovercard-type=&#34;issue&#34; data-hovercard-url=&#34;/googleapis/google-cloud-go/issues/5954/hovercard&#34;&gt;#5954&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/googleapis/google-cloud-go/releases/tag/assuredworkloads%2Fv0.6.0" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>release-please[bot]</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from google-cloud-go - binaryauthorization: v0.5.0</title>
-    <updated>2022-05-10T16:05:45Z</updated>
-    <id>tag:github.com,2008:Repository/19608522/binaryauthorization/v0.5.0</id>
-    <content type="html">&lt;h2&gt;&lt;a href=&#34;https://github.com/googleapis/google-cloud-go/compare/binaryauthorization/v0.4.0...binaryauthorization/v0.5.0&#34;&gt;0.5.0&lt;/a&gt; (2022-05-09)&lt;/h2&gt;&#xA;&lt;h3&gt;Features&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;binaryauthorization:&lt;/strong&gt; start generating apiv1 (&lt;a href=&#34;https://github.com/googleapis/google-cloud-go/issues/5999&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/googleapis/google-cloud-go/pull/5999/hovercard&#34;&gt;#5999&lt;/a&gt;) (&lt;a href=&#34;https://github.com/googleapis/google-cloud-go/commit/45c701bbc1f83891c7606b644cc0b8ca1a768956&#34;&gt;45c701b&lt;/a&gt;), refs &lt;a href=&#34;https://github.com/googleapis/google-cloud-go/issues/5955&#34; data-hovercard-type=&#34;issue&#34; data-hovercard-url=&#34;/googleapis/google-cloud-go/issues/5955/hovercard&#34;&gt;#5955&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/googleapis/google-cloud-go/releases/tag/binaryauthorization%2Fv0.5.0" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>release-please[bot]</name>
-    </author>
-  </entry>
-  <entry>
     <title>Release notes from oidc - v1.4.0</title>
     <updated>2022-05-09T13:08:26Z</updated>
     <id>tag:github.com,2008:Repository/221917370/v1.4.0</id>
@@ -1013,17 +1024,6 @@
     <summary type="html"></summary>
     <author>
       <name>golangci-releaser</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from google-cloud-go - spanner: v1.32.0</title>
-    <updated>2022-05-09T05:57:47Z</updated>
-    <id>tag:github.com,2008:Repository/19608522/spanner/v1.32.0</id>
-    <content type="html">&lt;h2&gt;&lt;a href=&#34;https://github.com/googleapis/google-cloud-go/compare/spanner/v1.31.0...spanner/v1.32.0&#34;&gt;1.32.0&lt;/a&gt; (2022-05-09)&lt;/h2&gt;&#xA;&lt;h3&gt;Features&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;spanner/spansql:&lt;/strong&gt; support DEFAULT keyword (&lt;a href=&#34;https://github.com/googleapis/google-cloud-go/issues/5932&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/googleapis/google-cloud-go/pull/5932/hovercard&#34;&gt;#5932&lt;/a&gt;) (&lt;a href=&#34;https://github.com/googleapis/google-cloud-go/commit/49c19a956031fa889d024bd57fa34681bc79e743&#34;&gt;49c19a9&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;spanner/spansql:&lt;/strong&gt; support JSON literals (&lt;a href=&#34;https://github.com/googleapis/google-cloud-go/issues/5968&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/googleapis/google-cloud-go/pull/5968/hovercard&#34;&gt;#5968&lt;/a&gt;) (&lt;a href=&#34;https://github.com/googleapis/google-cloud-go/commit/b500120f3cc5c7b5717f6525a24de72fd317ba66&#34;&gt;b500120&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;spanner:&lt;/strong&gt; enable row.ToStructLenient to work with STRUCT data type (&lt;a href=&#34;https://github.com/googleapis/google-cloud-go/issues/5944&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/googleapis/google-cloud-go/pull/5944/hovercard&#34;&gt;#5944&lt;/a&gt;) (&lt;a href=&#34;https://github.com/googleapis/google-cloud-go/commit/bca8d50533115b9995f7b4a63d5d1f9abaf6a753&#34;&gt;bca8d50&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/googleapis/google-cloud-go/releases/tag/spanner%2Fv1.32.0" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>release-please[bot]</name>
     </author>
   </entry>
   <entry>
@@ -6252,22 +6252,22 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from backoff - v2.0.2: Merge pull request #18 from lestrrat-go/topic/fix-v2-go-mod</title>
+    <title>Release notes from backoff - v2.0.3: Merge pull request #18 from lestrrat-go/topic/fix-v2-go-mod</title>
     <updated>2021-01-06T03:00:05Z</updated>
-    <id>tag:github.com,2008:Repository/118608673/v2.0.2</id>
+    <id>tag:github.com,2008:Repository/118608673/v2.0.3</id>
     <content type="html">&lt;p&gt;Fix go.mod&lt;/p&gt;</content>
-    <link href="https://github.com/lestrrat-go/backoff/releases/tag/v2.0.2" rel="alternate"></link>
+    <link href="https://github.com/lestrrat-go/backoff/releases/tag/v2.0.3" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>lestrrat</name>
     </author>
   </entry>
   <entry>
-    <title>Release notes from backoff - v2.0.3: Merge pull request #18 from lestrrat-go/topic/fix-v2-go-mod</title>
+    <title>Release notes from backoff - v2.0.2: Merge pull request #18 from lestrrat-go/topic/fix-v2-go-mod</title>
     <updated>2021-01-06T03:00:05Z</updated>
-    <id>tag:github.com,2008:Repository/118608673/v2.0.3</id>
+    <id>tag:github.com,2008:Repository/118608673/v2.0.2</id>
     <content type="html">&lt;p&gt;Fix go.mod&lt;/p&gt;</content>
-    <link href="https://github.com/lestrrat-go/backoff/releases/tag/v2.0.3" rel="alternate"></link>
+    <link href="https://github.com/lestrrat-go/backoff/releases/tag/v2.0.2" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>lestrrat</name>
