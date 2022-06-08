@@ -1,8 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?><feed xmlns="http://www.w3.org/2005/Atom">
   <title>Releases from Starred by toga4</title>
   <id>https://toga4.github.io/feeds/starred-releases.atom</id>
-  <updated>2022-06-08T17:12:48Z</updated>
+  <updated>2022-06-08T17:31:07Z</updated>
   <link href="https://toga4.github.io/feeds/starred-releases.atom"></link>
+  <entry>
+    <title>Release notes from terraform - v1.3.0-alpha20220608</title>
+    <updated>2022-06-08T17:31:07Z</updated>
+    <id>tag:github.com,2008:Repository/17728164/v1.3.0-alpha20220608</id>
+    <content type="html">&lt;h2&gt;1.3.0 (Unreleased)&lt;/h2&gt;&#xA;&lt;p&gt;UPGRADE NOTES:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Module variable type constraints now support an &lt;code&gt;optional()&lt;/code&gt; modifier for object attribute types. Optional attributes may be omitted from the variable value, and will be replaced by a default value (or &lt;code&gt;null&lt;/code&gt; if no default is specified). For example:&lt;/p&gt;&#xA;&lt;div class=&#34;highlight highlight-source-terraform notranslate position-relative overflow-auto&#34; data-snippet-clipboard-copy-content=&#34;variable &amp;quot;with_optional_attribute&amp;quot; {&#xA;  type = object({&#xA;    a = string                # a required attribute&#xA;    b = optional(string)      # an optional attribute&#xA;    c = optional(number, 127) # an optional attribute with default value&#xA;  })&#xA;}&#34;&gt;&lt;pre&gt;&lt;span class=&#34;pl-k&#34;&gt;variable&lt;/span&gt; &lt;span class=&#34;pl-s&#34;&gt;&lt;span class=&#34;pl-pds&#34;&gt;&#34;&lt;/span&gt;with_optional_attribute&lt;span class=&#34;pl-pds&#34;&gt;&#34;&lt;/span&gt;&lt;/span&gt; {&#xA;  type &lt;span class=&#34;pl-k&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;pl-v&#34;&gt;object&lt;/span&gt;({&#xA;    a &lt;span class=&#34;pl-k&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;pl-k&#34;&gt;string&lt;/span&gt;                &lt;span class=&#34;pl-c&#34;&gt;&lt;span class=&#34;pl-c&#34;&gt;#&lt;/span&gt; a required attribute&lt;/span&gt;&#xA;    b &lt;span class=&#34;pl-k&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;pl-v&#34;&gt;optional&lt;/span&gt;(&lt;span class=&#34;pl-k&#34;&gt;string&lt;/span&gt;)      &lt;span class=&#34;pl-c&#34;&gt;&lt;span class=&#34;pl-c&#34;&gt;#&lt;/span&gt; an optional attribute&lt;/span&gt;&#xA;    c &lt;span class=&#34;pl-k&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;pl-v&#34;&gt;optional&lt;/span&gt;(&lt;span class=&#34;pl-k&#34;&gt;number&lt;/span&gt;, &lt;span class=&#34;pl-c1&#34;&gt;127&lt;/span&gt;) &lt;span class=&#34;pl-c&#34;&gt;&lt;span class=&#34;pl-c&#34;&gt;#&lt;/span&gt; an optional attribute with default value&lt;/span&gt;&#xA;  })&#xA;}&lt;/pre&gt;&lt;/div&gt;&#xA;&lt;p&gt;Assigning &lt;code&gt;{ a = &#34;foo&#34; }&lt;/code&gt; to this variable will result in the value &lt;code&gt;{ a = &#34;foo&#34;, b = null, c = 127 }&lt;/code&gt;.&lt;/p&gt;&#xA;&lt;p&gt;This functionality was introduced as an experiment in Terraform 0.14. This release removes the experimental &lt;code&gt;defaults&lt;/code&gt; function. (&lt;a href=&#34;https://github.com/hashicorp/terraform/issues/31154&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/hashicorp/terraform/pull/31154/hovercard&#34;&gt;#31154&lt;/a&gt;)&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;BUG FIXES:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Made &lt;code&gt;terraform output&lt;/code&gt; CLI help documentation consistent with web-based documentation (&lt;a href=&#34;https://github.com/hashicorp/terraform/issues/29354&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/hashicorp/terraform/pull/29354/hovercard&#34;&gt;#29354&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/hashicorp/terraform/releases/tag/v1.3.0-alpha20220608" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>hc-github-team-tf-core</name>
+    </author>
+  </entry>
   <entry>
     <title>Release notes from cli - GitHub CLI 2.12.0</title>
     <updated>2022-06-08T17:12:48Z</updated>
@@ -59,33 +70,22 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from chakra-ui - @chakra-ui/props-docs@2.0.7</title>
+    <title>Release notes from chakra-ui - @chakra-ui/toast@2.1.0</title>
     <updated>2022-06-07T12:13:42Z</updated>
-    <id>tag:github.com,2008:Repository/202890778/@chakra-ui/props-docs@2.0.7</id>
-    <content type="html">&lt;h3&gt;Patch Changes&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Updated dependencies []:&#xA;&lt;ul&gt;&#xA;&lt;li&gt;@chakra-ui/react@2.2.1&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/chakra-ui/chakra-ui/releases/tag/%40chakra-ui%2Fprops-docs%402.0.7" rel="alternate"></link>
+    <id>tag:github.com,2008:Repository/202890778/@chakra-ui/toast@2.1.0</id>
+    <content type="html">&lt;h3&gt;Minor Changes&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/pull/6159&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/chakra-ui/chakra-ui/pull/6159/hovercard&#34;&gt;#6159&lt;/a&gt;&lt;br&gt;&#xA;&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/commit/54acea27baf8a8ac4a9f5346d95fe6aecda92f74&#34;&gt;&lt;code&gt;54acea27b&lt;/code&gt;&lt;/a&gt;&lt;br&gt;&#xA;Thanks &lt;a href=&#34;https://github.com/segunadebayo&#34;&gt;@segunadebayo&lt;/a&gt;! - - Add support for&lt;br&gt;&#xA;&lt;code&gt;portalProps&lt;/code&gt; in toast provider. When using with the &lt;code&gt;ChakraProvider&lt;/code&gt;, this&lt;br&gt;&#xA;can be configure in the &lt;code&gt;toastOptions&lt;/code&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3&gt;Patch Changes&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Updated dependencies&lt;br&gt;&#xA;[&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/commit/f9a84d6370f0f460f491c36c53077c2087eb7580&#34;&gt;&lt;code&gt;f9a84d637&lt;/code&gt;&lt;/a&gt;]:&#xA;&lt;ul&gt;&#xA;&lt;li&gt;@chakra-ui/system@2.1.3&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/chakra-ui/chakra-ui/releases/tag/%40chakra-ui%2Ftoast%402.1.0" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>github-actions[bot]</name>
     </author>
   </entry>
   <entry>
-    <title>Release notes from chakra-ui - @chakra-ui/provider@2.0.6</title>
+    <title>Release notes from chakra-ui - @chakra-ui/skeleton@2.0.6</title>
     <updated>2022-06-07T12:13:42Z</updated>
-    <id>tag:github.com,2008:Repository/202890778/@chakra-ui/provider@2.0.6</id>
+    <id>tag:github.com,2008:Repository/202890778/@chakra-ui/skeleton@2.0.6</id>
     <content type="html">&lt;h3&gt;Patch Changes&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Updated dependencies&lt;br&gt;&#xA;[&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/commit/f9a84d6370f0f460f491c36c53077c2087eb7580&#34;&gt;&lt;code&gt;f9a84d637&lt;/code&gt;&lt;/a&gt;]:&#xA;&lt;ul&gt;&#xA;&lt;li&gt;@chakra-ui/system@2.1.3&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/chakra-ui/chakra-ui/releases/tag/%40chakra-ui%2Fprovider%402.0.6" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>github-actions[bot]</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from chakra-ui - storybook-addon@2.0.7</title>
-    <updated>2022-06-07T12:13:42Z</updated>
-    <id>tag:github.com,2008:Repository/202890778/storybook-addon@2.0.7</id>
-    <content type="html">&lt;h3&gt;Patch Changes&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Updated dependencies []:&#xA;&lt;ul&gt;&#xA;&lt;li&gt;@chakra-ui/storybook-addon@4.0.1&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/chakra-ui/chakra-ui/releases/tag/storybook-addon%402.0.7" rel="alternate"></link>
+    <link href="https://github.com/chakra-ui/chakra-ui/releases/tag/%40chakra-ui%2Fskeleton%402.0.6" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>github-actions[bot]</name>
@@ -103,22 +103,11 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from chakra-ui - @chakra-ui/system@2.1.3</title>
+    <title>Release notes from chakra-ui - @chakra-ui/provider@2.0.6</title>
     <updated>2022-06-07T12:13:42Z</updated>
-    <id>tag:github.com,2008:Repository/202890778/@chakra-ui/system@2.1.3</id>
-    <content type="html">&lt;h3&gt;Patch Changes&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/pull/6162&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/chakra-ui/chakra-ui/pull/6162/hovercard&#34;&gt;#6162&lt;/a&gt;&lt;br&gt;&#xA;&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/commit/f9a84d6370f0f460f491c36c53077c2087eb7580&#34;&gt;&lt;code&gt;f9a84d637&lt;/code&gt;&lt;/a&gt;&lt;br&gt;&#xA;Thanks &lt;a href=&#34;https://github.com/segunadebayo&#34;&gt;@segunadebayo&lt;/a&gt;! - Fixed a regression&lt;br&gt;&#xA;where useStyles and StylesProvider was removed from &lt;code&gt;@chakra-ui/system&lt;/code&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/chakra-ui/chakra-ui/releases/tag/%40chakra-ui%2Fsystem%402.1.3" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>github-actions[bot]</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from chakra-ui - @chakra-ui/toast@2.1.0</title>
-    <updated>2022-06-07T12:13:42Z</updated>
-    <id>tag:github.com,2008:Repository/202890778/@chakra-ui/toast@2.1.0</id>
-    <content type="html">&lt;h3&gt;Minor Changes&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/pull/6159&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/chakra-ui/chakra-ui/pull/6159/hovercard&#34;&gt;#6159&lt;/a&gt;&lt;br&gt;&#xA;&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/commit/54acea27baf8a8ac4a9f5346d95fe6aecda92f74&#34;&gt;&lt;code&gt;54acea27b&lt;/code&gt;&lt;/a&gt;&lt;br&gt;&#xA;Thanks &lt;a href=&#34;https://github.com/segunadebayo&#34;&gt;@segunadebayo&lt;/a&gt;! - - Add support for&lt;br&gt;&#xA;&lt;code&gt;portalProps&lt;/code&gt; in toast provider. When using with the &lt;code&gt;ChakraProvider&lt;/code&gt;, this&lt;br&gt;&#xA;can be configure in the &lt;code&gt;toastOptions&lt;/code&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3&gt;Patch Changes&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Updated dependencies&lt;br&gt;&#xA;[&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/commit/f9a84d6370f0f460f491c36c53077c2087eb7580&#34;&gt;&lt;code&gt;f9a84d637&lt;/code&gt;&lt;/a&gt;]:&#xA;&lt;ul&gt;&#xA;&lt;li&gt;@chakra-ui/system@2.1.3&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/chakra-ui/chakra-ui/releases/tag/%40chakra-ui%2Ftoast%402.1.0" rel="alternate"></link>
+    <id>tag:github.com,2008:Repository/202890778/@chakra-ui/provider@2.0.6</id>
+    <content type="html">&lt;h3&gt;Patch Changes&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Updated dependencies&lt;br&gt;&#xA;[&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/commit/f9a84d6370f0f460f491c36c53077c2087eb7580&#34;&gt;&lt;code&gt;f9a84d637&lt;/code&gt;&lt;/a&gt;]:&#xA;&lt;ul&gt;&#xA;&lt;li&gt;@chakra-ui/system@2.1.3&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/chakra-ui/chakra-ui/releases/tag/%40chakra-ui%2Fprovider%402.0.6" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>github-actions[bot]</name>
@@ -136,11 +125,33 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from chakra-ui - @chakra-ui/skeleton@2.0.6</title>
+    <title>Release notes from chakra-ui - @chakra-ui/props-docs@2.0.7</title>
     <updated>2022-06-07T12:13:42Z</updated>
-    <id>tag:github.com,2008:Repository/202890778/@chakra-ui/skeleton@2.0.6</id>
-    <content type="html">&lt;h3&gt;Patch Changes&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Updated dependencies&lt;br&gt;&#xA;[&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/commit/f9a84d6370f0f460f491c36c53077c2087eb7580&#34;&gt;&lt;code&gt;f9a84d637&lt;/code&gt;&lt;/a&gt;]:&#xA;&lt;ul&gt;&#xA;&lt;li&gt;@chakra-ui/system@2.1.3&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/chakra-ui/chakra-ui/releases/tag/%40chakra-ui%2Fskeleton%402.0.6" rel="alternate"></link>
+    <id>tag:github.com,2008:Repository/202890778/@chakra-ui/props-docs@2.0.7</id>
+    <content type="html">&lt;h3&gt;Patch Changes&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Updated dependencies []:&#xA;&lt;ul&gt;&#xA;&lt;li&gt;@chakra-ui/react@2.2.1&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/chakra-ui/chakra-ui/releases/tag/%40chakra-ui%2Fprops-docs%402.0.7" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>github-actions[bot]</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from chakra-ui - storybook-addon@2.0.7</title>
+    <updated>2022-06-07T12:13:42Z</updated>
+    <id>tag:github.com,2008:Repository/202890778/storybook-addon@2.0.7</id>
+    <content type="html">&lt;h3&gt;Patch Changes&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Updated dependencies []:&#xA;&lt;ul&gt;&#xA;&lt;li&gt;@chakra-ui/storybook-addon@4.0.1&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/chakra-ui/chakra-ui/releases/tag/storybook-addon%402.0.7" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>github-actions[bot]</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from chakra-ui - @chakra-ui/system@2.1.3</title>
+    <updated>2022-06-07T12:13:42Z</updated>
+    <id>tag:github.com,2008:Repository/202890778/@chakra-ui/system@2.1.3</id>
+    <content type="html">&lt;h3&gt;Patch Changes&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/pull/6162&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/chakra-ui/chakra-ui/pull/6162/hovercard&#34;&gt;#6162&lt;/a&gt;&lt;br&gt;&#xA;&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/commit/f9a84d6370f0f460f491c36c53077c2087eb7580&#34;&gt;&lt;code&gt;f9a84d637&lt;/code&gt;&lt;/a&gt;&lt;br&gt;&#xA;Thanks &lt;a href=&#34;https://github.com/segunadebayo&#34;&gt;@segunadebayo&lt;/a&gt;! - Fixed a regression&lt;br&gt;&#xA;where useStyles and StylesProvider was removed from &lt;code&gt;@chakra-ui/system&lt;/code&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/chakra-ui/chakra-ui/releases/tag/%40chakra-ui%2Fsystem%402.1.3" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>github-actions[bot]</name>
@@ -345,22 +356,22 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from telepresence - rpc/v2.6.5</title>
+    <title>Release notes from telepresence - v2.6.5</title>
     <updated>2022-06-03T16:50:15Z</updated>
-    <id>tag:github.com,2008:Repository/82933315/rpc/v2.6.5</id>
+    <id>tag:github.com,2008:Repository/82933315/v2.6.5</id>
     <content type="html">&lt;p&gt;v2.6.5&lt;/p&gt;</content>
-    <link href="https://github.com/telepresenceio/telepresence/releases/tag/rpc%2Fv2.6.5" rel="alternate"></link>
+    <link href="https://github.com/telepresenceio/telepresence/releases/tag/v2.6.5" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>njayp</name>
     </author>
   </entry>
   <entry>
-    <title>Release notes from telepresence - v2.6.5</title>
+    <title>Release notes from telepresence - rpc/v2.6.5</title>
     <updated>2022-06-03T16:50:15Z</updated>
-    <id>tag:github.com,2008:Repository/82933315/v2.6.5</id>
+    <id>tag:github.com,2008:Repository/82933315/rpc/v2.6.5</id>
     <content type="html">&lt;p&gt;v2.6.5&lt;/p&gt;</content>
-    <link href="https://github.com/telepresenceio/telepresence/releases/tag/v2.6.5" rel="alternate"></link>
+    <link href="https://github.com/telepresenceio/telepresence/releases/tag/rpc%2Fv2.6.5" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>njayp</name>
@@ -818,22 +829,22 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from telepresence - v2.6.4</title>
+    <title>Release notes from telepresence - rpc/v2.6.4</title>
     <updated>2022-05-23T14:37:53Z</updated>
-    <id>tag:github.com,2008:Repository/82933315/v2.6.4</id>
+    <id>tag:github.com,2008:Repository/82933315/rpc/v2.6.4</id>
     <content type="html">&lt;p&gt;v2.6.4&lt;/p&gt;</content>
-    <link href="https://github.com/telepresenceio/telepresence/releases/tag/v2.6.4" rel="alternate"></link>
+    <link href="https://github.com/telepresenceio/telepresence/releases/tag/rpc%2Fv2.6.4" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>njayp</name>
     </author>
   </entry>
   <entry>
-    <title>Release notes from telepresence - rpc/v2.6.4</title>
+    <title>Release notes from telepresence - v2.6.4</title>
     <updated>2022-05-23T14:37:53Z</updated>
-    <id>tag:github.com,2008:Repository/82933315/rpc/v2.6.4</id>
+    <id>tag:github.com,2008:Repository/82933315/v2.6.4</id>
     <content type="html">&lt;p&gt;v2.6.4&lt;/p&gt;</content>
-    <link href="https://github.com/telepresenceio/telepresence/releases/tag/rpc%2Fv2.6.4" rel="alternate"></link>
+    <link href="https://github.com/telepresenceio/telepresence/releases/tag/v2.6.4" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>njayp</name>
@@ -2234,17 +2245,6 @@
     <summary type="html"></summary>
     <author>
       <name>lestrrat</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from terraform - v1.1.8</title>
-    <updated>2022-04-07T17:05:32Z</updated>
-    <id>tag:github.com,2008:Repository/17728164/v1.1.8</id>
-    <content type="html">&lt;h2&gt;1.1.8 (April 07, 2022)&lt;/h2&gt;&#xA;&lt;p&gt;BUG FIXES:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;cli: Fix missing identifying attributes (e.g. &#34;id&#34;, &#34;name&#34;) when displaying plan diffs with nested objects. (&lt;a href=&#34;https://github.com/hashicorp/terraform/issues/30685&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/hashicorp/terraform/pull/30685/hovercard&#34;&gt;#30685&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;functions: Fix error when &lt;code&gt;sum()&lt;/code&gt; function is called with a collection of string-encoded numbers, such as &lt;code&gt;sum([&#34;1&#34;, &#34;2&#34;, &#34;3&#34;])&lt;/code&gt;. (&lt;a href=&#34;https://github.com/hashicorp/terraform/issues/30684&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/hashicorp/terraform/pull/30684/hovercard&#34;&gt;#30684&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;When rendering a diff, Terraform now quotes the name of any object attribute whose string representation is not a valid identifier. (&lt;a href=&#34;https://github.com/hashicorp/terraform/issues/30766&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/hashicorp/terraform/pull/30766/hovercard&#34;&gt;#30766&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;Terraform will no longer crash in the &lt;code&gt;terraform apply&lt;/code&gt; phase if an error occurs during backend configuration. (&lt;a href=&#34;https://github.com/hashicorp/terraform/pull/30780&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/hashicorp/terraform/pull/30780/hovercard&#34;&gt;#30780&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/hashicorp/terraform/releases/tag/v1.1.8" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>hc-github-team-tf-core</name>
     </author>
   </entry>
   <entry>
@@ -5603,22 +5603,22 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from triangula - v1.1.6</title>
+    <title>Release notes from triangula - v1.1.5</title>
     <updated>2021-05-11T13:31:09Z</updated>
-    <id>tag:github.com,2008:Repository/354015172/v1.1.6</id>
+    <id>tag:github.com,2008:Repository/354015172/v1.1.5</id>
     <content type="html">&lt;p&gt;Refactor for more flexibility&lt;/p&gt;</content>
-    <link href="https://github.com/rh12503/triangula/releases/tag/v1.1.6" rel="alternate"></link>
+    <link href="https://github.com/rh12503/triangula/releases/tag/v1.1.5" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>rh12503</name>
     </author>
   </entry>
   <entry>
-    <title>Release notes from triangula - v1.1.5</title>
+    <title>Release notes from triangula - v1.1.6</title>
     <updated>2021-05-11T13:31:09Z</updated>
-    <id>tag:github.com,2008:Repository/354015172/v1.1.5</id>
+    <id>tag:github.com,2008:Repository/354015172/v1.1.6</id>
     <content type="html">&lt;p&gt;Refactor for more flexibility&lt;/p&gt;</content>
-    <link href="https://github.com/rh12503/triangula/releases/tag/v1.1.5" rel="alternate"></link>
+    <link href="https://github.com/rh12503/triangula/releases/tag/v1.1.6" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>rh12503</name>
@@ -6406,22 +6406,22 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from backoff - v2.0.3: Merge pull request #18 from lestrrat-go/topic/fix-v2-go-mod</title>
+    <title>Release notes from backoff - v2.0.2: Merge pull request #18 from lestrrat-go/topic/fix-v2-go-mod</title>
     <updated>2021-01-06T03:00:05Z</updated>
-    <id>tag:github.com,2008:Repository/118608673/v2.0.3</id>
+    <id>tag:github.com,2008:Repository/118608673/v2.0.2</id>
     <content type="html">&lt;p&gt;Fix go.mod&lt;/p&gt;</content>
-    <link href="https://github.com/lestrrat-go/backoff/releases/tag/v2.0.3" rel="alternate"></link>
+    <link href="https://github.com/lestrrat-go/backoff/releases/tag/v2.0.2" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>lestrrat</name>
     </author>
   </entry>
   <entry>
-    <title>Release notes from backoff - v2.0.2: Merge pull request #18 from lestrrat-go/topic/fix-v2-go-mod</title>
+    <title>Release notes from backoff - v2.0.3: Merge pull request #18 from lestrrat-go/topic/fix-v2-go-mod</title>
     <updated>2021-01-06T03:00:05Z</updated>
-    <id>tag:github.com,2008:Repository/118608673/v2.0.2</id>
+    <id>tag:github.com,2008:Repository/118608673/v2.0.3</id>
     <content type="html">&lt;p&gt;Fix go.mod&lt;/p&gt;</content>
-    <link href="https://github.com/lestrrat-go/backoff/releases/tag/v2.0.2" rel="alternate"></link>
+    <link href="https://github.com/lestrrat-go/backoff/releases/tag/v2.0.3" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>lestrrat</name>
