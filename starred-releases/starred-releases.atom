@@ -1,8 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?><feed xmlns="http://www.w3.org/2005/Atom">
   <title>Releases from Starred by toga4</title>
   <id>https://toga4.github.io/feeds/starred-releases.atom</id>
-  <updated>2022-06-21T05:35:39Z</updated>
+  <updated>2022-06-21T12:56:06Z</updated>
   <link href="https://toga4.github.io/feeds/starred-releases.atom"></link>
+  <entry>
+    <title>Release notes from go-github - v45.2.0</title>
+    <updated>2022-06-21T12:56:06Z</updated>
+    <id>tag:github.com,2008:Repository/10270722/v45.2.0</id>
+    <content type="html">&lt;p&gt;This minor release includes these changes:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Add Actor field to WorkflowRun (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1268973439&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/google/go-github/issues/2381&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/google/go-github/pull/2381/hovercard&#34; href=&#34;https://github.com/google/go-github/pull/2381&#34;&gt;#2381&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;Bump github.com/google/go-github/v45 from 45.0.0 to 45.1.0 in /scrape (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1269842728&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/google/go-github/issues/2382&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/google/go-github/pull/2382/hovercard&#34; href=&#34;https://github.com/google/go-github/pull/2382&#34;&gt;#2382&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;docs fix: correct a comment (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1269859001&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/google/go-github/issues/2383&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/google/go-github/pull/2383/hovercard&#34; href=&#34;https://github.com/google/go-github/pull/2383&#34;&gt;#2383&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;Add missing common event fields (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1272575698&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/google/go-github/issues/2384&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/google/go-github/pull/2384/hovercard&#34; href=&#34;https://github.com/google/go-github/pull/2384&#34;&gt;#2384&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;Add RoleName field to User struct (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1273676322&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/google/go-github/issues/2386&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/google/go-github/pull/2386/hovercard&#34; href=&#34;https://github.com/google/go-github/pull/2386&#34;&gt;#2386&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;Add support for repo setting use_squash_pr_title_as_default (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1275985459&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/google/go-github/issues/2390&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/google/go-github/pull/2390/hovercard&#34; href=&#34;https://github.com/google/go-github/pull/2390&#34;&gt;#2390&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;Add MembersCanForkPrivateRepositories field to Organization struct (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1275704543&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/google/go-github/issues/2389&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/google/go-github/pull/2389/hovercard&#34; href=&#34;https://github.com/google/go-github/pull/2389&#34;&gt;#2389&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/google/go-github/releases/tag/v45.2.0" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>gmlewis</name>
+    </author>
+  </entry>
   <entry>
     <title>Release notes from oidc - v2.0.0-dynamic-issuer.3</title>
     <updated>2022-06-21T05:35:39Z</updated>
@@ -367,11 +378,22 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from opentelemetry-operations-go - exporter/trace/v1.8.2</title>
+    <title>Release notes from opentelemetry-operations-go - exporter/collector/googlemanagedprometheus/v0.32.2</title>
     <updated>2022-06-15T15:28:50Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/exporter/trace/v1.8.2</id>
+    <id>tag:github.com,2008:Repository/244484581/exporter/collector/googlemanagedprometheus/v0.32.2</id>
     <content type="html">&lt;p&gt;prepare for v1.8.2 and v0.32.2 (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1272397292&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/430&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleCloudPlatform/opentelemetry-operations-go/pull/430/hovercard&#34; href=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/pull/430&#34;&gt;#430&lt;/a&gt;)&lt;/p&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/exporter%2Ftrace%2Fv1.8.2" rel="alternate"></link>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/exporter%2Fcollector%2Fgooglemanagedprometheus%2Fv0.32.2" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>dashpole</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from opentelemetry-operations-go - internal/resourcemapping/v0.32.2</title>
+    <updated>2022-06-15T15:28:50Z</updated>
+    <id>tag:github.com,2008:Repository/244484581/internal/resourcemapping/v0.32.2</id>
+    <content type="html">&lt;p&gt;prepare for v1.8.2 and v0.32.2 (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1272397292&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/430&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleCloudPlatform/opentelemetry-operations-go/pull/430/hovercard&#34; href=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/pull/430&#34;&gt;#430&lt;/a&gt;)&lt;/p&gt;</content>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/internal%2Fresourcemapping%2Fv0.32.2" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>dashpole</name>
@@ -389,33 +411,11 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from opentelemetry-operations-go - detectors/gcp/v0.32.2</title>
-    <updated>2022-06-15T15:28:50Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/detectors/gcp/v0.32.2</id>
-    <content type="html">&lt;p&gt;prepare for v1.8.2 and v0.32.2 (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1272397292&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/430&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleCloudPlatform/opentelemetry-operations-go/pull/430/hovercard&#34; href=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/pull/430&#34;&gt;#430&lt;/a&gt;)&lt;/p&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/detectors%2Fgcp%2Fv0.32.2" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>dashpole</name>
-    </author>
-  </entry>
-  <entry>
     <title>Release notes from opentelemetry-operations-go - exporter/collector/v0.32.2</title>
     <updated>2022-06-15T15:28:50Z</updated>
     <id>tag:github.com,2008:Repository/244484581/exporter/collector/v0.32.2</id>
     <content type="html">&lt;p&gt;prepare for v1.8.2 and v0.32.2 (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1272397292&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/430&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleCloudPlatform/opentelemetry-operations-go/pull/430/hovercard&#34; href=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/pull/430&#34;&gt;#430&lt;/a&gt;)&lt;/p&gt;</content>
     <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/exporter%2Fcollector%2Fv0.32.2" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>dashpole</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from opentelemetry-operations-go - exporter/collector/googlemanagedprometheus/v0.32.2</title>
-    <updated>2022-06-15T15:28:50Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/exporter/collector/googlemanagedprometheus/v0.32.2</id>
-    <content type="html">&lt;p&gt;prepare for v1.8.2 and v0.32.2 (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1272397292&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/430&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleCloudPlatform/opentelemetry-operations-go/pull/430/hovercard&#34; href=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/pull/430&#34;&gt;#430&lt;/a&gt;)&lt;/p&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/exporter%2Fcollector%2Fgooglemanagedprometheus%2Fv0.32.2" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>dashpole</name>
@@ -433,11 +433,22 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from opentelemetry-operations-go - internal/resourcemapping/v0.32.2</title>
+    <title>Release notes from opentelemetry-operations-go - exporter/trace/v1.8.2</title>
     <updated>2022-06-15T15:28:50Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/internal/resourcemapping/v0.32.2</id>
+    <id>tag:github.com,2008:Repository/244484581/exporter/trace/v1.8.2</id>
     <content type="html">&lt;p&gt;prepare for v1.8.2 and v0.32.2 (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1272397292&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/430&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleCloudPlatform/opentelemetry-operations-go/pull/430/hovercard&#34; href=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/pull/430&#34;&gt;#430&lt;/a&gt;)&lt;/p&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/internal%2Fresourcemapping%2Fv0.32.2" rel="alternate"></link>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/exporter%2Ftrace%2Fv1.8.2" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>dashpole</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from opentelemetry-operations-go - detectors/gcp/v0.32.2</title>
+    <updated>2022-06-15T15:28:50Z</updated>
+    <id>tag:github.com,2008:Repository/244484581/detectors/gcp/v0.32.2</id>
+    <content type="html">&lt;p&gt;prepare for v1.8.2 and v0.32.2 (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1272397292&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/430&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleCloudPlatform/opentelemetry-operations-go/pull/430/hovercard&#34; href=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/pull/430&#34;&gt;#430&lt;/a&gt;)&lt;/p&gt;</content>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/detectors%2Fgcp%2Fv0.32.2" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>dashpole</name>
@@ -499,22 +510,22 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from react-router - react-router-dom-v5-compat@6.4.0-pre.7</title>
+    <title>Release notes from react-router - react-router-native@6.4.0-pre.7</title>
     <updated>2022-06-10T20:54:31Z</updated>
-    <id>tag:github.com,2008:Repository/19872456/react-router-dom-v5-compat@6.4.0-pre.7</id>
-    <content type="html">&lt;h3&gt;Patch Changes&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Updated dependencies&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;code&gt;react-router@6.4.0-pre.7&lt;/code&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;code&gt;react-router-dom@6.4.0-pre.7&lt;/code&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/remix-run/react-router/releases/tag/react-router-dom-v5-compat%406.4.0-pre.7" rel="alternate"></link>
+    <id>tag:github.com,2008:Repository/19872456/react-router-native@6.4.0-pre.7</id>
+    <content type="html">&lt;h3&gt;Patch Changes&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Updated dependencies&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;code&gt;react-router@6.4.0-pre.7&lt;/code&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/remix-run/react-router/releases/tag/react-router-native%406.4.0-pre.7" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>github-actions[bot]</name>
     </author>
   </entry>
   <entry>
-    <title>Release notes from react-router - react-router@6.4.0-pre.7</title>
+    <title>Release notes from react-router - react-router-dom-v5-compat@6.4.0-pre.7</title>
     <updated>2022-06-10T20:54:31Z</updated>
-    <id>tag:github.com,2008:Repository/19872456/react-router@6.4.0-pre.7</id>
-    <content type="html">&lt;h3&gt;Minor Changes&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Add support for functional updates in &lt;code&gt;useSearchParams&lt;/code&gt; (similar to the &lt;code&gt;useState&lt;/code&gt; callback signature) (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1264902005&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/remix-run/react-router/issues/8955&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/remix-run/react-router/pull/8955/hovercard&#34; href=&#34;https://github.com/remix-run/react-router/pull/8955&#34;&gt;#8955&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3&gt;Patch Changes&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Properly handle relative navigation from index/pathless routes (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1264801677&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/remix-run/react-router/issues/8954&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/remix-run/react-router/pull/8954/hovercard&#34; href=&#34;https://github.com/remix-run/react-router/pull/8954&#34;&gt;#8954&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;Fix issues building with webpack + React 17 (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1261920390&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/remix-run/react-router/issues/8938&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/remix-run/react-router/pull/8938/hovercard&#34; href=&#34;https://github.com/remix-run/react-router/pull/8938&#34;&gt;#8938&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;Updated dependencies&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;code&gt;@remix-run/router@0.2.0-pre.2&lt;/code&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/remix-run/react-router/releases/tag/react-router%406.4.0-pre.7" rel="alternate"></link>
+    <id>tag:github.com,2008:Repository/19872456/react-router-dom-v5-compat@6.4.0-pre.7</id>
+    <content type="html">&lt;h3&gt;Patch Changes&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Updated dependencies&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;code&gt;react-router@6.4.0-pre.7&lt;/code&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;code&gt;react-router-dom@6.4.0-pre.7&lt;/code&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/remix-run/react-router/releases/tag/react-router-dom-v5-compat%406.4.0-pre.7" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>github-actions[bot]</name>
@@ -532,22 +543,22 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from react-router - react-router-native@6.4.0-pre.7</title>
+    <title>Release notes from react-router - @remix-run/router@0.2.0-pre.2</title>
     <updated>2022-06-10T20:54:31Z</updated>
-    <id>tag:github.com,2008:Repository/19872456/react-router-native@6.4.0-pre.7</id>
-    <content type="html">&lt;h3&gt;Patch Changes&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Updated dependencies&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;code&gt;react-router@6.4.0-pre.7&lt;/code&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/remix-run/react-router/releases/tag/react-router-native%406.4.0-pre.7" rel="alternate"></link>
+    <id>tag:github.com,2008:Repository/19872456/@remix-run/router@0.2.0-pre.2</id>
+    <content type="html">&lt;h3&gt;Patch Changes&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Capture fetcher errors at contextual route error boundaries (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1263277587&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/remix-run/react-router/issues/8945&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/remix-run/react-router/pull/8945/hovercard&#34; href=&#34;https://github.com/remix-run/react-router/pull/8945&#34;&gt;#8945&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/remix-run/react-router/releases/tag/%40remix-run%2Frouter%400.2.0-pre.2" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>github-actions[bot]</name>
     </author>
   </entry>
   <entry>
-    <title>Release notes from react-router - @remix-run/router@0.2.0-pre.2</title>
+    <title>Release notes from react-router - react-router@6.4.0-pre.7</title>
     <updated>2022-06-10T20:54:31Z</updated>
-    <id>tag:github.com,2008:Repository/19872456/@remix-run/router@0.2.0-pre.2</id>
-    <content type="html">&lt;h3&gt;Patch Changes&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Capture fetcher errors at contextual route error boundaries (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1263277587&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/remix-run/react-router/issues/8945&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/remix-run/react-router/pull/8945/hovercard&#34; href=&#34;https://github.com/remix-run/react-router/pull/8945&#34;&gt;#8945&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/remix-run/react-router/releases/tag/%40remix-run%2Frouter%400.2.0-pre.2" rel="alternate"></link>
+    <id>tag:github.com,2008:Repository/19872456/react-router@6.4.0-pre.7</id>
+    <content type="html">&lt;h3&gt;Minor Changes&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Add support for functional updates in &lt;code&gt;useSearchParams&lt;/code&gt; (similar to the &lt;code&gt;useState&lt;/code&gt; callback signature) (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1264902005&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/remix-run/react-router/issues/8955&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/remix-run/react-router/pull/8955/hovercard&#34; href=&#34;https://github.com/remix-run/react-router/pull/8955&#34;&gt;#8955&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3&gt;Patch Changes&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Properly handle relative navigation from index/pathless routes (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1264801677&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/remix-run/react-router/issues/8954&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/remix-run/react-router/pull/8954/hovercard&#34; href=&#34;https://github.com/remix-run/react-router/pull/8954&#34;&gt;#8954&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;Fix issues building with webpack + React 17 (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1261920390&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/remix-run/react-router/issues/8938&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/remix-run/react-router/pull/8938/hovercard&#34; href=&#34;https://github.com/remix-run/react-router/pull/8938&#34;&gt;#8938&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;Updated dependencies&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;code&gt;@remix-run/router@0.2.0-pre.2&lt;/code&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/remix-run/react-router/releases/tag/react-router%406.4.0-pre.7" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>github-actions[bot]</name>
@@ -653,11 +664,22 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from react-router - react-router-native@6.4.0-pre.6</title>
+    <title>Release notes from react-router - react-router-dom-v5-compat@6.4.0-pre.6</title>
     <updated>2022-06-09T00:09:24Z</updated>
-    <id>tag:github.com,2008:Repository/19872456/react-router-native@6.4.0-pre.6</id>
+    <id>tag:github.com,2008:Repository/19872456/react-router-dom-v5-compat@6.4.0-pre.6</id>
+    <content type="html">&lt;h3&gt;Patch Changes&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a class=&#34;commit-link&#34; data-hovercard-type=&#34;commit&#34; data-hovercard-url=&#34;https://github.com/remix-run/react-router/commit/44bce3c6f6887c0cede55f858f84235fa5e3edfe/hovercard&#34; href=&#34;https://github.com/remix-run/react-router/commit/44bce3c6f6887c0cede55f858f84235fa5e3edfe&#34;&gt;&lt;tt&gt;44bce3c&lt;/tt&gt;&lt;/a&gt;: Fix &lt;code&gt;react-router-dom&lt;/code&gt; peer dependency version&#xA;&lt;ul&gt;&#xA;&lt;li&gt;react-router@6.4.0-pre.6&lt;/li&gt;&#xA;&lt;li&gt;react-router-dom@6.4.0-pre.6&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/remix-run/react-router/releases/tag/react-router-dom-v5-compat%406.4.0-pre.6" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>github-actions[bot]</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from react-router - react-router-dom@6.4.0-pre.6</title>
+    <updated>2022-06-09T00:09:24Z</updated>
+    <id>tag:github.com,2008:Repository/19872456/react-router-dom@6.4.0-pre.6</id>
     <content type="html">&lt;h3&gt;Patch Changes&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;react-router@6.4.0-pre.6&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/remix-run/react-router/releases/tag/react-router-native%406.4.0-pre.6" rel="alternate"></link>
+    <link href="https://github.com/remix-run/react-router/releases/tag/react-router-dom%406.4.0-pre.6" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>github-actions[bot]</name>
@@ -675,22 +697,11 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from react-router - react-router-dom-v5-compat@6.4.0-pre.6</title>
+    <title>Release notes from react-router - react-router-native@6.4.0-pre.6</title>
     <updated>2022-06-09T00:09:24Z</updated>
-    <id>tag:github.com,2008:Repository/19872456/react-router-dom-v5-compat@6.4.0-pre.6</id>
-    <content type="html">&lt;h3&gt;Patch Changes&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a class=&#34;commit-link&#34; data-hovercard-type=&#34;commit&#34; data-hovercard-url=&#34;https://github.com/remix-run/react-router/commit/44bce3c6f6887c0cede55f858f84235fa5e3edfe/hovercard&#34; href=&#34;https://github.com/remix-run/react-router/commit/44bce3c6f6887c0cede55f858f84235fa5e3edfe&#34;&gt;&lt;tt&gt;44bce3c&lt;/tt&gt;&lt;/a&gt;: Fix &lt;code&gt;react-router-dom&lt;/code&gt; peer dependency version&#xA;&lt;ul&gt;&#xA;&lt;li&gt;react-router@6.4.0-pre.6&lt;/li&gt;&#xA;&lt;li&gt;react-router-dom@6.4.0-pre.6&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/remix-run/react-router/releases/tag/react-router-dom-v5-compat%406.4.0-pre.6" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>github-actions[bot]</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from react-router - react-router-dom@6.4.0-pre.6</title>
-    <updated>2022-06-09T00:09:24Z</updated>
-    <id>tag:github.com,2008:Repository/19872456/react-router-dom@6.4.0-pre.6</id>
+    <id>tag:github.com,2008:Repository/19872456/react-router-native@6.4.0-pre.6</id>
     <content type="html">&lt;h3&gt;Patch Changes&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;react-router@6.4.0-pre.6&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/remix-run/react-router/releases/tag/react-router-dom%406.4.0-pre.6" rel="alternate"></link>
+    <link href="https://github.com/remix-run/react-router/releases/tag/react-router-native%406.4.0-pre.6" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>github-actions[bot]</name>
@@ -752,77 +763,11 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from chakra-ui - @chakra-ui/skeleton@2.0.6</title>
-    <updated>2022-06-07T12:13:42Z</updated>
-    <id>tag:github.com,2008:Repository/202890778/@chakra-ui/skeleton@2.0.6</id>
-    <content type="html">&lt;h3&gt;Patch Changes&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Updated dependencies&lt;br&gt;&#xA;[&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/commit/f9a84d6370f0f460f491c36c53077c2087eb7580&#34;&gt;&lt;code&gt;f9a84d637&lt;/code&gt;&lt;/a&gt;]:&#xA;&lt;ul&gt;&#xA;&lt;li&gt;@chakra-ui/system@2.1.3&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/chakra-ui/chakra-ui/releases/tag/%40chakra-ui%2Fskeleton%402.0.6" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>github-actions[bot]</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from chakra-ui - @chakra-ui/storybook-addon@4.0.1</title>
-    <updated>2022-06-07T12:13:42Z</updated>
-    <id>tag:github.com,2008:Repository/202890778/@chakra-ui/storybook-addon@4.0.1</id>
-    <content type="html">&lt;h3&gt;Patch Changes&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Updated dependencies []:&#xA;&lt;ul&gt;&#xA;&lt;li&gt;@chakra-ui/react@2.2.1&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/chakra-ui/chakra-ui/releases/tag/%40chakra-ui%2Fstorybook-addon%404.0.1" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>github-actions[bot]</name>
-    </author>
-  </entry>
-  <entry>
     <title>Release notes from chakra-ui - @chakra-ui/system@2.1.3</title>
     <updated>2022-06-07T12:13:42Z</updated>
     <id>tag:github.com,2008:Repository/202890778/@chakra-ui/system@2.1.3</id>
     <content type="html">&lt;h3&gt;Patch Changes&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/pull/6162&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/chakra-ui/chakra-ui/pull/6162/hovercard&#34;&gt;#6162&lt;/a&gt;&lt;br&gt;&#xA;&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/commit/f9a84d6370f0f460f491c36c53077c2087eb7580&#34;&gt;&lt;code&gt;f9a84d637&lt;/code&gt;&lt;/a&gt;&lt;br&gt;&#xA;Thanks &lt;a href=&#34;https://github.com/segunadebayo&#34;&gt;@segunadebayo&lt;/a&gt;! - Fixed a regression&lt;br&gt;&#xA;where useStyles and StylesProvider was removed from &lt;code&gt;@chakra-ui/system&lt;/code&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
     <link href="https://github.com/chakra-ui/chakra-ui/releases/tag/%40chakra-ui%2Fsystem%402.1.3" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>github-actions[bot]</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from chakra-ui - @chakra-ui/toast@2.1.0</title>
-    <updated>2022-06-07T12:13:42Z</updated>
-    <id>tag:github.com,2008:Repository/202890778/@chakra-ui/toast@2.1.0</id>
-    <content type="html">&lt;h3&gt;Minor Changes&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/pull/6159&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/chakra-ui/chakra-ui/pull/6159/hovercard&#34;&gt;#6159&lt;/a&gt;&lt;br&gt;&#xA;&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/commit/54acea27baf8a8ac4a9f5346d95fe6aecda92f74&#34;&gt;&lt;code&gt;54acea27b&lt;/code&gt;&lt;/a&gt;&lt;br&gt;&#xA;Thanks &lt;a href=&#34;https://github.com/segunadebayo&#34;&gt;@segunadebayo&lt;/a&gt;! - - Add support for&lt;br&gt;&#xA;&lt;code&gt;portalProps&lt;/code&gt; in toast provider. When using with the &lt;code&gt;ChakraProvider&lt;/code&gt;, this&lt;br&gt;&#xA;can be configure in the &lt;code&gt;toastOptions&lt;/code&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3&gt;Patch Changes&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Updated dependencies&lt;br&gt;&#xA;[&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/commit/f9a84d6370f0f460f491c36c53077c2087eb7580&#34;&gt;&lt;code&gt;f9a84d637&lt;/code&gt;&lt;/a&gt;]:&#xA;&lt;ul&gt;&#xA;&lt;li&gt;@chakra-ui/system@2.1.3&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/chakra-ui/chakra-ui/releases/tag/%40chakra-ui%2Ftoast%402.1.0" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>github-actions[bot]</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from chakra-ui - storybook-addon@2.0.7</title>
-    <updated>2022-06-07T12:13:42Z</updated>
-    <id>tag:github.com,2008:Repository/202890778/storybook-addon@2.0.7</id>
-    <content type="html">&lt;h3&gt;Patch Changes&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Updated dependencies []:&#xA;&lt;ul&gt;&#xA;&lt;li&gt;@chakra-ui/storybook-addon@4.0.1&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/chakra-ui/chakra-ui/releases/tag/storybook-addon%402.0.7" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>github-actions[bot]</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from chakra-ui - @chakra-ui/provider@2.0.6</title>
-    <updated>2022-06-07T12:13:42Z</updated>
-    <id>tag:github.com,2008:Repository/202890778/@chakra-ui/provider@2.0.6</id>
-    <content type="html">&lt;h3&gt;Patch Changes&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Updated dependencies&lt;br&gt;&#xA;[&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/commit/f9a84d6370f0f460f491c36c53077c2087eb7580&#34;&gt;&lt;code&gt;f9a84d637&lt;/code&gt;&lt;/a&gt;]:&#xA;&lt;ul&gt;&#xA;&lt;li&gt;@chakra-ui/system@2.1.3&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/chakra-ui/chakra-ui/releases/tag/%40chakra-ui%2Fprovider%402.0.6" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>github-actions[bot]</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from chakra-ui - @chakra-ui/props-docs@2.0.7</title>
-    <updated>2022-06-07T12:13:42Z</updated>
-    <id>tag:github.com,2008:Repository/202890778/@chakra-ui/props-docs@2.0.7</id>
-    <content type="html">&lt;h3&gt;Patch Changes&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Updated dependencies []:&#xA;&lt;ul&gt;&#xA;&lt;li&gt;@chakra-ui/react@2.2.1&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/chakra-ui/chakra-ui/releases/tag/%40chakra-ui%2Fprops-docs%402.0.7" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>github-actions[bot]</name>
@@ -840,6 +785,72 @@
     </author>
   </entry>
   <entry>
+    <title>Release notes from chakra-ui - @chakra-ui/skeleton@2.0.6</title>
+    <updated>2022-06-07T12:13:42Z</updated>
+    <id>tag:github.com,2008:Repository/202890778/@chakra-ui/skeleton@2.0.6</id>
+    <content type="html">&lt;h3&gt;Patch Changes&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Updated dependencies&lt;br&gt;&#xA;[&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/commit/f9a84d6370f0f460f491c36c53077c2087eb7580&#34;&gt;&lt;code&gt;f9a84d637&lt;/code&gt;&lt;/a&gt;]:&#xA;&lt;ul&gt;&#xA;&lt;li&gt;@chakra-ui/system@2.1.3&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/chakra-ui/chakra-ui/releases/tag/%40chakra-ui%2Fskeleton%402.0.6" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>github-actions[bot]</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from chakra-ui - storybook-addon@2.0.7</title>
+    <updated>2022-06-07T12:13:42Z</updated>
+    <id>tag:github.com,2008:Repository/202890778/storybook-addon@2.0.7</id>
+    <content type="html">&lt;h3&gt;Patch Changes&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Updated dependencies []:&#xA;&lt;ul&gt;&#xA;&lt;li&gt;@chakra-ui/storybook-addon@4.0.1&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/chakra-ui/chakra-ui/releases/tag/storybook-addon%402.0.7" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>github-actions[bot]</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from chakra-ui - @chakra-ui/props-docs@2.0.7</title>
+    <updated>2022-06-07T12:13:42Z</updated>
+    <id>tag:github.com,2008:Repository/202890778/@chakra-ui/props-docs@2.0.7</id>
+    <content type="html">&lt;h3&gt;Patch Changes&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Updated dependencies []:&#xA;&lt;ul&gt;&#xA;&lt;li&gt;@chakra-ui/react@2.2.1&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/chakra-ui/chakra-ui/releases/tag/%40chakra-ui%2Fprops-docs%402.0.7" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>github-actions[bot]</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from chakra-ui - @chakra-ui/storybook-addon@4.0.1</title>
+    <updated>2022-06-07T12:13:42Z</updated>
+    <id>tag:github.com,2008:Repository/202890778/@chakra-ui/storybook-addon@4.0.1</id>
+    <content type="html">&lt;h3&gt;Patch Changes&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Updated dependencies []:&#xA;&lt;ul&gt;&#xA;&lt;li&gt;@chakra-ui/react@2.2.1&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/chakra-ui/chakra-ui/releases/tag/%40chakra-ui%2Fstorybook-addon%404.0.1" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>github-actions[bot]</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from chakra-ui - @chakra-ui/toast@2.1.0</title>
+    <updated>2022-06-07T12:13:42Z</updated>
+    <id>tag:github.com,2008:Repository/202890778/@chakra-ui/toast@2.1.0</id>
+    <content type="html">&lt;h3&gt;Minor Changes&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/pull/6159&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/chakra-ui/chakra-ui/pull/6159/hovercard&#34;&gt;#6159&lt;/a&gt;&lt;br&gt;&#xA;&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/commit/54acea27baf8a8ac4a9f5346d95fe6aecda92f74&#34;&gt;&lt;code&gt;54acea27b&lt;/code&gt;&lt;/a&gt;&lt;br&gt;&#xA;Thanks &lt;a href=&#34;https://github.com/segunadebayo&#34;&gt;@segunadebayo&lt;/a&gt;! - - Add support for&lt;br&gt;&#xA;&lt;code&gt;portalProps&lt;/code&gt; in toast provider. When using with the &lt;code&gt;ChakraProvider&lt;/code&gt;, this&lt;br&gt;&#xA;can be configure in the &lt;code&gt;toastOptions&lt;/code&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3&gt;Patch Changes&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Updated dependencies&lt;br&gt;&#xA;[&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/commit/f9a84d6370f0f460f491c36c53077c2087eb7580&#34;&gt;&lt;code&gt;f9a84d637&lt;/code&gt;&lt;/a&gt;]:&#xA;&lt;ul&gt;&#xA;&lt;li&gt;@chakra-ui/system@2.1.3&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/chakra-ui/chakra-ui/releases/tag/%40chakra-ui%2Ftoast%402.1.0" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>github-actions[bot]</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from chakra-ui - @chakra-ui/provider@2.0.6</title>
+    <updated>2022-06-07T12:13:42Z</updated>
+    <id>tag:github.com,2008:Repository/202890778/@chakra-ui/provider@2.0.6</id>
+    <content type="html">&lt;h3&gt;Patch Changes&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Updated dependencies&lt;br&gt;&#xA;[&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/commit/f9a84d6370f0f460f491c36c53077c2087eb7580&#34;&gt;&lt;code&gt;f9a84d637&lt;/code&gt;&lt;/a&gt;]:&#xA;&lt;ul&gt;&#xA;&lt;li&gt;@chakra-ui/system@2.1.3&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/chakra-ui/chakra-ui/releases/tag/%40chakra-ui%2Fprovider%402.0.6" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>github-actions[bot]</name>
+    </author>
+  </entry>
+  <entry>
     <title>Release notes from casbin - v2.47.2</title>
     <updated>2022-06-07T10:15:40Z</updated>
     <id>tag:github.com,2008:Repository/87617508/v2.47.2</id>
@@ -851,22 +862,22 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from chakra-ui - @chakra-ui/visually-hidden@2.0.2</title>
+    <title>Release notes from chakra-ui - storybook-addon@2.0.6</title>
     <updated>2022-06-06T20:41:53Z</updated>
-    <id>tag:github.com,2008:Repository/202890778/@chakra-ui/visually-hidden@2.0.2</id>
-    <content type="html">&lt;h3&gt;Patch Changes&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/commit/06f29f8cdbb10ff1da523e0d0e958b9990d041e1&#34;&gt;&lt;code&gt;06f29f8cd&lt;/code&gt;&lt;/a&gt;&lt;br&gt;&#xA;Thanks &lt;a href=&#34;https://github.com/segunadebayo&#34;&gt;@segunadebayo&lt;/a&gt;! - Bump all packages&lt;br&gt;&#xA;to resolve deps issues&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Updated dependencies&lt;br&gt;&#xA;[&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/commit/06f29f8cdbb10ff1da523e0d0e958b9990d041e1&#34;&gt;&lt;code&gt;06f29f8cd&lt;/code&gt;&lt;/a&gt;]:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;@chakra-ui/utils@2.0.2&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/chakra-ui/chakra-ui/releases/tag/%40chakra-ui%2Fvisually-hidden%402.0.2" rel="alternate"></link>
+    <id>tag:github.com,2008:Repository/202890778/storybook-addon@2.0.6</id>
+    <content type="html">&lt;h3&gt;Patch Changes&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/commit/06f29f8cdbb10ff1da523e0d0e958b9990d041e1&#34;&gt;&lt;code&gt;06f29f8cd&lt;/code&gt;&lt;/a&gt;&lt;br&gt;&#xA;Thanks &lt;a href=&#34;https://github.com/segunadebayo&#34;&gt;@segunadebayo&lt;/a&gt;! - Bump all packages&lt;br&gt;&#xA;to resolve deps issues&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Updated dependencies&lt;br&gt;&#xA;[&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/commit/06f29f8cdbb10ff1da523e0d0e958b9990d041e1&#34;&gt;&lt;code&gt;06f29f8cd&lt;/code&gt;&lt;/a&gt;,&lt;br&gt;&#xA;&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/commit/06a09312a5c776350a81e099106be9afda5e8cdd&#34;&gt;&lt;code&gt;06a09312a&lt;/code&gt;&lt;/a&gt;]:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;@chakra-ui/storybook-addon@4.0.0&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/chakra-ui/chakra-ui/releases/tag/storybook-addon%402.0.6" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>github-actions[bot]</name>
     </author>
   </entry>
   <entry>
-    <title>Release notes from chakra-ui - storybook-addon@2.0.6</title>
+    <title>Release notes from chakra-ui - @chakra-ui/visually-hidden@2.0.2</title>
     <updated>2022-06-06T20:41:53Z</updated>
-    <id>tag:github.com,2008:Repository/202890778/storybook-addon@2.0.6</id>
-    <content type="html">&lt;h3&gt;Patch Changes&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/commit/06f29f8cdbb10ff1da523e0d0e958b9990d041e1&#34;&gt;&lt;code&gt;06f29f8cd&lt;/code&gt;&lt;/a&gt;&lt;br&gt;&#xA;Thanks &lt;a href=&#34;https://github.com/segunadebayo&#34;&gt;@segunadebayo&lt;/a&gt;! - Bump all packages&lt;br&gt;&#xA;to resolve deps issues&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Updated dependencies&lt;br&gt;&#xA;[&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/commit/06f29f8cdbb10ff1da523e0d0e958b9990d041e1&#34;&gt;&lt;code&gt;06f29f8cd&lt;/code&gt;&lt;/a&gt;,&lt;br&gt;&#xA;&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/commit/06a09312a5c776350a81e099106be9afda5e8cdd&#34;&gt;&lt;code&gt;06a09312a&lt;/code&gt;&lt;/a&gt;]:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;@chakra-ui/storybook-addon@4.0.0&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/chakra-ui/chakra-ui/releases/tag/storybook-addon%402.0.6" rel="alternate"></link>
+    <id>tag:github.com,2008:Repository/202890778/@chakra-ui/visually-hidden@2.0.2</id>
+    <content type="html">&lt;h3&gt;Patch Changes&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/commit/06f29f8cdbb10ff1da523e0d0e958b9990d041e1&#34;&gt;&lt;code&gt;06f29f8cd&lt;/code&gt;&lt;/a&gt;&lt;br&gt;&#xA;Thanks &lt;a href=&#34;https://github.com/segunadebayo&#34;&gt;@segunadebayo&lt;/a&gt;! - Bump all packages&lt;br&gt;&#xA;to resolve deps issues&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Updated dependencies&lt;br&gt;&#xA;[&lt;a href=&#34;https://github.com/chakra-ui/chakra-ui/commit/06f29f8cdbb10ff1da523e0d0e958b9990d041e1&#34;&gt;&lt;code&gt;06f29f8cd&lt;/code&gt;&lt;/a&gt;]:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;@chakra-ui/utils@2.0.2&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/chakra-ui/chakra-ui/releases/tag/%40chakra-ui%2Fvisually-hidden%402.0.2" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>github-actions[bot]</name>
@@ -983,22 +994,22 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from telepresence - rpc/v2.6.5-rc.0</title>
+    <title>Release notes from telepresence - v2.6.5-rc.0</title>
     <updated>2022-06-02T19:32:03Z</updated>
-    <id>tag:github.com,2008:Repository/82933315/rpc/v2.6.5-rc.0</id>
+    <id>tag:github.com,2008:Repository/82933315/v2.6.5-rc.0</id>
     <content type="html">&lt;p&gt;v2.6.5-rc.0&lt;/p&gt;</content>
-    <link href="https://github.com/telepresenceio/telepresence/releases/tag/rpc%2Fv2.6.5-rc.0" rel="alternate"></link>
+    <link href="https://github.com/telepresenceio/telepresence/releases/tag/v2.6.5-rc.0" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>njayp</name>
     </author>
   </entry>
   <entry>
-    <title>Release notes from telepresence - v2.6.5-rc.0</title>
+    <title>Release notes from telepresence - rpc/v2.6.5-rc.0</title>
     <updated>2022-06-02T19:32:03Z</updated>
-    <id>tag:github.com,2008:Repository/82933315/v2.6.5-rc.0</id>
+    <id>tag:github.com,2008:Repository/82933315/rpc/v2.6.5-rc.0</id>
     <content type="html">&lt;p&gt;v2.6.5-rc.0&lt;/p&gt;</content>
-    <link href="https://github.com/telepresenceio/telepresence/releases/tag/v2.6.5-rc.0" rel="alternate"></link>
+    <link href="https://github.com/telepresenceio/telepresence/releases/tag/rpc%2Fv2.6.5-rc.0" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>njayp</name>
@@ -4800,17 +4811,6 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from go-github - v39.1.0</title>
-    <updated>2021-09-23T16:43:50Z</updated>
-    <id>tag:github.com,2008:Repository/10270722/v39.1.0</id>
-    <content type="html">&lt;p&gt;This minor release contains the following changes:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Add test cases to verify that error responses contain status code (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;994608223&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/google/go-github/issues/2093&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/google/go-github/pull/2093/hovercard&#34; href=&#34;https://github.com/google/go-github/pull/2093&#34;&gt;#2093&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;Bump codecov/codecov-action from 2.0.3 to 2.1.0 (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;995228480&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/google/go-github/issues/2094&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/google/go-github/pull/2094/hovercard&#34; href=&#34;https://github.com/google/go-github/pull/2094&#34;&gt;#2094&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;Add common Installation field to webhook events (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1000411790&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/google/go-github/issues/2101&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/google/go-github/pull/2101/hovercard&#34; href=&#34;https://github.com/google/go-github/pull/2101&#34;&gt;#2101&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;Add pagination fields to code scanning (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1000303861&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/google/go-github/issues/2100&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/google/go-github/pull/2100/hovercard&#34; href=&#34;https://github.com/google/go-github/pull/2100&#34;&gt;#2100&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;Add BranchProtectionRuleEvent (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1003558903&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/google/go-github/issues/2102&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/google/go-github/pull/2102/hovercard&#34; href=&#34;https://github.com/google/go-github/pull/2102&#34;&gt;#2102&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/google/go-github/releases/tag/v39.1.0" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>gmlewis</name>
-    </author>
-  </entry>
-  <entry>
     <title>Release notes from delve - v1.7.2</title>
     <updated>2021-09-23T04:08:02Z</updated>
     <id>tag:github.com,2008:Repository/19994257/v1.7.2</id>
@@ -5878,22 +5878,22 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from triangula - v1.1.5</title>
+    <title>Release notes from triangula - v1.1.6</title>
     <updated>2021-05-11T13:31:09Z</updated>
-    <id>tag:github.com,2008:Repository/354015172/v1.1.5</id>
+    <id>tag:github.com,2008:Repository/354015172/v1.1.6</id>
     <content type="html">&lt;p&gt;Refactor for more flexibility&lt;/p&gt;</content>
-    <link href="https://github.com/rh12503/triangula/releases/tag/v1.1.5" rel="alternate"></link>
+    <link href="https://github.com/rh12503/triangula/releases/tag/v1.1.6" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>rh12503</name>
     </author>
   </entry>
   <entry>
-    <title>Release notes from triangula - v1.1.6</title>
+    <title>Release notes from triangula - v1.1.5</title>
     <updated>2021-05-11T13:31:09Z</updated>
-    <id>tag:github.com,2008:Repository/354015172/v1.1.6</id>
+    <id>tag:github.com,2008:Repository/354015172/v1.1.5</id>
     <content type="html">&lt;p&gt;Refactor for more flexibility&lt;/p&gt;</content>
-    <link href="https://github.com/rh12503/triangula/releases/tag/v1.1.6" rel="alternate"></link>
+    <link href="https://github.com/rh12503/triangula/releases/tag/v1.1.5" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>rh12503</name>
