@@ -48,22 +48,22 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from datadog-agent - 6.37.2-beta-ingrammicro: On a Windows docker host with many containers running, run pre-fetch …</title>
+    <title>Release notes from datadog-agent - 7.37.2-beta-ingrammicro: On a Windows docker host with many containers running, run pre-fetch …</title>
     <updated>2022-07-21T11:25:18Z</updated>
-    <id>tag:github.com,2008:Repository/49970739/6.37.2-beta-ingrammicro</id>
+    <id>tag:github.com,2008:Repository/49970739/7.37.2-beta-ingrammicro</id>
     <content type="html">&lt;p&gt;…in parallel (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1308802770&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/DataDog/datadog-agent/issues/12794&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/DataDog/datadog-agent/pull/12794/hovercard&#34; href=&#34;https://github.com/DataDog/datadog-agent/pull/12794&#34;&gt;#12794&lt;/a&gt;)&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;On Windows prefetch container info in parallel&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Add release note&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Remove call to GetAgentUTSMode on Windows&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Apply suggestions from code review&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Run gofmt&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Use Mutex instead of RWMutex&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Co-authored-by: Lénaïc Huard &lt;a href=&#34;mailto:L3n41c@users.noreply.github.com&#34;&gt;L3n41c@users.noreply.github.com&lt;/a&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Apply suggestion from code review&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Co-authored-by: Dustin J. Mitchell &lt;a href=&#34;mailto:dustin.mitchell@datadoghq.com&#34;&gt;dustin.mitchell@datadoghq.com&lt;/a&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Remove changes related to hostname&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Re-introduce skip UTS check on Windows&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Co-authored-by: Lénaïc Huard &lt;a href=&#34;mailto:L3n41c@users.noreply.github.com&#34;&gt;L3n41c@users.noreply.github.com&lt;/a&gt;&lt;br&gt;&#xA;Co-authored-by: Dustin J. Mitchell &lt;a href=&#34;mailto:dustin.mitchell@datadoghq.com&#34;&gt;dustin.mitchell@datadoghq.com&lt;/a&gt;&lt;br&gt;&#xA;Co-authored-by: Vincent Boulineau &lt;a href=&#34;mailto:vincent.boulineau@datadoghq.com&#34;&gt;vincent.boulineau@datadoghq.com&lt;/a&gt;&lt;/p&gt;</content>
-    <link href="https://github.com/DataDog/datadog-agent/releases/tag/6.37.2-beta-ingrammicro" rel="alternate"></link>
+    <link href="https://github.com/DataDog/datadog-agent/releases/tag/7.37.2-beta-ingrammicro" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>julien-lebot</name>
     </author>
   </entry>
   <entry>
-    <title>Release notes from datadog-agent - 7.37.2-beta-ingrammicro: On a Windows docker host with many containers running, run pre-fetch …</title>
+    <title>Release notes from datadog-agent - 6.37.2-beta-ingrammicro: On a Windows docker host with many containers running, run pre-fetch …</title>
     <updated>2022-07-21T11:25:18Z</updated>
-    <id>tag:github.com,2008:Repository/49970739/7.37.2-beta-ingrammicro</id>
+    <id>tag:github.com,2008:Repository/49970739/6.37.2-beta-ingrammicro</id>
     <content type="html">&lt;p&gt;…in parallel (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1308802770&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/DataDog/datadog-agent/issues/12794&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/DataDog/datadog-agent/pull/12794/hovercard&#34; href=&#34;https://github.com/DataDog/datadog-agent/pull/12794&#34;&gt;#12794&lt;/a&gt;)&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;On Windows prefetch container info in parallel&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Add release note&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Remove call to GetAgentUTSMode on Windows&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Apply suggestions from code review&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Run gofmt&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Use Mutex instead of RWMutex&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Co-authored-by: Lénaïc Huard &lt;a href=&#34;mailto:L3n41c@users.noreply.github.com&#34;&gt;L3n41c@users.noreply.github.com&lt;/a&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Apply suggestion from code review&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Co-authored-by: Dustin J. Mitchell &lt;a href=&#34;mailto:dustin.mitchell@datadoghq.com&#34;&gt;dustin.mitchell@datadoghq.com&lt;/a&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Remove changes related to hostname&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Re-introduce skip UTS check on Windows&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Co-authored-by: Lénaïc Huard &lt;a href=&#34;mailto:L3n41c@users.noreply.github.com&#34;&gt;L3n41c@users.noreply.github.com&lt;/a&gt;&lt;br&gt;&#xA;Co-authored-by: Dustin J. Mitchell &lt;a href=&#34;mailto:dustin.mitchell@datadoghq.com&#34;&gt;dustin.mitchell@datadoghq.com&lt;/a&gt;&lt;br&gt;&#xA;Co-authored-by: Vincent Boulineau &lt;a href=&#34;mailto:vincent.boulineau@datadoghq.com&#34;&gt;vincent.boulineau@datadoghq.com&lt;/a&gt;&lt;/p&gt;</content>
-    <link href="https://github.com/DataDog/datadog-agent/releases/tag/7.37.2-beta-ingrammicro" rel="alternate"></link>
+    <link href="https://github.com/DataDog/datadog-agent/releases/tag/6.37.2-beta-ingrammicro" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>julien-lebot</name>
@@ -356,22 +356,22 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from telepresence - rpc/v2.6.9-test.1</title>
+    <title>Release notes from telepresence - v2.6.9-test.1</title>
     <updated>2022-07-15T19:24:35Z</updated>
-    <id>tag:github.com,2008:Repository/82933315/rpc/v2.6.9-test.1</id>
+    <id>tag:github.com,2008:Repository/82933315/v2.6.9-test.1</id>
     <content type="html">&lt;p&gt;v2.6.9-test.1&lt;/p&gt;</content>
-    <link href="https://github.com/telepresenceio/telepresence/releases/tag/rpc%2Fv2.6.9-test.1" rel="alternate"></link>
+    <link href="https://github.com/telepresenceio/telepresence/releases/tag/v2.6.9-test.1" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>josecv</name>
     </author>
   </entry>
   <entry>
-    <title>Release notes from telepresence - v2.6.9-test.1</title>
+    <title>Release notes from telepresence - rpc/v2.6.9-test.1</title>
     <updated>2022-07-15T19:24:35Z</updated>
-    <id>tag:github.com,2008:Repository/82933315/v2.6.9-test.1</id>
+    <id>tag:github.com,2008:Repository/82933315/rpc/v2.6.9-test.1</id>
     <content type="html">&lt;p&gt;v2.6.9-test.1&lt;/p&gt;</content>
-    <link href="https://github.com/telepresenceio/telepresence/releases/tag/v2.6.9-test.1" rel="alternate"></link>
+    <link href="https://github.com/telepresenceio/telepresence/releases/tag/rpc%2Fv2.6.9-test.1" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>josecv</name>
@@ -895,6 +895,28 @@
     </author>
   </entry>
   <entry>
+    <title>Release notes from opentelemetry-operations-go - example/metric/v0.32.3</title>
+    <updated>2022-07-07T14:38:16Z</updated>
+    <id>tag:github.com,2008:Repository/244484581/example/metric/v0.32.3</id>
+    <content type="html">&lt;p&gt;Prepare release v1.8.3/0.32.3. (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1296015485&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/450&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleCloudPlatform/opentelemetry-operations-go/pull/450/hovercard&#34; href=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/pull/450&#34;&gt;#450&lt;/a&gt;)&lt;/p&gt;</content>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/example%2Fmetric%2Fv0.32.3" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>damemi</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from opentelemetry-operations-go - exporter/metric/v0.32.3</title>
+    <updated>2022-07-07T14:38:16Z</updated>
+    <id>tag:github.com,2008:Repository/244484581/exporter/metric/v0.32.3</id>
+    <content type="html">&lt;p&gt;Prepare release v1.8.3/0.32.3. (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1296015485&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/450&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleCloudPlatform/opentelemetry-operations-go/pull/450/hovercard&#34; href=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/pull/450&#34;&gt;#450&lt;/a&gt;)&lt;/p&gt;</content>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/exporter%2Fmetric%2Fv0.32.3" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>damemi</name>
+    </author>
+  </entry>
+  <entry>
     <title>Release notes from opentelemetry-operations-go - internal/resourcemapping/v0.32.3</title>
     <updated>2022-07-07T14:38:16Z</updated>
     <id>tag:github.com,2008:Repository/244484581/internal/resourcemapping/v0.32.3</id>
@@ -917,33 +939,11 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from opentelemetry-operations-go - exporter/metric/v0.32.3</title>
+    <title>Release notes from opentelemetry-operations-go - detectors/gcp/v0.32.3</title>
     <updated>2022-07-07T14:38:16Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/exporter/metric/v0.32.3</id>
+    <id>tag:github.com,2008:Repository/244484581/detectors/gcp/v0.32.3</id>
     <content type="html">&lt;p&gt;Prepare release v1.8.3/0.32.3. (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1296015485&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/450&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleCloudPlatform/opentelemetry-operations-go/pull/450/hovercard&#34; href=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/pull/450&#34;&gt;#450&lt;/a&gt;)&lt;/p&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/exporter%2Fmetric%2Fv0.32.3" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>damemi</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from opentelemetry-operations-go - example/metric/v0.32.3</title>
-    <updated>2022-07-07T14:38:16Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/example/metric/v0.32.3</id>
-    <content type="html">&lt;p&gt;Prepare release v1.8.3/0.32.3. (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1296015485&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/450&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleCloudPlatform/opentelemetry-operations-go/pull/450/hovercard&#34; href=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/pull/450&#34;&gt;#450&lt;/a&gt;)&lt;/p&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/example%2Fmetric%2Fv0.32.3" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>damemi</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from opentelemetry-operations-go - exporter/collector/googlemanagedprometheus/v0.32.3</title>
-    <updated>2022-07-07T14:38:16Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/exporter/collector/googlemanagedprometheus/v0.32.3</id>
-    <content type="html">&lt;p&gt;Prepare release v1.8.3/0.32.3. (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1296015485&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/450&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleCloudPlatform/opentelemetry-operations-go/pull/450/hovercard&#34; href=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/pull/450&#34;&gt;#450&lt;/a&gt;)&lt;/p&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/exporter%2Fcollector%2Fgooglemanagedprometheus%2Fv0.32.3" rel="alternate"></link>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/detectors%2Fgcp%2Fv0.32.3" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>damemi</name>
@@ -972,11 +972,11 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from opentelemetry-operations-go - detectors/gcp/v0.32.3</title>
+    <title>Release notes from opentelemetry-operations-go - exporter/collector/googlemanagedprometheus/v0.32.3</title>
     <updated>2022-07-07T14:38:16Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/detectors/gcp/v0.32.3</id>
+    <id>tag:github.com,2008:Repository/244484581/exporter/collector/googlemanagedprometheus/v0.32.3</id>
     <content type="html">&lt;p&gt;Prepare release v1.8.3/0.32.3. (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1296015485&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/450&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleCloudPlatform/opentelemetry-operations-go/pull/450/hovercard&#34; href=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/pull/450&#34;&gt;#450&lt;/a&gt;)&lt;/p&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/detectors%2Fgcp%2Fv0.32.3" rel="alternate"></link>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/exporter%2Fcollector%2Fgooglemanagedprometheus%2Fv0.32.3" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>damemi</name>
@@ -1258,22 +1258,22 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from telepresence - rpc/v2.6.8</title>
+    <title>Release notes from telepresence - v2.6.8</title>
     <updated>2022-06-23T21:32:03Z</updated>
-    <id>tag:github.com,2008:Repository/82933315/rpc/v2.6.8</id>
+    <id>tag:github.com,2008:Repository/82933315/v2.6.8</id>
     <content type="html">&lt;p&gt;v2.6.8&lt;/p&gt;</content>
-    <link href="https://github.com/telepresenceio/telepresence/releases/tag/rpc%2Fv2.6.8" rel="alternate"></link>
+    <link href="https://github.com/telepresenceio/telepresence/releases/tag/v2.6.8" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>njayp</name>
     </author>
   </entry>
   <entry>
-    <title>Release notes from telepresence - v2.6.8</title>
+    <title>Release notes from telepresence - rpc/v2.6.8</title>
     <updated>2022-06-23T21:32:03Z</updated>
-    <id>tag:github.com,2008:Repository/82933315/v2.6.8</id>
+    <id>tag:github.com,2008:Repository/82933315/rpc/v2.6.8</id>
     <content type="html">&lt;p&gt;v2.6.8&lt;/p&gt;</content>
-    <link href="https://github.com/telepresenceio/telepresence/releases/tag/v2.6.8" rel="alternate"></link>
+    <link href="https://github.com/telepresenceio/telepresence/releases/tag/rpc%2Fv2.6.8" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>njayp</name>
@@ -1291,22 +1291,22 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from telepresence - v2.6.8-rc.0</title>
+    <title>Release notes from telepresence - rpc/v2.6.8-rc.0</title>
     <updated>2022-06-23T19:48:13Z</updated>
-    <id>tag:github.com,2008:Repository/82933315/v2.6.8-rc.0</id>
+    <id>tag:github.com,2008:Repository/82933315/rpc/v2.6.8-rc.0</id>
     <content type="html">&lt;p&gt;v2.6.8-rc.0&lt;/p&gt;</content>
-    <link href="https://github.com/telepresenceio/telepresence/releases/tag/v2.6.8-rc.0" rel="alternate"></link>
+    <link href="https://github.com/telepresenceio/telepresence/releases/tag/rpc%2Fv2.6.8-rc.0" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>njayp</name>
     </author>
   </entry>
   <entry>
-    <title>Release notes from telepresence - rpc/v2.6.8-rc.0</title>
+    <title>Release notes from telepresence - v2.6.8-rc.0</title>
     <updated>2022-06-23T19:48:13Z</updated>
-    <id>tag:github.com,2008:Repository/82933315/rpc/v2.6.8-rc.0</id>
+    <id>tag:github.com,2008:Repository/82933315/v2.6.8-rc.0</id>
     <content type="html">&lt;p&gt;v2.6.8-rc.0&lt;/p&gt;</content>
-    <link href="https://github.com/telepresenceio/telepresence/releases/tag/rpc%2Fv2.6.8-rc.0" rel="alternate"></link>
+    <link href="https://github.com/telepresenceio/telepresence/releases/tag/v2.6.8-rc.0" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>njayp</name>
@@ -6043,22 +6043,22 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from triangula - v1.1.5</title>
+    <title>Release notes from triangula - v1.1.6</title>
     <updated>2021-05-11T13:31:09Z</updated>
-    <id>tag:github.com,2008:Repository/354015172/v1.1.5</id>
+    <id>tag:github.com,2008:Repository/354015172/v1.1.6</id>
     <content type="html">&lt;p&gt;Refactor for more flexibility&lt;/p&gt;</content>
-    <link href="https://github.com/rh12503/triangula/releases/tag/v1.1.5" rel="alternate"></link>
+    <link href="https://github.com/rh12503/triangula/releases/tag/v1.1.6" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>rh12503</name>
     </author>
   </entry>
   <entry>
-    <title>Release notes from triangula - v1.1.6</title>
+    <title>Release notes from triangula - v1.1.5</title>
     <updated>2021-05-11T13:31:09Z</updated>
-    <id>tag:github.com,2008:Repository/354015172/v1.1.6</id>
+    <id>tag:github.com,2008:Repository/354015172/v1.1.5</id>
     <content type="html">&lt;p&gt;Refactor for more flexibility&lt;/p&gt;</content>
-    <link href="https://github.com/rh12503/triangula/releases/tag/v1.1.6" rel="alternate"></link>
+    <link href="https://github.com/rh12503/triangula/releases/tag/v1.1.5" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>rh12503</name>
@@ -6824,22 +6824,22 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from backoff - v2.0.2: Merge pull request #18 from lestrrat-go/topic/fix-v2-go-mod</title>
+    <title>Release notes from backoff - v2.0.3: Merge pull request #18 from lestrrat-go/topic/fix-v2-go-mod</title>
     <updated>2021-01-06T03:00:05Z</updated>
-    <id>tag:github.com,2008:Repository/118608673/v2.0.2</id>
+    <id>tag:github.com,2008:Repository/118608673/v2.0.3</id>
     <content type="html">&lt;p&gt;Fix go.mod&lt;/p&gt;</content>
-    <link href="https://github.com/lestrrat-go/backoff/releases/tag/v2.0.2" rel="alternate"></link>
+    <link href="https://github.com/lestrrat-go/backoff/releases/tag/v2.0.3" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>lestrrat</name>
     </author>
   </entry>
   <entry>
-    <title>Release notes from backoff - v2.0.3: Merge pull request #18 from lestrrat-go/topic/fix-v2-go-mod</title>
+    <title>Release notes from backoff - v2.0.2: Merge pull request #18 from lestrrat-go/topic/fix-v2-go-mod</title>
     <updated>2021-01-06T03:00:05Z</updated>
-    <id>tag:github.com,2008:Repository/118608673/v2.0.3</id>
+    <id>tag:github.com,2008:Repository/118608673/v2.0.2</id>
     <content type="html">&lt;p&gt;Fix go.mod&lt;/p&gt;</content>
-    <link href="https://github.com/lestrrat-go/backoff/releases/tag/v2.0.3" rel="alternate"></link>
+    <link href="https://github.com/lestrrat-go/backoff/releases/tag/v2.0.2" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>lestrrat</name>
