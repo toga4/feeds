@@ -1,8 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?><feed xmlns="http://www.w3.org/2005/Atom">
   <title>Releases from Starred by toga4</title>
   <id>https://toga4.github.io/feeds/starred-releases.atom</id>
-  <updated>2022-07-21T13:17:16Z</updated>
+  <updated>2022-07-21T14:07:19Z</updated>
   <link href="https://toga4.github.io/feeds/starred-releases.atom"></link>
+  <entry>
+    <title>Release notes from fzf - 0.31.0</title>
+    <updated>2022-07-21T14:07:19Z</updated>
+    <id>tag:github.com,2008:Repository/13807606/0.31.0</id>
+    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;Added support for an alternative preview window layout that is activated&lt;br&gt;&#xA;when the size of the preview window is smaller than a certain threshold.&#xA;&lt;div class=&#34;highlight highlight-source-shell notranslate position-relative overflow-auto&#34; data-snippet-clipboard-copy-content=&#34;# If the width of the preview window is smaller than 50 columns,&#xA;# it will be displayed above the search window.&#xA;fzf --preview &#39;cat {}&#39; --preview-window &#39;right,50%,border-left,&amp;lt;50(up,30%,border-bottom)&#39;&#xA;&#xA;# Or you can just hide it like so&#xA;fzf --preview &#39;cat {}&#39; --preview-window &#39;&amp;lt;50(hidden)&#39;&#34;&gt;&lt;pre&gt;&lt;span class=&#34;pl-c&#34;&gt;&lt;span class=&#34;pl-c&#34;&gt;#&lt;/span&gt; If the width of the preview window is smaller than 50 columns,&lt;/span&gt;&#xA;&lt;span class=&#34;pl-c&#34;&gt;&lt;span class=&#34;pl-c&#34;&gt;#&lt;/span&gt; it will be displayed above the search window.&lt;/span&gt;&#xA;fzf --preview &lt;span class=&#34;pl-s&#34;&gt;&lt;span class=&#34;pl-pds&#34;&gt;&#39;&lt;/span&gt;cat {}&lt;span class=&#34;pl-pds&#34;&gt;&#39;&lt;/span&gt;&lt;/span&gt; --preview-window &lt;span class=&#34;pl-s&#34;&gt;&lt;span class=&#34;pl-pds&#34;&gt;&#39;&lt;/span&gt;right,50%,border-left,&amp;lt;50(up,30%,border-bottom)&lt;span class=&#34;pl-pds&#34;&gt;&#39;&lt;/span&gt;&lt;/span&gt;&#xA;&#xA;&lt;span class=&#34;pl-c&#34;&gt;&lt;span class=&#34;pl-c&#34;&gt;#&lt;/span&gt; Or you can just hide it like so&lt;/span&gt;&#xA;fzf --preview &lt;span class=&#34;pl-s&#34;&gt;&lt;span class=&#34;pl-pds&#34;&gt;&#39;&lt;/span&gt;cat {}&lt;span class=&#34;pl-pds&#34;&gt;&#39;&lt;/span&gt;&lt;/span&gt; --preview-window &lt;span class=&#34;pl-s&#34;&gt;&lt;span class=&#34;pl-pds&#34;&gt;&#39;&lt;/span&gt;&amp;lt;50(hidden)&lt;span class=&#34;pl-pds&#34;&gt;&#39;&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;fzf now uses SGR mouse mode to properly support mouse on larger terminals&lt;/li&gt;&#xA;&lt;li&gt;You can now use characters that do not satisfy &lt;code&gt;unicode.IsGraphic&lt;/code&gt; constraint&lt;br&gt;&#xA;for &lt;code&gt;--marker&lt;/code&gt;, &lt;code&gt;--pointer&lt;/code&gt;, and &lt;code&gt;--ellipsis&lt;/code&gt;. Allows Nerd Fonts and stuff.&lt;br&gt;&#xA;Use at your own risk.&lt;/li&gt;&#xA;&lt;li&gt;Bug fixes and improvements&lt;/li&gt;&#xA;&lt;li&gt;Shell extension&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;code&gt;kill&lt;/code&gt; completion now requires trigger sequence (&lt;code&gt;**&lt;/code&gt;) for consistency&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/junegunn/fzf/releases/tag/0.31.0" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>junegunn</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from datadog-agent - 7.38.0</title>
+    <updated>2022-07-21T13:37:26Z</updated>
+    <id>tag:github.com,2008:Repository/49970739/7.38.0</id>
+    <content type="html">&lt;p&gt;7.38.0&lt;/p&gt;</content>
+    <link href="https://github.com/DataDog/datadog-agent/releases/tag/7.38.0" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>kacper-murzyn</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from datadog-agent - 6.38.0</title>
+    <updated>2022-07-21T13:37:24Z</updated>
+    <id>tag:github.com,2008:Repository/49970739/6.38.0</id>
+    <content type="html">&lt;p&gt;6.38.0&lt;/p&gt;</content>
+    <link href="https://github.com/DataDog/datadog-agent/releases/tag/6.38.0" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>kacper-murzyn</name>
+    </author>
+  </entry>
   <entry>
     <title>Release notes from syft - v0.52.0</title>
     <updated>2022-07-21T13:17:16Z</updated>
@@ -92,33 +125,11 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from datadog-agent - pkg/otlp/model/v0.38.0-rc.6</title>
-    <updated>2022-07-20T17:38:18Z</updated>
-    <id>tag:github.com,2008:Repository/49970739/pkg/otlp/model/v0.38.0-rc.6</id>
-    <content type="html">&lt;p&gt;pkg/otlp/model/v0.38.0-rc.6&lt;/p&gt;</content>
-    <link href="https://github.com/DataDog/datadog-agent/releases/tag/pkg%2Fotlp%2Fmodel%2Fv0.38.0-rc.6" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>kacper-murzyn</name>
-    </author>
-  </entry>
-  <entry>
     <title>Release notes from datadog-agent - pkg/trace/v0.38.0-rc.6</title>
     <updated>2022-07-20T17:38:16Z</updated>
     <id>tag:github.com,2008:Repository/49970739/pkg/trace/v0.38.0-rc.6</id>
     <content type="html">&lt;p&gt;pkg/trace/v0.38.0-rc.6&lt;/p&gt;</content>
     <link href="https://github.com/DataDog/datadog-agent/releases/tag/pkg%2Ftrace%2Fv0.38.0-rc.6" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>kacper-murzyn</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from datadog-agent - pkg/quantile/v0.38.0-rc.6</title>
-    <updated>2022-07-20T17:38:13Z</updated>
-    <id>tag:github.com,2008:Repository/49970739/pkg/quantile/v0.38.0-rc.6</id>
-    <content type="html">&lt;p&gt;pkg/quantile/v0.38.0-rc.6&lt;/p&gt;</content>
-    <link href="https://github.com/DataDog/datadog-agent/releases/tag/pkg%2Fquantile%2Fv0.38.0-rc.6" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>kacper-murzyn</name>
@@ -664,22 +675,22 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from opentelemetry-go-contrib - samplers/jaegerremote/v0.3.0</title>
+    <title>Release notes from opentelemetry-go-contrib - samplers/jaegerremote/example/v0.3.0</title>
     <updated>2022-07-08T20:32:45Z</updated>
-    <id>tag:github.com,2008:Repository/242202166/samplers/jaegerremote/v0.3.0</id>
+    <id>tag:github.com,2008:Repository/242202166/samplers/jaegerremote/example/v0.3.0</id>
     <content type="html">&lt;p&gt;Module set experimental-samplers, Version v0.3.0&lt;/p&gt;</content>
-    <link href="https://github.com/open-telemetry/opentelemetry-go-contrib/releases/tag/samplers%2Fjaegerremote%2Fv0.3.0" rel="alternate"></link>
+    <link href="https://github.com/open-telemetry/opentelemetry-go-contrib/releases/tag/samplers%2Fjaegerremote%2Fexample%2Fv0.3.0" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>Aneurysm9</name>
     </author>
   </entry>
   <entry>
-    <title>Release notes from opentelemetry-go-contrib - samplers/jaegerremote/example/v0.3.0</title>
+    <title>Release notes from opentelemetry-go-contrib - samplers/jaegerremote/v0.3.0</title>
     <updated>2022-07-08T20:32:45Z</updated>
-    <id>tag:github.com,2008:Repository/242202166/samplers/jaegerremote/example/v0.3.0</id>
+    <id>tag:github.com,2008:Repository/242202166/samplers/jaegerremote/v0.3.0</id>
     <content type="html">&lt;p&gt;Module set experimental-samplers, Version v0.3.0&lt;/p&gt;</content>
-    <link href="https://github.com/open-telemetry/opentelemetry-go-contrib/releases/tag/samplers%2Fjaegerremote%2Fexample%2Fv0.3.0" rel="alternate"></link>
+    <link href="https://github.com/open-telemetry/opentelemetry-go-contrib/releases/tag/samplers%2Fjaegerremote%2Fv0.3.0" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>Aneurysm9</name>
@@ -884,44 +895,11 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from opentelemetry-operations-go - exporter/metric/v0.32.3</title>
-    <updated>2022-07-07T14:38:16Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/exporter/metric/v0.32.3</id>
-    <content type="html">&lt;p&gt;Prepare release v1.8.3/0.32.3. (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1296015485&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/450&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleCloudPlatform/opentelemetry-operations-go/pull/450/hovercard&#34; href=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/pull/450&#34;&gt;#450&lt;/a&gt;)&lt;/p&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/exporter%2Fmetric%2Fv0.32.3" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>damemi</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from opentelemetry-operations-go - exporter/trace/v1.8.3</title>
-    <updated>2022-07-07T14:38:16Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/exporter/trace/v1.8.3</id>
-    <content type="html">&lt;p&gt;Prepare release v1.8.3/0.32.3. (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1296015485&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/450&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleCloudPlatform/opentelemetry-operations-go/pull/450/hovercard&#34; href=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/pull/450&#34;&gt;#450&lt;/a&gt;)&lt;/p&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/exporter%2Ftrace%2Fv1.8.3" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>damemi</name>
-    </author>
-  </entry>
-  <entry>
     <title>Release notes from opentelemetry-operations-go - detectors/gcp/v0.32.3</title>
     <updated>2022-07-07T14:38:16Z</updated>
     <id>tag:github.com,2008:Repository/244484581/detectors/gcp/v0.32.3</id>
     <content type="html">&lt;p&gt;Prepare release v1.8.3/0.32.3. (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1296015485&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/450&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleCloudPlatform/opentelemetry-operations-go/pull/450/hovercard&#34; href=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/pull/450&#34;&gt;#450&lt;/a&gt;)&lt;/p&gt;</content>
     <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/detectors%2Fgcp%2Fv0.32.3" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>damemi</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from opentelemetry-operations-go - example/metric/v0.32.3</title>
-    <updated>2022-07-07T14:38:16Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/example/metric/v0.32.3</id>
-    <content type="html">&lt;p&gt;Prepare release v1.8.3/0.32.3. (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1296015485&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/450&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleCloudPlatform/opentelemetry-operations-go/pull/450/hovercard&#34; href=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/pull/450&#34;&gt;#450&lt;/a&gt;)&lt;/p&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/example%2Fmetric%2Fv0.32.3" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>damemi</name>
@@ -966,6 +944,39 @@
     <id>tag:github.com,2008:Repository/244484581/internal/resourcemapping/v0.32.3</id>
     <content type="html">&lt;p&gt;Prepare release v1.8.3/0.32.3. (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1296015485&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/450&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleCloudPlatform/opentelemetry-operations-go/pull/450/hovercard&#34; href=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/pull/450&#34;&gt;#450&lt;/a&gt;)&lt;/p&gt;</content>
     <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/internal%2Fresourcemapping%2Fv0.32.3" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>damemi</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from opentelemetry-operations-go - exporter/metric/v0.32.3</title>
+    <updated>2022-07-07T14:38:16Z</updated>
+    <id>tag:github.com,2008:Repository/244484581/exporter/metric/v0.32.3</id>
+    <content type="html">&lt;p&gt;Prepare release v1.8.3/0.32.3. (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1296015485&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/450&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleCloudPlatform/opentelemetry-operations-go/pull/450/hovercard&#34; href=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/pull/450&#34;&gt;#450&lt;/a&gt;)&lt;/p&gt;</content>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/exporter%2Fmetric%2Fv0.32.3" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>damemi</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from opentelemetry-operations-go - example/metric/v0.32.3</title>
+    <updated>2022-07-07T14:38:16Z</updated>
+    <id>tag:github.com,2008:Repository/244484581/example/metric/v0.32.3</id>
+    <content type="html">&lt;p&gt;Prepare release v1.8.3/0.32.3. (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1296015485&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/450&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleCloudPlatform/opentelemetry-operations-go/pull/450/hovercard&#34; href=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/pull/450&#34;&gt;#450&lt;/a&gt;)&lt;/p&gt;</content>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/example%2Fmetric%2Fv0.32.3" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>damemi</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from opentelemetry-operations-go - exporter/trace/v1.8.3</title>
+    <updated>2022-07-07T14:38:16Z</updated>
+    <id>tag:github.com,2008:Repository/244484581/exporter/trace/v1.8.3</id>
+    <content type="html">&lt;p&gt;Prepare release v1.8.3/0.32.3. (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1296015485&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/450&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleCloudPlatform/opentelemetry-operations-go/pull/450/hovercard&#34; href=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/pull/450&#34;&gt;#450&lt;/a&gt;)&lt;/p&gt;</content>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/exporter%2Ftrace%2Fv1.8.3" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>damemi</name>
@@ -6813,22 +6824,22 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from backoff - v2.0.2: Merge pull request #18 from lestrrat-go/topic/fix-v2-go-mod</title>
+    <title>Release notes from backoff - v2.0.3: Merge pull request #18 from lestrrat-go/topic/fix-v2-go-mod</title>
     <updated>2021-01-06T03:00:05Z</updated>
-    <id>tag:github.com,2008:Repository/118608673/v2.0.2</id>
+    <id>tag:github.com,2008:Repository/118608673/v2.0.3</id>
     <content type="html">&lt;p&gt;Fix go.mod&lt;/p&gt;</content>
-    <link href="https://github.com/lestrrat-go/backoff/releases/tag/v2.0.2" rel="alternate"></link>
+    <link href="https://github.com/lestrrat-go/backoff/releases/tag/v2.0.3" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>lestrrat</name>
     </author>
   </entry>
   <entry>
-    <title>Release notes from backoff - v2.0.3: Merge pull request #18 from lestrrat-go/topic/fix-v2-go-mod</title>
+    <title>Release notes from backoff - v2.0.2: Merge pull request #18 from lestrrat-go/topic/fix-v2-go-mod</title>
     <updated>2021-01-06T03:00:05Z</updated>
-    <id>tag:github.com,2008:Repository/118608673/v2.0.3</id>
+    <id>tag:github.com,2008:Repository/118608673/v2.0.2</id>
     <content type="html">&lt;p&gt;Fix go.mod&lt;/p&gt;</content>
-    <link href="https://github.com/lestrrat-go/backoff/releases/tag/v2.0.3" rel="alternate"></link>
+    <link href="https://github.com/lestrrat-go/backoff/releases/tag/v2.0.2" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>lestrrat</name>
@@ -6876,17 +6887,6 @@
     <summary type="html"></summary>
     <author>
       <name>lestrrat</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from fzf - 0.25.0</title>
-    <updated>2021-01-02T19:10:59Z</updated>
-    <id>tag:github.com,2008:Repository/13807606/0.25.0</id>
-    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Text attributes set in &lt;code&gt;--color&lt;/code&gt; are not reset when fzf sees another&lt;br&gt;&#xA;&lt;code&gt;--color&lt;/code&gt; option for the same element. This allows you to put custom text&lt;br&gt;&#xA;attributes in your &lt;code&gt;$FZF_DEFAULT_OPTS&lt;/code&gt; and still have those attributes&lt;br&gt;&#xA;even when you override the colors.&lt;/p&gt;&#xA;&lt;div class=&#34;highlight highlight-source-shell notranslate position-relative overflow-auto&#34; data-snippet-clipboard-copy-content=&#34;# Default colors and attributes&#xA;fzf&#xA;&#xA;# Apply custom text attributes&#xA;export FZF_DEFAULT_OPTS=&#39;--color fg+:italic,hl:-1:underline,hl+:-1:reverse:underline&#39;&#xA;&#xA;fzf&#xA;&#xA;# Different colors but you still have the attributes&#xA;fzf --color hl:176,hl+:177&#xA;&#xA;# Write &amp;quot;regular&amp;quot; if you want to clear the attributes&#xA;fzf --color hl:176:regular,hl+:177:regular&#34;&gt;&lt;pre&gt;&lt;span class=&#34;pl-c&#34;&gt;&lt;span class=&#34;pl-c&#34;&gt;#&lt;/span&gt; Default colors and attributes&lt;/span&gt;&#xA;fzf&#xA;&#xA;&lt;span class=&#34;pl-c&#34;&gt;&lt;span class=&#34;pl-c&#34;&gt;#&lt;/span&gt; Apply custom text attributes&lt;/span&gt;&#xA;&lt;span class=&#34;pl-k&#34;&gt;export&lt;/span&gt; FZF_DEFAULT_OPTS=&lt;span class=&#34;pl-s&#34;&gt;&lt;span class=&#34;pl-pds&#34;&gt;&#39;&lt;/span&gt;--color fg+:italic,hl:-1:underline,hl+:-1:reverse:underline&lt;span class=&#34;pl-pds&#34;&gt;&#39;&lt;/span&gt;&lt;/span&gt;&#xA;&#xA;fzf&#xA;&#xA;&lt;span class=&#34;pl-c&#34;&gt;&lt;span class=&#34;pl-c&#34;&gt;#&lt;/span&gt; Different colors but you still have the attributes&lt;/span&gt;&#xA;fzf --color hl:176,hl+:177&#xA;&#xA;&lt;span class=&#34;pl-c&#34;&gt;&lt;span class=&#34;pl-c&#34;&gt;#&lt;/span&gt; Write &#34;regular&#34; if you want to clear the attributes&lt;/span&gt;&#xA;fzf --color hl:176:regular,hl+:177:regular&lt;/pre&gt;&lt;/div&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Renamed &lt;code&gt;--phony&lt;/code&gt; to &lt;code&gt;--disabled&lt;/code&gt;&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;You can dynamically enable and disable the search functionality using the&lt;br&gt;&#xA;new &lt;code&gt;enable-search&lt;/code&gt;, &lt;code&gt;disable-search&lt;/code&gt;, and &lt;code&gt;toggle-search&lt;/code&gt; actions&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;You can assign a different color to the query string for when search is disabled&lt;/p&gt;&#xA;&lt;div class=&#34;highlight highlight-source-shell notranslate position-relative overflow-auto&#34; data-snippet-clipboard-copy-content=&#34;fzf --color query:#ffffff,disabled:#999999 --bind space:toggle-search&#34;&gt;&lt;pre&gt;fzf --color query:&lt;span class=&#34;pl-c&#34;&gt;&lt;span class=&#34;pl-c&#34;&gt;#&lt;/span&gt;ffffff,disabled:#999999 --bind space:toggle-search&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Added &lt;code&gt;last&lt;/code&gt; action to move the cursor to the last match&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;The opposite action &lt;code&gt;top&lt;/code&gt; is renamed to &lt;code&gt;first&lt;/code&gt;, but &lt;code&gt;top&lt;/code&gt; is still&lt;br&gt;&#xA;recognized as a synonym for backward compatibility&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Added &lt;code&gt;preview-top&lt;/code&gt; and &lt;code&gt;preview-bottom&lt;/code&gt; actions&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Extended support for alt key chords: alt with any case-sensitive single character&lt;/p&gt;&#xA;&lt;div class=&#34;highlight highlight-source-shell notranslate position-relative overflow-auto&#34; data-snippet-clipboard-copy-content=&#34;fzf --bind alt-,:first,alt-.:last&#34;&gt;&lt;pre&gt;fzf --bind alt-,:first,alt-.:last&lt;/pre&gt;&lt;/div&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/junegunn/fzf/releases/tag/0.25.0" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>junegunn</name>
     </author>
   </entry>
   <entry>
