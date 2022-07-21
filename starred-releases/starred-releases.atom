@@ -1,8 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?><feed xmlns="http://www.w3.org/2005/Atom">
   <title>Releases from Starred by toga4</title>
   <id>https://toga4.github.io/feeds/starred-releases.atom</id>
-  <updated>2022-07-20T18:14:29Z</updated>
+  <updated>2022-07-21T09:25:43Z</updated>
   <link href="https://toga4.github.io/feeds/starred-releases.atom"></link>
+  <entry>
+    <title>Release notes from datadog-agent - 7.37.1-debug-windows-service-start</title>
+    <updated>2022-07-21T09:25:43Z</updated>
+    <id>tag:github.com,2008:Repository/49970739/7.37.1-debug-windows-service-start</id>
+    <content type="html">&lt;p&gt;7.37.1-debug-windows-service-start&lt;/p&gt;</content>
+    <link href="https://github.com/DataDog/datadog-agent/releases/tag/7.37.1-debug-windows-service-start" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>ogaca-dd</name>
+    </author>
+  </entry>
   <entry>
     <title>Release notes from google-cloud-go - storage: v1.24.0</title>
     <updated>2022-07-20T18:14:29Z</updated>
@@ -158,17 +169,6 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from datadog-agent - Datadog Cluster Agent 1.20.0</title>
-    <updated>2022-07-19T16:03:01Z</updated>
-    <id>tag:github.com,2008:Repository/49970739/dca-1.20.0</id>
-    <content type="html">&lt;h2&gt;Prelude&lt;/h2&gt;&#xA;&lt;p&gt;Released on: 2022-05-22&lt;br&gt;&#xA;Pinned to datadog-agent v7.36.0: &lt;a href=&#34;https://github.com/DataDog/datadog-agent/blob/main/CHANGELOG.rst#7360--6360&#34;&gt;CHANGELOG&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h2&gt;New Features&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;The Datadog Admission Controller supports multiple configuration injection&lt;br&gt;&#xA;modes through the &lt;code&gt;admission_controller.inject_config.mode&lt;/code&gt; parameter&lt;br&gt;&#xA;or the &lt;code&gt;DD_ADMISSION_CONTROLLER_INJECT_CONFIG_MODE&lt;/code&gt; environment variable:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;code&gt;hostip&lt;/code&gt;: Inject the host IP. (default)&lt;/li&gt;&#xA;&lt;li&gt;&lt;code&gt;service&lt;/code&gt;: Inject Datadog&#39;s local-service DNS name.&lt;/li&gt;&#xA;&lt;li&gt;&lt;code&gt;socket&lt;/code&gt;: Inject the Datadog socket path.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Collect ResourceRequirements for jobs and cronjobs for kubernetes live containers.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2&gt;Enhancement Notes&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Added a configuration option to admission controller to allow&lt;br&gt;&#xA;configuration of the failure policy. Defaults to Ignore which&lt;br&gt;&#xA;was the previous default. The default of Ignore means that pods&lt;br&gt;&#xA;will still be admitted even if the webhook is unavailable to&lt;br&gt;&#xA;inject them. Setting to Fail will require the admission controller&lt;br&gt;&#xA;to be present and pods to be injected before they are allowed to run.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;The admission controller&#39;s reinvocation policy is now set to &lt;code&gt;IfNeeded&lt;/code&gt; by default.&lt;br&gt;&#xA;It can be changed using the &lt;code&gt;admission_controller.reinvocation_policy&lt;/code&gt; parameter.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;The Datadog Cluster Agent now supports internal profiling.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;KSM core check: add a new &lt;code&gt;kubernetes_state.cronjob.complete&lt;/code&gt;&lt;br&gt;&#xA;service check that returns the status of the most recent job for&lt;br&gt;&#xA;a cronjob.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2&gt;Security Notes&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Cluster Agent API (only used by Node Agents) is now only server with TLS &amp;gt;= 1.3 by default. Setting &#34;cluster_agent.allow_legacy_tls&#34; to true allows to fallback to TLS 1.0.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2&gt;Bug Fixes&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Fix the node count reported for Kubernetes clusters.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Fixed an issue that created lots of log messages when the DCA admission controller was enabled on AKS.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Time-based metrics (for example, &lt;code&gt;kubernetes_state.pod.age&lt;/code&gt;, &lt;code&gt;kubernetes_state.pod.uptime&lt;/code&gt;) are now comparable in the Kubernetes state core check.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Fix a risk of panic when multiple KSM Core check instances run concurrently.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Remove noisy Kubernetes API deprecation warnings in the Cluster Agent logs.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2&gt;Other Notes&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Change the default value of the external metrics provider port from 443 to 8443.&lt;br&gt;&#xA;This will allow to run the cluster agent with a non-root user for better security.&lt;br&gt;&#xA;This was already the default value in the Helm chart and in the datadog operator.&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/DataDog/datadog-agent/releases/tag/dca-1.20.0" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>vboulineau</name>
-    </author>
-  </entry>
-  <entry>
     <title>Release notes from build-push-action - v3.1.0</title>
     <updated>2022-07-19T15:07:29Z</updated>
     <id>tag:github.com,2008:Repository/241092383/v3.1.0</id>
@@ -301,22 +301,22 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from telepresence - v2.6.9-test.2</title>
+    <title>Release notes from telepresence - rpc/v2.6.9-test.2</title>
     <updated>2022-07-15T19:31:53Z</updated>
-    <id>tag:github.com,2008:Repository/82933315/v2.6.9-test.2</id>
+    <id>tag:github.com,2008:Repository/82933315/rpc/v2.6.9-test.2</id>
     <content type="html">&lt;p&gt;v2.6.9-test.2&lt;/p&gt;</content>
-    <link href="https://github.com/telepresenceio/telepresence/releases/tag/v2.6.9-test.2" rel="alternate"></link>
+    <link href="https://github.com/telepresenceio/telepresence/releases/tag/rpc%2Fv2.6.9-test.2" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>josecv</name>
     </author>
   </entry>
   <entry>
-    <title>Release notes from telepresence - rpc/v2.6.9-test.2</title>
+    <title>Release notes from telepresence - v2.6.9-test.2</title>
     <updated>2022-07-15T19:31:53Z</updated>
-    <id>tag:github.com,2008:Repository/82933315/rpc/v2.6.9-test.2</id>
+    <id>tag:github.com,2008:Repository/82933315/v2.6.9-test.2</id>
     <content type="html">&lt;p&gt;v2.6.9-test.2&lt;/p&gt;</content>
-    <link href="https://github.com/telepresenceio/telepresence/releases/tag/rpc%2Fv2.6.9-test.2" rel="alternate"></link>
+    <link href="https://github.com/telepresenceio/telepresence/releases/tag/v2.6.9-test.2" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>josecv</name>
@@ -345,22 +345,22 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from telepresence - v2.6.9-test.0</title>
+    <title>Release notes from telepresence - rpc/v2.6.9-test.0</title>
     <updated>2022-07-15T19:18:00Z</updated>
-    <id>tag:github.com,2008:Repository/82933315/v2.6.9-test.0</id>
+    <id>tag:github.com,2008:Repository/82933315/rpc/v2.6.9-test.0</id>
     <content type="html">&lt;p&gt;v2.6.9-test.0&lt;/p&gt;</content>
-    <link href="https://github.com/telepresenceio/telepresence/releases/tag/v2.6.9-test.0" rel="alternate"></link>
+    <link href="https://github.com/telepresenceio/telepresence/releases/tag/rpc%2Fv2.6.9-test.0" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>josecv</name>
     </author>
   </entry>
   <entry>
-    <title>Release notes from telepresence - rpc/v2.6.9-test.0</title>
+    <title>Release notes from telepresence - v2.6.9-test.0</title>
     <updated>2022-07-15T19:18:00Z</updated>
-    <id>tag:github.com,2008:Repository/82933315/rpc/v2.6.9-test.0</id>
+    <id>tag:github.com,2008:Repository/82933315/v2.6.9-test.0</id>
     <content type="html">&lt;p&gt;v2.6.9-test.0&lt;/p&gt;</content>
-    <link href="https://github.com/telepresenceio/telepresence/releases/tag/rpc%2Fv2.6.9-test.0" rel="alternate"></link>
+    <link href="https://github.com/telepresenceio/telepresence/releases/tag/v2.6.9-test.0" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>josecv</name>
@@ -642,22 +642,22 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from opentelemetry-go-contrib - samplers/jaegerremote/v0.3.0</title>
+    <title>Release notes from opentelemetry-go-contrib - samplers/jaegerremote/example/v0.3.0</title>
     <updated>2022-07-08T20:32:45Z</updated>
-    <id>tag:github.com,2008:Repository/242202166/samplers/jaegerremote/v0.3.0</id>
+    <id>tag:github.com,2008:Repository/242202166/samplers/jaegerremote/example/v0.3.0</id>
     <content type="html">&lt;p&gt;Module set experimental-samplers, Version v0.3.0&lt;/p&gt;</content>
-    <link href="https://github.com/open-telemetry/opentelemetry-go-contrib/releases/tag/samplers%2Fjaegerremote%2Fv0.3.0" rel="alternate"></link>
+    <link href="https://github.com/open-telemetry/opentelemetry-go-contrib/releases/tag/samplers%2Fjaegerremote%2Fexample%2Fv0.3.0" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>Aneurysm9</name>
     </author>
   </entry>
   <entry>
-    <title>Release notes from opentelemetry-go-contrib - samplers/jaegerremote/example/v0.3.0</title>
+    <title>Release notes from opentelemetry-go-contrib - samplers/jaegerremote/v0.3.0</title>
     <updated>2022-07-08T20:32:45Z</updated>
-    <id>tag:github.com,2008:Repository/242202166/samplers/jaegerremote/example/v0.3.0</id>
+    <id>tag:github.com,2008:Repository/242202166/samplers/jaegerremote/v0.3.0</id>
     <content type="html">&lt;p&gt;Module set experimental-samplers, Version v0.3.0&lt;/p&gt;</content>
-    <link href="https://github.com/open-telemetry/opentelemetry-go-contrib/releases/tag/samplers%2Fjaegerremote%2Fexample%2Fv0.3.0" rel="alternate"></link>
+    <link href="https://github.com/open-telemetry/opentelemetry-go-contrib/releases/tag/samplers%2Fjaegerremote%2Fv0.3.0" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>Aneurysm9</name>
@@ -862,11 +862,22 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from opentelemetry-operations-go - internal/resourcemapping/v0.32.3</title>
+    <title>Release notes from opentelemetry-operations-go - example/metric/v0.32.3</title>
     <updated>2022-07-07T14:38:16Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/internal/resourcemapping/v0.32.3</id>
+    <id>tag:github.com,2008:Repository/244484581/example/metric/v0.32.3</id>
     <content type="html">&lt;p&gt;Prepare release v1.8.3/0.32.3. (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1296015485&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/450&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleCloudPlatform/opentelemetry-operations-go/pull/450/hovercard&#34; href=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/pull/450&#34;&gt;#450&lt;/a&gt;)&lt;/p&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/internal%2Fresourcemapping%2Fv0.32.3" rel="alternate"></link>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/example%2Fmetric%2Fv0.32.3" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>damemi</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from opentelemetry-operations-go - detectors/gcp/v0.32.3</title>
+    <updated>2022-07-07T14:38:16Z</updated>
+    <id>tag:github.com,2008:Repository/244484581/detectors/gcp/v0.32.3</id>
+    <content type="html">&lt;p&gt;Prepare release v1.8.3/0.32.3. (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1296015485&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/450&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleCloudPlatform/opentelemetry-operations-go/pull/450/hovercard&#34; href=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/pull/450&#34;&gt;#450&lt;/a&gt;)&lt;/p&gt;</content>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/detectors%2Fgcp%2Fv0.32.3" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>damemi</name>
@@ -884,22 +895,11 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from opentelemetry-operations-go - example/metric/v0.32.3</title>
+    <title>Release notes from opentelemetry-operations-go - internal/resourcemapping/v0.32.3</title>
     <updated>2022-07-07T14:38:16Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/example/metric/v0.32.3</id>
+    <id>tag:github.com,2008:Repository/244484581/internal/resourcemapping/v0.32.3</id>
     <content type="html">&lt;p&gt;Prepare release v1.8.3/0.32.3. (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1296015485&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/450&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleCloudPlatform/opentelemetry-operations-go/pull/450/hovercard&#34; href=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/pull/450&#34;&gt;#450&lt;/a&gt;)&lt;/p&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/example%2Fmetric%2Fv0.32.3" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>damemi</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from opentelemetry-operations-go - exporter/collector/v0.32.3</title>
-    <updated>2022-07-07T14:38:16Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/exporter/collector/v0.32.3</id>
-    <content type="html">&lt;p&gt;Prepare release v1.8.3/0.32.3. (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1296015485&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/450&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleCloudPlatform/opentelemetry-operations-go/pull/450/hovercard&#34; href=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/pull/450&#34;&gt;#450&lt;/a&gt;)&lt;/p&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/exporter%2Fcollector%2Fv0.32.3" rel="alternate"></link>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/internal%2Fresourcemapping%2Fv0.32.3" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>damemi</name>
@@ -917,11 +917,11 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from opentelemetry-operations-go - detectors/gcp/v0.32.3</title>
+    <title>Release notes from opentelemetry-operations-go - exporter/collector/v0.32.3</title>
     <updated>2022-07-07T14:38:16Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/detectors/gcp/v0.32.3</id>
+    <id>tag:github.com,2008:Repository/244484581/exporter/collector/v0.32.3</id>
     <content type="html">&lt;p&gt;Prepare release v1.8.3/0.32.3. (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1296015485&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/450&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleCloudPlatform/opentelemetry-operations-go/pull/450/hovercard&#34; href=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/pull/450&#34;&gt;#450&lt;/a&gt;)&lt;/p&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/detectors%2Fgcp%2Fv0.32.3" rel="alternate"></link>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/exporter%2Fcollector%2Fv0.32.3" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>damemi</name>
