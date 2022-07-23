@@ -37,17 +37,6 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from fzf - 0.31.0</title>
-    <updated>2022-07-21T14:07:19Z</updated>
-    <id>tag:github.com,2008:Repository/13807606/0.31.0</id>
-    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;Added support for an alternative preview window layout that is activated&lt;br&gt;&#xA;when the size of the preview window is smaller than a certain threshold.&#xA;&lt;div class=&#34;highlight highlight-source-shell notranslate position-relative overflow-auto&#34; data-snippet-clipboard-copy-content=&#34;# If the width of the preview window is smaller than 50 columns,&#xA;# it will be displayed above the search window.&#xA;fzf --preview &#39;cat {}&#39; --preview-window &#39;right,50%,border-left,&amp;lt;50(up,30%,border-bottom)&#39;&#xA;&#xA;# Or you can just hide it like so&#xA;fzf --preview &#39;cat {}&#39; --preview-window &#39;&amp;lt;50(hidden)&#39;&#34;&gt;&lt;pre&gt;&lt;span class=&#34;pl-c&#34;&gt;&lt;span class=&#34;pl-c&#34;&gt;#&lt;/span&gt; If the width of the preview window is smaller than 50 columns,&lt;/span&gt;&#xA;&lt;span class=&#34;pl-c&#34;&gt;&lt;span class=&#34;pl-c&#34;&gt;#&lt;/span&gt; it will be displayed above the search window.&lt;/span&gt;&#xA;fzf --preview &lt;span class=&#34;pl-s&#34;&gt;&lt;span class=&#34;pl-pds&#34;&gt;&#39;&lt;/span&gt;cat {}&lt;span class=&#34;pl-pds&#34;&gt;&#39;&lt;/span&gt;&lt;/span&gt; --preview-window &lt;span class=&#34;pl-s&#34;&gt;&lt;span class=&#34;pl-pds&#34;&gt;&#39;&lt;/span&gt;right,50%,border-left,&amp;lt;50(up,30%,border-bottom)&lt;span class=&#34;pl-pds&#34;&gt;&#39;&lt;/span&gt;&lt;/span&gt;&#xA;&#xA;&lt;span class=&#34;pl-c&#34;&gt;&lt;span class=&#34;pl-c&#34;&gt;#&lt;/span&gt; Or you can just hide it like so&lt;/span&gt;&#xA;fzf --preview &lt;span class=&#34;pl-s&#34;&gt;&lt;span class=&#34;pl-pds&#34;&gt;&#39;&lt;/span&gt;cat {}&lt;span class=&#34;pl-pds&#34;&gt;&#39;&lt;/span&gt;&lt;/span&gt; --preview-window &lt;span class=&#34;pl-s&#34;&gt;&lt;span class=&#34;pl-pds&#34;&gt;&#39;&lt;/span&gt;&amp;lt;50(hidden)&lt;span class=&#34;pl-pds&#34;&gt;&#39;&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;fzf now uses SGR mouse mode to properly support mouse on larger terminals&lt;/li&gt;&#xA;&lt;li&gt;You can now use characters that do not satisfy &lt;code&gt;unicode.IsGraphic&lt;/code&gt; constraint&lt;br&gt;&#xA;for &lt;code&gt;--marker&lt;/code&gt;, &lt;code&gt;--pointer&lt;/code&gt;, and &lt;code&gt;--ellipsis&lt;/code&gt;. Allows Nerd Fonts and stuff.&lt;br&gt;&#xA;Use at your own risk.&lt;/li&gt;&#xA;&lt;li&gt;Bug fixes and improvements&lt;/li&gt;&#xA;&lt;li&gt;Shell extension&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;code&gt;kill&lt;/code&gt; completion now requires trigger sequence (&lt;code&gt;**&lt;/code&gt;) for consistency&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/junegunn/fzf/releases/tag/0.31.0" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>junegunn</name>
-    </author>
-  </entry>
-  <entry>
     <title>Release notes from datadog-agent - 7.38.0</title>
     <updated>2022-07-21T13:37:26Z</updated>
     <id>tag:github.com,2008:Repository/49970739/7.38.0</id>
@@ -246,22 +235,22 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from kpt - package-examples/ghost/v0: Add a basic ghost package (#3381)</title>
+    <title>Release notes from kpt - package-examples/cert-manager-basic/v0: Add a basic ghost package (#3381)</title>
     <updated>2022-07-19T17:43:52Z</updated>
-    <id>tag:github.com,2008:Repository/208908993/package-examples/ghost/v0</id>
+    <id>tag:github.com,2008:Repository/208908993/package-examples/cert-manager-basic/v0</id>
     <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Add ghost basic package&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;update ghost pacakge&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;remove set-labels&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/GoogleContainerTools/kpt/releases/tag/package-examples%2Fghost%2Fv0" rel="alternate"></link>
+    <link href="https://github.com/GoogleContainerTools/kpt/releases/tag/package-examples%2Fcert-manager-basic%2Fv0" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>yuwenma</name>
     </author>
   </entry>
   <entry>
-    <title>Release notes from kpt - package-examples/cert-manager-basic/v0: Add a basic ghost package (#3381)</title>
+    <title>Release notes from kpt - package-examples/ghost/v0: Add a basic ghost package (#3381)</title>
     <updated>2022-07-19T17:43:52Z</updated>
-    <id>tag:github.com,2008:Repository/208908993/package-examples/cert-manager-basic/v0</id>
+    <id>tag:github.com,2008:Repository/208908993/package-examples/ghost/v0</id>
     <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Add ghost basic package&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;update ghost pacakge&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;remove set-labels&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/GoogleContainerTools/kpt/releases/tag/package-examples%2Fcert-manager-basic%2Fv0" rel="alternate"></link>
+    <link href="https://github.com/GoogleContainerTools/kpt/releases/tag/package-examples%2Fghost%2Fv0" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>yuwenma</name>
@@ -433,22 +422,22 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from telepresence - v2.6.9-test.2</title>
+    <title>Release notes from telepresence - rpc/v2.6.9-test.2</title>
     <updated>2022-07-15T19:31:53Z</updated>
-    <id>tag:github.com,2008:Repository/82933315/v2.6.9-test.2</id>
+    <id>tag:github.com,2008:Repository/82933315/rpc/v2.6.9-test.2</id>
     <content type="html">&lt;p&gt;v2.6.9-test.2&lt;/p&gt;</content>
-    <link href="https://github.com/telepresenceio/telepresence/releases/tag/v2.6.9-test.2" rel="alternate"></link>
+    <link href="https://github.com/telepresenceio/telepresence/releases/tag/rpc%2Fv2.6.9-test.2" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>josecv</name>
     </author>
   </entry>
   <entry>
-    <title>Release notes from telepresence - rpc/v2.6.9-test.2</title>
+    <title>Release notes from telepresence - v2.6.9-test.2</title>
     <updated>2022-07-15T19:31:53Z</updated>
-    <id>tag:github.com,2008:Repository/82933315/rpc/v2.6.9-test.2</id>
+    <id>tag:github.com,2008:Repository/82933315/v2.6.9-test.2</id>
     <content type="html">&lt;p&gt;v2.6.9-test.2&lt;/p&gt;</content>
-    <link href="https://github.com/telepresenceio/telepresence/releases/tag/rpc%2Fv2.6.9-test.2" rel="alternate"></link>
+    <link href="https://github.com/telepresenceio/telepresence/releases/tag/v2.6.9-test.2" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>josecv</name>
@@ -994,11 +983,33 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from opentelemetry-operations-go - example/metric/v0.32.3</title>
+    <title>Release notes from opentelemetry-operations-go - detectors/gcp/v0.32.3</title>
     <updated>2022-07-07T14:38:16Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/example/metric/v0.32.3</id>
+    <id>tag:github.com,2008:Repository/244484581/detectors/gcp/v0.32.3</id>
     <content type="html">&lt;p&gt;Prepare release v1.8.3/0.32.3. (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1296015485&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/450&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleCloudPlatform/opentelemetry-operations-go/pull/450/hovercard&#34; href=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/pull/450&#34;&gt;#450&lt;/a&gt;)&lt;/p&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/example%2Fmetric%2Fv0.32.3" rel="alternate"></link>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/detectors%2Fgcp%2Fv0.32.3" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>damemi</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from opentelemetry-operations-go - exporter/metric/v0.32.3</title>
+    <updated>2022-07-07T14:38:16Z</updated>
+    <id>tag:github.com,2008:Repository/244484581/exporter/metric/v0.32.3</id>
+    <content type="html">&lt;p&gt;Prepare release v1.8.3/0.32.3. (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1296015485&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/450&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleCloudPlatform/opentelemetry-operations-go/pull/450/hovercard&#34; href=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/pull/450&#34;&gt;#450&lt;/a&gt;)&lt;/p&gt;</content>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/exporter%2Fmetric%2Fv0.32.3" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>damemi</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from opentelemetry-operations-go - internal/resourcemapping/v0.32.3</title>
+    <updated>2022-07-07T14:38:16Z</updated>
+    <id>tag:github.com,2008:Repository/244484581/internal/resourcemapping/v0.32.3</id>
+    <content type="html">&lt;p&gt;Prepare release v1.8.3/0.32.3. (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1296015485&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/450&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleCloudPlatform/opentelemetry-operations-go/pull/450/hovercard&#34; href=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/pull/450&#34;&gt;#450&lt;/a&gt;)&lt;/p&gt;</content>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/internal%2Fresourcemapping%2Fv0.32.3" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>damemi</name>
@@ -1027,11 +1038,11 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from opentelemetry-operations-go - exporter/metric/v0.32.3</title>
+    <title>Release notes from opentelemetry-operations-go - example/trace/http/v0.32.3</title>
     <updated>2022-07-07T14:38:16Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/exporter/metric/v0.32.3</id>
+    <id>tag:github.com,2008:Repository/244484581/example/trace/http/v0.32.3</id>
     <content type="html">&lt;p&gt;Prepare release v1.8.3/0.32.3. (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1296015485&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/450&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleCloudPlatform/opentelemetry-operations-go/pull/450/hovercard&#34; href=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/pull/450&#34;&gt;#450&lt;/a&gt;)&lt;/p&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/exporter%2Fmetric%2Fv0.32.3" rel="alternate"></link>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/example%2Ftrace%2Fhttp%2Fv0.32.3" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>damemi</name>
@@ -1049,33 +1060,11 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from opentelemetry-operations-go - internal/resourcemapping/v0.32.3</title>
+    <title>Release notes from opentelemetry-operations-go - example/metric/v0.32.3</title>
     <updated>2022-07-07T14:38:16Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/internal/resourcemapping/v0.32.3</id>
+    <id>tag:github.com,2008:Repository/244484581/example/metric/v0.32.3</id>
     <content type="html">&lt;p&gt;Prepare release v1.8.3/0.32.3. (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1296015485&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/450&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleCloudPlatform/opentelemetry-operations-go/pull/450/hovercard&#34; href=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/pull/450&#34;&gt;#450&lt;/a&gt;)&lt;/p&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/internal%2Fresourcemapping%2Fv0.32.3" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>damemi</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from opentelemetry-operations-go - detectors/gcp/v0.32.3</title>
-    <updated>2022-07-07T14:38:16Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/detectors/gcp/v0.32.3</id>
-    <content type="html">&lt;p&gt;Prepare release v1.8.3/0.32.3. (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1296015485&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/450&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleCloudPlatform/opentelemetry-operations-go/pull/450/hovercard&#34; href=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/pull/450&#34;&gt;#450&lt;/a&gt;)&lt;/p&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/detectors%2Fgcp%2Fv0.32.3" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>damemi</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from opentelemetry-operations-go - example/trace/http/v0.32.3</title>
-    <updated>2022-07-07T14:38:16Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/example/trace/http/v0.32.3</id>
-    <content type="html">&lt;p&gt;Prepare release v1.8.3/0.32.3. (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1296015485&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/450&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleCloudPlatform/opentelemetry-operations-go/pull/450/hovercard&#34; href=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/pull/450&#34;&gt;#450&lt;/a&gt;)&lt;/p&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/example%2Ftrace%2Fhttp%2Fv0.32.3" rel="alternate"></link>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/example%2Fmetric%2Fv0.32.3" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>damemi</name>
@@ -1346,22 +1335,22 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from telepresence - rpc/v2.6.8</title>
+    <title>Release notes from telepresence - v2.6.8</title>
     <updated>2022-06-23T21:32:03Z</updated>
-    <id>tag:github.com,2008:Repository/82933315/rpc/v2.6.8</id>
+    <id>tag:github.com,2008:Repository/82933315/v2.6.8</id>
     <content type="html">&lt;p&gt;v2.6.8&lt;/p&gt;</content>
-    <link href="https://github.com/telepresenceio/telepresence/releases/tag/rpc%2Fv2.6.8" rel="alternate"></link>
+    <link href="https://github.com/telepresenceio/telepresence/releases/tag/v2.6.8" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>njayp</name>
     </author>
   </entry>
   <entry>
-    <title>Release notes from telepresence - v2.6.8</title>
+    <title>Release notes from telepresence - rpc/v2.6.8</title>
     <updated>2022-06-23T21:32:03Z</updated>
-    <id>tag:github.com,2008:Repository/82933315/v2.6.8</id>
+    <id>tag:github.com,2008:Repository/82933315/rpc/v2.6.8</id>
     <content type="html">&lt;p&gt;v2.6.8&lt;/p&gt;</content>
-    <link href="https://github.com/telepresenceio/telepresence/releases/tag/v2.6.8" rel="alternate"></link>
+    <link href="https://github.com/telepresenceio/telepresence/releases/tag/rpc%2Fv2.6.8" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>njayp</name>
@@ -1379,22 +1368,22 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from telepresence - rpc/v2.6.8-rc.0</title>
+    <title>Release notes from telepresence - v2.6.8-rc.0</title>
     <updated>2022-06-23T19:48:13Z</updated>
-    <id>tag:github.com,2008:Repository/82933315/rpc/v2.6.8-rc.0</id>
+    <id>tag:github.com,2008:Repository/82933315/v2.6.8-rc.0</id>
     <content type="html">&lt;p&gt;v2.6.8-rc.0&lt;/p&gt;</content>
-    <link href="https://github.com/telepresenceio/telepresence/releases/tag/rpc%2Fv2.6.8-rc.0" rel="alternate"></link>
+    <link href="https://github.com/telepresenceio/telepresence/releases/tag/v2.6.8-rc.0" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>njayp</name>
     </author>
   </entry>
   <entry>
-    <title>Release notes from telepresence - v2.6.8-rc.0</title>
+    <title>Release notes from telepresence - rpc/v2.6.8-rc.0</title>
     <updated>2022-06-23T19:48:13Z</updated>
-    <id>tag:github.com,2008:Repository/82933315/v2.6.8-rc.0</id>
+    <id>tag:github.com,2008:Repository/82933315/rpc/v2.6.8-rc.0</id>
     <content type="html">&lt;p&gt;v2.6.8-rc.0&lt;/p&gt;</content>
-    <link href="https://github.com/telepresenceio/telepresence/releases/tag/v2.6.8-rc.0" rel="alternate"></link>
+    <link href="https://github.com/telepresenceio/telepresence/releases/tag/rpc%2Fv2.6.8-rc.0" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>njayp</name>
@@ -3084,17 +3073,6 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from fzf - 0.30.0</title>
-    <updated>2022-04-05T00:01:45Z</updated>
-    <id>tag:github.com,2008:Repository/13807606/0.30.0</id>
-    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;Fixed cursor flickering over the screen by hiding it during rendering&lt;/li&gt;&#xA;&lt;li&gt;Added &lt;code&gt;--ellipsis&lt;/code&gt; option. You can take advantage of it to make fzf&lt;br&gt;&#xA;effectively search non-visible parts of the item.&#xA;&lt;div class=&#34;highlight highlight-source-shell notranslate position-relative overflow-auto&#34; data-snippet-clipboard-copy-content=&#34;# Search against hidden line numbers on the far right&#xA;nl /usr/share/dict/words                  |&#xA;  awk &#39;{printf &amp;quot;%s%1000s\n&amp;quot;, $2, $1}&#39;     |&#xA;  fzf --nth=-1 --no-hscroll --ellipsis=&#39;&#39; |&#xA;  awk &#39;{print $2}&#39;&#34;&gt;&lt;pre&gt;&lt;span class=&#34;pl-c&#34;&gt;&lt;span class=&#34;pl-c&#34;&gt;#&lt;/span&gt; Search against hidden line numbers on the far right&lt;/span&gt;&#xA;nl /usr/share/dict/words                  &lt;span class=&#34;pl-k&#34;&gt;|&lt;/span&gt;&#xA;  awk &lt;span class=&#34;pl-s&#34;&gt;&lt;span class=&#34;pl-pds&#34;&gt;&#39;&lt;/span&gt;{printf &#34;%s%1000s\n&#34;, $2, $1}&lt;span class=&#34;pl-pds&#34;&gt;&#39;&lt;/span&gt;&lt;/span&gt;     &lt;span class=&#34;pl-k&#34;&gt;|&lt;/span&gt;&#xA;  fzf --nth=-1 --no-hscroll --ellipsis=&lt;span class=&#34;pl-s&#34;&gt;&lt;span class=&#34;pl-pds&#34;&gt;&#39;&lt;/span&gt;&lt;span class=&#34;pl-pds&#34;&gt;&#39;&lt;/span&gt;&lt;/span&gt; &lt;span class=&#34;pl-k&#34;&gt;|&lt;/span&gt;&#xA;  awk &lt;span class=&#34;pl-s&#34;&gt;&lt;span class=&#34;pl-pds&#34;&gt;&#39;&lt;/span&gt;{print $2}&lt;span class=&#34;pl-pds&#34;&gt;&#39;&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;Added &lt;code&gt;rebind&lt;/code&gt; action for restoring bindings after &lt;code&gt;unbind&lt;/code&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/junegunn/fzf/blob/master/ADVANCED.md#switching-between-ripgrep-mode-and-fzf-mode&#34;&gt;Switching between Ripgrep mode and fzf mode&lt;br&gt;&#xA;&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;Bug fixes and improvements&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/junegunn/fzf/releases/tag/0.30.0" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>junegunn</name>
-    </author>
-  </entry>
-  <entry>
     <title>Release notes from tbls - v1.55.1</title>
     <updated>2022-04-04T22:37:37Z</updated>
     <id>tag:github.com,2008:Repository/133827809/v1.55.1</id>
@@ -4558,17 +4536,6 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from fzf - 0.29.0</title>
-    <updated>2021-12-25T07:42:43Z</updated>
-    <id>tag:github.com,2008:Repository/13807606/0.29.0</id>
-    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;Added &lt;code&gt;change-preview(...)&lt;/code&gt; action to change the &lt;code&gt;--preview&lt;/code&gt; command&#xA;&lt;ul&gt;&#xA;&lt;li&gt;cf. &lt;code&gt;preview(...)&lt;/code&gt; is a one-off action that doesn&#39;t change the default&lt;br&gt;&#xA;preview command&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;Added &lt;code&gt;change-preview-window(...)&lt;/code&gt; action&#xA;&lt;ul&gt;&#xA;&lt;li&gt;You can rotate through the different options separated by &lt;code&gt;|&lt;/code&gt;&#xA;&lt;div class=&#34;highlight highlight-source-shell notranslate position-relative overflow-auto&#34; data-snippet-clipboard-copy-content=&#34;fzf --preview &#39;cat {}&#39; --preview-window right,40% \&#xA;    --bind &#39;ctrl-/:change-preview-window(right,70%|down,40%,border-top|hidden|)&#39;&#34;&gt;&lt;pre&gt;fzf --preview &lt;span class=&#34;pl-s&#34;&gt;&lt;span class=&#34;pl-pds&#34;&gt;&#39;&lt;/span&gt;cat {}&lt;span class=&#34;pl-pds&#34;&gt;&#39;&lt;/span&gt;&lt;/span&gt; --preview-window right,40% \&#xA;    --bind &lt;span class=&#34;pl-s&#34;&gt;&lt;span class=&#34;pl-pds&#34;&gt;&#39;&lt;/span&gt;ctrl-/:change-preview-window(right,70%|down,40%,border-top|hidden|)&lt;span class=&#34;pl-pds&#34;&gt;&#39;&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;Fixed rendering of the prompt line when overflow occurs with &lt;code&gt;--info=inline&lt;/code&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/junegunn/fzf/releases/tag/0.29.0" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>junegunn</name>
-    </author>
-  </entry>
-  <entry>
     <title>Release notes from k9s - v0.25.16</title>
     <updated>2021-12-25T02:33:03Z</updated>
     <id>tag:github.com,2008:Repository/167596393/v0.25.16</id>
@@ -5130,17 +5097,6 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from fzf - 0.28.0</title>
-    <updated>2021-11-03T16:10:50Z</updated>
-    <id>tag:github.com,2008:Repository/13807606/0.28.0</id>
-    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;Added &lt;code&gt;--header-first&lt;/code&gt; option to print header before the prompt line&#xA;&lt;div class=&#34;highlight highlight-source-shell notranslate position-relative overflow-auto&#34; data-snippet-clipboard-copy-content=&#34;fzf --header $&#39;Welcome to fzf\n▔▔▔▔▔▔▔▔▔▔▔▔▔▔&#39; --reverse --height 30% --border --header-first&#34;&gt;&lt;pre&gt;fzf --header &lt;span class=&#34;pl-s&#34;&gt;&lt;span class=&#34;pl-pds&#34;&gt;$&#39;&lt;/span&gt;Welcome to fzf&lt;span class=&#34;pl-cce&#34;&gt;\n&lt;/span&gt;▔▔▔▔▔▔▔▔▔▔▔▔▔▔&lt;span class=&#34;pl-pds&#34;&gt;&#39;&lt;/span&gt;&lt;/span&gt; --reverse --height 30% --border --header-first&lt;/pre&gt;&lt;/div&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;Added &lt;code&gt;--scroll-off=LINES&lt;/code&gt; option (similar to &lt;code&gt;scrolloff&lt;/code&gt; option of Vim)&#xA;&lt;ul&gt;&#xA;&lt;li&gt;You can set it to a very large number so that the cursor stays in the&lt;br&gt;&#xA;middle of the screen while scrolling&#xA;&lt;div class=&#34;highlight highlight-source-shell notranslate position-relative overflow-auto&#34; data-snippet-clipboard-copy-content=&#34;fzf --scroll-off=5&#xA;fzf --scroll-off=999&#34;&gt;&lt;pre&gt;fzf --scroll-off=5&#xA;fzf --scroll-off=999&lt;/pre&gt;&lt;/div&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;Fixed bug where preview window is not updated on &lt;code&gt;reload&lt;/code&gt; (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1033330690&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/junegunn/fzf/issues/2644&#34; data-hovercard-type=&#34;issue&#34; data-hovercard-url=&#34;/junegunn/fzf/issues/2644/hovercard&#34; href=&#34;https://github.com/junegunn/fzf/issues/2644&#34;&gt;#2644&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;fzf on Windows will also use &lt;code&gt;$SHELL&lt;/code&gt; to execute external programs&#xA;&lt;ul&gt;&#xA;&lt;li&gt;See &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1028284693&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/junegunn/fzf/issues/2638&#34; data-hovercard-type=&#34;issue&#34; data-hovercard-url=&#34;/junegunn/fzf/issues/2638/hovercard&#34; href=&#34;https://github.com/junegunn/fzf/issues/2638&#34;&gt;#2638&lt;/a&gt; and &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1037090640&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/junegunn/fzf/issues/2647&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/junegunn/fzf/pull/2647/hovercard&#34; href=&#34;https://github.com/junegunn/fzf/pull/2647&#34;&gt;#2647&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Thanks to &lt;a class=&#34;user-mention notranslate&#34; data-hovercard-type=&#34;user&#34; data-hovercard-url=&#34;/users/rashil2000/hovercard&#34; data-octo-click=&#34;hovercard-link-click&#34; data-octo-dimensions=&#34;link_type:self&#34; href=&#34;https://github.com/rashil2000&#34;&gt;@rashil2000&lt;/a&gt;, &lt;a class=&#34;user-mention notranslate&#34; data-hovercard-type=&#34;user&#34; data-hovercard-url=&#34;/users/vovcacik/hovercard&#34; data-octo-click=&#34;hovercard-link-click&#34; data-octo-dimensions=&#34;link_type:self&#34; href=&#34;https://github.com/vovcacik&#34;&gt;@vovcacik&lt;/a&gt;, and &lt;a class=&#34;user-mention notranslate&#34; data-hovercard-type=&#34;user&#34; data-hovercard-url=&#34;/users/janlazo/hovercard&#34; data-octo-click=&#34;hovercard-link-click&#34; data-octo-dimensions=&#34;link_type:self&#34; href=&#34;https://github.com/janlazo&#34;&gt;@janlazo&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/junegunn/fzf/releases/tag/0.28.0" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>junegunn</name>
-    </author>
-  </entry>
-  <entry>
     <title>Release notes from secrets-store-csi-driver-provider-gcp - v1.0.0</title>
     <updated>2021-11-02T19:50:40Z</updated>
     <id>tag:github.com,2008:Repository/267427111/v1.0.0</id>
@@ -5259,17 +5215,6 @@
     <summary type="html"></summary>
     <author>
       <name>k1LoW</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from fzf - 0.27.3</title>
-    <updated>2021-10-19T12:00:06Z</updated>
-    <id>tag:github.com,2008:Repository/13807606/0.27.3</id>
-    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;Preview window is &lt;code&gt;hidden&lt;/code&gt; by default when there are &lt;code&gt;preview&lt;/code&gt; bindings but &lt;code&gt;--preview&lt;/code&gt; command is not given&lt;/li&gt;&#xA;&lt;li&gt;Fixed bug where &lt;code&gt;{n}&lt;/code&gt; is not properly reset on &lt;code&gt;reload&lt;/code&gt;&lt;/li&gt;&#xA;&lt;li&gt;Fixed bug where spinner is not displayed on &lt;code&gt;reload&lt;/code&gt;&lt;/li&gt;&#xA;&lt;li&gt;Enhancements in tcell renderer for Windows (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1002979237&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/junegunn/fzf/issues/2616&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/junegunn/fzf/pull/2616/hovercard&#34; href=&#34;https://github.com/junegunn/fzf/pull/2616&#34;&gt;#2616&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;Vim plugin&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;code&gt;sinklist&lt;/code&gt; is added as a synonym to &lt;code&gt;sink*&lt;/code&gt; so that it&#39;s easier to add a function to a spec dictionary&#xA;&lt;div class=&#34;highlight highlight-source-viml notranslate position-relative overflow-auto&#34; data-snippet-clipboard-copy-content=&#34;let spec = { &#39;source&#39;: &#39;ls&#39;, &#39;options&#39;: [&#39;--multi&#39;, &#39;--preview&#39;, &#39;cat {}&#39;] }&#xA;function spec.sinklist(matches)&#xA;  echom string(a:matches)&#xA;endfunction&#xA;&#xA;call fzf#run(fzf#wrap(spec))&#34;&gt;&lt;pre&gt;&lt;span class=&#34;pl-k&#34;&gt;let&lt;/span&gt; spec &lt;span class=&#34;pl-k&#34;&gt;=&lt;/span&gt; { &lt;span class=&#34;pl-s&#34;&gt;&lt;span class=&#34;pl-pds&#34;&gt;&#39;&lt;/span&gt;source&lt;span class=&#34;pl-pds&#34;&gt;&#39;&lt;/span&gt;&lt;/span&gt;: &lt;span class=&#34;pl-s&#34;&gt;&lt;span class=&#34;pl-pds&#34;&gt;&#39;&lt;/span&gt;ls&lt;span class=&#34;pl-pds&#34;&gt;&#39;&lt;/span&gt;&lt;/span&gt;, &lt;span class=&#34;pl-s&#34;&gt;&lt;span class=&#34;pl-pds&#34;&gt;&#39;&lt;/span&gt;options&lt;span class=&#34;pl-pds&#34;&gt;&#39;&lt;/span&gt;&lt;/span&gt;: [&lt;span class=&#34;pl-s&#34;&gt;&lt;span class=&#34;pl-pds&#34;&gt;&#39;&lt;/span&gt;--multi&lt;span class=&#34;pl-pds&#34;&gt;&#39;&lt;/span&gt;&lt;/span&gt;, &lt;span class=&#34;pl-s&#34;&gt;&lt;span class=&#34;pl-pds&#34;&gt;&#39;&lt;/span&gt;--preview&lt;span class=&#34;pl-pds&#34;&gt;&#39;&lt;/span&gt;&lt;/span&gt;, &lt;span class=&#34;pl-s&#34;&gt;&lt;span class=&#34;pl-pds&#34;&gt;&#39;&lt;/span&gt;cat {}&lt;span class=&#34;pl-pds&#34;&gt;&#39;&lt;/span&gt;&lt;/span&gt;] }&#xA;&lt;span class=&#34;pl-k&#34;&gt;function&lt;/span&gt; spec.&lt;span class=&#34;pl-en&#34;&gt;sinklist&lt;/span&gt;(matches)&#xA;  &lt;span class=&#34;pl-c1&#34;&gt;echom&lt;/span&gt; &lt;span class=&#34;pl-en&#34;&gt;string&lt;/span&gt;(&lt;span class=&#34;pl-smi&#34;&gt;&lt;span class=&#34;pl-k&#34;&gt;a:&lt;/span&gt;matches&lt;/span&gt;)&#xA;&lt;span class=&#34;pl-k&#34;&gt;endfunction&lt;/span&gt;&#xA;&#xA;&lt;span class=&#34;pl-c1&#34;&gt;call&lt;/span&gt; &lt;span class=&#34;pl-en&#34;&gt;fzf#run&lt;/span&gt;(&lt;span class=&#34;pl-en&#34;&gt;fzf#wrap&lt;/span&gt;(spec))&lt;/pre&gt;&lt;/div&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;Vim 7 compatibility&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/junegunn/fzf/releases/tag/0.27.3" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>junegunn</name>
     </author>
   </entry>
   <entry>
@@ -6296,17 +6241,6 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from fzf - 0.27.2</title>
-    <updated>2021-06-01T08:06:37Z</updated>
-    <id>tag:github.com,2008:Repository/13807606/0.27.2</id>
-    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;16 base ANSI colors can be specified by their names&#xA;&lt;div class=&#34;highlight highlight-source-shell notranslate position-relative overflow-auto&#34; data-snippet-clipboard-copy-content=&#34;fzf --color fg:3,fg+:11&#xA;fzf --color fg:yellow,fg+:bright-yellow&#34;&gt;&lt;pre&gt;fzf --color fg:3,fg+:11&#xA;fzf --color fg:yellow,fg+:bright-yellow&lt;/pre&gt;&lt;/div&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;Fix bug where &lt;code&gt;--read0&lt;/code&gt; not properly displaying long lines&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/junegunn/fzf/releases/tag/0.27.2" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>junegunn</name>
-    </author>
-  </entry>
-  <entry>
     <title>Release notes from logr - v1.0.0-rc1</title>
     <updated>2021-05-28T21:06:19Z</updated>
     <id>tag:github.com,2008:Repository/79188507/v1.0.0-rc1</id>
@@ -6403,17 +6337,6 @@
     <summary type="html"></summary>
     <author>
       <name>github-actions[bot]</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from fzf - 0.27.1</title>
-    <updated>2021-05-22T04:27:41Z</updated>
-    <id>tag:github.com,2008:Repository/13807606/0.27.1</id>
-    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;Added &lt;code&gt;unbind&lt;/code&gt; action. In the following Ripgrep launcher example, you can use &lt;code&gt;unbind(reload)&lt;/code&gt; to switch to fzf-only filtering mode.&#xA;&lt;ul&gt;&#xA;&lt;li&gt;See &lt;a href=&#34;https://github.com/junegunn/fzf/blob/master/ADVANCED.md#switching-to-fzf-only-search-mode&#34;&gt;https://github.com/junegunn/fzf/blob/master/ADVANCED.md#switching-to-fzf-only-search-mode&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;Vim plugin&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Vim plugin will stop immediately even when the source command hasn&#39;t finished&#xA;&lt;div class=&#34;highlight highlight-source-viml notranslate position-relative overflow-auto&#34; data-snippet-clipboard-copy-content=&#34;&amp;quot; fzf will read the stream file while allowing other processes to append to it&#xA;call fzf#run(fzf#wrap({&#39;source&#39;: &#39;cat /dev/null &amp;gt; /tmp/stream; tail -f /tmp/stream&#39;}))&#34;&gt;&lt;pre&gt;&lt;span class=&#34;pl-c&#34;&gt;&lt;span class=&#34;pl-c&#34;&gt;&#34;&lt;/span&gt; fzf will read the stream file while allowing other processes to append to it&lt;/span&gt;&#xA;&lt;span class=&#34;pl-c1&#34;&gt;call&lt;/span&gt; &lt;span class=&#34;pl-en&#34;&gt;fzf#run&lt;/span&gt;(&lt;span class=&#34;pl-en&#34;&gt;fzf#wrap&lt;/span&gt;({&lt;span class=&#34;pl-s&#34;&gt;&lt;span class=&#34;pl-pds&#34;&gt;&#39;&lt;/span&gt;source&lt;span class=&#34;pl-pds&#34;&gt;&#39;&lt;/span&gt;&lt;/span&gt;: &lt;span class=&#34;pl-s&#34;&gt;&lt;span class=&#34;pl-pds&#34;&gt;&#39;&lt;/span&gt;cat /dev/null &amp;gt; /tmp/stream; tail -f /tmp/stream&lt;span class=&#34;pl-pds&#34;&gt;&#39;&lt;/span&gt;&lt;/span&gt;}))&lt;/pre&gt;&lt;/div&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;It is now possible to open popup window relative to the currrent window&#xA;&lt;div class=&#34;highlight highlight-source-viml notranslate position-relative overflow-auto&#34; data-snippet-clipboard-copy-content=&#34;let g:fzf_layout = { &#39;window&#39;: { &#39;width&#39;: 0.9, &#39;height&#39;: 0.6, &#39;relative&#39;: v:true, &#39;yoffset&#39;: 1.0 } }&#34;&gt;&lt;pre&gt;&lt;span class=&#34;pl-k&#34;&gt;let&lt;/span&gt; &lt;span class=&#34;pl-smi&#34;&gt;&lt;span class=&#34;pl-k&#34;&gt;g:&lt;/span&gt;fzf_layout&lt;/span&gt; &lt;span class=&#34;pl-k&#34;&gt;=&lt;/span&gt; { &lt;span class=&#34;pl-s&#34;&gt;&lt;span class=&#34;pl-pds&#34;&gt;&#39;&lt;/span&gt;window&lt;span class=&#34;pl-pds&#34;&gt;&#39;&lt;/span&gt;&lt;/span&gt;: { &lt;span class=&#34;pl-s&#34;&gt;&lt;span class=&#34;pl-pds&#34;&gt;&#39;&lt;/span&gt;width&lt;span class=&#34;pl-pds&#34;&gt;&#39;&lt;/span&gt;&lt;/span&gt;: &lt;span class=&#34;pl-c1&#34;&gt;0.9&lt;/span&gt;, &lt;span class=&#34;pl-s&#34;&gt;&lt;span class=&#34;pl-pds&#34;&gt;&#39;&lt;/span&gt;height&lt;span class=&#34;pl-pds&#34;&gt;&#39;&lt;/span&gt;&lt;/span&gt;: &lt;span class=&#34;pl-c1&#34;&gt;0.6&lt;/span&gt;, &lt;span class=&#34;pl-s&#34;&gt;&lt;span class=&#34;pl-pds&#34;&gt;&#39;&lt;/span&gt;relative&lt;span class=&#34;pl-pds&#34;&gt;&#39;&lt;/span&gt;&lt;/span&gt;: &lt;span class=&#34;pl-smi&#34;&gt;&lt;span class=&#34;pl-k&#34;&gt;v:&lt;/span&gt;true&lt;/span&gt;, &lt;span class=&#34;pl-s&#34;&gt;&lt;span class=&#34;pl-pds&#34;&gt;&#39;&lt;/span&gt;yoffset&lt;span class=&#34;pl-pds&#34;&gt;&#39;&lt;/span&gt;&lt;/span&gt;: &lt;span class=&#34;pl-c1&#34;&gt;1.0&lt;/span&gt; } }&lt;/pre&gt;&lt;/div&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/junegunn/fzf/releases/tag/0.27.1" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>junegunn</name>
     </author>
   </entry>
   <entry>
@@ -6527,22 +6450,22 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from triangula - v1.1.6</title>
+    <title>Release notes from triangula - v1.1.5</title>
     <updated>2021-05-11T13:31:09Z</updated>
-    <id>tag:github.com,2008:Repository/354015172/v1.1.6</id>
+    <id>tag:github.com,2008:Repository/354015172/v1.1.5</id>
     <content type="html">&lt;p&gt;Refactor for more flexibility&lt;/p&gt;</content>
-    <link href="https://github.com/rh12503/triangula/releases/tag/v1.1.6" rel="alternate"></link>
+    <link href="https://github.com/rh12503/triangula/releases/tag/v1.1.5" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>rh12503</name>
     </author>
   </entry>
   <entry>
-    <title>Release notes from triangula - v1.1.5</title>
+    <title>Release notes from triangula - v1.1.6</title>
     <updated>2021-05-11T13:31:09Z</updated>
-    <id>tag:github.com,2008:Repository/354015172/v1.1.5</id>
+    <id>tag:github.com,2008:Repository/354015172/v1.1.6</id>
     <content type="html">&lt;p&gt;Refactor for more flexibility&lt;/p&gt;</content>
-    <link href="https://github.com/rh12503/triangula/releases/tag/v1.1.5" rel="alternate"></link>
+    <link href="https://github.com/rh12503/triangula/releases/tag/v1.1.6" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>rh12503</name>
@@ -6758,17 +6681,6 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from fzf - 0.27.0</title>
-    <updated>2021-04-06T13:57:45Z</updated>
-    <id>tag:github.com,2008:Repository/13807606/0.27.0</id>
-    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;More border options for &lt;code&gt;--preview-window&lt;/code&gt;&#xA;&lt;div class=&#34;highlight highlight-source-shell notranslate position-relative overflow-auto&#34; data-snippet-clipboard-copy-content=&#34;fzf --preview &#39;cat {}&#39; --preview-window border-left&#xA;fzf --preview &#39;cat {}&#39; --preview-window border-left --border horizontal&#xA;fzf --preview &#39;cat {}&#39; --preview-window top:border-bottom&#xA;fzf --preview &#39;cat {}&#39; --preview-window top:border-horizontal&#34;&gt;&lt;pre&gt;fzf --preview &lt;span class=&#34;pl-s&#34;&gt;&lt;span class=&#34;pl-pds&#34;&gt;&#39;&lt;/span&gt;cat {}&lt;span class=&#34;pl-pds&#34;&gt;&#39;&lt;/span&gt;&lt;/span&gt; --preview-window border-left&#xA;fzf --preview &lt;span class=&#34;pl-s&#34;&gt;&lt;span class=&#34;pl-pds&#34;&gt;&#39;&lt;/span&gt;cat {}&lt;span class=&#34;pl-pds&#34;&gt;&#39;&lt;/span&gt;&lt;/span&gt; --preview-window border-left --border horizontal&#xA;fzf --preview &lt;span class=&#34;pl-s&#34;&gt;&lt;span class=&#34;pl-pds&#34;&gt;&#39;&lt;/span&gt;cat {}&lt;span class=&#34;pl-pds&#34;&gt;&#39;&lt;/span&gt;&lt;/span&gt; --preview-window top:border-bottom&#xA;fzf --preview &lt;span class=&#34;pl-s&#34;&gt;&lt;span class=&#34;pl-pds&#34;&gt;&#39;&lt;/span&gt;cat {}&lt;span class=&#34;pl-pds&#34;&gt;&#39;&lt;/span&gt;&lt;/span&gt; --preview-window top:border-horizontal&lt;/pre&gt;&lt;/div&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;Automatically set &lt;code&gt;/dev/tty&lt;/code&gt; as STDIN on execute action&#xA;&lt;div class=&#34;highlight highlight-source-shell notranslate position-relative overflow-auto&#34; data-snippet-clipboard-copy-content=&#34;# Redirect /dev/tty to suppress &amp;quot;Vim: Warning: Input is not from a terminal&amp;quot;&#xA;# ls | fzf --bind &amp;quot;enter:execute(vim {} &amp;lt; /dev/tty)&amp;quot;&#xA;&#xA;# &amp;quot;&amp;lt; /dev/tty&amp;quot; part is no longer needed&#xA;ls | fzf --bind &amp;quot;enter:execute(vim {})&amp;quot;&#34;&gt;&lt;pre&gt;&lt;span class=&#34;pl-c&#34;&gt;&lt;span class=&#34;pl-c&#34;&gt;#&lt;/span&gt; Redirect /dev/tty to suppress &#34;Vim: Warning: Input is not from a terminal&#34;&lt;/span&gt;&#xA;&lt;span class=&#34;pl-c&#34;&gt;&lt;span class=&#34;pl-c&#34;&gt;#&lt;/span&gt; ls | fzf --bind &#34;enter:execute(vim {} &amp;lt; /dev/tty)&#34;&lt;/span&gt;&#xA;&#xA;&lt;span class=&#34;pl-c&#34;&gt;&lt;span class=&#34;pl-c&#34;&gt;#&lt;/span&gt; &#34;&amp;lt; /dev/tty&#34; part is no longer needed&lt;/span&gt;&#xA;ls &lt;span class=&#34;pl-k&#34;&gt;|&lt;/span&gt; fzf --bind &lt;span class=&#34;pl-s&#34;&gt;&lt;span class=&#34;pl-pds&#34;&gt;&#34;&lt;/span&gt;enter:execute(vim {})&lt;span class=&#34;pl-pds&#34;&gt;&#34;&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;Bug fixes and improvements&lt;/li&gt;&#xA;&lt;li&gt;Signed and notarized macOS binaries&lt;br&gt;&#xA;(Huge thanks to &lt;a href=&#34;https://github.com/junegunn/junegunn/blob/main/BACKERS.md&#34;&gt;BACKERS.md&lt;/a&gt;!)&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/junegunn/fzf/releases/tag/0.27.0" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>junegunn</name>
-    </author>
-  </entry>
-  <entry>
     <title>Release notes from deploy-cloudrun - deploy-cloudrun v0.5.0</title>
     <updated>2021-04-05T15:56:56Z</updated>
     <id>tag:github.com,2008:Repository/308778047/v0.5.0</id>
@@ -6956,17 +6868,6 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from fzf - 0.26.0</title>
-    <updated>2021-03-14T05:10:14Z</updated>
-    <id>tag:github.com,2008:Repository/13807606/0.26.0</id>
-    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;Added support for fixed header in preview window&#xA;&lt;div class=&#34;highlight highlight-source-shell notranslate position-relative overflow-auto&#34; data-snippet-clipboard-copy-content=&#34;# Display top 3 lines as the fixed header&#xA;fzf --preview &#39;bat --style=full --color=always {}&#39; --preview-window &#39;~3&#39;&#xA;&#xA;# Works well with the streaming preview&#xA;fzf --preview-window &#39;follow:~2&#39; --preview &#39;for i in $(seq 100000); do&#xA;  # Clear preview content every 300 lines and print header&#xA;  (( i % 300 == 1 )) &amp;amp;&amp;amp; echo -e &amp;quot;\x1b[2J$i ~ $((i + 300))&amp;quot; &amp;amp;&amp;amp; echo &#39;---&#39;&#xA;  echo &amp;quot;$i&amp;quot;&#xA;  sleep 0.01&#xA;done&#39;&#34;&gt;&lt;pre&gt;&lt;span class=&#34;pl-c&#34;&gt;&lt;span class=&#34;pl-c&#34;&gt;#&lt;/span&gt; Display top 3 lines as the fixed header&lt;/span&gt;&#xA;fzf --preview &lt;span class=&#34;pl-s&#34;&gt;&lt;span class=&#34;pl-pds&#34;&gt;&#39;&lt;/span&gt;bat --style=full --color=always {}&lt;span class=&#34;pl-pds&#34;&gt;&#39;&lt;/span&gt;&lt;/span&gt; --preview-window &lt;span class=&#34;pl-s&#34;&gt;&lt;span class=&#34;pl-pds&#34;&gt;&#39;&lt;/span&gt;~3&lt;span class=&#34;pl-pds&#34;&gt;&#39;&lt;/span&gt;&lt;/span&gt;&#xA;&#xA;&lt;span class=&#34;pl-c&#34;&gt;&lt;span class=&#34;pl-c&#34;&gt;#&lt;/span&gt; Works well with the streaming preview&lt;/span&gt;&#xA;fzf --preview-window &lt;span class=&#34;pl-s&#34;&gt;&lt;span class=&#34;pl-pds&#34;&gt;&#39;&lt;/span&gt;follow:~2&lt;span class=&#34;pl-pds&#34;&gt;&#39;&lt;/span&gt;&lt;/span&gt; --preview &lt;span class=&#34;pl-s&#34;&gt;&lt;span class=&#34;pl-pds&#34;&gt;&#39;&lt;/span&gt;for i in $(seq 100000); do&lt;/span&gt;&#xA;&lt;span class=&#34;pl-s&#34;&gt;  # Clear preview content every 300 lines and print header&lt;/span&gt;&#xA;&lt;span class=&#34;pl-s&#34;&gt;  (( i % 300 == 1 )) &amp;amp;&amp;amp; echo -e &#34;\x1b[2J$i ~ $((i + 300))&#34; &amp;amp;&amp;amp; echo &lt;span class=&#34;pl-pds&#34;&gt;&#39;&lt;/span&gt;&lt;/span&gt;---&lt;span class=&#34;pl-s&#34;&gt;&lt;span class=&#34;pl-pds&#34;&gt;&#39;&lt;/span&gt;&lt;/span&gt;&#xA;&lt;span class=&#34;pl-s&#34;&gt;  echo &#34;$i&#34;&lt;/span&gt;&#xA;&lt;span class=&#34;pl-s&#34;&gt;  sleep 0.01&lt;/span&gt;&#xA;&lt;span class=&#34;pl-s&#34;&gt;done&lt;span class=&#34;pl-pds&#34;&gt;&#39;&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;More advanced preview offset expression to better support the fixed header&#xA;&lt;div class=&#34;highlight highlight-source-shell notranslate position-relative overflow-auto&#34; data-snippet-clipboard-copy-content=&#34;# Preview with bat, matching line in the middle of the window below&#xA;# the fixed header of the top 3 lines&#xA;#&#xA;#   ~3    Top 3 lines as the fixed header&#xA;#   +{2}  Base scroll offset extracted from the second field&#xA;#   +3    Extra offset to compensate for the 3-line header&#xA;#   /2    Put in the middle of the preview area&#xA;#&#xA;git grep --line-number &#39;&#39; |&#xA;  fzf --layout reverse --delimiter : \&#xA;      --preview &#39;bat --style=full --color=always --highlight-line {2} {1}&#39; \&#xA;      --preview-window &#39;~3:+{2}+3/2&#39;&#34;&gt;&lt;pre&gt;&lt;span class=&#34;pl-c&#34;&gt;&lt;span class=&#34;pl-c&#34;&gt;#&lt;/span&gt; Preview with bat, matching line in the middle of the window below&lt;/span&gt;&#xA;&lt;span class=&#34;pl-c&#34;&gt;&lt;span class=&#34;pl-c&#34;&gt;#&lt;/span&gt; the fixed header of the top 3 lines&lt;/span&gt;&#xA;&lt;span class=&#34;pl-c&#34;&gt;&lt;span class=&#34;pl-c&#34;&gt;#&lt;/span&gt;&lt;/span&gt;&#xA;&lt;span class=&#34;pl-c&#34;&gt;&lt;span class=&#34;pl-c&#34;&gt;#&lt;/span&gt;   ~3    Top 3 lines as the fixed header&lt;/span&gt;&#xA;&lt;span class=&#34;pl-c&#34;&gt;&lt;span class=&#34;pl-c&#34;&gt;#&lt;/span&gt;   +{2}  Base scroll offset extracted from the second field&lt;/span&gt;&#xA;&lt;span class=&#34;pl-c&#34;&gt;&lt;span class=&#34;pl-c&#34;&gt;#&lt;/span&gt;   +3    Extra offset to compensate for the 3-line header&lt;/span&gt;&#xA;&lt;span class=&#34;pl-c&#34;&gt;&lt;span class=&#34;pl-c&#34;&gt;#&lt;/span&gt;   /2    Put in the middle of the preview area&lt;/span&gt;&#xA;&lt;span class=&#34;pl-c&#34;&gt;&lt;span class=&#34;pl-c&#34;&gt;#&lt;/span&gt;&lt;/span&gt;&#xA;git grep --line-number &lt;span class=&#34;pl-s&#34;&gt;&lt;span class=&#34;pl-pds&#34;&gt;&#39;&lt;/span&gt;&lt;span class=&#34;pl-pds&#34;&gt;&#39;&lt;/span&gt;&lt;/span&gt; &lt;span class=&#34;pl-k&#34;&gt;|&lt;/span&gt;&#xA;  fzf --layout reverse --delimiter &lt;span class=&#34;pl-c1&#34;&gt;:&lt;/span&gt; \&#xA;      --preview &lt;span class=&#34;pl-s&#34;&gt;&lt;span class=&#34;pl-pds&#34;&gt;&#39;&lt;/span&gt;bat --style=full --color=always --highlight-line {2} {1}&lt;span class=&#34;pl-pds&#34;&gt;&#39;&lt;/span&gt;&lt;/span&gt; \&#xA;      --preview-window &lt;span class=&#34;pl-s&#34;&gt;&lt;span class=&#34;pl-pds&#34;&gt;&#39;&lt;/span&gt;~3:+{2}+3/2&lt;span class=&#34;pl-pds&#34;&gt;&#39;&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;Added &lt;code&gt;select&lt;/code&gt; and &lt;code&gt;deselect&lt;/code&gt; action for unconditionally selecting or&lt;br&gt;&#xA;deselecting a single item in &lt;code&gt;--multi&lt;/code&gt; mode. Complements &lt;code&gt;toggle&lt;/code&gt; action.&lt;/li&gt;&#xA;&lt;li&gt;Sigificant performance improvement in ANSI code processing&lt;/li&gt;&#xA;&lt;li&gt;Bug fixes and improvements&lt;/li&gt;&#xA;&lt;li&gt;Built with Go 1.16&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/junegunn/fzf/releases/tag/0.26.0" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>junegunn</name>
-    </author>
-  </entry>
-  <entry>
     <title>Release notes from chi - v5.0.1</title>
     <updated>2021-03-10T12:43:56Z</updated>
     <id>tag:github.com,2008:Repository/44344606/v5.0.1</id>
@@ -6986,6 +6887,17 @@
     <summary type="html"></summary>
     <author>
       <name>yfuruyama</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from go-prompt - v0.2.6: Merge pull request #224 from zaynetro/upgrade-term-pkg</title>
+    <updated>2021-03-03T08:56:52Z</updated>
+    <id>tag:github.com,2008:Repository/100285497/v0.2.6</id>
+    <content type="html">&lt;p&gt;Update pkg/term to 1.2.0&lt;/p&gt;</content>
+    <link href="https://github.com/c-bata/go-prompt/releases/tag/v0.2.6" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>c-bata</name>
     </author>
   </entry>
   <entry>
@@ -7184,17 +7096,6 @@
     <summary type="html"></summary>
     <author>
       <name>nektos-ci</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from fzf - 0.25.1</title>
-    <updated>2021-02-03T13:34:20Z</updated>
-    <id>tag:github.com,2008:Repository/13807606/0.25.1</id>
-    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;Added &lt;code&gt;close&lt;/code&gt; action&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Close preview window if open, abort fzf otherwise&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;Bug fixes and improvements&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/junegunn/fzf/releases/tag/0.25.1" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>junegunn</name>
     </author>
   </entry>
   <entry>
@@ -7602,6 +7503,28 @@
     <summary type="html"></summary>
     <author>
       <name>tam7t</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from go-prompt - v0.2.5: Merge pull request #195 from pgollangi/update-dependencies</title>
+    <updated>2020-09-19T13:15:27Z</updated>
+    <id>tag:github.com,2008:Repository/100285497/v0.2.5</id>
+    <content type="html">&lt;p&gt;Upgrade all dependencies to latest&lt;/p&gt;</content>
+    <link href="https://github.com/c-bata/go-prompt/releases/tag/v0.2.5" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>c-bata</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from go-prompt - v0.2.4: Merge pull request #191 from pgollangi/fix-issue-190</title>
+    <updated>2020-09-18T15:16:52Z</updated>
+    <id>tag:github.com,2008:Repository/100285497/v0.2.4</id>
+    <content type="html">&lt;p&gt;Update pkg/term module to latest and use unix.Termios&lt;/p&gt;</content>
+    <link href="https://github.com/c-bata/go-prompt/releases/tag/v0.2.4" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>c-bata</name>
     </author>
   </entry>
   <entry>
@@ -9156,6 +9079,17 @@
     </author>
   </entry>
   <entry>
+    <title>Release notes from go-prompt - Merge pull request #107 from c-bata/release-v0.2.3</title>
+    <updated>2018-10-24T18:16:34Z</updated>
+    <id>tag:github.com,2008:Repository/100285497/v0.2.3</id>
+    <content type="html">&lt;p&gt;Update CHANGELOG.md to release v0.2.3&lt;/p&gt;</content>
+    <link href="https://github.com/c-bata/go-prompt/releases/tag/v0.2.3" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>c-bata</name>
+    </author>
+  </entry>
+  <entry>
     <title>Release notes from apd - Version 2.0.0</title>
     <updated>2018-10-17T18:12:48Z</updated>
     <id>tag:github.com,2008:Repository/75918965/v2.0.0</id>
@@ -9299,6 +9233,17 @@
     </author>
   </entry>
   <entry>
+    <title>Release notes from go-prompt - v0.2.2</title>
+    <updated>2018-06-28T13:06:28Z</updated>
+    <id>tag:github.com,2008:Repository/100285497/v0.2.2</id>
+    <content type="html">&lt;p&gt;Update CHANGELOG for v0.2.2 release. (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;336613255&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/c-bata/go-prompt/issues/84&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/c-bata/go-prompt/pull/84/hovercard&#34; href=&#34;https://github.com/c-bata/go-prompt/pull/84&#34;&gt;#84&lt;/a&gt;)&lt;/p&gt;</content>
+    <link href="https://github.com/c-bata/go-prompt/releases/tag/v0.2.2" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>c-bata</name>
+    </author>
+  </entry>
+  <entry>
     <title>Release notes from tmux-xpanes - Release: v3.0.0</title>
     <updated>2018-06-19T20:43:37Z</updated>
     <id>tag:github.com,2008:Repository/81563350/v3.0.0</id>
@@ -9343,6 +9288,28 @@
     </author>
   </entry>
   <entry>
+    <title>Release notes from go-prompt - v0.2.1</title>
+    <updated>2018-02-14T08:00:08Z</updated>
+    <id>tag:github.com,2008:Repository/100285497/v0.2.1</id>
+    <content type="html">&lt;p&gt;ʕ◔ϖ◔ʔ release v0.2.1&lt;/p&gt;</content>
+    <link href="https://github.com/c-bata/go-prompt/releases/tag/v0.2.1" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>c-bata</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from go-prompt - v0.2.0</title>
+    <updated>2018-02-13T14:50:24Z</updated>
+    <id>tag:github.com,2008:Repository/100285497/v0.2.0</id>
+    <content type="html">&lt;p&gt;Update some options for pagination&lt;/p&gt;</content>
+    <link href="https://github.com/c-bata/go-prompt/releases/tag/v0.2.0" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>c-bata</name>
+    </author>
+  </entry>
+  <entry>
     <title>Release notes from httpsnoop - v1.0.0: Version 1</title>
     <updated>2018-01-24T10:30:03Z</updated>
     <id>tag:github.com,2008:Repository/73294161/v1.0.0</id>
@@ -9376,6 +9343,17 @@
     </author>
   </entry>
   <entry>
+    <title>Release notes from go-prompt - v0.1.1</title>
+    <updated>2017-10-10T14:58:20Z</updated>
+    <id>tag:github.com,2008:Repository/100285497/v0.1.1</id>
+    <content type="html">&lt;p&gt;Fix history and add tests&lt;/p&gt;</content>
+    <link href="https://github.com/c-bata/go-prompt/releases/tag/v0.1.1" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>c-bata</name>
+    </author>
+  </entry>
+  <entry>
     <title>Release notes from apd - Version 1.0.0</title>
     <updated>2017-09-16T04:53:36Z</updated>
     <id>tag:github.com,2008:Repository/75918965/v1.0.0</id>
@@ -9384,6 +9362,17 @@
     <summary type="html"></summary>
     <author>
       <name>mjibson</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from go-prompt - v0.1.0</title>
+    <updated>2017-08-14T16:50:33Z</updated>
+    <id>tag:github.com,2008:Repository/100285497/v0.1.0</id>
+    <content type="html">&lt;p&gt;Refactor emacs keybind&lt;/p&gt;</content>
+    <link href="https://github.com/c-bata/go-prompt/releases/tag/v0.1.0" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>c-bata</name>
     </author>
   </entry>
   <entry>
