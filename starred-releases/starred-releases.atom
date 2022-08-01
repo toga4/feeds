@@ -1,8 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?><feed xmlns="http://www.w3.org/2005/Atom">
   <title>Releases from Starred by toga4</title>
   <id>https://toga4.github.io/feeds/starred-releases.atom</id>
-  <updated>2022-07-30T07:03:22Z</updated>
+  <updated>2022-08-01T03:01:52Z</updated>
   <link href="https://toga4.github.io/feeds/starred-releases.atom"></link>
+  <entry>
+    <title>Release notes from act - v0.2.30</title>
+    <updated>2022-08-01T03:01:52Z</updated>
+    <id>tag:github.com,2008:Repository/163883279/v0.2.30</id>
+    <content type="html">&lt;h2&gt;Changelog&lt;/h2&gt;&#xA;&lt;h3&gt;Bug fixes&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a class=&#34;commit-link&#34; data-hovercard-type=&#34;commit&#34; data-hovercard-url=&#34;https://github.com/nektos/act/commit/3364f95569d8a39d440b18af69d29421fcc77b55/hovercard&#34; href=&#34;https://github.com/nektos/act/commit/3364f95569d8a39d440b18af69d29421fcc77b55&#34;&gt;&lt;tt&gt;3364f95&lt;/tt&gt;&lt;/a&gt; fix: ensure all post steps are executed (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1322016368&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/nektos/act/issues/1286&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/nektos/act/pull/1286/hovercard&#34; href=&#34;https://github.com/nektos/act/pull/1286&#34;&gt;#1286&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;&lt;a class=&#34;commit-link&#34; data-hovercard-type=&#34;commit&#34; data-hovercard-url=&#34;https://github.com/nektos/act/commit/5f5b8959d6b12b034dfa64e91f8b17c97808eda5/hovercard&#34; href=&#34;https://github.com/nektos/act/commit/5f5b8959d6b12b034dfa64e91f8b17c97808eda5&#34;&gt;&lt;tt&gt;5f5b895&lt;/tt&gt;&lt;/a&gt; fix: add parent step id in composite action step id (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1309143913&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/nektos/act/issues/1268&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/nektos/act/pull/1268/hovercard&#34; href=&#34;https://github.com/nektos/act/pull/1268&#34;&gt;#1268&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;&lt;a class=&#34;commit-link&#34; data-hovercard-type=&#34;commit&#34; data-hovercard-url=&#34;https://github.com/nektos/act/commit/409446211fe99420d5d3761b04f491f8ef52412d/hovercard&#34; href=&#34;https://github.com/nektos/act/commit/409446211fe99420d5d3761b04f491f8ef52412d&#34;&gt;&lt;tt&gt;4094462&lt;/tt&gt;&lt;/a&gt; fix: the number in the github event is of type number (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1301688817&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/nektos/act/issues/1252&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/nektos/act/pull/1252/hovercard&#34; href=&#34;https://github.com/nektos/act/pull/1252&#34;&gt;#1252&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;&lt;a class=&#34;commit-link&#34; data-hovercard-type=&#34;commit&#34; data-hovercard-url=&#34;https://github.com/nektos/act/commit/91296bd5eb022dce9e7891540257232b3e9906e1/hovercard&#34; href=&#34;https://github.com/nektos/act/commit/91296bd5eb022dce9e7891540257232b3e9906e1&#34;&gt;&lt;tt&gt;91296bd&lt;/tt&gt;&lt;/a&gt; fix: allow TimeoutMinutes to be expression in Jobs (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1298116578&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/nektos/act/issues/1247&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/nektos/act/pull/1247/hovercard&#34; href=&#34;https://github.com/nektos/act/pull/1247&#34;&gt;#1247&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;&lt;a class=&#34;commit-link&#34; data-hovercard-type=&#34;commit&#34; data-hovercard-url=&#34;https://github.com/nektos/act/commit/e70b9689241785df1ff509678d99f1fdcb138d91/hovercard&#34; href=&#34;https://github.com/nektos/act/commit/e70b9689241785df1ff509678d99f1fdcb138d91&#34;&gt;&lt;tt&gt;e70b968&lt;/tt&gt;&lt;/a&gt; fix: use docker images from dockerhub (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1298207323&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/nektos/act/issues/1249&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/nektos/act/pull/1249/hovercard&#34; href=&#34;https://github.com/nektos/act/pull/1249&#34;&gt;#1249&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3&gt;Other&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a class=&#34;commit-link&#34; data-hovercard-type=&#34;commit&#34; data-hovercard-url=&#34;https://github.com/nektos/act/commit/9d76bac4effa3b47462430194fa3294ed130f1ff/hovercard&#34; href=&#34;https://github.com/nektos/act/commit/9d76bac4effa3b47462430194fa3294ed130f1ff&#34;&gt;&lt;tt&gt;9d76bac&lt;/tt&gt;&lt;/a&gt; walk submodule path instead of dir name (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1319479015&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/nektos/act/issues/1282&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/nektos/act/pull/1282/hovercard&#34; href=&#34;https://github.com/nektos/act/pull/1282&#34;&gt;#1282&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;&lt;a class=&#34;commit-link&#34; data-hovercard-type=&#34;commit&#34; data-hovercard-url=&#34;https://github.com/nektos/act/commit/ddee19b946bca0a168b2b1bcd5887d82557f2eac/hovercard&#34; href=&#34;https://github.com/nektos/act/commit/ddee19b946bca0a168b2b1bcd5887d82557f2eac&#34;&gt;&lt;tt&gt;ddee19b&lt;/tt&gt;&lt;/a&gt; Made env interpolated instead of evaluated. (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1275314915&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/nektos/act/issues/1222&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/nektos/act/pull/1222/hovercard&#34; href=&#34;https://github.com/nektos/act/pull/1222&#34;&gt;#1222&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;&lt;a class=&#34;commit-link&#34; data-hovercard-type=&#34;commit&#34; data-hovercard-url=&#34;https://github.com/nektos/act/commit/17dd54d69231884ea561fe2bd0c0e059debd2658/hovercard&#34; href=&#34;https://github.com/nektos/act/commit/17dd54d69231884ea561fe2bd0c0e059debd2658&#34;&gt;&lt;tt&gt;17dd54d&lt;/tt&gt;&lt;/a&gt; build(deps): bump github.com/sirupsen/logrus from 1.8.1 to 1.9.0 (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1316110437&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/nektos/act/issues/1273&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/nektos/act/pull/1273/hovercard&#34; href=&#34;https://github.com/nektos/act/pull/1273&#34;&gt;#1273&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;&lt;a class=&#34;commit-link&#34; data-hovercard-type=&#34;commit&#34; data-hovercard-url=&#34;https://github.com/nektos/act/commit/108e3e0d516643134b7c09f3653a42e108e58f43/hovercard&#34; href=&#34;https://github.com/nektos/act/commit/108e3e0d516643134b7c09f3653a42e108e58f43&#34;&gt;&lt;tt&gt;108e3e0&lt;/tt&gt;&lt;/a&gt; Update README.md (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1306836048&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/nektos/act/issues/1260&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/nektos/act/pull/1260/hovercard&#34; href=&#34;https://github.com/nektos/act/pull/1260&#34;&gt;#1260&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;&lt;a class=&#34;commit-link&#34; data-hovercard-type=&#34;commit&#34; data-hovercard-url=&#34;https://github.com/nektos/act/commit/1a71c52ef33f085f108c078e49f501180fcc9cc6/hovercard&#34; href=&#34;https://github.com/nektos/act/commit/1a71c52ef33f085f108c078e49f501180fcc9cc6&#34;&gt;&lt;tt&gt;1a71c52&lt;/tt&gt;&lt;/a&gt; lint: add ReadHeaderTimeout (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1316700404&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/nektos/act/issues/1277&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/nektos/act/pull/1277/hovercard&#34; href=&#34;https://github.com/nektos/act/pull/1277&#34;&gt;#1277&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;&lt;a class=&#34;commit-link&#34; data-hovercard-type=&#34;commit&#34; data-hovercard-url=&#34;https://github.com/nektos/act/commit/a5ceb54cafebf8e8c7e3a569f2af1122bf655ca3/hovercard&#34; href=&#34;https://github.com/nektos/act/commit/a5ceb54cafebf8e8c7e3a569f2af1122bf655ca3&#34;&gt;&lt;tt&gt;a5ceb54&lt;/tt&gt;&lt;/a&gt; only perform chown operation for non root users (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1299438585&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/nektos/act/issues/1250&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/nektos/act/pull/1250/hovercard&#34; href=&#34;https://github.com/nektos/act/pull/1250&#34;&gt;#1250&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;&lt;a class=&#34;commit-link&#34; data-hovercard-type=&#34;commit&#34; data-hovercard-url=&#34;https://github.com/nektos/act/commit/aea17b1aa67957a00c5b792e6dabdca608ef195b/hovercard&#34; href=&#34;https://github.com/nektos/act/commit/aea17b1aa67957a00c5b792e6dabdca608ef195b&#34;&gt;&lt;tt&gt;aea17b1&lt;/tt&gt;&lt;/a&gt; Improve --eventpath example command (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1294967355&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/nektos/act/issues/1243&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/nektos/act/pull/1243/hovercard&#34; href=&#34;https://github.com/nektos/act/pull/1243&#34;&gt;#1243&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;&lt;a class=&#34;commit-link&#34; data-hovercard-type=&#34;commit&#34; data-hovercard-url=&#34;https://github.com/nektos/act/commit/683730721292cfd8fccf424ced8acbcc4d31b11b/hovercard&#34; href=&#34;https://github.com/nektos/act/commit/683730721292cfd8fccf424ced8acbcc4d31b11b&#34;&gt;&lt;tt&gt;6837307&lt;/tt&gt;&lt;/a&gt; Improve docs for events inputs (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1290770055&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/nektos/act/issues/1238&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/nektos/act/pull/1238/hovercard&#34; href=&#34;https://github.com/nektos/act/pull/1238&#34;&gt;#1238&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;&lt;a class=&#34;commit-link&#34; data-hovercard-type=&#34;commit&#34; data-hovercard-url=&#34;https://github.com/nektos/act/commit/4d9d6ecc924bef6c5976acd7f224558e21fa5b5f/hovercard&#34; href=&#34;https://github.com/nektos/act/commit/4d9d6ecc924bef6c5976acd7f224558e21fa5b5f&#34;&gt;&lt;tt&gt;4d9d6ec&lt;/tt&gt;&lt;/a&gt; build(deps): bump github.com/rhysd/actionlint from 1.6.14 to 1.6.15 (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1292520881&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/nektos/act/issues/1239&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/nektos/act/pull/1239/hovercard&#34; href=&#34;https://github.com/nektos/act/pull/1239&#34;&gt;#1239&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;&lt;a class=&#34;commit-link&#34; data-hovercard-type=&#34;commit&#34; data-hovercard-url=&#34;https://github.com/nektos/act/commit/50f0b0e7f49d368583a30e515fb16db58c357bbc/hovercard&#34; href=&#34;https://github.com/nektos/act/commit/50f0b0e7f49d368583a30e515fb16db58c357bbc&#34;&gt;&lt;tt&gt;50f0b0e&lt;/tt&gt;&lt;/a&gt; build(deps): bump github.com/stretchr/testify from 1.7.5 to 1.8.0 (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1292521012&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/nektos/act/issues/1240&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/nektos/act/pull/1240/hovercard&#34; href=&#34;https://github.com/nektos/act/pull/1240&#34;&gt;#1240&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/nektos/act/releases/tag/v0.2.30" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>nektos-ci</name>
+    </author>
+  </entry>
   <entry>
     <title>Release notes from casbin - v2.51.2</title>
     <updated>2022-07-30T07:03:22Z</updated>
@@ -70,77 +81,11 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from opentelemetry-operations-go - example/trace/http/v0.32.4: Prepare for v0.32.4 and v1.8.4 (#464)</title>
-    <updated>2022-07-29T19:31:23Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/example/trace/http/v0.32.4</id>
-    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;prepare for v0.32.4 and v1.8.4&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/example%2Ftrace%2Fhttp%2Fv0.32.4" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>dashpole</name>
-    </author>
-  </entry>
-  <entry>
     <title>Release notes from opentelemetry-operations-go - internal/resourcemapping/v0.32.4: Prepare for v0.32.4 and v1.8.4 (#464)</title>
     <updated>2022-07-29T19:31:23Z</updated>
     <id>tag:github.com,2008:Repository/244484581/internal/resourcemapping/v0.32.4</id>
     <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;prepare for v0.32.4 and v1.8.4&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
     <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/internal%2Fresourcemapping%2Fv0.32.4" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>dashpole</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from opentelemetry-operations-go - Prepare for v0.32.4 and v1.8.4 (#464)</title>
-    <updated>2022-07-29T19:31:23Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/v0.32.4</id>
-    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;prepare for v0.32.4 and v1.8.4&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/v0.32.4" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>dashpole</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from opentelemetry-operations-go - exporter/metric/v0.32.4: Prepare for v0.32.4 and v1.8.4 (#464)</title>
-    <updated>2022-07-29T19:31:23Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/exporter/metric/v0.32.4</id>
-    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;prepare for v0.32.4 and v1.8.4&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/exporter%2Fmetric%2Fv0.32.4" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>dashpole</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from opentelemetry-operations-go - example/metric/v0.32.4: Prepare for v0.32.4 and v1.8.4 (#464)</title>
-    <updated>2022-07-29T19:31:23Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/example/metric/v0.32.4</id>
-    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;prepare for v0.32.4 and v1.8.4&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/example%2Fmetric%2Fv0.32.4" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>dashpole</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from opentelemetry-operations-go - exporter/trace/v1.8.4: Prepare for v0.32.4 and v1.8.4 (#464)</title>
-    <updated>2022-07-29T19:31:23Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/exporter/trace/v1.8.4</id>
-    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;prepare for v0.32.4 and v1.8.4&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/exporter%2Ftrace%2Fv1.8.4" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>dashpole</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from opentelemetry-operations-go - detectors/gcp/v0.32.4: Prepare for v0.32.4 and v1.8.4 (#464)</title>
-    <updated>2022-07-29T19:31:23Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/detectors/gcp/v0.32.4</id>
-    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;prepare for v0.32.4 and v1.8.4&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/detectors%2Fgcp%2Fv0.32.4" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>dashpole</name>
@@ -158,11 +103,77 @@
     </author>
   </entry>
   <entry>
+    <title>Release notes from opentelemetry-operations-go - exporter/metric/v0.32.4: Prepare for v0.32.4 and v1.8.4 (#464)</title>
+    <updated>2022-07-29T19:31:23Z</updated>
+    <id>tag:github.com,2008:Repository/244484581/exporter/metric/v0.32.4</id>
+    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;prepare for v0.32.4 and v1.8.4&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/exporter%2Fmetric%2Fv0.32.4" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>dashpole</name>
+    </author>
+  </entry>
+  <entry>
     <title>Release notes from opentelemetry-operations-go - exporter/collector/googlemanagedprometheus/v0.32.4: Prepare for v0.32.4 and v1.8.4 (#464)</title>
     <updated>2022-07-29T19:31:23Z</updated>
     <id>tag:github.com,2008:Repository/244484581/exporter/collector/googlemanagedprometheus/v0.32.4</id>
     <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;prepare for v0.32.4 and v1.8.4&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
     <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/exporter%2Fcollector%2Fgooglemanagedprometheus%2Fv0.32.4" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>dashpole</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from opentelemetry-operations-go - Prepare for v0.32.4 and v1.8.4 (#464)</title>
+    <updated>2022-07-29T19:31:23Z</updated>
+    <id>tag:github.com,2008:Repository/244484581/v0.32.4</id>
+    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;prepare for v0.32.4 and v1.8.4&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/v0.32.4" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>dashpole</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from opentelemetry-operations-go - example/trace/http/v0.32.4: Prepare for v0.32.4 and v1.8.4 (#464)</title>
+    <updated>2022-07-29T19:31:23Z</updated>
+    <id>tag:github.com,2008:Repository/244484581/example/trace/http/v0.32.4</id>
+    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;prepare for v0.32.4 and v1.8.4&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/example%2Ftrace%2Fhttp%2Fv0.32.4" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>dashpole</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from opentelemetry-operations-go - example/metric/v0.32.4: Prepare for v0.32.4 and v1.8.4 (#464)</title>
+    <updated>2022-07-29T19:31:23Z</updated>
+    <id>tag:github.com,2008:Repository/244484581/example/metric/v0.32.4</id>
+    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;prepare for v0.32.4 and v1.8.4&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/example%2Fmetric%2Fv0.32.4" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>dashpole</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from opentelemetry-operations-go - detectors/gcp/v0.32.4: Prepare for v0.32.4 and v1.8.4 (#464)</title>
+    <updated>2022-07-29T19:31:23Z</updated>
+    <id>tag:github.com,2008:Repository/244484581/detectors/gcp/v0.32.4</id>
+    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;prepare for v0.32.4 and v1.8.4&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/detectors%2Fgcp%2Fv0.32.4" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>dashpole</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from opentelemetry-operations-go - exporter/trace/v1.8.4: Prepare for v0.32.4 and v1.8.4 (#464)</title>
+    <updated>2022-07-29T19:31:23Z</updated>
+    <id>tag:github.com,2008:Repository/244484581/exporter/trace/v1.8.4</id>
+    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;prepare for v0.32.4 and v1.8.4&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/exporter%2Ftrace%2Fv1.8.4" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>dashpole</name>
@@ -576,6 +587,17 @@
     </author>
   </entry>
   <entry>
+    <title>Release notes from kpt - package-examples/ingress-nginx/v0: Add a basic ghost package (#3381)</title>
+    <updated>2022-07-19T17:43:52Z</updated>
+    <id>tag:github.com,2008:Repository/208908993/package-examples/ingress-nginx/v0</id>
+    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Add ghost basic package&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;update ghost pacakge&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;remove set-labels&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/GoogleContainerTools/kpt/releases/tag/package-examples%2Fingress-nginx%2Fv0" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>yuwenma</name>
+    </author>
+  </entry>
+  <entry>
     <title>Release notes from kpt - package-examples/cert-manager-basic/v0: Add a basic ghost package (#3381)</title>
     <updated>2022-07-19T17:43:52Z</updated>
     <id>tag:github.com,2008:Repository/208908993/package-examples/cert-manager-basic/v0</id>
@@ -592,17 +614,6 @@
     <id>tag:github.com,2008:Repository/208908993/package-examples/ghost/v0</id>
     <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Add ghost basic package&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;update ghost pacakge&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;remove set-labels&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
     <link href="https://github.com/GoogleContainerTools/kpt/releases/tag/package-examples%2Fghost%2Fv0" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>yuwenma</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from kpt - package-examples/ingress-nginx/v0: Add a basic ghost package (#3381)</title>
-    <updated>2022-07-19T17:43:52Z</updated>
-    <id>tag:github.com,2008:Repository/208908993/package-examples/ingress-nginx/v0</id>
-    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Add ghost basic package&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;update ghost pacakge&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;remove set-labels&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/GoogleContainerTools/kpt/releases/tag/package-examples%2Fingress-nginx%2Fv0" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>yuwenma</name>
@@ -763,17 +774,6 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from telepresence - v2.6.9-test.1</title>
-    <updated>2022-07-15T19:24:35Z</updated>
-    <id>tag:github.com,2008:Repository/82933315/v2.6.9-test.1</id>
-    <content type="html">&lt;p&gt;v2.6.9-test.1&lt;/p&gt;</content>
-    <link href="https://github.com/telepresenceio/telepresence/releases/tag/v2.6.9-test.1" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>josecv</name>
-    </author>
-  </entry>
-  <entry>
     <title>Release notes from telepresence - rpc/v2.6.9-test.1</title>
     <updated>2022-07-15T19:24:35Z</updated>
     <id>tag:github.com,2008:Repository/82933315/rpc/v2.6.9-test.1</id>
@@ -785,11 +785,11 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from telepresence - v2.6.9-test.0</title>
-    <updated>2022-07-15T19:18:00Z</updated>
-    <id>tag:github.com,2008:Repository/82933315/v2.6.9-test.0</id>
-    <content type="html">&lt;p&gt;v2.6.9-test.0&lt;/p&gt;</content>
-    <link href="https://github.com/telepresenceio/telepresence/releases/tag/v2.6.9-test.0" rel="alternate"></link>
+    <title>Release notes from telepresence - v2.6.9-test.1</title>
+    <updated>2022-07-15T19:24:35Z</updated>
+    <id>tag:github.com,2008:Repository/82933315/v2.6.9-test.1</id>
+    <content type="html">&lt;p&gt;v2.6.9-test.1&lt;/p&gt;</content>
+    <link href="https://github.com/telepresenceio/telepresence/releases/tag/v2.6.9-test.1" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>josecv</name>
@@ -801,6 +801,17 @@
     <id>tag:github.com,2008:Repository/82933315/rpc/v2.6.9-test.0</id>
     <content type="html">&lt;p&gt;v2.6.9-test.0&lt;/p&gt;</content>
     <link href="https://github.com/telepresenceio/telepresence/releases/tag/rpc%2Fv2.6.9-test.0" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>josecv</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from telepresence - v2.6.9-test.0</title>
+    <updated>2022-07-15T19:18:00Z</updated>
+    <id>tag:github.com,2008:Repository/82933315/v2.6.9-test.0</id>
+    <content type="html">&lt;p&gt;v2.6.9-test.0&lt;/p&gt;</content>
+    <link href="https://github.com/telepresenceio/telepresence/releases/tag/v2.6.9-test.0" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>josecv</name>
@@ -6362,22 +6373,22 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from triangula - v1.1.6</title>
+    <title>Release notes from triangula - v1.1.5</title>
     <updated>2021-05-11T13:31:09Z</updated>
-    <id>tag:github.com,2008:Repository/354015172/v1.1.6</id>
+    <id>tag:github.com,2008:Repository/354015172/v1.1.5</id>
     <content type="html">&lt;p&gt;Refactor for more flexibility&lt;/p&gt;</content>
-    <link href="https://github.com/rh12503/triangula/releases/tag/v1.1.6" rel="alternate"></link>
+    <link href="https://github.com/rh12503/triangula/releases/tag/v1.1.5" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>rh12503</name>
     </author>
   </entry>
   <entry>
-    <title>Release notes from triangula - v1.1.5</title>
+    <title>Release notes from triangula - v1.1.6</title>
     <updated>2021-05-11T13:31:09Z</updated>
-    <id>tag:github.com,2008:Repository/354015172/v1.1.5</id>
+    <id>tag:github.com,2008:Repository/354015172/v1.1.6</id>
     <content type="html">&lt;p&gt;Refactor for more flexibility&lt;/p&gt;</content>
-    <link href="https://github.com/rh12503/triangula/releases/tag/v1.1.5" rel="alternate"></link>
+    <link href="https://github.com/rh12503/triangula/releases/tag/v1.1.6" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>rh12503</name>
@@ -6975,17 +6986,6 @@
     <summary type="html"></summary>
     <author>
       <name>jharshman</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from act - v0.2.20</title>
-    <updated>2021-02-08T17:23:25Z</updated>
-    <id>tag:github.com,2008:Repository/163883279/v0.2.20</id>
-    <content type="html">&lt;h2&gt;Changelog&lt;/h2&gt;&#xA;&lt;p&gt;&lt;a class=&#34;commit-link&#34; data-hovercard-type=&#34;commit&#34; data-hovercard-url=&#34;https://github.com/nektos/act/commit/661aa0823544449bae15c77c6311f8ab0014b12d/hovercard&#34; href=&#34;https://github.com/nektos/act/commit/661aa0823544449bae15c77c6311f8ab0014b12d&#34;&gt;&lt;tt&gt;661aa08&lt;/tt&gt;&lt;/a&gt; - Add GitHub issue templates (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;797602823&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/nektos/act/issues/512&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/nektos/act/pull/512/hovercard&#34; href=&#34;https://github.com/nektos/act/pull/512&#34;&gt;#512&lt;/a&gt;) (Cat™)&lt;br&gt;&#xA;&lt;a class=&#34;commit-link&#34; data-hovercard-type=&#34;commit&#34; data-hovercard-url=&#34;https://github.com/nektos/act/commit/316b078f8c0467670ad0d68a5201f1d5284d4be4/hovercard&#34; href=&#34;https://github.com/nektos/act/commit/316b078f8c0467670ad0d68a5201f1d5284d4be4&#34;&gt;&lt;tt&gt;316b078&lt;/tt&gt;&lt;/a&gt; - Shouldn&#39;t rewrite dot in a string to index syntax (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;792620353&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/nektos/act/issues/502&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/nektos/act/pull/502/hovercard&#34; href=&#34;https://github.com/nektos/act/pull/502&#34;&gt;#502&lt;/a&gt;) (KADOTA, Kyohei)&lt;br&gt;&#xA;&lt;a class=&#34;commit-link&#34; data-hovercard-type=&#34;commit&#34; data-hovercard-url=&#34;https://github.com/nektos/act/commit/fc46f506e31e0d50b538ba253000d0a335141341/hovercard&#34; href=&#34;https://github.com/nektos/act/commit/fc46f506e31e0d50b538ba253000d0a335141341&#34;&gt;&lt;tt&gt;fc46f50&lt;/tt&gt;&lt;/a&gt; - Update &lt;code&gt;README.md&lt;/code&gt;/&lt;code&gt;cmd/root.go&lt;/code&gt; with additional information (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;803610152&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/nektos/act/issues/523&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/nektos/act/pull/523/hovercard&#34; href=&#34;https://github.com/nektos/act/pull/523&#34;&gt;#523&lt;/a&gt;) (Cat™)&lt;br&gt;&#xA;&lt;a class=&#34;commit-link&#34; data-hovercard-type=&#34;commit&#34; data-hovercard-url=&#34;https://github.com/nektos/act/commit/ec6b1624c0b3c4990b93e8a8c2b4c4a5365ed42a/hovercard&#34; href=&#34;https://github.com/nektos/act/commit/ec6b1624c0b3c4990b93e8a8c2b4c4a5365ed42a&#34;&gt;&lt;tt&gt;ec6b162&lt;/tt&gt;&lt;/a&gt; - Fix choco Dockerfile (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;800155962&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/nektos/act/issues/515&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/nektos/act/pull/515/hovercard&#34; href=&#34;https://github.com/nektos/act/pull/515&#34;&gt;#515&lt;/a&gt;) (Cat™)&lt;br&gt;&#xA;&lt;a class=&#34;commit-link&#34; data-hovercard-type=&#34;commit&#34; data-hovercard-url=&#34;https://github.com/nektos/act/commit/eca1b9c4782c1f92afee62ed52582665468a983d/hovercard&#34; href=&#34;https://github.com/nektos/act/commit/eca1b9c4782c1f92afee62ed52582665468a983d&#34;&gt;&lt;tt&gt;eca1b9c&lt;/tt&gt;&lt;/a&gt; - Add lacking environment variables. (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;797984723&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/nektos/act/issues/513&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/nektos/act/pull/513/hovercard&#34; href=&#34;https://github.com/nektos/act/pull/513&#34;&gt;#513&lt;/a&gt;) (Taiju Muto)&lt;br&gt;&#xA;&lt;a class=&#34;commit-link&#34; data-hovercard-type=&#34;commit&#34; data-hovercard-url=&#34;https://github.com/nektos/act/commit/8339f4b4040fb68b457af7655336573df7c28c04/hovercard&#34; href=&#34;https://github.com/nektos/act/commit/8339f4b4040fb68b457af7655336573df7c28c04&#34;&gt;&lt;tt&gt;8339f4b&lt;/tt&gt;&lt;/a&gt; - Interpolate &lt;code&gt;with:&lt;/code&gt; inputs (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;797595106&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/nektos/act/issues/511&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/nektos/act/pull/511/hovercard&#34; href=&#34;https://github.com/nektos/act/pull/511&#34;&gt;#511&lt;/a&gt;) (Cat™)&lt;br&gt;&#xA;&lt;a class=&#34;commit-link&#34; data-hovercard-type=&#34;commit&#34; data-hovercard-url=&#34;https://github.com/nektos/act/commit/22d56c3517483c63dc98dc4d280d60eb5a625a3d/hovercard&#34; href=&#34;https://github.com/nektos/act/commit/22d56c3517483c63dc98dc4d280d60eb5a625a3d&#34;&gt;&lt;tt&gt;22d56c3&lt;/tt&gt;&lt;/a&gt; - fix: --version, --help do not need check platform config (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;796684625&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/nektos/act/issues/508&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/nektos/act/pull/508/hovercard&#34; href=&#34;https://github.com/nektos/act/pull/508&#34;&gt;#508&lt;/a&gt;) (Owen Young)&lt;br&gt;&#xA;&lt;a class=&#34;commit-link&#34; data-hovercard-type=&#34;commit&#34; data-hovercard-url=&#34;https://github.com/nektos/act/commit/56ec36726b384e2f860bbc5b5a9170a3d0c9f511/hovercard&#34; href=&#34;https://github.com/nektos/act/commit/56ec36726b384e2f860bbc5b5a9170a3d0c9f511&#34;&gt;&lt;tt&gt;56ec367&lt;/tt&gt;&lt;/a&gt; - Fix Cartesian product to return empty set if empty set is given (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;792629894&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/nektos/act/issues/503&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/nektos/act/pull/503/hovercard&#34; href=&#34;https://github.com/nektos/act/pull/503&#34;&gt;#503&lt;/a&gt;) (Ed)&lt;br&gt;&#xA;&lt;a class=&#34;commit-link&#34; data-hovercard-type=&#34;commit&#34; data-hovercard-url=&#34;https://github.com/nektos/act/commit/2d1a946fb143b0f0d204a7565d82df8b75263d60/hovercard&#34; href=&#34;https://github.com/nektos/act/commit/2d1a946fb143b0f0d204a7565d82df8b75263d60&#34;&gt;&lt;tt&gt;2d1a946&lt;/tt&gt;&lt;/a&gt; - Throw an error if the steps has a invalid uses directive (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;791821733&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/nektos/act/issues/500&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/nektos/act/pull/500/hovercard&#34; href=&#34;https://github.com/nektos/act/pull/500&#34;&gt;#500&lt;/a&gt;) (KADOTA, Kyohei)&lt;/p&gt;</content>
-    <link href="https://github.com/nektos/act/releases/tag/v0.2.20" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>nektos-ci</name>
     </author>
   </entry>
   <entry>
