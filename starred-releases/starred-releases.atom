@@ -1,8 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?><feed xmlns="http://www.w3.org/2005/Atom">
   <title>Releases from Starred by toga4</title>
   <id>https://toga4.github.io/feeds/starred-releases.atom</id>
-  <updated>2022-08-04T20:59:12Z</updated>
+  <updated>2022-08-05T05:15:14Z</updated>
   <link href="https://toga4.github.io/feeds/starred-releases.atom"></link>
+  <entry>
+    <title>Release notes from external-secrets - v0.5.9</title>
+    <updated>2022-08-05T05:15:14Z</updated>
+    <id>tag:github.com,2008:Repository/313628863/v0.5.9</id>
+    <content type="html">&lt;p&gt;Image: &lt;code&gt;ghcr.io/external-secrets/external-secrets:v0.5.9&lt;/code&gt;&lt;/p&gt;&#xA;&lt;h2&gt;Changes&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;g-emoji class=&#34;g-emoji&#34; alias=&#34;arrow_up&#34; fallback-src=&#34;https://github.githubassets.com/images/icons/emoji/unicode/2b06.png&#34;&gt;⬆️&lt;/g-emoji&gt;chore: bump version 0.5.8 (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1302052697&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/external-secrets/external-secrets/issues/1353&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/external-secrets/external-secrets/pull/1353/hovercard&#34; href=&#34;https://github.com/external-secrets/external-secrets/pull/1353&#34;&gt;#1353&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;&lt;g-emoji class=&#34;g-emoji&#34; alias=&#34;books&#34; fallback-src=&#34;https://github.githubassets.com/images/icons/emoji/unicode/1f4da.png&#34;&gt;📚&lt;/g-emoji&gt; PAUL messages now refer to latest documentation. (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1301224096&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/external-secrets/external-secrets/issues/1348&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/external-secrets/external-secrets/pull/1348/hovercard&#34; href=&#34;https://github.com/external-secrets/external-secrets/pull/1348&#34;&gt;#1348&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;&lt;g-emoji class=&#34;g-emoji&#34; alias=&#34;sparkles&#34; fallback-src=&#34;https://github.githubassets.com/images/icons/emoji/unicode/2728.png&#34;&gt;✨&lt;/g-emoji&gt;[helm] - Adds variables to configure extra labels to the serviceAccounts (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1305078912&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/external-secrets/external-secrets/issues/1357&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/external-secrets/external-secrets/pull/1357/hovercard&#34; href=&#34;https://github.com/external-secrets/external-secrets/pull/1357&#34;&gt;#1357&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;Update api-overview.md (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1307029742&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/external-secrets/external-secrets/issues/1361&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/external-secrets/external-secrets/pull/1361/hovercard&#34; href=&#34;https://github.com/external-secrets/external-secrets/pull/1361&#34;&gt;#1361&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;docs: Adds k8s provider example to ClusterSecretStore (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1308221467&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/external-secrets/external-secrets/issues/1368&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/external-secrets/external-secrets/pull/1368/hovercard&#34; href=&#34;https://github.com/external-secrets/external-secrets/pull/1368&#34;&gt;#1368&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;fix Yandex Certificate Manager provider docs (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1309393585&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/external-secrets/external-secrets/issues/1371&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/external-secrets/external-secrets/pull/1371/hovercard&#34; href=&#34;https://github.com/external-secrets/external-secrets/pull/1371&#34;&gt;#1371&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;&lt;g-emoji class=&#34;g-emoji&#34; alias=&#34;arrow_up&#34; fallback-src=&#34;https://github.githubassets.com/images/icons/emoji/unicode/2b06.png&#34;&gt;⬆️&lt;/g-emoji&gt; Bump github.com/argoproj/argo-cd/v2 from 2.4.3 to 2.4.6 (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1307559300&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/external-secrets/external-secrets/issues/1365&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/external-secrets/external-secrets/pull/1365/hovercard&#34; href=&#34;https://github.com/external-secrets/external-secrets/pull/1365&#34;&gt;#1365&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;&lt;g-emoji class=&#34;g-emoji&#34; alias=&#34;arrow_up&#34; fallback-src=&#34;https://github.githubassets.com/images/icons/emoji/unicode/2b06.png&#34;&gt;⬆️&lt;/g-emoji&gt; Bump google.golang.org/api from 0.82.0 to 0.87.0 (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1307558897&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/external-secrets/external-secrets/issues/1364&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/external-secrets/external-secrets/pull/1364/hovercard&#34; href=&#34;https://github.com/external-secrets/external-secrets/pull/1364&#34;&gt;#1364&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;&lt;g-emoji class=&#34;g-emoji&#34; alias=&#34;arrow_up&#34; fallback-src=&#34;https://github.githubassets.com/images/icons/emoji/unicode/2b06.png&#34;&gt;⬆️&lt;/g-emoji&gt; Bump azure/setup-helm from 3.0 to 3.1 (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1307557576&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/external-secrets/external-secrets/issues/1363&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/external-secrets/external-secrets/pull/1363/hovercard&#34; href=&#34;https://github.com/external-secrets/external-secrets/pull/1363&#34;&gt;#1363&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;retryer implementation to handle throttling exceptions on AWS  (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1296544755&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/external-secrets/external-secrets/issues/1331&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/external-secrets/external-secrets/pull/1331/hovercard&#34; href=&#34;https://github.com/external-secrets/external-secrets/pull/1331&#34;&gt;#1331&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;Bump github.com/fluxcd/source-controller/api from 0.25.6 to 0.25.10 (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1309640709&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/external-secrets/external-secrets/issues/1372&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/external-secrets/external-secrets/pull/1372/hovercard&#34; href=&#34;https://github.com/external-secrets/external-secrets/pull/1372&#34;&gt;#1372&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;Bump github.com/hashicorp/vault/api/auth/approle from 0.1.1 to 0.2.0 (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1309778477&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/external-secrets/external-secrets/issues/1374&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/external-secrets/external-secrets/pull/1374/hovercard&#34; href=&#34;https://github.com/external-secrets/external-secrets/pull/1374&#34;&gt;#1374&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;feat: additional columns for kubectl output (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1305934698&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/external-secrets/external-secrets/issues/1359&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/external-secrets/external-secrets/pull/1359/hovercard&#34; href=&#34;https://github.com/external-secrets/external-secrets/pull/1359&#34;&gt;#1359&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;&lt;g-emoji class=&#34;g-emoji&#34; alias=&#34;world_map&#34; fallback-src=&#34;https://github.githubassets.com/images/icons/emoji/unicode/1f5fa.png&#34;&gt;🗺️&lt;/g-emoji&gt; Design for dataFrom key rewrite (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1248494663&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/external-secrets/external-secrets/issues/1188&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/external-secrets/external-secrets/pull/1188/hovercard&#34; href=&#34;https://github.com/external-secrets/external-secrets/pull/1188&#34;&gt;#1188&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;&lt;g-emoji class=&#34;g-emoji&#34; alias=&#34;bug&#34; fallback-src=&#34;https://github.githubassets.com/images/icons/emoji/unicode/1f41b.png&#34;&gt;🐛&lt;/g-emoji&gt;Configure cache and throttle options (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1315238768&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/external-secrets/external-secrets/issues/1380&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/external-secrets/external-secrets/pull/1380/hovercard&#34; href=&#34;https://github.com/external-secrets/external-secrets/pull/1380&#34;&gt;#1380&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;Bump google.golang.org/api from 0.87.0 to 0.88.0 (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1316433735&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/external-secrets/external-secrets/issues/1383&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/external-secrets/external-secrets/pull/1383/hovercard&#34; href=&#34;https://github.com/external-secrets/external-secrets/pull/1383&#34;&gt;#1383&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;feat: Helm chart dns options (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1311020736&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/external-secrets/external-secrets/issues/1377&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/external-secrets/external-secrets/pull/1377/hovercard&#34; href=&#34;https://github.com/external-secrets/external-secrets/pull/1377&#34;&gt;#1377&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;Bump github.com/onsi/gomega from 1.19.0 to 1.20.0 (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1316573924&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/external-secrets/external-secrets/issues/1384&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/external-secrets/external-secrets/pull/1384/hovercard&#34; href=&#34;https://github.com/external-secrets/external-secrets/pull/1384&#34;&gt;#1384&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;docs: add Azure KV PKCS12 example (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1305415901&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/external-secrets/external-secrets/issues/1358&#34; data-hovercard-type=&#34;issue&#34; data-hovercard-url=&#34;/external-secrets/external-secrets/issues/1358/hovercard&#34; href=&#34;https://github.com/external-secrets/external-secrets/issues/1358&#34;&gt;#1358&lt;/a&gt;) (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1316972227&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/external-secrets/external-secrets/issues/1387&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/external-secrets/external-secrets/pull/1387/hovercard&#34; href=&#34;https://github.com/external-secrets/external-secrets/pull/1387&#34;&gt;#1387&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;Bump cloud.google.com/go/secretmanager from 1.4.0 to 1.5.0 (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1316911457&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/external-secrets/external-secrets/issues/1386&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/external-secrets/external-secrets/pull/1386/hovercard&#34; href=&#34;https://github.com/external-secrets/external-secrets/pull/1386&#34;&gt;#1386&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;&lt;g-emoji class=&#34;g-emoji&#34; alias=&#34;broom&#34; fallback-src=&#34;https://github.githubassets.com/images/icons/emoji/unicode/1f9f9.png&#34;&gt;🧹&lt;/g-emoji&gt;Improve 1Password integration and docs (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1299467174&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/external-secrets/external-secrets/issues/1340&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/external-secrets/external-secrets/pull/1340/hovercard&#34; href=&#34;https://github.com/external-secrets/external-secrets/pull/1340&#34;&gt;#1340&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;feat: Add support for container auth to IBM provider. (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1245577347&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/external-secrets/external-secrets/issues/1177&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/external-secrets/external-secrets/pull/1177/hovercard&#34; href=&#34;https://github.com/external-secrets/external-secrets/pull/1177&#34;&gt;#1177&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;feat: add kustomization file to config/crds/bases folder (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1275191063&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/external-secrets/external-secrets/issues/1274&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/external-secrets/external-secrets/pull/1274/hovercard&#34; href=&#34;https://github.com/external-secrets/external-secrets/pull/1274&#34;&gt;#1274&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;&lt;g-emoji class=&#34;g-emoji&#34; alias=&#34;bug&#34; fallback-src=&#34;https://github.githubassets.com/images/icons/emoji/unicode/1f41b.png&#34;&gt;🐛&lt;/g-emoji&gt;Clarify CAProvider usage in struct annotations (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1320078265&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/external-secrets/external-secrets/issues/1397&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/external-secrets/external-secrets/pull/1397/hovercard&#34; href=&#34;https://github.com/external-secrets/external-secrets/pull/1397&#34;&gt;#1397&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;feat(helm): adds new flags to create metrics services for other scrapers (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1318726646&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/external-secrets/external-secrets/issues/1392&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/external-secrets/external-secrets/pull/1392/hovercard&#34; href=&#34;https://github.com/external-secrets/external-secrets/pull/1392&#34;&gt;#1392&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;build(deps): bump sigs.k8s.io/controller-tools from 0.9.0 to 0.9.2 (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1292789359&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/external-secrets/external-secrets/issues/1322&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/external-secrets/external-secrets/pull/1322/hovercard&#34; href=&#34;https://github.com/external-secrets/external-secrets/pull/1322&#34;&gt;#1322&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;&lt;g-emoji class=&#34;g-emoji&#34; alias=&#34;books&#34; fallback-src=&#34;https://github.githubassets.com/images/icons/emoji/unicode/1f4da.png&#34;&gt;📚&lt;/g-emoji&gt; update references to select &#34;main&#34; instead of &#34;master&#34; (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1301213523&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/external-secrets/external-secrets/issues/1346&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/external-secrets/external-secrets/pull/1346/hovercard&#34; href=&#34;https://github.com/external-secrets/external-secrets/pull/1346&#34;&gt;#1346&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;fix: handle empty conversionStrategy (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1322610094&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/external-secrets/external-secrets/issues/1408&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/external-secrets/external-secrets/pull/1408/hovercard&#34; href=&#34;https://github.com/external-secrets/external-secrets/pull/1408&#34;&gt;#1408&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;feat: add LF footer copytight (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1324956895&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/external-secrets/external-secrets/issues/1416&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/external-secrets/external-secrets/pull/1416/hovercard&#34; href=&#34;https://github.com/external-secrets/external-secrets/pull/1416&#34;&gt;#1416&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;&lt;g-emoji class=&#34;g-emoji&#34; alias=&#34;bug&#34; fallback-src=&#34;https://github.githubassets.com/images/icons/emoji/unicode/1f41b.png&#34;&gt;🐛&lt;/g-emoji&gt;fixes e2e tests (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1326109356&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/external-secrets/external-secrets/issues/1420&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/external-secrets/external-secrets/pull/1420/hovercard&#34; href=&#34;https://github.com/external-secrets/external-secrets/pull/1420&#34;&gt;#1420&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;&lt;g-emoji class=&#34;g-emoji&#34; alias=&#34;bug&#34; fallback-src=&#34;https://github.githubassets.com/images/icons/emoji/unicode/1f41b.png&#34;&gt;🐛&lt;/g-emoji&gt; Fix/remove dependabot from e2e trusted (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1326387905&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/external-secrets/external-secrets/issues/1422&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/external-secrets/external-secrets/pull/1422/hovercard&#34; href=&#34;https://github.com/external-secrets/external-secrets/pull/1422&#34;&gt;#1422&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;&lt;g-emoji class=&#34;g-emoji&#34; alias=&#34;bug&#34; fallback-src=&#34;https://github.githubassets.com/images/icons/emoji/unicode/1f41b.png&#34;&gt;🐛&lt;/g-emoji&gt;Fixing: github.actor instead of github.author (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1327220598&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/external-secrets/external-secrets/issues/1424&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/external-secrets/external-secrets/pull/1424/hovercard&#34; href=&#34;https://github.com/external-secrets/external-secrets/pull/1424&#34;&gt;#1424&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;&lt;g-emoji class=&#34;g-emoji&#34; alias=&#34;arrow_up&#34; fallback-src=&#34;https://github.githubassets.com/images/icons/emoji/unicode/2b06.png&#34;&gt;⬆️&lt;/g-emoji&gt;build(deps): bump github.com/xanzy/go-gitlab from 0.68.2 to 0.70.0 (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1326340297&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/external-secrets/external-secrets/issues/1421&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/external-secrets/external-secrets/pull/1421/hovercard&#34; href=&#34;https://github.com/external-secrets/external-secrets/pull/1421&#34;&gt;#1421&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;&lt;g-emoji class=&#34;g-emoji&#34; alias=&#34;arrow_up&#34; fallback-src=&#34;https://github.githubassets.com/images/icons/emoji/unicode/2b06.png&#34;&gt;⬆️&lt;/g-emoji&gt;build(deps): bump google.golang.org/grpc from 1.47.0 to 1.48.0 (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1324006984&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/external-secrets/external-secrets/issues/1414&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/external-secrets/external-secrets/pull/1414/hovercard&#34; href=&#34;https://github.com/external-secrets/external-secrets/pull/1414&#34;&gt;#1414&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;&lt;g-emoji class=&#34;g-emoji&#34; alias=&#34;arrow_up&#34; fallback-src=&#34;https://github.githubassets.com/images/icons/emoji/unicode/2b06.png&#34;&gt;⬆️&lt;/g-emoji&gt;build(deps): bump github.com/fluxcd/helm-controller/api (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1324006756&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/external-secrets/external-secrets/issues/1413&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/external-secrets/external-secrets/pull/1413/hovercard&#34; href=&#34;https://github.com/external-secrets/external-secrets/pull/1413&#34;&gt;#1413&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;&lt;g-emoji class=&#34;g-emoji&#34; alias=&#34;arrow_up&#34; fallback-src=&#34;https://github.githubassets.com/images/icons/emoji/unicode/2b06.png&#34;&gt;⬆️&lt;/g-emoji&gt;build(deps): bump sigstore/cosign-installer from 2.4.1 to 2.5.0 (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1324005077&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/external-secrets/external-secrets/issues/1412&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/external-secrets/external-secrets/pull/1412/hovercard&#34; href=&#34;https://github.com/external-secrets/external-secrets/pull/1412&#34;&gt;#1412&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;&lt;g-emoji class=&#34;g-emoji&#34; alias=&#34;arrow_up&#34; fallback-src=&#34;https://github.githubassets.com/images/icons/emoji/unicode/2b06.png&#34;&gt;⬆️&lt;/g-emoji&gt;build(deps): bump azure/setup-helm from 3.1 to 3.3 (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1324005019&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/external-secrets/external-secrets/issues/1411&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/external-secrets/external-secrets/pull/1411/hovercard&#34; href=&#34;https://github.com/external-secrets/external-secrets/pull/1411&#34;&gt;#1411&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;&lt;g-emoji class=&#34;g-emoji&#34; alias=&#34;arrow_up&#34; fallback-src=&#34;https://github.githubassets.com/images/icons/emoji/unicode/2b06.png&#34;&gt;⬆️&lt;/g-emoji&gt; Bump github.com/fluxcd/source-controller/api (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1327297958&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/external-secrets/external-secrets/issues/1426&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/external-secrets/external-secrets/pull/1426/hovercard&#34; href=&#34;https://github.com/external-secrets/external-secrets/pull/1426&#34;&gt;#1426&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;&lt;g-emoji class=&#34;g-emoji&#34; alias=&#34;arrow_up&#34; fallback-src=&#34;https://github.githubassets.com/images/icons/emoji/unicode/2b06.png&#34;&gt;⬆️&lt;/g-emoji&gt; Bump github.com/Azure/go-autorest/autorest (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1327252071&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/external-secrets/external-secrets/issues/1425&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/external-secrets/external-secrets/pull/1425/hovercard&#34; href=&#34;https://github.com/external-secrets/external-secrets/pull/1425&#34;&gt;#1425&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;&lt;g-emoji class=&#34;g-emoji&#34; alias=&#34;sparkles&#34; fallback-src=&#34;https://github.githubassets.com/images/icons/emoji/unicode/2728.png&#34;&gt;✨&lt;/g-emoji&gt;Implements dataFrom key rewrite (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1315909413&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/external-secrets/external-secrets/issues/1381&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/external-secrets/external-secrets/pull/1381/hovercard&#34; href=&#34;https://github.com/external-secrets/external-secrets/pull/1381&#34;&gt;#1381&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/external-secrets/external-secrets/releases/tag/v0.5.9" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>github-actions[bot]</name>
+    </author>
+  </entry>
   <entry>
     <title>Release notes from kpt - v1.0.0-beta.19</title>
     <updated>2022-08-04T20:59:12Z</updated>
@@ -70,22 +81,22 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from telepresence - rpc/v2.7.0-rc.0</title>
+    <title>Release notes from telepresence - v2.7.0-rc.0</title>
     <updated>2022-08-04T17:38:09Z</updated>
-    <id>tag:github.com,2008:Repository/82933315/rpc/v2.7.0-rc.0</id>
+    <id>tag:github.com,2008:Repository/82933315/v2.7.0-rc.0</id>
     <content type="html">&lt;p&gt;v2.7.0-rc.0&lt;/p&gt;</content>
-    <link href="https://github.com/telepresenceio/telepresence/releases/tag/rpc%2Fv2.7.0-rc.0" rel="alternate"></link>
+    <link href="https://github.com/telepresenceio/telepresence/releases/tag/v2.7.0-rc.0" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>josecv</name>
     </author>
   </entry>
   <entry>
-    <title>Release notes from telepresence - v2.7.0-rc.0</title>
+    <title>Release notes from telepresence - rpc/v2.7.0-rc.0</title>
     <updated>2022-08-04T17:38:09Z</updated>
-    <id>tag:github.com,2008:Repository/82933315/v2.7.0-rc.0</id>
+    <id>tag:github.com,2008:Repository/82933315/rpc/v2.7.0-rc.0</id>
     <content type="html">&lt;p&gt;v2.7.0-rc.0&lt;/p&gt;</content>
-    <link href="https://github.com/telepresenceio/telepresence/releases/tag/v2.7.0-rc.0" rel="alternate"></link>
+    <link href="https://github.com/telepresenceio/telepresence/releases/tag/rpc%2Fv2.7.0-rc.0" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>josecv</name>
@@ -147,17 +158,6 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from telepresence - v2.7.0-test.1</title>
-    <updated>2022-08-03T19:49:38Z</updated>
-    <id>tag:github.com,2008:Repository/82933315/v2.7.0-test.1</id>
-    <content type="html">&lt;p&gt;v2.7.0-test.1&lt;/p&gt;</content>
-    <link href="https://github.com/telepresenceio/telepresence/releases/tag/v2.7.0-test.1" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>josecv</name>
-    </author>
-  </entry>
-  <entry>
     <title>Release notes from telepresence - rpc/v2.7.0-test.1</title>
     <updated>2022-08-03T19:49:38Z</updated>
     <id>tag:github.com,2008:Repository/82933315/rpc/v2.7.0-test.1</id>
@@ -169,11 +169,11 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from telepresence - rpc/v2.7.0-test.0</title>
-    <updated>2022-08-03T19:30:53Z</updated>
-    <id>tag:github.com,2008:Repository/82933315/rpc/v2.7.0-test.0</id>
-    <content type="html">&lt;p&gt;v2.7.0-test.0&lt;/p&gt;</content>
-    <link href="https://github.com/telepresenceio/telepresence/releases/tag/rpc%2Fv2.7.0-test.0" rel="alternate"></link>
+    <title>Release notes from telepresence - v2.7.0-test.1</title>
+    <updated>2022-08-03T19:49:38Z</updated>
+    <id>tag:github.com,2008:Repository/82933315/v2.7.0-test.1</id>
+    <content type="html">&lt;p&gt;v2.7.0-test.1&lt;/p&gt;</content>
+    <link href="https://github.com/telepresenceio/telepresence/releases/tag/v2.7.0-test.1" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>josecv</name>
@@ -185,6 +185,17 @@
     <id>tag:github.com,2008:Repository/82933315/v2.7.0-test.0</id>
     <content type="html">&lt;p&gt;v2.7.0-test.0&lt;/p&gt;</content>
     <link href="https://github.com/telepresenceio/telepresence/releases/tag/v2.7.0-test.0" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>josecv</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from telepresence - rpc/v2.7.0-test.0</title>
+    <updated>2022-08-03T19:30:53Z</updated>
+    <id>tag:github.com,2008:Repository/82933315/rpc/v2.7.0-test.0</id>
+    <content type="html">&lt;p&gt;v2.7.0-test.0&lt;/p&gt;</content>
+    <link href="https://github.com/telepresenceio/telepresence/releases/tag/rpc%2Fv2.7.0-test.0" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>josecv</name>
@@ -576,22 +587,22 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from opentelemetry-go - sdk/v1.9.0</title>
+    <title>Release notes from opentelemetry-go - trace/v1.9.0</title>
     <updated>2022-08-02T15:14:26Z</updated>
-    <id>tag:github.com,2008:Repository/187086161/sdk/v1.9.0</id>
+    <id>tag:github.com,2008:Repository/187086161/trace/v1.9.0</id>
     <content type="html">&lt;p&gt;Module set stable-v1, Version v1.9.0&lt;/p&gt;</content>
-    <link href="https://github.com/open-telemetry/opentelemetry-go/releases/tag/sdk%2Fv1.9.0" rel="alternate"></link>
+    <link href="https://github.com/open-telemetry/opentelemetry-go/releases/tag/trace%2Fv1.9.0" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>MrAlias</name>
     </author>
   </entry>
   <entry>
-    <title>Release notes from opentelemetry-go - trace/v1.9.0</title>
+    <title>Release notes from opentelemetry-go - sdk/v1.9.0</title>
     <updated>2022-08-02T15:14:26Z</updated>
-    <id>tag:github.com,2008:Repository/187086161/trace/v1.9.0</id>
+    <id>tag:github.com,2008:Repository/187086161/sdk/v1.9.0</id>
     <content type="html">&lt;p&gt;Module set stable-v1, Version v1.9.0&lt;/p&gt;</content>
-    <link href="https://github.com/open-telemetry/opentelemetry-go/releases/tag/trace%2Fv1.9.0" rel="alternate"></link>
+    <link href="https://github.com/open-telemetry/opentelemetry-go/releases/tag/sdk%2Fv1.9.0" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>MrAlias</name>
@@ -884,55 +895,11 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from opentelemetry-operations-go - exporter/trace/v1.8.4: Prepare for v0.32.4 and v1.8.4 (#464)</title>
+    <title>Release notes from opentelemetry-operations-go - example/trace/http/v0.32.4: Prepare for v0.32.4 and v1.8.4 (#464)</title>
     <updated>2022-07-29T19:31:23Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/exporter/trace/v1.8.4</id>
+    <id>tag:github.com,2008:Repository/244484581/example/trace/http/v0.32.4</id>
     <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;prepare for v0.32.4 and v1.8.4&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/exporter%2Ftrace%2Fv1.8.4" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>dashpole</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from opentelemetry-operations-go - internal/resourcemapping/v0.32.4: Prepare for v0.32.4 and v1.8.4 (#464)</title>
-    <updated>2022-07-29T19:31:23Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/internal/resourcemapping/v0.32.4</id>
-    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;prepare for v0.32.4 and v1.8.4&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/internal%2Fresourcemapping%2Fv0.32.4" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>dashpole</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from opentelemetry-operations-go - exporter/metric/v0.32.4: Prepare for v0.32.4 and v1.8.4 (#464)</title>
-    <updated>2022-07-29T19:31:23Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/exporter/metric/v0.32.4</id>
-    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;prepare for v0.32.4 and v1.8.4&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/exporter%2Fmetric%2Fv0.32.4" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>dashpole</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from opentelemetry-operations-go - example/metric/v0.32.4: Prepare for v0.32.4 and v1.8.4 (#464)</title>
-    <updated>2022-07-29T19:31:23Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/example/metric/v0.32.4</id>
-    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;prepare for v0.32.4 and v1.8.4&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/example%2Fmetric%2Fv0.32.4" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>dashpole</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from opentelemetry-operations-go - exporter/collector/googlemanagedprometheus/v0.32.4: Prepare for v0.32.4 and v1.8.4 (#464)</title>
-    <updated>2022-07-29T19:31:23Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/exporter/collector/googlemanagedprometheus/v0.32.4</id>
-    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;prepare for v0.32.4 and v1.8.4&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/exporter%2Fcollector%2Fgooglemanagedprometheus%2Fv0.32.4" rel="alternate"></link>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/example%2Ftrace%2Fhttp%2Fv0.32.4" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>dashpole</name>
@@ -950,11 +917,11 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from opentelemetry-operations-go - detectors/gcp/v0.32.4: Prepare for v0.32.4 and v1.8.4 (#464)</title>
+    <title>Release notes from opentelemetry-operations-go - exporter/metric/v0.32.4: Prepare for v0.32.4 and v1.8.4 (#464)</title>
     <updated>2022-07-29T19:31:23Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/detectors/gcp/v0.32.4</id>
+    <id>tag:github.com,2008:Repository/244484581/exporter/metric/v0.32.4</id>
     <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;prepare for v0.32.4 and v1.8.4&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/detectors%2Fgcp%2Fv0.32.4" rel="alternate"></link>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/exporter%2Fmetric%2Fv0.32.4" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>dashpole</name>
@@ -972,11 +939,55 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from opentelemetry-operations-go - example/trace/http/v0.32.4: Prepare for v0.32.4 and v1.8.4 (#464)</title>
+    <title>Release notes from opentelemetry-operations-go - exporter/collector/googlemanagedprometheus/v0.32.4: Prepare for v0.32.4 and v1.8.4 (#464)</title>
     <updated>2022-07-29T19:31:23Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/example/trace/http/v0.32.4</id>
+    <id>tag:github.com,2008:Repository/244484581/exporter/collector/googlemanagedprometheus/v0.32.4</id>
     <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;prepare for v0.32.4 and v1.8.4&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/example%2Ftrace%2Fhttp%2Fv0.32.4" rel="alternate"></link>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/exporter%2Fcollector%2Fgooglemanagedprometheus%2Fv0.32.4" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>dashpole</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from opentelemetry-operations-go - internal/resourcemapping/v0.32.4: Prepare for v0.32.4 and v1.8.4 (#464)</title>
+    <updated>2022-07-29T19:31:23Z</updated>
+    <id>tag:github.com,2008:Repository/244484581/internal/resourcemapping/v0.32.4</id>
+    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;prepare for v0.32.4 and v1.8.4&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/internal%2Fresourcemapping%2Fv0.32.4" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>dashpole</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from opentelemetry-operations-go - example/metric/v0.32.4: Prepare for v0.32.4 and v1.8.4 (#464)</title>
+    <updated>2022-07-29T19:31:23Z</updated>
+    <id>tag:github.com,2008:Repository/244484581/example/metric/v0.32.4</id>
+    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;prepare for v0.32.4 and v1.8.4&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/example%2Fmetric%2Fv0.32.4" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>dashpole</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from opentelemetry-operations-go - exporter/trace/v1.8.4: Prepare for v0.32.4 and v1.8.4 (#464)</title>
+    <updated>2022-07-29T19:31:23Z</updated>
+    <id>tag:github.com,2008:Repository/244484581/exporter/trace/v1.8.4</id>
+    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;prepare for v0.32.4 and v1.8.4&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/exporter%2Ftrace%2Fv1.8.4" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>dashpole</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from opentelemetry-operations-go - detectors/gcp/v0.32.4: Prepare for v0.32.4 and v1.8.4 (#464)</title>
+    <updated>2022-07-29T19:31:23Z</updated>
+    <id>tag:github.com,2008:Repository/244484581/detectors/gcp/v0.32.4</id>
+    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;prepare for v0.32.4 and v1.8.4&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/detectors%2Fgcp%2Fv0.32.4" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>dashpole</name>
@@ -1159,22 +1170,22 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from kpt - package-examples/ingress-nginx/v0: Add a basic ghost package (#3381)</title>
+    <title>Release notes from kpt - package-examples/cert-manager-basic/v0: Add a basic ghost package (#3381)</title>
     <updated>2022-07-19T17:43:52Z</updated>
-    <id>tag:github.com,2008:Repository/208908993/package-examples/ingress-nginx/v0</id>
+    <id>tag:github.com,2008:Repository/208908993/package-examples/cert-manager-basic/v0</id>
     <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Add ghost basic package&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;update ghost pacakge&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;remove set-labels&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/GoogleContainerTools/kpt/releases/tag/package-examples%2Fingress-nginx%2Fv0" rel="alternate"></link>
+    <link href="https://github.com/GoogleContainerTools/kpt/releases/tag/package-examples%2Fcert-manager-basic%2Fv0" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>yuwenma</name>
     </author>
   </entry>
   <entry>
-    <title>Release notes from kpt - package-examples/cert-manager-basic/v0: Add a basic ghost package (#3381)</title>
+    <title>Release notes from kpt - package-examples/ingress-nginx/v0: Add a basic ghost package (#3381)</title>
     <updated>2022-07-19T17:43:52Z</updated>
-    <id>tag:github.com,2008:Repository/208908993/package-examples/cert-manager-basic/v0</id>
+    <id>tag:github.com,2008:Repository/208908993/package-examples/ingress-nginx/v0</id>
     <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Add ghost basic package&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;update ghost pacakge&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;remove set-labels&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/GoogleContainerTools/kpt/releases/tag/package-examples%2Fcert-manager-basic%2Fv0" rel="alternate"></link>
+    <link href="https://github.com/GoogleContainerTools/kpt/releases/tag/package-examples%2Fingress-nginx%2Fv0" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>yuwenma</name>
@@ -2344,17 +2355,6 @@
     <summary type="html"></summary>
     <author>
       <name>sethvargo</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from external-secrets - v0.5.4</title>
-    <updated>2022-05-31T10:23:05Z</updated>
-    <id>tag:github.com,2008:Repository/313628863/v0.5.4</id>
-    <content type="html">&lt;p&gt;Image: &lt;code&gt;ghcr.io/external-secrets/external-secrets:v0.5.4&lt;/code&gt;&lt;/p&gt;&#xA;&lt;h2&gt;Breaking Changes&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;None&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2&gt;Global Changes&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;g-emoji class=&#34;g-emoji&#34; alias=&#34;sparkles&#34; fallback-src=&#34;https://github.githubassets.com/images/icons/emoji/unicode/2728.png&#34;&gt;✨&lt;/g-emoji&gt; new provider: Yandex Certificate Manager&lt;/li&gt;&#xA;&lt;li&gt;&lt;g-emoji class=&#34;g-emoji&#34; alias=&#34;sparkles&#34; fallback-src=&#34;https://github.githubassets.com/images/icons/emoji/unicode/2728.png&#34;&gt;✨&lt;/g-emoji&gt; added pdb and replicaCount to helm chart&lt;/li&gt;&#xA;&lt;li&gt;&lt;g-emoji class=&#34;g-emoji&#34; alias=&#34;bug&#34; fallback-src=&#34;https://github.githubassets.com/images/icons/emoji/unicode/1f41b.png&#34;&gt;🐛&lt;/g-emoji&gt; fixed ClusterExternalSecrets &lt;code&gt;labelSelector.matchExpressions&lt;/code&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;g-emoji class=&#34;g-emoji&#34; alias=&#34;broom&#34; fallback-src=&#34;https://github.githubassets.com/images/icons/emoji/unicode/1f9f9.png&#34;&gt;🧹&lt;/g-emoji&gt; dependency updates&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2&gt;Provider Specific Changes&lt;/h2&gt;&#xA;&lt;h3&gt;AWS Secrets Manager&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;g-emoji class=&#34;g-emoji&#34; alias=&#34;sparkles&#34; fallback-src=&#34;https://github.githubassets.com/images/icons/emoji/unicode/2728.png&#34;&gt;✨&lt;/g-emoji&gt; Add support for referencing secrets manager secrets by their VersionId&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3&gt;Azure KeyVault&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;g-emoji class=&#34;g-emoji&#34; alias=&#34;sparkles&#34; fallback-src=&#34;https://github.githubassets.com/images/icons/emoji/unicode/2728.png&#34;&gt;✨&lt;/g-emoji&gt; added support for &lt;code&gt;metadataPolicy=Fetch&lt;/code&gt; to fetch tags from KeyVault&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3&gt;Alibaba Cloud&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;g-emoji class=&#34;g-emoji&#34; alias=&#34;sparkles&#34; fallback-src=&#34;https://github.githubassets.com/images/icons/emoji/unicode/2728.png&#34;&gt;✨&lt;/g-emoji&gt; added ValidateStore function&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3&gt;HashiCorp Vault&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;g-emoji class=&#34;g-emoji&#34; alias=&#34;sparkles&#34; fallback-src=&#34;https://github.githubassets.com/images/icons/emoji/unicode/2728.png&#34;&gt;✨&lt;/g-emoji&gt; / &lt;g-emoji class=&#34;g-emoji&#34; alias=&#34;bug&#34; fallback-src=&#34;https://github.githubassets.com/images/icons/emoji/unicode/1f41b.png&#34;&gt;🐛&lt;/g-emoji&gt;  support for fetching secrets from referent namespace&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3&gt;IBM&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;g-emoji class=&#34;g-emoji&#34; alias=&#34;sparkles&#34; fallback-src=&#34;https://github.githubassets.com/images/icons/emoji/unicode/2728.png&#34;&gt;✨&lt;/g-emoji&gt; IBM Secrets Manager&#39;s Private Certificate&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/external-secrets/external-secrets/releases/tag/v0.5.4" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>github-actions[bot]</name>
     </author>
   </entry>
   <entry>
