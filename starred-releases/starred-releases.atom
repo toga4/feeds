@@ -1,8 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?><feed xmlns="http://www.w3.org/2005/Atom">
   <title>Releases from Starred by toga4</title>
   <id>https://toga4.github.io/feeds/starred-releases.atom</id>
-  <updated>2022-08-11T16:32:47Z</updated>
+  <updated>2022-08-11T20:51:25Z</updated>
   <link href="https://toga4.github.io/feeds/starred-releases.atom"></link>
+  <entry>
+    <title>Release notes from secrets-store-csi-driver - v1.2.3</title>
+    <updated>2022-08-11T20:51:25Z</updated>
+    <id>tag:github.com,2008:Repository/163906733/v1.2.3</id>
+    <content type="html">&lt;h2&gt;v1.2.3 - 2022-08-11&lt;/h2&gt;&#xA;&lt;h2&gt;Changelog&lt;/h2&gt;&#xA;&lt;h3&gt;Bug Fixes &lt;g-emoji class=&#34;g-emoji&#34; alias=&#34;lady_beetle&#34; fallback-src=&#34;https://github.githubassets.com/images/icons/emoji/unicode/1f41e.png&#34;&gt;🐞&lt;/g-emoji&gt;&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a class=&#34;commit-link&#34; data-hovercard-type=&#34;commit&#34; data-hovercard-url=&#34;https://github.com/kubernetes-sigs/secrets-store-csi-driver/commit/8775b331d4624d1f9b45438f10644c6e85c1da2a/hovercard&#34; href=&#34;https://github.com/kubernetes-sigs/secrets-store-csi-driver/commit/8775b331d4624d1f9b45438f10644c6e85c1da2a&#34;&gt;&lt;tt&gt;8775b33&lt;/tt&gt;&lt;/a&gt; fix: sanitize service account tokens in logs&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3&gt;Maintenance &lt;g-emoji class=&#34;g-emoji&#34; alias=&#34;wrench&#34; fallback-src=&#34;https://github.githubassets.com/images/icons/emoji/unicode/1f527.png&#34;&gt;🔧&lt;/g-emoji&gt;&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a class=&#34;commit-link&#34; data-hovercard-type=&#34;commit&#34; data-hovercard-url=&#34;https://github.com/kubernetes-sigs/secrets-store-csi-driver/commit/a8a646ea94de9c7bb3eeea071ab90a3da5413615/hovercard&#34; href=&#34;https://github.com/kubernetes-sigs/secrets-store-csi-driver/commit/a8a646ea94de9c7bb3eeea071ab90a3da5413615&#34;&gt;&lt;tt&gt;a8a646e&lt;/tt&gt;&lt;/a&gt; chore: bump version to v1.2.3 in release-1.2&lt;/li&gt;&#xA;&lt;li&gt;&lt;a class=&#34;commit-link&#34; data-hovercard-type=&#34;commit&#34; data-hovercard-url=&#34;https://github.com/kubernetes-sigs/secrets-store-csi-driver/commit/f8d0e254ed1292a8d0f85a5b613eb32c17ab4fca/hovercard&#34; href=&#34;https://github.com/kubernetes-sigs/secrets-store-csi-driver/commit/f8d0e254ed1292a8d0f85a5b613eb32c17ab4fca&#34;&gt;&lt;tt&gt;f8d0e25&lt;/tt&gt;&lt;/a&gt; chore: update debian-base to bullseye-v1.4.1&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3&gt;Security Fix &lt;g-emoji class=&#34;g-emoji&#34; alias=&#34;shield&#34; fallback-src=&#34;https://github.githubassets.com/images/icons/emoji/unicode/1f6e1.png&#34;&gt;🛡️&lt;/g-emoji&gt;&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a class=&#34;commit-link&#34; data-hovercard-type=&#34;commit&#34; data-hovercard-url=&#34;https://github.com/kubernetes-sigs/secrets-store-csi-driver/commit/116118f9c0577b8b64b09771e42539535ae8ae00/hovercard&#34; href=&#34;https://github.com/kubernetes-sigs/secrets-store-csi-driver/commit/116118f9c0577b8b64b09771e42539535ae8ae00&#34;&gt;&lt;tt&gt;116118f&lt;/tt&gt;&lt;/a&gt; security: fix multiple CVEs&lt;/li&gt;&#xA;&lt;li&gt;&lt;a class=&#34;commit-link&#34; data-hovercard-type=&#34;commit&#34; data-hovercard-url=&#34;https://github.com/kubernetes-sigs/secrets-store-csi-driver/commit/5db802fc3421f8ca3a311153c171a59116749cc5/hovercard&#34; href=&#34;https://github.com/kubernetes-sigs/secrets-store-csi-driver/commit/5db802fc3421f8ca3a311153c171a59116749cc5&#34;&gt;&lt;tt&gt;5db802f&lt;/tt&gt;&lt;/a&gt; security: fix &lt;a title=&#34;CVE-2022-29526&#34; data-hovercard-type=&#34;advisory&#34; data-hovercard-url=&#34;/advisories/GHSA-p782-xgp4-8hr8/hovercard&#34; href=&#34;https://github.com/advisories/GHSA-p782-xgp4-8hr8&#34;&gt;CVE-2022-29526&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/kubernetes-sigs/secrets-store-csi-driver/releases/tag/v1.2.3" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>github-actions[bot]</name>
+    </author>
+  </entry>
   <entry>
     <title>Release notes from google-cloud-go - storage: v1.25.0</title>
     <updated>2022-08-11T16:32:47Z</updated>
@@ -158,22 +169,22 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from telepresence - v2.7.1-rc.1</title>
+    <title>Release notes from telepresence - rpc/v2.7.1-rc.1</title>
     <updated>2022-08-10T15:42:12Z</updated>
-    <id>tag:github.com,2008:Repository/82933315/v2.7.1-rc.1</id>
+    <id>tag:github.com,2008:Repository/82933315/rpc/v2.7.1-rc.1</id>
     <content type="html">&lt;p&gt;v2.7.1-rc.1&lt;/p&gt;</content>
-    <link href="https://github.com/telepresenceio/telepresence/releases/tag/v2.7.1-rc.1" rel="alternate"></link>
+    <link href="https://github.com/telepresenceio/telepresence/releases/tag/rpc%2Fv2.7.1-rc.1" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>njayp</name>
     </author>
   </entry>
   <entry>
-    <title>Release notes from telepresence - rpc/v2.7.1-rc.1</title>
+    <title>Release notes from telepresence - v2.7.1-rc.1</title>
     <updated>2022-08-10T15:42:12Z</updated>
-    <id>tag:github.com,2008:Repository/82933315/rpc/v2.7.1-rc.1</id>
+    <id>tag:github.com,2008:Repository/82933315/v2.7.1-rc.1</id>
     <content type="html">&lt;p&gt;v2.7.1-rc.1&lt;/p&gt;</content>
-    <link href="https://github.com/telepresenceio/telepresence/releases/tag/rpc%2Fv2.7.1-rc.1" rel="alternate"></link>
+    <link href="https://github.com/telepresenceio/telepresence/releases/tag/v2.7.1-rc.1" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>njayp</name>
@@ -268,44 +279,11 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from opentelemetry-operations-go - detectors/gcp/v0.32.5: prepare for v0.32.5 and v1.8.5 (#467)</title>
-    <updated>2022-08-09T18:12:05Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/detectors/gcp/v0.32.5</id>
-    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;prepare for v0.32.5 and v1.8.5&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/detectors%2Fgcp%2Fv0.32.5" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>dashpole</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from opentelemetry-operations-go - example/trace/http/v0.32.5: prepare for v0.32.5 and v1.8.5 (#467)</title>
-    <updated>2022-08-09T18:12:05Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/example/trace/http/v0.32.5</id>
-    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;prepare for v0.32.5 and v1.8.5&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/example%2Ftrace%2Fhttp%2Fv0.32.5" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>dashpole</name>
-    </author>
-  </entry>
-  <entry>
     <title>Release notes from opentelemetry-operations-go - exporter/metric/v0.32.5: prepare for v0.32.5 and v1.8.5 (#467)</title>
     <updated>2022-08-09T18:12:05Z</updated>
     <id>tag:github.com,2008:Repository/244484581/exporter/metric/v0.32.5</id>
     <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;prepare for v0.32.5 and v1.8.5&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
     <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/exporter%2Fmetric%2Fv0.32.5" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>dashpole</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from opentelemetry-operations-go - exporter/trace/v1.8.5: prepare for v0.32.5 and v1.8.5 (#467)</title>
-    <updated>2022-08-09T18:12:05Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/exporter/trace/v1.8.5</id>
-    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;prepare for v0.32.5 and v1.8.5&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/exporter%2Ftrace%2Fv1.8.5" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>dashpole</name>
@@ -323,11 +301,22 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from opentelemetry-operations-go - exporter/collector/v0.32.5: prepare for v0.32.5 and v1.8.5 (#467)</title>
+    <title>Release notes from opentelemetry-operations-go - detectors/gcp/v0.32.5: prepare for v0.32.5 and v1.8.5 (#467)</title>
     <updated>2022-08-09T18:12:05Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/exporter/collector/v0.32.5</id>
+    <id>tag:github.com,2008:Repository/244484581/detectors/gcp/v0.32.5</id>
     <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;prepare for v0.32.5 and v1.8.5&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/exporter%2Fcollector%2Fv0.32.5" rel="alternate"></link>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/detectors%2Fgcp%2Fv0.32.5" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>dashpole</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from opentelemetry-operations-go - exporter/trace/v1.8.5: prepare for v0.32.5 and v1.8.5 (#467)</title>
+    <updated>2022-08-09T18:12:05Z</updated>
+    <id>tag:github.com,2008:Repository/244484581/exporter/trace/v1.8.5</id>
+    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;prepare for v0.32.5 and v1.8.5&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/exporter%2Ftrace%2Fv1.8.5" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>dashpole</name>
@@ -339,6 +328,28 @@
     <id>tag:github.com,2008:Repository/244484581/example/metric/v0.32.5</id>
     <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;prepare for v0.32.5 and v1.8.5&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
     <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/example%2Fmetric%2Fv0.32.5" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>dashpole</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from opentelemetry-operations-go - example/trace/http/v0.32.5: prepare for v0.32.5 and v1.8.5 (#467)</title>
+    <updated>2022-08-09T18:12:05Z</updated>
+    <id>tag:github.com,2008:Repository/244484581/example/trace/http/v0.32.5</id>
+    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;prepare for v0.32.5 and v1.8.5&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/example%2Ftrace%2Fhttp%2Fv0.32.5" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>dashpole</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from opentelemetry-operations-go - exporter/collector/v0.32.5: prepare for v0.32.5 and v1.8.5 (#467)</title>
+    <updated>2022-08-09T18:12:05Z</updated>
+    <id>tag:github.com,2008:Repository/244484581/exporter/collector/v0.32.5</id>
+    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;prepare for v0.32.5 and v1.8.5&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/exporter%2Fcollector%2Fv0.32.5" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>dashpole</name>
@@ -400,22 +411,22 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from telepresence - v2.7.0-rc.2</title>
+    <title>Release notes from telepresence - rpc/v2.7.0-rc.2</title>
     <updated>2022-08-08T16:04:06Z</updated>
-    <id>tag:github.com,2008:Repository/82933315/v2.7.0-rc.2</id>
+    <id>tag:github.com,2008:Repository/82933315/rpc/v2.7.0-rc.2</id>
     <content type="html">&lt;p&gt;v2.7.0-rc.2&lt;/p&gt;</content>
-    <link href="https://github.com/telepresenceio/telepresence/releases/tag/v2.7.0-rc.2" rel="alternate"></link>
+    <link href="https://github.com/telepresenceio/telepresence/releases/tag/rpc%2Fv2.7.0-rc.2" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>josecv</name>
     </author>
   </entry>
   <entry>
-    <title>Release notes from telepresence - rpc/v2.7.0-rc.2</title>
+    <title>Release notes from telepresence - v2.7.0-rc.2</title>
     <updated>2022-08-08T16:04:06Z</updated>
-    <id>tag:github.com,2008:Repository/82933315/rpc/v2.7.0-rc.2</id>
+    <id>tag:github.com,2008:Repository/82933315/v2.7.0-rc.2</id>
     <content type="html">&lt;p&gt;v2.7.0-rc.2&lt;/p&gt;</content>
-    <link href="https://github.com/telepresenceio/telepresence/releases/tag/rpc%2Fv2.7.0-rc.2" rel="alternate"></link>
+    <link href="https://github.com/telepresenceio/telepresence/releases/tag/v2.7.0-rc.2" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>josecv</name>
@@ -1324,6 +1335,17 @@
     </author>
   </entry>
   <entry>
+    <title>Release notes from kpt - package-examples/ingress-nginx/v0: Add a basic ghost package (#3381)</title>
+    <updated>2022-07-19T17:43:52Z</updated>
+    <id>tag:github.com,2008:Repository/208908993/package-examples/ingress-nginx/v0</id>
+    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Add ghost basic package&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;update ghost pacakge&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;remove set-labels&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/GoogleContainerTools/kpt/releases/tag/package-examples%2Fingress-nginx%2Fv0" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>yuwenma</name>
+    </author>
+  </entry>
+  <entry>
     <title>Release notes from kpt - package-examples/ghost/v0: Add a basic ghost package (#3381)</title>
     <updated>2022-07-19T17:43:52Z</updated>
     <id>tag:github.com,2008:Repository/208908993/package-examples/ghost/v0</id>
@@ -1340,17 +1362,6 @@
     <id>tag:github.com,2008:Repository/208908993/package-examples/cert-manager-basic/v0</id>
     <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Add ghost basic package&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;update ghost pacakge&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;remove set-labels&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
     <link href="https://github.com/GoogleContainerTools/kpt/releases/tag/package-examples%2Fcert-manager-basic%2Fv0" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>yuwenma</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from kpt - package-examples/ingress-nginx/v0: Add a basic ghost package (#3381)</title>
-    <updated>2022-07-19T17:43:52Z</updated>
-    <id>tag:github.com,2008:Repository/208908993/package-examples/ingress-nginx/v0</id>
-    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Add ghost basic package&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;update ghost pacakge&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;remove set-labels&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/GoogleContainerTools/kpt/releases/tag/package-examples%2Fingress-nginx%2Fv0" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>yuwenma</name>
@@ -5446,17 +5457,6 @@
     <summary type="html"></summary>
     <author>
       <name>andykuszyk-form3</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from secrets-store-csi-driver - v1.0.0-rc.1</title>
-    <updated>2021-10-05T20:00:42Z</updated>
-    <id>tag:github.com,2008:Repository/163906733/v1.0.0-rc.1</id>
-    <content type="html">&lt;h2&gt;Announcement &lt;g-emoji class=&#34;g-emoji&#34; alias=&#34;loudspeaker&#34; fallback-src=&#34;https://github.githubassets.com/images/icons/emoji/unicode/1f4e2.png&#34;&gt;📢&lt;/g-emoji&gt;&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;The &lt;code&gt;SecretProviderClass&lt;/code&gt; and &lt;code&gt;SecretProviderClassPodStatus&lt;/code&gt; CRDs are now &lt;code&gt;v1&lt;/code&gt;!&lt;/li&gt;&#xA;&lt;li&gt;The helm charts have been moved to &lt;code&gt;https://kubernetes-sigs.github.io/secrets-store-csi-driver/charts&lt;/code&gt;. Refer to &lt;a href=&#34;https://secrets-store-csi-driver.sigs.k8s.io/getting-started/upgrades.html#upgrades&#34; rel=&#34;nofollow&#34;&gt;https://secrets-store-csi-driver.sigs.k8s.io/getting-started/upgrades.html#upgrades&lt;/a&gt; for information on upgrading existing clusters.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Note to Providers: Return files in gRPC responses to the driver is now the recommended approach. See &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;893803370&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/kubernetes-sigs/secrets-store-csi-driver/issues/551&#34; data-hovercard-type=&#34;issue&#34; data-hovercard-url=&#34;/kubernetes-sigs/secrets-store-csi-driver/issues/551/hovercard&#34; href=&#34;https://github.com/kubernetes-sigs/secrets-store-csi-driver/issues/551&#34;&gt;#551&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://kubernetes.io/docs/concepts/extend-kubernetes/api-extension/custom-resources/&#34; rel=&#34;nofollow&#34;&gt;CustomResourceDefinitions&lt;/a&gt; in helm charts have been moved from &lt;code&gt;templates&lt;/code&gt; to &lt;code&gt;crds&lt;/code&gt; directory in &lt;code&gt;v0.1.0&lt;/code&gt;. &lt;code&gt;pre-upgrade&lt;/code&gt; hooks have been added to manage the lifecycle of CRDs during install/upgrade.&lt;/li&gt;&#xA;&lt;li&gt;&lt;g-emoji class=&#34;g-emoji&#34; alias=&#34;exclamation&#34; fallback-src=&#34;https://github.githubassets.com/images/icons/emoji/unicode/2757.png&#34;&gt;❗&lt;/g-emoji&gt; Rollback to previous helm chart versions after installing &lt;code&gt;v0.1.0+&lt;/code&gt; will result in an error.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2&gt;Features &lt;g-emoji class=&#34;g-emoji&#34; alias=&#34;rainbow&#34; fallback-src=&#34;https://github.githubassets.com/images/icons/emoji/unicode/1f308.png&#34;&gt;🌈&lt;/g-emoji&gt;&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Promoted CRDs to v1 (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1012454321&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/kubernetes-sigs/secrets-store-csi-driver/issues/760&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/kubernetes-sigs/secrets-store-csi-driver/pull/760/hovercard&#34; href=&#34;https://github.com/kubernetes-sigs/secrets-store-csi-driver/pull/760&#34;&gt;#760&lt;/a&gt;, &lt;a class=&#34;user-mention notranslate&#34; data-hovercard-type=&#34;user&#34; data-hovercard-url=&#34;/users/aramase/hovercard&#34; data-octo-click=&#34;hovercard-link-click&#34; data-octo-dimensions=&#34;link_type:self&#34; href=&#34;https://github.com/aramase&#34;&gt;@aramase&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;Add Windows Server 2022 (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1010146570&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/kubernetes-sigs/secrets-store-csi-driver/issues/757&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/kubernetes-sigs/secrets-store-csi-driver/pull/757/hovercard&#34; href=&#34;https://github.com/kubernetes-sigs/secrets-store-csi-driver/pull/757&#34;&gt;#757&lt;/a&gt;, &lt;a class=&#34;user-mention notranslate&#34; data-hovercard-type=&#34;user&#34; data-hovercard-url=&#34;/users/nick5616/hovercard&#34; data-octo-click=&#34;hovercard-link-click&#34; data-octo-dimensions=&#34;link_type:self&#34; href=&#34;https://github.com/nick5616&#34;&gt;@nick5616&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2&gt;Bug Fixes &lt;g-emoji class=&#34;g-emoji&#34; alias=&#34;lady_beetle&#34; fallback-src=&#34;https://github.githubassets.com/images/icons/emoji/unicode/1f41e.png&#34;&gt;🐞&lt;/g-emoji&gt;&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Update base image for ltsc2022 (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1016580192&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/kubernetes-sigs/secrets-store-csi-driver/issues/770&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/kubernetes-sigs/secrets-store-csi-driver/pull/770/hovercard&#34; href=&#34;https://github.com/kubernetes-sigs/secrets-store-csi-driver/pull/770&#34;&gt;#770&lt;/a&gt;, &lt;a class=&#34;user-mention notranslate&#34; data-hovercard-type=&#34;user&#34; data-hovercard-url=&#34;/users/aramase/hovercard&#34; data-octo-click=&#34;hovercard-link-click&#34; data-octo-dimensions=&#34;link_type:self&#34; href=&#34;https://github.com/aramase&#34;&gt;@aramase&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Driver images are hosted in GCR at &lt;code&gt;k8s.gcr.io/csi-secrets-store/driver&lt;/code&gt;&lt;/p&gt;</content>
-    <link href="https://github.com/kubernetes-sigs/secrets-store-csi-driver/releases/tag/v1.0.0-rc.1" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>tam7t</name>
     </author>
   </entry>
   <entry>
