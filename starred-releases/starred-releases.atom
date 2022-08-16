@@ -1,8 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?><feed xmlns="http://www.w3.org/2005/Atom">
   <title>Releases from Starred by toga4</title>
   <id>https://toga4.github.io/feeds/starred-releases.atom</id>
-  <updated>2022-08-15T19:36:22Z</updated>
+  <updated>2022-08-16T02:02:27Z</updated>
   <link href="https://toga4.github.io/feeds/starred-releases.atom"></link>
+  <entry>
+    <title>Release notes from helmfile - v0.145.3</title>
+    <updated>2022-08-16T02:02:27Z</updated>
+    <id>tag:github.com,2008:Repository/474521466/v0.145.3</id>
+    <content type="html">&lt;p&gt;This release mainly contains fixes for a few regressions since our migration to &lt;code&gt;cobra&lt;/code&gt; as a CLI toolkit, the fix for a bug in OCI repo URL parsing and the support for newer &lt;code&gt;helm-secrets&lt;/code&gt;.&lt;/p&gt;&#xA;&lt;h2&gt;What&#39;s Changed&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Bump github.com/hashicorp/go-version from 1.4.0 to 1.6.0 by &lt;a class=&#34;user-mention notranslate&#34; data-hovercard-type=&#34;organization&#34; data-hovercard-url=&#34;/orgs/dependabot/hovercard&#34; data-octo-click=&#34;hovercard-link-click&#34; data-octo-dimensions=&#34;link_type:self&#34; href=&#34;https://github.com/dependabot&#34;&gt;@dependabot&lt;/a&gt; in &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1287555023&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/helmfile/helmfile/issues/183&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/helmfile/helmfile/pull/183/hovercard&#34; href=&#34;https://github.com/helmfile/helmfile/pull/183&#34;&gt;#183&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;fix doc link error and style error by &lt;a class=&#34;user-mention notranslate&#34; data-hovercard-type=&#34;user&#34; data-hovercard-url=&#34;/users/yxxhero/hovercard&#34; data-octo-click=&#34;hovercard-link-click&#34; data-octo-dimensions=&#34;link_type:self&#34; href=&#34;https://github.com/yxxhero&#34;&gt;@yxxhero&lt;/a&gt; in &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1296845778&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/helmfile/helmfile/issues/217&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/helmfile/helmfile/pull/217/hovercard&#34; href=&#34;https://github.com/helmfile/helmfile/pull/217&#34;&gt;#217&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;fix(doc): add missing version field in the release template example by &lt;a class=&#34;user-mention notranslate&#34; data-hovercard-type=&#34;user&#34; data-hovercard-url=&#34;/users/lemeurherve/hovercard&#34; data-octo-click=&#34;hovercard-link-click&#34; data-octo-dimensions=&#34;link_type:self&#34; href=&#34;https://github.com/lemeurherve&#34;&gt;@lemeurherve&lt;/a&gt; in &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1303622088&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/helmfile/helmfile/issues/228&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/helmfile/helmfile/pull/228/hovercard&#34; href=&#34;https://github.com/helmfile/helmfile/pull/228&#34;&gt;#228&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;update readme about image repo and fix link error by &lt;a class=&#34;user-mention notranslate&#34; data-hovercard-type=&#34;user&#34; data-hovercard-url=&#34;/users/yxxhero/hovercard&#34; data-octo-click=&#34;hovercard-link-click&#34; data-octo-dimensions=&#34;link_type:self&#34; href=&#34;https://github.com/yxxhero&#34;&gt;@yxxhero&lt;/a&gt; in &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1302722520&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/helmfile/helmfile/issues/224&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/helmfile/helmfile/pull/224/hovercard&#34; href=&#34;https://github.com/helmfile/helmfile/pull/224&#34;&gt;#224&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;fix: use helm secrets view rather than helm secrets dec to decrypt by &lt;a class=&#34;user-mention notranslate&#34; data-hovercard-type=&#34;user&#34; data-hovercard-url=&#34;/users/philomory/hovercard&#34; data-octo-click=&#34;hovercard-link-click&#34; data-octo-dimensions=&#34;link_type:self&#34; href=&#34;https://github.com/philomory&#34;&gt;@philomory&lt;/a&gt; in &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1289469250&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/helmfile/helmfile/issues/201&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/helmfile/helmfile/pull/201/hovercard&#34; href=&#34;https://github.com/helmfile/helmfile/pull/201&#34;&gt;#201&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;add Go lint by &lt;a class=&#34;user-mention notranslate&#34; data-hovercard-type=&#34;user&#34; data-hovercard-url=&#34;/users/yxxhero/hovercard&#34; data-octo-click=&#34;hovercard-link-click&#34; data-octo-dimensions=&#34;link_type:self&#34; href=&#34;https://github.com/yxxhero&#34;&gt;@yxxhero&lt;/a&gt; in &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1276217913&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/helmfile/helmfile/issues/169&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/helmfile/helmfile/pull/169/hovercard&#34; href=&#34;https://github.com/helmfile/helmfile/pull/169&#34;&gt;#169&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Include the working helmfile ver in the bug report by &lt;a class=&#34;user-mention notranslate&#34; data-hovercard-type=&#34;user&#34; data-hovercard-url=&#34;/users/mumoshu/hovercard&#34; data-octo-click=&#34;hovercard-link-click&#34; data-octo-dimensions=&#34;link_type:self&#34; href=&#34;https://github.com/mumoshu&#34;&gt;@mumoshu&lt;/a&gt; in &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1307329347&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/helmfile/helmfile/issues/237&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/helmfile/helmfile/pull/237/hovercard&#34; href=&#34;https://github.com/helmfile/helmfile/pull/237&#34;&gt;#237&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;update Readmd.md by &lt;a class=&#34;user-mention notranslate&#34; data-hovercard-type=&#34;user&#34; data-hovercard-url=&#34;/users/yxxhero/hovercard&#34; data-octo-click=&#34;hovercard-link-click&#34; data-octo-dimensions=&#34;link_type:self&#34; href=&#34;https://github.com/yxxhero&#34;&gt;@yxxhero&lt;/a&gt; in &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1307267311&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/helmfile/helmfile/issues/236&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/helmfile/helmfile/pull/236/hovercard&#34; href=&#34;https://github.com/helmfile/helmfile/pull/236&#34;&gt;#236&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;feat: bump chartify to v0.10.0 to support OCI registry for adhoc dependencies by &lt;a class=&#34;user-mention notranslate&#34; data-hovercard-type=&#34;user&#34; data-hovercard-url=&#34;/users/toVersus/hovercard&#34; data-octo-click=&#34;hovercard-link-click&#34; data-octo-dimensions=&#34;link_type:self&#34; href=&#34;https://github.com/toVersus&#34;&gt;@toVersus&lt;/a&gt; in &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1307487827&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/helmfile/helmfile/issues/238&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/helmfile/helmfile/pull/238/hovercard&#34; href=&#34;https://github.com/helmfile/helmfile/pull/238&#34;&gt;#238&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;on canary build, version should show &#34;0.0.0-dev&#34; by &lt;a class=&#34;user-mention notranslate&#34; data-hovercard-type=&#34;user&#34; data-hovercard-url=&#34;/users/itscaro/hovercard&#34; data-octo-click=&#34;hovercard-link-click&#34; data-octo-dimensions=&#34;link_type:self&#34; href=&#34;https://github.com/itscaro&#34;&gt;@itscaro&lt;/a&gt; in &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1272047409&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/helmfile/helmfile/issues/162&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/helmfile/helmfile/pull/162/hovercard&#34; href=&#34;https://github.com/helmfile/helmfile/pull/162&#34;&gt;#162&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Add integration test for &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1307487827&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/helmfile/helmfile/issues/238&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/helmfile/helmfile/pull/238/hovercard&#34; href=&#34;https://github.com/helmfile/helmfile/pull/238&#34;&gt;#238&lt;/a&gt; with local docker registry as a OCI-based helm chart repo by &lt;a class=&#34;user-mention notranslate&#34; data-hovercard-type=&#34;user&#34; data-hovercard-url=&#34;/users/mumoshu/hovercard&#34; data-octo-click=&#34;hovercard-link-click&#34; data-octo-dimensions=&#34;link_type:self&#34; href=&#34;https://github.com/mumoshu&#34;&gt;@mumoshu&lt;/a&gt; in &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1307980916&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/helmfile/helmfile/issues/239&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/helmfile/helmfile/pull/239/hovercard&#34; href=&#34;https://github.com/helmfile/helmfile/pull/239&#34;&gt;#239&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;chore: clean up snapshot test by &lt;a class=&#34;user-mention notranslate&#34; data-hovercard-type=&#34;user&#34; data-hovercard-url=&#34;/users/toVersus/hovercard&#34; data-octo-click=&#34;hovercard-link-click&#34; data-octo-dimensions=&#34;link_type:self&#34; href=&#34;https://github.com/toVersus&#34;&gt;@toVersus&lt;/a&gt; in &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1308119828&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/helmfile/helmfile/issues/241&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/helmfile/helmfile/pull/241/hovercard&#34; href=&#34;https://github.com/helmfile/helmfile/pull/241&#34;&gt;#241&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;doc: getting start adds repositories configuration by &lt;a class=&#34;user-mention notranslate&#34; data-hovercard-type=&#34;user&#34; data-hovercard-url=&#34;/users/xiaomudk/hovercard&#34; data-octo-click=&#34;hovercard-link-click&#34; data-octo-dimensions=&#34;link_type:self&#34; href=&#34;https://github.com/xiaomudk&#34;&gt;@xiaomudk&lt;/a&gt; in &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1308114017&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/helmfile/helmfile/issues/240&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/helmfile/helmfile/pull/240/hovercard&#34; href=&#34;https://github.com/helmfile/helmfile/pull/240&#34;&gt;#240&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Use cobra by &lt;a class=&#34;user-mention notranslate&#34; data-hovercard-type=&#34;user&#34; data-hovercard-url=&#34;/users/yxxhero/hovercard&#34; data-octo-click=&#34;hovercard-link-click&#34; data-octo-dimensions=&#34;link_type:self&#34; href=&#34;https://github.com/yxxhero&#34;&gt;@yxxhero&lt;/a&gt; in &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1307032490&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/helmfile/helmfile/issues/234&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/helmfile/helmfile/pull/234/hovercard&#34; href=&#34;https://github.com/helmfile/helmfile/pull/234&#34;&gt;#234&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;E2E helmfile-template testing with local chart repo server by &lt;a class=&#34;user-mention notranslate&#34; data-hovercard-type=&#34;user&#34; data-hovercard-url=&#34;/users/mumoshu/hovercard&#34; data-octo-click=&#34;hovercard-link-click&#34; data-octo-dimensions=&#34;link_type:self&#34; href=&#34;https://github.com/mumoshu&#34;&gt;@mumoshu&lt;/a&gt; in &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1310919188&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/helmfile/helmfile/issues/245&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/helmfile/helmfile/pull/245/hovercard&#34; href=&#34;https://github.com/helmfile/helmfile/pull/245&#34;&gt;#245&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;correct --help cli arg regression by &lt;a class=&#34;user-mention notranslate&#34; data-hovercard-type=&#34;user&#34; data-hovercard-url=&#34;/users/jouve/hovercard&#34; data-octo-click=&#34;hovercard-link-click&#34; data-octo-dimensions=&#34;link_type:self&#34; href=&#34;https://github.com/jouve&#34;&gt;@jouve&lt;/a&gt; in &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1313557990&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/helmfile/helmfile/issues/252&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/helmfile/helmfile/pull/252/hovercard&#34; href=&#34;https://github.com/helmfile/helmfile/pull/252&#34;&gt;#252&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;revert environment long option from --env to --environment by &lt;a class=&#34;user-mention notranslate&#34; data-hovercard-type=&#34;user&#34; data-hovercard-url=&#34;/users/jouve/hovercard&#34; data-octo-click=&#34;hovercard-link-click&#34; data-octo-dimensions=&#34;link_type:self&#34; href=&#34;https://github.com/jouve&#34;&gt;@jouve&lt;/a&gt; in &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1313493854&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/helmfile/helmfile/issues/250&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/helmfile/helmfile/pull/250/hovercard&#34; href=&#34;https://github.com/helmfile/helmfile/pull/250&#34;&gt;#250&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;test: Add unit tests for ChartExport by &lt;a class=&#34;user-mention notranslate&#34; data-hovercard-type=&#34;user&#34; data-hovercard-url=&#34;/users/xiaomudk/hovercard&#34; data-octo-click=&#34;hovercard-link-click&#34; data-octo-dimensions=&#34;link_type:self&#34; href=&#34;https://github.com/xiaomudk&#34;&gt;@xiaomudk&lt;/a&gt; in &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1315603043&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/helmfile/helmfile/issues/256&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/helmfile/helmfile/pull/256/hovercard&#34; href=&#34;https://github.com/helmfile/helmfile/pull/256&#34;&gt;#256&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;test: Add unit tests for ChartPull by &lt;a class=&#34;user-mention notranslate&#34; data-hovercard-type=&#34;user&#34; data-hovercard-url=&#34;/users/xiaomudk/hovercard&#34; data-octo-click=&#34;hovercard-link-click&#34; data-octo-dimensions=&#34;link_type:self&#34; href=&#34;https://github.com/xiaomudk&#34;&gt;@xiaomudk&lt;/a&gt; in &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1315619791&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/helmfile/helmfile/issues/257&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/helmfile/helmfile/pull/257/hovercard&#34; href=&#34;https://github.com/helmfile/helmfile/pull/257&#34;&gt;#257&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;fix: OCI Url and Version parse error by &lt;a class=&#34;user-mention notranslate&#34; data-hovercard-type=&#34;user&#34; data-hovercard-url=&#34;/users/xiaomudk/hovercard&#34; data-octo-click=&#34;hovercard-link-click&#34; data-octo-dimensions=&#34;link_type:self&#34; href=&#34;https://github.com/xiaomudk&#34;&gt;@xiaomudk&lt;/a&gt; in &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1315629735&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/helmfile/helmfile/issues/258&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/helmfile/helmfile/pull/258/hovercard&#34; href=&#34;https://github.com/helmfile/helmfile/pull/258&#34;&gt;#258&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Implement readDirEntries method by &lt;a class=&#34;user-mention notranslate&#34; data-hovercard-type=&#34;user&#34; data-hovercard-url=&#34;/users/vasicvuk/hovercard&#34; data-octo-click=&#34;hovercard-link-click&#34; data-octo-dimensions=&#34;link_type:self&#34; href=&#34;https://github.com/vasicvuk&#34;&gt;@vasicvuk&lt;/a&gt; in &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1313802056&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/helmfile/helmfile/issues/254&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/helmfile/helmfile/pull/254/hovercard&#34; href=&#34;https://github.com/helmfile/helmfile/pull/254&#34;&gt;#254&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;remove selector override in cmd/apply by &lt;a class=&#34;user-mention notranslate&#34; data-hovercard-type=&#34;user&#34; data-hovercard-url=&#34;/users/jouve/hovercard&#34; data-octo-click=&#34;hovercard-link-click&#34; data-octo-dimensions=&#34;link_type:self&#34; href=&#34;https://github.com/jouve&#34;&gt;@jouve&lt;/a&gt; in &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1324088504&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/helmfile/helmfile/issues/266&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/helmfile/helmfile/pull/266/hovercard&#34; href=&#34;https://github.com/helmfile/helmfile/pull/266&#34;&gt;#266&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;update doccs/index.md about CLI ref by &lt;a class=&#34;user-mention notranslate&#34; data-hovercard-type=&#34;user&#34; data-hovercard-url=&#34;/users/yxxhero/hovercard&#34; data-octo-click=&#34;hovercard-link-click&#34; data-octo-dimensions=&#34;link_type:self&#34; href=&#34;https://github.com/yxxhero&#34;&gt;@yxxhero&lt;/a&gt; in &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1323623239&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/helmfile/helmfile/issues/264&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/helmfile/helmfile/pull/264/hovercard&#34; href=&#34;https://github.com/helmfile/helmfile/pull/264&#34;&gt;#264&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;fix: needs error with context that includes slash by &lt;a class=&#34;user-mention notranslate&#34; data-hovercard-type=&#34;user&#34; data-hovercard-url=&#34;/users/sergeief/hovercard&#34; data-octo-click=&#34;hovercard-link-click&#34; data-octo-dimensions=&#34;link_type:self&#34; href=&#34;https://github.com/sergeief&#34;&gt;@sergeief&lt;/a&gt; in &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1327646625&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/helmfile/helmfile/issues/268&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/helmfile/helmfile/pull/268/hovercard&#34; href=&#34;https://github.com/helmfile/helmfile/pull/268&#34;&gt;#268&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Bump k8s.io/apimachinery from 0.23.4 to 0.24.3 by &lt;a class=&#34;user-mention notranslate&#34; data-hovercard-type=&#34;organization&#34; data-hovercard-url=&#34;/orgs/dependabot/hovercard&#34; data-octo-click=&#34;hovercard-link-click&#34; data-octo-dimensions=&#34;link_type:self&#34; href=&#34;https://github.com/dependabot&#34;&gt;@dependabot&lt;/a&gt; in &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1304956401&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/helmfile/helmfile/issues/230&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/helmfile/helmfile/pull/230/hovercard&#34; href=&#34;https://github.com/helmfile/helmfile/pull/230&#34;&gt;#230&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Add flags about need for lint subcmd by &lt;a class=&#34;user-mention notranslate&#34; data-hovercard-type=&#34;user&#34; data-hovercard-url=&#34;/users/yxxhero/hovercard&#34; data-octo-click=&#34;hovercard-link-click&#34; data-octo-dimensions=&#34;link_type:self&#34; href=&#34;https://github.com/yxxhero&#34;&gt;@yxxhero&lt;/a&gt; in &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1330648466&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/helmfile/helmfile/issues/273&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/helmfile/helmfile/pull/273/hovercard&#34; href=&#34;https://github.com/helmfile/helmfile/pull/273&#34;&gt;#273&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;fix go.mod by &lt;a class=&#34;user-mention notranslate&#34; data-hovercard-type=&#34;user&#34; data-hovercard-url=&#34;/users/yxxhero/hovercard&#34; data-octo-click=&#34;hovercard-link-click&#34; data-octo-dimensions=&#34;link_type:self&#34; href=&#34;https://github.com/yxxhero&#34;&gt;@yxxhero&lt;/a&gt; in &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1330697219&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/helmfile/helmfile/issues/275&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/helmfile/helmfile/pull/275/hovercard&#34; href=&#34;https://github.com/helmfile/helmfile/pull/275&#34;&gt;#275&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Refactor cobra flag default values for readability by &lt;a class=&#34;user-mention notranslate&#34; data-hovercard-type=&#34;user&#34; data-hovercard-url=&#34;/users/yxxhero/hovercard&#34; data-octo-click=&#34;hovercard-link-click&#34; data-octo-dimensions=&#34;link_type:self&#34; href=&#34;https://github.com/yxxhero&#34;&gt;@yxxhero&lt;/a&gt; in &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1330674564&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/helmfile/helmfile/issues/274&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/helmfile/helmfile/pull/274/hovercard&#34; href=&#34;https://github.com/helmfile/helmfile/pull/274&#34;&gt;#274&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;build(deps): bump go.uber.org/zap from 1.21.0 to 1.22.0 by &lt;a class=&#34;user-mention notranslate&#34; data-hovercard-type=&#34;organization&#34; data-hovercard-url=&#34;/orgs/dependabot/hovercard&#34; data-octo-click=&#34;hovercard-link-click&#34; data-octo-dimensions=&#34;link_type:self&#34; href=&#34;https://github.com/dependabot&#34;&gt;@dependabot&lt;/a&gt; in &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1333438338&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/helmfile/helmfile/issues/280&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/helmfile/helmfile/pull/280/hovercard&#34; href=&#34;https://github.com/helmfile/helmfile/pull/280&#34;&gt;#280&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Add file existence check for remote values by &lt;a class=&#34;user-mention notranslate&#34; data-hovercard-type=&#34;user&#34; data-hovercard-url=&#34;/users/kuzaxak/hovercard&#34; data-octo-click=&#34;hovercard-link-click&#34; data-octo-dimensions=&#34;link_type:self&#34; href=&#34;https://github.com/kuzaxak&#34;&gt;@kuzaxak&lt;/a&gt; in &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1335664783&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/helmfile/helmfile/issues/284&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/helmfile/helmfile/pull/284/hovercard&#34; href=&#34;https://github.com/helmfile/helmfile/pull/284&#34;&gt;#284&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Update ArchLinux installation instructions by &lt;a class=&#34;user-mention notranslate&#34; data-hovercard-type=&#34;user&#34; data-hovercard-url=&#34;/users/AnatolyRugalev/hovercard&#34; data-octo-click=&#34;hovercard-link-click&#34; data-octo-dimensions=&#34;link_type:self&#34; href=&#34;https://github.com/AnatolyRugalev&#34;&gt;@AnatolyRugalev&lt;/a&gt; in &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1333521887&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/helmfile/helmfile/issues/282&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/helmfile/helmfile/pull/282/hovercard&#34; href=&#34;https://github.com/helmfile/helmfile/pull/282&#34;&gt;#282&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Fix Inclusion of Releases for Other Environments by &lt;a class=&#34;user-mention notranslate&#34; data-hovercard-type=&#34;user&#34; data-hovercard-url=&#34;/users/dackroyd/hovercard&#34; data-octo-click=&#34;hovercard-link-click&#34; data-octo-dimensions=&#34;link_type:self&#34; href=&#34;https://github.com/dackroyd&#34;&gt;@dackroyd&lt;/a&gt; in &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1331362700&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/helmfile/helmfile/issues/276&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/helmfile/helmfile/pull/276/hovercard&#34; href=&#34;https://github.com/helmfile/helmfile/pull/276&#34;&gt;#276&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Cleanup pkg/config/config.go by &lt;a class=&#34;user-mention notranslate&#34; data-hovercard-type=&#34;user&#34; data-hovercard-url=&#34;/users/yxxhero/hovercard&#34; data-octo-click=&#34;hovercard-link-click&#34; data-octo-dimensions=&#34;link_type:self&#34; href=&#34;https://github.com/yxxhero&#34;&gt;@yxxhero&lt;/a&gt; in &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1335937610&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/helmfile/helmfile/issues/287&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/helmfile/helmfile/pull/287/hovercard&#34; href=&#34;https://github.com/helmfile/helmfile/pull/287&#34;&gt;#287&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;update golang lint by &lt;a class=&#34;user-mention notranslate&#34; data-hovercard-type=&#34;user&#34; data-hovercard-url=&#34;/users/yxxhero/hovercard&#34; data-octo-click=&#34;hovercard-link-click&#34; data-octo-dimensions=&#34;link_type:self&#34; href=&#34;https://github.com/yxxhero&#34;&gt;@yxxhero&lt;/a&gt; in &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1337155074&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/helmfile/helmfile/issues/288&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/helmfile/helmfile/pull/288/hovercard&#34; href=&#34;https://github.com/helmfile/helmfile/pull/288&#34;&gt;#288&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Refactor &#39;images&#39; workflow, include Ubuntu image to push by &lt;a class=&#34;user-mention notranslate&#34; data-hovercard-type=&#34;user&#34; data-hovercard-url=&#34;/users/pathob/hovercard&#34; data-octo-click=&#34;hovercard-link-click&#34; data-octo-dimensions=&#34;link_type:self&#34; href=&#34;https://github.com/pathob&#34;&gt;@pathob&lt;/a&gt; in &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1322267876&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/helmfile/helmfile/issues/262&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/helmfile/helmfile/pull/262/hovercard&#34; href=&#34;https://github.com/helmfile/helmfile/pull/262&#34;&gt;#262&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;build(deps): bump github.com/mattn/go-isatty from 0.0.14 to 0.0.16 by &lt;a class=&#34;user-mention notranslate&#34; data-hovercard-type=&#34;organization&#34; data-hovercard-url=&#34;/orgs/dependabot/hovercard&#34; data-octo-click=&#34;hovercard-link-click&#34; data-octo-dimensions=&#34;link_type:self&#34; href=&#34;https://github.com/dependabot&#34;&gt;@dependabot&lt;/a&gt; in &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1339151498&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/helmfile/helmfile/issues/293&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/helmfile/helmfile/pull/293/hovercard&#34; href=&#34;https://github.com/helmfile/helmfile/pull/293&#34;&gt;#293&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;fix tag miss in docker build by &lt;a class=&#34;user-mention notranslate&#34; data-hovercard-type=&#34;user&#34; data-hovercard-url=&#34;/users/yxxhero/hovercard&#34; data-octo-click=&#34;hovercard-link-click&#34; data-octo-dimensions=&#34;link_type:self&#34; href=&#34;https://github.com/yxxhero&#34;&gt;@yxxhero&lt;/a&gt; in &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1339643735&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/helmfile/helmfile/issues/294&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/helmfile/helmfile/pull/294/hovercard&#34; href=&#34;https://github.com/helmfile/helmfile/pull/294&#34;&gt;#294&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2&gt;New Contributors&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a class=&#34;user-mention notranslate&#34; data-hovercard-type=&#34;user&#34; data-hovercard-url=&#34;/users/lemeurherve/hovercard&#34; data-octo-click=&#34;hovercard-link-click&#34; data-octo-dimensions=&#34;link_type:self&#34; href=&#34;https://github.com/lemeurherve&#34;&gt;@lemeurherve&lt;/a&gt; made their first contribution in &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1303622088&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/helmfile/helmfile/issues/228&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/helmfile/helmfile/pull/228/hovercard&#34; href=&#34;https://github.com/helmfile/helmfile/pull/228&#34;&gt;#228&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a class=&#34;user-mention notranslate&#34; data-hovercard-type=&#34;user&#34; data-hovercard-url=&#34;/users/toVersus/hovercard&#34; data-octo-click=&#34;hovercard-link-click&#34; data-octo-dimensions=&#34;link_type:self&#34; href=&#34;https://github.com/toVersus&#34;&gt;@toVersus&lt;/a&gt; made their first contribution in &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1307487827&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/helmfile/helmfile/issues/238&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/helmfile/helmfile/pull/238/hovercard&#34; href=&#34;https://github.com/helmfile/helmfile/pull/238&#34;&gt;#238&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a class=&#34;user-mention notranslate&#34; data-hovercard-type=&#34;user&#34; data-hovercard-url=&#34;/users/xiaomudk/hovercard&#34; data-octo-click=&#34;hovercard-link-click&#34; data-octo-dimensions=&#34;link_type:self&#34; href=&#34;https://github.com/xiaomudk&#34;&gt;@xiaomudk&lt;/a&gt; made their first contribution in &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1308114017&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/helmfile/helmfile/issues/240&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/helmfile/helmfile/pull/240/hovercard&#34; href=&#34;https://github.com/helmfile/helmfile/pull/240&#34;&gt;#240&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a class=&#34;user-mention notranslate&#34; data-hovercard-type=&#34;user&#34; data-hovercard-url=&#34;/users/jouve/hovercard&#34; data-octo-click=&#34;hovercard-link-click&#34; data-octo-dimensions=&#34;link_type:self&#34; href=&#34;https://github.com/jouve&#34;&gt;@jouve&lt;/a&gt; made their first contribution in &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1313557990&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/helmfile/helmfile/issues/252&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/helmfile/helmfile/pull/252/hovercard&#34; href=&#34;https://github.com/helmfile/helmfile/pull/252&#34;&gt;#252&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a class=&#34;user-mention notranslate&#34; data-hovercard-type=&#34;user&#34; data-hovercard-url=&#34;/users/vasicvuk/hovercard&#34; data-octo-click=&#34;hovercard-link-click&#34; data-octo-dimensions=&#34;link_type:self&#34; href=&#34;https://github.com/vasicvuk&#34;&gt;@vasicvuk&lt;/a&gt; made their first contribution in &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1313802056&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/helmfile/helmfile/issues/254&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/helmfile/helmfile/pull/254/hovercard&#34; href=&#34;https://github.com/helmfile/helmfile/pull/254&#34;&gt;#254&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a class=&#34;user-mention notranslate&#34; data-hovercard-type=&#34;user&#34; data-hovercard-url=&#34;/users/sergeief/hovercard&#34; data-octo-click=&#34;hovercard-link-click&#34; data-octo-dimensions=&#34;link_type:self&#34; href=&#34;https://github.com/sergeief&#34;&gt;@sergeief&lt;/a&gt; made their first contribution in &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1327646625&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/helmfile/helmfile/issues/268&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/helmfile/helmfile/pull/268/hovercard&#34; href=&#34;https://github.com/helmfile/helmfile/pull/268&#34;&gt;#268&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a class=&#34;user-mention notranslate&#34; data-hovercard-type=&#34;user&#34; data-hovercard-url=&#34;/users/kuzaxak/hovercard&#34; data-octo-click=&#34;hovercard-link-click&#34; data-octo-dimensions=&#34;link_type:self&#34; href=&#34;https://github.com/kuzaxak&#34;&gt;@kuzaxak&lt;/a&gt; made their first contribution in &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1335664783&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/helmfile/helmfile/issues/284&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/helmfile/helmfile/pull/284/hovercard&#34; href=&#34;https://github.com/helmfile/helmfile/pull/284&#34;&gt;#284&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a class=&#34;user-mention notranslate&#34; data-hovercard-type=&#34;user&#34; data-hovercard-url=&#34;/users/AnatolyRugalev/hovercard&#34; data-octo-click=&#34;hovercard-link-click&#34; data-octo-dimensions=&#34;link_type:self&#34; href=&#34;https://github.com/AnatolyRugalev&#34;&gt;@AnatolyRugalev&lt;/a&gt; made their first contribution in &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1333521887&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/helmfile/helmfile/issues/282&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/helmfile/helmfile/pull/282/hovercard&#34; href=&#34;https://github.com/helmfile/helmfile/pull/282&#34;&gt;#282&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a class=&#34;user-mention notranslate&#34; data-hovercard-type=&#34;user&#34; data-hovercard-url=&#34;/users/dackroyd/hovercard&#34; data-octo-click=&#34;hovercard-link-click&#34; data-octo-dimensions=&#34;link_type:self&#34; href=&#34;https://github.com/dackroyd&#34;&gt;@dackroyd&lt;/a&gt; made their first contribution in &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1331362700&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/helmfile/helmfile/issues/276&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/helmfile/helmfile/pull/276/hovercard&#34; href=&#34;https://github.com/helmfile/helmfile/pull/276&#34;&gt;#276&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a class=&#34;user-mention notranslate&#34; data-hovercard-type=&#34;user&#34; data-hovercard-url=&#34;/users/pathob/hovercard&#34; data-octo-click=&#34;hovercard-link-click&#34; data-octo-dimensions=&#34;link_type:self&#34; href=&#34;https://github.com/pathob&#34;&gt;@pathob&lt;/a&gt; made their first contribution in &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1322267876&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/helmfile/helmfile/issues/262&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/helmfile/helmfile/pull/262/hovercard&#34; href=&#34;https://github.com/helmfile/helmfile/pull/262&#34;&gt;#262&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: &lt;a class=&#34;commit-link&#34; href=&#34;https://github.com/helmfile/helmfile/compare/v0.145.2...v0.145.3&#34;&gt;&lt;tt&gt;v0.145.2...v0.145.3&lt;/tt&gt;&lt;/a&gt;&lt;/p&gt;</content>
+    <link href="https://github.com/helmfile/helmfile/releases/tag/v0.145.3" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>mumoshu</name>
+    </author>
+  </entry>
   <entry>
     <title>Release notes from google-cloud-go - bigquery: v1.38.0</title>
     <updated>2022-08-15T19:36:22Z</updated>
@@ -15,22 +26,22 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from telepresence - v2.7.2-test.0</title>
+    <title>Release notes from telepresence - rpc/v2.7.2-test.0</title>
     <updated>2022-08-15T19:09:35Z</updated>
-    <id>tag:github.com,2008:Repository/82933315/v2.7.2-test.0</id>
+    <id>tag:github.com,2008:Repository/82933315/rpc/v2.7.2-test.0</id>
     <content type="html">&lt;p&gt;v2.7.2-test.0&lt;/p&gt;</content>
-    <link href="https://github.com/telepresenceio/telepresence/releases/tag/v2.7.2-test.0" rel="alternate"></link>
+    <link href="https://github.com/telepresenceio/telepresence/releases/tag/rpc%2Fv2.7.2-test.0" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>josecv</name>
     </author>
   </entry>
   <entry>
-    <title>Release notes from telepresence - rpc/v2.7.2-test.0</title>
+    <title>Release notes from telepresence - v2.7.2-test.0</title>
     <updated>2022-08-15T19:09:35Z</updated>
-    <id>tag:github.com,2008:Repository/82933315/rpc/v2.7.2-test.0</id>
+    <id>tag:github.com,2008:Repository/82933315/v2.7.2-test.0</id>
     <content type="html">&lt;p&gt;v2.7.2-test.0&lt;/p&gt;</content>
-    <link href="https://github.com/telepresenceio/telepresence/releases/tag/rpc%2Fv2.7.2-test.0" rel="alternate"></link>
+    <link href="https://github.com/telepresenceio/telepresence/releases/tag/v2.7.2-test.0" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>josecv</name>
@@ -191,22 +202,22 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from telepresence - v2.7.1</title>
+    <title>Release notes from telepresence - rpc/v2.7.1</title>
     <updated>2022-08-10T16:48:55Z</updated>
-    <id>tag:github.com,2008:Repository/82933315/v2.7.1</id>
+    <id>tag:github.com,2008:Repository/82933315/rpc/v2.7.1</id>
     <content type="html">&lt;p&gt;v2.7.1&lt;/p&gt;</content>
-    <link href="https://github.com/telepresenceio/telepresence/releases/tag/v2.7.1" rel="alternate"></link>
+    <link href="https://github.com/telepresenceio/telepresence/releases/tag/rpc%2Fv2.7.1" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>njayp</name>
     </author>
   </entry>
   <entry>
-    <title>Release notes from telepresence - rpc/v2.7.1</title>
+    <title>Release notes from telepresence - v2.7.1</title>
     <updated>2022-08-10T16:48:55Z</updated>
-    <id>tag:github.com,2008:Repository/82933315/rpc/v2.7.1</id>
+    <id>tag:github.com,2008:Repository/82933315/v2.7.1</id>
     <content type="html">&lt;p&gt;v2.7.1&lt;/p&gt;</content>
-    <link href="https://github.com/telepresenceio/telepresence/releases/tag/rpc%2Fv2.7.1" rel="alternate"></link>
+    <link href="https://github.com/telepresenceio/telepresence/releases/tag/v2.7.1" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>njayp</name>
@@ -246,17 +257,6 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from telepresence - v2.7.1-rc.1</title>
-    <updated>2022-08-10T15:42:12Z</updated>
-    <id>tag:github.com,2008:Repository/82933315/v2.7.1-rc.1</id>
-    <content type="html">&lt;p&gt;v2.7.1-rc.1&lt;/p&gt;</content>
-    <link href="https://github.com/telepresenceio/telepresence/releases/tag/v2.7.1-rc.1" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>njayp</name>
-    </author>
-  </entry>
-  <entry>
     <title>Release notes from telepresence - rpc/v2.7.1-rc.1</title>
     <updated>2022-08-10T15:42:12Z</updated>
     <id>tag:github.com,2008:Repository/82933315/rpc/v2.7.1-rc.1</id>
@@ -268,11 +268,11 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from telepresence - v2.7.1-rc.0</title>
-    <updated>2022-08-10T09:23:45Z</updated>
-    <id>tag:github.com,2008:Repository/82933315/v2.7.1-rc.0</id>
-    <content type="html">&lt;p&gt;v2.7.1-rc.0&lt;/p&gt;</content>
-    <link href="https://github.com/telepresenceio/telepresence/releases/tag/v2.7.1-rc.0" rel="alternate"></link>
+    <title>Release notes from telepresence - v2.7.1-rc.1</title>
+    <updated>2022-08-10T15:42:12Z</updated>
+    <id>tag:github.com,2008:Repository/82933315/v2.7.1-rc.1</id>
+    <content type="html">&lt;p&gt;v2.7.1-rc.1&lt;/p&gt;</content>
+    <link href="https://github.com/telepresenceio/telepresence/releases/tag/v2.7.1-rc.1" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>njayp</name>
@@ -284,6 +284,17 @@
     <id>tag:github.com,2008:Repository/82933315/rpc/v2.7.1-rc.0</id>
     <content type="html">&lt;p&gt;v2.7.1-rc.0&lt;/p&gt;</content>
     <link href="https://github.com/telepresenceio/telepresence/releases/tag/rpc%2Fv2.7.1-rc.0" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>njayp</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from telepresence - v2.7.1-rc.0</title>
+    <updated>2022-08-10T09:23:45Z</updated>
+    <id>tag:github.com,2008:Repository/82933315/v2.7.1-rc.0</id>
+    <content type="html">&lt;p&gt;v2.7.1-rc.0&lt;/p&gt;</content>
+    <link href="https://github.com/telepresenceio/telepresence/releases/tag/v2.7.1-rc.0" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>njayp</name>
@@ -356,22 +367,11 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from opentelemetry-operations-go - exporter/collector/v0.32.5: prepare for v0.32.5 and v1.8.5 (#467)</title>
+    <title>Release notes from opentelemetry-operations-go - detectors/gcp/v0.32.5: prepare for v0.32.5 and v1.8.5 (#467)</title>
     <updated>2022-08-09T18:12:05Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/exporter/collector/v0.32.5</id>
+    <id>tag:github.com,2008:Repository/244484581/detectors/gcp/v0.32.5</id>
     <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;prepare for v0.32.5 and v1.8.5&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/exporter%2Fcollector%2Fv0.32.5" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>dashpole</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from opentelemetry-operations-go - example/metric/v0.32.5: prepare for v0.32.5 and v1.8.5 (#467)</title>
-    <updated>2022-08-09T18:12:05Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/example/metric/v0.32.5</id>
-    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;prepare for v0.32.5 and v1.8.5&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/example%2Fmetric%2Fv0.32.5" rel="alternate"></link>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/detectors%2Fgcp%2Fv0.32.5" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>dashpole</name>
@@ -389,33 +389,11 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from opentelemetry-operations-go - exporter/trace/v1.8.5: prepare for v0.32.5 and v1.8.5 (#467)</title>
+    <title>Release notes from opentelemetry-operations-go - example/metric/v0.32.5: prepare for v0.32.5 and v1.8.5 (#467)</title>
     <updated>2022-08-09T18:12:05Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/exporter/trace/v1.8.5</id>
+    <id>tag:github.com,2008:Repository/244484581/example/metric/v0.32.5</id>
     <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;prepare for v0.32.5 and v1.8.5&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/exporter%2Ftrace%2Fv1.8.5" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>dashpole</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from opentelemetry-operations-go - exporter/metric/v0.32.5: prepare for v0.32.5 and v1.8.5 (#467)</title>
-    <updated>2022-08-09T18:12:05Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/exporter/metric/v0.32.5</id>
-    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;prepare for v0.32.5 and v1.8.5&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/exporter%2Fmetric%2Fv0.32.5" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>dashpole</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from opentelemetry-operations-go - exporter/collector/googlemanagedprometheus/v0.32.5: prepare for v0.32.5 and v1.8.5 (#467)</title>
-    <updated>2022-08-09T18:12:05Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/exporter/collector/googlemanagedprometheus/v0.32.5</id>
-    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;prepare for v0.32.5 and v1.8.5&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/exporter%2Fcollector%2Fgooglemanagedprometheus%2Fv0.32.5" rel="alternate"></link>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/example%2Fmetric%2Fv0.32.5" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>dashpole</name>
@@ -433,11 +411,44 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from opentelemetry-operations-go - detectors/gcp/v0.32.5: prepare for v0.32.5 and v1.8.5 (#467)</title>
+    <title>Release notes from opentelemetry-operations-go - exporter/collector/googlemanagedprometheus/v0.32.5: prepare for v0.32.5 and v1.8.5 (#467)</title>
     <updated>2022-08-09T18:12:05Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/detectors/gcp/v0.32.5</id>
+    <id>tag:github.com,2008:Repository/244484581/exporter/collector/googlemanagedprometheus/v0.32.5</id>
     <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;prepare for v0.32.5 and v1.8.5&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/detectors%2Fgcp%2Fv0.32.5" rel="alternate"></link>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/exporter%2Fcollector%2Fgooglemanagedprometheus%2Fv0.32.5" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>dashpole</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from opentelemetry-operations-go - exporter/collector/v0.32.5: prepare for v0.32.5 and v1.8.5 (#467)</title>
+    <updated>2022-08-09T18:12:05Z</updated>
+    <id>tag:github.com,2008:Repository/244484581/exporter/collector/v0.32.5</id>
+    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;prepare for v0.32.5 and v1.8.5&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/exporter%2Fcollector%2Fv0.32.5" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>dashpole</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from opentelemetry-operations-go - exporter/metric/v0.32.5: prepare for v0.32.5 and v1.8.5 (#467)</title>
+    <updated>2022-08-09T18:12:05Z</updated>
+    <id>tag:github.com,2008:Repository/244484581/exporter/metric/v0.32.5</id>
+    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;prepare for v0.32.5 and v1.8.5&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/exporter%2Fmetric%2Fv0.32.5" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>dashpole</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from opentelemetry-operations-go - exporter/trace/v1.8.5: prepare for v0.32.5 and v1.8.5 (#467)</title>
+    <updated>2022-08-09T18:12:05Z</updated>
+    <id>tag:github.com,2008:Repository/244484581/exporter/trace/v1.8.5</id>
+    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;prepare for v0.32.5 and v1.8.5&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/exporter%2Ftrace%2Fv1.8.5" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>dashpole</name>
@@ -939,22 +950,22 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from opentelemetry-go - trace/v1.9.0</title>
+    <title>Release notes from opentelemetry-go - sdk/v1.9.0</title>
     <updated>2022-08-02T15:14:26Z</updated>
-    <id>tag:github.com,2008:Repository/187086161/trace/v1.9.0</id>
+    <id>tag:github.com,2008:Repository/187086161/sdk/v1.9.0</id>
     <content type="html">&lt;p&gt;Module set stable-v1, Version v1.9.0&lt;/p&gt;</content>
-    <link href="https://github.com/open-telemetry/opentelemetry-go/releases/tag/trace%2Fv1.9.0" rel="alternate"></link>
+    <link href="https://github.com/open-telemetry/opentelemetry-go/releases/tag/sdk%2Fv1.9.0" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>MrAlias</name>
     </author>
   </entry>
   <entry>
-    <title>Release notes from opentelemetry-go - sdk/v1.9.0</title>
+    <title>Release notes from opentelemetry-go - trace/v1.9.0</title>
     <updated>2022-08-02T15:14:26Z</updated>
-    <id>tag:github.com,2008:Repository/187086161/sdk/v1.9.0</id>
+    <id>tag:github.com,2008:Repository/187086161/trace/v1.9.0</id>
     <content type="html">&lt;p&gt;Module set stable-v1, Version v1.9.0&lt;/p&gt;</content>
-    <link href="https://github.com/open-telemetry/opentelemetry-go/releases/tag/sdk%2Fv1.9.0" rel="alternate"></link>
+    <link href="https://github.com/open-telemetry/opentelemetry-go/releases/tag/trace%2Fv1.9.0" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>MrAlias</name>
@@ -1412,22 +1423,22 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from kpt - package-examples/ghost/v0: Add a basic ghost package (#3381)</title>
+    <title>Release notes from kpt - package-examples/ingress-nginx/v0: Add a basic ghost package (#3381)</title>
     <updated>2022-07-19T17:43:52Z</updated>
-    <id>tag:github.com,2008:Repository/208908993/package-examples/ghost/v0</id>
+    <id>tag:github.com,2008:Repository/208908993/package-examples/ingress-nginx/v0</id>
     <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Add ghost basic package&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;update ghost pacakge&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;remove set-labels&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/GoogleContainerTools/kpt/releases/tag/package-examples%2Fghost%2Fv0" rel="alternate"></link>
+    <link href="https://github.com/GoogleContainerTools/kpt/releases/tag/package-examples%2Fingress-nginx%2Fv0" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>yuwenma</name>
     </author>
   </entry>
   <entry>
-    <title>Release notes from kpt - package-examples/ingress-nginx/v0: Add a basic ghost package (#3381)</title>
+    <title>Release notes from kpt - package-examples/ghost/v0: Add a basic ghost package (#3381)</title>
     <updated>2022-07-19T17:43:52Z</updated>
-    <id>tag:github.com,2008:Repository/208908993/package-examples/ingress-nginx/v0</id>
+    <id>tag:github.com,2008:Repository/208908993/package-examples/ghost/v0</id>
     <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Add ghost basic package&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;update ghost pacakge&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;remove set-labels&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/GoogleContainerTools/kpt/releases/tag/package-examples%2Fingress-nginx%2Fv0" rel="alternate"></link>
+    <link href="https://github.com/GoogleContainerTools/kpt/releases/tag/package-examples%2Fghost%2Fv0" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>yuwenma</name>
@@ -5380,17 +5391,6 @@
     <summary type="html"></summary>
     <author>
       <name>gmlewis</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from helmfile - v0.142.0: Make .Environment values available in .gotmpl files. (#2000)</title>
-    <updated>2021-11-04T01:04:01Z</updated>
-    <id>tag:github.com,2008:Repository/474521466/v0.142.0</id>
-    <content type="html">&lt;p&gt;Currently it&#39;s not possible to use &lt;code&gt;.Environment&lt;/code&gt; values in &lt;code&gt;*.gomtpl&lt;/code&gt; files. The documentation states the opposite:&lt;br&gt;&#xA;&lt;a href=&#34;https://github.com/roboll/helmfile#environment&#34;&gt;https://github.com/roboll/helmfile#environment&lt;/a&gt; (2nd paragraph).&lt;br&gt;&#xA;The problem is already described in #1090.&lt;br&gt;&#xA;This PR fixes this bug.&lt;br&gt;&#xA;Fixes #1090&lt;/p&gt;&#xA;&lt;p&gt;Co-authored-by: Peter Aichinger &lt;a href=&#34;mailto:petera@topdesk.com&#34;&gt;petera@topdesk.com&lt;/a&gt;&lt;/p&gt;</content>
-    <link href="https://github.com/helmfile/helmfile/releases/tag/v0.142.0" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>pjotre86</name>
     </author>
   </entry>
   <entry>
