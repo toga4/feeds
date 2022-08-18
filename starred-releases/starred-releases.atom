@@ -1,8 +1,63 @@
 <?xml version="1.0" encoding="UTF-8"?><feed xmlns="http://www.w3.org/2005/Atom">
   <title>Releases from Starred by toga4</title>
   <id>https://toga4.github.io/feeds/starred-releases.atom</id>
-  <updated>2022-08-17T23:02:18Z</updated>
+  <updated>2022-08-18T18:10:01Z</updated>
   <link href="https://toga4.github.io/feeds/starred-releases.atom"></link>
+  <entry>
+    <title>Release notes from google-cloud-go - documentai: v1.5.0</title>
+    <updated>2022-08-18T18:10:01Z</updated>
+    <id>tag:github.com,2008:Repository/19608522/documentai/v1.5.0</id>
+    <content type="html">&lt;h2&gt;&lt;a href=&#34;https://github.com/googleapis/google-cloud-go/compare/documentai/v1.4.0...documentai/v1.5.0&#34;&gt;1.5.0&lt;/a&gt; (2022-08-18)&lt;/h2&gt;&#xA;&lt;h3&gt;&lt;g-emoji class=&#34;g-emoji&#34; alias=&#34;warning&#34; fallback-src=&#34;https://github.githubassets.com/images/icons/emoji/unicode/26a0.png&#34;&gt;⚠&lt;/g-emoji&gt; BREAKING CHANGES&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;documentai:&lt;/strong&gt; Changed the name field for ProcessRequest and BatchProcessorRequest to accept * so the name field can accept Processor and ProcessorVersion.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3&gt;Features&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;documentai:&lt;/strong&gt; Added field_mask to ProcessRequest object in document_processor_service.proto feat: Added parent_ids to Revision object in document.proto feat: Added integer_values, float_values and non_present to Entity object in document.proto feat: Added corrected_key_text, correct_value_text to FormField object in document.proto feat: Added OperationMetadata resource feat!: Added Processor Management and Processor Version support to v1 library (&lt;a href=&#34;https://github.com/googleapis/google-cloud-go/commit/370e23eaa342a7055a8d8b6f8fe9420f83afe43e&#34;&gt;370e23e&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3&gt;Documentation&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;documentai:&lt;/strong&gt; fix minor docstring formatting (&lt;a href=&#34;https://github.com/googleapis/google-cloud-go/commit/370e23eaa342a7055a8d8b6f8fe9420f83afe43e&#34;&gt;370e23e&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3&gt;Miscellaneous Chores&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;documentai:&lt;/strong&gt; release v1.5.0 (&lt;a href=&#34;https://github.com/googleapis/google-cloud-go/issues/6522&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/googleapis/google-cloud-go/pull/6522/hovercard&#34;&gt;#6522&lt;/a&gt;) (&lt;a href=&#34;https://github.com/googleapis/google-cloud-go/commit/4169a66d15e99a14d3a59fd5d0e9a8f4509f0643&#34;&gt;4169a66&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/googleapis/google-cloud-go/releases/tag/documentai%2Fv1.5.0" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>release-please[bot]</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from google-cloud-go - compute: v1.9.0</title>
+    <updated>2022-08-18T18:09:59Z</updated>
+    <id>tag:github.com,2008:Repository/19608522/compute/v1.9.0</id>
+    <content type="html">&lt;h2&gt;&lt;a href=&#34;https://github.com/googleapis/google-cloud-go/compare/compute/v1.8.0...compute/v1.9.0&#34;&gt;1.9.0&lt;/a&gt; (2022-08-18)&lt;/h2&gt;&#xA;&lt;h3&gt;Features&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;compute/metadata:&lt;/strong&gt; add http timeout to metadata client (&lt;a href=&#34;https://github.com/googleapis/google-cloud-go/issues/6499&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/googleapis/google-cloud-go/pull/6499/hovercard&#34;&gt;#6499&lt;/a&gt;) (&lt;a href=&#34;https://github.com/googleapis/google-cloud-go/commit/37d49f7a6a004baf55d880f6aa9e42e2e2d1e27e&#34;&gt;37d49f7&lt;/a&gt;), refs &lt;a href=&#34;https://github.com/googleapis/google-cloud-go/issues/6498&#34; data-hovercard-type=&#34;issue&#34; data-hovercard-url=&#34;/googleapis/google-cloud-go/issues/6498/hovercard&#34;&gt;#6498&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/googleapis/google-cloud-go/releases/tag/compute%2Fv1.9.0" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>release-please[bot]</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from google-cloud-go - asset: v1.4.0</title>
+    <updated>2022-08-18T18:09:58Z</updated>
+    <id>tag:github.com,2008:Repository/19608522/asset/v1.4.0</id>
+    <content type="html">&lt;h2&gt;&lt;a href=&#34;https://github.com/googleapis/google-cloud-go/compare/asset/v1.3.0...asset/v1.4.0&#34;&gt;1.4.0&lt;/a&gt; (2022-08-18)&lt;/h2&gt;&#xA;&lt;h3&gt;Features&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;asset:&lt;/strong&gt; Add client library support for AssetService v1 BatchGetEffectiveIamPolicies API Committer: haochunzhang@ (&lt;a href=&#34;https://github.com/googleapis/google-cloud-go/commit/370e23eaa342a7055a8d8b6f8fe9420f83afe43e&#34;&gt;370e23e&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;asset:&lt;/strong&gt; Release of query system Committer: lvv@ (&lt;a href=&#34;https://github.com/googleapis/google-cloud-go/commit/370e23eaa342a7055a8d8b6f8fe9420f83afe43e&#34;&gt;370e23e&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/googleapis/google-cloud-go/releases/tag/asset%2Fv1.4.0" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>release-please[bot]</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from google-cloud-go - apikeys: v0.1.0</title>
+    <updated>2022-08-18T18:09:56Z</updated>
+    <id>tag:github.com,2008:Repository/19608522/apikeys/v0.1.0</id>
+    <content type="html">&lt;h2&gt;0.1.0 (2022-08-18)&lt;/h2&gt;&#xA;&lt;h3&gt;Features&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;apikeys:&lt;/strong&gt; start generating apiv2 (&lt;a href=&#34;https://github.com/googleapis/google-cloud-go/issues/6524&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/googleapis/google-cloud-go/pull/6524/hovercard&#34;&gt;#6524&lt;/a&gt;) (&lt;a href=&#34;https://github.com/googleapis/google-cloud-go/commit/8b140fa8a490d7f2e038ca8a776a1dfd46b74b4f&#34;&gt;8b140fa&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/googleapis/google-cloud-go/releases/tag/apikeys%2Fv0.1.0" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>release-please[bot]</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from google-cloud-go - aiplatform: v1.17.0</title>
+    <updated>2022-08-18T18:09:54Z</updated>
+    <id>tag:github.com,2008:Repository/19608522/aiplatform/v1.17.0</id>
+    <content type="html">&lt;h2&gt;&lt;a href=&#34;https://github.com/googleapis/google-cloud-go/compare/aiplatform/v1.16.0...aiplatform/v1.17.0&#34;&gt;1.17.0&lt;/a&gt; (2022-08-18)&lt;/h2&gt;&#xA;&lt;h3&gt;Features&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;aiplatform:&lt;/strong&gt; add WriteFeatureValues in aiplatform v1beta1 featurestore_online_service.proto (&lt;a href=&#34;https://github.com/googleapis/google-cloud-go/commit/370e23eaa342a7055a8d8b6f8fe9420f83afe43e&#34;&gt;370e23e&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/googleapis/google-cloud-go/releases/tag/aiplatform%2Fv1.17.0" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>release-please[bot]</name>
+    </author>
+  </entry>
   <entry>
     <title>Release notes from connect-go - v0.4.0</title>
     <updated>2022-08-17T23:02:18Z</updated>
@@ -235,6 +290,28 @@
     </author>
   </entry>
   <entry>
+    <title>Release notes from opentelemetry-operations-go - exporter/metric/v0.32.6</title>
+    <updated>2022-08-16T17:55:41Z</updated>
+    <id>tag:github.com,2008:Repository/244484581/exporter/metric/v0.32.6</id>
+    <content type="html">&lt;p&gt;prepare for v0.32.6 and v1.8.6 (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1340682083&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/470&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleCloudPlatform/opentelemetry-operations-go/pull/470/hovercard&#34; href=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/pull/470&#34;&gt;#470&lt;/a&gt;)&lt;/p&gt;</content>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/exporter%2Fmetric%2Fv0.32.6" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>dashpole</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from opentelemetry-operations-go - example/metric/v0.32.6</title>
+    <updated>2022-08-16T17:55:41Z</updated>
+    <id>tag:github.com,2008:Repository/244484581/example/metric/v0.32.6</id>
+    <content type="html">&lt;p&gt;prepare for v0.32.6 and v1.8.6 (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1340682083&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/470&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleCloudPlatform/opentelemetry-operations-go/pull/470/hovercard&#34; href=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/pull/470&#34;&gt;#470&lt;/a&gt;)&lt;/p&gt;</content>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/example%2Fmetric%2Fv0.32.6" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>dashpole</name>
+    </author>
+  </entry>
+  <entry>
     <title>Release notes from opentelemetry-operations-go - internal/resourcemapping/v0.32.6</title>
     <updated>2022-08-16T17:55:41Z</updated>
     <id>tag:github.com,2008:Repository/244484581/internal/resourcemapping/v0.32.6</id>
@@ -257,11 +334,11 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from opentelemetry-operations-go - exporter/metric/v0.32.6</title>
+    <title>Release notes from opentelemetry-operations-go - exporter/collector/googlemanagedprometheus/v0.32.6</title>
     <updated>2022-08-16T17:55:41Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/exporter/metric/v0.32.6</id>
+    <id>tag:github.com,2008:Repository/244484581/exporter/collector/googlemanagedprometheus/v0.32.6</id>
     <content type="html">&lt;p&gt;prepare for v0.32.6 and v1.8.6 (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1340682083&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/470&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleCloudPlatform/opentelemetry-operations-go/pull/470/hovercard&#34; href=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/pull/470&#34;&gt;#470&lt;/a&gt;)&lt;/p&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/exporter%2Fmetric%2Fv0.32.6" rel="alternate"></link>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/exporter%2Fcollector%2Fgooglemanagedprometheus%2Fv0.32.6" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>dashpole</name>
@@ -279,11 +356,11 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from opentelemetry-operations-go - exporter/collector/googlemanagedprometheus/v0.32.6</title>
+    <title>Release notes from opentelemetry-operations-go - detectors/gcp/v0.32.6</title>
     <updated>2022-08-16T17:55:41Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/exporter/collector/googlemanagedprometheus/v0.32.6</id>
+    <id>tag:github.com,2008:Repository/244484581/detectors/gcp/v0.32.6</id>
     <content type="html">&lt;p&gt;prepare for v0.32.6 and v1.8.6 (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1340682083&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/470&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleCloudPlatform/opentelemetry-operations-go/pull/470/hovercard&#34; href=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/pull/470&#34;&gt;#470&lt;/a&gt;)&lt;/p&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/exporter%2Fcollector%2Fgooglemanagedprometheus%2Fv0.32.6" rel="alternate"></link>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/detectors%2Fgcp%2Fv0.32.6" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>dashpole</name>
@@ -295,28 +372,6 @@
     <id>tag:github.com,2008:Repository/244484581/example/trace/http/v0.32.6</id>
     <content type="html">&lt;p&gt;prepare for v0.32.6 and v1.8.6 (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1340682083&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/470&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleCloudPlatform/opentelemetry-operations-go/pull/470/hovercard&#34; href=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/pull/470&#34;&gt;#470&lt;/a&gt;)&lt;/p&gt;</content>
     <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/example%2Ftrace%2Fhttp%2Fv0.32.6" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>dashpole</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from opentelemetry-operations-go - example/metric/v0.32.6</title>
-    <updated>2022-08-16T17:55:41Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/example/metric/v0.32.6</id>
-    <content type="html">&lt;p&gt;prepare for v0.32.6 and v1.8.6 (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1340682083&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/470&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleCloudPlatform/opentelemetry-operations-go/pull/470/hovercard&#34; href=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/pull/470&#34;&gt;#470&lt;/a&gt;)&lt;/p&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/example%2Fmetric%2Fv0.32.6" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>dashpole</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from opentelemetry-operations-go - detectors/gcp/v0.32.6</title>
-    <updated>2022-08-16T17:55:41Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/detectors/gcp/v0.32.6</id>
-    <content type="html">&lt;p&gt;prepare for v0.32.6 and v1.8.6 (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1340682083&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/470&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleCloudPlatform/opentelemetry-operations-go/pull/470/hovercard&#34; href=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/pull/470&#34;&gt;#470&lt;/a&gt;)&lt;/p&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/detectors%2Fgcp%2Fv0.32.6" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>dashpole</name>
@@ -389,22 +444,22 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from telepresence - v2.7.2-test.0</title>
+    <title>Release notes from telepresence - rpc/v2.7.2-test.0</title>
     <updated>2022-08-15T19:09:35Z</updated>
-    <id>tag:github.com,2008:Repository/82933315/v2.7.2-test.0</id>
+    <id>tag:github.com,2008:Repository/82933315/rpc/v2.7.2-test.0</id>
     <content type="html">&lt;p&gt;v2.7.2-test.0&lt;/p&gt;</content>
-    <link href="https://github.com/telepresenceio/telepresence/releases/tag/v2.7.2-test.0" rel="alternate"></link>
+    <link href="https://github.com/telepresenceio/telepresence/releases/tag/rpc%2Fv2.7.2-test.0" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>josecv</name>
     </author>
   </entry>
   <entry>
-    <title>Release notes from telepresence - rpc/v2.7.2-test.0</title>
+    <title>Release notes from telepresence - v2.7.2-test.0</title>
     <updated>2022-08-15T19:09:35Z</updated>
-    <id>tag:github.com,2008:Repository/82933315/rpc/v2.7.2-test.0</id>
+    <id>tag:github.com,2008:Repository/82933315/v2.7.2-test.0</id>
     <content type="html">&lt;p&gt;v2.7.2-test.0&lt;/p&gt;</content>
-    <link href="https://github.com/telepresenceio/telepresence/releases/tag/rpc%2Fv2.7.2-test.0" rel="alternate"></link>
+    <link href="https://github.com/telepresenceio/telepresence/releases/tag/v2.7.2-test.0" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>josecv</name>
@@ -477,22 +532,22 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from telepresence - v2.7.1</title>
+    <title>Release notes from telepresence - rpc/v2.7.1</title>
     <updated>2022-08-10T16:48:55Z</updated>
-    <id>tag:github.com,2008:Repository/82933315/v2.7.1</id>
+    <id>tag:github.com,2008:Repository/82933315/rpc/v2.7.1</id>
     <content type="html">&lt;p&gt;v2.7.1&lt;/p&gt;</content>
-    <link href="https://github.com/telepresenceio/telepresence/releases/tag/v2.7.1" rel="alternate"></link>
+    <link href="https://github.com/telepresenceio/telepresence/releases/tag/rpc%2Fv2.7.1" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>njayp</name>
     </author>
   </entry>
   <entry>
-    <title>Release notes from telepresence - rpc/v2.7.1</title>
+    <title>Release notes from telepresence - v2.7.1</title>
     <updated>2022-08-10T16:48:55Z</updated>
-    <id>tag:github.com,2008:Repository/82933315/rpc/v2.7.1</id>
+    <id>tag:github.com,2008:Repository/82933315/v2.7.1</id>
     <content type="html">&lt;p&gt;v2.7.1&lt;/p&gt;</content>
-    <link href="https://github.com/telepresenceio/telepresence/releases/tag/rpc%2Fv2.7.1" rel="alternate"></link>
+    <link href="https://github.com/telepresenceio/telepresence/releases/tag/v2.7.1" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>njayp</name>
@@ -510,22 +565,22 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from telepresence - rpc/v2.7.1-rc.1</title>
+    <title>Release notes from telepresence - v2.7.1-rc.1</title>
     <updated>2022-08-10T15:42:12Z</updated>
-    <id>tag:github.com,2008:Repository/82933315/rpc/v2.7.1-rc.1</id>
+    <id>tag:github.com,2008:Repository/82933315/v2.7.1-rc.1</id>
     <content type="html">&lt;p&gt;v2.7.1-rc.1&lt;/p&gt;</content>
-    <link href="https://github.com/telepresenceio/telepresence/releases/tag/rpc%2Fv2.7.1-rc.1" rel="alternate"></link>
+    <link href="https://github.com/telepresenceio/telepresence/releases/tag/v2.7.1-rc.1" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>njayp</name>
     </author>
   </entry>
   <entry>
-    <title>Release notes from telepresence - v2.7.1-rc.1</title>
+    <title>Release notes from telepresence - rpc/v2.7.1-rc.1</title>
     <updated>2022-08-10T15:42:12Z</updated>
-    <id>tag:github.com,2008:Repository/82933315/v2.7.1-rc.1</id>
+    <id>tag:github.com,2008:Repository/82933315/rpc/v2.7.1-rc.1</id>
     <content type="html">&lt;p&gt;v2.7.1-rc.1&lt;/p&gt;</content>
-    <link href="https://github.com/telepresenceio/telepresence/releases/tag/v2.7.1-rc.1" rel="alternate"></link>
+    <link href="https://github.com/telepresenceio/telepresence/releases/tag/rpc%2Fv2.7.1-rc.1" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>njayp</name>
@@ -581,17 +636,6 @@
     <id>tag:github.com,2008:Repository/19608522/compute/v1.8.0</id>
     <content type="html">&lt;h2&gt;&lt;a href=&#34;https://github.com/googleapis/google-cloud-go/compare/compute/v1.7.0...compute/v1.8.0&#34;&gt;1.8.0&lt;/a&gt; (2022-08-09)&lt;/h2&gt;&#xA;&lt;h3&gt;Features&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;compute:&lt;/strong&gt; Update Compute Engine API to revision 20220720 (&lt;a href=&#34;https://github.com/googleapis/google-cloud-go/issues/723&#34; data-hovercard-type=&#34;issue&#34; data-hovercard-url=&#34;/googleapis/google-cloud-go/issues/723/hovercard&#34;&gt;#723&lt;/a&gt;) (&lt;a href=&#34;https://github.com/googleapis/google-cloud-go/commit/3db735c3c35ab3473ceb1948cf4da09b87728ef9&#34;&gt;3db735c&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
     <link href="https://github.com/googleapis/google-cloud-go/releases/tag/compute%2Fv1.8.0" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>release-please[bot]</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from google-cloud-go - analytics: v0.9.0</title>
-    <updated>2022-08-10T01:06:43Z</updated>
-    <id>tag:github.com,2008:Repository/19608522/analytics/v0.9.0</id>
-    <content type="html">&lt;h2&gt;&lt;a href=&#34;https://github.com/googleapis/google-cloud-go/compare/analytics/v0.8.1...analytics/v0.9.0&#34;&gt;0.9.0&lt;/a&gt; (2022-08-09)&lt;/h2&gt;&#xA;&lt;h3&gt;Features&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;analytics/admin:&lt;/strong&gt; add &lt;code&gt;GetAudience&lt;/code&gt;, &#39;ListAudience&#39;, &#39;CreateAudience&#39;, &#39;UpdateAudience&#39;, &#39;ArchiveAudience&#39; methods to the Admin API v1alpha feat: add &lt;code&gt;GetAttributionSettings&lt;/code&gt;, &lt;code&gt;UpdateAttributionSettings&lt;/code&gt; methods to the Admin API v1alpha (&lt;a href=&#34;https://github.com/googleapis/google-cloud-go/commit/83d8e8dde9d8601db20096fb869b50c7abf1ba7e&#34;&gt;83d8e8d&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;analytics/admin:&lt;/strong&gt; add &lt;code&gt;RunAccessReport&lt;/code&gt; method to the Admin API v1alpha (&lt;a href=&#34;https://github.com/googleapis/google-cloud-go/commit/83d8e8dde9d8601db20096fb869b50c7abf1ba7e&#34;&gt;83d8e8d&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/googleapis/google-cloud-go/releases/tag/analytics%2Fv0.9.0" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>release-please[bot]</name>
@@ -727,17 +771,6 @@
     <summary type="html"></summary>
     <author>
       <name>github-actions[bot]</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from google-cloud-go - bigquery: v1.37.0</title>
-    <updated>2022-08-04T16:58:05Z</updated>
-    <id>tag:github.com,2008:Repository/19608522/bigquery/v1.37.0</id>
-    <content type="html">&lt;h2&gt;&lt;a href=&#34;https://github.com/googleapis/google-cloud-go/compare/bigquery/v1.36.0...bigquery/v1.37.0&#34;&gt;1.37.0&lt;/a&gt; (2022-08-04)&lt;/h2&gt;&#xA;&lt;h3&gt;Features&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;bigquery/connection:&lt;/strong&gt; Add service_account_id output field to CloudSQL properties (&lt;a href=&#34;https://github.com/googleapis/google-cloud-go/commit/1d6fbcc6406e2063201ef5a98de560bf32f7fb73&#34;&gt;1d6fbcc&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;bigquery/storage/managedwriter:&lt;/strong&gt; refactor AppendResponse (&lt;a href=&#34;https://github.com/googleapis/google-cloud-go/issues/6402&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/googleapis/google-cloud-go/pull/6402/hovercard&#34;&gt;#6402&lt;/a&gt;) (&lt;a href=&#34;https://github.com/googleapis/google-cloud-go/commit/c07bca2d65ec9903ba0c592da11440cebe8b7d9e&#34;&gt;c07bca2&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;bigquery:&lt;/strong&gt; support JSON as a data type (&lt;a href=&#34;https://github.com/googleapis/google-cloud-go/issues/5986&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/googleapis/google-cloud-go/pull/5986/hovercard&#34;&gt;#5986&lt;/a&gt;) (&lt;a href=&#34;https://github.com/googleapis/google-cloud-go/commit/835fe4fe59f4a3c64c5762a530228d5369618897&#34;&gt;835fe4f&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3&gt;Bug Fixes&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;bigquery:&lt;/strong&gt; include user_email field when requesting job information (&lt;a href=&#34;https://github.com/googleapis/google-cloud-go/issues/6256&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/googleapis/google-cloud-go/pull/6256/hovercard&#34;&gt;#6256&lt;/a&gt;) (&lt;a href=&#34;https://github.com/googleapis/google-cloud-go/commit/da42b4e05faa067b5afa0a9a479d1db72296948e&#34;&gt;da42b4e&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3&gt;Documentation&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;bigquery/storage:&lt;/strong&gt; clarify size limitations for AppendRowsRequest chore: add preferred_min_stream_count to CreateReadSessionRequest chore: add write_stream to AppendRowsResponse (&lt;a href=&#34;https://github.com/googleapis/google-cloud-go/commit/1d6fbcc6406e2063201ef5a98de560bf32f7fb73&#34;&gt;1d6fbcc&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/googleapis/google-cloud-go/releases/tag/bigquery%2Fv1.37.0" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>release-please[bot]</name>
     </author>
   </entry>
   <entry>
@@ -928,39 +961,6 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from google-cloud-go - retail: v1.5.0</title>
-    <updated>2022-08-02T21:50:11Z</updated>
-    <id>tag:github.com,2008:Repository/19608522/retail/v1.5.0</id>
-    <content type="html">&lt;h2&gt;&lt;a href=&#34;https://github.com/googleapis/google-cloud-go/compare/retail/v1.4.0...retail/v1.5.0&#34;&gt;1.5.0&lt;/a&gt; (2022-08-02)&lt;/h2&gt;&#xA;&lt;h3&gt;Features&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;retail:&lt;/strong&gt; new model service to manage recommendation models feat: support case insensitive match on search facets feat: allow disabling spell check in search requests feat: allow adding labels in search requests feat: allow returning min/max values on search numeric facets feat: allow using serving configs as an alias of placements feat: allow enabling recommendation filtering on custom attributes feat: return output BigQuery table on product / event export response feat: allow skiping default branch protection when doing product full import docs: keep the API doc up-to-date with recent changes (&lt;a href=&#34;https://github.com/googleapis/google-cloud-go/commit/338d9c38b9c7f1b5e75493a2e3437c50785c561c&#34;&gt;338d9c3&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;retail:&lt;/strong&gt; support case insensitive match on search facets feat: allow disabling spell check in search requests feat: allow adding labels in search requests feat: allow returning min/max values on search numeric facets feat: allow using serving configs as an alias of placements feat: allow enabling recommendation filtering on custom attributes feat: return output BigQuery table on product / event export response docs: keep the API doc up-to-date with recent changes (&lt;a href=&#34;https://github.com/googleapis/google-cloud-go/commit/1d6fbcc6406e2063201ef5a98de560bf32f7fb73&#34;&gt;1d6fbcc&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;retail:&lt;/strong&gt; support case insensitive match on search facets feat: allow to return min/max values on search numeric facets feat: allow to use serving configs as an alias of placements docs: keep the API doc up-to-date with recent changes (&lt;a href=&#34;https://github.com/googleapis/google-cloud-go/commit/338d9c38b9c7f1b5e75493a2e3437c50785c561c&#34;&gt;338d9c3&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/googleapis/google-cloud-go/releases/tag/retail%2Fv1.5.0" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>release-please[bot]</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from google-cloud-go - recommendationengine: v0.3.0</title>
-    <updated>2022-08-02T21:50:10Z</updated>
-    <id>tag:github.com,2008:Repository/19608522/recommendationengine/v0.3.0</id>
-    <content type="html">&lt;h2&gt;&lt;a href=&#34;https://github.com/googleapis/google-cloud-go/compare/recommendationengine/v0.2.0...recommendationengine/v0.3.0&#34;&gt;0.3.0&lt;/a&gt; (2022-08-02)&lt;/h2&gt;&#xA;&lt;h3&gt;Features&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;recommendationengine:&lt;/strong&gt; reenable generation (&lt;a href=&#34;https://github.com/googleapis/google-cloud-go/issues/6274&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/googleapis/google-cloud-go/pull/6274/hovercard&#34;&gt;#6274&lt;/a&gt;) (&lt;a href=&#34;https://github.com/googleapis/google-cloud-go/commit/1a5b4e82720ab81192a618308fc5cf09576cff02&#34;&gt;1a5b4e8&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/googleapis/google-cloud-go/releases/tag/recommendationengine%2Fv0.3.0" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>release-please[bot]</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from google-cloud-go - dialogflow: v1.12.1</title>
-    <updated>2022-08-02T21:50:08Z</updated>
-    <id>tag:github.com,2008:Repository/19608522/dialogflow/v1.12.1</id>
-    <content type="html">&lt;h2&gt;&lt;a href=&#34;https://github.com/googleapis/google-cloud-go/compare/dialogflow/v1.12.0...dialogflow/v1.12.1&#34;&gt;1.12.1&lt;/a&gt; (2022-08-02)&lt;/h2&gt;&#xA;&lt;h3&gt;Documentation&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;dialogflow:&lt;/strong&gt; added an explicit note that DetectIntentRequest&#39;s text input is limited by 256 characters (&lt;a href=&#34;https://github.com/googleapis/google-cloud-go/commit/1d6fbcc6406e2063201ef5a98de560bf32f7fb73&#34;&gt;1d6fbcc&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/googleapis/google-cloud-go/releases/tag/dialogflow%2Fv1.12.1" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>release-please[bot]</name>
-    </author>
-  </entry>
-  <entry>
     <title>Release notes from opentelemetry-go-contrib - propagators/ot/v1.9.0</title>
     <updated>2022-08-02T21:47:33Z</updated>
     <id>tag:github.com,2008:Repository/242202166/propagators/ot/v1.9.0</id>
@@ -1104,22 +1104,22 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from opentelemetry-go - trace/v1.9.0</title>
+    <title>Release notes from opentelemetry-go - sdk/v1.9.0</title>
     <updated>2022-08-02T15:14:26Z</updated>
-    <id>tag:github.com,2008:Repository/187086161/trace/v1.9.0</id>
+    <id>tag:github.com,2008:Repository/187086161/sdk/v1.9.0</id>
     <content type="html">&lt;p&gt;Module set stable-v1, Version v1.9.0&lt;/p&gt;</content>
-    <link href="https://github.com/open-telemetry/opentelemetry-go/releases/tag/trace%2Fv1.9.0" rel="alternate"></link>
+    <link href="https://github.com/open-telemetry/opentelemetry-go/releases/tag/sdk%2Fv1.9.0" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>MrAlias</name>
     </author>
   </entry>
   <entry>
-    <title>Release notes from opentelemetry-go - sdk/v1.9.0</title>
+    <title>Release notes from opentelemetry-go - trace/v1.9.0</title>
     <updated>2022-08-02T15:14:26Z</updated>
-    <id>tag:github.com,2008:Repository/187086161/sdk/v1.9.0</id>
+    <id>tag:github.com,2008:Repository/187086161/trace/v1.9.0</id>
     <content type="html">&lt;p&gt;Module set stable-v1, Version v1.9.0&lt;/p&gt;</content>
-    <link href="https://github.com/open-telemetry/opentelemetry-go/releases/tag/sdk%2Fv1.9.0" rel="alternate"></link>
+    <link href="https://github.com/open-telemetry/opentelemetry-go/releases/tag/trace%2Fv1.9.0" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>MrAlias</name>
@@ -7352,22 +7352,22 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from backoff - v2.0.2: Merge pull request #18 from lestrrat-go/topic/fix-v2-go-mod</title>
+    <title>Release notes from backoff - v2.0.3: Merge pull request #18 from lestrrat-go/topic/fix-v2-go-mod</title>
     <updated>2021-01-06T03:00:05Z</updated>
-    <id>tag:github.com,2008:Repository/118608673/v2.0.2</id>
+    <id>tag:github.com,2008:Repository/118608673/v2.0.3</id>
     <content type="html">&lt;p&gt;Fix go.mod&lt;/p&gt;</content>
-    <link href="https://github.com/lestrrat-go/backoff/releases/tag/v2.0.2" rel="alternate"></link>
+    <link href="https://github.com/lestrrat-go/backoff/releases/tag/v2.0.3" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>lestrrat</name>
     </author>
   </entry>
   <entry>
-    <title>Release notes from backoff - v2.0.3: Merge pull request #18 from lestrrat-go/topic/fix-v2-go-mod</title>
+    <title>Release notes from backoff - v2.0.2: Merge pull request #18 from lestrrat-go/topic/fix-v2-go-mod</title>
     <updated>2021-01-06T03:00:05Z</updated>
-    <id>tag:github.com,2008:Repository/118608673/v2.0.3</id>
+    <id>tag:github.com,2008:Repository/118608673/v2.0.2</id>
     <content type="html">&lt;p&gt;Fix go.mod&lt;/p&gt;</content>
-    <link href="https://github.com/lestrrat-go/backoff/releases/tag/v2.0.3" rel="alternate"></link>
+    <link href="https://github.com/lestrrat-go/backoff/releases/tag/v2.0.2" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>lestrrat</name>
