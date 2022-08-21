@@ -1,8 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?><feed xmlns="http://www.w3.org/2005/Atom">
   <title>Releases from Starred by toga4</title>
   <id>https://toga4.github.io/feeds/starred-releases.atom</id>
-  <updated>2022-08-20T15:52:39Z</updated>
+  <updated>2022-08-21T16:06:58Z</updated>
   <link href="https://toga4.github.io/feeds/starred-releases.atom"></link>
+  <entry>
+    <title>Release notes from excelize - v2.6.1</title>
+    <updated>2022-08-21T16:06:58Z</updated>
+    <id>tag:github.com,2008:Repository/66841911/v2.6.1</id>
+    <content type="html">&lt;p&gt;We are pleased to announce the release of version 2.6.1. Featured are a handful of new areas of functionality and numerous bug fixes.&lt;/p&gt;&#xA;&lt;p&gt;A summary of changes is available in the &lt;a href=&#34;https://github.com/xuri/excelize/releases/tag/v2.6.1&#34;&gt;Release Notes&lt;/a&gt;. A full list of changes is available in the &lt;a href=&#34;https://github.com/xuri/excelize/compare/v2.6.0...v2.6.1&#34;&gt;changelog&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;h2&gt;Release Notes&lt;/h2&gt;&#xA;&lt;p&gt;The most notable changes in this release are:&lt;/p&gt;&#xA;&lt;h3&gt;Compatibility&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Rename exported type &lt;code&gt;TabColor&lt;/code&gt; to &lt;code&gt;TabColorRGB&lt;/code&gt;&lt;/li&gt;&#xA;&lt;li&gt;Rename exported constant &lt;code&gt;TotalColumns&lt;/code&gt; to &lt;code&gt;MaxColumns&lt;/code&gt;&lt;/li&gt;&#xA;&lt;li&gt;Rename exported variable &lt;code&gt;ErrMaxFileNameLength&lt;/code&gt; to &lt;code&gt;ErrMaxFilePathLength&lt;/code&gt;&lt;/li&gt;&#xA;&lt;li&gt;Rename exported variable &lt;code&gt;ErrWorkbookExt&lt;/code&gt; to &lt;code&gt;ErrWorkbookFileFormat&lt;/code&gt;&lt;/li&gt;&#xA;&lt;li&gt;Remove exported variable &lt;code&gt;ErrEncrypt&lt;/code&gt;&lt;/li&gt;&#xA;&lt;li&gt;Change worksheet name case-insensitive&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3&gt;Notable Features&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;New support 34 formula functions: CONVERT, COVARIANCE.S, DAVERAGE, DAYS360, DCOUNT, DCOUNTA, DGET, DMAX, DMIN, DPRODUCT, DSTDEV, DSTDEVP, DSUM, DVAR, DVARP, EDATE, EOMONTH, EUROCONVERT, GROWTH, HYPERLINK, MINVERSE, MMULT, NETWORKDAYS, NETWORKDAYS.INTL, PEARSON, RSQ, SKEW.P, SLOPE, STDEVPA, STEYX, TREND, WEEKNUM, WORKDAY, WORKDAY.INTL&lt;/li&gt;&#xA;&lt;li&gt;New function &lt;code&gt;DeleteComment&lt;/code&gt; support to delete comment, related issue &lt;a href=&#34;https://github.com/xuri/excelize/issues/849&#34; data-hovercard-type=&#34;issue&#34; data-hovercard-url=&#34;/qax-os/excelize/issues/849/hovercard&#34;&gt;#849&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;The &lt;code&gt;AddShape&lt;/code&gt; function now support assigning a macro to the shape&lt;/li&gt;&#xA;&lt;li&gt;Add support for the 1900 and 1904 date system, related issue &lt;a href=&#34;https://github.com/xuri/excelize/issues/1212&#34; data-hovercard-type=&#34;issue&#34; data-hovercard-url=&#34;/qax-os/excelize/issues/1212/hovercard&#34;&gt;#1212&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Add support update cell hyperlink, related issue &lt;a href=&#34;https://github.com/xuri/excelize/issues/1217&#34; data-hovercard-type=&#34;issue&#34; data-hovercard-url=&#34;/qax-os/excelize/issues/1217/hovercard&#34;&gt;#1217&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;The &lt;code&gt;AddPicture&lt;/code&gt; function now allowing insert EMF, WMF, EMZ and WMZ format images, related issue &lt;a href=&#34;https://github.com/xuri/excelize/issues/1225&#34; data-hovercard-type=&#34;issue&#34; data-hovercard-url=&#34;/qax-os/excelize/issues/1225/hovercard&#34;&gt;#1225&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Make workbook open failed exception message clear, new exported variable &lt;code&gt;ErrWorkbookPassword&lt;/code&gt; for the error message on receiving the incorrect workbook password&lt;/li&gt;&#xA;&lt;li&gt;New exported constants &lt;code&gt;MinFontSize&lt;/code&gt;, &lt;code&gt;MinColumns&lt;/code&gt; and &lt;code&gt;MaxCellStyles&lt;/code&gt;&lt;/li&gt;&#xA;&lt;li&gt;Add array formula support for the formula calculation engine&lt;/li&gt;&#xA;&lt;li&gt;Support for workbook encryption by password, related issue &lt;a href=&#34;https://github.com/xuri/excelize/issues/199&#34; data-hovercard-type=&#34;issue&#34; data-hovercard-url=&#34;/qax-os/excelize/issues/199/hovercard&#34;&gt;#199&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;code&gt;RichTextRun&lt;/code&gt; support set superscript and subscript by &lt;code&gt;vertAlign&lt;/code&gt; attribute&lt;/li&gt;&#xA;&lt;li&gt;The &lt;code&gt;DeleteDataValidation&lt;/code&gt; function support deleting all data validations in the worksheet, related issue &lt;a href=&#34;https://github.com/xuri/excelize/issues/1254&#34; data-hovercard-type=&#34;issue&#34; data-hovercard-url=&#34;/qax-os/excelize/issues/1254/hovercard&#34;&gt;#1254&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Formula calculation engine support percentile symbol in condition criteria expression&lt;/li&gt;&#xA;&lt;li&gt;Formula calculation engine support dependence formulas calculation, related issue &lt;a href=&#34;https://github.com/xuri/excelize/issues/1262&#34; data-hovercard-type=&#34;issue&#34; data-hovercard-url=&#34;/qax-os/excelize/issues/1262/hovercard&#34;&gt;#1262&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Add export option &lt;code&gt;MaxCalcIterations&lt;/code&gt; for specifies the maximum iterations for iterative calculation&lt;/li&gt;&#xA;&lt;li&gt;Add export type &lt;code&gt;ColorMappingType&lt;/code&gt; for color transformation types enumeration&lt;/li&gt;&#xA;&lt;li&gt;Support adjust table range when removing and inserting column/row&lt;/li&gt;&#xA;&lt;li&gt;Support set and get color index, theme and tint for sheet tab, related issue &lt;a href=&#34;https://github.com/xuri/excelize/issues/1283&#34; data-hovercard-type=&#34;issue&#34; data-hovercard-url=&#34;/qax-os/excelize/issues/1283/hovercard&#34;&gt;#1283&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Add new export function &lt;code&gt;GetRowOpts&lt;/code&gt; for rows iterator, to support get rows properties, related issue &lt;a href=&#34;https://github.com/xuri/excelize/issues/1296&#34; data-hovercard-type=&#34;issue&#34; data-hovercard-url=&#34;/qax-os/excelize/issues/1296/hovercard&#34;&gt;#1296&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3&gt;Improve the Compatibility&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Improve the compatibility with invalid internal styles count, resolve issue &lt;a href=&#34;https://github.com/xuri/excelize/issues/1211&#34; data-hovercard-type=&#34;issue&#34; data-hovercard-url=&#34;/qax-os/excelize/issues/1211/hovercard&#34;&gt;#1211&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Improve the compatibility with Google Sheet, resolve issue &lt;a href=&#34;https://github.com/xuri/excelize/issues/1244&#34; data-hovercard-type=&#34;issue&#34; data-hovercard-url=&#34;/qax-os/excelize/issues/1244/hovercard&#34;&gt;#1244&lt;/a&gt; and &lt;a href=&#34;https://github.com/xuri/excelize/issues/1314&#34; data-hovercard-type=&#34;issue&#34; data-hovercard-url=&#34;/qax-os/excelize/issues/1314/hovercard&#34;&gt;#1314&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Stream writer now skips writing nil values when set cells value for the row, related issue &lt;a href=&#34;https://github.com/xuri/excelize/issues/1299&#34; data-hovercard-type=&#34;issue&#34; data-hovercard-url=&#34;/qax-os/excelize/issues/1299/hovercard&#34;&gt;#1299&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3&gt;Bug Fixes&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Fix generated file corrupted when the same field is used for pivot table data and rows/columns, resolve issue &lt;a href=&#34;https://github.com/xuri/excelize/issues/1203&#34; data-hovercard-type=&#34;issue&#34; data-hovercard-url=&#34;/qax-os/excelize/issues/1203/hovercard&#34;&gt;#1203&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Fix get incorrect rich text value caused by missing cell type checking, resolve issue &lt;a href=&#34;https://github.com/xuri/excelize/issues/1213&#34; data-hovercard-type=&#34;issue&#34; data-hovercard-url=&#34;/qax-os/excelize/issues/1213/hovercard&#34;&gt;#1213&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Fix incorrect cell data types casting results when number formatting, resolve issue &lt;a href=&#34;https://github.com/xuri/excelize/issues/1219&#34; data-hovercard-type=&#34;issue&#34; data-hovercard-url=&#34;/qax-os/excelize/issues/1219/hovercard&#34;&gt;#1219&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Fix the read cell is empty when the cell is in 0 placeholder number format style, resolve issue &lt;a href=&#34;https://github.com/xuri/excelize/issues/1312&#34; data-hovercard-type=&#34;issue&#34; data-hovercard-url=&#34;/qax-os/excelize/issues/1312/hovercard&#34;&gt;#1312&lt;/a&gt; and &lt;a href=&#34;https://github.com/xuri/excelize/issues/1313&#34; data-hovercard-type=&#34;issue&#34; data-hovercard-url=&#34;/qax-os/excelize/issues/1313/hovercard&#34;&gt;#1313&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Fix set cell value with column and row style inherit issue, resolve issue &lt;a href=&#34;https://github.com/xuri/excelize/issues/1163&#34; data-hovercard-type=&#34;issue&#34; data-hovercard-url=&#34;/qax-os/excelize/issues/1163/hovercard&#34;&gt;#1163&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Fix panic when adding pane on empty sheet views worksheet&lt;/li&gt;&#xA;&lt;li&gt;Fix the problem of multi arguments formula calculation in some case&lt;/li&gt;&#xA;&lt;li&gt;Fix generated file corrupted caused by incorrect worksheet header footer fields order, resolve issue &lt;a href=&#34;https://github.com/xuri/excelize/issues/1257&#34; data-hovercard-type=&#34;issue&#34; data-hovercard-url=&#34;/qax-os/excelize/issues/1257/hovercard&#34;&gt;#1257&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Fix set cell value failed in some case, resolve issue &lt;a href=&#34;https://github.com/xuri/excelize/issues/1264&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/qax-os/excelize/pull/1264/hovercard&#34;&gt;#1264&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Fix the panic when set or get sheet view options on the sheet without views options&lt;/li&gt;&#xA;&lt;li&gt;Fix generated workbook corruption caused by empty created or modified dcterms in the document core properties&lt;/li&gt;&#xA;&lt;li&gt;Fix doc properties missing after creating new worksheet, resolve issue &lt;a href=&#34;https://github.com/xuri/excelize/issues/1298&#34; data-hovercard-type=&#34;issue&#34; data-hovercard-url=&#34;/qax-os/excelize/issues/1298/hovercard&#34;&gt;#1298&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3&gt;Performance&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Improve performance for set sheet row and the merging cells, fix performance impact when resolving issue &lt;a href=&#34;https://github.com/xuri/excelize/issues/1129&#34; data-hovercard-type=&#34;issue&#34; data-hovercard-url=&#34;/qax-os/excelize/issues/1129/hovercard&#34;&gt;#1129&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Optimization formula calculation performance&lt;/li&gt;&#xA;&lt;li&gt;Reduces memory usage and speedup the &lt;code&gt;AddComment&lt;/code&gt; function, resolve issue &lt;a href=&#34;https://github.com/xuri/excelize/issues/1310&#34; data-hovercard-type=&#34;issue&#34; data-hovercard-url=&#34;/qax-os/excelize/issues/1310/hovercard&#34;&gt;#1310&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3&gt;Miscellaneous&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;The dependencies module has been updated&lt;/li&gt;&#xA;&lt;li&gt;Unit tests and godoc updated, made the test case compatible with go1.19&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://xuri.me/excelize&#34; rel=&#34;nofollow&#34;&gt;Documentation website&lt;/a&gt; with multilingual: Arabic, German, Spanish, English, French, Russian, Chinese, Japanese, and Korean, which has been updated&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3&gt;Thank you&lt;/h3&gt;&#xA;&lt;p&gt;Thanks for all the contributors to Excelize. Below is a list of contributors that have code contributions in this version:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a class=&#34;user-mention notranslate&#34; data-hovercard-type=&#34;user&#34; data-hovercard-url=&#34;/users/JDavidVR/hovercard&#34; data-octo-click=&#34;hovercard-link-click&#34; data-octo-dimensions=&#34;link_type:self&#34; href=&#34;https://github.com/JDavidVR&#34;&gt;@JDavidVR&lt;/a&gt; (David)&lt;/li&gt;&#xA;&lt;li&gt;&lt;a class=&#34;user-mention notranslate&#34; data-hovercard-type=&#34;user&#34; data-hovercard-url=&#34;/users/sceneq/hovercard&#34; data-octo-click=&#34;hovercard-link-click&#34; data-octo-dimensions=&#34;link_type:self&#34; href=&#34;https://github.com/sceneq&#34;&gt;@sceneq&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a class=&#34;user-mention notranslate&#34; data-hovercard-type=&#34;user&#34; data-hovercard-url=&#34;/users/Juneezee/hovercard&#34; data-octo-click=&#34;hovercard-link-click&#34; data-octo-dimensions=&#34;link_type:self&#34; href=&#34;https://github.com/Juneezee&#34;&gt;@Juneezee&lt;/a&gt; (Eng Zer Jun)&lt;/li&gt;&#xA;&lt;li&gt;&lt;a class=&#34;user-mention notranslate&#34; data-hovercard-type=&#34;user&#34; data-hovercard-url=&#34;/users/MichealJl/hovercard&#34; data-octo-click=&#34;hovercard-link-click&#34; data-octo-dimensions=&#34;link_type:self&#34; href=&#34;https://github.com/MichealJl&#34;&gt;@MichealJl&lt;/a&gt; (jialei)&lt;/li&gt;&#xA;&lt;li&gt;&lt;a class=&#34;user-mention notranslate&#34; data-hovercard-type=&#34;user&#34; data-hovercard-url=&#34;/users/ww1516123/hovercard&#34; data-octo-click=&#34;hovercard-link-click&#34; data-octo-dimensions=&#34;link_type:self&#34; href=&#34;https://github.com/ww1516123&#34;&gt;@ww1516123&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a class=&#34;user-mention notranslate&#34; data-hovercard-type=&#34;user&#34; data-hovercard-url=&#34;/users/z-hua/hovercard&#34; data-octo-click=&#34;hovercard-link-click&#34; data-octo-dimensions=&#34;link_type:self&#34; href=&#34;https://github.com/z-hua&#34;&gt;@z-hua&lt;/a&gt; (z.hua)&lt;/li&gt;&#xA;&lt;li&gt;&lt;a class=&#34;user-mention notranslate&#34; data-hovercard-type=&#34;user&#34; data-hovercard-url=&#34;/users/xdlrt/hovercard&#34; data-octo-click=&#34;hovercard-link-click&#34; data-octo-dimensions=&#34;link_type:self&#34; href=&#34;https://github.com/xdlrt&#34;&gt;@xdlrt&lt;/a&gt; (yeshu)&lt;/li&gt;&#xA;&lt;li&gt;&lt;a class=&#34;user-mention notranslate&#34; data-hovercard-type=&#34;user&#34; data-hovercard-url=&#34;/users/eaglexiang/hovercard&#34; data-octo-click=&#34;hovercard-link-click&#34; data-octo-dimensions=&#34;link_type:self&#34; href=&#34;https://github.com/eaglexiang&#34;&gt;@eaglexiang&lt;/a&gt; (Eagle Xiang)&lt;/li&gt;&#xA;&lt;li&gt;&lt;a class=&#34;user-mention notranslate&#34; data-hovercard-type=&#34;user&#34; data-hovercard-url=&#34;/users/MJacred/hovercard&#34; data-octo-click=&#34;hovercard-link-click&#34; data-octo-dimensions=&#34;link_type:self&#34; href=&#34;https://github.com/MJacred&#34;&gt;@MJacred&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a class=&#34;user-mention notranslate&#34; data-hovercard-type=&#34;user&#34; data-hovercard-url=&#34;/users/ReganYue/hovercard&#34; data-octo-click=&#34;hovercard-link-click&#34; data-octo-dimensions=&#34;link_type:self&#34; href=&#34;https://github.com/ReganYue&#34;&gt;@ReganYue&lt;/a&gt; (Regan Yue)&lt;/li&gt;&#xA;&lt;li&gt;&lt;a class=&#34;user-mention notranslate&#34; data-hovercard-type=&#34;user&#34; data-hovercard-url=&#34;/users/thomascharbonnel/hovercard&#34; data-octo-click=&#34;hovercard-link-click&#34; data-octo-dimensions=&#34;link_type:self&#34; href=&#34;https://github.com/thomascharbonnel&#34;&gt;@thomascharbonnel&lt;/a&gt; (Thomas Charbonnel)&lt;/li&gt;&#xA;&lt;li&gt;&lt;a class=&#34;user-mention notranslate&#34; data-hovercard-type=&#34;user&#34; data-hovercard-url=&#34;/users/ee0703/hovercard&#34; data-octo-click=&#34;hovercard-link-click&#34; data-octo-dimensions=&#34;link_type:self&#34; href=&#34;https://github.com/ee0703&#34;&gt;@ee0703&lt;/a&gt; (EE)&lt;/li&gt;&#xA;&lt;li&gt;&lt;a class=&#34;user-mention notranslate&#34; data-hovercard-type=&#34;user&#34; data-hovercard-url=&#34;/users/NaturalGao/hovercard&#34; data-octo-click=&#34;hovercard-link-click&#34; data-octo-dimensions=&#34;link_type:self&#34; href=&#34;https://github.com/NaturalGao&#34;&gt;@NaturalGao&lt;/a&gt; (NaturalGao)&lt;/li&gt;&#xA;&lt;li&gt;&lt;a class=&#34;user-mention notranslate&#34; data-hovercard-type=&#34;user&#34; data-hovercard-url=&#34;/users/Sangua633/hovercard&#34; data-octo-click=&#34;hovercard-link-click&#34; data-octo-dimensions=&#34;link_type:self&#34; href=&#34;https://github.com/Sangua633&#34;&gt;@Sangua633&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/qax-os/excelize/releases/tag/v2.6.1" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>xuri</name>
+    </author>
+  </entry>
   <entry>
     <title>Release notes from compose - v2.9.0</title>
     <updated>2022-08-20T15:52:39Z</updated>
@@ -301,55 +312,11 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from opentelemetry-operations-go - internal/resourcemapping/v0.32.6</title>
-    <updated>2022-08-16T17:55:41Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/internal/resourcemapping/v0.32.6</id>
-    <content type="html">&lt;p&gt;prepare for v0.32.6 and v1.8.6 (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1340682083&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/470&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleCloudPlatform/opentelemetry-operations-go/pull/470/hovercard&#34; href=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/pull/470&#34;&gt;#470&lt;/a&gt;)&lt;/p&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/internal%2Fresourcemapping%2Fv0.32.6" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>dashpole</name>
-    </author>
-  </entry>
-  <entry>
     <title>Release notes from opentelemetry-operations-go - exporter/trace/v1.8.6</title>
     <updated>2022-08-16T17:55:41Z</updated>
     <id>tag:github.com,2008:Repository/244484581/exporter/trace/v1.8.6</id>
     <content type="html">&lt;p&gt;prepare for v0.32.6 and v1.8.6 (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1340682083&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/470&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleCloudPlatform/opentelemetry-operations-go/pull/470/hovercard&#34; href=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/pull/470&#34;&gt;#470&lt;/a&gt;)&lt;/p&gt;</content>
     <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/exporter%2Ftrace%2Fv1.8.6" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>dashpole</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from opentelemetry-operations-go - example/metric/v0.32.6</title>
-    <updated>2022-08-16T17:55:41Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/example/metric/v0.32.6</id>
-    <content type="html">&lt;p&gt;prepare for v0.32.6 and v1.8.6 (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1340682083&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/470&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleCloudPlatform/opentelemetry-operations-go/pull/470/hovercard&#34; href=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/pull/470&#34;&gt;#470&lt;/a&gt;)&lt;/p&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/example%2Fmetric%2Fv0.32.6" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>dashpole</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from opentelemetry-operations-go - exporter/collector/googlemanagedprometheus/v0.32.6</title>
-    <updated>2022-08-16T17:55:41Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/exporter/collector/googlemanagedprometheus/v0.32.6</id>
-    <content type="html">&lt;p&gt;prepare for v0.32.6 and v1.8.6 (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1340682083&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/470&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleCloudPlatform/opentelemetry-operations-go/pull/470/hovercard&#34; href=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/pull/470&#34;&gt;#470&lt;/a&gt;)&lt;/p&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/exporter%2Fcollector%2Fgooglemanagedprometheus%2Fv0.32.6" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>dashpole</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from opentelemetry-operations-go - exporter/collector/v0.32.6</title>
-    <updated>2022-08-16T17:55:41Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/exporter/collector/v0.32.6</id>
-    <content type="html">&lt;p&gt;prepare for v0.32.6 and v1.8.6 (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1340682083&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/470&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleCloudPlatform/opentelemetry-operations-go/pull/470/hovercard&#34; href=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/pull/470&#34;&gt;#470&lt;/a&gt;)&lt;/p&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/exporter%2Fcollector%2Fv0.32.6" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>dashpole</name>
@@ -367,6 +334,17 @@
     </author>
   </entry>
   <entry>
+    <title>Release notes from opentelemetry-operations-go - internal/resourcemapping/v0.32.6</title>
+    <updated>2022-08-16T17:55:41Z</updated>
+    <id>tag:github.com,2008:Repository/244484581/internal/resourcemapping/v0.32.6</id>
+    <content type="html">&lt;p&gt;prepare for v0.32.6 and v1.8.6 (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1340682083&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/470&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleCloudPlatform/opentelemetry-operations-go/pull/470/hovercard&#34; href=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/pull/470&#34;&gt;#470&lt;/a&gt;)&lt;/p&gt;</content>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/internal%2Fresourcemapping%2Fv0.32.6" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>dashpole</name>
+    </author>
+  </entry>
+  <entry>
     <title>Release notes from opentelemetry-operations-go - exporter/metric/v0.32.6</title>
     <updated>2022-08-16T17:55:41Z</updated>
     <id>tag:github.com,2008:Repository/244484581/exporter/metric/v0.32.6</id>
@@ -378,11 +356,44 @@
     </author>
   </entry>
   <entry>
+    <title>Release notes from opentelemetry-operations-go - exporter/collector/v0.32.6</title>
+    <updated>2022-08-16T17:55:41Z</updated>
+    <id>tag:github.com,2008:Repository/244484581/exporter/collector/v0.32.6</id>
+    <content type="html">&lt;p&gt;prepare for v0.32.6 and v1.8.6 (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1340682083&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/470&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleCloudPlatform/opentelemetry-operations-go/pull/470/hovercard&#34; href=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/pull/470&#34;&gt;#470&lt;/a&gt;)&lt;/p&gt;</content>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/exporter%2Fcollector%2Fv0.32.6" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>dashpole</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from opentelemetry-operations-go - exporter/collector/googlemanagedprometheus/v0.32.6</title>
+    <updated>2022-08-16T17:55:41Z</updated>
+    <id>tag:github.com,2008:Repository/244484581/exporter/collector/googlemanagedprometheus/v0.32.6</id>
+    <content type="html">&lt;p&gt;prepare for v0.32.6 and v1.8.6 (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1340682083&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/470&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleCloudPlatform/opentelemetry-operations-go/pull/470/hovercard&#34; href=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/pull/470&#34;&gt;#470&lt;/a&gt;)&lt;/p&gt;</content>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/exporter%2Fcollector%2Fgooglemanagedprometheus%2Fv0.32.6" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>dashpole</name>
+    </author>
+  </entry>
+  <entry>
     <title>Release notes from opentelemetry-operations-go - example/trace/http/v0.32.6</title>
     <updated>2022-08-16T17:55:41Z</updated>
     <id>tag:github.com,2008:Repository/244484581/example/trace/http/v0.32.6</id>
     <content type="html">&lt;p&gt;prepare for v0.32.6 and v1.8.6 (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1340682083&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/470&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleCloudPlatform/opentelemetry-operations-go/pull/470/hovercard&#34; href=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/pull/470&#34;&gt;#470&lt;/a&gt;)&lt;/p&gt;</content>
     <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/example%2Ftrace%2Fhttp%2Fv0.32.6" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>dashpole</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from opentelemetry-operations-go - example/metric/v0.32.6</title>
+    <updated>2022-08-16T17:55:41Z</updated>
+    <id>tag:github.com,2008:Repository/244484581/example/metric/v0.32.6</id>
+    <content type="html">&lt;p&gt;prepare for v0.32.6 and v1.8.6 (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1340682083&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/470&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleCloudPlatform/opentelemetry-operations-go/pull/470/hovercard&#34; href=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/pull/470&#34;&gt;#470&lt;/a&gt;)&lt;/p&gt;</content>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/example%2Fmetric%2Fv0.32.6" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>dashpole</name>
@@ -444,22 +455,22 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from telepresence - v2.7.2-test.0</title>
+    <title>Release notes from telepresence - rpc/v2.7.2-test.0</title>
     <updated>2022-08-15T19:09:35Z</updated>
-    <id>tag:github.com,2008:Repository/82933315/v2.7.2-test.0</id>
+    <id>tag:github.com,2008:Repository/82933315/rpc/v2.7.2-test.0</id>
     <content type="html">&lt;p&gt;v2.7.2-test.0&lt;/p&gt;</content>
-    <link href="https://github.com/telepresenceio/telepresence/releases/tag/v2.7.2-test.0" rel="alternate"></link>
+    <link href="https://github.com/telepresenceio/telepresence/releases/tag/rpc%2Fv2.7.2-test.0" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>josecv</name>
     </author>
   </entry>
   <entry>
-    <title>Release notes from telepresence - rpc/v2.7.2-test.0</title>
+    <title>Release notes from telepresence - v2.7.2-test.0</title>
     <updated>2022-08-15T19:09:35Z</updated>
-    <id>tag:github.com,2008:Repository/82933315/rpc/v2.7.2-test.0</id>
+    <id>tag:github.com,2008:Repository/82933315/v2.7.2-test.0</id>
     <content type="html">&lt;p&gt;v2.7.2-test.0&lt;/p&gt;</content>
-    <link href="https://github.com/telepresenceio/telepresence/releases/tag/rpc%2Fv2.7.2-test.0" rel="alternate"></link>
+    <link href="https://github.com/telepresenceio/telepresence/releases/tag/v2.7.2-test.0" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>josecv</name>
@@ -554,17 +565,6 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from telepresence - v2.7.1-rc.1</title>
-    <updated>2022-08-10T15:42:12Z</updated>
-    <id>tag:github.com,2008:Repository/82933315/v2.7.1-rc.1</id>
-    <content type="html">&lt;p&gt;v2.7.1-rc.1&lt;/p&gt;</content>
-    <link href="https://github.com/telepresenceio/telepresence/releases/tag/v2.7.1-rc.1" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>njayp</name>
-    </author>
-  </entry>
-  <entry>
     <title>Release notes from telepresence - rpc/v2.7.1-rc.1</title>
     <updated>2022-08-10T15:42:12Z</updated>
     <id>tag:github.com,2008:Repository/82933315/rpc/v2.7.1-rc.1</id>
@@ -576,11 +576,11 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from telepresence - rpc/v2.7.1-rc.0</title>
-    <updated>2022-08-10T09:23:45Z</updated>
-    <id>tag:github.com,2008:Repository/82933315/rpc/v2.7.1-rc.0</id>
-    <content type="html">&lt;p&gt;v2.7.1-rc.0&lt;/p&gt;</content>
-    <link href="https://github.com/telepresenceio/telepresence/releases/tag/rpc%2Fv2.7.1-rc.0" rel="alternate"></link>
+    <title>Release notes from telepresence - v2.7.1-rc.1</title>
+    <updated>2022-08-10T15:42:12Z</updated>
+    <id>tag:github.com,2008:Repository/82933315/v2.7.1-rc.1</id>
+    <content type="html">&lt;p&gt;v2.7.1-rc.1&lt;/p&gt;</content>
+    <link href="https://github.com/telepresenceio/telepresence/releases/tag/v2.7.1-rc.1" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>njayp</name>
@@ -592,6 +592,17 @@
     <id>tag:github.com,2008:Repository/82933315/v2.7.1-rc.0</id>
     <content type="html">&lt;p&gt;v2.7.1-rc.0&lt;/p&gt;</content>
     <link href="https://github.com/telepresenceio/telepresence/releases/tag/v2.7.1-rc.0" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>njayp</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from telepresence - rpc/v2.7.1-rc.0</title>
+    <updated>2022-08-10T09:23:45Z</updated>
+    <id>tag:github.com,2008:Repository/82933315/rpc/v2.7.1-rc.0</id>
+    <content type="html">&lt;p&gt;v2.7.1-rc.0&lt;/p&gt;</content>
+    <link href="https://github.com/telepresenceio/telepresence/releases/tag/rpc%2Fv2.7.1-rc.0" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>njayp</name>
@@ -1489,22 +1500,22 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from kpt - package-examples/cert-manager-basic/v0: Add a basic ghost package (#3381)</title>
+    <title>Release notes from kpt - package-examples/ghost/v0: Add a basic ghost package (#3381)</title>
     <updated>2022-07-19T17:43:52Z</updated>
-    <id>tag:github.com,2008:Repository/208908993/package-examples/cert-manager-basic/v0</id>
+    <id>tag:github.com,2008:Repository/208908993/package-examples/ghost/v0</id>
     <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Add ghost basic package&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;update ghost pacakge&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;remove set-labels&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/GoogleContainerTools/kpt/releases/tag/package-examples%2Fcert-manager-basic%2Fv0" rel="alternate"></link>
+    <link href="https://github.com/GoogleContainerTools/kpt/releases/tag/package-examples%2Fghost%2Fv0" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>yuwenma</name>
     </author>
   </entry>
   <entry>
-    <title>Release notes from kpt - package-examples/ghost/v0: Add a basic ghost package (#3381)</title>
+    <title>Release notes from kpt - package-examples/cert-manager-basic/v0: Add a basic ghost package (#3381)</title>
     <updated>2022-07-19T17:43:52Z</updated>
-    <id>tag:github.com,2008:Repository/208908993/package-examples/ghost/v0</id>
+    <id>tag:github.com,2008:Repository/208908993/package-examples/cert-manager-basic/v0</id>
     <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Add ghost basic package&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;update ghost pacakge&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;remove set-labels&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/GoogleContainerTools/kpt/releases/tag/package-examples%2Fghost%2Fv0" rel="alternate"></link>
+    <link href="https://github.com/GoogleContainerTools/kpt/releases/tag/package-examples%2Fcert-manager-basic%2Fv0" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>yuwenma</name>
@@ -5955,17 +5966,6 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from excelize - v2.0.2</title>
-    <updated>2021-07-29T01:26:14Z</updated>
-    <id>tag:github.com,2008:Repository/66841911/v2.0.2</id>
-    <content type="html">&lt;p&gt;We are pleased to announce the release of version 2.0.2. Featured are a handful of new areas of functionality and numerous bug fixes.&lt;/p&gt;&#xA;&lt;p&gt;A summary of changes is available in the &lt;a href=&#34;https://github.com/xuri/excelize/releases/tag/v2.0.2&#34;&gt;Release Notes&lt;/a&gt;. A full list of changes is available in the &lt;a href=&#34;https://github.com/xuri/excelize/compare/v2.0.0...v2.0.2&#34;&gt;change log&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;h2&gt;Release Notes&lt;/h2&gt;&#xA;&lt;p&gt;The most notable changes in this release are:&lt;/p&gt;&#xA;&lt;h4&gt;Compatibility&lt;/h4&gt;&#xA;&lt;p&gt;Upgrade requirements Go language version is 1.10 or later.&lt;/p&gt;&#xA;&lt;h4&gt;Notable Features&lt;/h4&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Create pivot table support. New function &lt;a href=&#34;https://pkg.go.dev/github.com/xuri/excelize/v2@v2.0.2#File.AddPivotTable&#34; rel=&#34;nofollow&#34;&gt;&lt;code&gt;AddPivotTable()&lt;/code&gt;&lt;/a&gt; has been added&lt;/li&gt;&#xA;&lt;li&gt;Create sparkline support. New function &lt;a href=&#34;https://pkg.go.dev/github.com/xuri/excelize/v2@v2.0.2#File.AddSparkline&#34; rel=&#34;nofollow&#34;&gt;&lt;code&gt;AddSparkline()&lt;/code&gt;&lt;/a&gt; has been added&lt;/li&gt;&#xA;&lt;li&gt;New function &lt;a href=&#34;https://pkg.go.dev/github.com/xuri/excelize/v2@v2.0.2#File.GroupSheets&#34; rel=&#34;nofollow&#34;&gt;&lt;code&gt;GroupSheets()&lt;/code&gt;&lt;/a&gt; and &lt;a href=&#34;https://pkg.go.dev/github.com/xuri/excelize/v2@v2.0.2#File.UngroupSheets&#34; rel=&#34;nofollow&#34;&gt;&lt;code&gt;UngroupSheets()&lt;/code&gt;&lt;/a&gt; support group and ungroup sheets&lt;/li&gt;&#xA;&lt;li&gt;New function &lt;a href=&#34;https://pkg.go.dev/github.com/xuri/excelize/v2@v2.0.2#File.AddVBAProject&#34; rel=&#34;nofollow&#34;&gt;&lt;code&gt;AddVBAProject()&lt;/code&gt;&lt;/a&gt; to support add vbaProject.bin file which contains functions and/or macros&lt;/li&gt;&#xA;&lt;li&gt;The function &lt;a href=&#34;https://pkg.go.dev/github.com/xuri/excelize/v2@v2.0.2#File.SetPageLayout&#34; rel=&#34;nofollow&#34;&gt;&lt;code&gt;SetPageLayout()&lt;/code&gt;&lt;/a&gt; now support to support to set fit to width and height, relate issue &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;464484700&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/qax-os/excelize/issues/432&#34; data-hovercard-type=&#34;issue&#34; data-hovercard-url=&#34;/qax-os/excelize/issues/432/hovercard&#34; href=&#34;https://github.com/qax-os/excelize/issues/432&#34;&gt;#432&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;The function &lt;a href=&#34;https://pkg.go.dev/github.com/xuri/excelize/v2@v2.0.2#File.SetSheetViewOptions&#34; rel=&#34;nofollow&#34;&gt;&lt;code&gt;SetSheetViewOptions()&lt;/code&gt;&lt;/a&gt; support to set whether to &#34;show a zero in cells that have zero value&#34; now&lt;/li&gt;&#xA;&lt;li&gt;Allow access to more formula attributes in &lt;a href=&#34;https://pkg.go.dev/github.com/xuri/excelize/v2@v2.0.2#File.SetCellFormula&#34; rel=&#34;nofollow&#34;&gt;&lt;code&gt;SetCellFormula()&lt;/code&gt;&lt;/a&gt;, support set the type of the formula and the ref attribute&lt;/li&gt;&#xA;&lt;li&gt;Font strike style support,  relate issue &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;493964400&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/qax-os/excelize/issues/482&#34; data-hovercard-type=&#34;issue&#34; data-hovercard-url=&#34;/qax-os/excelize/issues/482/hovercard&#34; href=&#34;https://github.com/qax-os/excelize/issues/482&#34;&gt;#482&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h4&gt;Bug Fixes&lt;/h4&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Fix missing text of comments in some case, resolve issue &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;465739222&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/qax-os/excelize/issues/434&#34; data-hovercard-type=&#34;issue&#34; data-hovercard-url=&#34;/qax-os/excelize/issues/434/hovercard&#34; href=&#34;https://github.com/qax-os/excelize/issues/434&#34;&gt;#434&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Fix &lt;code&gt;RemoveRow()&lt;/code&gt; out of range in some case by recalculate offset for merged cells adjuster, resolve issue &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;467696204&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/qax-os/excelize/issues/437&#34; data-hovercard-type=&#34;issue&#34; data-hovercard-url=&#34;/qax-os/excelize/issues/437/hovercard&#34; href=&#34;https://github.com/qax-os/excelize/issues/437&#34;&gt;#437&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Fix invalid formula in data validation drop list&lt;/li&gt;&#xA;&lt;li&gt;Fix file corrupted when calling the &lt;code&gt;Save()&lt;/code&gt; method in the iteration, resolve issue &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;472192100&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/qax-os/excelize/issues/443&#34; data-hovercard-type=&#34;issue&#34; data-hovercard-url=&#34;/qax-os/excelize/issues/443/hovercard&#34; href=&#34;https://github.com/qax-os/excelize/issues/443&#34;&gt;#443&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Compatible with different types of relative paths in &lt;code&gt;workbook.xml.rels&lt;/code&gt; to fix read file failed in some case, resolve issue &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;472015648&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/qax-os/excelize/issues/442&#34; data-hovercard-type=&#34;issue&#34; data-hovercard-url=&#34;/qax-os/excelize/issues/442/hovercard&#34; href=&#34;https://github.com/qax-os/excelize/issues/442&#34;&gt;#442&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Fixed file corruption when deleting all merged cells in some case&lt;/li&gt;&#xA;&lt;li&gt;Fix issue where the protection worksheet settings are invalid in some case, resolve issue &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;475424195&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/qax-os/excelize/issues/454&#34; data-hovercard-type=&#34;issue&#34; data-hovercard-url=&#34;/qax-os/excelize/issues/454/hovercard&#34; href=&#34;https://github.com/qax-os/excelize/issues/454&#34;&gt;#454&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Fix &lt;code&gt;GetSheetName&lt;/code&gt; doesn&#39;t work in some case by check the sheets list based on index instead, resolve issue &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;477127809&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/qax-os/excelize/issues/457&#34; data-hovercard-type=&#34;issue&#34; data-hovercard-url=&#34;/qax-os/excelize/issues/457/hovercard&#34; href=&#34;https://github.com/qax-os/excelize/issues/457&#34;&gt;#457&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Add multi-row inline strings support, relate issue &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;478150605&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/qax-os/excelize/issues/464&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/qax-os/excelize/pull/464/hovercard&#34; href=&#34;https://github.com/qax-os/excelize/pull/464&#34;&gt;#464&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Fix overflow numeric cell value on the 32-bit operating system, relate issue &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;435134888&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/qax-os/excelize/issues/386&#34; data-hovercard-type=&#34;issue&#34; data-hovercard-url=&#34;/qax-os/excelize/issues/386/hovercard&#34; href=&#34;https://github.com/qax-os/excelize/issues/386&#34;&gt;#386&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Fix go module dependency errors, relate issue &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;478473170&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/qax-os/excelize/issues/466&#34; data-hovercard-type=&#34;issue&#34; data-hovercard-url=&#34;/qax-os/excelize/issues/466/hovercard&#34; href=&#34;https://github.com/qax-os/excelize/issues/466&#34;&gt;#466&lt;/a&gt; and &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;493262196&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/qax-os/excelize/issues/480&#34; data-hovercard-type=&#34;issue&#34; data-hovercard-url=&#34;/qax-os/excelize/issues/480/hovercard&#34; href=&#34;https://github.com/qax-os/excelize/issues/480&#34;&gt;#480&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Fix file corrupted when calling &lt;code&gt;SetSheetPrOptions()&lt;/code&gt; in some case, resolve issue &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;494417362&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/qax-os/excelize/issues/483&#34; data-hovercard-type=&#34;issue&#34; data-hovercard-url=&#34;/qax-os/excelize/issues/483/hovercard&#34; href=&#34;https://github.com/qax-os/excelize/issues/483&#34;&gt;#483&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h4&gt;Performance&lt;/h4&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Performance optimization, faster for reading the file, relate issue &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;470113390&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/qax-os/excelize/issues/439&#34; data-hovercard-type=&#34;issue&#34; data-hovercard-url=&#34;/qax-os/excelize/issues/439/hovercard&#34; href=&#34;https://github.com/qax-os/excelize/issues/439&#34;&gt;#439&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h4&gt;Miscellaneous&lt;/h4&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Add missing error check in &lt;a href=&#34;https://pkg.go.dev/github.com/xuri/excelize/v2@v2.0.2#File.SetSheetRow&#34; rel=&#34;nofollow&#34;&gt;&lt;code&gt;SetSheetRow()&lt;/code&gt;&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Optimize code, combine internal functions:&lt;br&gt;&#xA;&lt;code&gt;workBookRelsWriter&lt;/code&gt;, &lt;code&gt;drawingRelsWriter&lt;/code&gt; into &lt;code&gt;relsWriter&lt;/code&gt;;&lt;br&gt;&#xA;&lt;code&gt;drawingRelsReader&lt;/code&gt;, &lt;code&gt;workbookRelsReader&lt;/code&gt;, &lt;code&gt;workSheetRelsReader&lt;/code&gt; into &lt;code&gt;relsReader&lt;/code&gt;&lt;br&gt;&#xA;&lt;code&gt;addDrawingRelationships&lt;/code&gt;, &lt;code&gt;addSheetRelationships&lt;/code&gt; into &lt;code&gt;addRels&lt;/code&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/qax-os/excelize/releases/tag/v2.0.2" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>xuri</name>
-    </author>
-  </entry>
-  <entry>
     <title>Release notes from excelize - v2.1.0</title>
     <updated>2021-07-29T01:25:47Z</updated>
     <id>tag:github.com,2008:Repository/66841911/v2.1.0</id>
@@ -6582,22 +6582,22 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from triangula - v1.1.5</title>
+    <title>Release notes from triangula - v1.1.6</title>
     <updated>2021-05-11T13:31:09Z</updated>
-    <id>tag:github.com,2008:Repository/354015172/v1.1.5</id>
+    <id>tag:github.com,2008:Repository/354015172/v1.1.6</id>
     <content type="html">&lt;p&gt;Refactor for more flexibility&lt;/p&gt;</content>
-    <link href="https://github.com/rh12503/triangula/releases/tag/v1.1.5" rel="alternate"></link>
+    <link href="https://github.com/rh12503/triangula/releases/tag/v1.1.6" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>rh12503</name>
     </author>
   </entry>
   <entry>
-    <title>Release notes from triangula - v1.1.6</title>
+    <title>Release notes from triangula - v1.1.5</title>
     <updated>2021-05-11T13:31:09Z</updated>
-    <id>tag:github.com,2008:Repository/354015172/v1.1.6</id>
+    <id>tag:github.com,2008:Repository/354015172/v1.1.5</id>
     <content type="html">&lt;p&gt;Refactor for more flexibility&lt;/p&gt;</content>
-    <link href="https://github.com/rh12503/triangula/releases/tag/v1.1.6" rel="alternate"></link>
+    <link href="https://github.com/rh12503/triangula/releases/tag/v1.1.5" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>rh12503</name>
@@ -7275,22 +7275,22 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from backoff - v2.0.3: Merge pull request #18 from lestrrat-go/topic/fix-v2-go-mod</title>
+    <title>Release notes from backoff - v2.0.2: Merge pull request #18 from lestrrat-go/topic/fix-v2-go-mod</title>
     <updated>2021-01-06T03:00:05Z</updated>
-    <id>tag:github.com,2008:Repository/118608673/v2.0.3</id>
+    <id>tag:github.com,2008:Repository/118608673/v2.0.2</id>
     <content type="html">&lt;p&gt;Fix go.mod&lt;/p&gt;</content>
-    <link href="https://github.com/lestrrat-go/backoff/releases/tag/v2.0.3" rel="alternate"></link>
+    <link href="https://github.com/lestrrat-go/backoff/releases/tag/v2.0.2" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>lestrrat</name>
     </author>
   </entry>
   <entry>
-    <title>Release notes from backoff - v2.0.2: Merge pull request #18 from lestrrat-go/topic/fix-v2-go-mod</title>
+    <title>Release notes from backoff - v2.0.3: Merge pull request #18 from lestrrat-go/topic/fix-v2-go-mod</title>
     <updated>2021-01-06T03:00:05Z</updated>
-    <id>tag:github.com,2008:Repository/118608673/v2.0.2</id>
+    <id>tag:github.com,2008:Repository/118608673/v2.0.3</id>
     <content type="html">&lt;p&gt;Fix go.mod&lt;/p&gt;</content>
-    <link href="https://github.com/lestrrat-go/backoff/releases/tag/v2.0.2" rel="alternate"></link>
+    <link href="https://github.com/lestrrat-go/backoff/releases/tag/v2.0.3" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>lestrrat</name>
