@@ -1,8 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?><feed xmlns="http://www.w3.org/2005/Atom">
   <title>Releases from Starred by toga4</title>
   <id>https://toga4.github.io/feeds/starred-releases.atom</id>
-  <updated>2022-08-23T19:02:21Z</updated>
+  <updated>2022-08-23T21:38:10Z</updated>
   <link href="https://toga4.github.io/feeds/starred-releases.atom"></link>
+  <entry>
+    <title>Release notes from yamlfmt - v0.2.0</title>
+    <updated>2022-08-23T21:38:10Z</updated>
+    <id>tag:github.com,2008:Repository/523428811/v0.2.0</id>
+    <content type="html">&lt;p&gt;The big features of this release are:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Multi-document file support&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Files with multiple documents separated by &lt;code&gt;---&lt;/code&gt; are now supported and fully formatted&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&lt;code&gt;include_document_start&lt;/code&gt; option added&#xA;&lt;ul&gt;&#xA;&lt;li&gt;The default formatting behaviour doesn&#39;t include the &lt;code&gt;---&lt;/code&gt; at the start of the document, this flag will ensure it&#39;s added&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&lt;code&gt;stdin&lt;/code&gt; operation mode&#xA;&lt;ul&gt;&#xA;&lt;li&gt;With the &lt;code&gt;-in&lt;/code&gt; flag, the tool will read from &lt;code&gt;stdin&lt;/code&gt; allowing for piping data through &lt;code&gt;|&lt;/code&gt; in the CLI&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;Diff readability improved&#xA;&lt;ul&gt;&#xA;&lt;li&gt;The diff readability is improved, still not as good as it will be eventually but this is a fine bandaid fix&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;One bug was fixed:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Multiple paths in &lt;code&gt;exclude&lt;/code&gt; no longer causes every single file to be found&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2&gt;Changelog&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a class=&#34;commit-link&#34; data-hovercard-type=&#34;commit&#34; data-hovercard-url=&#34;https://github.com/google/yamlfmt/commit/79d0e08759f00404b65a0ac197cd1c8cc70e5ec3/hovercard&#34; href=&#34;https://github.com/google/yamlfmt/commit/79d0e08759f00404b65a0ac197cd1c8cc70e5ec3&#34;&gt;&lt;tt&gt;79d0e08&lt;/tt&gt;&lt;/a&gt; basic: Support formatting multi-document files (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1348498384&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/google/yamlfmt/issues/19&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/google/yamlfmt/pull/19/hovercard&#34; href=&#34;https://github.com/google/yamlfmt/pull/19&#34;&gt;#19&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;&lt;a class=&#34;commit-link&#34; data-hovercard-type=&#34;commit&#34; data-hovercard-url=&#34;https://github.com/google/yamlfmt/commit/80328a43e5b01a6cd410355cd547016d56001745/hovercard&#34; href=&#34;https://github.com/google/yamlfmt/commit/80328a43e5b01a6cd410355cd547016d56001745&#34;&gt;&lt;tt&gt;80328a4&lt;/tt&gt;&lt;/a&gt; basic: add include_document_start (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1348531891&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/google/yamlfmt/issues/20&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/google/yamlfmt/pull/20/hovercard&#34; href=&#34;https://github.com/google/yamlfmt/pull/20&#34;&gt;#20&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;&lt;a class=&#34;commit-link&#34; data-hovercard-type=&#34;commit&#34; data-hovercard-url=&#34;https://github.com/google/yamlfmt/commit/fcac9d5676a4af62066eb71c4331e78ed6e8a7e2/hovercard&#34; href=&#34;https://github.com/google/yamlfmt/commit/fcac9d5676a4af62066eb71c4331e78ed6e8a7e2&#34;&gt;&lt;tt&gt;fcac9d5&lt;/tt&gt;&lt;/a&gt; command: add support for formatting from stdin (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1348408090&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/google/yamlfmt/issues/18&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/google/yamlfmt/pull/18/hovercard&#34; href=&#34;https://github.com/google/yamlfmt/pull/18&#34;&gt;#18&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;&lt;a class=&#34;commit-link&#34; data-hovercard-type=&#34;commit&#34; data-hovercard-url=&#34;https://github.com/google/yamlfmt/commit/28b179f80a3e84de5e852a730e48578e1a2c7f93/hovercard&#34; href=&#34;https://github.com/google/yamlfmt/commit/28b179f80a3e84de5e852a730e48578e1a2c7f93&#34;&gt;&lt;tt&gt;28b179f&lt;/tt&gt;&lt;/a&gt; diff: improve diff readability (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1348179003&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/google/yamlfmt/issues/17&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/google/yamlfmt/pull/17/hovercard&#34; href=&#34;https://github.com/google/yamlfmt/pull/17&#34;&gt;#17&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;&lt;a class=&#34;commit-link&#34; data-hovercard-type=&#34;commit&#34; data-hovercard-url=&#34;https://github.com/google/yamlfmt/commit/90fa1be4c655db9061b4fe065c21514f2092d741/hovercard&#34; href=&#34;https://github.com/google/yamlfmt/commit/90fa1be4c655db9061b4fe065c21514f2092d741&#34;&gt;&lt;tt&gt;90fa1be&lt;/tt&gt;&lt;/a&gt; engine: fix exclude path bug (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1348535327&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/google/yamlfmt/issues/21&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/google/yamlfmt/pull/21/hovercard&#34; href=&#34;https://github.com/google/yamlfmt/pull/21&#34;&gt;#21&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/google/yamlfmt/releases/tag/v0.2.0" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>braydonk</name>
+    </author>
+  </entry>
   <entry>
     <title>Release notes from cli - GitHub CLI 2.14.5</title>
     <updated>2022-08-23T19:02:21Z</updated>
@@ -125,22 +136,22 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from telepresence - v2.7.2-rc.0</title>
+    <title>Release notes from telepresence - rpc/v2.7.2-rc.0</title>
     <updated>2022-08-22T18:03:51Z</updated>
-    <id>tag:github.com,2008:Repository/82933315/v2.7.2-rc.0</id>
+    <id>tag:github.com,2008:Repository/82933315/rpc/v2.7.2-rc.0</id>
     <content type="html">&lt;p&gt;v2.7.2-rc.0&lt;/p&gt;</content>
-    <link href="https://github.com/telepresenceio/telepresence/releases/tag/v2.7.2-rc.0" rel="alternate"></link>
+    <link href="https://github.com/telepresenceio/telepresence/releases/tag/rpc%2Fv2.7.2-rc.0" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>raphaelreyna</name>
     </author>
   </entry>
   <entry>
-    <title>Release notes from telepresence - rpc/v2.7.2-rc.0</title>
+    <title>Release notes from telepresence - v2.7.2-rc.0</title>
     <updated>2022-08-22T18:03:51Z</updated>
-    <id>tag:github.com,2008:Repository/82933315/rpc/v2.7.2-rc.0</id>
+    <id>tag:github.com,2008:Repository/82933315/v2.7.2-rc.0</id>
     <content type="html">&lt;p&gt;v2.7.2-rc.0&lt;/p&gt;</content>
-    <link href="https://github.com/telepresenceio/telepresence/releases/tag/rpc%2Fv2.7.2-rc.0" rel="alternate"></link>
+    <link href="https://github.com/telepresenceio/telepresence/releases/tag/v2.7.2-rc.0" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>raphaelreyna</name>
@@ -213,22 +224,22 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from telepresence - rpc/v2.7.2-test.1</title>
+    <title>Release notes from telepresence - v2.7.2-test.1</title>
     <updated>2022-08-18T20:10:23Z</updated>
-    <id>tag:github.com,2008:Repository/82933315/rpc/v2.7.2-test.1</id>
+    <id>tag:github.com,2008:Repository/82933315/v2.7.2-test.1</id>
     <content type="html">&lt;p&gt;v2.7.2-test.1&lt;/p&gt;</content>
-    <link href="https://github.com/telepresenceio/telepresence/releases/tag/rpc%2Fv2.7.2-test.1" rel="alternate"></link>
+    <link href="https://github.com/telepresenceio/telepresence/releases/tag/v2.7.2-test.1" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>josecv</name>
     </author>
   </entry>
   <entry>
-    <title>Release notes from telepresence - v2.7.2-test.1</title>
+    <title>Release notes from telepresence - rpc/v2.7.2-test.1</title>
     <updated>2022-08-18T20:10:23Z</updated>
-    <id>tag:github.com,2008:Repository/82933315/v2.7.2-test.1</id>
+    <id>tag:github.com,2008:Repository/82933315/rpc/v2.7.2-test.1</id>
     <content type="html">&lt;p&gt;v2.7.2-test.1&lt;/p&gt;</content>
-    <link href="https://github.com/telepresenceio/telepresence/releases/tag/v2.7.2-test.1" rel="alternate"></link>
+    <link href="https://github.com/telepresenceio/telepresence/releases/tag/rpc%2Fv2.7.2-test.1" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>josecv</name>
@@ -389,28 +400,6 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from opentelemetry-operations-go - example/trace/http/v0.32.6</title>
-    <updated>2022-08-16T17:55:41Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/example/trace/http/v0.32.6</id>
-    <content type="html">&lt;p&gt;prepare for v0.32.6 and v1.8.6 (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1340682083&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/470&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleCloudPlatform/opentelemetry-operations-go/pull/470/hovercard&#34; href=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/pull/470&#34;&gt;#470&lt;/a&gt;)&lt;/p&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/example%2Ftrace%2Fhttp%2Fv0.32.6" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>dashpole</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from opentelemetry-operations-go - exporter/metric/v0.32.6</title>
-    <updated>2022-08-16T17:55:41Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/exporter/metric/v0.32.6</id>
-    <content type="html">&lt;p&gt;prepare for v0.32.6 and v1.8.6 (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1340682083&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/470&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleCloudPlatform/opentelemetry-operations-go/pull/470/hovercard&#34; href=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/pull/470&#34;&gt;#470&lt;/a&gt;)&lt;/p&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/exporter%2Fmetric%2Fv0.32.6" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>dashpole</name>
-    </author>
-  </entry>
-  <entry>
     <title>Release notes from opentelemetry-operations-go - exporter/collector/v0.32.6</title>
     <updated>2022-08-16T17:55:41Z</updated>
     <id>tag:github.com,2008:Repository/244484581/exporter/collector/v0.32.6</id>
@@ -422,11 +411,33 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from opentelemetry-operations-go - example/metric/v0.32.6</title>
+    <title>Release notes from opentelemetry-operations-go - internal/resourcemapping/v0.32.6</title>
     <updated>2022-08-16T17:55:41Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/example/metric/v0.32.6</id>
+    <id>tag:github.com,2008:Repository/244484581/internal/resourcemapping/v0.32.6</id>
     <content type="html">&lt;p&gt;prepare for v0.32.6 and v1.8.6 (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1340682083&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/470&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleCloudPlatform/opentelemetry-operations-go/pull/470/hovercard&#34; href=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/pull/470&#34;&gt;#470&lt;/a&gt;)&lt;/p&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/example%2Fmetric%2Fv0.32.6" rel="alternate"></link>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/internal%2Fresourcemapping%2Fv0.32.6" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>dashpole</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from opentelemetry-operations-go - exporter/trace/v1.8.6</title>
+    <updated>2022-08-16T17:55:41Z</updated>
+    <id>tag:github.com,2008:Repository/244484581/exporter/trace/v1.8.6</id>
+    <content type="html">&lt;p&gt;prepare for v0.32.6 and v1.8.6 (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1340682083&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/470&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleCloudPlatform/opentelemetry-operations-go/pull/470/hovercard&#34; href=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/pull/470&#34;&gt;#470&lt;/a&gt;)&lt;/p&gt;</content>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/exporter%2Ftrace%2Fv1.8.6" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>dashpole</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from opentelemetry-operations-go - exporter/metric/v0.32.6</title>
+    <updated>2022-08-16T17:55:41Z</updated>
+    <id>tag:github.com,2008:Repository/244484581/exporter/metric/v0.32.6</id>
+    <content type="html">&lt;p&gt;prepare for v0.32.6 and v1.8.6 (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1340682083&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/470&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleCloudPlatform/opentelemetry-operations-go/pull/470/hovercard&#34; href=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/pull/470&#34;&gt;#470&lt;/a&gt;)&lt;/p&gt;</content>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/exporter%2Fmetric%2Fv0.32.6" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>dashpole</name>
@@ -455,22 +466,22 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from opentelemetry-operations-go - exporter/trace/v1.8.6</title>
+    <title>Release notes from opentelemetry-operations-go - example/metric/v0.32.6</title>
     <updated>2022-08-16T17:55:41Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/exporter/trace/v1.8.6</id>
+    <id>tag:github.com,2008:Repository/244484581/example/metric/v0.32.6</id>
     <content type="html">&lt;p&gt;prepare for v0.32.6 and v1.8.6 (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1340682083&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/470&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleCloudPlatform/opentelemetry-operations-go/pull/470/hovercard&#34; href=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/pull/470&#34;&gt;#470&lt;/a&gt;)&lt;/p&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/exporter%2Ftrace%2Fv1.8.6" rel="alternate"></link>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/example%2Fmetric%2Fv0.32.6" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>dashpole</name>
     </author>
   </entry>
   <entry>
-    <title>Release notes from opentelemetry-operations-go - internal/resourcemapping/v0.32.6</title>
+    <title>Release notes from opentelemetry-operations-go - example/trace/http/v0.32.6</title>
     <updated>2022-08-16T17:55:41Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/internal/resourcemapping/v0.32.6</id>
+    <id>tag:github.com,2008:Repository/244484581/example/trace/http/v0.32.6</id>
     <content type="html">&lt;p&gt;prepare for v0.32.6 and v1.8.6 (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1340682083&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/470&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleCloudPlatform/opentelemetry-operations-go/pull/470/hovercard&#34; href=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/pull/470&#34;&gt;#470&lt;/a&gt;)&lt;/p&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/internal%2Fresourcemapping%2Fv0.32.6" rel="alternate"></link>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/example%2Ftrace%2Fhttp%2Fv0.32.6" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>dashpole</name>
@@ -1544,6 +1555,17 @@
     </author>
   </entry>
   <entry>
+    <title>Release notes from kpt - package-examples/cert-manager-basic/v0: Add a basic ghost package (#3381)</title>
+    <updated>2022-07-19T17:43:52Z</updated>
+    <id>tag:github.com,2008:Repository/208908993/package-examples/cert-manager-basic/v0</id>
+    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Add ghost basic package&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;update ghost pacakge&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;remove set-labels&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/GoogleContainerTools/kpt/releases/tag/package-examples%2Fcert-manager-basic%2Fv0" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>yuwenma</name>
+    </author>
+  </entry>
+  <entry>
     <title>Release notes from kpt - package-examples/ingress-nginx/v0: Add a basic ghost package (#3381)</title>
     <updated>2022-07-19T17:43:52Z</updated>
     <id>tag:github.com,2008:Repository/208908993/package-examples/ingress-nginx/v0</id>
@@ -1560,17 +1582,6 @@
     <id>tag:github.com,2008:Repository/208908993/package-examples/ghost/v0</id>
     <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Add ghost basic package&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;update ghost pacakge&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;remove set-labels&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
     <link href="https://github.com/GoogleContainerTools/kpt/releases/tag/package-examples%2Fghost%2Fv0" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>yuwenma</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from kpt - package-examples/cert-manager-basic/v0: Add a basic ghost package (#3381)</title>
-    <updated>2022-07-19T17:43:52Z</updated>
-    <id>tag:github.com,2008:Repository/208908993/package-examples/cert-manager-basic/v0</id>
-    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Add ghost basic package&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;update ghost pacakge&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;remove set-labels&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/GoogleContainerTools/kpt/releases/tag/package-examples%2Fcert-manager-basic%2Fv0" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>yuwenma</name>
