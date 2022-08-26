@@ -1,17 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?><feed xmlns="http://www.w3.org/2005/Atom">
   <title>Releases from Starred by toga4</title>
   <id>https://toga4.github.io/feeds/starred-releases.atom</id>
-  <updated>2022-08-26T18:01:29Z</updated>
+  <updated>2022-08-26T20:28:05Z</updated>
   <link href="https://toga4.github.io/feeds/starred-releases.atom"></link>
   <entry>
-    <title>Release notes from kpt - v1.0.0-beta.20: ci: Update GoReleaser to cross compile with CGO (#3503)</title>
-    <updated>2022-08-26T18:01:29Z</updated>
+    <title>Release notes from kpt - v1.0.0-beta.20: Add workaround for bug in goreleaser to enable signing of kpt release…</title>
+    <updated>2022-08-26T20:28:05Z</updated>
     <id>tag:github.com,2008:Repository/208908993/v1.0.0-beta.20</id>
-    <content type="html">&lt;p&gt;This commit updates the release process to use the prebuilt container&lt;br&gt;&#xA;image from GoReleaser that contains the required C binaries/libraries&lt;br&gt;&#xA;for the targeted OS &amp;amp; ARCH that we want to release for.&lt;/p&gt;</content>
+    <content type="html">&lt;p&gt;… artifacts (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1352668003&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/GoogleContainerTools/kpt/issues/3506&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleContainerTools/kpt/pull/3506/hovercard&#34; href=&#34;https://github.com/GoogleContainerTools/kpt/pull/3506&#34;&gt;#3506&lt;/a&gt;)&lt;/p&gt;</content>
     <link href="https://github.com/GoogleContainerTools/kpt/releases/tag/v1.0.0-beta.20" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
-      <name>rquitales</name>
+      <name>mortent</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from compose - v2.10.2</title>
+    <updated>2022-08-26T20:22:01Z</updated>
+    <id>tag:github.com,2008:Repository/15045751/v2.10.2</id>
+    <content type="html">&lt;h2&gt;Fixes &lt;g-emoji class=&#34;g-emoji&#34; alias=&#34;bug&#34; fallback-src=&#34;https://github.githubassets.com/images/icons/emoji/unicode/1f41b.png&#34;&gt;🐛&lt;/g-emoji&gt;&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Properly respect &lt;code&gt;DOCKER_TLS_VERIFY&lt;/code&gt; and &lt;code&gt;DOCKER_CERT_PATH&lt;/code&gt; (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1352679636&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/docker/compose/issues/9792&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/docker/compose/pull/9792/hovercard&#34; href=&#34;https://github.com/docker/compose/pull/9792&#34;&gt;#9792&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2&gt;Internal &lt;g-emoji class=&#34;g-emoji&#34; alias=&#34;wrench&#34; fallback-src=&#34;https://github.githubassets.com/images/icons/emoji/unicode/1f527.png&#34;&gt;🔧&lt;/g-emoji&gt;&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Improved &lt;code&gt;Makefile&lt;/code&gt; for usage within &lt;a href=&#34;https://github.com/docker/docker-ce-packaging&#34;&gt;docker/docker-ce-packaging&lt;/a&gt; (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1345576371&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/docker/compose/issues/9776&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/docker/compose/pull/9776/hovercard&#34; href=&#34;https://github.com/docker/compose/pull/9776&#34;&gt;#9776&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2&gt;What&#39;s Changed&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Revert &#34;Apply newly loaded envvars to &lt;code&gt;DockerCli&lt;/code&gt; and &lt;code&gt;APIClient&lt;/code&gt;&#34; by &lt;a class=&#34;user-mention notranslate&#34; data-hovercard-type=&#34;user&#34; data-hovercard-url=&#34;/users/milas/hovercard&#34; data-octo-click=&#34;hovercard-link-click&#34; data-octo-dimensions=&#34;link_type:self&#34; href=&#34;https://github.com/milas&#34;&gt;@milas&lt;/a&gt; in &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1352679636&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/docker/compose/issues/9792&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/docker/compose/pull/9792/hovercard&#34; href=&#34;https://github.com/docker/compose/pull/9792&#34;&gt;#9792&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Makefile: mutualize local and Dockerfile build opts by &lt;a class=&#34;user-mention notranslate&#34; data-hovercard-type=&#34;user&#34; data-hovercard-url=&#34;/users/crazy-max/hovercard&#34; data-octo-click=&#34;hovercard-link-click&#34; data-octo-dimensions=&#34;link_type:self&#34; href=&#34;https://github.com/crazy-max&#34;&gt;@crazy-max&lt;/a&gt; in &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1345576371&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/docker/compose/issues/9776&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/docker/compose/pull/9776/hovercard&#34; href=&#34;https://github.com/docker/compose/pull/9776&#34;&gt;#9776&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: &lt;a class=&#34;commit-link&#34; href=&#34;https://github.com/docker/compose/compare/v2.10.1...v2.10.2&#34;&gt;&lt;tt&gt;v2.10.1...v2.10.2&lt;/tt&gt;&lt;/a&gt;&lt;/p&gt;</content>
+    <link href="https://github.com/docker/compose/releases/tag/v2.10.2" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>github-actions[bot]</name>
     </author>
   </entry>
   <entry>
@@ -37,22 +48,22 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from telepresence - rpc/v2.7.2-rc.1</title>
+    <title>Release notes from telepresence - v2.7.2-rc.1</title>
     <updated>2022-08-25T15:46:06Z</updated>
-    <id>tag:github.com,2008:Repository/82933315/rpc/v2.7.2-rc.1</id>
+    <id>tag:github.com,2008:Repository/82933315/v2.7.2-rc.1</id>
     <content type="html">&lt;p&gt;v2.7.2-rc.1&lt;/p&gt;</content>
-    <link href="https://github.com/telepresenceio/telepresence/releases/tag/rpc%2Fv2.7.2-rc.1" rel="alternate"></link>
+    <link href="https://github.com/telepresenceio/telepresence/releases/tag/v2.7.2-rc.1" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>raphaelreyna</name>
     </author>
   </entry>
   <entry>
-    <title>Release notes from telepresence - v2.7.2-rc.1</title>
+    <title>Release notes from telepresence - rpc/v2.7.2-rc.1</title>
     <updated>2022-08-25T15:46:06Z</updated>
-    <id>tag:github.com,2008:Repository/82933315/v2.7.2-rc.1</id>
+    <id>tag:github.com,2008:Repository/82933315/rpc/v2.7.2-rc.1</id>
     <content type="html">&lt;p&gt;v2.7.2-rc.1&lt;/p&gt;</content>
-    <link href="https://github.com/telepresenceio/telepresence/releases/tag/v2.7.2-rc.1" rel="alternate"></link>
+    <link href="https://github.com/telepresenceio/telepresence/releases/tag/rpc%2Fv2.7.2-rc.1" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>raphaelreyna</name>
@@ -565,11 +576,11 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from opentelemetry-operations-go - exporter/collector/googlemanagedprometheus/v0.32.6</title>
+    <title>Release notes from opentelemetry-operations-go - detectors/gcp/v0.32.6</title>
     <updated>2022-08-16T17:55:41Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/exporter/collector/googlemanagedprometheus/v0.32.6</id>
+    <id>tag:github.com,2008:Repository/244484581/detectors/gcp/v0.32.6</id>
     <content type="html">&lt;p&gt;prepare for v0.32.6 and v1.8.6 (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1340682083&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/470&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleCloudPlatform/opentelemetry-operations-go/pull/470/hovercard&#34; href=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/pull/470&#34;&gt;#470&lt;/a&gt;)&lt;/p&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/exporter%2Fcollector%2Fgooglemanagedprometheus%2Fv0.32.6" rel="alternate"></link>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/detectors%2Fgcp%2Fv0.32.6" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>dashpole</name>
@@ -587,22 +598,11 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from opentelemetry-operations-go - detectors/gcp/v0.32.6</title>
+    <title>Release notes from opentelemetry-operations-go - exporter/trace/v1.8.6</title>
     <updated>2022-08-16T17:55:41Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/detectors/gcp/v0.32.6</id>
+    <id>tag:github.com,2008:Repository/244484581/exporter/trace/v1.8.6</id>
     <content type="html">&lt;p&gt;prepare for v0.32.6 and v1.8.6 (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1340682083&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/470&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleCloudPlatform/opentelemetry-operations-go/pull/470/hovercard&#34; href=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/pull/470&#34;&gt;#470&lt;/a&gt;)&lt;/p&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/detectors%2Fgcp%2Fv0.32.6" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>dashpole</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from opentelemetry-operations-go - example/metric/v0.32.6</title>
-    <updated>2022-08-16T17:55:41Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/example/metric/v0.32.6</id>
-    <content type="html">&lt;p&gt;prepare for v0.32.6 and v1.8.6 (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1340682083&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/470&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleCloudPlatform/opentelemetry-operations-go/pull/470/hovercard&#34; href=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/pull/470&#34;&gt;#470&lt;/a&gt;)&lt;/p&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/example%2Fmetric%2Fv0.32.6" rel="alternate"></link>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/exporter%2Ftrace%2Fv1.8.6" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>dashpole</name>
@@ -620,11 +620,11 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from opentelemetry-operations-go - exporter/trace/v1.8.6</title>
+    <title>Release notes from opentelemetry-operations-go - exporter/collector/googlemanagedprometheus/v0.32.6</title>
     <updated>2022-08-16T17:55:41Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/exporter/trace/v1.8.6</id>
+    <id>tag:github.com,2008:Repository/244484581/exporter/collector/googlemanagedprometheus/v0.32.6</id>
     <content type="html">&lt;p&gt;prepare for v0.32.6 and v1.8.6 (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1340682083&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/470&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleCloudPlatform/opentelemetry-operations-go/pull/470/hovercard&#34; href=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/pull/470&#34;&gt;#470&lt;/a&gt;)&lt;/p&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/exporter%2Ftrace%2Fv1.8.6" rel="alternate"></link>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/exporter%2Fcollector%2Fgooglemanagedprometheus%2Fv0.32.6" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>dashpole</name>
@@ -647,6 +647,17 @@
     <id>tag:github.com,2008:Repository/244484581/example/trace/http/v0.32.6</id>
     <content type="html">&lt;p&gt;prepare for v0.32.6 and v1.8.6 (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1340682083&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/470&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleCloudPlatform/opentelemetry-operations-go/pull/470/hovercard&#34; href=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/pull/470&#34;&gt;#470&lt;/a&gt;)&lt;/p&gt;</content>
     <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/example%2Ftrace%2Fhttp%2Fv0.32.6" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>dashpole</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from opentelemetry-operations-go - example/metric/v0.32.6</title>
+    <updated>2022-08-16T17:55:41Z</updated>
+    <id>tag:github.com,2008:Repository/244484581/example/metric/v0.32.6</id>
+    <content type="html">&lt;p&gt;prepare for v0.32.6 and v1.8.6 (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1340682083&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/470&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleCloudPlatform/opentelemetry-operations-go/pull/470/hovercard&#34; href=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/pull/470&#34;&gt;#470&lt;/a&gt;)&lt;/p&gt;</content>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/example%2Fmetric%2Fv0.32.6" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>dashpole</name>
@@ -3631,17 +3642,6 @@
     <summary type="html"></summary>
     <author>
       <name>k1LoW</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from compose - v2.4.1</title>
-    <updated>2022-04-04T12:58:49Z</updated>
-    <id>tag:github.com,2008:Repository/15045751/v2.4.1</id>
-    <content type="html">&lt;h2&gt;What&#39;s Changed&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;now we use directly the Docker CLI to run autoremove flag should be p… by &lt;a class=&#34;user-mention notranslate&#34; data-hovercard-type=&#34;user&#34; data-hovercard-url=&#34;/users/glours/hovercard&#34; data-octo-click=&#34;hovercard-link-click&#34; data-octo-dimensions=&#34;link_type:self&#34; href=&#34;https://github.com/glours&#34;&gt;@glours&lt;/a&gt; in &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1190233095&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/docker/compose/issues/9342&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/docker/compose/pull/9342/hovercard&#34; href=&#34;https://github.com/docker/compose/pull/9342&#34;&gt;#9342&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;use ssh config when building from compose up by &lt;a class=&#34;user-mention notranslate&#34; data-hovercard-type=&#34;user&#34; data-hovercard-url=&#34;/users/glours/hovercard&#34; data-octo-click=&#34;hovercard-link-click&#34; data-octo-dimensions=&#34;link_type:self&#34; href=&#34;https://github.com/glours&#34;&gt;@glours&lt;/a&gt; in &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1190277553&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/docker/compose/issues/9343&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/docker/compose/pull/9343/hovercard&#34; href=&#34;https://github.com/docker/compose/pull/9343&#34;&gt;#9343&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;get Tty from container to know adequate way to attach to by &lt;a class=&#34;user-mention notranslate&#34; data-hovercard-type=&#34;user&#34; data-hovercard-url=&#34;/users/ndeloof/hovercard&#34; data-octo-click=&#34;hovercard-link-click&#34; data-octo-dimensions=&#34;link_type:self&#34; href=&#34;https://github.com/ndeloof&#34;&gt;@ndeloof&lt;/a&gt; in &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1191522219&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/docker/compose/issues/9348&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/docker/compose/pull/9348/hovercard&#34; href=&#34;https://github.com/docker/compose/pull/9348&#34;&gt;#9348&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: &lt;a class=&#34;commit-link&#34; href=&#34;https://github.com/docker/compose/compare/v2.4.0...v2.4.1&#34;&gt;&lt;tt&gt;v2.4.0...v2.4.1&lt;/tt&gt;&lt;/a&gt;&lt;/p&gt;</content>
-    <link href="https://github.com/docker/compose/releases/tag/v2.4.1" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>github-actions[bot]</name>
     </author>
   </entry>
   <entry>
