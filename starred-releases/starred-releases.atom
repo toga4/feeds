@@ -1,8 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?><feed xmlns="http://www.w3.org/2005/Atom">
   <title>Releases from Starred by toga4</title>
   <id>https://toga4.github.io/feeds/starred-releases.atom</id>
-  <updated>2022-08-27T00:44:14Z</updated>
+  <updated>2022-08-27T18:25:58Z</updated>
   <link href="https://toga4.github.io/feeds/starred-releases.atom"></link>
+  <entry>
+    <title>Release notes from yamlfmt - v0.3.0</title>
+    <updated>2022-08-27T18:25:58Z</updated>
+    <id>tag:github.com,2008:Repository/523428811/v0.3.0</id>
+    <content type="html">&lt;p&gt;&lt;strong&gt;Features&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Can now operate in &lt;code&gt;stdin&lt;/code&gt; mode with the Unix pattern of &lt;code&gt;-&lt;/code&gt; or &lt;code&gt;/dev/stdin&lt;/code&gt; arguments&lt;/li&gt;&#xA;&lt;li&gt;Pass a custom config from another path using the &lt;code&gt;-conf&lt;/code&gt; flag&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;strong&gt;Improvements/Fixes&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Works with CRLF&#xA;&lt;ul&gt;&#xA;&lt;li&gt;There are a couple bugs upstream that were causing problems with CRLF behaviour, see &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1352134440&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/google/yamlfmt/issues/34&#34; data-hovercard-type=&#34;issue&#34; data-hovercard-url=&#34;/google/yamlfmt/issues/34/hovercard&#34; href=&#34;https://github.com/google/yamlfmt/issues/34&#34;&gt;#34&lt;/a&gt; and &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1353111587&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/google/yamlfmt/issues/37&#34; data-hovercard-type=&#34;issue&#34; data-hovercard-url=&#34;/google/yamlfmt/issues/37/hovercard&#34; href=&#34;https://github.com/google/yamlfmt/issues/37&#34;&gt;#37&lt;/a&gt; for details&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;Updated help message&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;strong&gt;Fixes&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;h2&gt;Changelog&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a class=&#34;commit-link&#34; data-hovercard-type=&#34;commit&#34; data-hovercard-url=&#34;https://github.com/google/yamlfmt/commit/5ad15993e6853b00d0a0050cd1362aaf37c838b3/hovercard&#34; href=&#34;https://github.com/google/yamlfmt/commit/5ad15993e6853b00d0a0050cd1362aaf37c838b3&#34;&gt;&lt;tt&gt;5ad1599&lt;/tt&gt;&lt;/a&gt; chore: fix indent typo in configuration options (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1349110911&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/google/yamlfmt/issues/25&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/google/yamlfmt/pull/25/hovercard&#34; href=&#34;https://github.com/google/yamlfmt/pull/25&#34;&gt;#25&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;&lt;a class=&#34;commit-link&#34; data-hovercard-type=&#34;commit&#34; data-hovercard-url=&#34;https://github.com/google/yamlfmt/commit/79e66eaec55092ecf4e35c5bfc27049e27a1fb7b/hovercard&#34; href=&#34;https://github.com/google/yamlfmt/commit/79e66eaec55092ecf4e35c5bfc27049e27a1fb7b&#34;&gt;&lt;tt&gt;79e66ea&lt;/tt&gt;&lt;/a&gt; feat: accept - or /dev/stdin instead of -in (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1349959444&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/google/yamlfmt/issues/28&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/google/yamlfmt/pull/28/hovercard&#34; href=&#34;https://github.com/google/yamlfmt/pull/28&#34;&gt;#28&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;&lt;a class=&#34;commit-link&#34; data-hovercard-type=&#34;commit&#34; data-hovercard-url=&#34;https://github.com/google/yamlfmt/commit/fc7dca4dfe33e980dc6e62ad865615390aed345c/hovercard&#34; href=&#34;https://github.com/google/yamlfmt/commit/fc7dca4dfe33e980dc6e62ad865615390aed345c&#34;&gt;&lt;tt&gt;fc7dca4&lt;/tt&gt;&lt;/a&gt; feat: add ability to pass config path (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1350247766&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/google/yamlfmt/issues/30&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/google/yamlfmt/pull/30/hovercard&#34; href=&#34;https://github.com/google/yamlfmt/pull/30&#34;&gt;#30&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;&lt;a class=&#34;commit-link&#34; data-hovercard-type=&#34;commit&#34; data-hovercard-url=&#34;https://github.com/google/yamlfmt/commit/fe693460c43575941df735325ebcb4311ecf3e45/hovercard&#34; href=&#34;https://github.com/google/yamlfmt/commit/fe693460c43575941df735325ebcb4311ecf3e45&#34;&gt;&lt;tt&gt;fe69346&lt;/tt&gt;&lt;/a&gt; feat: improve help message (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1350278306&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/google/yamlfmt/issues/32&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/google/yamlfmt/pull/32/hovercard&#34; href=&#34;https://github.com/google/yamlfmt/pull/32&#34;&gt;#32&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;&lt;a class=&#34;commit-link&#34; data-hovercard-type=&#34;commit&#34; data-hovercard-url=&#34;https://github.com/google/yamlfmt/commit/abc481260532f212bd869b992415f2f66fc5ddb0/hovercard&#34; href=&#34;https://github.com/google/yamlfmt/commit/abc481260532f212bd869b992415f2f66fc5ddb0&#34;&gt;&lt;tt&gt;abc4812&lt;/tt&gt;&lt;/a&gt; fix: hotfix shim for CRLF behaviour (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1353083042&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/google/yamlfmt/issues/36&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/google/yamlfmt/pull/36/hovercard&#34; href=&#34;https://github.com/google/yamlfmt/pull/36&#34;&gt;#36&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/google/yamlfmt/releases/tag/v0.3.0" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>braydonk</name>
+    </author>
+  </entry>
   <entry>
     <title>Release notes from kpt - v1.0.0-beta.20: fix: Fix broken releases due to improper configs (#3509)</title>
     <updated>2022-08-27T00:44:14Z</updated>
@@ -26,14 +37,14 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from telepresence - rpc/v2.7.2</title>
-    <updated>2022-08-25T18:50:11Z</updated>
-    <id>tag:github.com,2008:Repository/82933315/rpc/v2.7.2</id>
-    <content type="html">&lt;p&gt;v2.7.2&lt;/p&gt;</content>
-    <link href="https://github.com/telepresenceio/telepresence/releases/tag/rpc%2Fv2.7.2" rel="alternate"></link>
+    <title>Release notes from swag - v1.8.5</title>
+    <updated>2022-08-25T20:52:07Z</updated>
+    <id>tag:github.com,2008:Repository/93928882/v1.8.5</id>
+    <content type="html">&lt;h2&gt;Changelog&lt;/h2&gt;&#xA;&lt;p&gt;&lt;a class=&#34;commit-link&#34; data-hovercard-type=&#34;commit&#34; data-hovercard-url=&#34;https://github.com/swaggo/swag/commit/2f148dd6bddbd1340878e46cfa628efe118987d3/hovercard&#34; href=&#34;https://github.com/swaggo/swag/commit/2f148dd6bddbd1340878e46cfa628efe118987d3&#34;&gt;&lt;tt&gt;2f148dd&lt;/tt&gt;&lt;/a&gt; Extended generics support (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1323584102&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/swaggo/swag/issues/1277&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/swaggo/swag/pull/1277/hovercard&#34; href=&#34;https://github.com/swaggo/swag/pull/1277&#34;&gt;#1277&lt;/a&gt;)&lt;br&gt;&#xA;&lt;a class=&#34;commit-link&#34; data-hovercard-type=&#34;commit&#34; data-hovercard-url=&#34;https://github.com/swaggo/swag/commit/23661ef81ec4231315459906c39b9dcab1da5952/hovercard&#34; href=&#34;https://github.com/swaggo/swag/commit/23661ef81ec4231315459906c39b9dcab1da5952&#34;&gt;&lt;tt&gt;23661ef&lt;/tt&gt;&lt;/a&gt; chore: set CGO_ENABLED=0  for goreleaser to avoid dynamic linking (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1337740601&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/swaggo/swag/issues/1293&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/swaggo/swag/pull/1293/hovercard&#34; href=&#34;https://github.com/swaggo/swag/pull/1293&#34;&gt;#1293&lt;/a&gt;)&lt;br&gt;&#xA;&lt;a class=&#34;commit-link&#34; data-hovercard-type=&#34;commit&#34; data-hovercard-url=&#34;https://github.com/swaggo/swag/commit/732c0879d89dde8df85f435d43bdcd95a1ccc83f/hovercard&#34; href=&#34;https://github.com/swaggo/swag/commit/732c0879d89dde8df85f435d43bdcd95a1ccc83f&#34;&gt;&lt;tt&gt;732c087&lt;/tt&gt;&lt;/a&gt; doc: add function scoped struct declaration example (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1341542559&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/swaggo/swag/issues/1296&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/swaggo/swag/pull/1296/hovercard&#34; href=&#34;https://github.com/swaggo/swag/pull/1296&#34;&gt;#1296&lt;/a&gt;)&lt;br&gt;&#xA;&lt;a class=&#34;commit-link&#34; data-hovercard-type=&#34;commit&#34; data-hovercard-url=&#34;https://github.com/swaggo/swag/commit/45f01a1ca491ab4612226375f5cd3990f640bbaa/hovercard&#34; href=&#34;https://github.com/swaggo/swag/commit/45f01a1ca491ab4612226375f5cd3990f640bbaa&#34;&gt;&lt;tt&gt;45f01a1&lt;/tt&gt;&lt;/a&gt; feat: add function scoped struct parse (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1331002135&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/swaggo/swag/issues/1283&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/swaggo/swag/pull/1283/hovercard&#34; href=&#34;https://github.com/swaggo/swag/pull/1283&#34;&gt;#1283&lt;/a&gt;)&lt;br&gt;&#xA;&lt;a class=&#34;commit-link&#34; data-hovercard-type=&#34;commit&#34; data-hovercard-url=&#34;https://github.com/swaggo/swag/commit/cf03796091e797fb357be12225dfafca4c578fae/hovercard&#34; href=&#34;https://github.com/swaggo/swag/commit/cf03796091e797fb357be12225dfafca4c578fae&#34;&gt;&lt;tt&gt;cf03796&lt;/tt&gt;&lt;/a&gt; feat: get swagger instance from register (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1341621056&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/swaggo/swag/issues/1298&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/swaggo/swag/pull/1298/hovercard&#34; href=&#34;https://github.com/swaggo/swag/pull/1298&#34;&gt;#1298&lt;/a&gt;)&lt;br&gt;&#xA;&lt;a class=&#34;commit-link&#34; data-hovercard-type=&#34;commit&#34; data-hovercard-url=&#34;https://github.com/swaggo/swag/commit/af1c5256a1b4149f6958c18977d57895a5594f73/hovercard&#34; href=&#34;https://github.com/swaggo/swag/commit/af1c5256a1b4149f6958c18977d57895a5594f73&#34;&gt;&lt;tt&gt;af1c525&lt;/tt&gt;&lt;/a&gt; fix: Go generics cannot find common package object type definition (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1328950852&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/swaggo/swag/issues/1281&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/swaggo/swag/pull/1281/hovercard&#34; href=&#34;https://github.com/swaggo/swag/pull/1281&#34;&gt;#1281&lt;/a&gt;)&lt;br&gt;&#xA;&lt;a class=&#34;commit-link&#34; data-hovercard-type=&#34;commit&#34; data-hovercard-url=&#34;https://github.com/swaggo/swag/commit/9d34a7683d438a2b593fa073ba8820309a3c0987/hovercard&#34; href=&#34;https://github.com/swaggo/swag/commit/9d34a7683d438a2b593fa073ba8820309a3c0987&#34;&gt;&lt;tt&gt;9d34a76&lt;/tt&gt;&lt;/a&gt; fix: Nested generic fields not fully working, if generic type is from… (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1348501617&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/swaggo/swag/issues/1305&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/swaggo/swag/pull/1305/hovercard&#34; href=&#34;https://github.com/swaggo/swag/pull/1305&#34;&gt;#1305&lt;/a&gt;)&lt;/p&gt;</content>
+    <link href="https://github.com/swaggo/swag/releases/tag/v1.8.5" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
-      <name>raphaelreyna</name>
+      <name>ubogdan</name>
     </author>
   </entry>
   <entry>
@@ -48,11 +59,11 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from telepresence - v2.7.2-rc.1</title>
-    <updated>2022-08-25T15:46:06Z</updated>
-    <id>tag:github.com,2008:Repository/82933315/v2.7.2-rc.1</id>
-    <content type="html">&lt;p&gt;v2.7.2-rc.1&lt;/p&gt;</content>
-    <link href="https://github.com/telepresenceio/telepresence/releases/tag/v2.7.2-rc.1" rel="alternate"></link>
+    <title>Release notes from telepresence - rpc/v2.7.2</title>
+    <updated>2022-08-25T18:50:11Z</updated>
+    <id>tag:github.com,2008:Repository/82933315/rpc/v2.7.2</id>
+    <content type="html">&lt;p&gt;v2.7.2&lt;/p&gt;</content>
+    <link href="https://github.com/telepresenceio/telepresence/releases/tag/rpc%2Fv2.7.2" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>raphaelreyna</name>
@@ -64,6 +75,17 @@
     <id>tag:github.com,2008:Repository/82933315/rpc/v2.7.2-rc.1</id>
     <content type="html">&lt;p&gt;v2.7.2-rc.1&lt;/p&gt;</content>
     <link href="https://github.com/telepresenceio/telepresence/releases/tag/rpc%2Fv2.7.2-rc.1" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>raphaelreyna</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from telepresence - v2.7.2-rc.1</title>
+    <updated>2022-08-25T15:46:06Z</updated>
+    <id>tag:github.com,2008:Repository/82933315/v2.7.2-rc.1</id>
+    <content type="html">&lt;p&gt;v2.7.2-rc.1&lt;/p&gt;</content>
+    <link href="https://github.com/telepresenceio/telepresence/releases/tag/v2.7.2-rc.1" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>raphaelreyna</name>
@@ -345,22 +367,22 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from telepresence - rpc/v2.7.2-rc.0</title>
+    <title>Release notes from telepresence - v2.7.2-rc.0</title>
     <updated>2022-08-22T18:03:51Z</updated>
-    <id>tag:github.com,2008:Repository/82933315/rpc/v2.7.2-rc.0</id>
+    <id>tag:github.com,2008:Repository/82933315/v2.7.2-rc.0</id>
     <content type="html">&lt;p&gt;v2.7.2-rc.0&lt;/p&gt;</content>
-    <link href="https://github.com/telepresenceio/telepresence/releases/tag/rpc%2Fv2.7.2-rc.0" rel="alternate"></link>
+    <link href="https://github.com/telepresenceio/telepresence/releases/tag/v2.7.2-rc.0" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>raphaelreyna</name>
     </author>
   </entry>
   <entry>
-    <title>Release notes from telepresence - v2.7.2-rc.0</title>
+    <title>Release notes from telepresence - rpc/v2.7.2-rc.0</title>
     <updated>2022-08-22T18:03:51Z</updated>
-    <id>tag:github.com,2008:Repository/82933315/v2.7.2-rc.0</id>
+    <id>tag:github.com,2008:Repository/82933315/rpc/v2.7.2-rc.0</id>
     <content type="html">&lt;p&gt;v2.7.2-rc.0&lt;/p&gt;</content>
-    <link href="https://github.com/telepresenceio/telepresence/releases/tag/v2.7.2-rc.0" rel="alternate"></link>
+    <link href="https://github.com/telepresenceio/telepresence/releases/tag/rpc%2Fv2.7.2-rc.0" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>raphaelreyna</name>
@@ -433,22 +455,22 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from telepresence - rpc/v2.7.2-test.1</title>
+    <title>Release notes from telepresence - v2.7.2-test.1</title>
     <updated>2022-08-18T20:10:23Z</updated>
-    <id>tag:github.com,2008:Repository/82933315/rpc/v2.7.2-test.1</id>
+    <id>tag:github.com,2008:Repository/82933315/v2.7.2-test.1</id>
     <content type="html">&lt;p&gt;v2.7.2-test.1&lt;/p&gt;</content>
-    <link href="https://github.com/telepresenceio/telepresence/releases/tag/rpc%2Fv2.7.2-test.1" rel="alternate"></link>
+    <link href="https://github.com/telepresenceio/telepresence/releases/tag/v2.7.2-test.1" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>josecv</name>
     </author>
   </entry>
   <entry>
-    <title>Release notes from telepresence - v2.7.2-test.1</title>
+    <title>Release notes from telepresence - rpc/v2.7.2-test.1</title>
     <updated>2022-08-18T20:10:23Z</updated>
-    <id>tag:github.com,2008:Repository/82933315/v2.7.2-test.1</id>
+    <id>tag:github.com,2008:Repository/82933315/rpc/v2.7.2-test.1</id>
     <content type="html">&lt;p&gt;v2.7.2-test.1&lt;/p&gt;</content>
-    <link href="https://github.com/telepresenceio/telepresence/releases/tag/v2.7.2-test.1" rel="alternate"></link>
+    <link href="https://github.com/telepresenceio/telepresence/releases/tag/rpc%2Fv2.7.2-test.1" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>josecv</name>
@@ -576,22 +598,22 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from opentelemetry-operations-go - internal/resourcemapping/v0.32.6</title>
+    <title>Release notes from opentelemetry-operations-go - example/trace/http/v0.32.6</title>
     <updated>2022-08-16T17:55:41Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/internal/resourcemapping/v0.32.6</id>
+    <id>tag:github.com,2008:Repository/244484581/example/trace/http/v0.32.6</id>
     <content type="html">&lt;p&gt;prepare for v0.32.6 and v1.8.6 (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1340682083&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/470&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleCloudPlatform/opentelemetry-operations-go/pull/470/hovercard&#34; href=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/pull/470&#34;&gt;#470&lt;/a&gt;)&lt;/p&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/internal%2Fresourcemapping%2Fv0.32.6" rel="alternate"></link>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/example%2Ftrace%2Fhttp%2Fv0.32.6" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>dashpole</name>
     </author>
   </entry>
   <entry>
-    <title>Release notes from opentelemetry-operations-go - example/trace/http/v0.32.6</title>
+    <title>Release notes from opentelemetry-operations-go - internal/resourcemapping/v0.32.6</title>
     <updated>2022-08-16T17:55:41Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/example/trace/http/v0.32.6</id>
+    <id>tag:github.com,2008:Repository/244484581/internal/resourcemapping/v0.32.6</id>
     <content type="html">&lt;p&gt;prepare for v0.32.6 and v1.8.6 (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1340682083&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/470&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleCloudPlatform/opentelemetry-operations-go/pull/470/hovercard&#34; href=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/pull/470&#34;&gt;#470&lt;/a&gt;)&lt;/p&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/example%2Ftrace%2Fhttp%2Fv0.32.6" rel="alternate"></link>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/internal%2Fresourcemapping%2Fv0.32.6" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>dashpole</name>
@@ -631,11 +653,11 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from opentelemetry-operations-go - detectors/gcp/v0.32.6</title>
+    <title>Release notes from opentelemetry-operations-go - exporter/collector/googlemanagedprometheus/v0.32.6</title>
     <updated>2022-08-16T17:55:41Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/detectors/gcp/v0.32.6</id>
+    <id>tag:github.com,2008:Repository/244484581/exporter/collector/googlemanagedprometheus/v0.32.6</id>
     <content type="html">&lt;p&gt;prepare for v0.32.6 and v1.8.6 (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1340682083&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/470&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleCloudPlatform/opentelemetry-operations-go/pull/470/hovercard&#34; href=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/pull/470&#34;&gt;#470&lt;/a&gt;)&lt;/p&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/detectors%2Fgcp%2Fv0.32.6" rel="alternate"></link>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/exporter%2Fcollector%2Fgooglemanagedprometheus%2Fv0.32.6" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>dashpole</name>
@@ -653,11 +675,11 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from opentelemetry-operations-go - exporter/collector/googlemanagedprometheus/v0.32.6</title>
+    <title>Release notes from opentelemetry-operations-go - detectors/gcp/v0.32.6</title>
     <updated>2022-08-16T17:55:41Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/exporter/collector/googlemanagedprometheus/v0.32.6</id>
+    <id>tag:github.com,2008:Repository/244484581/detectors/gcp/v0.32.6</id>
     <content type="html">&lt;p&gt;prepare for v0.32.6 and v1.8.6 (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1340682083&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/470&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleCloudPlatform/opentelemetry-operations-go/pull/470/hovercard&#34; href=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/pull/470&#34;&gt;#470&lt;/a&gt;)&lt;/p&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/exporter%2Fcollector%2Fgooglemanagedprometheus%2Fv0.32.6" rel="alternate"></link>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/detectors%2Fgcp%2Fv0.32.6" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>dashpole</name>
@@ -837,17 +859,6 @@
     <summary type="html"></summary>
     <author>
       <name>crazy-max</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from oidc - v1.7.0</title>
-    <updated>2022-08-05T08:59:15Z</updated>
-    <id>tag:github.com,2008:Repository/221917370/v1.7.0</id>
-    <content type="html">&lt;h1&gt;&lt;a href=&#34;https://github.com/zitadel/oidc/compare/v1.6.1...v1.7.0&#34;&gt;1.7.0&lt;/a&gt; (2022-08-05)&lt;/h1&gt;&#xA;&lt;h3&gt;Features&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;add rp.RefreshAccessToken (&lt;a href=&#34;https://github.com/zitadel/oidc/issues/198&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/zitadel/oidc/pull/198/hovercard&#34;&gt;#198&lt;/a&gt;) (&lt;a href=&#34;https://github.com/zitadel/oidc/commit/94871afbcb5f37e263d18f0e73b75bd221e6aca7&#34;&gt;94871af&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/zitadel/oidc/releases/tag/v1.7.0" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>github-actions[bot]</name>
     </author>
   </entry>
   <entry>
@@ -1247,22 +1258,22 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from opentelemetry-go - trace/v1.9.0</title>
+    <title>Release notes from opentelemetry-go - sdk/v1.9.0</title>
     <updated>2022-08-02T15:14:26Z</updated>
-    <id>tag:github.com,2008:Repository/187086161/trace/v1.9.0</id>
+    <id>tag:github.com,2008:Repository/187086161/sdk/v1.9.0</id>
     <content type="html">&lt;p&gt;Module set stable-v1, Version v1.9.0&lt;/p&gt;</content>
-    <link href="https://github.com/open-telemetry/opentelemetry-go/releases/tag/trace%2Fv1.9.0" rel="alternate"></link>
+    <link href="https://github.com/open-telemetry/opentelemetry-go/releases/tag/sdk%2Fv1.9.0" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>MrAlias</name>
     </author>
   </entry>
   <entry>
-    <title>Release notes from opentelemetry-go - sdk/v1.9.0</title>
+    <title>Release notes from opentelemetry-go - trace/v1.9.0</title>
     <updated>2022-08-02T15:14:26Z</updated>
-    <id>tag:github.com,2008:Repository/187086161/sdk/v1.9.0</id>
+    <id>tag:github.com,2008:Repository/187086161/trace/v1.9.0</id>
     <content type="html">&lt;p&gt;Module set stable-v1, Version v1.9.0&lt;/p&gt;</content>
-    <link href="https://github.com/open-telemetry/opentelemetry-go/releases/tag/sdk%2Fv1.9.0" rel="alternate"></link>
+    <link href="https://github.com/open-telemetry/opentelemetry-go/releases/tag/trace%2Fv1.9.0" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>MrAlias</name>
@@ -1522,28 +1533,6 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from oidc - v2.0.0-dynamic-issuer.5</title>
-    <updated>2022-07-27T06:39:15Z</updated>
-    <id>tag:github.com,2008:Repository/221917370/v2.0.0-dynamic-issuer.5</id>
-    <content type="html">&lt;h1&gt;&lt;a href=&#34;https://github.com/zitadel/oidc/compare/v2.0.0-dynamic-issuer.4...v2.0.0-dynamic-issuer.5&#34;&gt;2.0.0-dynamic-issuer.5&lt;/a&gt; (2022-07-27)&lt;/h1&gt;&#xA;&lt;h3&gt;Bug Fixes&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;use default redirect uri when not passed (&lt;a href=&#34;https://github.com/zitadel/oidc/commit/f974fbaa7b1e7ec56fbacee861a9209360fae364&#34;&gt;f974fba&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/zitadel/oidc/releases/tag/v2.0.0-dynamic-issuer.5" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>github-actions[bot]</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from oidc - v1.6.1</title>
-    <updated>2022-07-27T06:38:00Z</updated>
-    <id>tag:github.com,2008:Repository/221917370/v1.6.1</id>
-    <content type="html">&lt;h2&gt;&lt;a href=&#34;https://github.com/zitadel/oidc/compare/v1.6.0...v1.6.1&#34;&gt;1.6.1&lt;/a&gt; (2022-07-27)&lt;/h2&gt;&#xA;&lt;h3&gt;Bug Fixes&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;use default redirect uri when not passed on end_session endpoint (&lt;a href=&#34;https://github.com/zitadel/oidc/issues/201&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/zitadel/oidc/pull/201/hovercard&#34;&gt;#201&lt;/a&gt;) (&lt;a href=&#34;https://github.com/zitadel/oidc/commit/53ede2ee8c327e6a99cbff069c7f8eede1ddaeed&#34;&gt;53ede2e&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/zitadel/oidc/releases/tag/v1.6.1" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>github-actions[bot]</name>
-    </author>
-  </entry>
-  <entry>
     <title>Release notes from trivy - v0.30.4</title>
     <updated>2022-07-26T19:37:59Z</updated>
     <id>tag:github.com,2008:Repository/180687624/v0.30.4</id>
@@ -1574,17 +1563,6 @@
     <summary type="html"></summary>
     <author>
       <name>mislav</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from oidc - v1.6.0</title>
-    <updated>2022-07-25T18:02:24Z</updated>
-    <id>tag:github.com,2008:Repository/221917370/v1.6.0</id>
-    <content type="html">&lt;h1&gt;&lt;a href=&#34;https://github.com/zitadel/oidc/compare/v1.5.2...v1.6.0&#34;&gt;1.6.0&lt;/a&gt; (2022-07-25)&lt;/h1&gt;&#xA;&lt;h3&gt;Features&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;add all optional claims of the introspection response (&lt;a href=&#34;https://github.com/zitadel/oidc/commit/653209a23ceb64bb46ddd4572fa9af3cf03620a4&#34;&gt;653209a&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/zitadel/oidc/releases/tag/v1.6.0" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>github-actions[bot]</name>
     </author>
   </entry>
   <entry>
@@ -1621,17 +1599,6 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from oidc - v2.0.0-dynamic-issuer.4</title>
-    <updated>2022-07-22T05:11:51Z</updated>
-    <id>tag:github.com,2008:Repository/221917370/v2.0.0-dynamic-issuer.4</id>
-    <content type="html">&lt;h1&gt;&lt;a href=&#34;https://github.com/zitadel/oidc/compare/v2.0.0-dynamic-issuer.3...v2.0.0-dynamic-issuer.4&#34;&gt;2.0.0-dynamic-issuer.4&lt;/a&gt; (2022-07-22)&lt;/h1&gt;&#xA;&lt;h3&gt;Features&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;add all optional claims of the introspection response (&lt;a href=&#34;https://github.com/zitadel/oidc/commit/faca98d28d3acb0dde9b2a6ef825b05743d7c53b&#34;&gt;faca98d&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/zitadel/oidc/releases/tag/v2.0.0-dynamic-issuer.4" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>github-actions[bot]</name>
-    </author>
-  </entry>
-  <entry>
     <title>Release notes from syft - v0.52.0</title>
     <updated>2022-07-21T14:21:58Z</updated>
     <id>tag:github.com,2008:Repository/262126497/v0.52.0</id>
@@ -1665,17 +1632,6 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from oidc - v1.5.2</title>
-    <updated>2022-07-20T13:37:39Z</updated>
-    <id>tag:github.com,2008:Repository/221917370/v1.5.2</id>
-    <content type="html">&lt;h2&gt;&lt;a href=&#34;https://github.com/zitadel/oidc/compare/v1.5.1...v1.5.2&#34;&gt;1.5.2&lt;/a&gt; (2022-07-20)&lt;/h2&gt;&#xA;&lt;h3&gt;Bug Fixes&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Add db scanner methods for SpaceDelimitedArray (&lt;a href=&#34;https://github.com/zitadel/oidc/issues/194&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/zitadel/oidc/pull/194/hovercard&#34;&gt;#194&lt;/a&gt;) (&lt;a href=&#34;https://github.com/zitadel/oidc/commit/5fb36bf4c252dedf52cdd655499fdf376fa536d9&#34;&gt;5fb36bf&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/zitadel/oidc/releases/tag/v1.5.2" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>github-actions[bot]</name>
-    </author>
-  </entry>
-  <entry>
     <title>Release notes from trivy - v0.30.1</title>
     <updated>2022-07-20T12:08:23Z</updated>
     <id>tag:github.com,2008:Repository/180687624/v0.30.1</id>
@@ -1684,6 +1640,17 @@
     <summary type="html"></summary>
     <author>
       <name>aqua-bot</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from kpt - package-examples/cert-manager-basic/v0: Add a basic ghost package (#3381)</title>
+    <updated>2022-07-19T17:43:52Z</updated>
+    <id>tag:github.com,2008:Repository/208908993/package-examples/cert-manager-basic/v0</id>
+    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Add ghost basic package&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;update ghost pacakge&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;remove set-labels&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/GoogleContainerTools/kpt/releases/tag/package-examples%2Fcert-manager-basic%2Fv0" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>yuwenma</name>
     </author>
   </entry>
   <entry>
@@ -1709,17 +1676,6 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from kpt - package-examples/cert-manager-basic/v0: Add a basic ghost package (#3381)</title>
-    <updated>2022-07-19T17:43:52Z</updated>
-    <id>tag:github.com,2008:Repository/208908993/package-examples/cert-manager-basic/v0</id>
-    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Add ghost basic package&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;update ghost pacakge&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;remove set-labels&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/GoogleContainerTools/kpt/releases/tag/package-examples%2Fcert-manager-basic%2Fv0" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>yuwenma</name>
-    </author>
-  </entry>
-  <entry>
     <title>Release notes from build-push-action - v3.1.0</title>
     <updated>2022-07-19T15:07:29Z</updated>
     <id>tag:github.com,2008:Repository/241092383/v3.1.0</id>
@@ -1739,6 +1695,17 @@
     <summary type="html"></summary>
     <author>
       <name>golangci-releaser</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from swag - v1.8.4</title>
+    <updated>2022-07-19T09:32:52Z</updated>
+    <id>tag:github.com,2008:Repository/93928882/v1.8.4</id>
+    <content type="html">&lt;h2&gt;Changelog&lt;/h2&gt;&#xA;&lt;p&gt;&lt;a class=&#34;commit-link&#34; data-hovercard-type=&#34;commit&#34; data-hovercard-url=&#34;https://github.com/swaggo/swag/commit/bd21bb068625cdf7545fdee03780face31a789ef/hovercard&#34; href=&#34;https://github.com/swaggo/swag/commit/bd21bb068625cdf7545fdee03780face31a789ef&#34;&gt;&lt;tt&gt;bd21bb0&lt;/tt&gt;&lt;/a&gt; Fix issue &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1150804668&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/swaggo/swag/issues/1150&#34; data-hovercard-type=&#34;issue&#34; data-hovercard-url=&#34;/swaggo/swag/issues/1150/hovercard&#34; href=&#34;https://github.com/swaggo/swag/issues/1150&#34;&gt;#1150&lt;/a&gt; (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1290057068&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/swaggo/swag/issues/1248&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/swaggo/swag/pull/1248/hovercard&#34; href=&#34;https://github.com/swaggo/swag/pull/1248&#34;&gt;#1248&lt;/a&gt;)&lt;br&gt;&#xA;&lt;a class=&#34;commit-link&#34; data-hovercard-type=&#34;commit&#34; data-hovercard-url=&#34;https://github.com/swaggo/swag/commit/401e414663c30ea96bd43b66eda9ff42fe42c7a9/hovercard&#34; href=&#34;https://github.com/swaggo/swag/commit/401e414663c30ea96bd43b66eda9ff42fe42c7a9&#34;&gt;&lt;tt&gt;401e414&lt;/tt&gt;&lt;/a&gt; doc: add missing web frameworks (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1303031953&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/swaggo/swag/issues/1263&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/swaggo/swag/pull/1263/hovercard&#34; href=&#34;https://github.com/swaggo/swag/pull/1263&#34;&gt;#1263&lt;/a&gt;)&lt;br&gt;&#xA;&lt;a class=&#34;commit-link&#34; data-hovercard-type=&#34;commit&#34; data-hovercard-url=&#34;https://github.com/swaggo/swag/commit/a566490da73606c38c52a1066d38966c7fa6f6eb/hovercard&#34; href=&#34;https://github.com/swaggo/swag/commit/a566490da73606c38c52a1066d38966c7fa6f6eb&#34;&gt;&lt;tt&gt;a566490&lt;/tt&gt;&lt;/a&gt; feat: add default description to code if none is provided (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1283202147&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/swaggo/swag/issues/1239&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/swaggo/swag/pull/1239/hovercard&#34; href=&#34;https://github.com/swaggo/swag/pull/1239&#34;&gt;#1239&lt;/a&gt;)&lt;br&gt;&#xA;&lt;a class=&#34;commit-link&#34; data-hovercard-type=&#34;commit&#34; data-hovercard-url=&#34;https://github.com/swaggo/swag/commit/a780e45b5ddbd82ef9f99b5109696adf0972f0b3/hovercard&#34; href=&#34;https://github.com/swaggo/swag/commit/a780e45b5ddbd82ef9f99b5109696adf0972f0b3&#34;&gt;&lt;tt&gt;a780e45&lt;/tt&gt;&lt;/a&gt; feat: default required option for struct fields (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1207557696&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/swaggo/swag/issues/1181&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/swaggo/swag/pull/1181/hovercard&#34; href=&#34;https://github.com/swaggo/swag/pull/1181&#34;&gt;#1181&lt;/a&gt;)&lt;br&gt;&#xA;&lt;a class=&#34;commit-link&#34; data-hovercard-type=&#34;commit&#34; data-hovercard-url=&#34;https://github.com/swaggo/swag/commit/213f6b880aef554cf8ea8776dd4459e8b36db75d/hovercard&#34; href=&#34;https://github.com/swaggo/swag/commit/213f6b880aef554cf8ea8776dd4459e8b36db75d&#34;&gt;&lt;tt&gt;213f6b8&lt;/tt&gt;&lt;/a&gt; feat: permit error (and any) interface definition (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1244335379&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/swaggo/swag/issues/1212&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/swaggo/swag/pull/1212/hovercard&#34; href=&#34;https://github.com/swaggo/swag/pull/1212&#34;&gt;#1212&lt;/a&gt;)&lt;br&gt;&#xA;&lt;a class=&#34;commit-link&#34; data-hovercard-type=&#34;commit&#34; data-hovercard-url=&#34;https://github.com/swaggo/swag/commit/89c61d45c89dc379734d52c6836fcaccf61a5b0b/hovercard&#34; href=&#34;https://github.com/swaggo/swag/commit/89c61d45c89dc379734d52c6836fcaccf61a5b0b&#34;&gt;&lt;tt&gt;89c61d4&lt;/tt&gt;&lt;/a&gt; feat: suppress debug logs when using -q (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1296397744&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/swaggo/swag/issues/1254&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/swaggo/swag/pull/1254/hovercard&#34; href=&#34;https://github.com/swaggo/swag/pull/1254&#34;&gt;#1254&lt;/a&gt;)&lt;br&gt;&#xA;&lt;a class=&#34;commit-link&#34; data-hovercard-type=&#34;commit&#34; data-hovercard-url=&#34;https://github.com/swaggo/swag/commit/0e2ec6ccb687ad91e20d33f4e433c460ca41acaa/hovercard&#34; href=&#34;https://github.com/swaggo/swag/commit/0e2ec6ccb687ad91e20d33f4e433c460ca41acaa&#34;&gt;&lt;tt&gt;0e2ec6c&lt;/tt&gt;&lt;/a&gt; feat: use early overrides to allow converting unsupported types. (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1242723415&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/swaggo/swag/issues/1209&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/swaggo/swag/pull/1209/hovercard&#34; href=&#34;https://github.com/swaggo/swag/pull/1209&#34;&gt;#1209&lt;/a&gt;)&lt;br&gt;&#xA;&lt;a class=&#34;commit-link&#34; data-hovercard-type=&#34;commit&#34; data-hovercard-url=&#34;https://github.com/swaggo/swag/commit/1cd0b538d21a30a23ceccdc8edc48768baefa834/hovercard&#34; href=&#34;https://github.com/swaggo/swag/commit/1cd0b538d21a30a23ceccdc8edc48768baefa834&#34;&gt;&lt;tt&gt;1cd0b53&lt;/tt&gt;&lt;/a&gt; fix: don&#39;t skip &#34;..&#34; directory (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1276753941&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/swaggo/swag/issues/1238&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/swaggo/swag/pull/1238/hovercard&#34; href=&#34;https://github.com/swaggo/swag/pull/1238&#34;&gt;#1238&lt;/a&gt;)&lt;br&gt;&#xA;&lt;a class=&#34;commit-link&#34; data-hovercard-type=&#34;commit&#34; data-hovercard-url=&#34;https://github.com/swaggo/swag/commit/8de9952d6b92a145d22afd87e32e5eea25cc855c/hovercard&#34; href=&#34;https://github.com/swaggo/swag/commit/8de9952d6b92a145d22afd87e32e5eea25cc855c&#34;&gt;&lt;tt&gt;8de9952&lt;/tt&gt;&lt;/a&gt; fix: generic arrays generate successfully (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1289587111&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/swaggo/swag/issues/1247&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/swaggo/swag/pull/1247/hovercard&#34; href=&#34;https://github.com/swaggo/swag/pull/1247&#34;&gt;#1247&lt;/a&gt;)&lt;br&gt;&#xA;&lt;a class=&#34;commit-link&#34; data-hovercard-type=&#34;commit&#34; data-hovercard-url=&#34;https://github.com/swaggo/swag/commit/796a34613a70725791492994af3d65061b5e1322/hovercard&#34; href=&#34;https://github.com/swaggo/swag/commit/796a34613a70725791492994af3d65061b5e1322&#34;&gt;&lt;tt&gt;796a346&lt;/tt&gt;&lt;/a&gt; fix: temp dir to be the same as SerchDir to avoid invalid cross-device link (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1237435495&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/swaggo/swag/issues/1203&#34; data-hovercard-type=&#34;issue&#34; data-hovercard-url=&#34;/swaggo/swag/issues/1203/hovercard&#34; href=&#34;https://github.com/swaggo/swag/issues/1203&#34;&gt;#1203&lt;/a&gt;) (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1283936484&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/swaggo/swag/issues/1241&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/swaggo/swag/pull/1241/hovercard&#34; href=&#34;https://github.com/swaggo/swag/pull/1241&#34;&gt;#1241&lt;/a&gt;)&lt;/p&gt;</content>
+    <link href="https://github.com/swaggo/swag/releases/tag/v1.8.4" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>ubogdan</name>
     </author>
   </entry>
   <entry>
@@ -2446,28 +2413,6 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from oidc - v2.0.0-dynamic-issuer.3</title>
-    <updated>2022-06-21T05:35:39Z</updated>
-    <id>tag:github.com,2008:Repository/221917370/v2.0.0-dynamic-issuer.3</id>
-    <content type="html">&lt;h1&gt;&lt;a href=&#34;https://github.com/zitadel/oidc/compare/v2.0.0-dynamic-issuer.2...v2.0.0-dynamic-issuer.3&#34;&gt;2.0.0-dynamic-issuer.3&lt;/a&gt; (2022-06-21)&lt;/h1&gt;&#xA;&lt;h3&gt;Bug Fixes&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;add state in access token response (implicit flow) (&lt;a href=&#34;https://github.com/zitadel/oidc/commit/f345ddd0c599da0bccb3b1c87c7233102e8c1b5e&#34;&gt;f345ddd&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;encode auth response correctly (when using query in redirect uri) (&lt;a href=&#34;https://github.com/zitadel/oidc/commit/9472f2a0095b3e2c15bc342237a5c68c1e4425e0&#34;&gt;9472f2a&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/zitadel/oidc/releases/tag/v2.0.0-dynamic-issuer.3" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>github-actions[bot]</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from oidc - v1.5.1</title>
-    <updated>2022-06-21T05:26:00Z</updated>
-    <id>tag:github.com,2008:Repository/221917370/v1.5.1</id>
-    <content type="html">&lt;h2&gt;&lt;a href=&#34;https://github.com/zitadel/oidc/compare/v1.5.0...v1.5.1&#34;&gt;1.5.1&lt;/a&gt; (2022-06-21)&lt;/h2&gt;&#xA;&lt;h3&gt;Bug Fixes&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;state and auth code response encoding (&lt;a href=&#34;https://github.com/zitadel/oidc/issues/185&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/zitadel/oidc/pull/185/hovercard&#34;&gt;#185&lt;/a&gt;) (&lt;a href=&#34;https://github.com/zitadel/oidc/commit/854e14b7c46456cc86990ee3425c9c9b9d4ca125&#34;&gt;854e14b&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/zitadel/oidc/releases/tag/v1.5.1" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>github-actions[bot]</name>
-    </author>
-  </entry>
-  <entry>
     <title>Release notes from testify - v1.7.4: Fix panic in AssertExpectations for mocks without expectations (#1207)</title>
     <updated>2022-06-20T21:08:00Z</updated>
     <id>tag:github.com,2008:Repository/6247705/v1.7.4</id>
@@ -2520,6 +2465,17 @@
     <summary type="html"></summary>
     <author>
       <name>anchoreops</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from swag - v1.8.3</title>
+    <updated>2022-06-16T09:45:04Z</updated>
+    <id>tag:github.com,2008:Repository/93928882/v1.8.3</id>
+    <content type="html">&lt;h2&gt;Changelog&lt;/h2&gt;&#xA;&lt;p&gt;&lt;a class=&#34;commit-link&#34; data-hovercard-type=&#34;commit&#34; data-hovercard-url=&#34;https://github.com/swaggo/swag/commit/f09eaa13f4168754793c275e65c44e51661f4264/hovercard&#34; href=&#34;https://github.com/swaggo/swag/commit/f09eaa13f4168754793c275e65c44e51661f4264&#34;&gt;&lt;tt&gt;f09eaa1&lt;/tt&gt;&lt;/a&gt; chore: cleanup generics_test.go (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1273317151&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/swaggo/swag/issues/1231&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/swaggo/swag/pull/1231/hovercard&#34; href=&#34;https://github.com/swaggo/swag/pull/1231&#34;&gt;#1231&lt;/a&gt;)&lt;br&gt;&#xA;&lt;a class=&#34;commit-link&#34; data-hovercard-type=&#34;commit&#34; data-hovercard-url=&#34;https://github.com/swaggo/swag/commit/b736c5fa7a95de7808567dfe3e4557d064a45986/hovercard&#34; href=&#34;https://github.com/swaggo/swag/commit/b736c5fa7a95de7808567dfe3e4557d064a45986&#34;&gt;&lt;tt&gt;b736c5f&lt;/tt&gt;&lt;/a&gt; chore: increment version (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1273312940&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/swaggo/swag/issues/1230&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/swaggo/swag/pull/1230/hovercard&#34; href=&#34;https://github.com/swaggo/swag/pull/1230&#34;&gt;#1230&lt;/a&gt;)&lt;br&gt;&#xA;&lt;a class=&#34;commit-link&#34; data-hovercard-type=&#34;commit&#34; data-hovercard-url=&#34;https://github.com/swaggo/swag/commit/e767abb3b9f829224205cbd37cc0f7fe432078ce/hovercard&#34; href=&#34;https://github.com/swaggo/swag/commit/e767abb3b9f829224205cbd37cc0f7fe432078ce&#34;&gt;&lt;tt&gt;e767abb&lt;/tt&gt;&lt;/a&gt; chore: refactor parser (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1217905545&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/swaggo/swag/issues/1191&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/swaggo/swag/pull/1191/hovercard&#34; href=&#34;https://github.com/swaggo/swag/pull/1191&#34;&gt;#1191&lt;/a&gt;)&lt;br&gt;&#xA;&lt;a class=&#34;commit-link&#34; data-hovercard-type=&#34;commit&#34; data-hovercard-url=&#34;https://github.com/swaggo/swag/commit/5f6b402a3a523595cb7e2902a04f9a0e5f02e313/hovercard&#34; href=&#34;https://github.com/swaggo/swag/commit/5f6b402a3a523595cb7e2902a04f9a0e5f02e313&#34;&gt;&lt;tt&gt;5f6b402&lt;/tt&gt;&lt;/a&gt; feat: Improve performance when generating spec with external dependencies (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1110149077&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/swaggo/swag/issues/1108&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/swaggo/swag/pull/1108/hovercard&#34; href=&#34;https://github.com/swaggo/swag/pull/1108&#34;&gt;#1108&lt;/a&gt;)&lt;br&gt;&#xA;&lt;a class=&#34;commit-link&#34; data-hovercard-type=&#34;commit&#34; data-hovercard-url=&#34;https://github.com/swaggo/swag/commit/3b580a0804332f627c5d42fee2d59e91c8ae3e7c/hovercard&#34; href=&#34;https://github.com/swaggo/swag/commit/3b580a0804332f627c5d42fee2d59e91c8ae3e7c&#34;&gt;&lt;tt&gt;3b580a0&lt;/tt&gt;&lt;/a&gt; feat: add --quiet=true for swag init, make the debug logger quiet. (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1238525539&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/swaggo/swag/issues/1206&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/swaggo/swag/pull/1206/hovercard&#34; href=&#34;https://github.com/swaggo/swag/pull/1206&#34;&gt;#1206&lt;/a&gt;)&lt;br&gt;&#xA;&lt;a class=&#34;commit-link&#34; data-hovercard-type=&#34;commit&#34; data-hovercard-url=&#34;https://github.com/swaggo/swag/commit/ff41d9ce0bfa0973349f485113699d5c09909c26/hovercard&#34; href=&#34;https://github.com/swaggo/swag/commit/ff41d9ce0bfa0973349f485113699d5c09909c26&#34;&gt;&lt;tt&gt;ff41d9c&lt;/tt&gt;&lt;/a&gt; feat: add basic generics support (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1268346987&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/swaggo/swag/issues/1225&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/swaggo/swag/pull/1225/hovercard&#34; href=&#34;https://github.com/swaggo/swag/pull/1225&#34;&gt;#1225&lt;/a&gt;)&lt;br&gt;&#xA;&lt;a class=&#34;commit-link&#34; data-hovercard-type=&#34;commit&#34; data-hovercard-url=&#34;https://github.com/swaggo/swag/commit/3cedab9b1c15f68109ed154a57d3164a2f8316b7/hovercard&#34; href=&#34;https://github.com/swaggo/swag/commit/3cedab9b1c15f68109ed154a57d3164a2f8316b7&#34;&gt;&lt;tt&gt;3cedab9&lt;/tt&gt;&lt;/a&gt; fix: README_zh-CN.md translate bug (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1236729738&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/swaggo/swag/issues/1202&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/swaggo/swag/pull/1202/hovercard&#34; href=&#34;https://github.com/swaggo/swag/pull/1202&#34;&gt;#1202&lt;/a&gt;)&lt;br&gt;&#xA;&lt;a class=&#34;commit-link&#34; data-hovercard-type=&#34;commit&#34; data-hovercard-url=&#34;https://github.com/swaggo/swag/commit/67cb7684c8adf9591bb221880e2079c34019dc39/hovercard&#34; href=&#34;https://github.com/swaggo/swag/commit/67cb7684c8adf9591bb221880e2079c34019dc39&#34;&gt;&lt;tt&gt;67cb768&lt;/tt&gt;&lt;/a&gt; fix: array enum varnames in arrays (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1214248233&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/swaggo/swag/issues/1187&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/swaggo/swag/pull/1187/hovercard&#34; href=&#34;https://github.com/swaggo/swag/pull/1187&#34;&gt;#1187&lt;/a&gt;)&lt;/p&gt;</content>
+    <link href="https://github.com/swaggo/swag/releases/tag/v1.8.3" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>ubogdan</name>
     </author>
   </entry>
   <entry>
@@ -3018,6 +2974,17 @@
     </author>
   </entry>
   <entry>
+    <title>Release notes from swag - v1.8.2</title>
+    <updated>2022-05-14T20:42:21Z</updated>
+    <id>tag:github.com,2008:Repository/93928882/v1.8.2</id>
+    <content type="html">&lt;h2&gt;Changelog&lt;/h2&gt;&#xA;&lt;p&gt;&lt;a class=&#34;commit-link&#34; data-hovercard-type=&#34;commit&#34; data-hovercard-url=&#34;https://github.com/swaggo/swag/commit/c7cb3fd95a1465caade6e7492b62d0ddd1bd1426/hovercard&#34; href=&#34;https://github.com/swaggo/swag/commit/c7cb3fd95a1465caade6e7492b62d0ddd1bd1426&#34;&gt;&lt;tt&gt;c7cb3fd&lt;/tt&gt;&lt;/a&gt; chore: update &lt;a class=&#34;user-mention notranslate&#34; data-hovercard-type=&#34;organization&#34; data-hovercard-url=&#34;/orgs/produce/hovercard&#34; data-octo-click=&#34;hovercard-link-click&#34; data-octo-dimensions=&#34;link_type:self&#34; href=&#34;https://github.com/produce&#34;&gt;@produce&lt;/a&gt; comments (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1223191434&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/swaggo/swag/issues/1196&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/swaggo/swag/pull/1196/hovercard&#34; href=&#34;https://github.com/swaggo/swag/pull/1196&#34;&gt;#1196&lt;/a&gt;)&lt;br&gt;&#xA;&lt;a class=&#34;commit-link&#34; data-hovercard-type=&#34;commit&#34; data-hovercard-url=&#34;https://github.com/swaggo/swag/commit/36ae7af79a267469681a35bac6b70f8dcd677acf/hovercard&#34; href=&#34;https://github.com/swaggo/swag/commit/36ae7af79a267469681a35bac6b70f8dcd677acf&#34;&gt;&lt;tt&gt;36ae7af&lt;/tt&gt;&lt;/a&gt; chore: remove gomonkey dependency from formatter (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1218857122&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/swaggo/swag/issues/1192&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/swaggo/swag/pull/1192/hovercard&#34; href=&#34;https://github.com/swaggo/swag/pull/1192&#34;&gt;#1192&lt;/a&gt;)&lt;br&gt;&#xA;&lt;a class=&#34;commit-link&#34; data-hovercard-type=&#34;commit&#34; data-hovercard-url=&#34;https://github.com/swaggo/swag/commit/47d5a7630847872fa191913f0175963d9b3dad93/hovercard&#34; href=&#34;https://github.com/swaggo/swag/commit/47d5a7630847872fa191913f0175963d9b3dad93&#34;&gt;&lt;tt&gt;47d5a76&lt;/tt&gt;&lt;/a&gt; chore: updating dependencies (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1217522862&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/swaggo/swag/issues/1190&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/swaggo/swag/pull/1190/hovercard&#34; href=&#34;https://github.com/swaggo/swag/pull/1190&#34;&gt;#1190&lt;/a&gt;)&lt;br&gt;&#xA;&lt;a class=&#34;commit-link&#34; data-hovercard-type=&#34;commit&#34; data-hovercard-url=&#34;https://github.com/swaggo/swag/commit/5f6c5f85068a66ce0e58e21ebccbfbdcf31a5a27/hovercard&#34; href=&#34;https://github.com/swaggo/swag/commit/5f6c5f85068a66ce0e58e21ebccbfbdcf31a5a27&#34;&gt;&lt;tt&gt;5f6c5f8&lt;/tt&gt;&lt;/a&gt; impr: add param example to readme (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1217061339&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/swaggo/swag/issues/1189&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/swaggo/swag/pull/1189/hovercard&#34; href=&#34;https://github.com/swaggo/swag/pull/1189&#34;&gt;#1189&lt;/a&gt;)&lt;br&gt;&#xA;&lt;a class=&#34;commit-link&#34; data-hovercard-type=&#34;commit&#34; data-hovercard-url=&#34;https://github.com/swaggo/swag/commit/636f456e3135fea11170567d778a45faeee1e882/hovercard&#34; href=&#34;https://github.com/swaggo/swag/commit/636f456e3135fea11170567d778a45faeee1e882&#34;&gt;&lt;tt&gt;636f456&lt;/tt&gt;&lt;/a&gt; chore: improve code quality (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1212534344&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/swaggo/swag/issues/1184&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/swaggo/swag/pull/1184/hovercard&#34; href=&#34;https://github.com/swaggo/swag/pull/1184&#34;&gt;#1184&lt;/a&gt;)&lt;br&gt;&#xA;&lt;a class=&#34;commit-link&#34; data-hovercard-type=&#34;commit&#34; data-hovercard-url=&#34;https://github.com/swaggo/swag/commit/90170b958922a030d8d3b7e4de5cde1050417842/hovercard&#34; href=&#34;https://github.com/swaggo/swag/commit/90170b958922a030d8d3b7e4de5cde1050417842&#34;&gt;&lt;tt&gt;90170b9&lt;/tt&gt;&lt;/a&gt; chore(deps): bump github.com/swaggo/http-swagger in /example/markdown (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1212839778&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/swaggo/swag/issues/1185&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/swaggo/swag/pull/1185/hovercard&#34; href=&#34;https://github.com/swaggo/swag/pull/1185&#34;&gt;#1185&lt;/a&gt;)&lt;br&gt;&#xA;&lt;a class=&#34;commit-link&#34; data-hovercard-type=&#34;commit&#34; data-hovercard-url=&#34;https://github.com/swaggo/swag/commit/d209f71e81955068903e04daca7716b7535576b9/hovercard&#34; href=&#34;https://github.com/swaggo/swag/commit/d209f71e81955068903e04daca7716b7535576b9&#34;&gt;&lt;tt&gt;d209f71&lt;/tt&gt;&lt;/a&gt; added security definition description (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1202216936&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/swaggo/swag/issues/1174&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/swaggo/swag/pull/1174/hovercard&#34; href=&#34;https://github.com/swaggo/swag/pull/1174&#34;&gt;#1174&lt;/a&gt;)&lt;/p&gt;</content>
+    <link href="https://github.com/swaggo/swag/releases/tag/v1.8.2" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>ubogdan</name>
+    </author>
+  </entry>
+  <entry>
     <title>Release notes from go-github - v44.1.0</title>
     <updated>2022-05-13T17:10:27Z</updated>
     <id>tag:github.com,2008:Repository/10270722/v44.1.0</id>
@@ -3026,17 +2993,6 @@
     <summary type="html"></summary>
     <author>
       <name>gmlewis</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from oidc - v1.5.0</title>
-    <updated>2022-05-13T07:18:44Z</updated>
-    <id>tag:github.com,2008:Repository/221917370/v1.5.0</id>
-    <content type="html">&lt;h1&gt;&lt;a href=&#34;https://github.com/zitadel/oidc/compare/v1.4.0...v1.5.0&#34;&gt;1.5.0&lt;/a&gt; (2022-05-13)&lt;/h1&gt;&#xA;&lt;h3&gt;Features&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;rp:&lt;/strong&gt; Adding end_session endpoint to relaying party interface (&lt;a href=&#34;https://github.com/zitadel/oidc/issues/179&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/zitadel/oidc/pull/179/hovercard&#34;&gt;#179&lt;/a&gt;) (&lt;a href=&#34;https://github.com/zitadel/oidc/commit/9b0954f3d4d696014d937421417541c0f8aad16c&#34;&gt;9b0954f&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/zitadel/oidc/releases/tag/v1.5.0" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>github-actions[bot]</name>
     </author>
   </entry>
   <entry>
@@ -3111,17 +3067,6 @@
     <id>tag:github.com,2008:Repository/163906733/v1.1.2</id>
     <content type="html">&lt;h2&gt;v1.1.2 - 2022-03-31&lt;/h2&gt;&#xA;&lt;h2&gt;Changelog&lt;/h2&gt;&#xA;&lt;h3&gt;Bug Fixes &lt;g-emoji class=&#34;g-emoji&#34; alias=&#34;lady_beetle&#34; fallback-src=&#34;https://github.githubassets.com/images/icons/emoji/unicode/1f41e.png&#34;&gt;🐞&lt;/g-emoji&gt;&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a class=&#34;commit-link&#34; data-hovercard-type=&#34;commit&#34; data-hovercard-url=&#34;https://github.com/kubernetes-sigs/secrets-store-csi-driver/commit/9e39ed64c8ea740cd3e52e80c11abe6f7508de62/hovercard&#34; href=&#34;https://github.com/kubernetes-sigs/secrets-store-csi-driver/commit/9e39ed64c8ea740cd3e52e80c11abe6f7508de62&#34;&gt;&lt;tt&gt;9e39ed6&lt;/tt&gt;&lt;/a&gt; Automated cherry pick of &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1168702500&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/kubernetes-sigs/secrets-store-csi-driver/issues/898&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/kubernetes-sigs/secrets-store-csi-driver/pull/898/hovercard&#34; href=&#34;https://github.com/kubernetes-sigs/secrets-store-csi-driver/pull/898&#34;&gt;#898&lt;/a&gt;: fix: validate additionalProviderPaths does not contain providers dir (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1171422100&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/kubernetes-sigs/secrets-store-csi-driver/issues/902&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/kubernetes-sigs/secrets-store-csi-driver/pull/902/hovercard&#34; href=&#34;https://github.com/kubernetes-sigs/secrets-store-csi-driver/pull/902&#34;&gt;#902&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3&gt;Maintenance &lt;g-emoji class=&#34;g-emoji&#34; alias=&#34;wrench&#34; fallback-src=&#34;https://github.githubassets.com/images/icons/emoji/unicode/1f527.png&#34;&gt;🔧&lt;/g-emoji&gt;&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a class=&#34;commit-link&#34; data-hovercard-type=&#34;commit&#34; data-hovercard-url=&#34;https://github.com/kubernetes-sigs/secrets-store-csi-driver/commit/cf55d984019bdf6707315ebcb95ae6108a896ef2/hovercard&#34; href=&#34;https://github.com/kubernetes-sigs/secrets-store-csi-driver/commit/cf55d984019bdf6707315ebcb95ae6108a896ef2&#34;&gt;&lt;tt&gt;cf55d98&lt;/tt&gt;&lt;/a&gt; chore: bump version to 1.1.2 in release-1.1&lt;/li&gt;&#xA;&lt;li&gt;&lt;a class=&#34;commit-link&#34; data-hovercard-type=&#34;commit&#34; data-hovercard-url=&#34;https://github.com/kubernetes-sigs/secrets-store-csi-driver/commit/2c0743e5bde3138d08bacd7e635fa999d45a35b2/hovercard&#34; href=&#34;https://github.com/kubernetes-sigs/secrets-store-csi-driver/commit/2c0743e5bde3138d08bacd7e635fa999d45a35b2&#34;&gt;&lt;tt&gt;2c0743e&lt;/tt&gt;&lt;/a&gt; chore: update golangci-lint to v1.45.2 and pin to go 1.17&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3&gt;Security Fix &lt;g-emoji class=&#34;g-emoji&#34; alias=&#34;shield&#34; fallback-src=&#34;https://github.githubassets.com/images/icons/emoji/unicode/1f6e1.png&#34;&gt;🛡️&lt;/g-emoji&gt;&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a class=&#34;commit-link&#34; data-hovercard-type=&#34;commit&#34; data-hovercard-url=&#34;https://github.com/kubernetes-sigs/secrets-store-csi-driver/commit/78d25074920e843bc9ba8981d3fe1eb84b5a5379/hovercard&#34; href=&#34;https://github.com/kubernetes-sigs/secrets-store-csi-driver/commit/78d25074920e843bc9ba8981d3fe1eb84b5a5379&#34;&gt;&lt;tt&gt;78d2507&lt;/tt&gt;&lt;/a&gt; security: fix CVEs&lt;/li&gt;&#xA;&lt;li&gt;&lt;a class=&#34;commit-link&#34; data-hovercard-type=&#34;commit&#34; data-hovercard-url=&#34;https://github.com/kubernetes-sigs/secrets-store-csi-driver/commit/8cd6b628df8c3071ad9f40c72747e190901c3ed1/hovercard&#34; href=&#34;https://github.com/kubernetes-sigs/secrets-store-csi-driver/commit/8cd6b628df8c3071ad9f40c72747e190901c3ed1&#34;&gt;&lt;tt&gt;8cd6b62&lt;/tt&gt;&lt;/a&gt; security: fix &lt;a title=&#34;CVE-2022-0778&#34; data-hovercard-type=&#34;advisory&#34; data-hovercard-url=&#34;/advisories/GHSA-x3mh-jvjw-3xwx/hovercard&#34; href=&#34;https://github.com/advisories/GHSA-x3mh-jvjw-3xwx&#34;&gt;CVE-2022-0778&lt;/a&gt;, &lt;a title=&#34;CVE-2021-4160&#34; data-hovercard-type=&#34;advisory&#34; data-hovercard-url=&#34;/advisories/GHSA-ph2x-8239-7xc7/hovercard&#34; href=&#34;https://github.com/advisories/GHSA-ph2x-8239-7xc7&#34;&gt;CVE-2021-4160&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
     <link href="https://github.com/kubernetes-sigs/secrets-store-csi-driver/releases/tag/v1.1.2" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>github-actions[bot]</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from oidc - v1.4.0</title>
-    <updated>2022-05-09T13:08:26Z</updated>
-    <id>tag:github.com,2008:Repository/221917370/v1.4.0</id>
-    <content type="html">&lt;h1&gt;&lt;a href=&#34;https://github.com/zitadel/oidc/compare/v1.3.1...v1.4.0&#34;&gt;1.4.0&lt;/a&gt; (2022-05-09)&lt;/h1&gt;&#xA;&lt;h3&gt;Features&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;op:&lt;/strong&gt; implemented support for client_credentials grant (&lt;a href=&#34;https://github.com/zitadel/oidc/issues/172&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/zitadel/oidc/pull/172/hovercard&#34;&gt;#172&lt;/a&gt;) (&lt;a href=&#34;https://github.com/zitadel/oidc/commit/86fd502434f21a60c7cdd19ba8cee72ac0fd5ad4&#34;&gt;86fd502&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/zitadel/oidc/releases/tag/v1.4.0" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>github-actions[bot]</name>
@@ -3675,6 +3620,17 @@
     <summary type="html"></summary>
     <author>
       <name>aaron-prindle</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from swag - v1.8.1</title>
+    <updated>2022-03-30T09:10:26Z</updated>
+    <id>tag:github.com,2008:Repository/93928882/v1.8.1</id>
+    <content type="html">&lt;h2&gt;Changelog&lt;/h2&gt;&#xA;&lt;p&gt;&lt;a class=&#34;commit-link&#34; data-hovercard-type=&#34;commit&#34; data-hovercard-url=&#34;https://github.com/swaggo/swag/commit/69245e5e3ad59564f8a385c402515c42ec7cbe42/hovercard&#34; href=&#34;https://github.com/swaggo/swag/commit/69245e5e3ad59564f8a385c402515c42ec7cbe42&#34;&gt;&lt;tt&gt;69245e5&lt;/tt&gt;&lt;/a&gt; chore: update description.markdown description (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1185145941&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/swaggo/swag/issues/1167&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/swaggo/swag/pull/1167/hovercard&#34; href=&#34;https://github.com/swaggo/swag/pull/1167&#34;&gt;#1167&lt;/a&gt;)&lt;br&gt;&#xA;&lt;a class=&#34;commit-link&#34; data-hovercard-type=&#34;commit&#34; data-hovercard-url=&#34;https://github.com/swaggo/swag/commit/050b0aa3c808df1b4d619fdc6f9bd110cffe7d5f/hovercard&#34; href=&#34;https://github.com/swaggo/swag/commit/050b0aa3c808df1b4d619fdc6f9bd110cffe7d5f&#34;&gt;&lt;tt&gt;050b0aa&lt;/tt&gt;&lt;/a&gt; chore: update version.go (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1186128492&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/swaggo/swag/issues/1169&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/swaggo/swag/pull/1169/hovercard&#34; href=&#34;https://github.com/swaggo/swag/pull/1169&#34;&gt;#1169&lt;/a&gt;)&lt;br&gt;&#xA;&lt;a class=&#34;commit-link&#34; data-hovercard-type=&#34;commit&#34; data-hovercard-url=&#34;https://github.com/swaggo/swag/commit/add313f61a6fcad2918c80b6e231b5e37bff1887/hovercard&#34; href=&#34;https://github.com/swaggo/swag/commit/add313f61a6fcad2918c80b6e231b5e37bff1887&#34;&gt;&lt;tt&gt;add313f&lt;/tt&gt;&lt;/a&gt; doc: security or documentation (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1165188840&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/swaggo/swag/issues/1158&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/swaggo/swag/pull/1158/hovercard&#34; href=&#34;https://github.com/swaggo/swag/pull/1158&#34;&gt;#1158&lt;/a&gt;)&lt;br&gt;&#xA;&lt;a class=&#34;commit-link&#34; data-hovercard-type=&#34;commit&#34; data-hovercard-url=&#34;https://github.com/swaggo/swag/commit/32b2467c9fac7e2b99b1b49c46e04078766fabdd/hovercard&#34; href=&#34;https://github.com/swaggo/swag/commit/32b2467c9fac7e2b99b1b49c46e04078766fabdd&#34;&gt;&lt;tt&gt;32b2467&lt;/tt&gt;&lt;/a&gt; feat: Example/SchemaExample: allow \r \n \t (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1162618777&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/swaggo/swag/issues/1156&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/swaggo/swag/pull/1156/hovercard&#34; href=&#34;https://github.com/swaggo/swag/pull/1156&#34;&gt;#1156&lt;/a&gt;)&lt;br&gt;&#xA;&lt;a class=&#34;commit-link&#34; data-hovercard-type=&#34;commit&#34; data-hovercard-url=&#34;https://github.com/swaggo/swag/commit/7dc23401fb107642ac951cbf90a4b51e2e5fd728/hovercard&#34; href=&#34;https://github.com/swaggo/swag/commit/7dc23401fb107642ac951cbf90a4b51e2e5fd728&#34;&gt;&lt;tt&gt;7dc2340&lt;/tt&gt;&lt;/a&gt; feat: Feature security or documentation (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1162730767&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/swaggo/swag/issues/1157&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/swaggo/swag/pull/1157/hovercard&#34; href=&#34;https://github.com/swaggo/swag/pull/1157&#34;&gt;#1157&lt;/a&gt;)&lt;br&gt;&#xA;&lt;a class=&#34;commit-link&#34; data-hovercard-type=&#34;commit&#34; data-hovercard-url=&#34;https://github.com/swaggo/swag/commit/6686f54ef730beeb719346330a4ca6bef3099cd6/hovercard&#34; href=&#34;https://github.com/swaggo/swag/commit/6686f54ef730beeb719346330a4ca6bef3099cd6&#34;&gt;&lt;tt&gt;6686f54&lt;/tt&gt;&lt;/a&gt; feat: [security] feature add or-option (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1154224079&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/swaggo/swag/issues/1151&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/swaggo/swag/pull/1151/hovercard&#34; href=&#34;https://github.com/swaggo/swag/pull/1151&#34;&gt;#1151&lt;/a&gt;)&lt;br&gt;&#xA;&lt;a class=&#34;commit-link&#34; data-hovercard-type=&#34;commit&#34; data-hovercard-url=&#34;https://github.com/swaggo/swag/commit/334111b3841f068c6d2486ae81a3ced7115b2d8d/hovercard&#34; href=&#34;https://github.com/swaggo/swag/commit/334111b3841f068c6d2486ae81a3ced7115b2d8d&#34;&gt;&lt;tt&gt;334111b&lt;/tt&gt;&lt;/a&gt; feat: add option to set the example to schema &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1140071140&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/swaggo/swag/issues/1140&#34; data-hovercard-type=&#34;issue&#34; data-hovercard-url=&#34;/swaggo/swag/issues/1140/hovercard&#34; href=&#34;https://github.com/swaggo/swag/issues/1140&#34;&gt;#1140&lt;/a&gt; (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1150200115&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/swaggo/swag/issues/1148&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/swaggo/swag/pull/1148/hovercard&#34; href=&#34;https://github.com/swaggo/swag/pull/1148&#34;&gt;#1148&lt;/a&gt;)&lt;br&gt;&#xA;&lt;a class=&#34;commit-link&#34; data-hovercard-type=&#34;commit&#34; data-hovercard-url=&#34;https://github.com/swaggo/swag/commit/957b087efc79cdadb0158a2764867e2799969222/hovercard&#34; href=&#34;https://github.com/swaggo/swag/commit/957b087efc79cdadb0158a2764867e2799969222&#34;&gt;&lt;tt&gt;957b087&lt;/tt&gt;&lt;/a&gt; feat: fix go 1.18 errors caused by &lt;code&gt;any&lt;/code&gt; type (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1186039302&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/swaggo/swag/issues/1168&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/swaggo/swag/pull/1168/hovercard&#34; href=&#34;https://github.com/swaggo/swag/pull/1168&#34;&gt;#1168&lt;/a&gt;)&lt;br&gt;&#xA;&lt;a class=&#34;commit-link&#34; data-hovercard-type=&#34;commit&#34; data-hovercard-url=&#34;https://github.com/swaggo/swag/commit/2b64f7852f495240d8b8441c49a0450e8a51eab3/hovercard&#34; href=&#34;https://github.com/swaggo/swag/commit/2b64f7852f495240d8b8441c49a0450e8a51eab3&#34;&gt;&lt;tt&gt;2b64f78&lt;/tt&gt;&lt;/a&gt; fix &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1159557570&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/swaggo/swag/issues/1154&#34; data-hovercard-type=&#34;issue&#34; data-hovercard-url=&#34;/swaggo/swag/issues/1154/hovercard&#34; href=&#34;https://github.com/swaggo/swag/issues/1154&#34;&gt;#1154&lt;/a&gt; (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1168415086&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/swaggo/swag/issues/1161&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/swaggo/swag/pull/1161/hovercard&#34; href=&#34;https://github.com/swaggo/swag/pull/1161&#34;&gt;#1161&lt;/a&gt;)&lt;br&gt;&#xA;&lt;a class=&#34;commit-link&#34; data-hovercard-type=&#34;commit&#34; data-hovercard-url=&#34;https://github.com/swaggo/swag/commit/9205937fa2159b17212a5fa8167ed08f647c22a8/hovercard&#34; href=&#34;https://github.com/swaggo/swag/commit/9205937fa2159b17212a5fa8167ed08f647c22a8&#34;&gt;&lt;tt&gt;9205937&lt;/tt&gt;&lt;/a&gt; fix: README_zh-CN.md  broken link (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1157006063&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/swaggo/swag/issues/1153&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/swaggo/swag/pull/1153/hovercard&#34; href=&#34;https://github.com/swaggo/swag/pull/1153&#34;&gt;#1153&lt;/a&gt;)&lt;/p&gt;</content>
+    <link href="https://github.com/swaggo/swag/releases/tag/v1.8.1" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>ubogdan</name>
     </author>
   </entry>
   <entry>
@@ -4294,6 +4250,17 @@
     </author>
   </entry>
   <entry>
+    <title>Release notes from swag - v1.8.0</title>
+    <updated>2022-02-22T12:25:12Z</updated>
+    <id>tag:github.com,2008:Repository/93928882/v1.8.0</id>
+    <content type="html">&lt;h2&gt;Changelog&lt;/h2&gt;&#xA;&lt;p&gt;&lt;a class=&#34;commit-link&#34; data-hovercard-type=&#34;commit&#34; data-hovercard-url=&#34;https://github.com/swaggo/swag/commit/cd97e7f515e35742907bb188d07d9e192cfa79df/hovercard&#34; href=&#34;https://github.com/swaggo/swag/commit/cd97e7f515e35742907bb188d07d9e192cfa79df&#34;&gt;&lt;tt&gt;cd97e7f&lt;/tt&gt;&lt;/a&gt; fix: Linter fails (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1135754280&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/swaggo/swag/issues/1136&#34; data-hovercard-type=&#34;issue&#34; data-hovercard-url=&#34;/swaggo/swag/issues/1136/hovercard&#34; href=&#34;https://github.com/swaggo/swag/issues/1136&#34;&gt;#1136&lt;/a&gt;) (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1135898985&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/swaggo/swag/issues/1137&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/swaggo/swag/pull/1137/hovercard&#34; href=&#34;https://github.com/swaggo/swag/pull/1137&#34;&gt;#1137&lt;/a&gt;)&lt;br&gt;&#xA;&lt;a class=&#34;commit-link&#34; data-hovercard-type=&#34;commit&#34; data-hovercard-url=&#34;https://github.com/swaggo/swag/commit/3a778dc66f99900eac355e84be6465be083bcfca/hovercard&#34; href=&#34;https://github.com/swaggo/swag/commit/3a778dc66f99900eac355e84be6465be083bcfca&#34;&gt;&lt;tt&gt;3a778dc&lt;/tt&gt;&lt;/a&gt; fix: split extensions param respecting open/close brackets (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1109611348&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/swaggo/swag/issues/1107&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/swaggo/swag/pull/1107/hovercard&#34; href=&#34;https://github.com/swaggo/swag/pull/1107&#34;&gt;#1107&lt;/a&gt;)&lt;br&gt;&#xA;&lt;a class=&#34;commit-link&#34; data-hovercard-type=&#34;commit&#34; data-hovercard-url=&#34;https://github.com/swaggo/swag/commit/1a0a57a149e0bb5b438ca00b22081507f38d97e1/hovercard&#34; href=&#34;https://github.com/swaggo/swag/commit/1a0a57a149e0bb5b438ca00b22081507f38d97e1&#34;&gt;&lt;tt&gt;1a0a57a&lt;/tt&gt;&lt;/a&gt; fix: swaggerinfo template for instanceNames (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1129264088&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/swaggo/swag/issues/1133&#34; data-hovercard-type=&#34;issue&#34; data-hovercard-url=&#34;/swaggo/swag/issues/1133/hovercard&#34; href=&#34;https://github.com/swaggo/swag/issues/1133&#34;&gt;#1133&lt;/a&gt;) (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1129267078&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/swaggo/swag/issues/1134&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/swaggo/swag/pull/1134/hovercard&#34; href=&#34;https://github.com/swaggo/swag/pull/1134&#34;&gt;#1134&lt;/a&gt;)&lt;/p&gt;</content>
+    <link href="https://github.com/swaggo/swag/releases/tag/v1.8.0" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>ubogdan</name>
+    </author>
+  </entry>
+  <entry>
     <title>Release notes from alacritty - Alacritty Version 0.10.1</title>
     <updated>2022-02-20T22:50:46Z</updated>
     <id>tag:github.com,2008:Repository/51980455/v0.10.1</id>
@@ -4445,6 +4412,28 @@
     <summary type="html"></summary>
     <author>
       <name>derekparker</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from swag - v1.7.9-p1</title>
+    <updated>2022-02-06T09:49:22Z</updated>
+    <id>tag:github.com,2008:Repository/93928882/v1.7.9-p1</id>
+    <content type="html">&lt;h2&gt;Changelog&lt;/h2&gt;&#xA;&lt;p&gt;&lt;a class=&#34;commit-link&#34; data-hovercard-type=&#34;commit&#34; data-hovercard-url=&#34;https://github.com/swaggo/swag/commit/24209aa795ef7ed5380fa86b7e60e787e692e91d/hovercard&#34; href=&#34;https://github.com/swaggo/swag/commit/24209aa795ef7ed5380fa86b7e60e787e692e91d&#34;&gt;&lt;tt&gt;24209aa&lt;/tt&gt;&lt;/a&gt; fix: breaking change introduced by generation of 2 documents in the same package (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1124867126&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/swaggo/swag/issues/1127&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/swaggo/swag/pull/1127/hovercard&#34; href=&#34;https://github.com/swaggo/swag/pull/1127&#34;&gt;#1127&lt;/a&gt;)&lt;/p&gt;</content>
+    <link href="https://github.com/swaggo/swag/releases/tag/v1.7.9-p1" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>ubogdan</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from swag - v1.7.9</title>
+    <updated>2022-02-03T21:16:19Z</updated>
+    <id>tag:github.com,2008:Repository/93928882/v1.7.9</id>
+    <content type="html">&lt;h2&gt;Changelog&lt;/h2&gt;&#xA;&lt;p&gt;&lt;a class=&#34;commit-link&#34; data-hovercard-type=&#34;commit&#34; data-hovercard-url=&#34;https://github.com/swaggo/swag/commit/b0cdfd43ff50618a1e6a4da4ec2bc3d309f5062f/hovercard&#34; href=&#34;https://github.com/swaggo/swag/commit/b0cdfd43ff50618a1e6a4da4ec2bc3d309f5062f&#34;&gt;&lt;tt&gt;b0cdfd4&lt;/tt&gt;&lt;/a&gt; build: update &lt;code&gt;go&lt;/code&gt; directive in &lt;code&gt;go.mod&lt;/code&gt; to 1.17 (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1088083079&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/swaggo/swag/issues/1089&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/swaggo/swag/pull/1089/hovercard&#34; href=&#34;https://github.com/swaggo/swag/pull/1089&#34;&gt;#1089&lt;/a&gt;)&lt;br&gt;&#xA;&lt;a class=&#34;commit-link&#34; data-hovercard-type=&#34;commit&#34; data-hovercard-url=&#34;https://github.com/swaggo/swag/commit/7137cd895386d86db391d3cc36e540707d710967/hovercard&#34; href=&#34;https://github.com/swaggo/swag/commit/7137cd895386d86db391d3cc36e540707d710967&#34;&gt;&lt;tt&gt;7137cd8&lt;/tt&gt;&lt;/a&gt; chore: drop support for go 1.14 (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1115537007&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/swaggo/swag/issues/1111&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/swaggo/swag/pull/1111/hovercard&#34; href=&#34;https://github.com/swaggo/swag/pull/1111&#34;&gt;#1111&lt;/a&gt;)&lt;br&gt;&#xA;&lt;a class=&#34;commit-link&#34; data-hovercard-type=&#34;commit&#34; data-hovercard-url=&#34;https://github.com/swaggo/swag/commit/a8ef569b67b5614c07f27fcb5a5757b9a948f979/hovercard&#34; href=&#34;https://github.com/swaggo/swag/commit/a8ef569b67b5614c07f27fcb5a5757b9a948f979&#34;&gt;&lt;tt&gt;a8ef569&lt;/tt&gt;&lt;/a&gt; chore: field tags constants (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1088013609&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/swaggo/swag/issues/1088&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/swaggo/swag/pull/1088/hovercard&#34; href=&#34;https://github.com/swaggo/swag/pull/1088&#34;&gt;#1088&lt;/a&gt;)&lt;br&gt;&#xA;&lt;a class=&#34;commit-link&#34; data-hovercard-type=&#34;commit&#34; data-hovercard-url=&#34;https://github.com/swaggo/swag/commit/808bde687a43e79709a8ae3ea4a8c3056edad30f/hovercard&#34; href=&#34;https://github.com/swaggo/swag/commit/808bde687a43e79709a8ae3ea4a8c3056edad30f&#34;&gt;&lt;tt&gt;808bde6&lt;/tt&gt;&lt;/a&gt; chore: improve unit tests (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1123481835&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/swaggo/swag/issues/1123&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/swaggo/swag/pull/1123/hovercard&#34; href=&#34;https://github.com/swaggo/swag/pull/1123&#34;&gt;#1123&lt;/a&gt;)&lt;br&gt;&#xA;&lt;a class=&#34;commit-link&#34; data-hovercard-type=&#34;commit&#34; data-hovercard-url=&#34;https://github.com/swaggo/swag/commit/e969efb3f3de73dc2ecaa66e1770972722efb5fb/hovercard&#34; href=&#34;https://github.com/swaggo/swag/commit/e969efb3f3de73dc2ecaa66e1770972722efb5fb&#34;&gt;&lt;tt&gt;e969efb&lt;/tt&gt;&lt;/a&gt; chore: release v1.7.9&lt;br&gt;&#xA;&lt;a class=&#34;commit-link&#34; data-hovercard-type=&#34;commit&#34; data-hovercard-url=&#34;https://github.com/swaggo/swag/commit/cae74678fdb585663275fca7b6ba8bd6826ced4f/hovercard&#34; href=&#34;https://github.com/swaggo/swag/commit/cae74678fdb585663275fca7b6ba8bd6826ced4f&#34;&gt;&lt;tt&gt;cae7467&lt;/tt&gt;&lt;/a&gt; feat: Generated file name from instanceName (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1115543537&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/swaggo/swag/issues/1112&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/swaggo/swag/pull/1112/hovercard&#34; href=&#34;https://github.com/swaggo/swag/pull/1112&#34;&gt;#1112&lt;/a&gt;)&lt;br&gt;&#xA;&lt;a class=&#34;commit-link&#34; data-hovercard-type=&#34;commit&#34; data-hovercard-url=&#34;https://github.com/swaggo/swag/commit/44c3853e6bb7832cf3cd56fe08a20dd582a41704/hovercard&#34; href=&#34;https://github.com/swaggo/swag/commit/44c3853e6bb7832cf3cd56fe08a20dd582a41704&#34;&gt;&lt;tt&gt;44c3853&lt;/tt&gt;&lt;/a&gt; feat: add example parameter (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1123428196&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/swaggo/swag/issues/1122&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/swaggo/swag/pull/1122/hovercard&#34; href=&#34;https://github.com/swaggo/swag/pull/1122&#34;&gt;#1122&lt;/a&gt;)&lt;br&gt;&#xA;&lt;a class=&#34;commit-link&#34; data-hovercard-type=&#34;commit&#34; data-hovercard-url=&#34;https://github.com/swaggo/swag/commit/32f02b99260db21a5bf0c28757a89e015682c574/hovercard&#34; href=&#34;https://github.com/swaggo/swag/commit/32f02b99260db21a5bf0c28757a89e015682c574&#34;&gt;&lt;tt&gt;32f02b9&lt;/tt&gt;&lt;/a&gt; feat: add generation of type description to schema (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;623404238&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/swaggo/swag/issues/708&#34; data-hovercard-type=&#34;issue&#34; data-hovercard-url=&#34;/swaggo/swag/issues/708/hovercard&#34; href=&#34;https://github.com/swaggo/swag/issues/708&#34;&gt;#708&lt;/a&gt;) (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1108260953&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/swaggo/swag/issues/1106&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/swaggo/swag/pull/1106/hovercard&#34; href=&#34;https://github.com/swaggo/swag/pull/1106&#34;&gt;#1106&lt;/a&gt;)&lt;br&gt;&#xA;&lt;a class=&#34;commit-link&#34; data-hovercard-type=&#34;commit&#34; data-hovercard-url=&#34;https://github.com/swaggo/swag/commit/97ea98ec1bd528b87a0fd6f5e3493a052dc762c0/hovercard&#34; href=&#34;https://github.com/swaggo/swag/commit/97ea98ec1bd528b87a0fd6f5e3493a052dc762c0&#34;&gt;&lt;tt&gt;97ea98e&lt;/tt&gt;&lt;/a&gt; feat: allow generating of specific docs files only (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;534992761&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/swaggo/swag/issues/577&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/swaggo/swag/pull/577/hovercard&#34; href=&#34;https://github.com/swaggo/swag/pull/577&#34;&gt;#577&lt;/a&gt;)&lt;br&gt;&#xA;&lt;a class=&#34;commit-link&#34; data-hovercard-type=&#34;commit&#34; data-hovercard-url=&#34;https://github.com/swaggo/swag/commit/b1e10b7054f8521cec8722ee52fcad14e11afaaa/hovercard&#34; href=&#34;https://github.com/swaggo/swag/commit/b1e10b7054f8521cec8722ee52fcad14e11afaaa&#34;&gt;&lt;tt&gt;b1e10b7&lt;/tt&gt;&lt;/a&gt; feat: instance name func to doc file (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1118749042&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/swaggo/swag/issues/1116&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/swaggo/swag/pull/1116/hovercard&#34; href=&#34;https://github.com/swaggo/swag/pull/1116&#34;&gt;#1116&lt;/a&gt;)&lt;br&gt;&#xA;&lt;a class=&#34;commit-link&#34; data-hovercard-type=&#34;commit&#34; data-hovercard-url=&#34;https://github.com/swaggo/swag/commit/e1ac43738d16b3d97cac33ba063ec9955806d1a3/hovercard&#34; href=&#34;https://github.com/swaggo/swag/commit/e1ac43738d16b3d97cac33ba063ec9955806d1a3&#34;&gt;&lt;tt&gt;e1ac437&lt;/tt&gt;&lt;/a&gt; feat: struct fields allow empty example strings (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1123520454&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/swaggo/swag/issues/1125&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/swaggo/swag/pull/1125/hovercard&#34; href=&#34;https://github.com/swaggo/swag/pull/1125&#34;&gt;#1125&lt;/a&gt;)&lt;br&gt;&#xA;&lt;a class=&#34;commit-link&#34; data-hovercard-type=&#34;commit&#34; data-hovercard-url=&#34;https://github.com/swaggo/swag/commit/a7065ad1cfe4371dc7e4e18363c4ceb298ccc4ec/hovercard&#34; href=&#34;https://github.com/swaggo/swag/commit/a7065ad1cfe4371dc7e4e18363c4ceb298ccc4ec&#34;&gt;&lt;tt&gt;a7065ad&lt;/tt&gt;&lt;/a&gt; feat: support global type overrides (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1064641364&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/swaggo/swag/issues/1059&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/swaggo/swag/pull/1059/hovercard&#34; href=&#34;https://github.com/swaggo/swag/pull/1059&#34;&gt;#1059&lt;/a&gt;)&lt;br&gt;&#xA;&lt;a class=&#34;commit-link&#34; data-hovercard-type=&#34;commit&#34; data-hovercard-url=&#34;https://github.com/swaggo/swag/commit/8ffc6c29c01a13fb01183ee91d0fcc5fc586b431/hovercard&#34; href=&#34;https://github.com/swaggo/swag/commit/8ffc6c29c01a13fb01183ee91d0fcc5fc586b431&#34;&gt;&lt;tt&gt;8ffc6c2&lt;/tt&gt;&lt;/a&gt; fix: undefined httputil and model (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1096873601&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/swaggo/swag/issues/1099&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/swaggo/swag/pull/1099/hovercard&#34; href=&#34;https://github.com/swaggo/swag/pull/1099&#34;&gt;#1099&lt;/a&gt;)&lt;/p&gt;</content>
+    <link href="https://github.com/swaggo/swag/releases/tag/v1.7.9" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>ubogdan</name>
     </author>
   </entry>
   <entry>
@@ -4943,6 +4932,17 @@
     </author>
   </entry>
   <entry>
+    <title>Release notes from swag - v1.7.8</title>
+    <updated>2021-12-24T14:32:58Z</updated>
+    <id>tag:github.com,2008:Repository/93928882/v1.7.8</id>
+    <content type="html">&lt;h2&gt;Changelog&lt;/h2&gt;&#xA;&lt;p&gt;&lt;a class=&#34;commit-link&#34; data-hovercard-type=&#34;commit&#34; data-hovercard-url=&#34;https://github.com/swaggo/swag/commit/00a256c5ac54fdf8bcbb881effac288aabb9f976/hovercard&#34; href=&#34;https://github.com/swaggo/swag/commit/00a256c5ac54fdf8bcbb881effac288aabb9f976&#34;&gt;&lt;tt&gt;00a256c&lt;/tt&gt;&lt;/a&gt; Remove unnecessary check (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1077015576&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/swaggo/swag/issues/1073&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/swaggo/swag/pull/1073/hovercard&#34; href=&#34;https://github.com/swaggo/swag/pull/1073&#34;&gt;#1073&lt;/a&gt;)&lt;br&gt;&#xA;&lt;a class=&#34;commit-link&#34; data-hovercard-type=&#34;commit&#34; data-hovercard-url=&#34;https://github.com/swaggo/swag/commit/4f32ae644b77cf73a6ec00eebb67690e4714efe3/hovercard&#34; href=&#34;https://github.com/swaggo/swag/commit/4f32ae644b77cf73a6ec00eebb67690e4714efe3&#34;&gt;&lt;tt&gt;4f32ae6&lt;/tt&gt;&lt;/a&gt; chore: drop support go 1.13 (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1068236367&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/swaggo/swag/issues/1069&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/swaggo/swag/pull/1069/hovercard&#34; href=&#34;https://github.com/swaggo/swag/pull/1069&#34;&gt;#1069&lt;/a&gt;)&lt;br&gt;&#xA;&lt;a class=&#34;commit-link&#34; data-hovercard-type=&#34;commit&#34; data-hovercard-url=&#34;https://github.com/swaggo/swag/commit/f631188105ab9e3557214884a9c2e81f7913a2f6/hovercard&#34; href=&#34;https://github.com/swaggo/swag/commit/f631188105ab9e3557214884a9c2e81f7913a2f6&#34;&gt;&lt;tt&gt;f631188&lt;/tt&gt;&lt;/a&gt; chore: improve code quality (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1087912461&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/swaggo/swag/issues/1086&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/swaggo/swag/pull/1086/hovercard&#34; href=&#34;https://github.com/swaggo/swag/pull/1086&#34;&gt;#1086&lt;/a&gt;)&lt;br&gt;&#xA;&lt;a class=&#34;commit-link&#34; data-hovercard-type=&#34;commit&#34; data-hovercard-url=&#34;https://github.com/swaggo/swag/commit/9766b4cce23d226f8e415fc814c9a30707f61da7/hovercard&#34; href=&#34;https://github.com/swaggo/swag/commit/9766b4cce23d226f8e415fc814c9a30707f61da7&#34;&gt;&lt;tt&gt;9766b4c&lt;/tt&gt;&lt;/a&gt; chore: fix broken go.mod (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1088366850&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/swaggo/swag/issues/1090&#34; data-hovercard-type=&#34;issue&#34; data-hovercard-url=&#34;/swaggo/swag/issues/1090/hovercard&#34; href=&#34;https://github.com/swaggo/swag/issues/1090&#34;&gt;#1090&lt;/a&gt;)&lt;br&gt;&#xA;&lt;a class=&#34;commit-link&#34; data-hovercard-type=&#34;commit&#34; data-hovercard-url=&#34;https://github.com/swaggo/swag/commit/557e1c656b1ca1a8960adec04b709632be736a7b/hovercard&#34; href=&#34;https://github.com/swaggo/swag/commit/557e1c656b1ca1a8960adec04b709632be736a7b&#34;&gt;&lt;tt&gt;557e1c6&lt;/tt&gt;&lt;/a&gt; chore: release 1.7.7 (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1087993418&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/swaggo/swag/issues/1087&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/swaggo/swag/pull/1087/hovercard&#34; href=&#34;https://github.com/swaggo/swag/pull/1087&#34;&gt;#1087&lt;/a&gt;)&lt;br&gt;&#xA;&lt;a class=&#34;commit-link&#34; data-hovercard-type=&#34;commit&#34; data-hovercard-url=&#34;https://github.com/swaggo/swag/commit/75e9d0156a952d2f090bcdc0ca88f2e2a4925313/hovercard&#34; href=&#34;https://github.com/swaggo/swag/commit/75e9d0156a952d2f090bcdc0ca88f2e2a4925313&#34;&gt;&lt;tt&gt;75e9d01&lt;/tt&gt;&lt;/a&gt; chore: remove duplicate walk func (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1068275175&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/swaggo/swag/issues/1070&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/swaggo/swag/pull/1070/hovercard&#34; href=&#34;https://github.com/swaggo/swag/pull/1070&#34;&gt;#1070&lt;/a&gt;)&lt;br&gt;&#xA;&lt;a class=&#34;commit-link&#34; data-hovercard-type=&#34;commit&#34; data-hovercard-url=&#34;https://github.com/swaggo/swag/commit/9d81576d79c3d5ab9ad562b278659664812542d7/hovercard&#34; href=&#34;https://github.com/swaggo/swag/commit/9d81576d79c3d5ab9ad562b278659664812542d7&#34;&gt;&lt;tt&gt;9d81576&lt;/tt&gt;&lt;/a&gt; feat: add separate x-enum-varnames tag (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1085765234&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/swaggo/swag/issues/1083&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/swaggo/swag/pull/1083/hovercard&#34; href=&#34;https://github.com/swaggo/swag/pull/1083&#34;&gt;#1083&lt;/a&gt;)&lt;br&gt;&#xA;&lt;a class=&#34;commit-link&#34; data-hovercard-type=&#34;commit&#34; data-hovercard-url=&#34;https://github.com/swaggo/swag/commit/a7065ad1cfe4371dc7e4e18363c4ceb298ccc4ec/hovercard&#34; href=&#34;https://github.com/swaggo/swag/commit/a7065ad1cfe4371dc7e4e18363c4ceb298ccc4ec&#34;&gt;&lt;tt&gt;a7065ad&lt;/tt&gt;&lt;/a&gt; feat: support global type overrides (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1064641364&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/swaggo/swag/issues/1059&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/swaggo/swag/pull/1059/hovercard&#34; href=&#34;https://github.com/swaggo/swag/pull/1059&#34;&gt;#1059&lt;/a&gt;)&lt;br&gt;&#xA;&lt;a class=&#34;commit-link&#34; data-hovercard-type=&#34;commit&#34; data-hovercard-url=&#34;https://github.com/swaggo/swag/commit/231fa42cf8ed42270475c702754ed6dfa2bf500a/hovercard&#34; href=&#34;https://github.com/swaggo/swag/commit/231fa42cf8ed42270475c702754ed6dfa2bf500a&#34;&gt;&lt;tt&gt;231fa42&lt;/tt&gt;&lt;/a&gt; fix: allways init response header map at first. (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1066200147&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/swaggo/swag/issues/1066&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/swaggo/swag/pull/1066/hovercard&#34; href=&#34;https://github.com/swaggo/swag/pull/1066&#34;&gt;#1066&lt;/a&gt;)&lt;br&gt;&#xA;&lt;a class=&#34;commit-link&#34; data-hovercard-type=&#34;commit&#34; data-hovercard-url=&#34;https://github.com/swaggo/swag/commit/54c9ff96523f176fe055aa5b7fa50ddae742088a/hovercard&#34; href=&#34;https://github.com/swaggo/swag/commit/54c9ff96523f176fe055aa5b7fa50ddae742088a&#34;&gt;&lt;tt&gt;54c9ff9&lt;/tt&gt;&lt;/a&gt; fix: assignment to entry in nil map with &lt;a class=&#34;user-mention notranslate&#34; data-hovercard-type=&#34;user&#34; data-hovercard-url=&#34;/users/Header/hovercard&#34; data-octo-click=&#34;hovercard-link-click&#34; data-octo-dimensions=&#34;link_type:self&#34; href=&#34;https://github.com/Header&#34;&gt;@Header&lt;/a&gt; all &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1084928570&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/swaggo/swag/issues/1082&#34; data-hovercard-type=&#34;issue&#34; data-hovercard-url=&#34;/swaggo/swag/issues/1082/hovercard&#34; href=&#34;https://github.com/swaggo/swag/issues/1082&#34;&gt;#1082&lt;/a&gt; (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1087834998&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/swaggo/swag/issues/1085&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/swaggo/swag/pull/1085/hovercard&#34; href=&#34;https://github.com/swaggo/swag/pull/1085&#34;&gt;#1085&lt;/a&gt;)&lt;br&gt;&#xA;&lt;a class=&#34;commit-link&#34; data-hovercard-type=&#34;commit&#34; data-hovercard-url=&#34;https://github.com/swaggo/swag/commit/d333316e9780a732381087fa6f550c7c908131fc/hovercard&#34; href=&#34;https://github.com/swaggo/swag/commit/d333316e9780a732381087fa6f550c7c908131fc&#34;&gt;&lt;tt&gt;d333316&lt;/tt&gt;&lt;/a&gt; fix: documentation fix formatter link (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1080498799&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/swaggo/swag/issues/1079&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/swaggo/swag/pull/1079/hovercard&#34; href=&#34;https://github.com/swaggo/swag/pull/1079&#34;&gt;#1079&lt;/a&gt;)&lt;br&gt;&#xA;&lt;a class=&#34;commit-link&#34; data-hovercard-type=&#34;commit&#34; data-hovercard-url=&#34;https://github.com/swaggo/swag/commit/47d0cd224365eacc2e8ed7f47e4ab4433fe6d56b/hovercard&#34; href=&#34;https://github.com/swaggo/swag/commit/47d0cd224365eacc2e8ed7f47e4ab4433fe6d56b&#34;&gt;&lt;tt&gt;47d0cd2&lt;/tt&gt;&lt;/a&gt; fix: parsing panics on default response (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1068127830&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/swaggo/swag/issues/1068&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/swaggo/swag/pull/1068/hovercard&#34; href=&#34;https://github.com/swaggo/swag/pull/1068&#34;&gt;#1068&lt;/a&gt;)&lt;/p&gt;</content>
+    <link href="https://github.com/swaggo/swag/releases/tag/v1.7.8" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>ubogdan</name>
+    </author>
+  </entry>
+  <entry>
     <title>Release notes from f1 - Made metrics usable from outside of the internal package</title>
     <updated>2021-12-24T14:13:04Z</updated>
     <id>tag:github.com,2008:Repository/273013131/v2.0.15</id>
@@ -5226,6 +5226,17 @@
     <summary type="html"></summary>
     <author>
       <name>andreynering</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from swag - v1.7.6</title>
+    <updated>2021-11-26T22:05:50Z</updated>
+    <id>tag:github.com,2008:Repository/93928882/v1.7.6</id>
+    <content type="html">&lt;h2&gt;Changelog&lt;/h2&gt;&#xA;&lt;p&gt;&lt;a class=&#34;commit-link&#34; data-hovercard-type=&#34;commit&#34; data-hovercard-url=&#34;https://github.com/swaggo/swag/commit/e59f45754139300dfc234b97981830de15d7f82e/hovercard&#34; href=&#34;https://github.com/swaggo/swag/commit/e59f45754139300dfc234b97981830de15d7f82e&#34;&gt;&lt;tt&gt;e59f457&lt;/tt&gt;&lt;/a&gt; chore: fix bug and refactor (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1051090406&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/swaggo/swag/issues/1048&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/swaggo/swag/pull/1048/hovercard&#34; href=&#34;https://github.com/swaggo/swag/pull/1048&#34;&gt;#1048&lt;/a&gt;)&lt;br&gt;&#xA;&lt;a class=&#34;commit-link&#34; data-hovercard-type=&#34;commit&#34; data-hovercard-url=&#34;https://github.com/swaggo/swag/commit/60fc8499f67146527e5739411f260fa9370501f4/hovercard&#34; href=&#34;https://github.com/swaggo/swag/commit/60fc8499f67146527e5739411f260fa9370501f4&#34;&gt;&lt;tt&gt;60fc849&lt;/tt&gt;&lt;/a&gt; chore: improve code quality (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1051268677&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/swaggo/swag/issues/1049&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/swaggo/swag/pull/1049/hovercard&#34; href=&#34;https://github.com/swaggo/swag/pull/1049&#34;&gt;#1049&lt;/a&gt;)&lt;br&gt;&#xA;&lt;a class=&#34;commit-link&#34; data-hovercard-type=&#34;commit&#34; data-hovercard-url=&#34;https://github.com/swaggo/swag/commit/8d7941e52aaff7bdf4eb29607f12c7afe0c74b18/hovercard&#34; href=&#34;https://github.com/swaggo/swag/commit/8d7941e52aaff7bdf4eb29607f12c7afe0c74b18&#34;&gt;&lt;tt&gt;8d7941e&lt;/tt&gt;&lt;/a&gt; chore: improve code quality (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1051391885&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/swaggo/swag/issues/1050&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/swaggo/swag/pull/1050/hovercard&#34; href=&#34;https://github.com/swaggo/swag/pull/1050&#34;&gt;#1050&lt;/a&gt;)&lt;br&gt;&#xA;&lt;a class=&#34;commit-link&#34; data-hovercard-type=&#34;commit&#34; data-hovercard-url=&#34;https://github.com/swaggo/swag/commit/305a5cf6255ce8fe980c653f42587b1e7fedbd2f/hovercard&#34; href=&#34;https://github.com/swaggo/swag/commit/305a5cf6255ce8fe980c653f42587b1e7fedbd2f&#34;&gt;&lt;tt&gt;305a5cf&lt;/tt&gt;&lt;/a&gt; chore: increment version (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1064822254&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/swaggo/swag/issues/1062&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/swaggo/swag/pull/1062/hovercard&#34; href=&#34;https://github.com/swaggo/swag/pull/1062&#34;&gt;#1062&lt;/a&gt;)&lt;br&gt;&#xA;&lt;a class=&#34;commit-link&#34; data-hovercard-type=&#34;commit&#34; data-hovercard-url=&#34;https://github.com/swaggo/swag/commit/819d9296a1c190212a7a86a5bc7c44413f5173b5/hovercard&#34; href=&#34;https://github.com/swaggo/swag/commit/819d9296a1c190212a7a86a5bc7c44413f5173b5&#34;&gt;&lt;tt&gt;819d929&lt;/tt&gt;&lt;/a&gt; chore: security fix for github.com/gin-gonic/gin &amp;lt; 1.7.0 (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1064686214&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/swaggo/swag/issues/1060&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/swaggo/swag/pull/1060/hovercard&#34; href=&#34;https://github.com/swaggo/swag/pull/1060&#34;&gt;#1060&lt;/a&gt;)&lt;br&gt;&#xA;&lt;a class=&#34;commit-link&#34; data-hovercard-type=&#34;commit&#34; data-hovercard-url=&#34;https://github.com/swaggo/swag/commit/c21181adb9bf354e2bbafc6ff87da594c0b7a077/hovercard&#34; href=&#34;https://github.com/swaggo/swag/commit/c21181adb9bf354e2bbafc6ff87da594c0b7a077&#34;&gt;&lt;tt&gt;c21181a&lt;/tt&gt;&lt;/a&gt; chore: version 1.7.5 (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1064690865&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/swaggo/swag/issues/1061&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/swaggo/swag/pull/1061/hovercard&#34; href=&#34;https://github.com/swaggo/swag/pull/1061&#34;&gt;#1061&lt;/a&gt;)&lt;br&gt;&#xA;&lt;a class=&#34;commit-link&#34; data-hovercard-type=&#34;commit&#34; data-hovercard-url=&#34;https://github.com/swaggo/swag/commit/93acd2ad51e848ef3c78b25cb3964745fecde054/hovercard&#34; href=&#34;https://github.com/swaggo/swag/commit/93acd2ad51e848ef3c78b25cb3964745fecde054&#34;&gt;&lt;tt&gt;93acd2a&lt;/tt&gt;&lt;/a&gt; feat: add command for format the swag comment. (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1059604580&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/swaggo/swag/issues/1056&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/swaggo/swag/pull/1056/hovercard&#34; href=&#34;https://github.com/swaggo/swag/pull/1056&#34;&gt;#1056&lt;/a&gt;)&lt;br&gt;&#xA;&lt;a class=&#34;commit-link&#34; data-hovercard-type=&#34;commit&#34; data-hovercard-url=&#34;https://github.com/swaggo/swag/commit/69fd2332aafa3f659cc8e427e7edf02eada52c3e/hovercard&#34; href=&#34;https://github.com/swaggo/swag/commit/69fd2332aafa3f659cc8e427e7edf02eada52c3e&#34;&gt;&lt;tt&gt;69fd233&lt;/tt&gt;&lt;/a&gt; feat: add compatibility with HL7 FHIR standard (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1057717040&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/swaggo/swag/issues/1055&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/swaggo/swag/pull/1055/hovercard&#34; href=&#34;https://github.com/swaggo/swag/pull/1055&#34;&gt;#1055&lt;/a&gt;)&lt;br&gt;&#xA;&lt;a class=&#34;commit-link&#34; data-hovercard-type=&#34;commit&#34; data-hovercard-url=&#34;https://github.com/swaggo/swag/commit/1780cd2cd2dfda93f5cb10d34624875a8278bb16/hovercard&#34; href=&#34;https://github.com/swaggo/swag/commit/1780cd2cd2dfda93f5cb10d34624875a8278bb16&#34;&gt;&lt;tt&gt;1780cd2&lt;/tt&gt;&lt;/a&gt; feat: support arrays in path and header params (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1036511899&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/swaggo/swag/issues/1039&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/swaggo/swag/pull/1039/hovercard&#34; href=&#34;https://github.com/swaggo/swag/pull/1039&#34;&gt;#1039&lt;/a&gt;)&lt;br&gt;&#xA;&lt;a class=&#34;commit-link&#34; data-hovercard-type=&#34;commit&#34; data-hovercard-url=&#34;https://github.com/swaggo/swag/commit/5237c6da8a311937f06e84137fd965666c214c35/hovercard&#34; href=&#34;https://github.com/swaggo/swag/commit/5237c6da8a311937f06e84137fd965666c214c35&#34;&gt;&lt;tt&gt;5237c6d&lt;/tt&gt;&lt;/a&gt; feat: support go-playground/validator tags. (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1046931107&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/swaggo/swag/issues/1045&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/swaggo/swag/pull/1045/hovercard&#34; href=&#34;https://github.com/swaggo/swag/pull/1045&#34;&gt;#1045&lt;/a&gt;)&lt;br&gt;&#xA;&lt;a class=&#34;commit-link&#34; data-hovercard-type=&#34;commit&#34; data-hovercard-url=&#34;https://github.com/swaggo/swag/commit/eff27cc951b538ea6086f78234ab04ce004ac647/hovercard&#34; href=&#34;https://github.com/swaggo/swag/commit/eff27cc951b538ea6086f78234ab04ce004ac647&#34;&gt;&lt;tt&gt;eff27cc&lt;/tt&gt;&lt;/a&gt; feat: support replace FieldParser (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1046500125&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/swaggo/swag/issues/1043&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/swaggo/swag/pull/1043/hovercard&#34; href=&#34;https://github.com/swaggo/swag/pull/1043&#34;&gt;#1043&lt;/a&gt;)&lt;br&gt;&#xA;&lt;a class=&#34;commit-link&#34; data-hovercard-type=&#34;commit&#34; data-hovercard-url=&#34;https://github.com/swaggo/swag/commit/c4ae82227c8c3ac56cbd70dc2df78e945b5349ac/hovercard&#34; href=&#34;https://github.com/swaggo/swag/commit/c4ae82227c8c3ac56cbd70dc2df78e945b5349ac&#34;&gt;&lt;tt&gt;c4ae822&lt;/tt&gt;&lt;/a&gt; fix: typo error in README.md (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1059762455&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/swaggo/swag/issues/1057&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/swaggo/swag/pull/1057/hovercard&#34; href=&#34;https://github.com/swaggo/swag/pull/1057&#34;&gt;#1057&lt;/a&gt;)&lt;br&gt;&#xA;&lt;a class=&#34;commit-link&#34; data-hovercard-type=&#34;commit&#34; data-hovercard-url=&#34;https://github.com/swaggo/swag/commit/9b23c9e3df2e8fe650e1a497d6504ca12aed4522/hovercard&#34; href=&#34;https://github.com/swaggo/swag/commit/9b23c9e3df2e8fe650e1a497d6504ca12aed4522&#34;&gt;&lt;tt&gt;9b23c9e&lt;/tt&gt;&lt;/a&gt; improve code quality (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1050292976&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/swaggo/swag/issues/1047&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/swaggo/swag/pull/1047/hovercard&#34; href=&#34;https://github.com/swaggo/swag/pull/1047&#34;&gt;#1047&lt;/a&gt;)&lt;br&gt;&#xA;&lt;a class=&#34;commit-link&#34; data-hovercard-type=&#34;commit&#34; data-hovercard-url=&#34;https://github.com/swaggo/swag/commit/b5ca0bb2fd72066655446dd09d82a09d04db8aad/hovercard&#34; href=&#34;https://github.com/swaggo/swag/commit/b5ca0bb2fd72066655446dd09d82a09d04db8aad&#34;&gt;&lt;tt&gt;b5ca0bb&lt;/tt&gt;&lt;/a&gt; wrap $ref in allOf when readonly is set (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1033828665&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/swaggo/swag/issues/1034&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/swaggo/swag/pull/1034/hovercard&#34; href=&#34;https://github.com/swaggo/swag/pull/1034&#34;&gt;#1034&lt;/a&gt;)&lt;/p&gt;</content>
+    <link href="https://github.com/swaggo/swag/releases/tag/v1.7.6" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>ubogdan</name>
     </author>
   </entry>
   <entry>
