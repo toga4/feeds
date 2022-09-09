@@ -1,8 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?><feed xmlns="http://www.w3.org/2005/Atom">
   <title>Releases from Starred by toga4</title>
   <id>https://toga4.github.io/feeds/starred-releases.atom</id>
-  <updated>2022-09-09T09:56:09Z</updated>
+  <updated>2022-09-09T18:37:52Z</updated>
   <link href="https://toga4.github.io/feeds/starred-releases.atom"></link>
+  <entry>
+    <title>Release notes from external-secrets - v0.6.0-rc1</title>
+    <updated>2022-09-09T18:37:52Z</updated>
+    <id>tag:github.com,2008:Repository/313628863/v0.6.0-rc1</id>
+    <content type="html">&lt;p&gt;Image: &lt;code&gt;ghcr.io/external-secrets/external-secrets:v0.6.0-rc1&lt;/code&gt;&lt;/p&gt;&#xA;&lt;h2&gt;Changes&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;chore: bump helm release (&lt;gh:issue-mention marker=&#34;#&#34; number=&#34;1432&#34;&gt;&lt;/gh:issue-mention&gt;)&lt;/li&gt;&#xA;&lt;li&gt;add missing default values for spec.target (&lt;gh:issue-mention marker=&#34;#&#34; number=&#34;1431&#34;&gt;&lt;/gh:issue-mention&gt;)&lt;/li&gt;&#xA;&lt;li&gt;Bump github.com/spf13/cobra from 1.4.0 to 1.5.0 (&lt;gh:issue-mention marker=&#34;#&#34; number=&#34;1437&#34;&gt;&lt;/gh:issue-mention&gt;)&lt;/li&gt;&#xA;&lt;li&gt;Bump github.com/hashicorp/vault/api/auth/kubernetes from 0.1.0 to 0.2.0 (&lt;gh:issue-mention marker=&#34;#&#34; number=&#34;1436&#34;&gt;&lt;/gh:issue-mention&gt;)&lt;/li&gt;&#xA;&lt;li&gt;Bump github.com/crossplane/crossplane-runtime from 0.16.0 to 0.17.0 (&lt;gh:issue-mention marker=&#34;#&#34; number=&#34;1435&#34;&gt;&lt;/gh:issue-mention&gt;)&lt;/li&gt;&#xA;&lt;li&gt;Bump golang from 1.18-alpine to 1.19.0-alpine (&lt;gh:issue-mention marker=&#34;#&#34; number=&#34;1434&#34;&gt;&lt;/gh:issue-mention&gt;)&lt;/li&gt;&#xA;&lt;li&gt;Bump github.com/AzureAD/microsoft-authentication-library-for-go (&lt;gh:issue-mention marker=&#34;#&#34; number=&#34;1440&#34;&gt;&lt;/gh:issue-mention&gt;)&lt;/li&gt;&#xA;&lt;li&gt;Fix provisionedNamespaces in Status field of ClusterExternalSecret keeps getting updated non-stop (&lt;gh:issue-mention marker=&#34;#&#34; number=&#34;1441&#34;&gt;&lt;/gh:issue-mention&gt;)&lt;/li&gt;&#xA;&lt;li&gt;clean: typo (clister) in azurekv_types (&lt;gh:issue-mention marker=&#34;#&#34; number=&#34;1442&#34;&gt;&lt;/gh:issue-mention&gt;)&lt;/li&gt;&#xA;&lt;li&gt;&lt;g-emoji class=&#34;g-emoji&#34; alias=&#34;arrow_up&#34; fallback-src=&#34;https://github.githubassets.com/images/icons/emoji/unicode/2b06.png&#34;&gt;⬆️&lt;/g-emoji&gt;github.com/akeylesslabs/akeyless-go/v2 from 2.16.8 to 2.17.0 (&lt;gh:issue-mention marker=&#34;#&#34; number=&#34;1438&#34;&gt;&lt;/gh:issue-mention&gt;)&lt;/li&gt;&#xA;&lt;li&gt;&lt;g-emoji class=&#34;g-emoji&#34; alias=&#34;broom&#34; fallback-src=&#34;https://github.githubassets.com/images/icons/emoji/unicode/1f9f9.png&#34;&gt;🧹&lt;/g-emoji&gt; Removing Unknown License from allowed licenses (&lt;gh:issue-mention marker=&#34;#&#34; number=&#34;1446&#34;&gt;&lt;/gh:issue-mention&gt;)&lt;/li&gt;&#xA;&lt;li&gt;&lt;g-emoji class=&#34;g-emoji&#34; alias=&#34;books&#34; fallback-src=&#34;https://github.githubassets.com/images/icons/emoji/unicode/1f4da.png&#34;&gt;📚&lt;/g-emoji&gt;Fix comment specifying the default engineVersion. (&lt;gh:issue-mention marker=&#34;#&#34; number=&#34;1450&#34;&gt;&lt;/gh:issue-mention&gt;)&lt;/li&gt;&#xA;&lt;li&gt;fix: AWS attr. dot check off-by-one error (&lt;gh:issue-mention marker=&#34;#&#34; number=&#34;1459&#34;&gt;&lt;/gh:issue-mention&gt;)&lt;/li&gt;&#xA;&lt;li&gt;&lt;g-emoji class=&#34;g-emoji&#34; alias=&#34;arrow_up&#34; fallback-src=&#34;https://github.githubassets.com/images/icons/emoji/unicode/2b06.png&#34;&gt;⬆️&lt;/g-emoji&gt; Bump github.com/prometheus/client_golang (&lt;gh:issue-mention marker=&#34;#&#34; number=&#34;1457&#34;&gt;&lt;/gh:issue-mention&gt;)&lt;/li&gt;&#xA;&lt;li&gt;&lt;g-emoji class=&#34;g-emoji&#34; alias=&#34;arrow_up&#34; fallback-src=&#34;https://github.githubassets.com/images/icons/emoji/unicode/2b06.png&#34;&gt;⬆️&lt;/g-emoji&gt; Bump github.com/googleapis/gax-go/v2 from 2.4.0 to 2.5.1 (&lt;gh:issue-mention marker=&#34;#&#34; number=&#34;1456&#34;&gt;&lt;/gh:issue-mention&gt;)&lt;/li&gt;&#xA;&lt;li&gt;&lt;g-emoji class=&#34;g-emoji&#34; alias=&#34;arrow_up&#34; fallback-src=&#34;https://github.githubassets.com/images/icons/emoji/unicode/2b06.png&#34;&gt;⬆️&lt;/g-emoji&gt; Bump github.com/aliyun/alibaba-cloud-sdk-go (&lt;gh:issue-mention marker=&#34;#&#34; number=&#34;1455&#34;&gt;&lt;/gh:issue-mention&gt;)&lt;/li&gt;&#xA;&lt;li&gt;&lt;g-emoji class=&#34;g-emoji&#34; alias=&#34;arrow_up&#34; fallback-src=&#34;https://github.githubassets.com/images/icons/emoji/unicode/2b06.png&#34;&gt;⬆️&lt;/g-emoji&gt; Bump helm/chart-testing-action from 2.2.1 to 2.3.0 (&lt;gh:issue-mention marker=&#34;#&#34; number=&#34;1453&#34;&gt;&lt;/gh:issue-mention&gt;)&lt;/li&gt;&#xA;&lt;li&gt;chore(deps): bump github.com/Azure/go-autorest/autorest/adal (&lt;gh:issue-mention marker=&#34;#&#34; number=&#34;1463&#34;&gt;&lt;/gh:issue-mention&gt;)&lt;/li&gt;&#xA;&lt;li&gt;chore(deps): bump github.com/tidwall/gjson from 1.14.1 to 1.14.2 (&lt;gh:issue-mention marker=&#34;#&#34; number=&#34;1461&#34;&gt;&lt;/gh:issue-mention&gt;)&lt;/li&gt;&#xA;&lt;li&gt;chore(deps): bump google.golang.org/api from 0.90.0 to 0.92.0 (&lt;gh:issue-mention marker=&#34;#&#34; number=&#34;1462&#34;&gt;&lt;/gh:issue-mention&gt;)&lt;/li&gt;&#xA;&lt;li&gt;chore(deps): bump github.com/xanzy/go-gitlab from 0.70.0 to 0.72.0 (&lt;gh:issue-mention marker=&#34;#&#34; number=&#34;1465&#34;&gt;&lt;/gh:issue-mention&gt;)&lt;/li&gt;&#xA;&lt;li&gt;fix: re-add akeyless url (&lt;gh:issue-mention marker=&#34;#&#34; number=&#34;1468&#34;&gt;&lt;/gh:issue-mention&gt;)&lt;/li&gt;&#xA;&lt;li&gt;fix: remove convertKeys from aws providers (&lt;gh:issue-mention marker=&#34;#&#34; number=&#34;1470&#34;&gt;&lt;/gh:issue-mention&gt;)&lt;/li&gt;&#xA;&lt;li&gt;feat: add azkv.environmentType (&lt;gh:issue-mention marker=&#34;#&#34; number=&#34;1469&#34;&gt;&lt;/gh:issue-mention&gt;)&lt;/li&gt;&#xA;&lt;li&gt;&lt;g-emoji class=&#34;g-emoji&#34; alias=&#34;sparkles&#34; fallback-src=&#34;https://github.githubassets.com/images/icons/emoji/unicode/2728.png&#34;&gt;✨&lt;/g-emoji&gt; Kubernetes v1.24 upgrade (&lt;gh:issue-mention marker=&#34;#&#34; number=&#34;1345&#34;&gt;&lt;/gh:issue-mention&gt;)&lt;/li&gt;&#xA;&lt;li&gt;chore(deps): bump go.uber.org/zap from 1.21.0 to 1.22.0 (&lt;gh:issue-mention marker=&#34;#&#34; number=&#34;1484&#34;&gt;&lt;/gh:issue-mention&gt;)&lt;/li&gt;&#xA;&lt;li&gt;chore(deps): bump github.com/IBM/go-sdk-core/v5 from 5.10.1 to 5.10.2 (&lt;gh:issue-mention marker=&#34;#&#34; number=&#34;1482&#34;&gt;&lt;/gh:issue-mention&gt;)&lt;/li&gt;&#xA;&lt;li&gt;chore(deps): bump sigstore/cosign-installer from 2.5.0 to 2.5.1 (&lt;gh:issue-mention marker=&#34;#&#34; number=&#34;1480&#34;&gt;&lt;/gh:issue-mention&gt;)&lt;/li&gt;&#xA;&lt;li&gt;chore(deps): bump github.com/IBM/secrets-manager-go-sdk (&lt;gh:issue-mention marker=&#34;#&#34; number=&#34;1481&#34;&gt;&lt;/gh:issue-mention&gt;)&lt;/li&gt;&#xA;&lt;li&gt;chore(deps): bump google.golang.org/api from 0.92.0 to 0.93.0 (&lt;gh:issue-mention marker=&#34;#&#34; number=&#34;1483&#34;&gt;&lt;/gh:issue-mention&gt;)&lt;/li&gt;&#xA;&lt;li&gt;chore(deps): bump github.com/xanzy/go-gitlab from 0.72.0 to 0.73.0 (&lt;gh:issue-mention marker=&#34;#&#34; number=&#34;1485&#34;&gt;&lt;/gh:issue-mention&gt;)&lt;/li&gt;&#xA;&lt;li&gt;Update guides-datafrom-rewrite.md for typo (&lt;gh:issue-mention marker=&#34;#&#34; number=&#34;1491&#34;&gt;&lt;/gh:issue-mention&gt;)&lt;/li&gt;&#xA;&lt;li&gt;chore(deps): bump github.com/onsi/gomega from 1.20.0 to 1.20.1 (&lt;gh:issue-mention marker=&#34;#&#34; number=&#34;1499&#34;&gt;&lt;/gh:issue-mention&gt;)&lt;/li&gt;&#xA;&lt;li&gt;chore(deps): bump go.uber.org/zap from 1.22.0 to 1.23.0 (&lt;gh:issue-mention marker=&#34;#&#34; number=&#34;1498&#34;&gt;&lt;/gh:issue-mention&gt;)&lt;/li&gt;&#xA;&lt;li&gt;chore(deps): bump github.com/aws/aws-sdk-go from 1.44.52 to 1.44.86 (&lt;gh:issue-mention marker=&#34;#&#34; number=&#34;1496&#34;&gt;&lt;/gh:issue-mention&gt;)&lt;/li&gt;&#xA;&lt;li&gt;chore(deps): bump github.com/akeylesslabs/akeyless-go/v2 (&lt;gh:issue-mention marker=&#34;#&#34; number=&#34;1495&#34;&gt;&lt;/gh:issue-mention&gt;)&lt;/li&gt;&#xA;&lt;li&gt;chore(deps): bump github.com/xanzy/go-gitlab from 0.73.0 to 0.73.1 (&lt;gh:issue-mention marker=&#34;#&#34; number=&#34;1497&#34;&gt;&lt;/gh:issue-mention&gt;)&lt;/li&gt;&#xA;&lt;li&gt;Small typo fix guides-multi-tenancy.md (&lt;gh:issue-mention marker=&#34;#&#34; number=&#34;1492&#34;&gt;&lt;/gh:issue-mention&gt;)&lt;/li&gt;&#xA;&lt;li&gt;Remove unnecessary space before a colon (&lt;gh:issue-mention marker=&#34;#&#34; number=&#34;1494&#34;&gt;&lt;/gh:issue-mention&gt;)&lt;/li&gt;&#xA;&lt;li&gt;Update ADOPTERS.md (&lt;gh:issue-mention marker=&#34;#&#34; number=&#34;1503&#34;&gt;&lt;/gh:issue-mention&gt;)&lt;/li&gt;&#xA;&lt;li&gt;flip order of &lt;code&gt;err&lt;/code&gt; and nil &lt;code&gt;secret&lt;/code&gt; variable check in &lt;code&gt;listSecrets()&lt;/code&gt; function of vault provider (&lt;gh:issue-mention marker=&#34;#&#34; number=&#34;1504&#34;&gt;&lt;/gh:issue-mention&gt;)&lt;/li&gt;&#xA;&lt;li&gt;Add webhook tls options (&lt;gh:issue-mention marker=&#34;#&#34; number=&#34;1466&#34;&gt;&lt;/gh:issue-mention&gt;)&lt;/li&gt;&#xA;&lt;li&gt;Adding my published blog post (&lt;gh:issue-mention marker=&#34;#&#34; number=&#34;1506&#34;&gt;&lt;/gh:issue-mention&gt;)&lt;/li&gt;&#xA;&lt;li&gt;feat: add support matrix, refactor docs (&lt;gh:issue-mention marker=&#34;#&#34; number=&#34;1508&#34;&gt;&lt;/gh:issue-mention&gt;)&lt;/li&gt;&#xA;&lt;li&gt;Add warning due to DNS transfer (&lt;gh:issue-mention marker=&#34;#&#34; number=&#34;1513&#34;&gt;&lt;/gh:issue-mention&gt;)&lt;/li&gt;&#xA;&lt;li&gt;chore(deps): bump github.com/onsi/gomega from 1.20.1 to 1.20.2 (&lt;gh:issue-mention marker=&#34;#&#34; number=&#34;1522&#34;&gt;&lt;/gh:issue-mention&gt;)&lt;/li&gt;&#xA;&lt;li&gt;chore(deps): bump github.com/tidwall/gjson from 1.14.2 to 1.14.3 (&lt;gh:issue-mention marker=&#34;#&#34; number=&#34;1523&#34;&gt;&lt;/gh:issue-mention&gt;)&lt;/li&gt;&#xA;&lt;li&gt;chore(deps): bump github.com/aliyun/alibaba-cloud-sdk-go (&lt;gh:issue-mention marker=&#34;#&#34; number=&#34;1519&#34;&gt;&lt;/gh:issue-mention&gt;)&lt;/li&gt;&#xA;&lt;li&gt;feat: add stale bot to close issues automatically (&lt;gh:issue-mention marker=&#34;#&#34; number=&#34;1524&#34;&gt;&lt;/gh:issue-mention&gt;)&lt;/li&gt;&#xA;&lt;li&gt;chore(deps): bump github.com/hashicorp/vault/api/auth/ldap (&lt;gh:issue-mention marker=&#34;#&#34; number=&#34;1521&#34;&gt;&lt;/gh:issue-mention&gt;)&lt;/li&gt;&#xA;&lt;li&gt;fix: aws parameter store json decode, bump go 1.19 (&lt;gh:issue-mention marker=&#34;#&#34; number=&#34;1525&#34;&gt;&lt;/gh:issue-mention&gt;)&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/external-secrets/external-secrets/releases/tag/v0.6.0-rc1" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>github-actions[bot]</name>
+    </author>
+  </entry>
   <entry>
     <title>Release notes from moby - v20.10.18</title>
     <updated>2022-09-09T09:56:09Z</updated>
@@ -15,22 +26,22 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from telepresence - v2.7.4-rc.3</title>
+    <title>Release notes from telepresence - rpc/v2.7.4-rc.3</title>
     <updated>2022-09-09T06:18:43Z</updated>
-    <id>tag:github.com,2008:Repository/82933315/v2.7.4-rc.3</id>
+    <id>tag:github.com,2008:Repository/82933315/rpc/v2.7.4-rc.3</id>
     <content type="html">&lt;p&gt;v2.7.4-rc.3&lt;/p&gt;</content>
-    <link href="https://github.com/telepresenceio/telepresence/releases/tag/v2.7.4-rc.3" rel="alternate"></link>
+    <link href="https://github.com/telepresenceio/telepresence/releases/tag/rpc%2Fv2.7.4-rc.3" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>thallgren</name>
     </author>
   </entry>
   <entry>
-    <title>Release notes from telepresence - rpc/v2.7.4-rc.3</title>
+    <title>Release notes from telepresence - v2.7.4-rc.3</title>
     <updated>2022-09-09T06:18:43Z</updated>
-    <id>tag:github.com,2008:Repository/82933315/rpc/v2.7.4-rc.3</id>
+    <id>tag:github.com,2008:Repository/82933315/v2.7.4-rc.3</id>
     <content type="html">&lt;p&gt;v2.7.4-rc.3&lt;/p&gt;</content>
-    <link href="https://github.com/telepresenceio/telepresence/releases/tag/rpc%2Fv2.7.4-rc.3" rel="alternate"></link>
+    <link href="https://github.com/telepresenceio/telepresence/releases/tag/v2.7.4-rc.3" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>thallgren</name>
@@ -103,22 +114,22 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from telepresence - rpc/v2.7.4-rc.1</title>
+    <title>Release notes from telepresence - v2.7.4-rc.1</title>
     <updated>2022-09-08T22:53:04Z</updated>
-    <id>tag:github.com,2008:Repository/82933315/rpc/v2.7.4-rc.1</id>
+    <id>tag:github.com,2008:Repository/82933315/v2.7.4-rc.1</id>
     <content type="html">&lt;p&gt;v2.7.4-rc.1&lt;/p&gt;</content>
-    <link href="https://github.com/telepresenceio/telepresence/releases/tag/rpc%2Fv2.7.4-rc.1" rel="alternate"></link>
+    <link href="https://github.com/telepresenceio/telepresence/releases/tag/v2.7.4-rc.1" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>njayp</name>
     </author>
   </entry>
   <entry>
-    <title>Release notes from telepresence - v2.7.4-rc.1</title>
+    <title>Release notes from telepresence - rpc/v2.7.4-rc.1</title>
     <updated>2022-09-08T22:53:04Z</updated>
-    <id>tag:github.com,2008:Repository/82933315/v2.7.4-rc.1</id>
+    <id>tag:github.com,2008:Repository/82933315/rpc/v2.7.4-rc.1</id>
     <content type="html">&lt;p&gt;v2.7.4-rc.1&lt;/p&gt;</content>
-    <link href="https://github.com/telepresenceio/telepresence/releases/tag/v2.7.4-rc.1" rel="alternate"></link>
+    <link href="https://github.com/telepresenceio/telepresence/releases/tag/rpc%2Fv2.7.4-rc.1" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>njayp</name>
@@ -249,7 +260,7 @@
     <title>Release notes from casbin - v2.54.0</title>
     <updated>2022-09-07T08:59:36Z</updated>
     <id>tag:github.com,2008:Repository/87617508/v2.54.0</id>
-    <content type="html">&lt;h1&gt;&lt;a href=&#34;https://github.com/casbin/casbin/compare/v2.53.2...v2.54.0&#34;&gt;2.54.0&lt;/a&gt; (2022-09-07)&lt;/h1&gt;&#xA;&lt;h3&gt;Features&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;add missing params in WatcherUpdatable interface (&lt;a href=&#34;https://github.com/casbin/casbin/issues/1100&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/casbin/casbin/pull/1100/hovercard&#34;&gt;#1100&lt;/a&gt;) (&lt;a href=&#34;https://github.com/casbin/casbin/commit/3f721c48dfab03e84cbdbdec11bc1160c6166f55&#34;&gt;3f721c4&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <content type="html">&lt;h1&gt;&lt;a href=&#34;https://github.com/casbin/casbin/compare/v2.53.2...v2.54.0&#34;&gt;2.54.0&lt;/a&gt; (2022-09-07)&lt;/h1&gt;&#xA;&lt;h3&gt;Features&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;add missing params in WatcherUpdatable interface (&lt;a href=&#34;https://github.com/casbin/casbin/issues/1100&#34; gh:issue-mention=&#34;{&amp;quot;nwo&amp;quot;:&amp;quot;casbin/casbin&amp;quot;,&amp;quot;number&amp;quot;:&amp;quot;1100&amp;quot;,&amp;quot;anchor&amp;quot;:null}&#34;&gt;#1100&lt;/a&gt;) (&lt;a href=&#34;https://github.com/casbin/casbin/commit/3f721c48dfab03e84cbdbdec11bc1160c6166f55&#34;&gt;3f721c4&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
     <link href="https://github.com/casbin/casbin/releases/tag/v2.54.0" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
@@ -433,11 +444,33 @@
     </author>
   </entry>
   <entry>
+    <title>Release notes from opentelemetry-operations-go - detectors/gcp/v0.32.7</title>
+    <updated>2022-09-01T20:11:56Z</updated>
+    <id>tag:github.com,2008:Repository/244484581/detectors/gcp/v0.32.7</id>
+    <content type="html">&lt;p&gt;prepare for v0.32.7 and v1.8.7 (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1359066704&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/474&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleCloudPlatform/opentelemetry-operations-go/pull/474/hovercard&#34; href=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/pull/474&#34;&gt;#474&lt;/a&gt;)&lt;/p&gt;</content>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/detectors%2Fgcp%2Fv0.32.7" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>dashpole</name>
+    </author>
+  </entry>
+  <entry>
     <title>Release notes from opentelemetry-operations-go - exporter/collector/googlemanagedprometheus/v0.32.7</title>
     <updated>2022-09-01T20:11:56Z</updated>
     <id>tag:github.com,2008:Repository/244484581/exporter/collector/googlemanagedprometheus/v0.32.7</id>
     <content type="html">&lt;p&gt;prepare for v0.32.7 and v1.8.7 (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1359066704&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/474&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleCloudPlatform/opentelemetry-operations-go/pull/474/hovercard&#34; href=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/pull/474&#34;&gt;#474&lt;/a&gt;)&lt;/p&gt;</content>
     <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/exporter%2Fcollector%2Fgooglemanagedprometheus%2Fv0.32.7" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>dashpole</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from opentelemetry-operations-go - example/metric/v0.32.7</title>
+    <updated>2022-09-01T20:11:56Z</updated>
+    <id>tag:github.com,2008:Repository/244484581/example/metric/v0.32.7</id>
+    <content type="html">&lt;p&gt;prepare for v0.32.7 and v1.8.7 (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1359066704&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/474&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleCloudPlatform/opentelemetry-operations-go/pull/474/hovercard&#34; href=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/pull/474&#34;&gt;#474&lt;/a&gt;)&lt;/p&gt;</content>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/example%2Fmetric%2Fv0.32.7" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>dashpole</name>
@@ -455,22 +488,11 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from opentelemetry-operations-go - internal/cloudmock/v0.32.7</title>
+    <title>Release notes from opentelemetry-operations-go - exporter/collector/v0.32.7</title>
     <updated>2022-09-01T20:11:56Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/internal/cloudmock/v0.32.7</id>
+    <id>tag:github.com,2008:Repository/244484581/exporter/collector/v0.32.7</id>
     <content type="html">&lt;p&gt;prepare for v0.32.7 and v1.8.7 (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1359066704&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/474&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleCloudPlatform/opentelemetry-operations-go/pull/474/hovercard&#34; href=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/pull/474&#34;&gt;#474&lt;/a&gt;)&lt;/p&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/internal%2Fcloudmock%2Fv0.32.7" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>dashpole</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from opentelemetry-operations-go - exporter/trace/v1.8.7</title>
-    <updated>2022-09-01T20:11:56Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/exporter/trace/v1.8.7</id>
-    <content type="html">&lt;p&gt;prepare for v0.32.7 and v1.8.7 (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1359066704&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/474&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleCloudPlatform/opentelemetry-operations-go/pull/474/hovercard&#34; href=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/pull/474&#34;&gt;#474&lt;/a&gt;)&lt;/p&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/exporter%2Ftrace%2Fv1.8.7" rel="alternate"></link>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/exporter%2Fcollector%2Fv0.32.7" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>dashpole</name>
@@ -488,33 +510,22 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from opentelemetry-operations-go - exporter/collector/v0.32.7</title>
+    <title>Release notes from opentelemetry-operations-go - exporter/trace/v1.8.7</title>
     <updated>2022-09-01T20:11:56Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/exporter/collector/v0.32.7</id>
+    <id>tag:github.com,2008:Repository/244484581/exporter/trace/v1.8.7</id>
     <content type="html">&lt;p&gt;prepare for v0.32.7 and v1.8.7 (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1359066704&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/474&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleCloudPlatform/opentelemetry-operations-go/pull/474/hovercard&#34; href=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/pull/474&#34;&gt;#474&lt;/a&gt;)&lt;/p&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/exporter%2Fcollector%2Fv0.32.7" rel="alternate"></link>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/exporter%2Ftrace%2Fv1.8.7" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>dashpole</name>
     </author>
   </entry>
   <entry>
-    <title>Release notes from opentelemetry-operations-go - detectors/gcp/v0.32.7</title>
+    <title>Release notes from opentelemetry-operations-go - internal/cloudmock/v0.32.7</title>
     <updated>2022-09-01T20:11:56Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/detectors/gcp/v0.32.7</id>
+    <id>tag:github.com,2008:Repository/244484581/internal/cloudmock/v0.32.7</id>
     <content type="html">&lt;p&gt;prepare for v0.32.7 and v1.8.7 (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1359066704&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/474&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleCloudPlatform/opentelemetry-operations-go/pull/474/hovercard&#34; href=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/pull/474&#34;&gt;#474&lt;/a&gt;)&lt;/p&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/detectors%2Fgcp%2Fv0.32.7" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>dashpole</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from opentelemetry-operations-go - example/metric/v0.32.7</title>
-    <updated>2022-09-01T20:11:56Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/example/metric/v0.32.7</id>
-    <content type="html">&lt;p&gt;prepare for v0.32.7 and v1.8.7 (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1359066704&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/474&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleCloudPlatform/opentelemetry-operations-go/pull/474/hovercard&#34; href=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/pull/474&#34;&gt;#474&lt;/a&gt;)&lt;/p&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/example%2Fmetric%2Fv0.32.7" rel="alternate"></link>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/internal%2Fcloudmock%2Fv0.32.7" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>dashpole</name>
@@ -1918,11 +1929,11 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from kpt - package-examples/cert-manager-basic/v0: Add a basic ghost package (#3381)</title>
+    <title>Release notes from kpt - package-examples/ghost/v0: Add a basic ghost package (#3381)</title>
     <updated>2022-07-19T17:43:52Z</updated>
-    <id>tag:github.com,2008:Repository/208908993/package-examples/cert-manager-basic/v0</id>
+    <id>tag:github.com,2008:Repository/208908993/package-examples/ghost/v0</id>
     <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Add ghost basic package&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;update ghost pacakge&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;remove set-labels&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/GoogleContainerTools/kpt/releases/tag/package-examples%2Fcert-manager-basic%2Fv0" rel="alternate"></link>
+    <link href="https://github.com/GoogleContainerTools/kpt/releases/tag/package-examples%2Fghost%2Fv0" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>yuwenma</name>
@@ -1940,11 +1951,11 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from kpt - package-examples/ghost/v0: Add a basic ghost package (#3381)</title>
+    <title>Release notes from kpt - package-examples/cert-manager-basic/v0: Add a basic ghost package (#3381)</title>
     <updated>2022-07-19T17:43:52Z</updated>
-    <id>tag:github.com,2008:Repository/208908993/package-examples/ghost/v0</id>
+    <id>tag:github.com,2008:Repository/208908993/package-examples/cert-manager-basic/v0</id>
     <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Add ghost basic package&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;update ghost pacakge&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;remove set-labels&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/GoogleContainerTools/kpt/releases/tag/package-examples%2Fghost%2Fv0" rel="alternate"></link>
+    <link href="https://github.com/GoogleContainerTools/kpt/releases/tag/package-examples%2Fcert-manager-basic%2Fv0" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>yuwenma</name>
@@ -2825,17 +2836,6 @@
     <id>tag:github.com,2008:Repository/313628863/v0.5.5</id>
     <content type="html">&lt;p&gt;Image: &lt;code&gt;ghcr.io/external-secrets/external-secrets:v0.5.5&lt;/code&gt;&lt;/p&gt;&#xA;&lt;h2&gt;Changes&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;fixing panic if using JWT with KubernetesServiceAccountToken&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
     <link href="https://github.com/external-secrets/external-secrets/releases/tag/v0.5.5" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>github-actions[bot]</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from external-secrets - helm-chart-0.5.5</title>
-    <updated>2022-05-31T17:57:35Z</updated>
-    <id>tag:github.com,2008:Repository/313628863/helm-chart-0.5.5</id>
-    <content type="html">&lt;p&gt;External secret management for Kubernetes&lt;/p&gt;</content>
-    <link href="https://github.com/external-secrets/external-secrets/releases/tag/helm-chart-0.5.5" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>github-actions[bot]</name>
@@ -7330,22 +7330,22 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from backoff - v2.0.3: Merge pull request #18 from lestrrat-go/topic/fix-v2-go-mod</title>
+    <title>Release notes from backoff - v2.0.2: Merge pull request #18 from lestrrat-go/topic/fix-v2-go-mod</title>
     <updated>2021-01-06T03:00:05Z</updated>
-    <id>tag:github.com,2008:Repository/118608673/v2.0.3</id>
+    <id>tag:github.com,2008:Repository/118608673/v2.0.2</id>
     <content type="html">&lt;p&gt;Fix go.mod&lt;/p&gt;</content>
-    <link href="https://github.com/lestrrat-go/backoff/releases/tag/v2.0.3" rel="alternate"></link>
+    <link href="https://github.com/lestrrat-go/backoff/releases/tag/v2.0.2" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>lestrrat</name>
     </author>
   </entry>
   <entry>
-    <title>Release notes from backoff - v2.0.2: Merge pull request #18 from lestrrat-go/topic/fix-v2-go-mod</title>
+    <title>Release notes from backoff - v2.0.3: Merge pull request #18 from lestrrat-go/topic/fix-v2-go-mod</title>
     <updated>2021-01-06T03:00:05Z</updated>
-    <id>tag:github.com,2008:Repository/118608673/v2.0.2</id>
+    <id>tag:github.com,2008:Repository/118608673/v2.0.3</id>
     <content type="html">&lt;p&gt;Fix go.mod&lt;/p&gt;</content>
-    <link href="https://github.com/lestrrat-go/backoff/releases/tag/v2.0.2" rel="alternate"></link>
+    <link href="https://github.com/lestrrat-go/backoff/releases/tag/v2.0.3" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>lestrrat</name>
@@ -8939,7 +8939,7 @@
     <title>Release notes from gock - v1.0.10</title>
     <updated>2018-09-09T08:53:26Z</updated>
     <id>tag:github.com,2008:Repository/52977552/v1.0.10</id>
-    <content type="html">&lt;h2&gt;Changes&lt;/h2&gt;&#xA;&lt;h4&gt;v1.0.10 / 2018-09-09&lt;/h4&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Support multiple response headers with same name &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;357831663&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/h2non/gock/issues/35&#34; data-hovercard-type=&#34;issue&#34; data-hovercard-url=&#34;/h2non/gock/issues/35/hovercard&#34; href=&#34;https://github.com/h2non/gock/issues/35&#34;&gt;#35&lt;/a&gt; (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;358015724&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/h2non/gock/issues/36&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/h2non/gock/pull/36/hovercard&#34; href=&#34;https://github.com/h2non/gock/pull/36&#34;&gt;#36&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <content type="html">&lt;h2&gt;Changes&lt;/h2&gt;&#xA;&lt;h4&gt;v1.0.10 / 2018-09-09&lt;/h4&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Support multiple response headers with same name &lt;gh:issue-mention marker=&#34;#&#34; number=&#34;35&#34;&gt;&lt;/gh:issue-mention&gt; (&lt;gh:issue-mention marker=&#34;#&#34; number=&#34;36&#34;&gt;&lt;/gh:issue-mention&gt;)&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
     <link href="https://github.com/h2non/gock/releases/tag/v1.0.10" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
