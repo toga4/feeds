@@ -15,6 +15,17 @@
     </author>
   </entry>
   <entry>
+    <title>Release notes from opentelemetry-go - trace/v1.10.0</title>
+    <updated>2022-09-12T20:27:00Z</updated>
+    <id>tag:github.com,2008:Repository/187086161/trace/v1.10.0</id>
+    <content type="html">&lt;p&gt;Module set stable-v1, Version v1.10.0&lt;/p&gt;</content>
+    <link href="https://github.com/open-telemetry/opentelemetry-go/releases/tag/trace%2Fv1.10.0" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>MadVikingGod</name>
+    </author>
+  </entry>
+  <entry>
     <title>Release notes from opentelemetry-go - sdk/v1.10.0</title>
     <updated>2022-09-12T20:27:00Z</updated>
     <id>tag:github.com,2008:Repository/187086161/sdk/v1.10.0</id>
@@ -37,17 +48,6 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from opentelemetry-go - trace/v1.10.0</title>
-    <updated>2022-09-12T20:27:00Z</updated>
-    <id>tag:github.com,2008:Repository/187086161/trace/v1.10.0</id>
-    <content type="html">&lt;p&gt;Module set stable-v1, Version v1.10.0&lt;/p&gt;</content>
-    <link href="https://github.com/open-telemetry/opentelemetry-go/releases/tag/trace%2Fv1.10.0" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>MadVikingGod</name>
-    </author>
-  </entry>
-  <entry>
     <title>Release notes from opentelemetry-go - exporters/otlp/otlptrace/otlptracehttp/v1.10.0</title>
     <updated>2022-09-12T20:26:59Z</updated>
     <id>tag:github.com,2008:Repository/187086161/exporters/otlp/otlptrace/otlptracehttp/v1.10.0</id>
@@ -59,22 +59,22 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from opentelemetry-go - exporters/otlp/otlptrace/otlptracegrpc/v1.10.0</title>
+    <title>Release notes from opentelemetry-go - exporters/otlp/internal/retry/v1.10.0</title>
     <updated>2022-09-12T20:26:59Z</updated>
-    <id>tag:github.com,2008:Repository/187086161/exporters/otlp/otlptrace/otlptracegrpc/v1.10.0</id>
+    <id>tag:github.com,2008:Repository/187086161/exporters/otlp/internal/retry/v1.10.0</id>
     <content type="html">&lt;p&gt;Module set stable-v1, Version v1.10.0&lt;/p&gt;</content>
-    <link href="https://github.com/open-telemetry/opentelemetry-go/releases/tag/exporters%2Fotlp%2Fotlptrace%2Fotlptracegrpc%2Fv1.10.0" rel="alternate"></link>
+    <link href="https://github.com/open-telemetry/opentelemetry-go/releases/tag/exporters%2Fotlp%2Finternal%2Fretry%2Fv1.10.0" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>MadVikingGod</name>
     </author>
   </entry>
   <entry>
-    <title>Release notes from opentelemetry-go - exporters/otlp/internal/retry/v1.10.0</title>
+    <title>Release notes from opentelemetry-go - exporters/otlp/otlptrace/otlptracegrpc/v1.10.0</title>
     <updated>2022-09-12T20:26:59Z</updated>
-    <id>tag:github.com,2008:Repository/187086161/exporters/otlp/internal/retry/v1.10.0</id>
+    <id>tag:github.com,2008:Repository/187086161/exporters/otlp/otlptrace/otlptracegrpc/v1.10.0</id>
     <content type="html">&lt;p&gt;Module set stable-v1, Version v1.10.0&lt;/p&gt;</content>
-    <link href="https://github.com/open-telemetry/opentelemetry-go/releases/tag/exporters%2Fotlp%2Finternal%2Fretry%2Fv1.10.0" rel="alternate"></link>
+    <link href="https://github.com/open-telemetry/opentelemetry-go/releases/tag/exporters%2Fotlp%2Fotlptrace%2Fotlptracegrpc%2Fv1.10.0" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>MadVikingGod</name>
@@ -271,7 +271,7 @@
     <title>Release notes from apd - v3.1.1</title>
     <updated>2022-09-09T20:05:28Z</updated>
     <id>tag:github.com,2008:Repository/75918965/v3.1.1</id>
-    <content type="html">&lt;h2&gt;What&#39;s Changed&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;apd: disable staticcheck on Go 1.16 and earlier by &lt;a class=&#34;user-mention notranslate&#34; data-hovercard-type=&#34;user&#34; data-hovercard-url=&#34;/users/nvanbenschoten/hovercard&#34; data-octo-click=&#34;hovercard-link-click&#34; data-octo-dimensions=&#34;link_type:self&#34; href=&#34;https://github.com/nvanbenschoten&#34;&gt;@nvanbenschoten&lt;/a&gt; in &lt;a href=&#34;https://github.com/cockroachdb/apd/pull/117&#34; gh:issue-mention=&#34;{&amp;quot;nwo&amp;quot;:&amp;quot;cockroachdb/apd&amp;quot;,&amp;quot;number&amp;quot;:&amp;quot;117&amp;quot;,&amp;quot;anchor&amp;quot;:null}&#34;&gt;https://github.com/cockroachdb/apd/pull/117&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;apd: add go 1.18 testing to CI by &lt;a class=&#34;user-mention notranslate&#34; data-hovercard-type=&#34;user&#34; data-hovercard-url=&#34;/users/nvanbenschoten/hovercard&#34; data-octo-click=&#34;hovercard-link-click&#34; data-octo-dimensions=&#34;link_type:self&#34; href=&#34;https://github.com/nvanbenschoten&#34;&gt;@nvanbenschoten&lt;/a&gt; in &lt;a href=&#34;https://github.com/cockroachdb/apd/pull/118&#34; gh:issue-mention=&#34;{&amp;quot;nwo&amp;quot;:&amp;quot;cockroachdb/apd&amp;quot;,&amp;quot;number&amp;quot;:&amp;quot;118&amp;quot;,&amp;quot;anchor&amp;quot;:null}&#34;&gt;https://github.com/cockroachdb/apd/pull/118&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;apd: remove some allocs from Decimal.setString by &lt;a class=&#34;user-mention notranslate&#34; data-hovercard-type=&#34;user&#34; data-hovercard-url=&#34;/users/josharian/hovercard&#34; data-octo-click=&#34;hovercard-link-click&#34; data-octo-dimensions=&#34;link_type:self&#34; href=&#34;https://github.com/josharian&#34;&gt;@josharian&lt;/a&gt; in &lt;a href=&#34;https://github.com/cockroachdb/apd/pull/116&#34; gh:issue-mention=&#34;{&amp;quot;nwo&amp;quot;:&amp;quot;cockroachdb/apd&amp;quot;,&amp;quot;number&amp;quot;:&amp;quot;116&amp;quot;,&amp;quot;anchor&amp;quot;:null}&#34;&gt;https://github.com/cockroachdb/apd/pull/116&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;apd: add inline fast-path to BigInt.SetString by &lt;a class=&#34;user-mention notranslate&#34; data-hovercard-type=&#34;user&#34; data-hovercard-url=&#34;/users/nvanbenschoten/hovercard&#34; data-octo-click=&#34;hovercard-link-click&#34; data-octo-dimensions=&#34;link_type:self&#34; href=&#34;https://github.com/nvanbenschoten&#34;&gt;@nvanbenschoten&lt;/a&gt; in &lt;a href=&#34;https://github.com/cockroachdb/apd/pull/119&#34; gh:issue-mention=&#34;{&amp;quot;nwo&amp;quot;:&amp;quot;cockroachdb/apd&amp;quot;,&amp;quot;number&amp;quot;:&amp;quot;119&amp;quot;,&amp;quot;anchor&amp;quot;:null}&#34;&gt;https://github.com/cockroachdb/apd/pull/119&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;apd: drop github.com/pkg/errors by &lt;a class=&#34;user-mention notranslate&#34; data-hovercard-type=&#34;user&#34; data-hovercard-url=&#34;/users/nvanbenschoten/hovercard&#34; data-octo-click=&#34;hovercard-link-click&#34; data-octo-dimensions=&#34;link_type:self&#34; href=&#34;https://github.com/nvanbenschoten&#34;&gt;@nvanbenschoten&lt;/a&gt; in &lt;a href=&#34;https://github.com/cockroachdb/apd/pull/124&#34; gh:issue-mention=&#34;{&amp;quot;nwo&amp;quot;:&amp;quot;cockroachdb/apd&amp;quot;,&amp;quot;number&amp;quot;:&amp;quot;124&amp;quot;,&amp;quot;anchor&amp;quot;:null}&#34;&gt;https://github.com/cockroachdb/apd/pull/124&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2&gt;New Contributors&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a class=&#34;user-mention notranslate&#34; data-hovercard-type=&#34;user&#34; data-hovercard-url=&#34;/users/josharian/hovercard&#34; data-octo-click=&#34;hovercard-link-click&#34; data-octo-dimensions=&#34;link_type:self&#34; href=&#34;https://github.com/josharian&#34;&gt;@josharian&lt;/a&gt; made their first contribution in &lt;a href=&#34;https://github.com/cockroachdb/apd/pull/116&#34; gh:issue-mention=&#34;{&amp;quot;nwo&amp;quot;:&amp;quot;cockroachdb/apd&amp;quot;,&amp;quot;number&amp;quot;:&amp;quot;116&amp;quot;,&amp;quot;anchor&amp;quot;:null}&#34;&gt;https://github.com/cockroachdb/apd/pull/116&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: &lt;a class=&#34;commit-link&#34; href=&#34;https://github.com/cockroachdb/apd/compare/v3.1.0...v3.1.1&#34;&gt;&lt;tt&gt;v3.1.0...v3.1.1&lt;/tt&gt;&lt;/a&gt;&lt;/p&gt;</content>
+    <content type="html">&lt;h2&gt;What&#39;s Changed&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;apd: disable staticcheck on Go 1.16 and earlier by &lt;a class=&#34;user-mention notranslate&#34; data-hovercard-type=&#34;user&#34; data-hovercard-url=&#34;/users/nvanbenschoten/hovercard&#34; data-octo-click=&#34;hovercard-link-click&#34; data-octo-dimensions=&#34;link_type:self&#34; href=&#34;https://github.com/nvanbenschoten&#34;&gt;@nvanbenschoten&lt;/a&gt; in &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1271243099&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/cockroachdb/apd/issues/117&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/cockroachdb/apd/pull/117/hovercard&#34; href=&#34;https://github.com/cockroachdb/apd/pull/117&#34;&gt;#117&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;apd: add go 1.18 testing to CI by &lt;a class=&#34;user-mention notranslate&#34; data-hovercard-type=&#34;user&#34; data-hovercard-url=&#34;/users/nvanbenschoten/hovercard&#34; data-octo-click=&#34;hovercard-link-click&#34; data-octo-dimensions=&#34;link_type:self&#34; href=&#34;https://github.com/nvanbenschoten&#34;&gt;@nvanbenschoten&lt;/a&gt; in &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1271248932&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/cockroachdb/apd/issues/118&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/cockroachdb/apd/pull/118/hovercard&#34; href=&#34;https://github.com/cockroachdb/apd/pull/118&#34;&gt;#118&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;apd: remove some allocs from Decimal.setString by &lt;a class=&#34;user-mention notranslate&#34; data-hovercard-type=&#34;user&#34; data-hovercard-url=&#34;/users/josharian/hovercard&#34; data-octo-click=&#34;hovercard-link-click&#34; data-octo-dimensions=&#34;link_type:self&#34; href=&#34;https://github.com/josharian&#34;&gt;@josharian&lt;/a&gt; in &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1271221077&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/cockroachdb/apd/issues/116&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/cockroachdb/apd/pull/116/hovercard&#34; href=&#34;https://github.com/cockroachdb/apd/pull/116&#34;&gt;#116&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;apd: add inline fast-path to BigInt.SetString by &lt;a class=&#34;user-mention notranslate&#34; data-hovercard-type=&#34;user&#34; data-hovercard-url=&#34;/users/nvanbenschoten/hovercard&#34; data-octo-click=&#34;hovercard-link-click&#34; data-octo-dimensions=&#34;link_type:self&#34; href=&#34;https://github.com/nvanbenschoten&#34;&gt;@nvanbenschoten&lt;/a&gt; in &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1273119140&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/cockroachdb/apd/issues/119&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/cockroachdb/apd/pull/119/hovercard&#34; href=&#34;https://github.com/cockroachdb/apd/pull/119&#34;&gt;#119&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;apd: drop github.com/pkg/errors by &lt;a class=&#34;user-mention notranslate&#34; data-hovercard-type=&#34;user&#34; data-hovercard-url=&#34;/users/nvanbenschoten/hovercard&#34; data-octo-click=&#34;hovercard-link-click&#34; data-octo-dimensions=&#34;link_type:self&#34; href=&#34;https://github.com/nvanbenschoten&#34;&gt;@nvanbenschoten&lt;/a&gt; in &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1368195584&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/cockroachdb/apd/issues/124&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/cockroachdb/apd/pull/124/hovercard&#34; href=&#34;https://github.com/cockroachdb/apd/pull/124&#34;&gt;#124&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2&gt;New Contributors&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a class=&#34;user-mention notranslate&#34; data-hovercard-type=&#34;user&#34; data-hovercard-url=&#34;/users/josharian/hovercard&#34; data-octo-click=&#34;hovercard-link-click&#34; data-octo-dimensions=&#34;link_type:self&#34; href=&#34;https://github.com/josharian&#34;&gt;@josharian&lt;/a&gt; made their first contribution in &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1271221077&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/cockroachdb/apd/issues/116&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/cockroachdb/apd/pull/116/hovercard&#34; href=&#34;https://github.com/cockroachdb/apd/pull/116&#34;&gt;#116&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: &lt;a class=&#34;commit-link&#34; href=&#34;https://github.com/cockroachdb/apd/compare/v3.1.0...v3.1.1&#34;&gt;&lt;tt&gt;v3.1.0...v3.1.1&lt;/tt&gt;&lt;/a&gt;&lt;/p&gt;</content>
     <link href="https://github.com/cockroachdb/apd/releases/tag/v3.1.1" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
@@ -312,22 +312,22 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from telepresence - v2.7.4-rc.3</title>
+    <title>Release notes from telepresence - rpc/v2.7.4-rc.3</title>
     <updated>2022-09-09T06:18:43Z</updated>
-    <id>tag:github.com,2008:Repository/82933315/v2.7.4-rc.3</id>
+    <id>tag:github.com,2008:Repository/82933315/rpc/v2.7.4-rc.3</id>
     <content type="html">&lt;p&gt;v2.7.4-rc.3&lt;/p&gt;</content>
-    <link href="https://github.com/telepresenceio/telepresence/releases/tag/v2.7.4-rc.3" rel="alternate"></link>
+    <link href="https://github.com/telepresenceio/telepresence/releases/tag/rpc%2Fv2.7.4-rc.3" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>thallgren</name>
     </author>
   </entry>
   <entry>
-    <title>Release notes from telepresence - rpc/v2.7.4-rc.3</title>
+    <title>Release notes from telepresence - v2.7.4-rc.3</title>
     <updated>2022-09-09T06:18:43Z</updated>
-    <id>tag:github.com,2008:Repository/82933315/rpc/v2.7.4-rc.3</id>
+    <id>tag:github.com,2008:Repository/82933315/v2.7.4-rc.3</id>
     <content type="html">&lt;p&gt;v2.7.4-rc.3&lt;/p&gt;</content>
-    <link href="https://github.com/telepresenceio/telepresence/releases/tag/rpc%2Fv2.7.4-rc.3" rel="alternate"></link>
+    <link href="https://github.com/telepresenceio/telepresence/releases/tag/v2.7.4-rc.3" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>thallgren</name>
@@ -480,7 +480,7 @@
     <title>Release notes from casbin - v2.54.0</title>
     <updated>2022-09-07T08:59:36Z</updated>
     <id>tag:github.com,2008:Repository/87617508/v2.54.0</id>
-    <content type="html">&lt;h1&gt;&lt;a href=&#34;https://github.com/casbin/casbin/compare/v2.53.2...v2.54.0&#34;&gt;2.54.0&lt;/a&gt; (2022-09-07)&lt;/h1&gt;&#xA;&lt;h3&gt;Features&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;add missing params in WatcherUpdatable interface (&lt;a href=&#34;https://github.com/casbin/casbin/issues/1100&#34; gh:issue-mention=&#34;{&amp;quot;nwo&amp;quot;:&amp;quot;casbin/casbin&amp;quot;,&amp;quot;number&amp;quot;:&amp;quot;1100&amp;quot;,&amp;quot;anchor&amp;quot;:null}&#34;&gt;#1100&lt;/a&gt;) (&lt;a href=&#34;https://github.com/casbin/casbin/commit/3f721c48dfab03e84cbdbdec11bc1160c6166f55&#34;&gt;3f721c4&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <content type="html">&lt;h1&gt;&lt;a href=&#34;https://github.com/casbin/casbin/compare/v2.53.2...v2.54.0&#34;&gt;2.54.0&lt;/a&gt; (2022-09-07)&lt;/h1&gt;&#xA;&lt;h3&gt;Features&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;add missing params in WatcherUpdatable interface (&lt;a href=&#34;https://github.com/casbin/casbin/issues/1100&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/casbin/casbin/pull/1100/hovercard&#34;&gt;#1100&lt;/a&gt;) (&lt;a href=&#34;https://github.com/casbin/casbin/commit/3f721c48dfab03e84cbdbdec11bc1160c6166f55&#34;&gt;3f721c4&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
     <link href="https://github.com/casbin/casbin/releases/tag/v2.54.0" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
@@ -510,22 +510,22 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from cli - v2.14.8-pre1</title>
+    <title>Release notes from cli - v2.14.8-pre2</title>
     <updated>2022-09-06T13:26:09Z</updated>
-    <id>tag:github.com,2008:Repository/212613049/v2.14.8-pre1</id>
+    <id>tag:github.com,2008:Repository/212613049/v2.14.8-pre2</id>
     <content type="html">&lt;p&gt;Use secret public key instead of file (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1363282788&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/cli/cli/issues/6204&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/cli/cli/pull/6204/hovercard&#34; href=&#34;https://github.com/cli/cli/pull/6204&#34;&gt;#6204&lt;/a&gt;)&lt;/p&gt;</content>
-    <link href="https://github.com/cli/cli/releases/tag/v2.14.8-pre1" rel="alternate"></link>
+    <link href="https://github.com/cli/cli/releases/tag/v2.14.8-pre2" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>samcoe</name>
     </author>
   </entry>
   <entry>
-    <title>Release notes from cli - v2.14.8-pre2</title>
+    <title>Release notes from cli - v2.14.8-pre1</title>
     <updated>2022-09-06T13:26:09Z</updated>
-    <id>tag:github.com,2008:Repository/212613049/v2.14.8-pre2</id>
+    <id>tag:github.com,2008:Repository/212613049/v2.14.8-pre1</id>
     <content type="html">&lt;p&gt;Use secret public key instead of file (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1363282788&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/cli/cli/issues/6204&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/cli/cli/pull/6204/hovercard&#34; href=&#34;https://github.com/cli/cli/pull/6204&#34;&gt;#6204&lt;/a&gt;)&lt;/p&gt;</content>
-    <link href="https://github.com/cli/cli/releases/tag/v2.14.8-pre2" rel="alternate"></link>
+    <link href="https://github.com/cli/cli/releases/tag/v2.14.8-pre1" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>samcoe</name>
@@ -620,6 +620,28 @@
     </author>
   </entry>
   <entry>
+    <title>Release notes from opentelemetry-operations-go - internal/cloudmock/v0.32.7</title>
+    <updated>2022-09-01T20:11:56Z</updated>
+    <id>tag:github.com,2008:Repository/244484581/internal/cloudmock/v0.32.7</id>
+    <content type="html">&lt;p&gt;prepare for v0.32.7 and v1.8.7 (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1359066704&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/474&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleCloudPlatform/opentelemetry-operations-go/pull/474/hovercard&#34; href=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/pull/474&#34;&gt;#474&lt;/a&gt;)&lt;/p&gt;</content>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/internal%2Fcloudmock%2Fv0.32.7" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>dashpole</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from opentelemetry-operations-go - detectors/gcp/v0.32.7</title>
+    <updated>2022-09-01T20:11:56Z</updated>
+    <id>tag:github.com,2008:Repository/244484581/detectors/gcp/v0.32.7</id>
+    <content type="html">&lt;p&gt;prepare for v0.32.7 and v1.8.7 (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1359066704&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/474&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleCloudPlatform/opentelemetry-operations-go/pull/474/hovercard&#34; href=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/pull/474&#34;&gt;#474&lt;/a&gt;)&lt;/p&gt;</content>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/detectors%2Fgcp%2Fv0.32.7" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>dashpole</name>
+    </author>
+  </entry>
+  <entry>
     <title>Release notes from opentelemetry-operations-go - example/trace/http/v0.32.7</title>
     <updated>2022-09-01T20:11:56Z</updated>
     <id>tag:github.com,2008:Repository/244484581/example/trace/http/v0.32.7</id>
@@ -642,55 +664,11 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from opentelemetry-operations-go - detectors/gcp/v0.32.7</title>
+    <title>Release notes from opentelemetry-operations-go - exporter/collector/v0.32.7</title>
     <updated>2022-09-01T20:11:56Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/detectors/gcp/v0.32.7</id>
+    <id>tag:github.com,2008:Repository/244484581/exporter/collector/v0.32.7</id>
     <content type="html">&lt;p&gt;prepare for v0.32.7 and v1.8.7 (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1359066704&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/474&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleCloudPlatform/opentelemetry-operations-go/pull/474/hovercard&#34; href=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/pull/474&#34;&gt;#474&lt;/a&gt;)&lt;/p&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/detectors%2Fgcp%2Fv0.32.7" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>dashpole</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from opentelemetry-operations-go - internal/resourcemapping/v0.32.7</title>
-    <updated>2022-09-01T20:11:56Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/internal/resourcemapping/v0.32.7</id>
-    <content type="html">&lt;p&gt;prepare for v0.32.7 and v1.8.7 (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1359066704&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/474&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleCloudPlatform/opentelemetry-operations-go/pull/474/hovercard&#34; href=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/pull/474&#34;&gt;#474&lt;/a&gt;)&lt;/p&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/internal%2Fresourcemapping%2Fv0.32.7" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>dashpole</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from opentelemetry-operations-go - example/metric/v0.32.7</title>
-    <updated>2022-09-01T20:11:56Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/example/metric/v0.32.7</id>
-    <content type="html">&lt;p&gt;prepare for v0.32.7 and v1.8.7 (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1359066704&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/474&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleCloudPlatform/opentelemetry-operations-go/pull/474/hovercard&#34; href=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/pull/474&#34;&gt;#474&lt;/a&gt;)&lt;/p&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/example%2Fmetric%2Fv0.32.7" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>dashpole</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from opentelemetry-operations-go - internal/cloudmock/v0.32.7</title>
-    <updated>2022-09-01T20:11:56Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/internal/cloudmock/v0.32.7</id>
-    <content type="html">&lt;p&gt;prepare for v0.32.7 and v1.8.7 (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1359066704&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/474&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleCloudPlatform/opentelemetry-operations-go/pull/474/hovercard&#34; href=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/pull/474&#34;&gt;#474&lt;/a&gt;)&lt;/p&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/internal%2Fcloudmock%2Fv0.32.7" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>dashpole</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from opentelemetry-operations-go - exporter/trace/v1.8.7</title>
-    <updated>2022-09-01T20:11:56Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/exporter/trace/v1.8.7</id>
-    <content type="html">&lt;p&gt;prepare for v0.32.7 and v1.8.7 (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1359066704&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/474&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleCloudPlatform/opentelemetry-operations-go/pull/474/hovercard&#34; href=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/pull/474&#34;&gt;#474&lt;/a&gt;)&lt;/p&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/exporter%2Ftrace%2Fv1.8.7" rel="alternate"></link>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/exporter%2Fcollector%2Fv0.32.7" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>dashpole</name>
@@ -708,11 +686,33 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from opentelemetry-operations-go - exporter/collector/v0.32.7</title>
+    <title>Release notes from opentelemetry-operations-go - exporter/trace/v1.8.7</title>
     <updated>2022-09-01T20:11:56Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/exporter/collector/v0.32.7</id>
+    <id>tag:github.com,2008:Repository/244484581/exporter/trace/v1.8.7</id>
     <content type="html">&lt;p&gt;prepare for v0.32.7 and v1.8.7 (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1359066704&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/474&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleCloudPlatform/opentelemetry-operations-go/pull/474/hovercard&#34; href=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/pull/474&#34;&gt;#474&lt;/a&gt;)&lt;/p&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/exporter%2Fcollector%2Fv0.32.7" rel="alternate"></link>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/exporter%2Ftrace%2Fv1.8.7" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>dashpole</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from opentelemetry-operations-go - example/metric/v0.32.7</title>
+    <updated>2022-09-01T20:11:56Z</updated>
+    <id>tag:github.com,2008:Repository/244484581/example/metric/v0.32.7</id>
+    <content type="html">&lt;p&gt;prepare for v0.32.7 and v1.8.7 (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1359066704&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/474&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleCloudPlatform/opentelemetry-operations-go/pull/474/hovercard&#34; href=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/pull/474&#34;&gt;#474&lt;/a&gt;)&lt;/p&gt;</content>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/example%2Fmetric%2Fv0.32.7" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>dashpole</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from opentelemetry-operations-go - internal/resourcemapping/v0.32.7</title>
+    <updated>2022-09-01T20:11:56Z</updated>
+    <id>tag:github.com,2008:Repository/244484581/internal/resourcemapping/v0.32.7</id>
+    <content type="html">&lt;p&gt;prepare for v0.32.7 and v1.8.7 (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1359066704&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/474&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleCloudPlatform/opentelemetry-operations-go/pull/474/hovercard&#34; href=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/pull/474&#34;&gt;#474&lt;/a&gt;)&lt;/p&gt;</content>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/internal%2Fresourcemapping%2Fv0.32.7" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>dashpole</name>
@@ -1437,7 +1437,7 @@
     <title>Release notes from task - v3.14.1</title>
     <updated>2022-08-04T01:18:13Z</updated>
     <id>tag:github.com,2008:Repository/83252983/v3.14.1</id>
-    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;Always resolve relative include paths relative to the including Taskfile (&lt;a href=&#34;https://github.com/go-task/task/issues/822&#34; gh:issue-mention=&#34;{&amp;quot;nwo&amp;quot;:&amp;quot;go-task/task&amp;quot;,&amp;quot;number&amp;quot;:&amp;quot;822&amp;quot;,&amp;quot;anchor&amp;quot;:null}&#34;&gt;#822&lt;/a&gt;, &lt;a href=&#34;https://github.com/go-task/task/pull/823&#34; gh:issue-mention=&#34;{&amp;quot;nwo&amp;quot;:&amp;quot;go-task/task&amp;quot;,&amp;quot;number&amp;quot;:&amp;quot;823&amp;quot;,&amp;quot;anchor&amp;quot;:null}&#34;&gt;#823&lt;/a&gt;).&lt;/li&gt;&#xA;&lt;li&gt;Fix ZSH and PowerShell completions to consider all tasks instead of just the public ones (those with descriptions) (&lt;a href=&#34;https://github.com/go-task/task/pull/803&#34; gh:issue-mention=&#34;{&amp;quot;nwo&amp;quot;:&amp;quot;go-task/task&amp;quot;,&amp;quot;number&amp;quot;:&amp;quot;803&amp;quot;,&amp;quot;anchor&amp;quot;:null}&#34;&gt;#803&lt;/a&gt;).&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;Always resolve relative include paths relative to the including Taskfile (&lt;a href=&#34;https://github.com/go-task/task/issues/822&#34; data-hovercard-type=&#34;issue&#34; data-hovercard-url=&#34;/go-task/task/issues/822/hovercard&#34;&gt;#822&lt;/a&gt;, &lt;a href=&#34;https://github.com/go-task/task/pull/823&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/go-task/task/pull/823/hovercard&#34;&gt;#823&lt;/a&gt;).&lt;/li&gt;&#xA;&lt;li&gt;Fix ZSH and PowerShell completions to consider all tasks instead of just the public ones (those with descriptions) (&lt;a href=&#34;https://github.com/go-task/task/pull/803&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/go-task/task/pull/803/hovercard&#34;&gt;#803&lt;/a&gt;).&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
     <link href="https://github.com/go-task/task/releases/tag/v3.14.1" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
@@ -1679,7 +1679,7 @@
     <title>Release notes from kustomize - kustomize/v4.5.7</title>
     <updated>2022-08-02T16:39:10Z</updated>
     <id>tag:github.com,2008:Repository/133067498/kustomize/v4.5.7</id>
-    <content type="html">&lt;p&gt;Due to an oversight, kustomize v4.5.6 has the golang testing library compiled in unnecessarily. This is a rerelease with the same functionality, but without the unnecessary additional library compiled in.&lt;/p&gt;&#xA;&lt;h3&gt;Dependency changes&lt;/h3&gt;&#xA;&lt;p&gt;&lt;gh:issue-mention marker=&#34;#&#34; number=&#34;4743&#34;&gt;&lt;/gh:issue-mention&gt;: Pin to kyaml v0.13.9&lt;br&gt;&#xA;&lt;gh:issue-mention marker=&#34;#&#34; number=&#34;4744&#34;&gt;&lt;/gh:issue-mention&gt;: pin to cmd/config 0.10.9&lt;br&gt;&#xA;&lt;gh:issue-mention marker=&#34;#&#34; number=&#34;4745&#34;&gt;&lt;/gh:issue-mention&gt;: pin to api v0.12.1&lt;/p&gt;</content>
+    <content type="html">&lt;p&gt;Due to an oversight, kustomize v4.5.6 has the golang testing library compiled in unnecessarily. This is a rerelease with the same functionality, but without the unnecessary additional library compiled in.&lt;/p&gt;&#xA;&lt;h3&gt;Dependency changes&lt;/h3&gt;&#xA;&lt;p&gt;&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1326015278&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/kubernetes-sigs/kustomize/issues/4743&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/kubernetes-sigs/kustomize/pull/4743/hovercard&#34; href=&#34;https://github.com/kubernetes-sigs/kustomize/pull/4743&#34;&gt;#4743&lt;/a&gt;: Pin to kyaml v0.13.9&lt;br&gt;&#xA;&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1326050511&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/kubernetes-sigs/kustomize/issues/4744&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/kubernetes-sigs/kustomize/pull/4744/hovercard&#34; href=&#34;https://github.com/kubernetes-sigs/kustomize/pull/4744&#34;&gt;#4744&lt;/a&gt;: pin to cmd/config 0.10.9&lt;br&gt;&#xA;&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1326089119&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/kubernetes-sigs/kustomize/issues/4745&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/kubernetes-sigs/kustomize/pull/4745/hovercard&#34; href=&#34;https://github.com/kubernetes-sigs/kustomize/pull/4745&#34;&gt;#4745&lt;/a&gt;: pin to api v0.12.1&lt;/p&gt;</content>
     <link href="https://github.com/kubernetes-sigs/kustomize/releases/tag/kustomize%2Fv4.5.7" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
@@ -1811,7 +1811,7 @@
     <title>Release notes from casbin - v2.51.2</title>
     <updated>2022-07-30T07:03:22Z</updated>
     <id>tag:github.com,2008:Repository/87617508/v2.51.2</id>
-    <content type="html">&lt;h2&gt;&lt;a href=&#34;https://github.com/casbin/casbin/compare/v2.51.1...v2.51.2&#34;&gt;2.51.2&lt;/a&gt; (2022-07-30)&lt;/h2&gt;&#xA;&lt;h3&gt;Bug Fixes&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;recorrect the name of test function in builtin_operators_test (&lt;a href=&#34;https://github.com/casbin/casbin/issues/1066&#34; gh:issue-mention=&#34;{&amp;quot;nwo&amp;quot;:&amp;quot;casbin/casbin&amp;quot;,&amp;quot;number&amp;quot;:&amp;quot;1066&amp;quot;,&amp;quot;anchor&amp;quot;:null}&#34;&gt;#1066&lt;/a&gt;) (&lt;a href=&#34;https://github.com/casbin/casbin/commit/857bd7f49362691392804117ab04eee4d65e8262&#34;&gt;857bd7f&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <content type="html">&lt;h2&gt;&lt;a href=&#34;https://github.com/casbin/casbin/compare/v2.51.1...v2.51.2&#34;&gt;2.51.2&lt;/a&gt; (2022-07-30)&lt;/h2&gt;&#xA;&lt;h3&gt;Bug Fixes&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;recorrect the name of test function in builtin_operators_test (&lt;a href=&#34;https://github.com/casbin/casbin/issues/1066&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/casbin/casbin/pull/1066/hovercard&#34;&gt;#1066&lt;/a&gt;) (&lt;a href=&#34;https://github.com/casbin/casbin/commit/857bd7f49362691392804117ab04eee4d65e8262&#34;&gt;857bd7f&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
     <link href="https://github.com/casbin/casbin/releases/tag/v2.51.2" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
@@ -1833,7 +1833,7 @@
     <title>Release notes from kustomize - cmd/config/v0.10.8</title>
     <updated>2022-07-29T20:04:30Z</updated>
     <id>tag:github.com,2008:Repository/133067498/cmd/config/v0.10.8</id>
-    <content type="html">&lt;p&gt;&lt;gh:issue-mention marker=&#34;#&#34; number=&#34;4675&#34;&gt;&lt;/gh:issue-mention&gt;: Update dependency github.com/xlab/treeprint to v1.1.0&lt;br&gt;&#xA;&lt;gh:issue-mention marker=&#34;#&#34; number=&#34;4736&#34;&gt;&lt;/gh:issue-mention&gt;: Update dependency kyaml to v0.13.8&lt;/p&gt;</content>
+    <content type="html">&lt;p&gt;&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1267939467&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/kubernetes-sigs/kustomize/issues/4675&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/kubernetes-sigs/kustomize/pull/4675/hovercard&#34; href=&#34;https://github.com/kubernetes-sigs/kustomize/pull/4675&#34;&gt;#4675&lt;/a&gt;: Update dependency github.com/xlab/treeprint to v1.1.0&lt;br&gt;&#xA;&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1322618050&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/kubernetes-sigs/kustomize/issues/4736&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/kubernetes-sigs/kustomize/pull/4736/hovercard&#34; href=&#34;https://github.com/kubernetes-sigs/kustomize/pull/4736&#34;&gt;#4736&lt;/a&gt;: Update dependency kyaml to v0.13.8&lt;/p&gt;</content>
     <link href="https://github.com/kubernetes-sigs/kustomize/releases/tag/cmd%2Fconfig%2Fv0.10.8" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
@@ -1995,22 +1995,22 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from kpt - package-examples/ingress-nginx/v0: Add a basic ghost package (#3381)</title>
+    <title>Release notes from kpt - package-examples/ghost/v0: Add a basic ghost package (#3381)</title>
     <updated>2022-07-19T17:43:52Z</updated>
-    <id>tag:github.com,2008:Repository/208908993/package-examples/ingress-nginx/v0</id>
+    <id>tag:github.com,2008:Repository/208908993/package-examples/ghost/v0</id>
     <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Add ghost basic package&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;update ghost pacakge&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;remove set-labels&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/GoogleContainerTools/kpt/releases/tag/package-examples%2Fingress-nginx%2Fv0" rel="alternate"></link>
+    <link href="https://github.com/GoogleContainerTools/kpt/releases/tag/package-examples%2Fghost%2Fv0" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>yuwenma</name>
     </author>
   </entry>
   <entry>
-    <title>Release notes from kpt - package-examples/ghost/v0: Add a basic ghost package (#3381)</title>
+    <title>Release notes from kpt - package-examples/ingress-nginx/v0: Add a basic ghost package (#3381)</title>
     <updated>2022-07-19T17:43:52Z</updated>
-    <id>tag:github.com,2008:Repository/208908993/package-examples/ghost/v0</id>
+    <id>tag:github.com,2008:Repository/208908993/package-examples/ingress-nginx/v0</id>
     <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Add ghost basic package&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;update ghost pacakge&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;remove set-labels&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/GoogleContainerTools/kpt/releases/tag/package-examples%2Fghost%2Fv0" rel="alternate"></link>
+    <link href="https://github.com/GoogleContainerTools/kpt/releases/tag/package-examples%2Fingress-nginx%2Fv0" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>yuwenma</name>
@@ -2229,7 +2229,7 @@
     <title>Release notes from terraform - v1.2.5</title>
     <updated>2022-07-13T10:34:48Z</updated>
     <id>tag:github.com,2008:Repository/17728164/v1.2.5</id>
-    <content type="html">&lt;h2&gt;1.2.5 (July 13, 2022)&lt;/h2&gt;&#xA;&lt;p&gt;BUG FIXES:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Report correct error message when a prerelease field is included in the &lt;code&gt;required_version&lt;/code&gt; global constraint. (&lt;a href=&#34;https://github.com/hashicorp/terraform/issues/31331&#34; gh:issue-mention=&#34;{&amp;quot;nwo&amp;quot;:&amp;quot;hashicorp/terraform&amp;quot;,&amp;quot;number&amp;quot;:&amp;quot;31331&amp;quot;,&amp;quot;anchor&amp;quot;:null}&#34;&gt;#31331&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;Fix case when extra blank lines were inserted into the plan for unchanged blocks. (&lt;a href=&#34;https://github.com/hashicorp/terraform/issues/31330&#34; gh:issue-mention=&#34;{&amp;quot;nwo&amp;quot;:&amp;quot;hashicorp/terraform&amp;quot;,&amp;quot;number&amp;quot;:&amp;quot;31330&amp;quot;,&amp;quot;anchor&amp;quot;:null}&#34;&gt;#31330&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <content type="html">&lt;h2&gt;1.2.5 (July 13, 2022)&lt;/h2&gt;&#xA;&lt;p&gt;BUG FIXES:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Report correct error message when a prerelease field is included in the &lt;code&gt;required_version&lt;/code&gt; global constraint. (&lt;a href=&#34;https://github.com/hashicorp/terraform/issues/31331&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/hashicorp/terraform/pull/31331/hovercard&#34;&gt;#31331&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;Fix case when extra blank lines were inserted into the plan for unchanged blocks. (&lt;a href=&#34;https://github.com/hashicorp/terraform/issues/31330&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/hashicorp/terraform/pull/31330/hovercard&#34;&gt;#31330&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
     <link href="https://github.com/hashicorp/terraform/releases/tag/v1.2.5" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
@@ -2735,7 +2735,7 @@
     <title>Release notes from go-envconfig - v0.7.0</title>
     <updated>2022-06-09T13:46:37Z</updated>
     <id>tag:github.com,2008:Repository/269495508/v0.7.0</id>
-    <content type="html">&lt;h2&gt;What&#39;s Changed&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Change custom unmarshaling order by &lt;a class=&#34;user-mention notranslate&#34; data-hovercard-type=&#34;user&#34; data-hovercard-url=&#34;/users/gust1n/hovercard&#34; data-octo-click=&#34;hovercard-link-click&#34; data-octo-dimensions=&#34;link_type:self&#34; href=&#34;https://github.com/gust1n&#34;&gt;@gust1n&lt;/a&gt; in &lt;a href=&#34;https://github.com/sethvargo/go-envconfig/pull/59&#34; gh:issue-mention=&#34;{&amp;quot;nwo&amp;quot;:&amp;quot;sethvargo/go-envconfig&amp;quot;,&amp;quot;number&amp;quot;:&amp;quot;59&amp;quot;,&amp;quot;anchor&amp;quot;:null}&#34;&gt;https://github.com/sethvargo/go-envconfig/pull/59&lt;/a&gt;. This changes the order of resolution for unmarshalling to:&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&lt;code&gt;envconfig.Decoder&lt;/code&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;code&gt;encoding.TextUnmarshaler&lt;/code&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;code&gt;json.Unmarshaler&lt;/code&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;code&gt;encoding.BinaryUnmarshaler&lt;/code&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;code&gt;gob.GobDecoder&lt;/code&gt;&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2&gt;New Contributors&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a class=&#34;user-mention notranslate&#34; data-hovercard-type=&#34;user&#34; data-hovercard-url=&#34;/users/gust1n/hovercard&#34; data-octo-click=&#34;hovercard-link-click&#34; data-octo-dimensions=&#34;link_type:self&#34; href=&#34;https://github.com/gust1n&#34;&gt;@gust1n&lt;/a&gt; made their first contribution in &lt;a href=&#34;https://github.com/sethvargo/go-envconfig/pull/59&#34; gh:issue-mention=&#34;{&amp;quot;nwo&amp;quot;:&amp;quot;sethvargo/go-envconfig&amp;quot;,&amp;quot;number&amp;quot;:&amp;quot;59&amp;quot;,&amp;quot;anchor&amp;quot;:null}&#34;&gt;https://github.com/sethvargo/go-envconfig/pull/59&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: &lt;a class=&#34;commit-link&#34; href=&#34;https://github.com/sethvargo/go-envconfig/compare/v0.6.2...v0.7.0&#34;&gt;&lt;tt&gt;v0.6.2...v0.7.0&lt;/tt&gt;&lt;/a&gt;&lt;/p&gt;</content>
+    <content type="html">&lt;h2&gt;What&#39;s Changed&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Change custom unmarshaling order by &lt;a class=&#34;user-mention notranslate&#34; data-hovercard-type=&#34;user&#34; data-hovercard-url=&#34;/users/gust1n/hovercard&#34; data-octo-click=&#34;hovercard-link-click&#34; data-octo-dimensions=&#34;link_type:self&#34; href=&#34;https://github.com/gust1n&#34;&gt;@gust1n&lt;/a&gt; in &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1265638402&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/sethvargo/go-envconfig/issues/59&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/sethvargo/go-envconfig/pull/59/hovercard&#34; href=&#34;https://github.com/sethvargo/go-envconfig/pull/59&#34;&gt;#59&lt;/a&gt;. This changes the order of resolution for unmarshalling to:&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&lt;code&gt;envconfig.Decoder&lt;/code&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;code&gt;encoding.TextUnmarshaler&lt;/code&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;code&gt;json.Unmarshaler&lt;/code&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;code&gt;encoding.BinaryUnmarshaler&lt;/code&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;code&gt;gob.GobDecoder&lt;/code&gt;&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2&gt;New Contributors&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a class=&#34;user-mention notranslate&#34; data-hovercard-type=&#34;user&#34; data-hovercard-url=&#34;/users/gust1n/hovercard&#34; data-octo-click=&#34;hovercard-link-click&#34; data-octo-dimensions=&#34;link_type:self&#34; href=&#34;https://github.com/gust1n&#34;&gt;@gust1n&lt;/a&gt; made their first contribution in &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1265638402&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/sethvargo/go-envconfig/issues/59&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/sethvargo/go-envconfig/pull/59/hovercard&#34; href=&#34;https://github.com/sethvargo/go-envconfig/pull/59&#34;&gt;#59&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: &lt;a class=&#34;commit-link&#34; href=&#34;https://github.com/sethvargo/go-envconfig/compare/v0.6.2...v0.7.0&#34;&gt;&lt;tt&gt;v0.6.2...v0.7.0&lt;/tt&gt;&lt;/a&gt;&lt;/p&gt;</content>
     <link href="https://github.com/sethvargo/go-envconfig/releases/tag/v0.7.0" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
@@ -2834,7 +2834,7 @@
     <title>Release notes from spanner-autoscaler - v0.4.1</title>
     <updated>2022-06-03T02:28:16Z</updated>
     <id>tag:github.com,2008:Repository/269546161/v0.4.1</id>
-    <content type="html">&lt;h2&gt;What&#39;s Changed&lt;/h2&gt;&#xA;&lt;h3&gt;Other Changes&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Honor config-file options by &lt;a class=&#34;user-mention notranslate&#34; data-hovercard-type=&#34;user&#34; data-hovercard-url=&#34;/users/rustycl0ck/hovercard&#34; data-octo-click=&#34;hovercard-link-click&#34; data-octo-dimensions=&#34;link_type:self&#34; href=&#34;https://github.com/rustycl0ck&#34;&gt;@rustycl0ck&lt;/a&gt; in &lt;a href=&#34;https://github.com/mercari/spanner-autoscaler/pull/85&#34; gh:issue-mention=&#34;{&amp;quot;nwo&amp;quot;:&amp;quot;mercari/spanner-autoscaler&amp;quot;,&amp;quot;number&amp;quot;:&amp;quot;85&amp;quot;,&amp;quot;anchor&amp;quot;:null}&#34;&gt;https://github.com/mercari/spanner-autoscaler/pull/85&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: &lt;a class=&#34;commit-link&#34; href=&#34;https://github.com/mercari/spanner-autoscaler/compare/v0.4.0...v0.4.1&#34;&gt;&lt;tt&gt;v0.4.0...v0.4.1&lt;/tt&gt;&lt;/a&gt;&lt;/p&gt;</content>
+    <content type="html">&lt;h2&gt;What&#39;s Changed&lt;/h2&gt;&#xA;&lt;h3&gt;Other Changes&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Honor config-file options by &lt;a class=&#34;user-mention notranslate&#34; data-hovercard-type=&#34;user&#34; data-hovercard-url=&#34;/users/rustycl0ck/hovercard&#34; data-octo-click=&#34;hovercard-link-click&#34; data-octo-dimensions=&#34;link_type:self&#34; href=&#34;https://github.com/rustycl0ck&#34;&gt;@rustycl0ck&lt;/a&gt; in &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1252355435&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/mercari/spanner-autoscaler/issues/85&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/mercari/spanner-autoscaler/pull/85/hovercard&#34; href=&#34;https://github.com/mercari/spanner-autoscaler/pull/85&#34;&gt;#85&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: &lt;a class=&#34;commit-link&#34; href=&#34;https://github.com/mercari/spanner-autoscaler/compare/v0.4.0...v0.4.1&#34;&gt;&lt;tt&gt;v0.4.0...v0.4.1&lt;/tt&gt;&lt;/a&gt;&lt;/p&gt;</content>
     <link href="https://github.com/mercari/spanner-autoscaler/releases/tag/v0.4.1" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
@@ -3208,7 +3208,7 @@
     <title>Release notes from task - v3.12.1</title>
     <updated>2022-05-10T21:04:05Z</updated>
     <id>tag:github.com,2008:Repository/83252983/v3.12.1</id>
-    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;Fixed bug where, on Windows, variables were ending with &lt;code&gt;\r&lt;/code&gt; because we were only removing the final &lt;code&gt;\n&lt;/code&gt; but not &lt;code&gt;\r\n&lt;/code&gt; (&lt;a href=&#34;https://github.com/go-task/task/issues/717&#34; gh:issue-mention=&#34;{&amp;quot;nwo&amp;quot;:&amp;quot;go-task/task&amp;quot;,&amp;quot;number&amp;quot;:&amp;quot;717&amp;quot;,&amp;quot;anchor&amp;quot;:null}&#34;&gt;#717&lt;/a&gt;).&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;Fixed bug where, on Windows, variables were ending with &lt;code&gt;\r&lt;/code&gt; because we were only removing the final &lt;code&gt;\n&lt;/code&gt; but not &lt;code&gt;\r\n&lt;/code&gt; (&lt;a href=&#34;https://github.com/go-task/task/issues/717&#34; data-hovercard-type=&#34;issue&#34; data-hovercard-url=&#34;/go-task/task/issues/717/hovercard&#34;&gt;#717&lt;/a&gt;).&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
     <link href="https://github.com/go-task/task/releases/tag/v3.12.1" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
@@ -3373,7 +3373,7 @@
     <title>Release notes from metadata-action - v4.0.1</title>
     <updated>2022-05-05T11:58:48Z</updated>
     <id>tag:github.com,2008:Repository/306769011/v4.0.1</id>
-    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;Sanitize tag earlier by &lt;a class=&#34;user-mention notranslate&#34; data-hovercard-type=&#34;user&#34; data-hovercard-url=&#34;/users/crazy-max/hovercard&#34; data-octo-click=&#34;hovercard-link-click&#34; data-octo-dimensions=&#34;link_type:self&#34; href=&#34;https://github.com/crazy-max&#34;&gt;@crazy-max&lt;/a&gt; (&lt;gh:issue-mention marker=&#34;#&#34; number=&#34;203&#34;&gt;&lt;/gh:issue-mention&gt;)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: &lt;a class=&#34;commit-link&#34; href=&#34;https://github.com/docker/metadata-action/compare/v4.0.0...v4.0.1&#34;&gt;&lt;tt&gt;v4.0.0...v4.0.1&lt;/tt&gt;&lt;/a&gt;&lt;/p&gt;</content>
+    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;Sanitize tag earlier by &lt;a class=&#34;user-mention notranslate&#34; data-hovercard-type=&#34;user&#34; data-hovercard-url=&#34;/users/crazy-max/hovercard&#34; data-octo-click=&#34;hovercard-link-click&#34; data-octo-dimensions=&#34;link_type:self&#34; href=&#34;https://github.com/crazy-max&#34;&gt;@crazy-max&lt;/a&gt; (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1226573813&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/docker/metadata-action/issues/203&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/docker/metadata-action/pull/203/hovercard&#34; href=&#34;https://github.com/docker/metadata-action/pull/203&#34;&gt;#203&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: &lt;a class=&#34;commit-link&#34; href=&#34;https://github.com/docker/metadata-action/compare/v4.0.0...v4.0.1&#34;&gt;&lt;tt&gt;v4.0.0...v4.0.1&lt;/tt&gt;&lt;/a&gt;&lt;/p&gt;</content>
     <link href="https://github.com/docker/metadata-action/releases/tag/v4.0.1" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
@@ -3626,7 +3626,7 @@
     <title>Release notes from spanner-cli - v0.9.11</title>
     <updated>2022-04-20T00:09:46Z</updated>
     <id>tag:github.com,2008:Repository/152699846/v0.9.11</id>
-    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;Features&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Support Transaction Tags and Request Tags (&lt;gh:issue-mention marker=&#34;#&#34; number=&#34;128&#34;&gt;&lt;/gh:issue-mention&gt;)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;Bug Fixes&#xA;&lt;ul&gt;&#xA;&lt;li&gt;None&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;Breaking Changes&#xA;&lt;ul&gt;&#xA;&lt;li&gt;None&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;Features&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Support Transaction Tags and Request Tags (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1205709061&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/cloudspannerecosystem/spanner-cli/issues/128&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/cloudspannerecosystem/spanner-cli/pull/128/hovercard&#34; href=&#34;https://github.com/cloudspannerecosystem/spanner-cli/pull/128&#34;&gt;#128&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;Bug Fixes&#xA;&lt;ul&gt;&#xA;&lt;li&gt;None&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;Breaking Changes&#xA;&lt;ul&gt;&#xA;&lt;li&gt;None&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
     <link href="https://github.com/cloudspannerecosystem/spanner-cli/releases/tag/v0.9.11" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
@@ -4638,7 +4638,7 @@
     <title>Release notes from apd - v3.0.1</title>
     <updated>2022-01-29T20:24:25Z</updated>
     <id>tag:github.com,2008:Repository/75918965/v3.0.1</id>
-    <content type="html">&lt;h2&gt;What&#39;s Changed&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;apd: avoid function calls on hot paths by &lt;a class=&#34;user-mention notranslate&#34; data-hovercard-type=&#34;user&#34; data-hovercard-url=&#34;/users/nvanbenschoten/hovercard&#34; data-octo-click=&#34;hovercard-link-click&#34; data-octo-dimensions=&#34;link_type:self&#34; href=&#34;https://github.com/nvanbenschoten&#34;&gt;@nvanbenschoten&lt;/a&gt; in &lt;a href=&#34;https://github.com/cockroachdb/apd/pull/112&#34; gh:issue-mention=&#34;{&amp;quot;nwo&amp;quot;:&amp;quot;cockroachdb/apd&amp;quot;,&amp;quot;number&amp;quot;:&amp;quot;112&amp;quot;,&amp;quot;anchor&amp;quot;:null}&#34;&gt;https://github.com/cockroachdb/apd/pull/112&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: &lt;a class=&#34;commit-link&#34; href=&#34;https://github.com/cockroachdb/apd/compare/v3.0.0...v3.0.1&#34;&gt;&lt;tt&gt;v3.0.0...v3.0.1&lt;/tt&gt;&lt;/a&gt;&lt;/p&gt;</content>
+    <content type="html">&lt;h2&gt;What&#39;s Changed&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;apd: avoid function calls on hot paths by &lt;a class=&#34;user-mention notranslate&#34; data-hovercard-type=&#34;user&#34; data-hovercard-url=&#34;/users/nvanbenschoten/hovercard&#34; data-octo-click=&#34;hovercard-link-click&#34; data-octo-dimensions=&#34;link_type:self&#34; href=&#34;https://github.com/nvanbenschoten&#34;&gt;@nvanbenschoten&lt;/a&gt; in &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1105361792&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/cockroachdb/apd/issues/112&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/cockroachdb/apd/pull/112/hovercard&#34; href=&#34;https://github.com/cockroachdb/apd/pull/112&#34;&gt;#112&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: &lt;a class=&#34;commit-link&#34; href=&#34;https://github.com/cockroachdb/apd/compare/v3.0.0...v3.0.1&#34;&gt;&lt;tt&gt;v3.0.0...v3.0.1&lt;/tt&gt;&lt;/a&gt;&lt;/p&gt;</content>
     <link href="https://github.com/cockroachdb/apd/releases/tag/v3.0.1" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
@@ -4671,7 +4671,7 @@
     <title>Release notes from air - v1.27.10</title>
     <updated>2022-01-25T13:29:41Z</updated>
     <id>tag:github.com,2008:Repository/106704041/v1.27.10</id>
-    <content type="html">&lt;h2&gt;Changelog&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a class=&#34;commit-link&#34; data-hovercard-type=&#34;commit&#34; data-hovercard-url=&#34;https://github.com/cosmtrek/air/commit/9a9b1f639bffed33d2d3bc66a06ccee6dea19506/hovercard&#34; href=&#34;https://github.com/cosmtrek/air/commit/9a9b1f639bffed33d2d3bc66a06ccee6dea19506&#34;&gt;&lt;tt&gt;9a9b1f6&lt;/tt&gt;&lt;/a&gt; Fix npe xiantang (&lt;gh:issue-mention marker=&#34;#&#34; number=&#34;247&#34;&gt;&lt;/gh:issue-mention&gt;)&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <content type="html">&lt;h2&gt;Changelog&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a class=&#34;commit-link&#34; data-hovercard-type=&#34;commit&#34; data-hovercard-url=&#34;https://github.com/cosmtrek/air/commit/9a9b1f639bffed33d2d3bc66a06ccee6dea19506/hovercard&#34; href=&#34;https://github.com/cosmtrek/air/commit/9a9b1f639bffed33d2d3bc66a06ccee6dea19506&#34;&gt;&lt;tt&gt;9a9b1f6&lt;/tt&gt;&lt;/a&gt; Fix npe xiantang (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1113862521&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/cosmtrek/air/issues/247&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/cosmtrek/air/pull/247/hovercard&#34; href=&#34;https://github.com/cosmtrek/air/pull/247&#34;&gt;#247&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
     <link href="https://github.com/cosmtrek/air/releases/tag/v1.27.10" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
@@ -5430,7 +5430,7 @@
     <title>Release notes from spanner-autoscaler - v0.1.4</title>
     <updated>2021-11-16T04:02:24Z</updated>
     <id>tag:github.com,2008:Repository/269546161/v0.1.4</id>
-    <content type="html">&lt;h2&gt;What&#39;s Changed&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Set OutputPaths to zap by &lt;a class=&#34;user-mention notranslate&#34; data-hovercard-type=&#34;user&#34; data-hovercard-url=&#34;/users/tkuchiki/hovercard&#34; data-octo-click=&#34;hovercard-link-click&#34; data-octo-dimensions=&#34;link_type:self&#34; href=&#34;https://github.com/tkuchiki&#34;&gt;@tkuchiki&lt;/a&gt; in &lt;a href=&#34;https://github.com/mercari/spanner-autoscaler/pull/23&#34; gh:issue-mention=&#34;{&amp;quot;nwo&amp;quot;:&amp;quot;mercari/spanner-autoscaler&amp;quot;,&amp;quot;number&amp;quot;:&amp;quot;23&amp;quot;,&amp;quot;anchor&amp;quot;:null}&#34;&gt;https://github.com/mercari/spanner-autoscaler/pull/23&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: &lt;a class=&#34;commit-link&#34; href=&#34;https://github.com/mercari/spanner-autoscaler/compare/v0.1.3...v0.1.4&#34;&gt;&lt;tt&gt;v0.1.3...v0.1.4&lt;/tt&gt;&lt;/a&gt;&lt;/p&gt;</content>
+    <content type="html">&lt;h2&gt;What&#39;s Changed&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Set OutputPaths to zap by &lt;a class=&#34;user-mention notranslate&#34; data-hovercard-type=&#34;user&#34; data-hovercard-url=&#34;/users/tkuchiki/hovercard&#34; data-octo-click=&#34;hovercard-link-click&#34; data-octo-dimensions=&#34;link_type:self&#34; href=&#34;https://github.com/tkuchiki&#34;&gt;@tkuchiki&lt;/a&gt; in &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;696569996&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/mercari/spanner-autoscaler/issues/23&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/mercari/spanner-autoscaler/pull/23/hovercard&#34; href=&#34;https://github.com/mercari/spanner-autoscaler/pull/23&#34;&gt;#23&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: &lt;a class=&#34;commit-link&#34; href=&#34;https://github.com/mercari/spanner-autoscaler/compare/v0.1.3...v0.1.4&#34;&gt;&lt;tt&gt;v0.1.3...v0.1.4&lt;/tt&gt;&lt;/a&gt;&lt;/p&gt;</content>
     <link href="https://github.com/mercari/spanner-autoscaler/releases/tag/v0.1.4" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
@@ -5452,7 +5452,7 @@
     <title>Release notes from spanner-autoscaler - v0.2.1</title>
     <updated>2021-11-16T04:01:33Z</updated>
     <id>tag:github.com,2008:Repository/269546161/v0.2.1</id>
-    <content type="html">&lt;h2&gt;What&#39;s Changed&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Integrate &lt;code&gt;kpt&lt;/code&gt; with Kustomize resources by &lt;a class=&#34;user-mention notranslate&#34; data-hovercard-type=&#34;user&#34; data-hovercard-url=&#34;/users/rustycl0ck/hovercard&#34; data-octo-click=&#34;hovercard-link-click&#34; data-octo-dimensions=&#34;link_type:self&#34; href=&#34;https://github.com/rustycl0ck&#34;&gt;@rustycl0ck&lt;/a&gt; in &lt;a href=&#34;https://github.com/mercari/spanner-autoscaler/pull/47&#34; gh:issue-mention=&#34;{&amp;quot;nwo&amp;quot;:&amp;quot;mercari/spanner-autoscaler&amp;quot;,&amp;quot;number&amp;quot;:&amp;quot;47&amp;quot;,&amp;quot;anchor&amp;quot;:null}&#34;&gt;https://github.com/mercari/spanner-autoscaler/pull/47&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: &lt;a class=&#34;commit-link&#34; href=&#34;https://github.com/mercari/spanner-autoscaler/compare/v0.2.0...v0.2.1&#34;&gt;&lt;tt&gt;v0.2.0...v0.2.1&lt;/tt&gt;&lt;/a&gt;&lt;/p&gt;</content>
+    <content type="html">&lt;h2&gt;What&#39;s Changed&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Integrate &lt;code&gt;kpt&lt;/code&gt; with Kustomize resources by &lt;a class=&#34;user-mention notranslate&#34; data-hovercard-type=&#34;user&#34; data-hovercard-url=&#34;/users/rustycl0ck/hovercard&#34; data-octo-click=&#34;hovercard-link-click&#34; data-octo-dimensions=&#34;link_type:self&#34; href=&#34;https://github.com/rustycl0ck&#34;&gt;@rustycl0ck&lt;/a&gt; in &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1032343256&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/mercari/spanner-autoscaler/issues/47&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/mercari/spanner-autoscaler/pull/47/hovercard&#34; href=&#34;https://github.com/mercari/spanner-autoscaler/pull/47&#34;&gt;#47&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: &lt;a class=&#34;commit-link&#34; href=&#34;https://github.com/mercari/spanner-autoscaler/compare/v0.2.0...v0.2.1&#34;&gt;&lt;tt&gt;v0.2.0...v0.2.1&lt;/tt&gt;&lt;/a&gt;&lt;/p&gt;</content>
     <link href="https://github.com/mercari/spanner-autoscaler/releases/tag/v0.2.1" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
@@ -5771,7 +5771,7 @@
     <title>Release notes from stern - v1.20.1</title>
     <updated>2021-09-11T12:25:30Z</updated>
     <id>tag:github.com,2008:Repository/306013800/v1.20.1</id>
-    <content type="html">&lt;h2&gt;Changelog&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Use Go 1.17 (&lt;gh:issue-mention marker=&#34;#&#34; number=&#34;157&#34;&gt;&lt;/gh:issue-mention&gt;) &lt;a class=&#34;commit-link&#34; data-hovercard-type=&#34;commit&#34; data-hovercard-url=&#34;https://github.com/stern/stern/commit/a384d35f36e43953ac3c6af5a20ffc97cb8205cf/hovercard&#34; href=&#34;https://github.com/stern/stern/commit/a384d35f36e43953ac3c6af5a20ffc97cb8205cf&#34;&gt;&lt;tt&gt;a384d35&lt;/tt&gt;&lt;/a&gt; (Ryuichi KAWAMATA)&lt;/li&gt;&#xA;&lt;li&gt;Fix a dependecy issue with klog (&lt;gh:issue-mention marker=&#34;#&#34; number=&#34;154&#34;&gt;&lt;/gh:issue-mention&gt;) &lt;a class=&#34;commit-link&#34; data-hovercard-type=&#34;commit&#34; data-hovercard-url=&#34;https://github.com/stern/stern/commit/bbcd61a1a95057848322344917ece1a03507ca56/hovercard&#34; href=&#34;https://github.com/stern/stern/commit/bbcd61a1a95057848322344917ece1a03507ca56&#34;&gt;&lt;tt&gt;bbcd61a&lt;/tt&gt;&lt;/a&gt; (Kazuki Suda)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2&gt;Docker images&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;code&gt;docker pull ghcr.io/stern/stern:1&lt;/code&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;code&gt;docker pull ghcr.io/stern/stern:1.20&lt;/code&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;code&gt;docker pull ghcr.io/stern/stern:1.20.1&lt;/code&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <content type="html">&lt;h2&gt;Changelog&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Use Go 1.17 (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;993807014&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/stern/stern/issues/157&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/stern/stern/pull/157/hovercard&#34; href=&#34;https://github.com/stern/stern/pull/157&#34;&gt;#157&lt;/a&gt;) &lt;a class=&#34;commit-link&#34; data-hovercard-type=&#34;commit&#34; data-hovercard-url=&#34;https://github.com/stern/stern/commit/a384d35f36e43953ac3c6af5a20ffc97cb8205cf/hovercard&#34; href=&#34;https://github.com/stern/stern/commit/a384d35f36e43953ac3c6af5a20ffc97cb8205cf&#34;&gt;&lt;tt&gt;a384d35&lt;/tt&gt;&lt;/a&gt; (Ryuichi KAWAMATA)&lt;/li&gt;&#xA;&lt;li&gt;Fix a dependecy issue with klog (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;972200230&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/stern/stern/issues/154&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/stern/stern/pull/154/hovercard&#34; href=&#34;https://github.com/stern/stern/pull/154&#34;&gt;#154&lt;/a&gt;) &lt;a class=&#34;commit-link&#34; data-hovercard-type=&#34;commit&#34; data-hovercard-url=&#34;https://github.com/stern/stern/commit/bbcd61a1a95057848322344917ece1a03507ca56/hovercard&#34; href=&#34;https://github.com/stern/stern/commit/bbcd61a1a95057848322344917ece1a03507ca56&#34;&gt;&lt;tt&gt;bbcd61a&lt;/tt&gt;&lt;/a&gt; (Kazuki Suda)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2&gt;Docker images&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;code&gt;docker pull ghcr.io/stern/stern:1&lt;/code&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;code&gt;docker pull ghcr.io/stern/stern:1.20&lt;/code&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;code&gt;docker pull ghcr.io/stern/stern:1.20.1&lt;/code&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
     <link href="https://github.com/stern/stern/releases/tag/v1.20.1" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
@@ -5936,7 +5936,7 @@
     <title>Release notes from metadata-action - v3.5.0</title>
     <updated>2021-08-20T09:09:21Z</updated>
     <id>tag:github.com,2008:Repository/306769011/v3.5.0</id>
-    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;Add global expression &lt;code&gt;date&lt;/code&gt; (&lt;gh:issue-mention marker=&#34;#&#34; number=&#34;121&#34;&gt;&lt;/gh:issue-mention&gt;)&lt;/li&gt;&#xA;&lt;li&gt;Bump @actions/core from 1.4.0 to 1.5.0 (&lt;gh:issue-mention marker=&#34;#&#34; number=&#34;122&#34;&gt;&lt;/gh:issue-mention&gt;)&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;Add global expression &lt;code&gt;date&lt;/code&gt; (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;974904251&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/docker/metadata-action/issues/121&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/docker/metadata-action/pull/121/hovercard&#34; href=&#34;https://github.com/docker/metadata-action/pull/121&#34;&gt;#121&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;Bump @actions/core from 1.4.0 to 1.5.0 (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;974965466&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/docker/metadata-action/issues/122&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/docker/metadata-action/pull/122/hovercard&#34; href=&#34;https://github.com/docker/metadata-action/pull/122&#34;&gt;#122&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
     <link href="https://github.com/docker/metadata-action/releases/tag/v3.5.0" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
@@ -6673,7 +6673,7 @@
     <title>Release notes from spanner-cli - v0.9.7</title>
     <updated>2021-05-11T22:29:29Z</updated>
     <id>tag:github.com,2008:Repository/152699846/v0.9.7</id>
-    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;Features&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Support ALTER DATABASE statement (&lt;gh:issue-mention marker=&#34;#&#34; number=&#34;116&#34;&gt;&lt;/gh:issue-mention&gt;)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;Bug Fixes&#xA;&lt;ul&gt;&#xA;&lt;li&gt;None&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;Breaking Changes&#xA;&lt;ul&gt;&#xA;&lt;li&gt;None&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;Features&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Support ALTER DATABASE statement (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;885291808&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/cloudspannerecosystem/spanner-cli/issues/116&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/cloudspannerecosystem/spanner-cli/pull/116/hovercard&#34; href=&#34;https://github.com/cloudspannerecosystem/spanner-cli/pull/116&#34;&gt;#116&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;Bug Fixes&#xA;&lt;ul&gt;&#xA;&lt;li&gt;None&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;Breaking Changes&#xA;&lt;ul&gt;&#xA;&lt;li&gt;None&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
     <link href="https://github.com/cloudspannerecosystem/spanner-cli/releases/tag/v0.9.7" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
@@ -7047,7 +7047,7 @@
     <title>Release notes from spanner-cli - v0.9.5</title>
     <updated>2021-03-09T07:12:14Z</updated>
     <id>tag:github.com,2008:Repository/152699846/v0.9.5</id>
-    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;Features&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Show deleted_rows_scanned stats in verbose mode (&lt;gh:issue-mention marker=&#34;#&#34; number=&#34;108&#34;&gt;&lt;/gh:issue-mention&gt;)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;Bug Fixes&#xA;&lt;ul&gt;&#xA;&lt;li&gt;None&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;Breaking Changes&#xA;&lt;ul&gt;&#xA;&lt;li&gt;None&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;Features&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Show deleted_rows_scanned stats in verbose mode (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;825413862&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/cloudspannerecosystem/spanner-cli/issues/108&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/cloudspannerecosystem/spanner-cli/pull/108/hovercard&#34; href=&#34;https://github.com/cloudspannerecosystem/spanner-cli/pull/108&#34;&gt;#108&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;Bug Fixes&#xA;&lt;ul&gt;&#xA;&lt;li&gt;None&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;Breaking Changes&#xA;&lt;ul&gt;&#xA;&lt;li&gt;None&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
     <link href="https://github.com/cloudspannerecosystem/spanner-cli/releases/tag/v0.9.5" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
@@ -7352,22 +7352,22 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from backoff - v2.0.3: Merge pull request #18 from lestrrat-go/topic/fix-v2-go-mod</title>
+    <title>Release notes from backoff - v2.0.2: Merge pull request #18 from lestrrat-go/topic/fix-v2-go-mod</title>
     <updated>2021-01-06T03:00:05Z</updated>
-    <id>tag:github.com,2008:Repository/118608673/v2.0.3</id>
+    <id>tag:github.com,2008:Repository/118608673/v2.0.2</id>
     <content type="html">&lt;p&gt;Fix go.mod&lt;/p&gt;</content>
-    <link href="https://github.com/lestrrat-go/backoff/releases/tag/v2.0.3" rel="alternate"></link>
+    <link href="https://github.com/lestrrat-go/backoff/releases/tag/v2.0.2" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>lestrrat</name>
     </author>
   </entry>
   <entry>
-    <title>Release notes from backoff - v2.0.2: Merge pull request #18 from lestrrat-go/topic/fix-v2-go-mod</title>
+    <title>Release notes from backoff - v2.0.3: Merge pull request #18 from lestrrat-go/topic/fix-v2-go-mod</title>
     <updated>2021-01-06T03:00:05Z</updated>
-    <id>tag:github.com,2008:Repository/118608673/v2.0.2</id>
+    <id>tag:github.com,2008:Repository/118608673/v2.0.3</id>
     <content type="html">&lt;p&gt;Fix go.mod&lt;/p&gt;</content>
-    <link href="https://github.com/lestrrat-go/backoff/releases/tag/v2.0.2" rel="alternate"></link>
+    <link href="https://github.com/lestrrat-go/backoff/releases/tag/v2.0.3" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>lestrrat</name>
@@ -7619,7 +7619,7 @@
     <title>Release notes from uuid - Minor fixes</title>
     <updated>2020-08-30T14:13:43Z</updated>
     <id>tag:github.com,2008:Repository/51620247/v1.1.2</id>
-    <content type="html">&lt;p&gt;This release contains&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Allow concurrent, re-creatable usage  &lt;gh:issue-mention marker=&#34;#&#34; number=&#34;44&#34;&gt;&lt;/gh:issue-mention&gt; by trabetti was merged on Apr 16, 2019&lt;/li&gt;&#xA;&lt;li&gt;Fix race in NewUUID()  &lt;gh:issue-mention marker=&#34;#&#34; number=&#34;64&#34;&gt;&lt;/gh:issue-mention&gt; by AstolfoKawaii was merged on Jul 2, 2020&lt;/li&gt;&#xA;&lt;li&gt;Minor formatting and typo fixes&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <content type="html">&lt;p&gt;This release contains&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Allow concurrent, re-creatable usage  &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;415616902&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/google/uuid/issues/44&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/google/uuid/pull/44/hovercard&#34; href=&#34;https://github.com/google/uuid/pull/44&#34;&gt;#44&lt;/a&gt; by trabetti was merged on Apr 16, 2019&lt;/li&gt;&#xA;&lt;li&gt;Fix race in NewUUID()  &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;648964826&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/google/uuid/issues/64&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/google/uuid/pull/64/hovercard&#34; href=&#34;https://github.com/google/uuid/pull/64&#34;&gt;#64&lt;/a&gt; by AstolfoKawaii was merged on Jul 2, 2020&lt;/li&gt;&#xA;&lt;li&gt;Minor formatting and typo fixes&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
     <link href="https://github.com/google/uuid/releases/tag/v1.1.2" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
@@ -7839,7 +7839,7 @@
     <title>Release notes from teip - v1.1.2</title>
     <updated>2020-06-07T22:42:57Z</updated>
     <id>tag:github.com,2008:Repository/268647751/v1.1.2</id>
-    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;New feature: Implement Oniguruma regular expression (-R) &lt;gh:issue-mention marker=&#34;#&#34; number=&#34;1&#34;&gt;&lt;/gh:issue-mention&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;New feature: Implement Oniguruma regular expression (-R) &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;631087651&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/greymd/teip/issues/1&#34; data-hovercard-type=&#34;issue&#34; data-hovercard-url=&#34;/greymd/teip/issues/1/hovercard&#34; href=&#34;https://github.com/greymd/teip/issues/1&#34;&gt;#1&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
     <link href="https://github.com/greymd/teip/releases/tag/v1.1.2" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
@@ -8499,7 +8499,7 @@
     <title>Release notes from go-retryablehttp - v0.6.1: Use cleanhttp.DefaultPooledConnection and enforce cleanup (#57)</title>
     <updated>2019-08-26T18:40:29Z</updated>
     <id>tag:github.com,2008:Repository/47565506/v0.6.1</id>
-    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;Use cleanhttp.DefaultPooledConnection and enforce cleanup&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;This allows reuse of the existing connection on retries, since they&#39;re&lt;br&gt;&#xA;going to the same host, but we explicitly close idle connections to&lt;br&gt;&#xA;ensure they don&#39;t stick around forever after the series of requests is&lt;br&gt;&#xA;done.&lt;/p&gt;&#xA;&lt;p&gt;Fixes &lt;gh:issue-mention marker=&#34;#&#34; number=&#34;44&#34;&gt;&lt;/gh:issue-mention&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Fix merge&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;Use cleanhttp.DefaultPooledConnection and enforce cleanup&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;This allows reuse of the existing connection on retries, since they&#39;re&lt;br&gt;&#xA;going to the same host, but we explicitly close idle connections to&lt;br&gt;&#xA;ensure they don&#39;t stick around forever after the series of requests is&lt;br&gt;&#xA;done.&lt;/p&gt;&#xA;&lt;p&gt;Fixes &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;416094556&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/hashicorp/go-retryablehttp/issues/44&#34; data-hovercard-type=&#34;issue&#34; data-hovercard-url=&#34;/hashicorp/go-retryablehttp/issues/44/hovercard&#34; href=&#34;https://github.com/hashicorp/go-retryablehttp/issues/44&#34;&gt;#44&lt;/a&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Fix merge&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
     <link href="https://github.com/hashicorp/go-retryablehttp/releases/tag/v0.6.1" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
