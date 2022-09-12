@@ -1,8 +1,118 @@
 <?xml version="1.0" encoding="UTF-8"?><feed xmlns="http://www.w3.org/2005/Atom">
   <title>Releases from Starred by toga4</title>
   <id>https://toga4.github.io/feeds/starred-releases.atom</id>
-  <updated>2022-09-12T20:07:20Z</updated>
+  <updated>2022-09-12T20:47:40Z</updated>
   <link href="https://toga4.github.io/feeds/starred-releases.atom"></link>
+  <entry>
+    <title>Release notes from opentelemetry-go - Release v1.10.0</title>
+    <updated>2022-09-12T20:47:40Z</updated>
+    <id>tag:github.com,2008:Repository/187086161/v1.10.0</id>
+    <content type="html">&lt;h3&gt;Added&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Support Go 1.19. (&lt;a href=&#34;https://github.com/open-telemetry/opentelemetry-go/pull/3077&#34; gh:issue-mention=&#34;{&amp;quot;nwo&amp;quot;:&amp;quot;open-telemetry/opentelemetry-go&amp;quot;,&amp;quot;number&amp;quot;:&amp;quot;3077&amp;quot;,&amp;quot;anchor&amp;quot;:null}&#34;&gt;#3077&lt;/a&gt;)&lt;br&gt;&#xA;Include compatibility testing and document support. (&lt;a href=&#34;https://github.com/open-telemetry/opentelemetry-go/pull/3077&#34; gh:issue-mention=&#34;{&amp;quot;nwo&amp;quot;:&amp;quot;open-telemetry/opentelemetry-go&amp;quot;,&amp;quot;number&amp;quot;:&amp;quot;3077&amp;quot;,&amp;quot;anchor&amp;quot;:null}&#34;&gt;#3077&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;Support the OTLP ExportTracePartialSuccess response; these are passed to the registered error handler. (&lt;a href=&#34;https://github.com/open-telemetry/opentelemetry-go/pull/3106&#34; gh:issue-mention=&#34;{&amp;quot;nwo&amp;quot;:&amp;quot;open-telemetry/opentelemetry-go&amp;quot;,&amp;quot;number&amp;quot;:&amp;quot;3106&amp;quot;,&amp;quot;anchor&amp;quot;:null}&#34;&gt;#3106&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;Upgrade go.opentelemetry.io/proto/otlp from v0.18.0 to v0.19.0 (&lt;a href=&#34;https://github.com/open-telemetry/opentelemetry-go/pull/3107&#34; gh:issue-mention=&#34;{&amp;quot;nwo&amp;quot;:&amp;quot;open-telemetry/opentelemetry-go&amp;quot;,&amp;quot;number&amp;quot;:&amp;quot;3107&amp;quot;,&amp;quot;anchor&amp;quot;:null}&#34;&gt;#3107&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3&gt;Changed&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Fix misidentification of OpenTelemetry &lt;code&gt;SpanKind&lt;/code&gt; in OpenTracing bridge (&lt;code&gt;go.opentelemetry.io/otel/bridge/opentracing&lt;/code&gt;).  (&lt;a href=&#34;https://github.com/open-telemetry/opentelemetry-go/pull/3096&#34; gh:issue-mention=&#34;{&amp;quot;nwo&amp;quot;:&amp;quot;open-telemetry/opentelemetry-go&amp;quot;,&amp;quot;number&amp;quot;:&amp;quot;3096&amp;quot;,&amp;quot;anchor&amp;quot;:null}&#34;&gt;#3096&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;Attempting to start a span with a nil &lt;code&gt;context&lt;/code&gt; will no longer cause a panic. (&lt;a href=&#34;https://github.com/open-telemetry/opentelemetry-go/pull/3110&#34; gh:issue-mention=&#34;{&amp;quot;nwo&amp;quot;:&amp;quot;open-telemetry/opentelemetry-go&amp;quot;,&amp;quot;number&amp;quot;:&amp;quot;3110&amp;quot;,&amp;quot;anchor&amp;quot;:null}&#34;&gt;#3110&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;All exporters will be shutdown even if one reports an error (&lt;a href=&#34;https://github.com/open-telemetry/opentelemetry-go/pull/3091&#34; gh:issue-mention=&#34;{&amp;quot;nwo&amp;quot;:&amp;quot;open-telemetry/opentelemetry-go&amp;quot;,&amp;quot;number&amp;quot;:&amp;quot;3091&amp;quot;,&amp;quot;anchor&amp;quot;:null}&#34;&gt;#3091&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;Ensure valid UTF-8 when truncating over-length attribute values. (&lt;a href=&#34;https://github.com/open-telemetry/opentelemetry-go/pull/3156&#34; gh:issue-mention=&#34;{&amp;quot;nwo&amp;quot;:&amp;quot;open-telemetry/opentelemetry-go&amp;quot;,&amp;quot;number&amp;quot;:&amp;quot;3156&amp;quot;,&amp;quot;anchor&amp;quot;:null}&#34;&gt;#3156&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/open-telemetry/opentelemetry-go/releases/tag/v1.10.0" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>MadVikingGod</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from opentelemetry-go - sdk/v1.10.0</title>
+    <updated>2022-09-12T20:27:00Z</updated>
+    <id>tag:github.com,2008:Repository/187086161/sdk/v1.10.0</id>
+    <content type="html">&lt;p&gt;Module set stable-v1, Version v1.10.0&lt;/p&gt;</content>
+    <link href="https://github.com/open-telemetry/opentelemetry-go/releases/tag/sdk%2Fv1.10.0" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>MadVikingGod</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from opentelemetry-go - exporters/stdout/stdouttrace/v1.10.0</title>
+    <updated>2022-09-12T20:27:00Z</updated>
+    <id>tag:github.com,2008:Repository/187086161/exporters/stdout/stdouttrace/v1.10.0</id>
+    <content type="html">&lt;p&gt;Module set stable-v1, Version v1.10.0&lt;/p&gt;</content>
+    <link href="https://github.com/open-telemetry/opentelemetry-go/releases/tag/exporters%2Fstdout%2Fstdouttrace%2Fv1.10.0" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>MadVikingGod</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from opentelemetry-go - trace/v1.10.0</title>
+    <updated>2022-09-12T20:27:00Z</updated>
+    <id>tag:github.com,2008:Repository/187086161/trace/v1.10.0</id>
+    <content type="html">&lt;p&gt;Module set stable-v1, Version v1.10.0&lt;/p&gt;</content>
+    <link href="https://github.com/open-telemetry/opentelemetry-go/releases/tag/trace%2Fv1.10.0" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>MadVikingGod</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from opentelemetry-go - exporters/otlp/otlptrace/otlptracehttp/v1.10.0</title>
+    <updated>2022-09-12T20:26:59Z</updated>
+    <id>tag:github.com,2008:Repository/187086161/exporters/otlp/otlptrace/otlptracehttp/v1.10.0</id>
+    <content type="html">&lt;p&gt;Module set stable-v1, Version v1.10.0&lt;/p&gt;</content>
+    <link href="https://github.com/open-telemetry/opentelemetry-go/releases/tag/exporters%2Fotlp%2Fotlptrace%2Fotlptracehttp%2Fv1.10.0" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>MadVikingGod</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from opentelemetry-go - exporters/otlp/otlptrace/otlptracegrpc/v1.10.0</title>
+    <updated>2022-09-12T20:26:59Z</updated>
+    <id>tag:github.com,2008:Repository/187086161/exporters/otlp/otlptrace/otlptracegrpc/v1.10.0</id>
+    <content type="html">&lt;p&gt;Module set stable-v1, Version v1.10.0&lt;/p&gt;</content>
+    <link href="https://github.com/open-telemetry/opentelemetry-go/releases/tag/exporters%2Fotlp%2Fotlptrace%2Fotlptracegrpc%2Fv1.10.0" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>MadVikingGod</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from opentelemetry-go - exporters/otlp/internal/retry/v1.10.0</title>
+    <updated>2022-09-12T20:26:59Z</updated>
+    <id>tag:github.com,2008:Repository/187086161/exporters/otlp/internal/retry/v1.10.0</id>
+    <content type="html">&lt;p&gt;Module set stable-v1, Version v1.10.0&lt;/p&gt;</content>
+    <link href="https://github.com/open-telemetry/opentelemetry-go/releases/tag/exporters%2Fotlp%2Finternal%2Fretry%2Fv1.10.0" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>MadVikingGod</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from opentelemetry-go - exporters/zipkin/v1.10.0</title>
+    <updated>2022-09-12T20:26:58Z</updated>
+    <id>tag:github.com,2008:Repository/187086161/exporters/zipkin/v1.10.0</id>
+    <content type="html">&lt;p&gt;Module set stable-v1, Version v1.10.0&lt;/p&gt;</content>
+    <link href="https://github.com/open-telemetry/opentelemetry-go/releases/tag/exporters%2Fzipkin%2Fv1.10.0" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>MadVikingGod</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from opentelemetry-go - exporters/otlp/otlptrace/v1.10.0</title>
+    <updated>2022-09-12T20:26:58Z</updated>
+    <id>tag:github.com,2008:Repository/187086161/exporters/otlp/otlptrace/v1.10.0</id>
+    <content type="html">&lt;p&gt;Module set stable-v1, Version v1.10.0&lt;/p&gt;</content>
+    <link href="https://github.com/open-telemetry/opentelemetry-go/releases/tag/exporters%2Fotlp%2Fotlptrace%2Fv1.10.0" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>MadVikingGod</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from opentelemetry-go - exporters/jaeger/v1.10.0</title>
+    <updated>2022-09-12T20:26:57Z</updated>
+    <id>tag:github.com,2008:Repository/187086161/exporters/jaeger/v1.10.0</id>
+    <content type="html">&lt;p&gt;Module set stable-v1, Version v1.10.0&lt;/p&gt;</content>
+    <link href="https://github.com/open-telemetry/opentelemetry-go/releases/tag/exporters%2Fjaeger%2Fv1.10.0" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>MadVikingGod</name>
+    </author>
+  </entry>
   <entry>
     <title>Release notes from lima - v0.12.0</title>
     <updated>2022-09-12T20:07:20Z</updated>
@@ -26,22 +136,22 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from telepresence - rpc/v2.7.4-test.0</title>
+    <title>Release notes from telepresence - v2.7.4-test.0</title>
     <updated>2022-09-12T16:30:40Z</updated>
-    <id>tag:github.com,2008:Repository/82933315/rpc/v2.7.4-test.0</id>
+    <id>tag:github.com,2008:Repository/82933315/v2.7.4-test.0</id>
     <content type="html">&lt;p&gt;v2.7.4-test.0&lt;/p&gt;</content>
-    <link href="https://github.com/telepresenceio/telepresence/releases/tag/rpc%2Fv2.7.4-test.0" rel="alternate"></link>
+    <link href="https://github.com/telepresenceio/telepresence/releases/tag/v2.7.4-test.0" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>josecv</name>
     </author>
   </entry>
   <entry>
-    <title>Release notes from telepresence - v2.7.4-test.0</title>
+    <title>Release notes from telepresence - rpc/v2.7.4-test.0</title>
     <updated>2022-09-12T16:30:40Z</updated>
-    <id>tag:github.com,2008:Repository/82933315/v2.7.4-test.0</id>
+    <id>tag:github.com,2008:Repository/82933315/rpc/v2.7.4-test.0</id>
     <content type="html">&lt;p&gt;v2.7.4-test.0&lt;/p&gt;</content>
-    <link href="https://github.com/telepresenceio/telepresence/releases/tag/v2.7.4-test.0" rel="alternate"></link>
+    <link href="https://github.com/telepresenceio/telepresence/releases/tag/rpc%2Fv2.7.4-test.0" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>josecv</name>
@@ -224,22 +334,22 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from telepresence - v2.7.4-rc.2</title>
+    <title>Release notes from telepresence - rpc/v2.7.4-rc.2</title>
     <updated>2022-09-09T05:56:04Z</updated>
-    <id>tag:github.com,2008:Repository/82933315/v2.7.4-rc.2</id>
+    <id>tag:github.com,2008:Repository/82933315/rpc/v2.7.4-rc.2</id>
     <content type="html">&lt;p&gt;v2.7.4-rc.2&lt;/p&gt;</content>
-    <link href="https://github.com/telepresenceio/telepresence/releases/tag/v2.7.4-rc.2" rel="alternate"></link>
+    <link href="https://github.com/telepresenceio/telepresence/releases/tag/rpc%2Fv2.7.4-rc.2" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>thallgren</name>
     </author>
   </entry>
   <entry>
-    <title>Release notes from telepresence - rpc/v2.7.4-rc.2</title>
+    <title>Release notes from telepresence - v2.7.4-rc.2</title>
     <updated>2022-09-09T05:56:04Z</updated>
-    <id>tag:github.com,2008:Repository/82933315/rpc/v2.7.4-rc.2</id>
+    <id>tag:github.com,2008:Repository/82933315/v2.7.4-rc.2</id>
     <content type="html">&lt;p&gt;v2.7.4-rc.2&lt;/p&gt;</content>
-    <link href="https://github.com/telepresenceio/telepresence/releases/tag/rpc%2Fv2.7.4-rc.2" rel="alternate"></link>
+    <link href="https://github.com/telepresenceio/telepresence/releases/tag/v2.7.4-rc.2" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>thallgren</name>
@@ -510,22 +620,33 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from opentelemetry-operations-go - internal/cloudmock/v0.32.7</title>
+    <title>Release notes from opentelemetry-operations-go - example/trace/http/v0.32.7</title>
     <updated>2022-09-01T20:11:56Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/internal/cloudmock/v0.32.7</id>
+    <id>tag:github.com,2008:Repository/244484581/example/trace/http/v0.32.7</id>
     <content type="html">&lt;p&gt;prepare for v0.32.7 and v1.8.7 (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1359066704&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/474&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleCloudPlatform/opentelemetry-operations-go/pull/474/hovercard&#34; href=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/pull/474&#34;&gt;#474&lt;/a&gt;)&lt;/p&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/internal%2Fcloudmock%2Fv0.32.7" rel="alternate"></link>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/example%2Ftrace%2Fhttp%2Fv0.32.7" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>dashpole</name>
     </author>
   </entry>
   <entry>
-    <title>Release notes from opentelemetry-operations-go - exporter/collector/v0.32.7</title>
+    <title>Release notes from opentelemetry-operations-go - exporter/collector/googlemanagedprometheus/v0.32.7</title>
     <updated>2022-09-01T20:11:56Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/exporter/collector/v0.32.7</id>
+    <id>tag:github.com,2008:Repository/244484581/exporter/collector/googlemanagedprometheus/v0.32.7</id>
     <content type="html">&lt;p&gt;prepare for v0.32.7 and v1.8.7 (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1359066704&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/474&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleCloudPlatform/opentelemetry-operations-go/pull/474/hovercard&#34; href=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/pull/474&#34;&gt;#474&lt;/a&gt;)&lt;/p&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/exporter%2Fcollector%2Fv0.32.7" rel="alternate"></link>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/exporter%2Fcollector%2Fgooglemanagedprometheus%2Fv0.32.7" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>dashpole</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from opentelemetry-operations-go - detectors/gcp/v0.32.7</title>
+    <updated>2022-09-01T20:11:56Z</updated>
+    <id>tag:github.com,2008:Repository/244484581/detectors/gcp/v0.32.7</id>
+    <content type="html">&lt;p&gt;prepare for v0.32.7 and v1.8.7 (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1359066704&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/474&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleCloudPlatform/opentelemetry-operations-go/pull/474/hovercard&#34; href=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/pull/474&#34;&gt;#474&lt;/a&gt;)&lt;/p&gt;</content>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/detectors%2Fgcp%2Fv0.32.7" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>dashpole</name>
@@ -537,6 +658,28 @@
     <id>tag:github.com,2008:Repository/244484581/internal/resourcemapping/v0.32.7</id>
     <content type="html">&lt;p&gt;prepare for v0.32.7 and v1.8.7 (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1359066704&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/474&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleCloudPlatform/opentelemetry-operations-go/pull/474/hovercard&#34; href=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/pull/474&#34;&gt;#474&lt;/a&gt;)&lt;/p&gt;</content>
     <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/internal%2Fresourcemapping%2Fv0.32.7" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>dashpole</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from opentelemetry-operations-go - example/metric/v0.32.7</title>
+    <updated>2022-09-01T20:11:56Z</updated>
+    <id>tag:github.com,2008:Repository/244484581/example/metric/v0.32.7</id>
+    <content type="html">&lt;p&gt;prepare for v0.32.7 and v1.8.7 (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1359066704&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/474&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleCloudPlatform/opentelemetry-operations-go/pull/474/hovercard&#34; href=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/pull/474&#34;&gt;#474&lt;/a&gt;)&lt;/p&gt;</content>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/example%2Fmetric%2Fv0.32.7" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>dashpole</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from opentelemetry-operations-go - internal/cloudmock/v0.32.7</title>
+    <updated>2022-09-01T20:11:56Z</updated>
+    <id>tag:github.com,2008:Repository/244484581/internal/cloudmock/v0.32.7</id>
+    <content type="html">&lt;p&gt;prepare for v0.32.7 and v1.8.7 (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1359066704&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/474&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleCloudPlatform/opentelemetry-operations-go/pull/474/hovercard&#34; href=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/pull/474&#34;&gt;#474&lt;/a&gt;)&lt;/p&gt;</content>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/internal%2Fcloudmock%2Fv0.32.7" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>dashpole</name>
@@ -565,44 +708,11 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from opentelemetry-operations-go - detectors/gcp/v0.32.7</title>
+    <title>Release notes from opentelemetry-operations-go - exporter/collector/v0.32.7</title>
     <updated>2022-09-01T20:11:56Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/detectors/gcp/v0.32.7</id>
+    <id>tag:github.com,2008:Repository/244484581/exporter/collector/v0.32.7</id>
     <content type="html">&lt;p&gt;prepare for v0.32.7 and v1.8.7 (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1359066704&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/474&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleCloudPlatform/opentelemetry-operations-go/pull/474/hovercard&#34; href=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/pull/474&#34;&gt;#474&lt;/a&gt;)&lt;/p&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/detectors%2Fgcp%2Fv0.32.7" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>dashpole</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from opentelemetry-operations-go - example/metric/v0.32.7</title>
-    <updated>2022-09-01T20:11:56Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/example/metric/v0.32.7</id>
-    <content type="html">&lt;p&gt;prepare for v0.32.7 and v1.8.7 (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1359066704&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/474&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleCloudPlatform/opentelemetry-operations-go/pull/474/hovercard&#34; href=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/pull/474&#34;&gt;#474&lt;/a&gt;)&lt;/p&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/example%2Fmetric%2Fv0.32.7" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>dashpole</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from opentelemetry-operations-go - example/trace/http/v0.32.7</title>
-    <updated>2022-09-01T20:11:56Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/example/trace/http/v0.32.7</id>
-    <content type="html">&lt;p&gt;prepare for v0.32.7 and v1.8.7 (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1359066704&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/474&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleCloudPlatform/opentelemetry-operations-go/pull/474/hovercard&#34; href=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/pull/474&#34;&gt;#474&lt;/a&gt;)&lt;/p&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/example%2Ftrace%2Fhttp%2Fv0.32.7" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>dashpole</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from opentelemetry-operations-go - exporter/collector/googlemanagedprometheus/v0.32.7</title>
-    <updated>2022-09-01T20:11:56Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/exporter/collector/googlemanagedprometheus/v0.32.7</id>
-    <content type="html">&lt;p&gt;prepare for v0.32.7 and v1.8.7 (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1359066704&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/474&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleCloudPlatform/opentelemetry-operations-go/pull/474/hovercard&#34; href=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/pull/474&#34;&gt;#474&lt;/a&gt;)&lt;/p&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/exporter%2Fcollector%2Fgooglemanagedprometheus%2Fv0.32.7" rel="alternate"></link>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/exporter%2Fcollector%2Fv0.32.7" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>dashpole</name>
@@ -1599,17 +1709,6 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from opentelemetry-go - Release v1.9.0/v0.0.3</title>
-    <updated>2022-08-02T15:20:16Z</updated>
-    <id>tag:github.com,2008:Repository/187086161/v1.9.0</id>
-    <content type="html">&lt;h3&gt;Added&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Add support for Schema Files format 1.1.x (metric &#34;split&#34; transform) with the new &lt;code&gt;go.opentelemetry.io/otel/schema/v1.1&lt;/code&gt; package. (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1298000027&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/open-telemetry/opentelemetry-go/issues/2999&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/open-telemetry/opentelemetry-go/pull/2999/hovercard&#34; href=&#34;https://github.com/open-telemetry/opentelemetry-go/pull/2999&#34;&gt;#2999&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;Add the &lt;code&gt;go.opentelemetry.io/otel/semconv/v1.11.0&lt;/code&gt; package.&lt;br&gt;&#xA;The package contains semantic conventions from the &lt;code&gt;v1.11.0&lt;/code&gt; version of the OpenTelemetry specification. (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1301339376&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/open-telemetry/opentelemetry-go/issues/3009&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/open-telemetry/opentelemetry-go/pull/3009/hovercard&#34; href=&#34;https://github.com/open-telemetry/opentelemetry-go/pull/3009&#34;&gt;#3009&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;Add the &lt;code&gt;go.opentelemetry.io/otel/semconv/v1.12.0&lt;/code&gt; package.&lt;br&gt;&#xA;The package contains semantic conventions from the &lt;code&gt;v1.12.0&lt;/code&gt; version of the OpenTelemetry specification. (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1301340857&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/open-telemetry/opentelemetry-go/issues/3010&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/open-telemetry/opentelemetry-go/pull/3010/hovercard&#34; href=&#34;https://github.com/open-telemetry/opentelemetry-go/pull/3010&#34;&gt;#3010&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;Add the &lt;code&gt;http.method&lt;/code&gt; attribute to HTTP server metric from all &lt;code&gt;go.opentelemetry.io/otel/semconv/*&lt;/code&gt; packages. (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1303592810&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/open-telemetry/opentelemetry-go/issues/3018&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/open-telemetry/opentelemetry-go/pull/3018/hovercard&#34; href=&#34;https://github.com/open-telemetry/opentelemetry-go/pull/3018&#34;&gt;#3018&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3&gt;Fixed&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Invalid warning for context setup being deferred in &lt;code&gt;go.opentelemetry.io/otel/bridge/opentracing&lt;/code&gt; package. (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1309584728&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/open-telemetry/opentelemetry-go/issues/3029&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/open-telemetry/opentelemetry-go/pull/3029/hovercard&#34; href=&#34;https://github.com/open-telemetry/opentelemetry-go/pull/3029&#34;&gt;#3029&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/open-telemetry/opentelemetry-go/releases/tag/v1.9.0" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>MrAlias</name>
-    </author>
-  </entry>
-  <entry>
     <title>Release notes from kustomize - kyaml/v0.13.9</title>
     <updated>2022-08-02T15:18:41Z</updated>
     <id>tag:github.com,2008:Repository/133067498/kyaml/v0.13.9</id>
@@ -1618,105 +1717,6 @@
     <summary type="html"></summary>
     <author>
       <name>KnVerey</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from opentelemetry-go - schema/v0.0.3</title>
-    <updated>2022-08-02T15:18:26Z</updated>
-    <id>tag:github.com,2008:Repository/187086161/schema/v0.0.3</id>
-    <content type="html">&lt;p&gt;Module set experimental-schema, Version v0.0.3&lt;/p&gt;</content>
-    <link href="https://github.com/open-telemetry/opentelemetry-go/releases/tag/schema%2Fv0.0.3" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>MrAlias</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from opentelemetry-go - trace/v1.9.0</title>
-    <updated>2022-08-02T15:14:26Z</updated>
-    <id>tag:github.com,2008:Repository/187086161/trace/v1.9.0</id>
-    <content type="html">&lt;p&gt;Module set stable-v1, Version v1.9.0&lt;/p&gt;</content>
-    <link href="https://github.com/open-telemetry/opentelemetry-go/releases/tag/trace%2Fv1.9.0" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>MrAlias</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from opentelemetry-go - sdk/v1.9.0</title>
-    <updated>2022-08-02T15:14:26Z</updated>
-    <id>tag:github.com,2008:Repository/187086161/sdk/v1.9.0</id>
-    <content type="html">&lt;p&gt;Module set stable-v1, Version v1.9.0&lt;/p&gt;</content>
-    <link href="https://github.com/open-telemetry/opentelemetry-go/releases/tag/sdk%2Fv1.9.0" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>MrAlias</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from opentelemetry-go - exporters/stdout/stdouttrace/v1.9.0</title>
-    <updated>2022-08-02T15:14:25Z</updated>
-    <id>tag:github.com,2008:Repository/187086161/exporters/stdout/stdouttrace/v1.9.0</id>
-    <content type="html">&lt;p&gt;Module set stable-v1, Version v1.9.0&lt;/p&gt;</content>
-    <link href="https://github.com/open-telemetry/opentelemetry-go/releases/tag/exporters%2Fstdout%2Fstdouttrace%2Fv1.9.0" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>MrAlias</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from opentelemetry-go - exporters/otlp/internal/retry/v1.9.0</title>
-    <updated>2022-08-02T15:14:24Z</updated>
-    <id>tag:github.com,2008:Repository/187086161/exporters/otlp/internal/retry/v1.9.0</id>
-    <content type="html">&lt;p&gt;Module set stable-v1, Version v1.9.0&lt;/p&gt;</content>
-    <link href="https://github.com/open-telemetry/opentelemetry-go/releases/tag/exporters%2Fotlp%2Finternal%2Fretry%2Fv1.9.0" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>MrAlias</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from opentelemetry-go - exporters/otlp/otlptrace/otlptracehttp/v1.9.0</title>
-    <updated>2022-08-02T15:14:23Z</updated>
-    <id>tag:github.com,2008:Repository/187086161/exporters/otlp/otlptrace/otlptracehttp/v1.9.0</id>
-    <content type="html">&lt;p&gt;Module set stable-v1, Version v1.9.0&lt;/p&gt;</content>
-    <link href="https://github.com/open-telemetry/opentelemetry-go/releases/tag/exporters%2Fotlp%2Fotlptrace%2Fotlptracehttp%2Fv1.9.0" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>MrAlias</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from opentelemetry-go - exporters/otlp/otlptrace/otlptracegrpc/v1.9.0</title>
-    <updated>2022-08-02T15:14:22Z</updated>
-    <id>tag:github.com,2008:Repository/187086161/exporters/otlp/otlptrace/otlptracegrpc/v1.9.0</id>
-    <content type="html">&lt;p&gt;Module set stable-v1, Version v1.9.0&lt;/p&gt;</content>
-    <link href="https://github.com/open-telemetry/opentelemetry-go/releases/tag/exporters%2Fotlp%2Fotlptrace%2Fotlptracegrpc%2Fv1.9.0" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>MrAlias</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from opentelemetry-go - exporters/otlp/otlptrace/v1.9.0</title>
-    <updated>2022-08-02T15:14:21Z</updated>
-    <id>tag:github.com,2008:Repository/187086161/exporters/otlp/otlptrace/v1.9.0</id>
-    <content type="html">&lt;p&gt;Module set stable-v1, Version v1.9.0&lt;/p&gt;</content>
-    <link href="https://github.com/open-telemetry/opentelemetry-go/releases/tag/exporters%2Fotlp%2Fotlptrace%2Fv1.9.0" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>MrAlias</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from opentelemetry-go - exporters/zipkin/v1.9.0</title>
-    <updated>2022-08-02T15:14:20Z</updated>
-    <id>tag:github.com,2008:Repository/187086161/exporters/zipkin/v1.9.0</id>
-    <content type="html">&lt;p&gt;Module set stable-v1, Version v1.9.0&lt;/p&gt;</content>
-    <link href="https://github.com/open-telemetry/opentelemetry-go/releases/tag/exporters%2Fzipkin%2Fv1.9.0" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>MrAlias</name>
     </author>
   </entry>
   <entry>
