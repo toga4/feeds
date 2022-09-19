@@ -1,8 +1,129 @@
 <?xml version="1.0" encoding="UTF-8"?><feed xmlns="http://www.w3.org/2005/Atom">
   <title>Releases from Starred by toga4</title>
   <id>https://toga4.github.io/feeds/starred-releases.atom</id>
-  <updated>2022-09-18T07:07:03Z</updated>
+  <updated>2022-09-19T11:49:54Z</updated>
   <link href="https://toga4.github.io/feeds/starred-releases.atom"></link>
+  <entry>
+    <title>Release notes from go-github - v47.1.0</title>
+    <updated>2022-09-19T11:49:54Z</updated>
+    <id>tag:github.com,2008:Repository/10270722/v47.1.0</id>
+    <content type="html">&lt;p&gt;This minor release includes these changes:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Update scrape dependency to v47 (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1347086953&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/google/go-github/issues/2442&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/google/go-github/pull/2442/hovercard&#34; href=&#34;https://github.com/google/go-github/pull/2442&#34;&gt;#2442&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;Additional options name, default_branch_only for create a fork (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1357710318&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/google/go-github/issues/2448&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/google/go-github/pull/2448/hovercard&#34; href=&#34;https://github.com/google/go-github/pull/2448&#34;&gt;#2448&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;List Secret Scan Alerts with index-based pagination (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1351421265&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/google/go-github/issues/2446&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/google/go-github/pull/2446/hovercard&#34; href=&#34;https://github.com/google/go-github/pull/2446&#34;&gt;#2446&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;Add alphanumeric param to AutolinkOptions (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1358430983&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/google/go-github/issues/2450&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/google/go-github/pull/2450/hovercard&#34; href=&#34;https://github.com/google/go-github/pull/2450&#34;&gt;#2450&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;Remove GenerateReleaseNotes from RepositoriesService.EditRelease (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1349433443&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/google/go-github/issues/2445&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/google/go-github/pull/2445/hovercard&#34; href=&#34;https://github.com/google/go-github/pull/2445&#34;&gt;#2445&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;Add org permissions to InstallationPermissions (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1363898136&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/google/go-github/issues/2452&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/google/go-github/pull/2452/hovercard&#34; href=&#34;https://github.com/google/go-github/pull/2452&#34;&gt;#2452&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;Escape special characters in ref name for update ref (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1366864709&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/google/go-github/issues/2454&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/google/go-github/pull/2454/hovercard&#34; href=&#34;https://github.com/google/go-github/pull/2454&#34;&gt;#2454&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;Bump github.com/google/go-cmp from 0.5.8 to 0.5.9 (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1370396196&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/google/go-github/issues/2457&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/google/go-github/pull/2457/hovercard&#34; href=&#34;https://github.com/google/go-github/pull/2457&#34;&gt;#2457&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;Bump github.com/google/go-cmp from 0.5.8 to 0.5.9 in /scrape (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1370396255&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/google/go-github/issues/2458&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/google/go-github/pull/2458/hovercard&#34; href=&#34;https://github.com/google/go-github/pull/2458&#34;&gt;#2458&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;Bump github.com/google/go-cmp from 0.5.8 to 0.5.9 in /update-urls (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1370396471&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/google/go-github/issues/2459&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/google/go-github/pull/2459/hovercard&#34; href=&#34;https://github.com/google/go-github/pull/2459&#34;&gt;#2459&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;Fix unhandled error in actions_artifacts.go (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1371473853&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/google/go-github/issues/2460&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/google/go-github/pull/2460/hovercard&#34; href=&#34;https://github.com/google/go-github/pull/2460&#34;&gt;#2460&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;Add explicit error return (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1376788311&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/google/go-github/issues/2469&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/google/go-github/pull/2469/hovercard&#34; href=&#34;https://github.com/google/go-github/pull/2469&#34;&gt;#2469&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;Add org struct fields (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1376908667&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/google/go-github/issues/2471&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/google/go-github/pull/2471/hovercard&#34; href=&#34;https://github.com/google/go-github/pull/2471&#34;&gt;#2471&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;Always send &#39;checks&#39; field when creating branch protection (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1376776183&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/google/go-github/issues/2468&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/google/go-github/pull/2468/hovercard&#34; href=&#34;https://github.com/google/go-github/pull/2468&#34;&gt;#2468&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/google/go-github/releases/tag/v47.1.0" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>gmlewis</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from datadog-agent - pkg/util/scrubber/v0.40.0-rc.1</title>
+    <updated>2022-09-19T11:15:38Z</updated>
+    <id>tag:github.com,2008:Repository/49970739/pkg/util/scrubber/v0.40.0-rc.1</id>
+    <content type="html">&lt;p&gt;pkg/util/scrubber/v0.40.0-rc.1&lt;/p&gt;</content>
+    <link href="https://github.com/DataDog/datadog-agent/releases/tag/pkg%2Futil%2Fscrubber%2Fv0.40.0-rc.1" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>kacper-murzyn</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from datadog-agent - pkg/util/log/v0.40.0-rc.1</title>
+    <updated>2022-09-19T11:15:35Z</updated>
+    <id>tag:github.com,2008:Repository/49970739/pkg/util/log/v0.40.0-rc.1</id>
+    <content type="html">&lt;p&gt;pkg/util/log/v0.40.0-rc.1&lt;/p&gt;</content>
+    <link href="https://github.com/DataDog/datadog-agent/releases/tag/pkg%2Futil%2Flog%2Fv0.40.0-rc.1" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>kacper-murzyn</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from datadog-agent - pkg/util/cgroups/v0.40.0-rc.1</title>
+    <updated>2022-09-19T11:15:33Z</updated>
+    <id>tag:github.com,2008:Repository/49970739/pkg/util/cgroups/v0.40.0-rc.1</id>
+    <content type="html">&lt;p&gt;pkg/util/cgroups/v0.40.0-rc.1&lt;/p&gt;</content>
+    <link href="https://github.com/DataDog/datadog-agent/releases/tag/pkg%2Futil%2Fcgroups%2Fv0.40.0-rc.1" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>kacper-murzyn</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from datadog-agent - pkg/remoteconfig/state/v0.40.0-rc.1</title>
+    <updated>2022-09-19T11:15:31Z</updated>
+    <id>tag:github.com,2008:Repository/49970739/pkg/remoteconfig/state/v0.40.0-rc.1</id>
+    <content type="html">&lt;p&gt;pkg/remoteconfig/state/v0.40.0-rc.1&lt;/p&gt;</content>
+    <link href="https://github.com/DataDog/datadog-agent/releases/tag/pkg%2Fremoteconfig%2Fstate%2Fv0.40.0-rc.1" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>kacper-murzyn</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from datadog-agent - pkg/security/secl/v0.40.0-rc.1</title>
+    <updated>2022-09-19T11:15:29Z</updated>
+    <id>tag:github.com,2008:Repository/49970739/pkg/security/secl/v0.40.0-rc.1</id>
+    <content type="html">&lt;p&gt;pkg/security/secl/v0.40.0-rc.1&lt;/p&gt;</content>
+    <link href="https://github.com/DataDog/datadog-agent/releases/tag/pkg%2Fsecurity%2Fsecl%2Fv0.40.0-rc.1" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>kacper-murzyn</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from datadog-agent - pkg/otlp/model/v0.40.0-rc.1</title>
+    <updated>2022-09-19T11:15:27Z</updated>
+    <id>tag:github.com,2008:Repository/49970739/pkg/otlp/model/v0.40.0-rc.1</id>
+    <content type="html">&lt;p&gt;pkg/otlp/model/v0.40.0-rc.1&lt;/p&gt;</content>
+    <link href="https://github.com/DataDog/datadog-agent/releases/tag/pkg%2Fotlp%2Fmodel%2Fv0.40.0-rc.1" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>kacper-murzyn</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from datadog-agent - pkg/trace/v0.40.0-rc.1</title>
+    <updated>2022-09-19T11:15:25Z</updated>
+    <id>tag:github.com,2008:Repository/49970739/pkg/trace/v0.40.0-rc.1</id>
+    <content type="html">&lt;p&gt;pkg/trace/v0.40.0-rc.1&lt;/p&gt;</content>
+    <link href="https://github.com/DataDog/datadog-agent/releases/tag/pkg%2Ftrace%2Fv0.40.0-rc.1" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>kacper-murzyn</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from datadog-agent - pkg/quantile/v0.40.0-rc.1</title>
+    <updated>2022-09-19T11:15:21Z</updated>
+    <id>tag:github.com,2008:Repository/49970739/pkg/quantile/v0.40.0-rc.1</id>
+    <content type="html">&lt;p&gt;pkg/quantile/v0.40.0-rc.1&lt;/p&gt;</content>
+    <link href="https://github.com/DataDog/datadog-agent/releases/tag/pkg%2Fquantile%2Fv0.40.0-rc.1" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>kacper-murzyn</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from datadog-agent - 7.40.0-rc.1</title>
+    <updated>2022-09-19T11:15:19Z</updated>
+    <id>tag:github.com,2008:Repository/49970739/7.40.0-rc.1</id>
+    <content type="html">&lt;p&gt;7.40.0-rc.1&lt;/p&gt;</content>
+    <link href="https://github.com/DataDog/datadog-agent/releases/tag/7.40.0-rc.1" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>kacper-murzyn</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from datadog-agent - 6.40.0-rc.1</title>
+    <updated>2022-09-19T11:15:17Z</updated>
+    <id>tag:github.com,2008:Repository/49970739/6.40.0-rc.1</id>
+    <content type="html">&lt;p&gt;6.40.0-rc.1&lt;/p&gt;</content>
+    <link href="https://github.com/DataDog/datadog-agent/releases/tag/6.40.0-rc.1" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>kacper-murzyn</name>
+    </author>
+  </entry>
   <entry>
     <title>Release notes from stern - v1.21.0</title>
     <updated>2022-09-18T07:07:03Z</updated>
@@ -103,44 +224,11 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from opentelemetry-operations-go - internal/cloudmock/v0.32.8</title>
+    <title>Release notes from opentelemetry-operations-go - exporter/metric/v0.32.8</title>
     <updated>2022-09-15T16:27:37Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/internal/cloudmock/v0.32.8</id>
+    <id>tag:github.com,2008:Repository/244484581/exporter/metric/v0.32.8</id>
     <content type="html">&lt;p&gt;prepare for 1.8.8 and 0.32.8 (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1374698389&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/478&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleCloudPlatform/opentelemetry-operations-go/pull/478/hovercard&#34; href=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/pull/478&#34;&gt;#478&lt;/a&gt;)&lt;/p&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/internal%2Fcloudmock%2Fv0.32.8" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>dashpole</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from opentelemetry-operations-go - exporter/collector/v0.32.8</title>
-    <updated>2022-09-15T16:27:37Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/exporter/collector/v0.32.8</id>
-    <content type="html">&lt;p&gt;prepare for 1.8.8 and 0.32.8 (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1374698389&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/478&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleCloudPlatform/opentelemetry-operations-go/pull/478/hovercard&#34; href=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/pull/478&#34;&gt;#478&lt;/a&gt;)&lt;/p&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/exporter%2Fcollector%2Fv0.32.8" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>dashpole</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from opentelemetry-operations-go - example/metric/v0.32.8</title>
-    <updated>2022-09-15T16:27:37Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/example/metric/v0.32.8</id>
-    <content type="html">&lt;p&gt;prepare for 1.8.8 and 0.32.8 (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1374698389&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/478&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleCloudPlatform/opentelemetry-operations-go/pull/478/hovercard&#34; href=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/pull/478&#34;&gt;#478&lt;/a&gt;)&lt;/p&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/example%2Fmetric%2Fv0.32.8" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>dashpole</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from opentelemetry-operations-go - detectors/gcp/v0.32.8</title>
-    <updated>2022-09-15T16:27:37Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/detectors/gcp/v0.32.8</id>
-    <content type="html">&lt;p&gt;prepare for 1.8.8 and 0.32.8 (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1374698389&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/478&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleCloudPlatform/opentelemetry-operations-go/pull/478/hovercard&#34; href=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/pull/478&#34;&gt;#478&lt;/a&gt;)&lt;/p&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/detectors%2Fgcp%2Fv0.32.8" rel="alternate"></link>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/exporter%2Fmetric%2Fv0.32.8" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>dashpole</name>
@@ -158,22 +246,33 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from opentelemetry-operations-go - exporter/metric/v0.32.8</title>
+    <title>Release notes from opentelemetry-operations-go - internal/cloudmock/v0.32.8</title>
     <updated>2022-09-15T16:27:37Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/exporter/metric/v0.32.8</id>
+    <id>tag:github.com,2008:Repository/244484581/internal/cloudmock/v0.32.8</id>
     <content type="html">&lt;p&gt;prepare for 1.8.8 and 0.32.8 (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1374698389&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/478&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleCloudPlatform/opentelemetry-operations-go/pull/478/hovercard&#34; href=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/pull/478&#34;&gt;#478&lt;/a&gt;)&lt;/p&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/exporter%2Fmetric%2Fv0.32.8" rel="alternate"></link>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/internal%2Fcloudmock%2Fv0.32.8" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>dashpole</name>
     </author>
   </entry>
   <entry>
-    <title>Release notes from opentelemetry-operations-go - internal/resourcemapping/v0.32.8</title>
+    <title>Release notes from opentelemetry-operations-go - detectors/gcp/v0.32.8</title>
     <updated>2022-09-15T16:27:37Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/internal/resourcemapping/v0.32.8</id>
+    <id>tag:github.com,2008:Repository/244484581/detectors/gcp/v0.32.8</id>
     <content type="html">&lt;p&gt;prepare for 1.8.8 and 0.32.8 (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1374698389&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/478&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleCloudPlatform/opentelemetry-operations-go/pull/478/hovercard&#34; href=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/pull/478&#34;&gt;#478&lt;/a&gt;)&lt;/p&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/internal%2Fresourcemapping%2Fv0.32.8" rel="alternate"></link>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/detectors%2Fgcp%2Fv0.32.8" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>dashpole</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from opentelemetry-operations-go - example/metric/v0.32.8</title>
+    <updated>2022-09-15T16:27:37Z</updated>
+    <id>tag:github.com,2008:Repository/244484581/example/metric/v0.32.8</id>
+    <content type="html">&lt;p&gt;prepare for 1.8.8 and 0.32.8 (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1374698389&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/478&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleCloudPlatform/opentelemetry-operations-go/pull/478/hovercard&#34; href=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/pull/478&#34;&gt;#478&lt;/a&gt;)&lt;/p&gt;</content>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/example%2Fmetric%2Fv0.32.8" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>dashpole</name>
@@ -202,14 +301,25 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from telepresence - rpc/v2.7.6-rc.2</title>
-    <updated>2022-09-15T15:57:33Z</updated>
-    <id>tag:github.com,2008:Repository/82933315/rpc/v2.7.6-rc.2</id>
-    <content type="html">&lt;p&gt;v2.7.6-rc.2&lt;/p&gt;</content>
-    <link href="https://github.com/telepresenceio/telepresence/releases/tag/rpc%2Fv2.7.6-rc.2" rel="alternate"></link>
+    <title>Release notes from opentelemetry-operations-go - exporter/collector/v0.32.8</title>
+    <updated>2022-09-15T16:27:37Z</updated>
+    <id>tag:github.com,2008:Repository/244484581/exporter/collector/v0.32.8</id>
+    <content type="html">&lt;p&gt;prepare for 1.8.8 and 0.32.8 (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1374698389&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/478&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleCloudPlatform/opentelemetry-operations-go/pull/478/hovercard&#34; href=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/pull/478&#34;&gt;#478&lt;/a&gt;)&lt;/p&gt;</content>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/exporter%2Fcollector%2Fv0.32.8" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
-      <name>thallgren</name>
+      <name>dashpole</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from opentelemetry-operations-go - internal/resourcemapping/v0.32.8</title>
+    <updated>2022-09-15T16:27:37Z</updated>
+    <id>tag:github.com,2008:Repository/244484581/internal/resourcemapping/v0.32.8</id>
+    <content type="html">&lt;p&gt;prepare for 1.8.8 and 0.32.8 (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1374698389&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/478&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleCloudPlatform/opentelemetry-operations-go/pull/478/hovercard&#34; href=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/pull/478&#34;&gt;#478&lt;/a&gt;)&lt;/p&gt;</content>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/internal%2Fresourcemapping%2Fv0.32.8" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>dashpole</name>
     </author>
   </entry>
   <entry>
@@ -224,14 +334,14 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from datadog-agent - lambda-extension-29: [RCM-432] fix(remote-config): Clean remote state on error &amp; use fixed…</title>
-    <updated>2022-09-15T15:46:02Z</updated>
-    <id>tag:github.com,2008:Repository/49970739/lambda-extension-29</id>
-    <content type="html">&lt;p&gt;… fork of go-tuf (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1374483497&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/DataDog/datadog-agent/issues/13517&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/DataDog/datadog-agent/pull/13517/hovercard&#34; href=&#34;https://github.com/DataDog/datadog-agent/pull/13517&#34;&gt;#13517&lt;/a&gt;)&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;[RCM-432] fix(TUF): Clean remote state on TUF error&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;fix(go-tuf): Use fork of go-tuf for the time being.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;refactor(uptane): Refactor the Update methods&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/DataDog/datadog-agent/releases/tag/lambda-extension-29" rel="alternate"></link>
+    <title>Release notes from telepresence - rpc/v2.7.6-rc.2</title>
+    <updated>2022-09-15T15:57:33Z</updated>
+    <id>tag:github.com,2008:Repository/82933315/rpc/v2.7.6-rc.2</id>
+    <content type="html">&lt;p&gt;v2.7.6-rc.2&lt;/p&gt;</content>
+    <link href="https://github.com/telepresenceio/telepresence/releases/tag/rpc%2Fv2.7.6-rc.2" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
-      <name>BaptisteFoy</name>
+      <name>thallgren</name>
     </author>
   </entry>
   <entry>
@@ -257,22 +367,22 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from telepresence - v2.7.6-rc.0</title>
+    <title>Release notes from telepresence - rpc/v2.7.6-rc.0</title>
     <updated>2022-09-15T11:34:33Z</updated>
-    <id>tag:github.com,2008:Repository/82933315/v2.7.6-rc.0</id>
+    <id>tag:github.com,2008:Repository/82933315/rpc/v2.7.6-rc.0</id>
     <content type="html">&lt;p&gt;v2.7.6-rc.0&lt;/p&gt;</content>
-    <link href="https://github.com/telepresenceio/telepresence/releases/tag/v2.7.6-rc.0" rel="alternate"></link>
+    <link href="https://github.com/telepresenceio/telepresence/releases/tag/rpc%2Fv2.7.6-rc.0" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>thallgren</name>
     </author>
   </entry>
   <entry>
-    <title>Release notes from telepresence - rpc/v2.7.6-rc.0</title>
+    <title>Release notes from telepresence - v2.7.6-rc.0</title>
     <updated>2022-09-15T11:34:33Z</updated>
-    <id>tag:github.com,2008:Repository/82933315/rpc/v2.7.6-rc.0</id>
+    <id>tag:github.com,2008:Repository/82933315/v2.7.6-rc.0</id>
     <content type="html">&lt;p&gt;v2.7.6-rc.0&lt;/p&gt;</content>
-    <link href="https://github.com/telepresenceio/telepresence/releases/tag/rpc%2Fv2.7.6-rc.0" rel="alternate"></link>
+    <link href="https://github.com/telepresenceio/telepresence/releases/tag/v2.7.6-rc.0" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>thallgren</name>
@@ -356,6 +466,17 @@
     </author>
   </entry>
   <entry>
+    <title>Release notes from opentelemetry-go-contrib - samplers/jaegerremote/v0.5.0</title>
+    <updated>2022-09-13T19:01:39Z</updated>
+    <id>tag:github.com,2008:Repository/242202166/samplers/jaegerremote/v0.5.0</id>
+    <content type="html">&lt;p&gt;Module set experimental-samplers, Version v0.5.0&lt;/p&gt;</content>
+    <link href="https://github.com/open-telemetry/opentelemetry-go-contrib/releases/tag/samplers%2Fjaegerremote%2Fv0.5.0" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>MadVikingGod</name>
+    </author>
+  </entry>
+  <entry>
     <title>Release notes from opentelemetry-go-contrib - samplers/jaegerremote/example/v0.5.0</title>
     <updated>2022-09-13T19:01:39Z</updated>
     <id>tag:github.com,2008:Repository/242202166/samplers/jaegerremote/example/v0.5.0</id>
@@ -372,17 +493,6 @@
     <id>tag:github.com,2008:Repository/242202166/samplers/probability/consistent/v0.5.0</id>
     <content type="html">&lt;p&gt;Module set experimental-samplers, Version v0.5.0&lt;/p&gt;</content>
     <link href="https://github.com/open-telemetry/opentelemetry-go-contrib/releases/tag/samplers%2Fprobability%2Fconsistent%2Fv0.5.0" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>MadVikingGod</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from opentelemetry-go-contrib - samplers/jaegerremote/v0.5.0</title>
-    <updated>2022-09-13T19:01:39Z</updated>
-    <id>tag:github.com,2008:Repository/242202166/samplers/jaegerremote/v0.5.0</id>
-    <content type="html">&lt;p&gt;Module set experimental-samplers, Version v0.5.0&lt;/p&gt;</content>
-    <link href="https://github.com/open-telemetry/opentelemetry-go-contrib/releases/tag/samplers%2Fjaegerremote%2Fv0.5.0" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>MadVikingGod</name>
@@ -411,22 +521,22 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from opentelemetry-go-contrib - propagators/opencensus/v0.35.0</title>
+    <title>Release notes from opentelemetry-go-contrib - propagators/opencensus/examples/v0.35.0</title>
     <updated>2022-09-13T19:00:25Z</updated>
-    <id>tag:github.com,2008:Repository/242202166/propagators/opencensus/v0.35.0</id>
+    <id>tag:github.com,2008:Repository/242202166/propagators/opencensus/examples/v0.35.0</id>
     <content type="html">&lt;p&gt;Module set experimental-instrumentation, Version v0.35.0&lt;/p&gt;</content>
-    <link href="https://github.com/open-telemetry/opentelemetry-go-contrib/releases/tag/propagators%2Fopencensus%2Fv0.35.0" rel="alternate"></link>
+    <link href="https://github.com/open-telemetry/opentelemetry-go-contrib/releases/tag/propagators%2Fopencensus%2Fexamples%2Fv0.35.0" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>MadVikingGod</name>
     </author>
   </entry>
   <entry>
-    <title>Release notes from opentelemetry-go-contrib - propagators/opencensus/examples/v0.35.0</title>
+    <title>Release notes from opentelemetry-go-contrib - propagators/opencensus/v0.35.0</title>
     <updated>2022-09-13T19:00:25Z</updated>
-    <id>tag:github.com,2008:Repository/242202166/propagators/opencensus/examples/v0.35.0</id>
+    <id>tag:github.com,2008:Repository/242202166/propagators/opencensus/v0.35.0</id>
     <content type="html">&lt;p&gt;Module set experimental-instrumentation, Version v0.35.0&lt;/p&gt;</content>
-    <link href="https://github.com/open-telemetry/opentelemetry-go-contrib/releases/tag/propagators%2Fopencensus%2Fexamples%2Fv0.35.0" rel="alternate"></link>
+    <link href="https://github.com/open-telemetry/opentelemetry-go-contrib/releases/tag/propagators%2Fopencensus%2Fv0.35.0" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>MadVikingGod</name>
@@ -488,17 +598,6 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from opentelemetry-go - trace/v1.10.0</title>
-    <updated>2022-09-12T20:27:00Z</updated>
-    <id>tag:github.com,2008:Repository/187086161/trace/v1.10.0</id>
-    <content type="html">&lt;p&gt;Module set stable-v1, Version v1.10.0&lt;/p&gt;</content>
-    <link href="https://github.com/open-telemetry/opentelemetry-go/releases/tag/trace%2Fv1.10.0" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>MadVikingGod</name>
-    </author>
-  </entry>
-  <entry>
     <title>Release notes from opentelemetry-go - exporters/stdout/stdouttrace/v1.10.0</title>
     <updated>2022-09-12T20:27:00Z</updated>
     <id>tag:github.com,2008:Repository/187086161/exporters/stdout/stdouttrace/v1.10.0</id>
@@ -515,6 +614,28 @@
     <id>tag:github.com,2008:Repository/187086161/sdk/v1.10.0</id>
     <content type="html">&lt;p&gt;Module set stable-v1, Version v1.10.0&lt;/p&gt;</content>
     <link href="https://github.com/open-telemetry/opentelemetry-go/releases/tag/sdk%2Fv1.10.0" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>MadVikingGod</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from opentelemetry-go - trace/v1.10.0</title>
+    <updated>2022-09-12T20:27:00Z</updated>
+    <id>tag:github.com,2008:Repository/187086161/trace/v1.10.0</id>
+    <content type="html">&lt;p&gt;Module set stable-v1, Version v1.10.0&lt;/p&gt;</content>
+    <link href="https://github.com/open-telemetry/opentelemetry-go/releases/tag/trace%2Fv1.10.0" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>MadVikingGod</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from opentelemetry-go - exporters/otlp/internal/retry/v1.10.0</title>
+    <updated>2022-09-12T20:26:59Z</updated>
+    <id>tag:github.com,2008:Repository/187086161/exporters/otlp/internal/retry/v1.10.0</id>
+    <content type="html">&lt;p&gt;Module set stable-v1, Version v1.10.0&lt;/p&gt;</content>
+    <link href="https://github.com/open-telemetry/opentelemetry-go/releases/tag/exporters%2Fotlp%2Finternal%2Fretry%2Fv1.10.0" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>MadVikingGod</name>
@@ -543,11 +664,11 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from opentelemetry-go - exporters/otlp/internal/retry/v1.10.0</title>
-    <updated>2022-09-12T20:26:59Z</updated>
-    <id>tag:github.com,2008:Repository/187086161/exporters/otlp/internal/retry/v1.10.0</id>
+    <title>Release notes from opentelemetry-go - exporters/zipkin/v1.10.0</title>
+    <updated>2022-09-12T20:26:58Z</updated>
+    <id>tag:github.com,2008:Repository/187086161/exporters/zipkin/v1.10.0</id>
     <content type="html">&lt;p&gt;Module set stable-v1, Version v1.10.0&lt;/p&gt;</content>
-    <link href="https://github.com/open-telemetry/opentelemetry-go/releases/tag/exporters%2Fotlp%2Finternal%2Fretry%2Fv1.10.0" rel="alternate"></link>
+    <link href="https://github.com/open-telemetry/opentelemetry-go/releases/tag/exporters%2Fzipkin%2Fv1.10.0" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>MadVikingGod</name>
@@ -559,17 +680,6 @@
     <id>tag:github.com,2008:Repository/187086161/exporters/otlp/otlptrace/v1.10.0</id>
     <content type="html">&lt;p&gt;Module set stable-v1, Version v1.10.0&lt;/p&gt;</content>
     <link href="https://github.com/open-telemetry/opentelemetry-go/releases/tag/exporters%2Fotlp%2Fotlptrace%2Fv1.10.0" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>MadVikingGod</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from opentelemetry-go - exporters/zipkin/v1.10.0</title>
-    <updated>2022-09-12T20:26:58Z</updated>
-    <id>tag:github.com,2008:Repository/187086161/exporters/zipkin/v1.10.0</id>
-    <content type="html">&lt;p&gt;Module set stable-v1, Version v1.10.0&lt;/p&gt;</content>
-    <link href="https://github.com/open-telemetry/opentelemetry-go/releases/tag/exporters%2Fzipkin%2Fv1.10.0" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>MadVikingGod</name>
@@ -617,83 +727,6 @@
     <summary type="html"></summary>
     <author>
       <name>anchoreops</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from datadog-agent - pkg/remoteconfig/state/v0.39.0</title>
-    <updated>2022-09-12T15:22:16Z</updated>
-    <id>tag:github.com,2008:Repository/49970739/pkg/remoteconfig/state/v0.39.0</id>
-    <content type="html">&lt;p&gt;pkg/remoteconfig/state/v0.39.0&lt;/p&gt;</content>
-    <link href="https://github.com/DataDog/datadog-agent/releases/tag/pkg%2Fremoteconfig%2Fstate%2Fv0.39.0" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>kacper-murzyn</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from datadog-agent - pkg/security/secl/v0.39.0</title>
-    <updated>2022-09-12T15:22:15Z</updated>
-    <id>tag:github.com,2008:Repository/49970739/pkg/security/secl/v0.39.0</id>
-    <content type="html">&lt;p&gt;pkg/security/secl/v0.39.0&lt;/p&gt;</content>
-    <link href="https://github.com/DataDog/datadog-agent/releases/tag/pkg%2Fsecurity%2Fsecl%2Fv0.39.0" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>kacper-murzyn</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from datadog-agent - pkg/otlp/model/v0.39.0</title>
-    <updated>2022-09-12T15:22:13Z</updated>
-    <id>tag:github.com,2008:Repository/49970739/pkg/otlp/model/v0.39.0</id>
-    <content type="html">&lt;p&gt;pkg/otlp/model/v0.39.0&lt;/p&gt;</content>
-    <link href="https://github.com/DataDog/datadog-agent/releases/tag/pkg%2Fotlp%2Fmodel%2Fv0.39.0" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>kacper-murzyn</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from datadog-agent - pkg/trace/v0.39.0</title>
-    <updated>2022-09-12T15:22:11Z</updated>
-    <id>tag:github.com,2008:Repository/49970739/pkg/trace/v0.39.0</id>
-    <content type="html">&lt;p&gt;pkg/trace/v0.39.0&lt;/p&gt;</content>
-    <link href="https://github.com/DataDog/datadog-agent/releases/tag/pkg%2Ftrace%2Fv0.39.0" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>kacper-murzyn</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from datadog-agent - pkg/obfuscate/v0.39.0</title>
-    <updated>2022-09-12T15:22:09Z</updated>
-    <id>tag:github.com,2008:Repository/49970739/pkg/obfuscate/v0.39.0</id>
-    <content type="html">&lt;p&gt;pkg/obfuscate/v0.39.0&lt;/p&gt;</content>
-    <link href="https://github.com/DataDog/datadog-agent/releases/tag/pkg%2Fobfuscate%2Fv0.39.0" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>kacper-murzyn</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from datadog-agent - pkg/quantile/v0.39.0</title>
-    <updated>2022-09-12T15:22:06Z</updated>
-    <id>tag:github.com,2008:Repository/49970739/pkg/quantile/v0.39.0</id>
-    <content type="html">&lt;p&gt;pkg/quantile/v0.39.0&lt;/p&gt;</content>
-    <link href="https://github.com/DataDog/datadog-agent/releases/tag/pkg%2Fquantile%2Fv0.39.0" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>kacper-murzyn</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from datadog-agent - 7.39.0-dbm-progressive-exploration-0.2</title>
-    <updated>2022-09-12T15:12:01Z</updated>
-    <id>tag:github.com,2008:Repository/49970739/7.39.0-dbm-progressive-exploration-0.2</id>
-    <content type="html">&lt;p&gt;dbm-beta pin integrations-core&lt;/p&gt;</content>
-    <link href="https://github.com/DataDog/datadog-agent/releases/tag/7.39.0-dbm-progressive-exploration-0.2" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>justiniso</name>
     </author>
   </entry>
   <entry>
@@ -749,28 +782,6 @@
     <summary type="html"></summary>
     <author>
       <name>thaJeztah</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from datadog-agent - 7.38.0-dbm-progressive-exploration-0.1</title>
-    <updated>2022-09-09T05:01:01Z</updated>
-    <id>tag:github.com,2008:Repository/49970739/7.38.0-dbm-progressive-exploration-0.1</id>
-    <content type="html">&lt;p&gt;dbm-beta pin integrations-core&lt;/p&gt;</content>
-    <link href="https://github.com/DataDog/datadog-agent/releases/tag/7.38.0-dbm-progressive-exploration-0.1" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>alexbarksdale</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from datadog-agent - 7.39.0-dbm-progressive-exploration-0.1</title>
-    <updated>2022-09-09T02:32:04Z</updated>
-    <id>tag:github.com,2008:Repository/49970739/7.39.0-dbm-progressive-exploration-0.1</id>
-    <content type="html">&lt;p&gt;dbm-beta pin integrations-core&lt;/p&gt;</content>
-    <link href="https://github.com/DataDog/datadog-agent/releases/tag/7.39.0-dbm-progressive-exploration-0.1" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>alexbarksdale</name>
     </author>
   </entry>
   <entry>
@@ -862,22 +873,22 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from cli - v2.14.8-pre1</title>
+    <title>Release notes from cli - v2.14.8-pre2</title>
     <updated>2022-09-06T13:26:09Z</updated>
-    <id>tag:github.com,2008:Repository/212613049/v2.14.8-pre1</id>
+    <id>tag:github.com,2008:Repository/212613049/v2.14.8-pre2</id>
     <content type="html">&lt;p&gt;Use secret public key instead of file (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1363282788&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/cli/cli/issues/6204&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/cli/cli/pull/6204/hovercard&#34; href=&#34;https://github.com/cli/cli/pull/6204&#34;&gt;#6204&lt;/a&gt;)&lt;/p&gt;</content>
-    <link href="https://github.com/cli/cli/releases/tag/v2.14.8-pre1" rel="alternate"></link>
+    <link href="https://github.com/cli/cli/releases/tag/v2.14.8-pre2" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>samcoe</name>
     </author>
   </entry>
   <entry>
-    <title>Release notes from cli - v2.14.8-pre2</title>
+    <title>Release notes from cli - v2.14.8-pre1</title>
     <updated>2022-09-06T13:26:09Z</updated>
-    <id>tag:github.com,2008:Repository/212613049/v2.14.8-pre2</id>
+    <id>tag:github.com,2008:Repository/212613049/v2.14.8-pre1</id>
     <content type="html">&lt;p&gt;Use secret public key instead of file (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1363282788&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/cli/cli/issues/6204&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/cli/cli/pull/6204/hovercard&#34; href=&#34;https://github.com/cli/cli/pull/6204&#34;&gt;#6204&lt;/a&gt;)&lt;/p&gt;</content>
-    <link href="https://github.com/cli/cli/releases/tag/v2.14.8-pre2" rel="alternate"></link>
+    <link href="https://github.com/cli/cli/releases/tag/v2.14.8-pre1" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>samcoe</name>
@@ -5317,17 +5328,6 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from go-github - v41.0.0</title>
-    <updated>2021-11-29T15:37:59Z</updated>
-    <id>tag:github.com,2008:Repository/10270722/v41.0.0</id>
-    <content type="html">&lt;p&gt;This release contains the following breaking API changes:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Change StorageBilling.EstimatedPaidStorageForMonth from int to float64 (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1053801209&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/google/go-github/issues/2205&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/google/go-github/pull/2205/hovercard&#34; href=&#34;https://github.com/google/go-github/pull/2205&#34;&gt;#2205&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;and the following additional changes:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Add support for creating reaction for a release (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1043603306&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/google/go-github/issues/2196&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/google/go-github/pull/2196/hovercard&#34; href=&#34;https://github.com/google/go-github/pull/2196&#34;&gt;#2196&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;Parse Before/After Links into Response (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1037729970&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/google/go-github/issues/2154&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/google/go-github/pull/2154/hovercard&#34; href=&#34;https://github.com/google/go-github/pull/2154&#34;&gt;#2154&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;Add missing attribute job_runs in WorkflowRunBill (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1057833665&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/google/go-github/issues/2206&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/google/go-github/pull/2206/hovercard&#34; href=&#34;https://github.com/google/go-github/pull/2206&#34;&gt;#2206&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;Add function to delete a workflow run by ID (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1059986589&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/google/go-github/issues/2207&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/google/go-github/pull/2207/hovercard&#34; href=&#34;https://github.com/google/go-github/pull/2207&#34;&gt;#2207&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;Handle &#39;since&#39; in addition to &#39;page&#39; for pagination response (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1032446633&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/google/go-github/issues/2135&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/google/go-github/pull/2135/hovercard&#34; href=&#34;https://github.com/google/go-github/pull/2135&#34;&gt;#2135&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;Add active committers API implementation (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1061728991&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/google/go-github/issues/2208&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/google/go-github/pull/2208/hovercard&#34; href=&#34;https://github.com/google/go-github/pull/2208&#34;&gt;#2208&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/google/go-github/releases/tag/v41.0.0" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>gmlewis</name>
-    </author>
-  </entry>
-  <entry>
     <title>Release notes from metadata-action - v3.6.1</title>
     <updated>2021-11-29T13:25:54Z</updated>
     <id>tag:github.com,2008:Repository/306769011/v3.6.1</id>
@@ -6703,22 +6703,22 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from triangula - v1.1.5</title>
+    <title>Release notes from triangula - v1.1.6</title>
     <updated>2021-05-11T13:31:09Z</updated>
-    <id>tag:github.com,2008:Repository/354015172/v1.1.5</id>
+    <id>tag:github.com,2008:Repository/354015172/v1.1.6</id>
     <content type="html">&lt;p&gt;Refactor for more flexibility&lt;/p&gt;</content>
-    <link href="https://github.com/rh12503/triangula/releases/tag/v1.1.5" rel="alternate"></link>
+    <link href="https://github.com/rh12503/triangula/releases/tag/v1.1.6" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>rh12503</name>
     </author>
   </entry>
   <entry>
-    <title>Release notes from triangula - v1.1.6</title>
+    <title>Release notes from triangula - v1.1.5</title>
     <updated>2021-05-11T13:31:09Z</updated>
-    <id>tag:github.com,2008:Repository/354015172/v1.1.6</id>
+    <id>tag:github.com,2008:Repository/354015172/v1.1.5</id>
     <content type="html">&lt;p&gt;Refactor for more flexibility&lt;/p&gt;</content>
-    <link href="https://github.com/rh12503/triangula/releases/tag/v1.1.6" rel="alternate"></link>
+    <link href="https://github.com/rh12503/triangula/releases/tag/v1.1.5" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>rh12503</name>
@@ -7352,22 +7352,22 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from backoff - v2.0.2: Merge pull request #18 from lestrrat-go/topic/fix-v2-go-mod</title>
+    <title>Release notes from backoff - v2.0.3: Merge pull request #18 from lestrrat-go/topic/fix-v2-go-mod</title>
     <updated>2021-01-06T03:00:05Z</updated>
-    <id>tag:github.com,2008:Repository/118608673/v2.0.2</id>
+    <id>tag:github.com,2008:Repository/118608673/v2.0.3</id>
     <content type="html">&lt;p&gt;Fix go.mod&lt;/p&gt;</content>
-    <link href="https://github.com/lestrrat-go/backoff/releases/tag/v2.0.2" rel="alternate"></link>
+    <link href="https://github.com/lestrrat-go/backoff/releases/tag/v2.0.3" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>lestrrat</name>
     </author>
   </entry>
   <entry>
-    <title>Release notes from backoff - v2.0.3: Merge pull request #18 from lestrrat-go/topic/fix-v2-go-mod</title>
+    <title>Release notes from backoff - v2.0.2: Merge pull request #18 from lestrrat-go/topic/fix-v2-go-mod</title>
     <updated>2021-01-06T03:00:05Z</updated>
-    <id>tag:github.com,2008:Repository/118608673/v2.0.3</id>
+    <id>tag:github.com,2008:Repository/118608673/v2.0.2</id>
     <content type="html">&lt;p&gt;Fix go.mod&lt;/p&gt;</content>
-    <link href="https://github.com/lestrrat-go/backoff/releases/tag/v2.0.3" rel="alternate"></link>
+    <link href="https://github.com/lestrrat-go/backoff/releases/tag/v2.0.2" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>lestrrat</name>
