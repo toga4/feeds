@@ -1,8 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?><feed xmlns="http://www.w3.org/2005/Atom">
   <title>Releases from Starred by toga4</title>
   <id>https://toga4.github.io/feeds/starred-releases.atom</id>
-  <updated>2022-09-20T20:13:37Z</updated>
+  <updated>2022-09-21T13:59:25Z</updated>
   <link href="https://toga4.github.io/feeds/starred-releases.atom"></link>
+  <entry>
+    <title>Release notes from terraform - v1.3.0</title>
+    <updated>2022-09-21T13:59:25Z</updated>
+    <id>tag:github.com,2008:Repository/17728164/v1.3.0</id>
+    <content type="html">&lt;h2&gt;1.3.0 (September 21, 2022)&lt;/h2&gt;&#xA;&lt;p&gt;NEW FEATURES:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Optional attributes for object type constraints:&lt;/strong&gt; When declaring an input variable whose type constraint includes an object type, you can now declare individual attributes as optional, and specify a default value to use if the caller doesn&#39;t set it. For example:&lt;/p&gt;&#xA;&lt;div class=&#34;highlight highlight-source-terraform notranslate position-relative overflow-auto&#34; data-snippet-clipboard-copy-content=&#34;variable &amp;quot;with_optional_attribute&amp;quot; {&#xA;  type = object({&#xA;    a = string                # a required attribute&#xA;    b = optional(string)      # an optional attribute&#xA;    c = optional(number, 127) # an optional attribute with a default value&#xA;  })&#xA;}&#34;&gt;&lt;pre&gt;&lt;span class=&#34;pl-k&#34;&gt;variable&lt;/span&gt; &lt;span class=&#34;pl-s&#34;&gt;&lt;span class=&#34;pl-pds&#34;&gt;&#34;&lt;/span&gt;with_optional_attribute&lt;span class=&#34;pl-pds&#34;&gt;&#34;&lt;/span&gt;&lt;/span&gt; {&#xA;  type &lt;span class=&#34;pl-k&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;pl-v&#34;&gt;object&lt;/span&gt;({&#xA;    a &lt;span class=&#34;pl-k&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;pl-k&#34;&gt;string&lt;/span&gt;                &lt;span class=&#34;pl-c&#34;&gt;&lt;span class=&#34;pl-c&#34;&gt;#&lt;/span&gt; a required attribute&lt;/span&gt;&#xA;    b &lt;span class=&#34;pl-k&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;pl-v&#34;&gt;optional&lt;/span&gt;(&lt;span class=&#34;pl-k&#34;&gt;string&lt;/span&gt;)      &lt;span class=&#34;pl-c&#34;&gt;&lt;span class=&#34;pl-c&#34;&gt;#&lt;/span&gt; an optional attribute&lt;/span&gt;&#xA;    c &lt;span class=&#34;pl-k&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;pl-v&#34;&gt;optional&lt;/span&gt;(&lt;span class=&#34;pl-k&#34;&gt;number&lt;/span&gt;, &lt;span class=&#34;pl-c1&#34;&gt;127&lt;/span&gt;) &lt;span class=&#34;pl-c&#34;&gt;&lt;span class=&#34;pl-c&#34;&gt;#&lt;/span&gt; an optional attribute with a default value&lt;/span&gt;&#xA;  })&#xA;}&lt;/pre&gt;&lt;/div&gt;&#xA;&lt;p&gt;Assigning &lt;code&gt;{ a = &#34;foo&#34; }&lt;/code&gt; to this variable will result in the value &lt;code&gt;{ a = &#34;foo&#34;, b = null, c = 127 }&lt;/code&gt;.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Added functions: &lt;code&gt;startswith&lt;/code&gt; and &lt;code&gt;endswith&lt;/code&gt; allow you to check whether a given string has a specified prefix or suffix. (&lt;a href=&#34;https://github.com/hashicorp/terraform/issues/31220&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/hashicorp/terraform/pull/31220/hovercard&#34;&gt;#31220&lt;/a&gt;)&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;UPGRADE NOTES:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;code&gt;terraform show -json&lt;/code&gt;: Output changes now include more detail about the unknown-ness of the planned value. Previously, a planned output would be marked as either fully known or partially unknown, with the &lt;code&gt;after_unknown&lt;/code&gt; field having value &lt;code&gt;false&lt;/code&gt; or &lt;code&gt;true&lt;/code&gt; respectively. Now outputs correctly expose the full structure of unknownness for complex values, allowing consumers of the JSON output format to determine which values in a collection are known only after apply.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;code&gt;terraform import&lt;/code&gt;: The &lt;code&gt;-allow-missing-config&lt;/code&gt; has been removed, and at least an empty configuration block must exist to import a resource.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Consumers of the JSON output format expecting on the &lt;code&gt;after_unknown&lt;/code&gt; field to be only &lt;code&gt;false&lt;/code&gt; or &lt;code&gt;true&lt;/code&gt; should be updated to support &lt;a href=&#34;https://www.terraform.io/internals/json-format#change-representation&#34; rel=&#34;nofollow&#34;&gt;the change representation&lt;/a&gt; described in the documentation, and as was already used for resource changes. (&lt;a href=&#34;https://github.com/hashicorp/terraform/issues/31235&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/hashicorp/terraform/pull/31235/hovercard&#34;&gt;#31235&lt;/a&gt;)&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;AzureRM Backend: This release concludes &lt;a href=&#34;https://www.terraform.io/language/upgrade-guides/1-1#preparation-for-removing-azure-ad-graph-support-in-the-azurerm-backend&#34; rel=&#34;nofollow&#34;&gt;the deprecation cycle started in Terraform v1.1&lt;/a&gt; for the &lt;code&gt;azurerm&lt;/code&gt; backend&#39;s support of &#34;ADAL&#34; authentication. This backend now supports only &#34;MSAL&#34; (Microsoft Graph) authentication.&lt;/p&gt;&#xA;&lt;p&gt;This follows from &lt;a href=&#34;https://docs.microsoft.com/en-us/graph/migrate-azure-ad-graph-faq&#34; rel=&#34;nofollow&#34;&gt;Microsoft&#39;s own deprecation of Azure AD Graph&lt;/a&gt;, and so you must follow the migration instructions presented in that Azure documentation to adopt Microsoft Graph and then change your backend configuration to use MSAL authentication before upgrading to Terraform v1.3.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;When making requests to HTTPS servers, Terraform will now reject invalid handshakes that have duplicate extensions, as required by RFC 5246 section 7.4.1.4 and RFC 8446 section 4.2. This may cause new errors when interacting with existing buggy or misconfigured TLS servers, but should not affect correct servers.&lt;/p&gt;&#xA;&lt;p&gt;This only applies to requests made directly by Terraform CLI, such as provider installation and remote state storage. Terraform providers are separate programs which decide their own policy for handling of TLS handshakes.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;The following backends, which were deprecated in v1.2.3, have now been removed: &lt;code&gt;artifactory&lt;/code&gt;, &lt;code&gt;etcd&lt;/code&gt;, &lt;code&gt;etcdv3&lt;/code&gt;, &lt;code&gt;manta&lt;/code&gt;, &lt;code&gt;swift&lt;/code&gt;. The legacy backend name &lt;code&gt;azure&lt;/code&gt; has also been removed, because the current Azure backend is named &lt;code&gt;azurerm&lt;/code&gt;. (&lt;a href=&#34;https://github.com/hashicorp/terraform/issues/31711&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/hashicorp/terraform/pull/31711/hovercard&#34;&gt;#31711&lt;/a&gt;)&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;ENHANCEMENTS:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;config: Optional attributes for object type constraints, as described under new features above. (&lt;a href=&#34;https://github.com/hashicorp/terraform/issues/31154&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/hashicorp/terraform/pull/31154/hovercard&#34;&gt;#31154&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;config: New built-in function &lt;code&gt;timecmp&lt;/code&gt; allows determining the ordering relationship between two timestamps while taking potentially-different UTC offsets into account. (&lt;a href=&#34;https://github.com/hashicorp/terraform/pull/31687&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/hashicorp/terraform/pull/31687/hovercard&#34;&gt;#31687&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;config: When reporting an error message related to a function call, Terraform will now include contextual information about the signature of the function that was being called, as an aid to understanding why the call might have failed. (&lt;a href=&#34;https://github.com/hashicorp/terraform/issues/31299&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/hashicorp/terraform/pull/31299/hovercard&#34;&gt;#31299&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;config: When reporting an error or warning message that isn&#39;t caused by values being unknown or marked as sensitive, Terraform will no longer mention any values having those characteristics in the contextual information presented alongside the error. Terraform will still return this information for the small subset of error messages that are specifically about unknown values or sensitive values being invalid in certain contexts. (&lt;a href=&#34;https://github.com/hashicorp/terraform/issues/31299&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/hashicorp/terraform/pull/31299/hovercard&#34;&gt;#31299&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;config: &lt;code&gt;moved&lt;/code&gt; blocks can now describe resources moving to and from modules in separate module packages. (&lt;a href=&#34;https://github.com/hashicorp/terraform/issues/31556&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/hashicorp/terraform/pull/31556/hovercard&#34;&gt;#31556&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;&lt;code&gt;terraform fmt&lt;/code&gt; now accepts multiple target paths, allowing formatting of several individual files at once. (&lt;a href=&#34;https://github.com/hashicorp/terraform/issues/31687&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/hashicorp/terraform/pull/31687/hovercard&#34;&gt;#31687&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;&lt;code&gt;terraform init&lt;/code&gt;: provider installation errors now mention which host Terraform was downloading from (&lt;a href=&#34;https://github.com/hashicorp/terraform/issues/31524&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/hashicorp/terraform/pull/31524/hovercard&#34;&gt;#31524&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;CLI: Terraform will report more explicitly when it is proposing to delete an object due to it having moved to a resource instance that is not currently declared in the configuration. (&lt;a href=&#34;https://github.com/hashicorp/terraform/issues/31695&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/hashicorp/terraform/pull/31695/hovercard&#34;&gt;#31695&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;CLI: When showing the progress of a remote operation running in Terraform Cloud, Terraform CLI will include information about pre-plan run tasks (&lt;a href=&#34;https://github.com/hashicorp/terraform/issues/31617&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/hashicorp/terraform/pull/31617/hovercard&#34;&gt;#31617&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;The AzureRM Backend now only supports MSAL (and Microsoft Graph) and no longer makes use of ADAL (and Azure Active Directory Graph) for authentication (&lt;a href=&#34;https://github.com/hashicorp/terraform/issues/31070&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/hashicorp/terraform/pull/31070/hovercard&#34;&gt;#31070&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;The COS backend now supports global acceleration. (&lt;a href=&#34;https://github.com/hashicorp/terraform/issues/31425&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/hashicorp/terraform/pull/31425/hovercard&#34;&gt;#31425&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;provider plugin protocol: The Terraform CLI now calls &lt;code&gt;PlanResourceChange&lt;/code&gt; for compatible providers when destroying resource instances. (&lt;a href=&#34;https://github.com/hashicorp/terraform/issues/31179&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/hashicorp/terraform/pull/31179/hovercard&#34;&gt;#31179&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;As an implementation detail of the Terraform Cloud integration, Terraform CLI will now capture and upload &lt;a href=&#34;https://www.terraform.io/internals/json-format#state-representation&#34; rel=&#34;nofollow&#34;&gt;the JSON integration format for state&lt;/a&gt; along with any newly-recorded state snapshots, which then in turn allows Terraform Cloud to provide that information to API-based external integrations. (&lt;a href=&#34;https://github.com/hashicorp/terraform/issues/31698&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/hashicorp/terraform/pull/31698/hovercard&#34;&gt;#31698&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;BUG FIXES:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;config: Terraform was not previously evaluating preconditions and postconditions during the apply phase for resource instances that didn&#39;t have any changes pending, which was incorrect because the outcome of a condition can potentially be affected by changes to &lt;em&gt;other&lt;/em&gt; objects in the configuration. Terraform will now always check the conditions for every resource instance included in a plan during the apply phase, even for resource instances that have &#34;no-op&#34; changes. This means that some failures that would previously have been detected only by a subsequent run will now be detected during the same run that caused them, thereby giving the feedback at the appropriate time. (&lt;a href=&#34;https://github.com/hashicorp/terraform/issues/31491&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/hashicorp/terraform/pull/31491/hovercard&#34;&gt;#31491&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;&lt;code&gt;terraform show -json&lt;/code&gt;: Fixed missing markers for unknown values in the encoding of partially unknown tuples and sets. (&lt;a href=&#34;https://github.com/hashicorp/terraform/issues/31236&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/hashicorp/terraform/pull/31236/hovercard&#34;&gt;#31236&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;&lt;code&gt;terraform output&lt;/code&gt; CLI help documentation is now more consistent with web-based documentation. (&lt;a href=&#34;https://github.com/hashicorp/terraform/issues/29354&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/hashicorp/terraform/pull/29354/hovercard&#34;&gt;#29354&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;&lt;code&gt;terraform init&lt;/code&gt;: Error messages now handle the situation where the underlying HTTP client library does not indicate a hostname for a failed request. (&lt;a href=&#34;https://github.com/hashicorp/terraform/issues/31542&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/hashicorp/terraform/pull/31542/hovercard&#34;&gt;#31542&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;&lt;code&gt;terraform init&lt;/code&gt;: Don&#39;t panic if a child module contains a resource with a syntactically-invalid resource type name. (&lt;a href=&#34;https://github.com/hashicorp/terraform/issues/31573&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/hashicorp/terraform/pull/31573/hovercard&#34;&gt;#31573&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;CLI: The representation of destroying already-&lt;code&gt;null&lt;/code&gt; output values in a destroy plan will no longer report them as being deleted, which avoids reporting the deletion of an output value that was already absent. (&lt;a href=&#34;https://github.com/hashicorp/terraform/issues/31471&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/hashicorp/terraform/pull/31471/hovercard&#34;&gt;#31471&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;&lt;code&gt;terraform import&lt;/code&gt;: Better handling of resources or modules that use &lt;code&gt;for_each&lt;/code&gt;, and situations where data resources are needed to complete the operation. (&lt;a href=&#34;https://github.com/hashicorp/terraform/issues/31283&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/hashicorp/terraform/pull/31283/hovercard&#34;&gt;#31283&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;EXPERIMENTS:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;This release concludes the &lt;code&gt;module_variable_optional_attrs&lt;/code&gt; experiment, which started in Terraform v0.14.0. The final design of the optional attributes feature is similar to the experimental form in the previous releases, but with two major differences:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;The &lt;code&gt;optional&lt;/code&gt; function-like modifier for declaring an optional attribute now accepts an optional second argument for specifying a default value to use when the attribute isn&#39;t set by the caller. If not specified, the default value is a null value of the appropriate type as before.&lt;/li&gt;&#xA;&lt;li&gt;The built-in &lt;code&gt;defaults&lt;/code&gt; function, previously used to meet the use-case of replacing null values with default values, will not graduate to stable and has been removed. Use the second argument of &lt;code&gt;optional&lt;/code&gt; inline in your type constraint to declare default values instead.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;If you have any experimental modules that were participating in this experiment, you will need to remove the experiment opt-in and adopt the new syntax for declaring default values in order to migrate your existing module to the stablized version of this feature. If you are writing a shared module for others to use, we recommend declaring that your module requires Terraform v1.3.0 or later to give specific feedback when using the new feature on older Terraform versions, in place of the previous declaration to use the experimental form of this feature:&lt;/p&gt;&#xA;&lt;div class=&#34;highlight highlight-source-terraform notranslate position-relative overflow-auto&#34; data-snippet-clipboard-copy-content=&#34;terraform {&#xA;  required_version = &amp;quot;&amp;gt;= 1.3.0&amp;quot;&#xA;}&#34;&gt;&lt;pre&gt;&lt;span class=&#34;pl-k&#34;&gt;terraform&lt;/span&gt; {&#xA;  required_version &lt;span class=&#34;pl-k&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;pl-s&#34;&gt;&lt;span class=&#34;pl-pds&#34;&gt;&#34;&lt;/span&gt;&amp;gt;= 1.3.0&lt;span class=&#34;pl-pds&#34;&gt;&#34;&lt;/span&gt;&lt;/span&gt;&#xA;}&lt;/pre&gt;&lt;/div&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/hashicorp/terraform/releases/tag/v1.3.0" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>hc-github-team-tf-core</name>
+    </author>
+  </entry>
   <entry>
     <title>Release notes from grype - v0.50.2</title>
     <updated>2022-09-20T20:13:37Z</updated>
@@ -213,22 +224,22 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from opentelemetry-go - exporters/prometheus/v0.32.0</title>
+    <title>Release notes from opentelemetry-go - exporters/otlp/otlpmetric/otlpmetrichttp/v0.32.0</title>
     <updated>2022-09-19T17:30:04Z</updated>
-    <id>tag:github.com,2008:Repository/187086161/exporters/prometheus/v0.32.0</id>
+    <id>tag:github.com,2008:Repository/187086161/exporters/otlp/otlpmetric/otlpmetrichttp/v0.32.0</id>
     <content type="html">&lt;p&gt;Module set experimental-metrics, Version v0.32.0&lt;/p&gt;</content>
-    <link href="https://github.com/open-telemetry/opentelemetry-go/releases/tag/exporters%2Fprometheus%2Fv0.32.0" rel="alternate"></link>
+    <link href="https://github.com/open-telemetry/opentelemetry-go/releases/tag/exporters%2Fotlp%2Fotlpmetric%2Fotlpmetrichttp%2Fv0.32.0" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>MrAlias</name>
     </author>
   </entry>
   <entry>
-    <title>Release notes from opentelemetry-go - exporters/otlp/otlpmetric/otlpmetrichttp/v0.32.0</title>
+    <title>Release notes from opentelemetry-go - exporters/prometheus/v0.32.0</title>
     <updated>2022-09-19T17:30:04Z</updated>
-    <id>tag:github.com,2008:Repository/187086161/exporters/otlp/otlpmetric/otlpmetrichttp/v0.32.0</id>
+    <id>tag:github.com,2008:Repository/187086161/exporters/prometheus/v0.32.0</id>
     <content type="html">&lt;p&gt;Module set experimental-metrics, Version v0.32.0&lt;/p&gt;</content>
-    <link href="https://github.com/open-telemetry/opentelemetry-go/releases/tag/exporters%2Fotlp%2Fotlpmetric%2Fotlpmetrichttp%2Fv0.32.0" rel="alternate"></link>
+    <link href="https://github.com/open-telemetry/opentelemetry-go/releases/tag/exporters%2Fprometheus%2Fv0.32.0" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>MrAlias</name>
@@ -422,22 +433,22 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from telepresence - v2.7.6</title>
+    <title>Release notes from telepresence - rpc/v2.7.6</title>
     <updated>2022-09-16T19:29:58Z</updated>
-    <id>tag:github.com,2008:Repository/82933315/v2.7.6</id>
+    <id>tag:github.com,2008:Repository/82933315/rpc/v2.7.6</id>
     <content type="html">&lt;p&gt;v2.7.6&lt;/p&gt;</content>
-    <link href="https://github.com/telepresenceio/telepresence/releases/tag/v2.7.6" rel="alternate"></link>
+    <link href="https://github.com/telepresenceio/telepresence/releases/tag/rpc%2Fv2.7.6" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>josecv</name>
     </author>
   </entry>
   <entry>
-    <title>Release notes from telepresence - rpc/v2.7.6</title>
+    <title>Release notes from telepresence - v2.7.6</title>
     <updated>2022-09-16T19:29:58Z</updated>
-    <id>tag:github.com,2008:Repository/82933315/rpc/v2.7.6</id>
+    <id>tag:github.com,2008:Repository/82933315/v2.7.6</id>
     <content type="html">&lt;p&gt;v2.7.6&lt;/p&gt;</content>
-    <link href="https://github.com/telepresenceio/telepresence/releases/tag/rpc%2Fv2.7.6" rel="alternate"></link>
+    <link href="https://github.com/telepresenceio/telepresence/releases/tag/v2.7.6" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>josecv</name>
@@ -488,11 +499,44 @@
     </author>
   </entry>
   <entry>
+    <title>Release notes from opentelemetry-operations-go - exporter/collector/googlemanagedprometheus/v0.32.8</title>
+    <updated>2022-09-15T16:27:37Z</updated>
+    <id>tag:github.com,2008:Repository/244484581/exporter/collector/googlemanagedprometheus/v0.32.8</id>
+    <content type="html">&lt;p&gt;prepare for 1.8.8 and 0.32.8 (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1374698389&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/478&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleCloudPlatform/opentelemetry-operations-go/pull/478/hovercard&#34; href=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/pull/478&#34;&gt;#478&lt;/a&gt;)&lt;/p&gt;</content>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/exporter%2Fcollector%2Fgooglemanagedprometheus%2Fv0.32.8" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>dashpole</name>
+    </author>
+  </entry>
+  <entry>
     <title>Release notes from opentelemetry-operations-go - exporter/trace/v1.8.8</title>
     <updated>2022-09-15T16:27:37Z</updated>
     <id>tag:github.com,2008:Repository/244484581/exporter/trace/v1.8.8</id>
     <content type="html">&lt;p&gt;prepare for 1.8.8 and 0.32.8 (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1374698389&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/478&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleCloudPlatform/opentelemetry-operations-go/pull/478/hovercard&#34; href=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/pull/478&#34;&gt;#478&lt;/a&gt;)&lt;/p&gt;</content>
     <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/exporter%2Ftrace%2Fv1.8.8" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>dashpole</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from opentelemetry-operations-go - internal/cloudmock/v0.32.8</title>
+    <updated>2022-09-15T16:27:37Z</updated>
+    <id>tag:github.com,2008:Repository/244484581/internal/cloudmock/v0.32.8</id>
+    <content type="html">&lt;p&gt;prepare for 1.8.8 and 0.32.8 (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1374698389&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/478&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleCloudPlatform/opentelemetry-operations-go/pull/478/hovercard&#34; href=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/pull/478&#34;&gt;#478&lt;/a&gt;)&lt;/p&gt;</content>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/internal%2Fcloudmock%2Fv0.32.8" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>dashpole</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from opentelemetry-operations-go - internal/resourcemapping/v0.32.8</title>
+    <updated>2022-09-15T16:27:37Z</updated>
+    <id>tag:github.com,2008:Repository/244484581/internal/resourcemapping/v0.32.8</id>
+    <content type="html">&lt;p&gt;prepare for 1.8.8 and 0.32.8 (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1374698389&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/478&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleCloudPlatform/opentelemetry-operations-go/pull/478/hovercard&#34; href=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/pull/478&#34;&gt;#478&lt;/a&gt;)&lt;/p&gt;</content>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/internal%2Fresourcemapping%2Fv0.32.8" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>dashpole</name>
@@ -521,39 +565,6 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from opentelemetry-operations-go - exporter/collector/googlemanagedprometheus/v0.32.8</title>
-    <updated>2022-09-15T16:27:37Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/exporter/collector/googlemanagedprometheus/v0.32.8</id>
-    <content type="html">&lt;p&gt;prepare for 1.8.8 and 0.32.8 (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1374698389&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/478&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleCloudPlatform/opentelemetry-operations-go/pull/478/hovercard&#34; href=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/pull/478&#34;&gt;#478&lt;/a&gt;)&lt;/p&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/exporter%2Fcollector%2Fgooglemanagedprometheus%2Fv0.32.8" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>dashpole</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from opentelemetry-operations-go - detectors/gcp/v0.32.8</title>
-    <updated>2022-09-15T16:27:37Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/detectors/gcp/v0.32.8</id>
-    <content type="html">&lt;p&gt;prepare for 1.8.8 and 0.32.8 (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1374698389&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/478&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleCloudPlatform/opentelemetry-operations-go/pull/478/hovercard&#34; href=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/pull/478&#34;&gt;#478&lt;/a&gt;)&lt;/p&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/detectors%2Fgcp%2Fv0.32.8" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>dashpole</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from opentelemetry-operations-go - internal/cloudmock/v0.32.8</title>
-    <updated>2022-09-15T16:27:37Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/internal/cloudmock/v0.32.8</id>
-    <content type="html">&lt;p&gt;prepare for 1.8.8 and 0.32.8 (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1374698389&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/478&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleCloudPlatform/opentelemetry-operations-go/pull/478/hovercard&#34; href=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/pull/478&#34;&gt;#478&lt;/a&gt;)&lt;/p&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/internal%2Fcloudmock%2Fv0.32.8" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>dashpole</name>
-    </author>
-  </entry>
-  <entry>
     <title>Release notes from opentelemetry-operations-go - example/trace/http/v0.32.8</title>
     <updated>2022-09-15T16:27:37Z</updated>
     <id>tag:github.com,2008:Repository/244484581/example/trace/http/v0.32.8</id>
@@ -576,25 +587,14 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from opentelemetry-operations-go - internal/resourcemapping/v0.32.8</title>
+    <title>Release notes from opentelemetry-operations-go - detectors/gcp/v0.32.8</title>
     <updated>2022-09-15T16:27:37Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/internal/resourcemapping/v0.32.8</id>
+    <id>tag:github.com,2008:Repository/244484581/detectors/gcp/v0.32.8</id>
     <content type="html">&lt;p&gt;prepare for 1.8.8 and 0.32.8 (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1374698389&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/478&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleCloudPlatform/opentelemetry-operations-go/pull/478/hovercard&#34; href=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/pull/478&#34;&gt;#478&lt;/a&gt;)&lt;/p&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/internal%2Fresourcemapping%2Fv0.32.8" rel="alternate"></link>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/detectors%2Fgcp%2Fv0.32.8" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>dashpole</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from telepresence - rpc/v2.7.6-rc.2</title>
-    <updated>2022-09-15T15:57:33Z</updated>
-    <id>tag:github.com,2008:Repository/82933315/rpc/v2.7.6-rc.2</id>
-    <content type="html">&lt;p&gt;v2.7.6-rc.2&lt;/p&gt;</content>
-    <link href="https://github.com/telepresenceio/telepresence/releases/tag/rpc%2Fv2.7.6-rc.2" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>thallgren</name>
     </author>
   </entry>
   <entry>
@@ -603,6 +603,17 @@
     <id>tag:github.com,2008:Repository/82933315/v2.7.6-rc.2</id>
     <content type="html">&lt;p&gt;v2.7.6-rc.2&lt;/p&gt;</content>
     <link href="https://github.com/telepresenceio/telepresence/releases/tag/v2.7.6-rc.2" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>thallgren</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from telepresence - rpc/v2.7.6-rc.2</title>
+    <updated>2022-09-15T15:57:33Z</updated>
+    <id>tag:github.com,2008:Repository/82933315/rpc/v2.7.6-rc.2</id>
+    <content type="html">&lt;p&gt;v2.7.6-rc.2&lt;/p&gt;</content>
+    <link href="https://github.com/telepresenceio/telepresence/releases/tag/rpc%2Fv2.7.6-rc.2" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>thallgren</name>
@@ -2193,11 +2204,11 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from kpt - package-examples/cert-manager-basic/v0: Add a basic ghost package (#3381)</title>
+    <title>Release notes from kpt - package-examples/ingress-nginx/v0: Add a basic ghost package (#3381)</title>
     <updated>2022-07-19T17:43:52Z</updated>
-    <id>tag:github.com,2008:Repository/208908993/package-examples/cert-manager-basic/v0</id>
+    <id>tag:github.com,2008:Repository/208908993/package-examples/ingress-nginx/v0</id>
     <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Add ghost basic package&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;update ghost pacakge&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;remove set-labels&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/GoogleContainerTools/kpt/releases/tag/package-examples%2Fcert-manager-basic%2Fv0" rel="alternate"></link>
+    <link href="https://github.com/GoogleContainerTools/kpt/releases/tag/package-examples%2Fingress-nginx%2Fv0" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>yuwenma</name>
@@ -2215,11 +2226,11 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from kpt - package-examples/ingress-nginx/v0: Add a basic ghost package (#3381)</title>
+    <title>Release notes from kpt - package-examples/cert-manager-basic/v0: Add a basic ghost package (#3381)</title>
     <updated>2022-07-19T17:43:52Z</updated>
-    <id>tag:github.com,2008:Repository/208908993/package-examples/ingress-nginx/v0</id>
+    <id>tag:github.com,2008:Repository/208908993/package-examples/cert-manager-basic/v0</id>
     <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Add ghost basic package&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;update ghost pacakge&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;remove set-labels&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/GoogleContainerTools/kpt/releases/tag/package-examples%2Fingress-nginx%2Fv0" rel="alternate"></link>
+    <link href="https://github.com/GoogleContainerTools/kpt/releases/tag/package-examples%2Fcert-manager-basic%2Fv0" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>yuwenma</name>
@@ -2509,17 +2520,6 @@
     <summary type="html"></summary>
     <author>
       <name>derekparker</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from terraform - v1.3.0-alpha20220706</title>
-    <updated>2022-07-06T18:26:37Z</updated>
-    <id>tag:github.com,2008:Repository/17728164/v1.3.0-alpha20220706</id>
-    <content type="html">&lt;h2&gt;1.3.0 (Unreleased)&lt;/h2&gt;&#xA;&lt;p&gt;NEW FEATURES:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Optional attributes for object type constraints:&lt;/strong&gt; When declaring an input variable whose type constraint includes an object type, you can now declare individual attributes as optional, and specify a default value to use if the caller doesn&#39;t set it. For example:&lt;/p&gt;&#xA;&lt;div class=&#34;highlight highlight-source-terraform notranslate position-relative overflow-auto&#34; data-snippet-clipboard-copy-content=&#34;variable &amp;quot;with_optional_attribute&amp;quot; {&#xA;  type = object({&#xA;    a = string                # a required attribute&#xA;    b = optional(string)      # an optional attribute&#xA;    c = optional(number, 127) # an optional attribute with a default value&#xA;  })&#xA;}&#34;&gt;&lt;pre&gt;&lt;span class=&#34;pl-k&#34;&gt;variable&lt;/span&gt; &lt;span class=&#34;pl-s&#34;&gt;&lt;span class=&#34;pl-pds&#34;&gt;&#34;&lt;/span&gt;with_optional_attribute&lt;span class=&#34;pl-pds&#34;&gt;&#34;&lt;/span&gt;&lt;/span&gt; {&#xA;  type &lt;span class=&#34;pl-k&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;pl-v&#34;&gt;object&lt;/span&gt;({&#xA;    a &lt;span class=&#34;pl-k&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;pl-k&#34;&gt;string&lt;/span&gt;                &lt;span class=&#34;pl-c&#34;&gt;&lt;span class=&#34;pl-c&#34;&gt;#&lt;/span&gt; a required attribute&lt;/span&gt;&#xA;    b &lt;span class=&#34;pl-k&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;pl-v&#34;&gt;optional&lt;/span&gt;(&lt;span class=&#34;pl-k&#34;&gt;string&lt;/span&gt;)      &lt;span class=&#34;pl-c&#34;&gt;&lt;span class=&#34;pl-c&#34;&gt;#&lt;/span&gt; an optional attribute&lt;/span&gt;&#xA;    c &lt;span class=&#34;pl-k&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;pl-v&#34;&gt;optional&lt;/span&gt;(&lt;span class=&#34;pl-k&#34;&gt;number&lt;/span&gt;, &lt;span class=&#34;pl-c1&#34;&gt;127&lt;/span&gt;) &lt;span class=&#34;pl-c&#34;&gt;&lt;span class=&#34;pl-c&#34;&gt;#&lt;/span&gt; an optional attribute with a default value&lt;/span&gt;&#xA;  })&#xA;}&lt;/pre&gt;&lt;/div&gt;&#xA;&lt;p&gt;Assigning &lt;code&gt;{ a = &#34;foo&#34; }&lt;/code&gt; to this variable will result in the value &lt;code&gt;{ a = &#34;foo&#34;, b = null, c = 127 }&lt;/code&gt;.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;UPGRADE NOTES:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;code&gt;terraform show -json&lt;/code&gt;: Output changes now include more detail about the unknown-ness of the planned value. Previously, a planned output would be marked as either fully known or partially unknown, with the &lt;code&gt;after_unknown&lt;/code&gt; field having value &lt;code&gt;false&lt;/code&gt; or &lt;code&gt;true&lt;/code&gt; respectively. Now outputs correctly expose the full structure of unknownness for complex values, allowing consumers of the JSON output format to determine which values in a collection are known only after apply.&lt;/p&gt;&#xA;&lt;p&gt;Consumers of the JSON output format expecting on the &lt;code&gt;after_unknown&lt;/code&gt; field to be only &lt;code&gt;false&lt;/code&gt; or &lt;code&gt;true&lt;/code&gt; should be updated to support &lt;a href=&#34;https://www.terraform.io/internals/json-format#change-representation&#34; rel=&#34;nofollow&#34;&gt;the change representation&lt;/a&gt; described in the documentation, and as was already used for resource changes. (&lt;a href=&#34;https://github.com/hashicorp/terraform/issues/31235&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/hashicorp/terraform/pull/31235/hovercard&#34;&gt;#31235&lt;/a&gt;)&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;ENHANCEMENTS:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;config: Optional attributes for object type constraints, as described under new features above. (&lt;a href=&#34;https://github.com/hashicorp/terraform/issues/31154&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/hashicorp/terraform/pull/31154/hovercard&#34;&gt;#31154&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;When reporting an error message related to a function call, Terraform will now include contextual information about the signature of the function that was being called, as an aid to understanding why the call might have failed. (&lt;a href=&#34;https://github.com/hashicorp/terraform/issues/31299&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/hashicorp/terraform/pull/31299/hovercard&#34;&gt;#31299&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;When reporting an error or warning message that isn&#39;t caused by values being unknown or marked as sensitive, Terraform will no longer mention any values having those characteristics in the contextual information presented alongside the error. Terraform will still return this information for the small subset of error messages that are specifically about unknown values or sensitive values being invalid in certain contexts. (&lt;a href=&#34;https://github.com/hashicorp/terraform/issues/31299&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/hashicorp/terraform/pull/31299/hovercard&#34;&gt;#31299&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;The Terraform CLI now calls &lt;code&gt;PlanResourceChange&lt;/code&gt; for compatible providers when destroying resource instances. (&lt;a href=&#34;https://github.com/hashicorp/terraform/issues/31179&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/hashicorp/terraform/pull/31179/hovercard&#34;&gt;#31179&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;BUG FIXES:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Made &lt;code&gt;terraform output&lt;/code&gt; CLI help documentation consistent with web-based documentation. (&lt;a href=&#34;https://github.com/hashicorp/terraform/issues/29354&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/hashicorp/terraform/pull/29354/hovercard&#34;&gt;#29354&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;&lt;code&gt;terraform show -json&lt;/code&gt;: Fixed missing unknown markers in the encoding of partially unknown tuples and sets. (&lt;a href=&#34;https://github.com/hashicorp/terraform/issues/31236&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/hashicorp/terraform/pull/31236/hovercard&#34;&gt;#31236&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;EXPERIMENTS:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;This release concludes the &lt;code&gt;module_variable_optional_attrs&lt;/code&gt; experiment, which started in Terraform v0.14.0. The final design of the optional attributes feature is similar to the experimental form in the previous releases, but with two major differences:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;The &lt;code&gt;optional&lt;/code&gt; function-like modifier for declaring an optional attribute now accepts an optional second argument for specifying a default value to use when the attribute isn&#39;t set by the caller. If not specified, the default value is a null value of the appropriate type as before.&lt;/li&gt;&#xA;&lt;li&gt;The built-in &lt;code&gt;defaults&lt;/code&gt; function, previously used to meet the use-case of replacing null values with default values, will not graduate to stable and has been removed. Use the second argument of &lt;code&gt;optional&lt;/code&gt; inline in your type constraint to declare default values instead.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;If you have any experimental modules that were participating in this experiment, you will need to remove the experiment opt-in and adopt the new syntax for declaring default values in order to migrate your existing module to the stablized version of this feature. If you are writing a shared module for others to use, we recommend declaring that your module requires Terraform v1.3.0 or later to give specific feedback when using the new feature on older Terraform versions, in place of the previous declaration to use the experimental form of this feature:&lt;/p&gt;&#xA;&lt;div class=&#34;highlight highlight-source-terraform notranslate position-relative overflow-auto&#34; data-snippet-clipboard-copy-content=&#34;terraform {&#xA;  required_version = &amp;quot;&amp;gt;= 1.3.0&amp;quot;&#xA;}&#34;&gt;&lt;pre&gt;&lt;span class=&#34;pl-k&#34;&gt;terraform&lt;/span&gt; {&#xA;  required_version &lt;span class=&#34;pl-k&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;pl-s&#34;&gt;&lt;span class=&#34;pl-pds&#34;&gt;&#34;&lt;/span&gt;&amp;gt;= 1.3.0&lt;span class=&#34;pl-pds&#34;&gt;&#34;&lt;/span&gt;&lt;/span&gt;&#xA;}&lt;/pre&gt;&lt;/div&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/hashicorp/terraform/releases/tag/v1.3.0-alpha20220706" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>hc-github-team-tf-core</name>
     </author>
   </entry>
   <entry>
@@ -6714,22 +6714,22 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from triangula - v1.1.5</title>
+    <title>Release notes from triangula - v1.1.6</title>
     <updated>2021-05-11T13:31:09Z</updated>
-    <id>tag:github.com,2008:Repository/354015172/v1.1.5</id>
+    <id>tag:github.com,2008:Repository/354015172/v1.1.6</id>
     <content type="html">&lt;p&gt;Refactor for more flexibility&lt;/p&gt;</content>
-    <link href="https://github.com/rh12503/triangula/releases/tag/v1.1.5" rel="alternate"></link>
+    <link href="https://github.com/rh12503/triangula/releases/tag/v1.1.6" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>rh12503</name>
     </author>
   </entry>
   <entry>
-    <title>Release notes from triangula - v1.1.6</title>
+    <title>Release notes from triangula - v1.1.5</title>
     <updated>2021-05-11T13:31:09Z</updated>
-    <id>tag:github.com,2008:Repository/354015172/v1.1.6</id>
+    <id>tag:github.com,2008:Repository/354015172/v1.1.5</id>
     <content type="html">&lt;p&gt;Refactor for more flexibility&lt;/p&gt;</content>
-    <link href="https://github.com/rh12503/triangula/releases/tag/v1.1.6" rel="alternate"></link>
+    <link href="https://github.com/rh12503/triangula/releases/tag/v1.1.5" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>rh12503</name>
@@ -7363,22 +7363,22 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from backoff - v2.0.2: Merge pull request #18 from lestrrat-go/topic/fix-v2-go-mod</title>
+    <title>Release notes from backoff - v2.0.3: Merge pull request #18 from lestrrat-go/topic/fix-v2-go-mod</title>
     <updated>2021-01-06T03:00:05Z</updated>
-    <id>tag:github.com,2008:Repository/118608673/v2.0.2</id>
+    <id>tag:github.com,2008:Repository/118608673/v2.0.3</id>
     <content type="html">&lt;p&gt;Fix go.mod&lt;/p&gt;</content>
-    <link href="https://github.com/lestrrat-go/backoff/releases/tag/v2.0.2" rel="alternate"></link>
+    <link href="https://github.com/lestrrat-go/backoff/releases/tag/v2.0.3" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>lestrrat</name>
     </author>
   </entry>
   <entry>
-    <title>Release notes from backoff - v2.0.3: Merge pull request #18 from lestrrat-go/topic/fix-v2-go-mod</title>
+    <title>Release notes from backoff - v2.0.2: Merge pull request #18 from lestrrat-go/topic/fix-v2-go-mod</title>
     <updated>2021-01-06T03:00:05Z</updated>
-    <id>tag:github.com,2008:Repository/118608673/v2.0.3</id>
+    <id>tag:github.com,2008:Repository/118608673/v2.0.2</id>
     <content type="html">&lt;p&gt;Fix go.mod&lt;/p&gt;</content>
-    <link href="https://github.com/lestrrat-go/backoff/releases/tag/v2.0.3" rel="alternate"></link>
+    <link href="https://github.com/lestrrat-go/backoff/releases/tag/v2.0.2" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>lestrrat</name>
