@@ -1,8 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?><feed xmlns="http://www.w3.org/2005/Atom">
   <title>Releases from Starred by toga4</title>
   <id>https://toga4.github.io/feeds/starred-releases.atom</id>
-  <updated>2022-09-27T03:46:46Z</updated>
+  <updated>2022-09-27T13:46:30Z</updated>
   <link href="https://toga4.github.io/feeds/starred-releases.atom"></link>
+  <entry>
+    <title>Release notes from stern - v1.22.0</title>
+    <updated>2022-09-27T13:46:30Z</updated>
+    <id>tag:github.com,2008:Repository/306013800/v1.22.0</id>
+    <content type="html">&lt;h2&gt;News&lt;/h2&gt;&#xA;&lt;p&gt;You can now use the following two new output modes:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;code&gt;extjson&lt;/code&gt; is an extended json mode where the whole output is embeded in json and the namespace/pod/container values are color-coded as in the default mode.&lt;/li&gt;&#xA;&lt;li&gt;&lt;code&gt;ppextjson&lt;/code&gt; is the same as the above with pretty-print, so each field is on its own line.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Both of those modes can be piped into jq if you want full pretty-print, but you&#39;ll lose the original color-coding.&lt;/p&gt;&#xA;&lt;div class=&#34;snippet-clipboard-content notranslate position-relative overflow-auto&#34; data-snippet-clipboard-copy-content=&#34;$ stern --output extjson .&#xA;&#xA;$ stern --output extjson . | jq &#39;.&#39;&#xA;&#xA;$ stern --output ppextjson .&#34;&gt;&lt;pre class=&#34;notranslate&#34;&gt;&lt;code&gt;$ stern --output extjson .&#xA;&#xA;$ stern --output extjson . | jq &#39;.&#39;&#xA;&#xA;$ stern --output ppextjson .&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&#xA;&lt;p&gt;See &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1384172956&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/stern/stern/issues/190&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/stern/stern/pull/190/hovercard&#34; href=&#34;https://github.com/stern/stern/pull/190&#34;&gt;#190&lt;/a&gt; for more details.&lt;/p&gt;&#xA;&lt;h2&gt;Changelog&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Update dependencies (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1386152603&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/stern/stern/issues/192&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/stern/stern/pull/192/hovercard&#34; href=&#34;https://github.com/stern/stern/pull/192&#34;&gt;#192&lt;/a&gt;) &lt;a class=&#34;commit-link&#34; data-hovercard-type=&#34;commit&#34; data-hovercard-url=&#34;https://github.com/stern/stern/commit/f6f4f640be851ccbd311b609d94a6fdab432d212/hovercard&#34; href=&#34;https://github.com/stern/stern/commit/f6f4f640be851ccbd311b609d94a6fdab432d212&#34;&gt;&lt;tt&gt;f6f4f64&lt;/tt&gt;&lt;/a&gt; (Kazuki Suda)&lt;/li&gt;&#xA;&lt;li&gt;Use Go 1.19 (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1385786909&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/stern/stern/issues/191&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/stern/stern/pull/191/hovercard&#34; href=&#34;https://github.com/stern/stern/pull/191&#34;&gt;#191&lt;/a&gt;) &lt;a class=&#34;commit-link&#34; data-hovercard-type=&#34;commit&#34; data-hovercard-url=&#34;https://github.com/stern/stern/commit/01483887b37e88c70287cd8df6704bb9d567d707/hovercard&#34; href=&#34;https://github.com/stern/stern/commit/01483887b37e88c70287cd8df6704bb9d567d707&#34;&gt;&lt;tt&gt;0148388&lt;/tt&gt;&lt;/a&gt; (Kazuki Suda)&lt;/li&gt;&#xA;&lt;li&gt;added output modes to colorize json output (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1384172956&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/stern/stern/issues/190&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/stern/stern/pull/190/hovercard&#34; href=&#34;https://github.com/stern/stern/pull/190&#34;&gt;#190&lt;/a&gt;) &lt;a class=&#34;commit-link&#34; data-hovercard-type=&#34;commit&#34; data-hovercard-url=&#34;https://github.com/stern/stern/commit/3798ef55d705235646c0593c694c6233e61c8543/hovercard&#34; href=&#34;https://github.com/stern/stern/commit/3798ef55d705235646c0593c694c6233e61c8543&#34;&gt;&lt;tt&gt;3798ef5&lt;/tt&gt;&lt;/a&gt; (Prune Sebastien THOMAS)&lt;/li&gt;&#xA;&lt;li&gt;Update dependencies (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1244204477&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/stern/stern/issues/183&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/stern/stern/pull/183/hovercard&#34; href=&#34;https://github.com/stern/stern/pull/183&#34;&gt;#183&lt;/a&gt;) &lt;a class=&#34;commit-link&#34; data-hovercard-type=&#34;commit&#34; data-hovercard-url=&#34;https://github.com/stern/stern/commit/149cadfb8c6ba367cf2572e490a1e34cd7f82512/hovercard&#34; href=&#34;https://github.com/stern/stern/commit/149cadfb8c6ba367cf2572e490a1e34cd7f82512&#34;&gt;&lt;tt&gt;149cadf&lt;/tt&gt;&lt;/a&gt; (Kazuki Suda)&lt;/li&gt;&#xA;&lt;li&gt;Use Go 1.18 (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1237136536&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/stern/stern/issues/182&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/stern/stern/pull/182/hovercard&#34; href=&#34;https://github.com/stern/stern/pull/182&#34;&gt;#182&lt;/a&gt;) &lt;a class=&#34;commit-link&#34; data-hovercard-type=&#34;commit&#34; data-hovercard-url=&#34;https://github.com/stern/stern/commit/f403cf387c4ac99e5028f4e1e5193d90a0d112b4/hovercard&#34; href=&#34;https://github.com/stern/stern/commit/f403cf387c4ac99e5028f4e1e5193d90a0d112b4&#34;&gt;&lt;tt&gt;f403cf3&lt;/tt&gt;&lt;/a&gt; (Kazuki Suda)&lt;/li&gt;&#xA;&lt;li&gt;Continue tailing logs even if timezone update fails (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1109713163&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/stern/stern/issues/178&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/stern/stern/pull/178/hovercard&#34; href=&#34;https://github.com/stern/stern/pull/178&#34;&gt;#178&lt;/a&gt;) &lt;a class=&#34;commit-link&#34; data-hovercard-type=&#34;commit&#34; data-hovercard-url=&#34;https://github.com/stern/stern/commit/8fbf7d5c657b2cfb7eb8b8b382bb5a6e231e0b73/hovercard&#34; href=&#34;https://github.com/stern/stern/commit/8fbf7d5c657b2cfb7eb8b8b382bb5a6e231e0b73&#34;&gt;&lt;tt&gt;8fbf7d5&lt;/tt&gt;&lt;/a&gt; (Diego LAA)&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/stern/stern/releases/tag/v1.22.0" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>github-actions[bot]</name>
+    </author>
+  </entry>
   <entry>
     <title>Release notes from k9s - v0.26.6</title>
     <updated>2022-09-27T03:46:46Z</updated>
@@ -180,22 +191,22 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from telepresence - v2.7.7-rc.2</title>
+    <title>Release notes from telepresence - rpc/v2.7.7-rc.2</title>
     <updated>2022-09-23T19:26:40Z</updated>
-    <id>tag:github.com,2008:Repository/82933315/v2.7.7-rc.2</id>
+    <id>tag:github.com,2008:Repository/82933315/rpc/v2.7.7-rc.2</id>
     <content type="html">&lt;p&gt;v2.7.7-rc.2&lt;/p&gt;</content>
-    <link href="https://github.com/telepresenceio/telepresence/releases/tag/v2.7.7-rc.2" rel="alternate"></link>
+    <link href="https://github.com/telepresenceio/telepresence/releases/tag/rpc%2Fv2.7.7-rc.2" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>josecv</name>
     </author>
   </entry>
   <entry>
-    <title>Release notes from telepresence - rpc/v2.7.7-rc.2</title>
+    <title>Release notes from telepresence - v2.7.7-rc.2</title>
     <updated>2022-09-23T19:26:40Z</updated>
-    <id>tag:github.com,2008:Repository/82933315/rpc/v2.7.7-rc.2</id>
+    <id>tag:github.com,2008:Repository/82933315/v2.7.7-rc.2</id>
     <content type="html">&lt;p&gt;v2.7.7-rc.2&lt;/p&gt;</content>
-    <link href="https://github.com/telepresenceio/telepresence/releases/tag/rpc%2Fv2.7.7-rc.2" rel="alternate"></link>
+    <link href="https://github.com/telepresenceio/telepresence/releases/tag/v2.7.7-rc.2" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>josecv</name>
@@ -257,22 +268,22 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from telepresence - v2.7.7-rc.0</title>
+    <title>Release notes from telepresence - rpc/v2.7.7-rc.0</title>
     <updated>2022-09-23T16:08:30Z</updated>
-    <id>tag:github.com,2008:Repository/82933315/v2.7.7-rc.0</id>
+    <id>tag:github.com,2008:Repository/82933315/rpc/v2.7.7-rc.0</id>
     <content type="html">&lt;p&gt;v2.7.7-rc.0&lt;/p&gt;</content>
-    <link href="https://github.com/telepresenceio/telepresence/releases/tag/v2.7.7-rc.0" rel="alternate"></link>
+    <link href="https://github.com/telepresenceio/telepresence/releases/tag/rpc%2Fv2.7.7-rc.0" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>josecv</name>
     </author>
   </entry>
   <entry>
-    <title>Release notes from telepresence - rpc/v2.7.7-rc.0</title>
+    <title>Release notes from telepresence - v2.7.7-rc.0</title>
     <updated>2022-09-23T16:08:30Z</updated>
-    <id>tag:github.com,2008:Repository/82933315/rpc/v2.7.7-rc.0</id>
+    <id>tag:github.com,2008:Repository/82933315/v2.7.7-rc.0</id>
     <content type="html">&lt;p&gt;v2.7.7-rc.0&lt;/p&gt;</content>
-    <link href="https://github.com/telepresenceio/telepresence/releases/tag/rpc%2Fv2.7.7-rc.0" rel="alternate"></link>
+    <link href="https://github.com/telepresenceio/telepresence/releases/tag/v2.7.7-rc.0" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>josecv</name>
@@ -290,22 +301,22 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from telepresence - rpc/v2.8.0-rc.0</title>
+    <title>Release notes from telepresence - v2.8.0-rc.0</title>
     <updated>2022-09-23T08:14:08Z</updated>
-    <id>tag:github.com,2008:Repository/82933315/rpc/v2.8.0-rc.0</id>
+    <id>tag:github.com,2008:Repository/82933315/v2.8.0-rc.0</id>
     <content type="html">&lt;p&gt;v2.8.0-rc.0&lt;/p&gt;</content>
-    <link href="https://github.com/telepresenceio/telepresence/releases/tag/rpc%2Fv2.8.0-rc.0" rel="alternate"></link>
+    <link href="https://github.com/telepresenceio/telepresence/releases/tag/v2.8.0-rc.0" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>josecv</name>
     </author>
   </entry>
   <entry>
-    <title>Release notes from telepresence - v2.8.0-rc.0</title>
+    <title>Release notes from telepresence - rpc/v2.8.0-rc.0</title>
     <updated>2022-09-23T08:14:08Z</updated>
-    <id>tag:github.com,2008:Repository/82933315/v2.8.0-rc.0</id>
+    <id>tag:github.com,2008:Repository/82933315/rpc/v2.8.0-rc.0</id>
     <content type="html">&lt;p&gt;v2.8.0-rc.0&lt;/p&gt;</content>
-    <link href="https://github.com/telepresenceio/telepresence/releases/tag/v2.8.0-rc.0" rel="alternate"></link>
+    <link href="https://github.com/telepresenceio/telepresence/releases/tag/rpc%2Fv2.8.0-rc.0" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>josecv</name>
@@ -356,17 +367,6 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from opentelemetry-go - exporters/prometheus/v0.32.1</title>
-    <updated>2022-09-22T19:49:17Z</updated>
-    <id>tag:github.com,2008:Repository/187086161/exporters/prometheus/v0.32.1</id>
-    <content type="html">&lt;p&gt;Module set experimental-metrics, Version v0.32.1&lt;/p&gt;</content>
-    <link href="https://github.com/open-telemetry/opentelemetry-go/releases/tag/exporters%2Fprometheus%2Fv0.32.1" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>MadVikingGod</name>
-    </author>
-  </entry>
-  <entry>
     <title>Release notes from opentelemetry-go - exporters/otlp/otlpmetric/otlpmetrichttp/v0.32.1</title>
     <updated>2022-09-22T19:49:17Z</updated>
     <id>tag:github.com,2008:Repository/187086161/exporters/otlp/otlpmetric/otlpmetrichttp/v0.32.1</id>
@@ -378,11 +378,11 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from opentelemetry-go - example/prometheus/v0.32.1</title>
-    <updated>2022-09-22T19:49:16Z</updated>
-    <id>tag:github.com,2008:Repository/187086161/example/prometheus/v0.32.1</id>
+    <title>Release notes from opentelemetry-go - exporters/prometheus/v0.32.1</title>
+    <updated>2022-09-22T19:49:17Z</updated>
+    <id>tag:github.com,2008:Repository/187086161/exporters/prometheus/v0.32.1</id>
     <content type="html">&lt;p&gt;Module set experimental-metrics, Version v0.32.1&lt;/p&gt;</content>
-    <link href="https://github.com/open-telemetry/opentelemetry-go/releases/tag/example%2Fprometheus%2Fv0.32.1" rel="alternate"></link>
+    <link href="https://github.com/open-telemetry/opentelemetry-go/releases/tag/exporters%2Fprometheus%2Fv0.32.1" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>MadVikingGod</name>
@@ -405,6 +405,17 @@
     <id>tag:github.com,2008:Repository/187086161/exporters/otlp/otlpmetric/v0.32.1</id>
     <content type="html">&lt;p&gt;Module set experimental-metrics, Version v0.32.1&lt;/p&gt;</content>
     <link href="https://github.com/open-telemetry/opentelemetry-go/releases/tag/exporters%2Fotlp%2Fotlpmetric%2Fv0.32.1" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>MadVikingGod</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from opentelemetry-go - example/prometheus/v0.32.1</title>
+    <updated>2022-09-22T19:49:16Z</updated>
+    <id>tag:github.com,2008:Repository/187086161/example/prometheus/v0.32.1</id>
+    <content type="html">&lt;p&gt;Module set experimental-metrics, Version v0.32.1&lt;/p&gt;</content>
+    <link href="https://github.com/open-telemetry/opentelemetry-go/releases/tag/example%2Fprometheus%2Fv0.32.1" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>MadVikingGod</name>
@@ -763,33 +774,33 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from opentelemetry-operations-go - exporter/metric/v0.32.8</title>
-    <updated>2022-09-15T16:27:37Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/exporter/metric/v0.32.8</id>
-    <content type="html">&lt;p&gt;prepare for 1.8.8 and 0.32.8 (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1374698389&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/478&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleCloudPlatform/opentelemetry-operations-go/pull/478/hovercard&#34; href=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/pull/478&#34;&gt;#478&lt;/a&gt;)&lt;/p&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/exporter%2Fmetric%2Fv0.32.8" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>dashpole</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from opentelemetry-operations-go - internal/cloudmock/v0.32.8</title>
-    <updated>2022-09-15T16:27:37Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/internal/cloudmock/v0.32.8</id>
-    <content type="html">&lt;p&gt;prepare for 1.8.8 and 0.32.8 (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1374698389&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/478&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleCloudPlatform/opentelemetry-operations-go/pull/478/hovercard&#34; href=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/pull/478&#34;&gt;#478&lt;/a&gt;)&lt;/p&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/internal%2Fcloudmock%2Fv0.32.8" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>dashpole</name>
-    </author>
-  </entry>
-  <entry>
     <title>Release notes from opentelemetry-operations-go - exporter/collector/googlemanagedprometheus/v0.32.8</title>
     <updated>2022-09-15T16:27:37Z</updated>
     <id>tag:github.com,2008:Repository/244484581/exporter/collector/googlemanagedprometheus/v0.32.8</id>
     <content type="html">&lt;p&gt;prepare for 1.8.8 and 0.32.8 (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1374698389&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/478&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleCloudPlatform/opentelemetry-operations-go/pull/478/hovercard&#34; href=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/pull/478&#34;&gt;#478&lt;/a&gt;)&lt;/p&gt;</content>
     <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/exporter%2Fcollector%2Fgooglemanagedprometheus%2Fv0.32.8" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>dashpole</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from opentelemetry-operations-go - detectors/gcp/v0.32.8</title>
+    <updated>2022-09-15T16:27:37Z</updated>
+    <id>tag:github.com,2008:Repository/244484581/detectors/gcp/v0.32.8</id>
+    <content type="html">&lt;p&gt;prepare for 1.8.8 and 0.32.8 (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1374698389&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/478&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleCloudPlatform/opentelemetry-operations-go/pull/478/hovercard&#34; href=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/pull/478&#34;&gt;#478&lt;/a&gt;)&lt;/p&gt;</content>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/detectors%2Fgcp%2Fv0.32.8" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>dashpole</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from opentelemetry-operations-go - exporter/metric/v0.32.8</title>
+    <updated>2022-09-15T16:27:37Z</updated>
+    <id>tag:github.com,2008:Repository/244484581/exporter/metric/v0.32.8</id>
+    <content type="html">&lt;p&gt;prepare for 1.8.8 and 0.32.8 (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1374698389&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/478&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleCloudPlatform/opentelemetry-operations-go/pull/478/hovercard&#34; href=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/pull/478&#34;&gt;#478&lt;/a&gt;)&lt;/p&gt;</content>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/exporter%2Fmetric%2Fv0.32.8" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>dashpole</name>
@@ -807,11 +818,11 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from opentelemetry-operations-go - detectors/gcp/v0.32.8</title>
+    <title>Release notes from opentelemetry-operations-go - internal/cloudmock/v0.32.8</title>
     <updated>2022-09-15T16:27:37Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/detectors/gcp/v0.32.8</id>
+    <id>tag:github.com,2008:Repository/244484581/internal/cloudmock/v0.32.8</id>
     <content type="html">&lt;p&gt;prepare for 1.8.8 and 0.32.8 (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1374698389&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/478&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleCloudPlatform/opentelemetry-operations-go/pull/478/hovercard&#34; href=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/pull/478&#34;&gt;#478&lt;/a&gt;)&lt;/p&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/detectors%2Fgcp%2Fv0.32.8" rel="alternate"></link>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/internal%2Fcloudmock%2Fv0.32.8" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>dashpole</name>
@@ -1093,22 +1104,22 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from cli - v2.14.8-pre2</title>
+    <title>Release notes from cli - v2.14.8-pre1</title>
     <updated>2022-09-06T13:26:09Z</updated>
-    <id>tag:github.com,2008:Repository/212613049/v2.14.8-pre2</id>
+    <id>tag:github.com,2008:Repository/212613049/v2.14.8-pre1</id>
     <content type="html">&lt;p&gt;Use secret public key instead of file (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1363282788&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/cli/cli/issues/6204&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/cli/cli/pull/6204/hovercard&#34; href=&#34;https://github.com/cli/cli/pull/6204&#34;&gt;#6204&lt;/a&gt;)&lt;/p&gt;</content>
-    <link href="https://github.com/cli/cli/releases/tag/v2.14.8-pre2" rel="alternate"></link>
+    <link href="https://github.com/cli/cli/releases/tag/v2.14.8-pre1" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>samcoe</name>
     </author>
   </entry>
   <entry>
-    <title>Release notes from cli - v2.14.8-pre1</title>
+    <title>Release notes from cli - v2.14.8-pre2</title>
     <updated>2022-09-06T13:26:09Z</updated>
-    <id>tag:github.com,2008:Repository/212613049/v2.14.8-pre1</id>
+    <id>tag:github.com,2008:Repository/212613049/v2.14.8-pre2</id>
     <content type="html">&lt;p&gt;Use secret public key instead of file (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1363282788&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/cli/cli/issues/6204&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/cli/cli/pull/6204/hovercard&#34; href=&#34;https://github.com/cli/cli/pull/6204&#34;&gt;#6204&lt;/a&gt;)&lt;/p&gt;</content>
-    <link href="https://github.com/cli/cli/releases/tag/v2.14.8-pre1" rel="alternate"></link>
+    <link href="https://github.com/cli/cli/releases/tag/v2.14.8-pre2" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>samcoe</name>
@@ -2314,22 +2325,22 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from kpt - package-examples/cert-manager-basic/v0: Add a basic ghost package (#3381)</title>
+    <title>Release notes from kpt - package-examples/ghost/v0: Add a basic ghost package (#3381)</title>
     <updated>2022-07-19T17:43:52Z</updated>
-    <id>tag:github.com,2008:Repository/208908993/package-examples/cert-manager-basic/v0</id>
+    <id>tag:github.com,2008:Repository/208908993/package-examples/ghost/v0</id>
     <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Add ghost basic package&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;update ghost pacakge&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;remove set-labels&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/GoogleContainerTools/kpt/releases/tag/package-examples%2Fcert-manager-basic%2Fv0" rel="alternate"></link>
+    <link href="https://github.com/GoogleContainerTools/kpt/releases/tag/package-examples%2Fghost%2Fv0" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>yuwenma</name>
     </author>
   </entry>
   <entry>
-    <title>Release notes from kpt - package-examples/ghost/v0: Add a basic ghost package (#3381)</title>
+    <title>Release notes from kpt - package-examples/cert-manager-basic/v0: Add a basic ghost package (#3381)</title>
     <updated>2022-07-19T17:43:52Z</updated>
-    <id>tag:github.com,2008:Repository/208908993/package-examples/ghost/v0</id>
+    <id>tag:github.com,2008:Repository/208908993/package-examples/cert-manager-basic/v0</id>
     <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Add ghost basic package&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;update ghost pacakge&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;remove set-labels&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/GoogleContainerTools/kpt/releases/tag/package-examples%2Fghost%2Fv0" rel="alternate"></link>
+    <link href="https://github.com/GoogleContainerTools/kpt/releases/tag/package-examples%2Fcert-manager-basic%2Fv0" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>yuwenma</name>
@@ -6648,22 +6659,22 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from triangula - v1.1.5</title>
+    <title>Release notes from triangula - v1.1.6</title>
     <updated>2021-05-11T13:31:09Z</updated>
-    <id>tag:github.com,2008:Repository/354015172/v1.1.5</id>
+    <id>tag:github.com,2008:Repository/354015172/v1.1.6</id>
     <content type="html">&lt;p&gt;Refactor for more flexibility&lt;/p&gt;</content>
-    <link href="https://github.com/rh12503/triangula/releases/tag/v1.1.5" rel="alternate"></link>
+    <link href="https://github.com/rh12503/triangula/releases/tag/v1.1.6" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>rh12503</name>
     </author>
   </entry>
   <entry>
-    <title>Release notes from triangula - v1.1.6</title>
+    <title>Release notes from triangula - v1.1.5</title>
     <updated>2021-05-11T13:31:09Z</updated>
-    <id>tag:github.com,2008:Repository/354015172/v1.1.6</id>
+    <id>tag:github.com,2008:Repository/354015172/v1.1.5</id>
     <content type="html">&lt;p&gt;Refactor for more flexibility&lt;/p&gt;</content>
-    <link href="https://github.com/rh12503/triangula/releases/tag/v1.1.6" rel="alternate"></link>
+    <link href="https://github.com/rh12503/triangula/releases/tag/v1.1.5" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>rh12503</name>
@@ -7368,17 +7379,6 @@
     <id>tag:github.com,2008:Repository/308778062/v0.2.1</id>
     <content type="html">&lt;h3&gt;Bug Fixes&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;update action desc (&lt;a href=&#34;https://www.github.com/google-github-actions/get-gke-credentials/issues/6&#34;&gt;#6&lt;/a&gt;) (&lt;a href=&#34;https://www.github.com/google-github-actions/get-gke-credentials/commit/b211923b15d478de2a93032c74f5144de182a20e&#34;&gt;b211923&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
     <link href="https://github.com/google-github-actions/get-gke-credentials/releases/tag/v0.2.1" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>github-actions[bot]</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from stern - v1.13.1</title>
-    <updated>2020-12-04T00:35:13Z</updated>
-    <id>tag:github.com,2008:Repository/306013800/v1.13.1</id>
-    <content type="html">&lt;h2&gt;Changelog&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Fix mixed log lines (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;756230951&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/stern/stern/issues/106&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/stern/stern/pull/106/hovercard&#34; href=&#34;https://github.com/stern/stern/pull/106&#34;&gt;#106&lt;/a&gt;) &lt;a class=&#34;commit-link&#34; data-hovercard-type=&#34;commit&#34; data-hovercard-url=&#34;https://github.com/stern/stern/commit/e2c75ed4e87ed0aae6913716c9816a5d0380235f/hovercard&#34; href=&#34;https://github.com/stern/stern/commit/e2c75ed4e87ed0aae6913716c9816a5d0380235f&#34;&gt;&lt;tt&gt;e2c75ed&lt;/tt&gt;&lt;/a&gt; (Kazuki Suda)&lt;/li&gt;&#xA;&lt;li&gt;Make stern goroutine safe (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;748142406&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/stern/stern/issues/103&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/stern/stern/pull/103/hovercard&#34; href=&#34;https://github.com/stern/stern/pull/103&#34;&gt;#103&lt;/a&gt;) &lt;a class=&#34;commit-link&#34; data-hovercard-type=&#34;commit&#34; data-hovercard-url=&#34;https://github.com/stern/stern/commit/4adfc734ff3a417361d32c9426f5769a37c4f185/hovercard&#34; href=&#34;https://github.com/stern/stern/commit/4adfc734ff3a417361d32c9426f5769a37c4f185&#34;&gt;&lt;tt&gt;4adfc73&lt;/tt&gt;&lt;/a&gt; (Kazuki Suda)&lt;/li&gt;&#xA;&lt;li&gt;Follow logs of new containers on restarting (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;747921193&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/stern/stern/issues/102&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/stern/stern/pull/102/hovercard&#34; href=&#34;https://github.com/stern/stern/pull/102&#34;&gt;#102&lt;/a&gt;) &lt;a class=&#34;commit-link&#34; data-hovercard-type=&#34;commit&#34; data-hovercard-url=&#34;https://github.com/stern/stern/commit/8a9dfe40027387a8208fbbf5e672f5d1078f3bb3/hovercard&#34; href=&#34;https://github.com/stern/stern/commit/8a9dfe40027387a8208fbbf5e672f5d1078f3bb3&#34;&gt;&lt;tt&gt;8a9dfe4&lt;/tt&gt;&lt;/a&gt; (Kazuki Suda)&lt;/li&gt;&#xA;&lt;li&gt;Revert &#34;Update a Homebrew formula automatically on release (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;739813188&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/stern/stern/issues/98&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/stern/stern/pull/98/hovercard&#34; href=&#34;https://github.com/stern/stern/pull/98&#34;&gt;#98&lt;/a&gt;)&#34; (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;743397397&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/stern/stern/issues/100&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/stern/stern/pull/100/hovercard&#34; href=&#34;https://github.com/stern/stern/pull/100&#34;&gt;#100&lt;/a&gt;) &lt;a class=&#34;commit-link&#34; data-hovercard-type=&#34;commit&#34; data-hovercard-url=&#34;https://github.com/stern/stern/commit/d84a5e8583b2a4efd0cca1e3b772973fc65da7d7/hovercard&#34; href=&#34;https://github.com/stern/stern/commit/d84a5e8583b2a4efd0cca1e3b772973fc65da7d7&#34;&gt;&lt;tt&gt;d84a5e8&lt;/tt&gt;&lt;/a&gt; (Kazuki Suda)&lt;/li&gt;&#xA;&lt;li&gt;README: Recommend &lt;code&gt;brew install stern&lt;/code&gt; from homebrew-core (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;743351392&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/stern/stern/issues/99&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/stern/stern/pull/99/hovercard&#34; href=&#34;https://github.com/stern/stern/pull/99&#34;&gt;#99&lt;/a&gt;) &lt;a class=&#34;commit-link&#34; data-hovercard-type=&#34;commit&#34; data-hovercard-url=&#34;https://github.com/stern/stern/commit/16fea0c380cfb782119926272cb0b786dd8a11c4/hovercard&#34; href=&#34;https://github.com/stern/stern/commit/16fea0c380cfb782119926272cb0b786dd8a11c4&#34;&gt;&lt;tt&gt;16fea0c&lt;/tt&gt;&lt;/a&gt; (Issy Long)&lt;/li&gt;&#xA;&lt;li&gt;Update a Homebrew formula automatically on release (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;739813188&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/stern/stern/issues/98&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/stern/stern/pull/98/hovercard&#34; href=&#34;https://github.com/stern/stern/pull/98&#34;&gt;#98&lt;/a&gt;) &lt;a class=&#34;commit-link&#34; data-hovercard-type=&#34;commit&#34; data-hovercard-url=&#34;https://github.com/stern/stern/commit/8fd6aac683483355937389f0e977bd93982724e8/hovercard&#34; href=&#34;https://github.com/stern/stern/commit/8fd6aac683483355937389f0e977bd93982724e8&#34;&gt;&lt;tt&gt;8fd6aac&lt;/tt&gt;&lt;/a&gt; (Kazuki Suda)&lt;/li&gt;&#xA;&lt;li&gt;Update Kubernetes dependencies to 1.19 (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;738447048&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/stern/stern/issues/96&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/stern/stern/pull/96/hovercard&#34; href=&#34;https://github.com/stern/stern/pull/96&#34;&gt;#96&lt;/a&gt;) &lt;a class=&#34;commit-link&#34; data-hovercard-type=&#34;commit&#34; data-hovercard-url=&#34;https://github.com/stern/stern/commit/922d02377480e3b0f53434dd2a7e654c8977d88d/hovercard&#34; href=&#34;https://github.com/stern/stern/commit/922d02377480e3b0f53434dd2a7e654c8977d88d&#34;&gt;&lt;tt&gt;922d023&lt;/tt&gt;&lt;/a&gt; (Kazuki Suda)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2&gt;Docker images&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;code&gt;docker pull ghcr.io/stern/stern:latest&lt;/code&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;code&gt;docker pull ghcr.io/stern/stern:1&lt;/code&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;code&gt;docker pull ghcr.io/stern/stern:1.13&lt;/code&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;code&gt;docker pull ghcr.io/stern/stern:1.13.1&lt;/code&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/stern/stern/releases/tag/v1.13.1" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>github-actions[bot]</name>
