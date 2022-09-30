@@ -1,8 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?><feed xmlns="http://www.w3.org/2005/Atom">
   <title>Releases from Starred by toga4</title>
   <id>https://toga4.github.io/feeds/starred-releases.atom</id>
-  <updated>2022-09-29T20:21:05Z</updated>
+  <updated>2022-09-30T01:06:02Z</updated>
   <link href="https://toga4.github.io/feeds/starred-releases.atom"></link>
+  <entry>
+    <title>Release notes from task - v3.16.0</title>
+    <updated>2022-09-30T01:06:02Z</updated>
+    <id>tag:github.com,2008:Repository/83252983/v3.16.0</id>
+    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;Add &lt;code&gt;npm&lt;/code&gt; as new installation method: &lt;code&gt;npm i -g @go-task/cli&lt;/code&gt; (&lt;a href=&#34;https://github.com/go-task/task/issues/870&#34; data-hovercard-type=&#34;issue&#34; data-hovercard-url=&#34;/go-task/task/issues/870/hovercard&#34;&gt;#870&lt;/a&gt;, &lt;a href=&#34;https://github.com/go-task/task/pull/871&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/go-task/task/pull/871/hovercard&#34;&gt;#871&lt;/a&gt;, &lt;a href=&#34;https://www.npmjs.com/package/@go-task/cli&#34; rel=&#34;nofollow&#34;&gt;npm package&lt;/a&gt;).&lt;/li&gt;&#xA;&lt;li&gt;Add support to marking tasks and includes as internal, which will hide them from &lt;code&gt;--list&lt;/code&gt; and &lt;code&gt;--list-all&lt;/code&gt; (&lt;a href=&#34;https://github.com/go-task/task/pull/818&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/go-task/task/pull/818/hovercard&#34;&gt;#818&lt;/a&gt;).&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/go-task/task/releases/tag/v3.16.0" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>task-bot</name>
+    </author>
+  </entry>
   <entry>
     <title>Release notes from syft - v0.58.0</title>
     <updated>2022-09-29T20:21:05Z</updated>
@@ -367,17 +378,6 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from telepresence - rpc/v2.7.7-rc.2</title>
-    <updated>2022-09-23T19:26:40Z</updated>
-    <id>tag:github.com,2008:Repository/82933315/rpc/v2.7.7-rc.2</id>
-    <content type="html">&lt;p&gt;v2.7.7-rc.2&lt;/p&gt;</content>
-    <link href="https://github.com/telepresenceio/telepresence/releases/tag/rpc%2Fv2.7.7-rc.2" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>josecv</name>
-    </author>
-  </entry>
-  <entry>
     <title>Release notes from telepresence - v2.7.7-rc.2</title>
     <updated>2022-09-23T19:26:40Z</updated>
     <id>tag:github.com,2008:Repository/82933315/v2.7.7-rc.2</id>
@@ -389,11 +389,11 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from telepresence - rpc/v2.7.7-rc.1</title>
-    <updated>2022-09-23T18:40:32Z</updated>
-    <id>tag:github.com,2008:Repository/82933315/rpc/v2.7.7-rc.1</id>
-    <content type="html">&lt;p&gt;v2.7.7-rc.1&lt;/p&gt;</content>
-    <link href="https://github.com/telepresenceio/telepresence/releases/tag/rpc%2Fv2.7.7-rc.1" rel="alternate"></link>
+    <title>Release notes from telepresence - rpc/v2.7.7-rc.2</title>
+    <updated>2022-09-23T19:26:40Z</updated>
+    <id>tag:github.com,2008:Repository/82933315/rpc/v2.7.7-rc.2</id>
+    <content type="html">&lt;p&gt;v2.7.7-rc.2&lt;/p&gt;</content>
+    <link href="https://github.com/telepresenceio/telepresence/releases/tag/rpc%2Fv2.7.7-rc.2" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>josecv</name>
@@ -405,6 +405,17 @@
     <id>tag:github.com,2008:Repository/82933315/v2.7.7-rc.1</id>
     <content type="html">&lt;p&gt;v2.7.7-rc.1&lt;/p&gt;</content>
     <link href="https://github.com/telepresenceio/telepresence/releases/tag/v2.7.7-rc.1" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>josecv</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from telepresence - rpc/v2.7.7-rc.1</title>
+    <updated>2022-09-23T18:40:32Z</updated>
+    <id>tag:github.com,2008:Repository/82933315/rpc/v2.7.7-rc.1</id>
+    <content type="html">&lt;p&gt;v2.7.7-rc.1&lt;/p&gt;</content>
+    <link href="https://github.com/telepresenceio/telepresence/releases/tag/rpc%2Fv2.7.7-rc.1" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>josecv</name>
@@ -455,22 +466,22 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from telepresence - rpc/v2.8.0-rc.0</title>
+    <title>Release notes from telepresence - v2.8.0-rc.0</title>
     <updated>2022-09-23T08:14:08Z</updated>
-    <id>tag:github.com,2008:Repository/82933315/rpc/v2.8.0-rc.0</id>
+    <id>tag:github.com,2008:Repository/82933315/v2.8.0-rc.0</id>
     <content type="html">&lt;p&gt;v2.8.0-rc.0&lt;/p&gt;</content>
-    <link href="https://github.com/telepresenceio/telepresence/releases/tag/rpc%2Fv2.8.0-rc.0" rel="alternate"></link>
+    <link href="https://github.com/telepresenceio/telepresence/releases/tag/v2.8.0-rc.0" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>josecv</name>
     </author>
   </entry>
   <entry>
-    <title>Release notes from telepresence - v2.8.0-rc.0</title>
+    <title>Release notes from telepresence - rpc/v2.8.0-rc.0</title>
     <updated>2022-09-23T08:14:08Z</updated>
-    <id>tag:github.com,2008:Repository/82933315/v2.8.0-rc.0</id>
+    <id>tag:github.com,2008:Repository/82933315/rpc/v2.8.0-rc.0</id>
     <content type="html">&lt;p&gt;v2.8.0-rc.0&lt;/p&gt;</content>
-    <link href="https://github.com/telepresenceio/telepresence/releases/tag/v2.8.0-rc.0" rel="alternate"></link>
+    <link href="https://github.com/telepresenceio/telepresence/releases/tag/rpc%2Fv2.8.0-rc.0" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>josecv</name>
@@ -510,6 +521,17 @@
     </author>
   </entry>
   <entry>
+    <title>Release notes from opentelemetry-go - exporters/stdout/stdoutmetric/v0.32.1</title>
+    <updated>2022-09-22T19:49:17Z</updated>
+    <id>tag:github.com,2008:Repository/187086161/exporters/stdout/stdoutmetric/v0.32.1</id>
+    <content type="html">&lt;p&gt;Module set experimental-metrics, Version v0.32.1&lt;/p&gt;</content>
+    <link href="https://github.com/open-telemetry/opentelemetry-go/releases/tag/exporters%2Fstdout%2Fstdoutmetric%2Fv0.32.1" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>MadVikingGod</name>
+    </author>
+  </entry>
+  <entry>
     <title>Release notes from opentelemetry-go - exporters/otlp/otlpmetric/otlpmetrichttp/v0.32.1</title>
     <updated>2022-09-22T19:49:17Z</updated>
     <id>tag:github.com,2008:Repository/187086161/exporters/otlp/otlpmetric/otlpmetrichttp/v0.32.1</id>
@@ -532,11 +554,11 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from opentelemetry-go - exporters/stdout/stdoutmetric/v0.32.1</title>
-    <updated>2022-09-22T19:49:17Z</updated>
-    <id>tag:github.com,2008:Repository/187086161/exporters/stdout/stdoutmetric/v0.32.1</id>
+    <title>Release notes from opentelemetry-go - exporters/otlp/otlpmetric/v0.32.1</title>
+    <updated>2022-09-22T19:49:16Z</updated>
+    <id>tag:github.com,2008:Repository/187086161/exporters/otlp/otlpmetric/v0.32.1</id>
     <content type="html">&lt;p&gt;Module set experimental-metrics, Version v0.32.1&lt;/p&gt;</content>
-    <link href="https://github.com/open-telemetry/opentelemetry-go/releases/tag/exporters%2Fstdout%2Fstdoutmetric%2Fv0.32.1" rel="alternate"></link>
+    <link href="https://github.com/open-telemetry/opentelemetry-go/releases/tag/exporters%2Fotlp%2Fotlpmetric%2Fv0.32.1" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>MadVikingGod</name>
@@ -548,17 +570,6 @@
     <id>tag:github.com,2008:Repository/187086161/example/prometheus/v0.32.1</id>
     <content type="html">&lt;p&gt;Module set experimental-metrics, Version v0.32.1&lt;/p&gt;</content>
     <link href="https://github.com/open-telemetry/opentelemetry-go/releases/tag/example%2Fprometheus%2Fv0.32.1" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>MadVikingGod</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from opentelemetry-go - exporters/otlp/otlpmetric/v0.32.1</title>
-    <updated>2022-09-22T19:49:16Z</updated>
-    <id>tag:github.com,2008:Repository/187086161/exporters/otlp/otlpmetric/v0.32.1</id>
-    <content type="html">&lt;p&gt;Module set experimental-metrics, Version v0.32.1&lt;/p&gt;</content>
-    <link href="https://github.com/open-telemetry/opentelemetry-go/releases/tag/exporters%2Fotlp%2Fotlpmetric%2Fv0.32.1" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>MadVikingGod</name>
@@ -763,22 +774,22 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from telepresence - v2.7.6</title>
+    <title>Release notes from telepresence - rpc/v2.7.6</title>
     <updated>2022-09-16T19:29:58Z</updated>
-    <id>tag:github.com,2008:Repository/82933315/v2.7.6</id>
+    <id>tag:github.com,2008:Repository/82933315/rpc/v2.7.6</id>
     <content type="html">&lt;p&gt;v2.7.6&lt;/p&gt;</content>
-    <link href="https://github.com/telepresenceio/telepresence/releases/tag/v2.7.6" rel="alternate"></link>
+    <link href="https://github.com/telepresenceio/telepresence/releases/tag/rpc%2Fv2.7.6" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>josecv</name>
     </author>
   </entry>
   <entry>
-    <title>Release notes from telepresence - rpc/v2.7.6</title>
+    <title>Release notes from telepresence - v2.7.6</title>
     <updated>2022-09-16T19:29:58Z</updated>
-    <id>tag:github.com,2008:Repository/82933315/rpc/v2.7.6</id>
+    <id>tag:github.com,2008:Repository/82933315/v2.7.6</id>
     <content type="html">&lt;p&gt;v2.7.6&lt;/p&gt;</content>
-    <link href="https://github.com/telepresenceio/telepresence/releases/tag/rpc%2Fv2.7.6" rel="alternate"></link>
+    <link href="https://github.com/telepresenceio/telepresence/releases/tag/v2.7.6" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>josecv</name>
@@ -840,33 +851,11 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from opentelemetry-operations-go - detectors/gcp/v0.32.8</title>
+    <title>Release notes from opentelemetry-operations-go - internal/resourcemapping/v0.32.8</title>
     <updated>2022-09-15T16:27:37Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/detectors/gcp/v0.32.8</id>
+    <id>tag:github.com,2008:Repository/244484581/internal/resourcemapping/v0.32.8</id>
     <content type="html">&lt;p&gt;prepare for 1.8.8 and 0.32.8 (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1374698389&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/478&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleCloudPlatform/opentelemetry-operations-go/pull/478/hovercard&#34; href=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/pull/478&#34;&gt;#478&lt;/a&gt;)&lt;/p&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/detectors%2Fgcp%2Fv0.32.8" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>dashpole</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from opentelemetry-operations-go - exporter/trace/v1.8.8</title>
-    <updated>2022-09-15T16:27:37Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/exporter/trace/v1.8.8</id>
-    <content type="html">&lt;p&gt;prepare for 1.8.8 and 0.32.8 (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1374698389&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/478&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleCloudPlatform/opentelemetry-operations-go/pull/478/hovercard&#34; href=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/pull/478&#34;&gt;#478&lt;/a&gt;)&lt;/p&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/exporter%2Ftrace%2Fv1.8.8" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>dashpole</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from opentelemetry-operations-go - exporter/collector/v0.32.8</title>
-    <updated>2022-09-15T16:27:37Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/exporter/collector/v0.32.8</id>
-    <content type="html">&lt;p&gt;prepare for 1.8.8 and 0.32.8 (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1374698389&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/478&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleCloudPlatform/opentelemetry-operations-go/pull/478/hovercard&#34; href=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/pull/478&#34;&gt;#478&lt;/a&gt;)&lt;/p&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/exporter%2Fcollector%2Fv0.32.8" rel="alternate"></link>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/internal%2Fresourcemapping%2Fv0.32.8" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>dashpole</name>
@@ -884,22 +873,11 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from opentelemetry-operations-go - internal/cloudmock/v0.32.8</title>
+    <title>Release notes from opentelemetry-operations-go - example/metric/v0.32.8</title>
     <updated>2022-09-15T16:27:37Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/internal/cloudmock/v0.32.8</id>
+    <id>tag:github.com,2008:Repository/244484581/example/metric/v0.32.8</id>
     <content type="html">&lt;p&gt;prepare for 1.8.8 and 0.32.8 (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1374698389&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/478&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleCloudPlatform/opentelemetry-operations-go/pull/478/hovercard&#34; href=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/pull/478&#34;&gt;#478&lt;/a&gt;)&lt;/p&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/internal%2Fcloudmock%2Fv0.32.8" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>dashpole</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from opentelemetry-operations-go - internal/resourcemapping/v0.32.8</title>
-    <updated>2022-09-15T16:27:37Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/internal/resourcemapping/v0.32.8</id>
-    <content type="html">&lt;p&gt;prepare for 1.8.8 and 0.32.8 (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1374698389&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/478&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleCloudPlatform/opentelemetry-operations-go/pull/478/hovercard&#34; href=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/pull/478&#34;&gt;#478&lt;/a&gt;)&lt;/p&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/internal%2Fresourcemapping%2Fv0.32.8" rel="alternate"></link>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/example%2Fmetric%2Fv0.32.8" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>dashpole</name>
@@ -917,11 +895,44 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from opentelemetry-operations-go - example/metric/v0.32.8</title>
+    <title>Release notes from opentelemetry-operations-go - exporter/trace/v1.8.8</title>
     <updated>2022-09-15T16:27:37Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/example/metric/v0.32.8</id>
+    <id>tag:github.com,2008:Repository/244484581/exporter/trace/v1.8.8</id>
     <content type="html">&lt;p&gt;prepare for 1.8.8 and 0.32.8 (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1374698389&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/478&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleCloudPlatform/opentelemetry-operations-go/pull/478/hovercard&#34; href=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/pull/478&#34;&gt;#478&lt;/a&gt;)&lt;/p&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/example%2Fmetric%2Fv0.32.8" rel="alternate"></link>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/exporter%2Ftrace%2Fv1.8.8" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>dashpole</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from opentelemetry-operations-go - internal/cloudmock/v0.32.8</title>
+    <updated>2022-09-15T16:27:37Z</updated>
+    <id>tag:github.com,2008:Repository/244484581/internal/cloudmock/v0.32.8</id>
+    <content type="html">&lt;p&gt;prepare for 1.8.8 and 0.32.8 (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1374698389&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/478&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleCloudPlatform/opentelemetry-operations-go/pull/478/hovercard&#34; href=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/pull/478&#34;&gt;#478&lt;/a&gt;)&lt;/p&gt;</content>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/internal%2Fcloudmock%2Fv0.32.8" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>dashpole</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from opentelemetry-operations-go - detectors/gcp/v0.32.8</title>
+    <updated>2022-09-15T16:27:37Z</updated>
+    <id>tag:github.com,2008:Repository/244484581/detectors/gcp/v0.32.8</id>
+    <content type="html">&lt;p&gt;prepare for 1.8.8 and 0.32.8 (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1374698389&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/478&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleCloudPlatform/opentelemetry-operations-go/pull/478/hovercard&#34; href=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/pull/478&#34;&gt;#478&lt;/a&gt;)&lt;/p&gt;</content>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/detectors%2Fgcp%2Fv0.32.8" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>dashpole</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from opentelemetry-operations-go - exporter/collector/v0.32.8</title>
+    <updated>2022-09-15T16:27:37Z</updated>
+    <id>tag:github.com,2008:Repository/244484581/exporter/collector/v0.32.8</id>
+    <content type="html">&lt;p&gt;prepare for 1.8.8 and 0.32.8 (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1374698389&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/478&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleCloudPlatform/opentelemetry-operations-go/pull/478/hovercard&#34; href=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/pull/478&#34;&gt;#478&lt;/a&gt;)&lt;/p&gt;</content>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/exporter%2Fcollector%2Fv0.32.8" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>dashpole</name>
@@ -5020,17 +5031,6 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from task - v3.10.0</title>
-    <updated>2022-01-04T21:26:56Z</updated>
-    <id>tag:github.com,2008:Repository/83252983/v3.10.0</id>
-    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;A new &lt;code&gt;--list-all&lt;/code&gt; (alias &lt;code&gt;-a&lt;/code&gt;) flag is now available. It&#39;s similar to the existing &lt;code&gt;--list&lt;/code&gt; (&lt;code&gt;-l&lt;/code&gt;) but prints all tasks, even those without a description (&lt;a href=&#34;https://github.com/go-task/task/issues/383&#34; data-hovercard-type=&#34;issue&#34; data-hovercard-url=&#34;/go-task/task/issues/383/hovercard&#34;&gt;#383&lt;/a&gt;, &lt;a href=&#34;https://github.com/go-task/task/pull/401&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/go-task/task/pull/401/hovercard&#34;&gt;#401&lt;/a&gt;).&lt;/li&gt;&#xA;&lt;li&gt;It&#39;s now possible to schedule cleanup commands to run once a task finishes with the &lt;code&gt;defer:&lt;/code&gt; keyword (&lt;a href=&#34;https://taskfile.dev/#/usage?id=doing-task-cleanup-with-defer&#34; rel=&#34;nofollow&#34;&gt;Documentation&lt;/a&gt;, &lt;a href=&#34;https://github.com/go-task/task/issues/475&#34; data-hovercard-type=&#34;issue&#34; data-hovercard-url=&#34;/go-task/task/issues/475/hovercard&#34;&gt;#475&lt;/a&gt;, &lt;a href=&#34;https://github.com/go-task/task/pull/626&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/go-task/task/pull/626/hovercard&#34;&gt;#626&lt;/a&gt;).&lt;/li&gt;&#xA;&lt;li&gt;Remove long deprecated and undocumented &lt;code&gt;$&lt;/code&gt; variable prefix and &lt;code&gt;^&lt;/code&gt; command prefix (&lt;a href=&#34;https://github.com/go-task/task/issues/642&#34; data-hovercard-type=&#34;issue&#34; data-hovercard-url=&#34;/go-task/task/issues/642/hovercard&#34;&gt;#642&lt;/a&gt;, &lt;a href=&#34;https://github.com/go-task/task/issues/644&#34; data-hovercard-type=&#34;issue&#34; data-hovercard-url=&#34;/go-task/task/issues/644/hovercard&#34;&gt;#644&lt;/a&gt;, &lt;a href=&#34;https://github.com/go-task/task/pull/645&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/go-task/task/pull/645/hovercard&#34;&gt;#645&lt;/a&gt;).&lt;/li&gt;&#xA;&lt;li&gt;Add support for &lt;code&gt;.yaml&lt;/code&gt; extension (as an alternative to &lt;code&gt;.yml&lt;/code&gt;). This was requested multiple times throughout the years. Enjoy! (&lt;a href=&#34;https://github.com/go-task/task/issues/183&#34; data-hovercard-type=&#34;issue&#34; data-hovercard-url=&#34;/go-task/task/issues/183/hovercard&#34;&gt;#183&lt;/a&gt;, &lt;a href=&#34;https://github.com/go-task/task/pull/184&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/go-task/task/pull/184/hovercard&#34;&gt;#184&lt;/a&gt;, &lt;a href=&#34;https://github.com/go-task/task/issues/369&#34; data-hovercard-type=&#34;issue&#34; data-hovercard-url=&#34;/go-task/task/issues/369/hovercard&#34;&gt;#369&lt;/a&gt;, &lt;a href=&#34;https://github.com/go-task/task/issues/584&#34; data-hovercard-type=&#34;issue&#34; data-hovercard-url=&#34;/go-task/task/issues/584/hovercard&#34;&gt;#584&lt;/a&gt;, &lt;a href=&#34;https://github.com/go-task/task/pull/621&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/go-task/task/pull/621/hovercard&#34;&gt;#621&lt;/a&gt;).&lt;/li&gt;&#xA;&lt;li&gt;Fixed error when computing a variable when the task directory do not exist yet (&lt;a href=&#34;https://github.com/go-task/task/issues/481&#34; data-hovercard-type=&#34;issue&#34; data-hovercard-url=&#34;/go-task/task/issues/481/hovercard&#34;&gt;#481&lt;/a&gt;, &lt;a href=&#34;https://github.com/go-task/task/pull/579&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/go-task/task/pull/579/hovercard&#34;&gt;#579&lt;/a&gt;).&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/go-task/task/releases/tag/v3.10.0" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>andreynering</name>
-    </author>
-  </entry>
-  <entry>
     <title>Release notes from go-retry - v0.2.1</title>
     <updated>2022-01-04T13:50:08Z</updated>
     <id>tag:github.com,2008:Repository/276677396/v0.2.1</id>
@@ -6659,22 +6659,22 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from triangula - v1.1.5</title>
+    <title>Release notes from triangula - v1.1.6</title>
     <updated>2021-05-11T13:31:09Z</updated>
-    <id>tag:github.com,2008:Repository/354015172/v1.1.5</id>
+    <id>tag:github.com,2008:Repository/354015172/v1.1.6</id>
     <content type="html">&lt;p&gt;Refactor for more flexibility&lt;/p&gt;</content>
-    <link href="https://github.com/rh12503/triangula/releases/tag/v1.1.5" rel="alternate"></link>
+    <link href="https://github.com/rh12503/triangula/releases/tag/v1.1.6" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>rh12503</name>
     </author>
   </entry>
   <entry>
-    <title>Release notes from triangula - v1.1.6</title>
+    <title>Release notes from triangula - v1.1.5</title>
     <updated>2021-05-11T13:31:09Z</updated>
-    <id>tag:github.com,2008:Repository/354015172/v1.1.6</id>
+    <id>tag:github.com,2008:Repository/354015172/v1.1.5</id>
     <content type="html">&lt;p&gt;Refactor for more flexibility&lt;/p&gt;</content>
-    <link href="https://github.com/rh12503/triangula/releases/tag/v1.1.6" rel="alternate"></link>
+    <link href="https://github.com/rh12503/triangula/releases/tag/v1.1.5" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>rh12503</name>
@@ -7286,22 +7286,22 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from backoff - v2.0.3: Merge pull request #18 from lestrrat-go/topic/fix-v2-go-mod</title>
+    <title>Release notes from backoff - v2.0.2: Merge pull request #18 from lestrrat-go/topic/fix-v2-go-mod</title>
     <updated>2021-01-06T03:00:05Z</updated>
-    <id>tag:github.com,2008:Repository/118608673/v2.0.3</id>
+    <id>tag:github.com,2008:Repository/118608673/v2.0.2</id>
     <content type="html">&lt;p&gt;Fix go.mod&lt;/p&gt;</content>
-    <link href="https://github.com/lestrrat-go/backoff/releases/tag/v2.0.3" rel="alternate"></link>
+    <link href="https://github.com/lestrrat-go/backoff/releases/tag/v2.0.2" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>lestrrat</name>
     </author>
   </entry>
   <entry>
-    <title>Release notes from backoff - v2.0.2: Merge pull request #18 from lestrrat-go/topic/fix-v2-go-mod</title>
+    <title>Release notes from backoff - v2.0.3: Merge pull request #18 from lestrrat-go/topic/fix-v2-go-mod</title>
     <updated>2021-01-06T03:00:05Z</updated>
-    <id>tag:github.com,2008:Repository/118608673/v2.0.2</id>
+    <id>tag:github.com,2008:Repository/118608673/v2.0.3</id>
     <content type="html">&lt;p&gt;Fix go.mod&lt;/p&gt;</content>
-    <link href="https://github.com/lestrrat-go/backoff/releases/tag/v2.0.2" rel="alternate"></link>
+    <link href="https://github.com/lestrrat-go/backoff/releases/tag/v2.0.3" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>lestrrat</name>
