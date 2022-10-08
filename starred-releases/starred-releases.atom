@@ -1,17 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?><feed xmlns="http://www.w3.org/2005/Atom">
   <title>Releases from Starred by toga4</title>
   <id>https://toga4.github.io/feeds/starred-releases.atom</id>
-  <updated>2022-10-08T20:21:55Z</updated>
+  <updated>2022-10-08T22:45:28Z</updated>
   <link href="https://toga4.github.io/feeds/starred-releases.atom"></link>
   <entry>
-    <title>Release notes from external-secrets - v0.6.0: fix(1password): Resolve indentation issue in Store (#1617)</title>
-    <updated>2022-10-08T20:21:55Z</updated>
+    <title>Release notes from external-secrets - helm-chart-0.6.0</title>
+    <updated>2022-10-08T22:45:28Z</updated>
+    <id>tag:github.com,2008:Repository/313628863/helm-chart-0.6.0</id>
+    <content type="html">&lt;p&gt;External secret management for Kubernetes&lt;/p&gt;</content>
+    <link href="https://github.com/external-secrets/external-secrets/releases/tag/helm-chart-0.6.0" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>github-actions[bot]</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from external-secrets - v0.6.0</title>
+    <updated>2022-10-08T22:40:30Z</updated>
     <id>tag:github.com,2008:Repository/313628863/v0.6.0</id>
-    <content type="html">&lt;p&gt;The indentation was incorrect on the website which is ultimately driven&lt;br&gt;&#xA;by &lt;code&gt;1password-secret-store.yaml&lt;/code&gt; so this fixes the file to have the&lt;br&gt;&#xA;correct indentation&lt;/p&gt;&#xA;&lt;p&gt;Signed-off-by: Jason Field &lt;a href=&#34;mailto:jason@avon-lea.co.uk&#34;&gt;jason@avon-lea.co.uk&lt;/a&gt;&lt;/p&gt;</content>
+    <content type="html">&lt;p&gt;Image: &lt;code&gt;ghcr.io/external-secrets/external-secrets:v0.6.0&lt;/code&gt;&lt;br&gt;&#xA;Image: &lt;code&gt;ghcr.io/external-secrets/external-secrets:v0.6.0-ubi&lt;/code&gt;&lt;/p&gt;&#xA;&lt;h2&gt;Changes&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;chore: bump 0.6.0-rc1 (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1368196443&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/external-secrets/external-secrets/issues/1538&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/external-secrets/external-secrets/pull/1538/hovercard&#34; href=&#34;https://github.com/external-secrets/external-secrets/pull/1538&#34;&gt;#1538&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;added akeyless k8s auth option (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1364533872&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/external-secrets/external-secrets/issues/1531&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/external-secrets/external-secrets/pull/1531/hovercard&#34; href=&#34;https://github.com/external-secrets/external-secrets/pull/1531&#34;&gt;#1531&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;chore: refactor provider (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1363643358&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/external-secrets/external-secrets/issues/1529&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/external-secrets/external-secrets/pull/1529/hovercard&#34; href=&#34;https://github.com/external-secrets/external-secrets/pull/1529&#34;&gt;#1529&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;DNS transfer to CNCF went &lt;g-emoji class=&#34;g-emoji&#34; alias=&#34;white_check_mark&#34; fallback-src=&#34;https://github.githubassets.com/images/icons/emoji/unicode/2705.png&#34;&gt;✅&lt;/g-emoji&gt;, we can remove notice (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1369905026&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/external-secrets/external-secrets/issues/1548&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/external-secrets/external-secrets/pull/1548/hovercard&#34; href=&#34;https://github.com/external-secrets/external-secrets/pull/1548&#34;&gt;#1548&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;New Duration Metric (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1364824089&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/external-secrets/external-secrets/issues/1533&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/external-secrets/external-secrets/pull/1533/hovercard&#34; href=&#34;https://github.com/external-secrets/external-secrets/pull/1533&#34;&gt;#1533&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;chore(deps): bump github.com/google/go-cmp from 0.5.8 to 0.5.9 (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1369460814&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/external-secrets/external-secrets/issues/1545&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/external-secrets/external-secrets/pull/1545/hovercard&#34; href=&#34;https://github.com/external-secrets/external-secrets/pull/1545&#34;&gt;#1545&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;chore(deps): bump sigstore/cosign-installer from 2.5.1 to 2.6.0 (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1369459341&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/external-secrets/external-secrets/issues/1541&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/external-secrets/external-secrets/pull/1541/hovercard&#34; href=&#34;https://github.com/external-secrets/external-secrets/pull/1541&#34;&gt;#1541&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;chore(deps): bump github.com/aliyun/alibaba-cloud-sdk-go (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1369460288&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/external-secrets/external-secrets/issues/1543&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/external-secrets/external-secrets/pull/1543/hovercard&#34; href=&#34;https://github.com/external-secrets/external-secrets/pull/1543&#34;&gt;#1543&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;chore(deps): bump actions/setup-python from 3.1.2 to 4.2.0 (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1369459488&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/external-secrets/external-secrets/issues/1542&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/external-secrets/external-secrets/pull/1542/hovercard&#34; href=&#34;https://github.com/external-secrets/external-secrets/pull/1542&#34;&gt;#1542&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;chore(deps): bump github.com/IBM/secrets-manager-go-sdk (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1370876871&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/external-secrets/external-secrets/issues/1551&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/external-secrets/external-secrets/pull/1551/hovercard&#34; href=&#34;https://github.com/external-secrets/external-secrets/pull/1551&#34;&gt;#1551&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;chore(deps): bump google.golang.org/api from 0.94.0 to 0.95.0 (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1369461046&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/external-secrets/external-secrets/issues/1546&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/external-secrets/external-secrets/pull/1546/hovercard&#34; href=&#34;https://github.com/external-secrets/external-secrets/pull/1546&#34;&gt;#1546&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;chore(deps): bump golang from 1.19.0-alpine to 1.19.1-alpine (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1369459138&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/external-secrets/external-secrets/issues/1540&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/external-secrets/external-secrets/pull/1540/hovercard&#34; href=&#34;https://github.com/external-secrets/external-secrets/pull/1540&#34;&gt;#1540&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;chore(deps): bump github.com/aws/aws-sdk-go from 1.44.91 to 1.44.96 (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1370876757&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/external-secrets/external-secrets/issues/1550&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/external-secrets/external-secrets/pull/1550/hovercard&#34; href=&#34;https://github.com/external-secrets/external-secrets/pull/1550&#34;&gt;#1550&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;fix: unmarshal JSON error when empty secrets in Vault (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1360343666&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/external-secrets/external-secrets/issues/1512&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/external-secrets/external-secrets/pull/1512/hovercard&#34; href=&#34;https://github.com/external-secrets/external-secrets/pull/1512&#34;&gt;#1512&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;feat: run scanner on pr (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1373375489&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/external-secrets/external-secrets/issues/1553&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/external-secrets/external-secrets/pull/1553/hovercard&#34; href=&#34;https://github.com/external-secrets/external-secrets/pull/1553&#34;&gt;#1553&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;fix: run trivy only when authenticated (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1375106420&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/external-secrets/external-secrets/issues/1554&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/external-secrets/external-secrets/pull/1554/hovercard&#34; href=&#34;https://github.com/external-secrets/external-secrets/pull/1554&#34;&gt;#1554&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;fix: broken links in README (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1376183981&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/external-secrets/external-secrets/issues/1556&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/external-secrets/external-secrets/pull/1556/hovercard&#34; href=&#34;https://github.com/external-secrets/external-secrets/pull/1556&#34;&gt;#1556&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;Updated the right path to the field (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1376295448&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/external-secrets/external-secrets/issues/1557&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/external-secrets/external-secrets/pull/1557/hovercard&#34; href=&#34;https://github.com/external-secrets/external-secrets/pull/1557&#34;&gt;#1557&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;chore(deps): bump github.com/aliyun/alibaba-cloud-sdk-go (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1377572873&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/external-secrets/external-secrets/issues/1562&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/external-secrets/external-secrets/pull/1562/hovercard&#34; href=&#34;https://github.com/external-secrets/external-secrets/pull/1562&#34;&gt;#1562&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;chore(deps): bump github.com/akeylesslabs/akeyless-go/v2 (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1377571892&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/external-secrets/external-secrets/issues/1560&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/external-secrets/external-secrets/pull/1560/hovercard&#34; href=&#34;https://github.com/external-secrets/external-secrets/pull/1560&#34;&gt;#1560&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;chore(deps): bump github.com/AzureAD/microsoft-authentication-library-for-go (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1377573104&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/external-secrets/external-secrets/issues/1563&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/external-secrets/external-secrets/pull/1563/hovercard&#34; href=&#34;https://github.com/external-secrets/external-secrets/pull/1563&#34;&gt;#1563&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;chore(deps): bump google.golang.org/api from 0.95.0 to 0.96.0 (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1377572284&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/external-secrets/external-secrets/issues/1561&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/external-secrets/external-secrets/pull/1561/hovercard&#34; href=&#34;https://github.com/external-secrets/external-secrets/pull/1561&#34;&gt;#1561&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;chore(deps): bump github.com/aws/aws-sdk-go from 1.44.96 to 1.44.101 (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1378358896&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/external-secrets/external-secrets/issues/1570&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/external-secrets/external-secrets/pull/1570/hovercard&#34; href=&#34;https://github.com/external-secrets/external-secrets/pull/1570&#34;&gt;#1570&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;Add Doppler provider (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1379977258&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/external-secrets/external-secrets/issues/1573&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/external-secrets/external-secrets/pull/1573/hovercard&#34; href=&#34;https://github.com/external-secrets/external-secrets/pull/1573&#34;&gt;#1573&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;chore(deps): bump github.com/hashicorp/vault/api/auth/approle (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1385622463&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/external-secrets/external-secrets/issues/1584&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/external-secrets/external-secrets/pull/1584/hovercard&#34; href=&#34;https://github.com/external-secrets/external-secrets/pull/1584&#34;&gt;#1584&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;chore(deps): bump github.com/hashicorp/vault/api/auth/kubernetes (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1387499040&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/external-secrets/external-secrets/issues/1586&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/external-secrets/external-secrets/pull/1586/hovercard&#34; href=&#34;https://github.com/external-secrets/external-secrets/pull/1586&#34;&gt;#1586&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;chore(deps): bump cloud.google.com/go/secretmanager from 1.5.0 to 1.7.0 (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1385621909&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/external-secrets/external-secrets/issues/1582&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/external-secrets/external-secrets/pull/1582/hovercard&#34; href=&#34;https://github.com/external-secrets/external-secrets/pull/1582&#34;&gt;#1582&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;enable configuration of environment_scope for gitlab provider (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1377635510&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/external-secrets/external-secrets/issues/1565&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/external-secrets/external-secrets/pull/1565/hovercard&#34; href=&#34;https://github.com/external-secrets/external-secrets/pull/1565&#34;&gt;#1565&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;chore(deps): bump sigs.k8s.io/controller-tools from 0.9.2 to 0.10.0 (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1385621625&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/external-secrets/external-secrets/issues/1581&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/external-secrets/external-secrets/pull/1581/hovercard&#34; href=&#34;https://github.com/external-secrets/external-secrets/pull/1581&#34;&gt;#1581&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;Add optional caching for Vault clients, including token re-use. (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1366612235&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/external-secrets/external-secrets/issues/1537&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/external-secrets/external-secrets/pull/1537/hovercard&#34; href=&#34;https://github.com/external-secrets/external-secrets/pull/1537&#34;&gt;#1537&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;feat: add idan as maintainer &lt;g-emoji class=&#34;g-emoji&#34; alias=&#34;tada&#34; fallback-src=&#34;https://github.githubassets.com/images/icons/emoji/unicode/1f389.png&#34;&gt;🎉&lt;/g-emoji&gt; (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1392877199&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/external-secrets/external-secrets/issues/1591&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/external-secrets/external-secrets/pull/1591/hovercard&#34; href=&#34;https://github.com/external-secrets/external-secrets/pull/1591&#34;&gt;#1591&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;Add Voiceflow to ADPOTERS file (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1394843434&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/external-secrets/external-secrets/issues/1601&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/external-secrets/external-secrets/pull/1601/hovercard&#34; href=&#34;https://github.com/external-secrets/external-secrets/pull/1601&#34;&gt;#1601&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;chore(deps): bump fkirc/skip-duplicate-actions from 4.0.0 to 5.2.0 (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1394316343&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/external-secrets/external-secrets/issues/1594&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/external-secrets/external-secrets/pull/1594/hovercard&#34; href=&#34;https://github.com/external-secrets/external-secrets/pull/1594&#34;&gt;#1594&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;chore(deps): bump helm/chart-releaser-action from 1.4.0 to 1.4.1 (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1394316439&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/external-secrets/external-secrets/issues/1595&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/external-secrets/external-secrets/pull/1595/hovercard&#34; href=&#34;https://github.com/external-secrets/external-secrets/pull/1595&#34;&gt;#1595&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;chore(deps): bump helm/chart-testing-action from 2.3.0 to 2.3.1 (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1394316489&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/external-secrets/external-secrets/issues/1596&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/external-secrets/external-secrets/pull/1596/hovercard&#34; href=&#34;https://github.com/external-secrets/external-secrets/pull/1596&#34;&gt;#1596&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;chore(deps): bump github.com/crossplane/crossplane-runtime (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1394317884&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/external-secrets/external-secrets/issues/1598&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/external-secrets/external-secrets/pull/1598/hovercard&#34; href=&#34;https://github.com/external-secrets/external-secrets/pull/1598&#34;&gt;#1598&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;chore(deps): bump github.com/aliyun/alibaba-cloud-sdk-go (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1394318210&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/external-secrets/external-secrets/issues/1599&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/external-secrets/external-secrets/pull/1599/hovercard&#34; href=&#34;https://github.com/external-secrets/external-secrets/pull/1599&#34;&gt;#1599&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;chore(deps): bump github.com/hashicorp/vault/api/auth/ldap (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1394318413&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/external-secrets/external-secrets/issues/1600&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/external-secrets/external-secrets/pull/1600/hovercard&#34; href=&#34;https://github.com/external-secrets/external-secrets/pull/1600&#34;&gt;#1600&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;chore(deps): bump google.golang.org/api from 0.96.0 to 0.98.0 (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1394317643&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/external-secrets/external-secrets/issues/1597&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/external-secrets/external-secrets/pull/1597/hovercard&#34; href=&#34;https://github.com/external-secrets/external-secrets/pull/1597&#34;&gt;#1597&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;chore(deps): bump github.com/akeylesslabs/akeyless-go/v2 (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1396801196&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/external-secrets/external-secrets/issues/1606&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/external-secrets/external-secrets/pull/1606/hovercard&#34; href=&#34;https://github.com/external-secrets/external-secrets/pull/1606&#34;&gt;#1606&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;feat: test UBI image build (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1380001076&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/external-secrets/external-secrets/issues/1574&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/external-secrets/external-secrets/pull/1574/hovercard&#34; href=&#34;https://github.com/external-secrets/external-secrets/pull/1574&#34;&gt;#1574&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;test: use  to set env vars in tests (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1399977823&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/external-secrets/external-secrets/issues/1611&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/external-secrets/external-secrets/pull/1611/hovercard&#34; href=&#34;https://github.com/external-secrets/external-secrets/pull/1611&#34;&gt;#1611&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;fix: skip publish on fork ci due to missing secrets (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1400206353&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/external-secrets/external-secrets/issues/1612&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/external-secrets/external-secrets/pull/1612/hovercard&#34; href=&#34;https://github.com/external-secrets/external-secrets/pull/1612&#34;&gt;#1612&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;Allow specifying the webhook&#39;s readiness probe port (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1393807677&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/external-secrets/external-secrets/issues/1593&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/external-secrets/external-secrets/pull/1593/hovercard&#34; href=&#34;https://github.com/external-secrets/external-secrets/pull/1593&#34;&gt;#1593&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;Include the day of the week for the meeting (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1401844856&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/external-secrets/external-secrets/issues/1616&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/external-secrets/external-secrets/pull/1616/hovercard&#34; href=&#34;https://github.com/external-secrets/external-secrets/pull/1616&#34;&gt;#1616&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;Update IBM Cloud provider docs (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1400856256&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/external-secrets/external-secrets/issues/1614&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/external-secrets/external-secrets/pull/1614/hovercard&#34; href=&#34;https://github.com/external-secrets/external-secrets/pull/1614&#34;&gt;#1614&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;fix(1password): Resolve indentation issue in Store (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1401861951&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/external-secrets/external-secrets/issues/1617&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/external-secrets/external-secrets/pull/1617/hovercard&#34; href=&#34;https://github.com/external-secrets/external-secrets/pull/1617&#34;&gt;#1617&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
     <link href="https://github.com/external-secrets/external-secrets/releases/tag/v0.6.0" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
-      <name>Xorima</name>
+      <name>github-actions[bot]</name>
     </author>
   </entry>
   <entry>
@@ -224,6 +235,61 @@
     </author>
   </entry>
   <entry>
+    <title>Release notes from opentelemetry-operations-go - example/trace/http/v0.33.0</title>
+    <updated>2022-09-30T18:00:17Z</updated>
+    <id>tag:github.com,2008:Repository/244484581/example/trace/http/v0.33.0</id>
+    <content type="html">&lt;p&gt;prepare for v0.33.0 and v1.9.0 (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1392734757&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/493&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleCloudPlatform/opentelemetry-operations-go/pull/493/hovercard&#34; href=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/pull/493&#34;&gt;#493&lt;/a&gt;)&lt;/p&gt;</content>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/example%2Ftrace%2Fhttp%2Fv0.33.0" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>dashpole</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from opentelemetry-operations-go - example/metric/v0.33.0</title>
+    <updated>2022-09-30T18:00:17Z</updated>
+    <id>tag:github.com,2008:Repository/244484581/example/metric/v0.33.0</id>
+    <content type="html">&lt;p&gt;prepare for v0.33.0 and v1.9.0 (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1392734757&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/493&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleCloudPlatform/opentelemetry-operations-go/pull/493/hovercard&#34; href=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/pull/493&#34;&gt;#493&lt;/a&gt;)&lt;/p&gt;</content>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/example%2Fmetric%2Fv0.33.0" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>dashpole</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from opentelemetry-operations-go - exporter/collector/v0.33.0</title>
+    <updated>2022-09-30T18:00:17Z</updated>
+    <id>tag:github.com,2008:Repository/244484581/exporter/collector/v0.33.0</id>
+    <content type="html">&lt;p&gt;prepare for v0.33.0 and v1.9.0 (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1392734757&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/493&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleCloudPlatform/opentelemetry-operations-go/pull/493/hovercard&#34; href=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/pull/493&#34;&gt;#493&lt;/a&gt;)&lt;/p&gt;</content>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/exporter%2Fcollector%2Fv0.33.0" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>dashpole</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from opentelemetry-operations-go - exporter/collector/googlemanagedprometheus/v0.33.0</title>
+    <updated>2022-09-30T18:00:17Z</updated>
+    <id>tag:github.com,2008:Repository/244484581/exporter/collector/googlemanagedprometheus/v0.33.0</id>
+    <content type="html">&lt;p&gt;prepare for v0.33.0 and v1.9.0 (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1392734757&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/493&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleCloudPlatform/opentelemetry-operations-go/pull/493/hovercard&#34; href=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/pull/493&#34;&gt;#493&lt;/a&gt;)&lt;/p&gt;</content>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/exporter%2Fcollector%2Fgooglemanagedprometheus%2Fv0.33.0" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>dashpole</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from opentelemetry-operations-go - exporter/trace/v1.9.0</title>
+    <updated>2022-09-30T18:00:17Z</updated>
+    <id>tag:github.com,2008:Repository/244484581/exporter/trace/v1.9.0</id>
+    <content type="html">&lt;p&gt;prepare for v0.33.0 and v1.9.0 (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1392734757&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/493&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleCloudPlatform/opentelemetry-operations-go/pull/493/hovercard&#34; href=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/pull/493&#34;&gt;#493&lt;/a&gt;)&lt;/p&gt;</content>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/exporter%2Ftrace%2Fv1.9.0" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>dashpole</name>
+    </author>
+  </entry>
+  <entry>
     <title>Release notes from opentelemetry-operations-go - exporter/metric/v0.33.0</title>
     <updated>2022-09-30T18:00:17Z</updated>
     <id>tag:github.com,2008:Repository/244484581/exporter/metric/v0.33.0</id>
@@ -246,77 +312,22 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from opentelemetry-operations-go - detectors/gcp/v0.33.0</title>
-    <updated>2022-09-30T18:00:17Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/detectors/gcp/v0.33.0</id>
-    <content type="html">&lt;p&gt;prepare for v0.33.0 and v1.9.0 (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1392734757&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/493&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleCloudPlatform/opentelemetry-operations-go/pull/493/hovercard&#34; href=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/pull/493&#34;&gt;#493&lt;/a&gt;)&lt;/p&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/detectors%2Fgcp%2Fv0.33.0" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>dashpole</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from opentelemetry-operations-go - example/metric/v0.33.0</title>
-    <updated>2022-09-30T18:00:17Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/example/metric/v0.33.0</id>
-    <content type="html">&lt;p&gt;prepare for v0.33.0 and v1.9.0 (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1392734757&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/493&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleCloudPlatform/opentelemetry-operations-go/pull/493/hovercard&#34; href=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/pull/493&#34;&gt;#493&lt;/a&gt;)&lt;/p&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/example%2Fmetric%2Fv0.33.0" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>dashpole</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from opentelemetry-operations-go - example/trace/http/v0.33.0</title>
-    <updated>2022-09-30T18:00:17Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/example/trace/http/v0.33.0</id>
-    <content type="html">&lt;p&gt;prepare for v0.33.0 and v1.9.0 (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1392734757&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/493&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleCloudPlatform/opentelemetry-operations-go/pull/493/hovercard&#34; href=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/pull/493&#34;&gt;#493&lt;/a&gt;)&lt;/p&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/example%2Ftrace%2Fhttp%2Fv0.33.0" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>dashpole</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from opentelemetry-operations-go - exporter/collector/googlemanagedprometheus/v0.33.0</title>
-    <updated>2022-09-30T18:00:17Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/exporter/collector/googlemanagedprometheus/v0.33.0</id>
-    <content type="html">&lt;p&gt;prepare for v0.33.0 and v1.9.0 (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1392734757&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/493&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleCloudPlatform/opentelemetry-operations-go/pull/493/hovercard&#34; href=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/pull/493&#34;&gt;#493&lt;/a&gt;)&lt;/p&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/exporter%2Fcollector%2Fgooglemanagedprometheus%2Fv0.33.0" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>dashpole</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from opentelemetry-operations-go - exporter/collector/v0.33.0</title>
-    <updated>2022-09-30T18:00:17Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/exporter/collector/v0.33.0</id>
-    <content type="html">&lt;p&gt;prepare for v0.33.0 and v1.9.0 (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1392734757&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/493&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleCloudPlatform/opentelemetry-operations-go/pull/493/hovercard&#34; href=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/pull/493&#34;&gt;#493&lt;/a&gt;)&lt;/p&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/exporter%2Fcollector%2Fv0.33.0" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>dashpole</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from opentelemetry-operations-go - exporter/trace/v1.9.0</title>
-    <updated>2022-09-30T18:00:17Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/exporter/trace/v1.9.0</id>
-    <content type="html">&lt;p&gt;prepare for v0.33.0 and v1.9.0 (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1392734757&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/493&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleCloudPlatform/opentelemetry-operations-go/pull/493/hovercard&#34; href=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/pull/493&#34;&gt;#493&lt;/a&gt;)&lt;/p&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/exporter%2Ftrace%2Fv1.9.0" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>dashpole</name>
-    </author>
-  </entry>
-  <entry>
     <title>Release notes from opentelemetry-operations-go - internal/resourcemapping/v0.33.0</title>
     <updated>2022-09-30T18:00:17Z</updated>
     <id>tag:github.com,2008:Repository/244484581/internal/resourcemapping/v0.33.0</id>
     <content type="html">&lt;p&gt;prepare for v0.33.0 and v1.9.0 (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1392734757&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/493&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleCloudPlatform/opentelemetry-operations-go/pull/493/hovercard&#34; href=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/pull/493&#34;&gt;#493&lt;/a&gt;)&lt;/p&gt;</content>
     <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/internal%2Fresourcemapping%2Fv0.33.0" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>dashpole</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from opentelemetry-operations-go - detectors/gcp/v0.33.0</title>
+    <updated>2022-09-30T18:00:17Z</updated>
+    <id>tag:github.com,2008:Repository/244484581/detectors/gcp/v0.33.0</id>
+    <content type="html">&lt;p&gt;prepare for v0.33.0 and v1.9.0 (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1392734757&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/493&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleCloudPlatform/opentelemetry-operations-go/pull/493/hovercard&#34; href=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/pull/493&#34;&gt;#493&lt;/a&gt;)&lt;/p&gt;</content>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/detectors%2Fgcp%2Fv0.33.0" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>dashpole</name>
@@ -609,22 +620,22 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from telepresence - rpc/v2.7.7-rc.1</title>
+    <title>Release notes from telepresence - v2.7.7-rc.1</title>
     <updated>2022-09-23T18:40:32Z</updated>
-    <id>tag:github.com,2008:Repository/82933315/rpc/v2.7.7-rc.1</id>
+    <id>tag:github.com,2008:Repository/82933315/v2.7.7-rc.1</id>
     <content type="html">&lt;p&gt;v2.7.7-rc.1&lt;/p&gt;</content>
-    <link href="https://github.com/telepresenceio/telepresence/releases/tag/rpc%2Fv2.7.7-rc.1" rel="alternate"></link>
+    <link href="https://github.com/telepresenceio/telepresence/releases/tag/v2.7.7-rc.1" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>josecv</name>
     </author>
   </entry>
   <entry>
-    <title>Release notes from telepresence - v2.7.7-rc.1</title>
+    <title>Release notes from telepresence - rpc/v2.7.7-rc.1</title>
     <updated>2022-09-23T18:40:32Z</updated>
-    <id>tag:github.com,2008:Repository/82933315/v2.7.7-rc.1</id>
+    <id>tag:github.com,2008:Repository/82933315/rpc/v2.7.7-rc.1</id>
     <content type="html">&lt;p&gt;v2.7.7-rc.1&lt;/p&gt;</content>
-    <link href="https://github.com/telepresenceio/telepresence/releases/tag/v2.7.7-rc.1" rel="alternate"></link>
+    <link href="https://github.com/telepresenceio/telepresence/releases/tag/rpc%2Fv2.7.7-rc.1" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>josecv</name>
@@ -642,22 +653,22 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from telepresence - v2.7.7-rc.0</title>
+    <title>Release notes from telepresence - rpc/v2.7.7-rc.0</title>
     <updated>2022-09-23T16:08:30Z</updated>
-    <id>tag:github.com,2008:Repository/82933315/v2.7.7-rc.0</id>
+    <id>tag:github.com,2008:Repository/82933315/rpc/v2.7.7-rc.0</id>
     <content type="html">&lt;p&gt;v2.7.7-rc.0&lt;/p&gt;</content>
-    <link href="https://github.com/telepresenceio/telepresence/releases/tag/v2.7.7-rc.0" rel="alternate"></link>
+    <link href="https://github.com/telepresenceio/telepresence/releases/tag/rpc%2Fv2.7.7-rc.0" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>josecv</name>
     </author>
   </entry>
   <entry>
-    <title>Release notes from telepresence - rpc/v2.7.7-rc.0</title>
+    <title>Release notes from telepresence - v2.7.7-rc.0</title>
     <updated>2022-09-23T16:08:30Z</updated>
-    <id>tag:github.com,2008:Repository/82933315/rpc/v2.7.7-rc.0</id>
+    <id>tag:github.com,2008:Repository/82933315/v2.7.7-rc.0</id>
     <content type="html">&lt;p&gt;v2.7.7-rc.0&lt;/p&gt;</content>
-    <link href="https://github.com/telepresenceio/telepresence/releases/tag/rpc%2Fv2.7.7-rc.0" rel="alternate"></link>
+    <link href="https://github.com/telepresenceio/telepresence/releases/tag/v2.7.7-rc.0" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>josecv</name>
@@ -730,6 +741,17 @@
     </author>
   </entry>
   <entry>
+    <title>Release notes from opentelemetry-go - exporters/prometheus/v0.32.1</title>
+    <updated>2022-09-22T19:49:17Z</updated>
+    <id>tag:github.com,2008:Repository/187086161/exporters/prometheus/v0.32.1</id>
+    <content type="html">&lt;p&gt;Module set experimental-metrics, Version v0.32.1&lt;/p&gt;</content>
+    <link href="https://github.com/open-telemetry/opentelemetry-go/releases/tag/exporters%2Fprometheus%2Fv0.32.1" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>MadVikingGod</name>
+    </author>
+  </entry>
+  <entry>
     <title>Release notes from opentelemetry-go - exporters/stdout/stdoutmetric/v0.32.1</title>
     <updated>2022-09-22T19:49:17Z</updated>
     <id>tag:github.com,2008:Repository/187086161/exporters/stdout/stdoutmetric/v0.32.1</id>
@@ -752,17 +774,6 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from opentelemetry-go - exporters/prometheus/v0.32.1</title>
-    <updated>2022-09-22T19:49:17Z</updated>
-    <id>tag:github.com,2008:Repository/187086161/exporters/prometheus/v0.32.1</id>
-    <content type="html">&lt;p&gt;Module set experimental-metrics, Version v0.32.1&lt;/p&gt;</content>
-    <link href="https://github.com/open-telemetry/opentelemetry-go/releases/tag/exporters%2Fprometheus%2Fv0.32.1" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>MadVikingGod</name>
-    </author>
-  </entry>
-  <entry>
     <title>Release notes from opentelemetry-go - example/prometheus/v0.32.1</title>
     <updated>2022-09-22T19:49:16Z</updated>
     <id>tag:github.com,2008:Repository/187086161/example/prometheus/v0.32.1</id>
@@ -774,22 +785,22 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from opentelemetry-go - exporters/otlp/otlpmetric/otlpmetricgrpc/v0.32.1</title>
+    <title>Release notes from opentelemetry-go - exporters/otlp/otlpmetric/v0.32.1</title>
     <updated>2022-09-22T19:49:16Z</updated>
-    <id>tag:github.com,2008:Repository/187086161/exporters/otlp/otlpmetric/otlpmetricgrpc/v0.32.1</id>
+    <id>tag:github.com,2008:Repository/187086161/exporters/otlp/otlpmetric/v0.32.1</id>
     <content type="html">&lt;p&gt;Module set experimental-metrics, Version v0.32.1&lt;/p&gt;</content>
-    <link href="https://github.com/open-telemetry/opentelemetry-go/releases/tag/exporters%2Fotlp%2Fotlpmetric%2Fotlpmetricgrpc%2Fv0.32.1" rel="alternate"></link>
+    <link href="https://github.com/open-telemetry/opentelemetry-go/releases/tag/exporters%2Fotlp%2Fotlpmetric%2Fv0.32.1" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>MadVikingGod</name>
     </author>
   </entry>
   <entry>
-    <title>Release notes from opentelemetry-go - exporters/otlp/otlpmetric/v0.32.1</title>
+    <title>Release notes from opentelemetry-go - exporters/otlp/otlpmetric/otlpmetricgrpc/v0.32.1</title>
     <updated>2022-09-22T19:49:16Z</updated>
-    <id>tag:github.com,2008:Repository/187086161/exporters/otlp/otlpmetric/v0.32.1</id>
+    <id>tag:github.com,2008:Repository/187086161/exporters/otlp/otlpmetric/otlpmetricgrpc/v0.32.1</id>
     <content type="html">&lt;p&gt;Module set experimental-metrics, Version v0.32.1&lt;/p&gt;</content>
-    <link href="https://github.com/open-telemetry/opentelemetry-go/releases/tag/exporters%2Fotlp%2Fotlpmetric%2Fv0.32.1" rel="alternate"></link>
+    <link href="https://github.com/open-telemetry/opentelemetry-go/releases/tag/exporters%2Fotlp%2Fotlpmetric%2Fotlpmetricgrpc%2Fv0.32.1" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>MadVikingGod</name>
@@ -2435,22 +2446,22 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from kpt - package-examples/ingress-nginx/v0: Add a basic ghost package (#3381)</title>
+    <title>Release notes from kpt - package-examples/ghost/v0: Add a basic ghost package (#3381)</title>
     <updated>2022-07-19T17:43:52Z</updated>
-    <id>tag:github.com,2008:Repository/208908993/package-examples/ingress-nginx/v0</id>
+    <id>tag:github.com,2008:Repository/208908993/package-examples/ghost/v0</id>
     <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Add ghost basic package&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;update ghost pacakge&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;remove set-labels&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/GoogleContainerTools/kpt/releases/tag/package-examples%2Fingress-nginx%2Fv0" rel="alternate"></link>
+    <link href="https://github.com/GoogleContainerTools/kpt/releases/tag/package-examples%2Fghost%2Fv0" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>yuwenma</name>
     </author>
   </entry>
   <entry>
-    <title>Release notes from kpt - package-examples/ghost/v0: Add a basic ghost package (#3381)</title>
+    <title>Release notes from kpt - package-examples/ingress-nginx/v0: Add a basic ghost package (#3381)</title>
     <updated>2022-07-19T17:43:52Z</updated>
-    <id>tag:github.com,2008:Repository/208908993/package-examples/ghost/v0</id>
+    <id>tag:github.com,2008:Repository/208908993/package-examples/ingress-nginx/v0</id>
     <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Add ghost basic package&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;update ghost pacakge&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;remove set-labels&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/GoogleContainerTools/kpt/releases/tag/package-examples%2Fghost%2Fv0" rel="alternate"></link>
+    <link href="https://github.com/GoogleContainerTools/kpt/releases/tag/package-examples%2Fingress-nginx%2Fv0" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>yuwenma</name>
@@ -3144,17 +3155,6 @@
     <id>tag:github.com,2008:Repository/269546161/v0.4.1</id>
     <content type="html">&lt;h2&gt;What&#39;s Changed&lt;/h2&gt;&#xA;&lt;h3&gt;Other Changes&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Honor config-file options by &lt;a class=&#34;user-mention notranslate&#34; data-hovercard-type=&#34;user&#34; data-hovercard-url=&#34;/users/rustycl0ck/hovercard&#34; data-octo-click=&#34;hovercard-link-click&#34; data-octo-dimensions=&#34;link_type:self&#34; href=&#34;https://github.com/rustycl0ck&#34;&gt;@rustycl0ck&lt;/a&gt; in &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1252355435&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/mercari/spanner-autoscaler/issues/85&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/mercari/spanner-autoscaler/pull/85/hovercard&#34; href=&#34;https://github.com/mercari/spanner-autoscaler/pull/85&#34;&gt;#85&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: &lt;a class=&#34;commit-link&#34; href=&#34;https://github.com/mercari/spanner-autoscaler/compare/v0.4.0...v0.4.1&#34;&gt;&lt;tt&gt;v0.4.0...v0.4.1&lt;/tt&gt;&lt;/a&gt;&lt;/p&gt;</content>
     <link href="https://github.com/mercari/spanner-autoscaler/releases/tag/v0.4.1" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>github-actions[bot]</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from external-secrets - v0.5.6</title>
-    <updated>2022-06-01T16:50:48Z</updated>
-    <id>tag:github.com,2008:Repository/313628863/v0.5.6</id>
-    <content type="html">&lt;p&gt;Image: &lt;code&gt;ghcr.io/external-secrets/external-secrets:v0.5.6&lt;/code&gt;&lt;/p&gt;&#xA;&lt;h2&gt;Changes&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;fix: Hashicorp Vault Validate Method for Non-referent ClusterSecretStores (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1256026408&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/external-secrets/external-secrets/issues/1223&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/external-secrets/external-secrets/pull/1223/hovercard&#34; href=&#34;https://github.com/external-secrets/external-secrets/pull/1223&#34;&gt;#1223&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/external-secrets/external-secrets/releases/tag/v0.5.6" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>github-actions[bot]</name>
