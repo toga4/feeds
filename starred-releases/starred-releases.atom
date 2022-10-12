@@ -1,8 +1,63 @@
 <?xml version="1.0" encoding="UTF-8"?><feed xmlns="http://www.w3.org/2005/Atom">
   <title>Releases from Starred by toga4</title>
   <id>https://toga4.github.io/feeds/starred-releases.atom</id>
-  <updated>2022-10-11T22:42:57Z</updated>
+  <updated>2022-10-12T07:10:45Z</updated>
   <link href="https://toga4.github.io/feeds/starred-releases.atom"></link>
+  <entry>
+    <title>Release notes from build-push-action - v3.2.0</title>
+    <updated>2022-10-12T07:10:45Z</updated>
+    <id>tag:github.com,2008:Repository/241092383/v3.2.0</id>
+    <content type="html">&lt;h2&gt;What&#39;s Changed&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Remove workaround for &lt;code&gt;setOutput&lt;/code&gt; by &lt;a class=&#34;user-mention notranslate&#34; data-hovercard-type=&#34;user&#34; data-hovercard-url=&#34;/users/crazy-max/hovercard&#34; data-octo-click=&#34;hovercard-link-click&#34; data-octo-dimensions=&#34;link_type:self&#34; href=&#34;https://github.com/crazy-max&#34;&gt;@crazy-max&lt;/a&gt; (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1405565233&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/docker/build-push-action/issues/704&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/docker/build-push-action/pull/704/hovercard&#34; href=&#34;https://github.com/docker/build-push-action/pull/704&#34;&gt;#704&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;Docs: fix Git context link and add more details about subdir support by &lt;a class=&#34;user-mention notranslate&#34; data-hovercard-type=&#34;user&#34; data-hovercard-url=&#34;/users/crazy-max/hovercard&#34; data-octo-click=&#34;hovercard-link-click&#34; data-octo-dimensions=&#34;link_type:self&#34; href=&#34;https://github.com/crazy-max&#34;&gt;@crazy-max&lt;/a&gt; (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1360002640&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/docker/build-push-action/issues/685&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/docker/build-push-action/pull/685/hovercard&#34; href=&#34;https://github.com/docker/build-push-action/pull/685&#34;&gt;#685&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;Docs: named context by &lt;a class=&#34;user-mention notranslate&#34; data-hovercard-type=&#34;user&#34; data-hovercard-url=&#34;/users/baibaratsky/hovercard&#34; data-octo-click=&#34;hovercard-link-click&#34; data-octo-dimensions=&#34;link_type:self&#34; href=&#34;https://github.com/baibaratsky&#34;&gt;@baibaratsky&lt;/a&gt; and &lt;a class=&#34;user-mention notranslate&#34; data-hovercard-type=&#34;user&#34; data-hovercard-url=&#34;/users/crazy-max/hovercard&#34; data-octo-click=&#34;hovercard-link-click&#34; data-octo-dimensions=&#34;link_type:self&#34; href=&#34;https://github.com/crazy-max&#34;&gt;@crazy-max&lt;/a&gt; (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1329664645&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/docker/build-push-action/issues/665&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/docker/build-push-action/pull/665/hovercard&#34; href=&#34;https://github.com/docker/build-push-action/pull/665&#34;&gt;#665&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;Bump @actions/core from 1.9.0 to 1.9.1 (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1333088046&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/docker/build-push-action/issues/667&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/docker/build-push-action/pull/667/hovercard&#34; href=&#34;https://github.com/docker/build-push-action/pull/667&#34;&gt;#667&lt;/a&gt; &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1392277173&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/docker/build-push-action/issues/695&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/docker/build-push-action/pull/695/hovercard&#34; href=&#34;https://github.com/docker/build-push-action/pull/695&#34;&gt;#695&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;Bump @actions/github from 5.0.3 to 5.1.1 (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1393167333&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/docker/build-push-action/issues/696&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/docker/build-push-action/pull/696/hovercard&#34; href=&#34;https://github.com/docker/build-push-action/pull/696&#34;&gt;#696&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: &lt;a class=&#34;commit-link&#34; href=&#34;https://github.com/docker/build-push-action/compare/v3.1.1...v3.2.0&#34;&gt;&lt;tt&gt;v3.1.1...v3.2.0&lt;/tt&gt;&lt;/a&gt;&lt;/p&gt;</content>
+    <link href="https://github.com/docker/build-push-action/releases/tag/v3.2.0" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>crazy-max</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from login-action - v2.1.0</title>
+    <updated>2022-10-12T07:04:14Z</updated>
+    <id>tag:github.com,2008:Repository/287743349/v2.1.0</id>
+    <content type="html">&lt;h2&gt;What&#39;s Changed&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Ensure AWS temp credentials are redacted in workflow logs by &lt;a class=&#34;user-mention notranslate&#34; data-hovercard-type=&#34;user&#34; data-hovercard-url=&#34;/users/crazy-max/hovercard&#34; data-octo-click=&#34;hovercard-link-click&#34; data-octo-dimensions=&#34;link_type:self&#34; href=&#34;https://github.com/crazy-max&#34;&gt;@crazy-max&lt;/a&gt; (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1367043431&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/docker/login-action/issues/275&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/docker/login-action/pull/275/hovercard&#34; href=&#34;https://github.com/docker/login-action/pull/275&#34;&gt;#275&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;Bump @actions/core from 1.6.0 to 1.10.0 (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1332726218&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/docker/login-action/issues/252&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/docker/login-action/pull/252/hovercard&#34; href=&#34;https://github.com/docker/login-action/pull/252&#34;&gt;#252&lt;/a&gt; &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1391847951&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/docker/login-action/issues/292&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/docker/login-action/pull/292/hovercard&#34; href=&#34;https://github.com/docker/login-action/pull/292&#34;&gt;#292&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;Bump @aws-sdk/client-ecr from 3.53.0 to 3.186.0 (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1400647256&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/docker/login-action/issues/298&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/docker/login-action/pull/298/hovercard&#34; href=&#34;https://github.com/docker/login-action/pull/298&#34;&gt;#298&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;Bump @aws-sdk/client-ecr-public from 3.53.0 to 3.186.0 (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1400647890&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/docker/login-action/issues/299&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/docker/login-action/pull/299/hovercard&#34; href=&#34;https://github.com/docker/login-action/pull/299&#34;&gt;#299&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: &lt;a class=&#34;commit-link&#34; href=&#34;https://github.com/docker/login-action/compare/v2.0.0...v2.1.0&#34;&gt;&lt;tt&gt;v2.0.0...v2.1.0&lt;/tt&gt;&lt;/a&gt;&lt;/p&gt;</content>
+    <link href="https://github.com/docker/login-action/releases/tag/v2.1.0" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>crazy-max</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from metadata-action - v4.1.0</title>
+    <updated>2022-10-12T06:40:25Z</updated>
+    <id>tag:github.com,2008:Repository/306769011/v4.1.0</id>
+    <content type="html">&lt;h2&gt;What&#39;s Changed&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Do not trim whitespace for &lt;code&gt;sep-tags&lt;/code&gt; and &lt;code&gt;sep-labels&lt;/code&gt; inputs by &lt;a class=&#34;user-mention notranslate&#34; data-hovercard-type=&#34;user&#34; data-hovercard-url=&#34;/users/crazy-max/hovercard&#34; data-octo-click=&#34;hovercard-link-click&#34; data-octo-dimensions=&#34;link_type:self&#34; href=&#34;https://github.com/crazy-max&#34;&gt;@crazy-max&lt;/a&gt; (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1401651267&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/docker/metadata-action/issues/233&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/docker/metadata-action/pull/233/hovercard&#34; href=&#34;https://github.com/docker/metadata-action/pull/233&#34;&gt;#233&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;Set associated head sha on pull request event by &lt;a class=&#34;user-mention notranslate&#34; data-hovercard-type=&#34;user&#34; data-hovercard-url=&#34;/users/crazy-max/hovercard&#34; data-octo-click=&#34;hovercard-link-click&#34; data-octo-dimensions=&#34;link_type:self&#34; href=&#34;https://github.com/crazy-max&#34;&gt;@crazy-max&lt;/a&gt; (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1401716747&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/docker/metadata-action/issues/234&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/docker/metadata-action/pull/234/hovercard&#34; href=&#34;https://github.com/docker/metadata-action/pull/234&#34;&gt;#234&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;Remove workaround for &lt;code&gt;setOutput&lt;/code&gt; by &lt;a class=&#34;user-mention notranslate&#34; data-hovercard-type=&#34;user&#34; data-hovercard-url=&#34;/users/crazy-max/hovercard&#34; data-octo-click=&#34;hovercard-link-click&#34; data-octo-dimensions=&#34;link_type:self&#34; href=&#34;https://github.com/crazy-max&#34;&gt;@crazy-max&lt;/a&gt; (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1405574118&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/docker/metadata-action/issues/236&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/docker/metadata-action/pull/236/hovercard&#34; href=&#34;https://github.com/docker/metadata-action/pull/236&#34;&gt;#236&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;Bump @actions/github from 5.0.1 to 5.1.1 (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1235593107&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/docker/metadata-action/issues/208&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/docker/metadata-action/pull/208/hovercard&#34; href=&#34;https://github.com/docker/metadata-action/pull/208&#34;&gt;#208&lt;/a&gt; &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1392888097&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/docker/metadata-action/issues/232&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/docker/metadata-action/pull/232/hovercard&#34; href=&#34;https://github.com/docker/metadata-action/pull/232&#34;&gt;#232&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;Bump @actions/core from 1.6.0 to 1.10.0 (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1235593188&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/docker/metadata-action/issues/209&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/docker/metadata-action/pull/209/hovercard&#34; href=&#34;https://github.com/docker/metadata-action/pull/209&#34;&gt;#209&lt;/a&gt; &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1272629280&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/docker/metadata-action/issues/216&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/docker/metadata-action/pull/216/hovercard&#34; href=&#34;https://github.com/docker/metadata-action/pull/216&#34;&gt;#216&lt;/a&gt; &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1332293565&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/docker/metadata-action/issues/226&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/docker/metadata-action/pull/226/hovercard&#34; href=&#34;https://github.com/docker/metadata-action/pull/226&#34;&gt;#226&lt;/a&gt; &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1391369797&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/docker/metadata-action/issues/231&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/docker/metadata-action/pull/231/hovercard&#34; href=&#34;https://github.com/docker/metadata-action/pull/231&#34;&gt;#231&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;Bump csv-parse from 5.0.4 to 5.3.0 (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1247016994&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/docker/metadata-action/issues/210&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/docker/metadata-action/pull/210/hovercard&#34; href=&#34;https://github.com/docker/metadata-action/pull/210&#34;&gt;#210&lt;/a&gt; &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1301113479&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/docker/metadata-action/issues/221&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/docker/metadata-action/pull/221/hovercard&#34; href=&#34;https://github.com/docker/metadata-action/pull/221&#34;&gt;#221&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;Bump moment from 2.29.3 to 2.29.4 (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1296262047&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/docker/metadata-action/issues/220&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/docker/metadata-action/pull/220/hovercard&#34; href=&#34;https://github.com/docker/metadata-action/pull/220&#34;&gt;#220&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: &lt;a class=&#34;commit-link&#34; href=&#34;https://github.com/docker/metadata-action/compare/v4.0.1...v4.1.0&#34;&gt;&lt;tt&gt;v4.0.1...v4.1.0&lt;/tt&gt;&lt;/a&gt;&lt;/p&gt;</content>
+    <link href="https://github.com/docker/metadata-action/releases/tag/v4.1.0" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>crazy-max</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from metadata-action - v4: Merge pull request #236 from crazy-max/setOutput</title>
+    <updated>2022-10-12T06:34:51Z</updated>
+    <id>tag:github.com,2008:Repository/306769011/v4</id>
+    <content type="html">&lt;p&gt;Remove workaround for setOutput&lt;/p&gt;</content>
+    <link href="https://github.com/docker/metadata-action/releases/tag/v4" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>crazy-max</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from build-push-action - v3: Merge pull request #704 from crazy-max/setOutput</title>
+    <updated>2022-10-12T06:33:54Z</updated>
+    <id>tag:github.com,2008:Repository/241092383/v3</id>
+    <content type="html">&lt;p&gt;Remove workaround for setOutput&lt;/p&gt;</content>
+    <link href="https://github.com/docker/build-push-action/releases/tag/v3" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>crazy-max</name>
+    </author>
+  </entry>
   <entry>
     <title>Release notes from opentelemetry-go-contrib - Release v0.36.2</title>
     <updated>2022-10-11T22:42:57Z</updated>
@@ -334,6 +389,17 @@
     </author>
   </entry>
   <entry>
+    <title>Release notes from login-action - v2: Merge pull request #299 from docker/dependabot/npm_and_yarn/aws-sdk/c…</title>
+    <updated>2022-10-07T17:46:23Z</updated>
+    <id>tag:github.com,2008:Repository/287743349/v2</id>
+    <content type="html">&lt;p&gt;…lient-ecr-public-3.186.0&lt;/p&gt;&#xA;&lt;p&gt;Bump @aws-sdk/client-ecr-public from 3.53.0 to 3.186.0&lt;/p&gt;</content>
+    <link href="https://github.com/docker/login-action/releases/tag/v2" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>crazy-max</name>
+    </author>
+  </entry>
+  <entry>
     <title>Release notes from datadog-agent - 7.39.2</title>
     <updated>2022-10-07T11:47:11Z</updated>
     <id>tag:github.com,2008:Repository/49970739/7.39.2</id>
@@ -532,22 +598,22 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from opentelemetry-operations-go - example/trace/http/v0.33.0</title>
+    <title>Release notes from opentelemetry-operations-go - internal/cloudmock/v0.33.0</title>
     <updated>2022-09-30T18:00:17Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/example/trace/http/v0.33.0</id>
+    <id>tag:github.com,2008:Repository/244484581/internal/cloudmock/v0.33.0</id>
     <content type="html">&lt;p&gt;prepare for v0.33.0 and v1.9.0 (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1392734757&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/493&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleCloudPlatform/opentelemetry-operations-go/pull/493/hovercard&#34; href=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/pull/493&#34;&gt;#493&lt;/a&gt;)&lt;/p&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/example%2Ftrace%2Fhttp%2Fv0.33.0" rel="alternate"></link>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/internal%2Fcloudmock%2Fv0.33.0" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>dashpole</name>
     </author>
   </entry>
   <entry>
-    <title>Release notes from opentelemetry-operations-go - exporter/collector/googlemanagedprometheus/v0.33.0</title>
+    <title>Release notes from opentelemetry-operations-go - example/trace/http/v0.33.0</title>
     <updated>2022-09-30T18:00:17Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/exporter/collector/googlemanagedprometheus/v0.33.0</id>
+    <id>tag:github.com,2008:Repository/244484581/example/trace/http/v0.33.0</id>
     <content type="html">&lt;p&gt;prepare for v0.33.0 and v1.9.0 (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1392734757&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/493&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleCloudPlatform/opentelemetry-operations-go/pull/493/hovercard&#34; href=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/pull/493&#34;&gt;#493&lt;/a&gt;)&lt;/p&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/exporter%2Fcollector%2Fgooglemanagedprometheus%2Fv0.33.0" rel="alternate"></link>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/example%2Ftrace%2Fhttp%2Fv0.33.0" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>dashpole</name>
@@ -565,33 +631,22 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from opentelemetry-operations-go - example/metric/v0.33.0</title>
-    <updated>2022-09-30T18:00:17Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/example/metric/v0.33.0</id>
-    <content type="html">&lt;p&gt;prepare for v0.33.0 and v1.9.0 (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1392734757&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/493&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleCloudPlatform/opentelemetry-operations-go/pull/493/hovercard&#34; href=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/pull/493&#34;&gt;#493&lt;/a&gt;)&lt;/p&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/example%2Fmetric%2Fv0.33.0" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>dashpole</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from opentelemetry-operations-go - internal/cloudmock/v0.33.0</title>
-    <updated>2022-09-30T18:00:17Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/internal/cloudmock/v0.33.0</id>
-    <content type="html">&lt;p&gt;prepare for v0.33.0 and v1.9.0 (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1392734757&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/493&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleCloudPlatform/opentelemetry-operations-go/pull/493/hovercard&#34; href=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/pull/493&#34;&gt;#493&lt;/a&gt;)&lt;/p&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/internal%2Fcloudmock%2Fv0.33.0" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>dashpole</name>
-    </author>
-  </entry>
-  <entry>
     <title>Release notes from opentelemetry-operations-go - exporter/trace/v1.9.0</title>
     <updated>2022-09-30T18:00:17Z</updated>
     <id>tag:github.com,2008:Repository/244484581/exporter/trace/v1.9.0</id>
     <content type="html">&lt;p&gt;prepare for v0.33.0 and v1.9.0 (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1392734757&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/493&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleCloudPlatform/opentelemetry-operations-go/pull/493/hovercard&#34; href=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/pull/493&#34;&gt;#493&lt;/a&gt;)&lt;/p&gt;</content>
     <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/exporter%2Ftrace%2Fv1.9.0" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>dashpole</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from opentelemetry-operations-go - example/metric/v0.33.0</title>
+    <updated>2022-09-30T18:00:17Z</updated>
+    <id>tag:github.com,2008:Repository/244484581/example/metric/v0.33.0</id>
+    <content type="html">&lt;p&gt;prepare for v0.33.0 and v1.9.0 (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1392734757&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/493&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleCloudPlatform/opentelemetry-operations-go/pull/493/hovercard&#34; href=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/pull/493&#34;&gt;#493&lt;/a&gt;)&lt;/p&gt;</content>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/example%2Fmetric%2Fv0.33.0" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>dashpole</name>
@@ -614,6 +669,17 @@
     <id>tag:github.com,2008:Repository/244484581/exporter/collector/v0.33.0</id>
     <content type="html">&lt;p&gt;prepare for v0.33.0 and v1.9.0 (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1392734757&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/493&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleCloudPlatform/opentelemetry-operations-go/pull/493/hovercard&#34; href=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/pull/493&#34;&gt;#493&lt;/a&gt;)&lt;/p&gt;</content>
     <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/exporter%2Fcollector%2Fv0.33.0" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>dashpole</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from opentelemetry-operations-go - exporter/collector/googlemanagedprometheus/v0.33.0</title>
+    <updated>2022-09-30T18:00:17Z</updated>
+    <id>tag:github.com,2008:Repository/244484581/exporter/collector/googlemanagedprometheus/v0.33.0</id>
+    <content type="html">&lt;p&gt;prepare for v0.33.0 and v1.9.0 (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1392734757&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/493&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleCloudPlatform/opentelemetry-operations-go/pull/493/hovercard&#34; href=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/pull/493&#34;&gt;#493&lt;/a&gt;)&lt;/p&gt;</content>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/exporter%2Fcollector%2Fgooglemanagedprometheus%2Fv0.33.0" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>dashpole</name>
@@ -840,22 +906,22 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from telepresence - v2.7.7-rc.0</title>
+    <title>Release notes from telepresence - rpc/v2.7.7-rc.0</title>
     <updated>2022-09-23T16:08:30Z</updated>
-    <id>tag:github.com,2008:Repository/82933315/v2.7.7-rc.0</id>
+    <id>tag:github.com,2008:Repository/82933315/rpc/v2.7.7-rc.0</id>
     <content type="html">&lt;p&gt;v2.7.7-rc.0&lt;/p&gt;</content>
-    <link href="https://github.com/telepresenceio/telepresence/releases/tag/v2.7.7-rc.0" rel="alternate"></link>
+    <link href="https://github.com/telepresenceio/telepresence/releases/tag/rpc%2Fv2.7.7-rc.0" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>josecv</name>
     </author>
   </entry>
   <entry>
-    <title>Release notes from telepresence - rpc/v2.7.7-rc.0</title>
+    <title>Release notes from telepresence - v2.7.7-rc.0</title>
     <updated>2022-09-23T16:08:30Z</updated>
-    <id>tag:github.com,2008:Repository/82933315/rpc/v2.7.7-rc.0</id>
+    <id>tag:github.com,2008:Repository/82933315/v2.7.7-rc.0</id>
     <content type="html">&lt;p&gt;v2.7.7-rc.0&lt;/p&gt;</content>
-    <link href="https://github.com/telepresenceio/telepresence/releases/tag/rpc%2Fv2.7.7-rc.0" rel="alternate"></link>
+    <link href="https://github.com/telepresenceio/telepresence/releases/tag/v2.7.7-rc.0" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>josecv</name>
@@ -1071,22 +1137,22 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from telepresence - v2.7.6</title>
+    <title>Release notes from telepresence - rpc/v2.7.6</title>
     <updated>2022-09-16T19:29:58Z</updated>
-    <id>tag:github.com,2008:Repository/82933315/v2.7.6</id>
+    <id>tag:github.com,2008:Repository/82933315/rpc/v2.7.6</id>
     <content type="html">&lt;p&gt;v2.7.6&lt;/p&gt;</content>
-    <link href="https://github.com/telepresenceio/telepresence/releases/tag/v2.7.6" rel="alternate"></link>
+    <link href="https://github.com/telepresenceio/telepresence/releases/tag/rpc%2Fv2.7.6" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>josecv</name>
     </author>
   </entry>
   <entry>
-    <title>Release notes from telepresence - rpc/v2.7.6</title>
+    <title>Release notes from telepresence - v2.7.6</title>
     <updated>2022-09-16T19:29:58Z</updated>
-    <id>tag:github.com,2008:Repository/82933315/rpc/v2.7.6</id>
+    <id>tag:github.com,2008:Repository/82933315/v2.7.6</id>
     <content type="html">&lt;p&gt;v2.7.6&lt;/p&gt;</content>
-    <link href="https://github.com/telepresenceio/telepresence/releases/tag/rpc%2Fv2.7.6" rel="alternate"></link>
+    <link href="https://github.com/telepresenceio/telepresence/releases/tag/v2.7.6" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>josecv</name>
@@ -1368,22 +1434,22 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from cli - v2.14.8-pre1</title>
+    <title>Release notes from cli - v2.14.8-pre2</title>
     <updated>2022-09-06T13:26:09Z</updated>
-    <id>tag:github.com,2008:Repository/212613049/v2.14.8-pre1</id>
+    <id>tag:github.com,2008:Repository/212613049/v2.14.8-pre2</id>
     <content type="html">&lt;p&gt;Use secret public key instead of file (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1363282788&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/cli/cli/issues/6204&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/cli/cli/pull/6204/hovercard&#34; href=&#34;https://github.com/cli/cli/pull/6204&#34;&gt;#6204&lt;/a&gt;)&lt;/p&gt;</content>
-    <link href="https://github.com/cli/cli/releases/tag/v2.14.8-pre1" rel="alternate"></link>
+    <link href="https://github.com/cli/cli/releases/tag/v2.14.8-pre2" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>samcoe</name>
     </author>
   </entry>
   <entry>
-    <title>Release notes from cli - v2.14.8-pre2</title>
+    <title>Release notes from cli - v2.14.8-pre1</title>
     <updated>2022-09-06T13:26:09Z</updated>
-    <id>tag:github.com,2008:Repository/212613049/v2.14.8-pre2</id>
+    <id>tag:github.com,2008:Repository/212613049/v2.14.8-pre1</id>
     <content type="html">&lt;p&gt;Use secret public key instead of file (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1363282788&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/cli/cli/issues/6204&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/cli/cli/pull/6204/hovercard&#34; href=&#34;https://github.com/cli/cli/pull/6204&#34;&gt;#6204&lt;/a&gt;)&lt;/p&gt;</content>
-    <link href="https://github.com/cli/cli/releases/tag/v2.14.8-pre2" rel="alternate"></link>
+    <link href="https://github.com/cli/cli/releases/tag/v2.14.8-pre1" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>samcoe</name>
@@ -2149,17 +2215,6 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from build-push-action - v3: Merge pull request #663 from crazy-max/fix-git-token-cond</title>
-    <updated>2022-08-03T15:25:08Z</updated>
-    <id>tag:github.com,2008:Repository/241092383/v3</id>
-    <content type="html">&lt;p&gt;Fix GitHub token not passed with Git context if subdir defined&lt;/p&gt;</content>
-    <link href="https://github.com/docker/build-push-action/releases/tag/v3" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>crazy-max</name>
-    </author>
-  </entry>
-  <entry>
     <title>Release notes from syft - v0.53.3</title>
     <updated>2022-08-03T14:41:19Z</updated>
     <id>tag:github.com,2008:Repository/262126497/v0.53.3</id>
@@ -2512,22 +2567,22 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from kpt - package-examples/ingress-nginx/v0: Add a basic ghost package (#3381)</title>
+    <title>Release notes from kpt - package-examples/ghost/v0: Add a basic ghost package (#3381)</title>
     <updated>2022-07-19T17:43:52Z</updated>
-    <id>tag:github.com,2008:Repository/208908993/package-examples/ingress-nginx/v0</id>
+    <id>tag:github.com,2008:Repository/208908993/package-examples/ghost/v0</id>
     <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Add ghost basic package&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;update ghost pacakge&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;remove set-labels&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/GoogleContainerTools/kpt/releases/tag/package-examples%2Fingress-nginx%2Fv0" rel="alternate"></link>
+    <link href="https://github.com/GoogleContainerTools/kpt/releases/tag/package-examples%2Fghost%2Fv0" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>yuwenma</name>
     </author>
   </entry>
   <entry>
-    <title>Release notes from kpt - package-examples/ghost/v0: Add a basic ghost package (#3381)</title>
+    <title>Release notes from kpt - package-examples/ingress-nginx/v0: Add a basic ghost package (#3381)</title>
     <updated>2022-07-19T17:43:52Z</updated>
-    <id>tag:github.com,2008:Repository/208908993/package-examples/ghost/v0</id>
+    <id>tag:github.com,2008:Repository/208908993/package-examples/ingress-nginx/v0</id>
     <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Add ghost basic package&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;update ghost pacakge&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;remove set-labels&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/GoogleContainerTools/kpt/releases/tag/package-examples%2Fghost%2Fv0" rel="alternate"></link>
+    <link href="https://github.com/GoogleContainerTools/kpt/releases/tag/package-examples%2Fingress-nginx%2Fv0" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>yuwenma</name>
@@ -3645,17 +3700,6 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from login-action - v2: Merge pull request #161 from crazy-max/node16-runtime</title>
-    <updated>2022-05-05T16:59:26Z</updated>
-    <id>tag:github.com,2008:Repository/287743349/v2</id>
-    <content type="html">&lt;p&gt;Node 16 as default runtime&lt;/p&gt;</content>
-    <link href="https://github.com/docker/login-action/releases/tag/v2" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>crazy-max</name>
-    </author>
-  </entry>
-  <entry>
     <title>Release notes from setup-buildx-action - v2: Merge pull request #131 from crazy-max/node16</title>
     <updated>2022-05-05T16:44:52Z</updated>
     <id>tag:github.com,2008:Repository/288485773/v2</id>
@@ -3683,17 +3727,6 @@
     <id>tag:github.com,2008:Repository/306769011/v4.0.1</id>
     <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;Sanitize tag earlier by &lt;a class=&#34;user-mention notranslate&#34; data-hovercard-type=&#34;user&#34; data-hovercard-url=&#34;/users/crazy-max/hovercard&#34; data-octo-click=&#34;hovercard-link-click&#34; data-octo-dimensions=&#34;link_type:self&#34; href=&#34;https://github.com/crazy-max&#34;&gt;@crazy-max&lt;/a&gt; (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1226573813&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/docker/metadata-action/issues/203&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/docker/metadata-action/pull/203/hovercard&#34; href=&#34;https://github.com/docker/metadata-action/pull/203&#34;&gt;#203&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: &lt;a class=&#34;commit-link&#34; href=&#34;https://github.com/docker/metadata-action/compare/v4.0.0...v4.0.1&#34;&gt;&lt;tt&gt;v4.0.0...v4.0.1&lt;/tt&gt;&lt;/a&gt;&lt;/p&gt;</content>
     <link href="https://github.com/docker/metadata-action/releases/tag/v4.0.1" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>crazy-max</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from metadata-action - v4: Merge pull request #203 from crazy-max/san-fix</title>
-    <updated>2022-05-05T11:57:05Z</updated>
-    <id>tag:github.com,2008:Repository/306769011/v4</id>
-    <content type="html">&lt;p&gt;Sanitize tag earlier&lt;/p&gt;</content>
-    <link href="https://github.com/docker/metadata-action/releases/tag/v4" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>crazy-max</name>
@@ -5944,17 +5977,6 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from metadata-action - v3.5.0</title>
-    <updated>2021-08-20T09:09:21Z</updated>
-    <id>tag:github.com,2008:Repository/306769011/v3.5.0</id>
-    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;Add global expression &lt;code&gt;date&lt;/code&gt; (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;974904251&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/docker/metadata-action/issues/121&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/docker/metadata-action/pull/121/hovercard&#34; href=&#34;https://github.com/docker/metadata-action/pull/121&#34;&gt;#121&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;Bump @actions/core from 1.4.0 to 1.5.0 (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;974965466&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/docker/metadata-action/issues/122&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/docker/metadata-action/pull/122/hovercard&#34; href=&#34;https://github.com/docker/metadata-action/pull/122&#34;&gt;#122&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/docker/metadata-action/releases/tag/v3.5.0" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>crazy-max</name>
-    </author>
-  </entry>
-  <entry>
     <title>Release notes from delve - v1.7.1</title>
     <updated>2021-08-18T15:52:03Z</updated>
     <id>tag:github.com,2008:Repository/19994257/v1.7.1</id>
@@ -6362,17 +6384,6 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from build-push-action - v2.6.1</title>
-    <updated>2021-07-01T15:05:10Z</updated>
-    <id>tag:github.com,2008:Repository/241092383/v2.6.1</id>
-    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;Small typo and ensure trimmed output (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;934934352&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/docker/build-push-action/issues/400&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/docker/build-push-action/pull/400/hovercard&#34; href=&#34;https://github.com/docker/build-push-action/pull/400&#34;&gt;#400&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/docker/build-push-action/releases/tag/v2.6.1" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>crazy-max</name>
-    </author>
-  </entry>
-  <entry>
     <title>Release notes from secrets-store-csi-driver-provider-gcp - v0.5.0</title>
     <updated>2021-06-30T20:57:37Z</updated>
     <id>tag:github.com,2008:Repository/267427111/v0.5.0</id>
@@ -6681,22 +6692,22 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from triangula - v1.1.5</title>
+    <title>Release notes from triangula - v1.1.6</title>
     <updated>2021-05-11T13:31:09Z</updated>
-    <id>tag:github.com,2008:Repository/354015172/v1.1.5</id>
+    <id>tag:github.com,2008:Repository/354015172/v1.1.6</id>
     <content type="html">&lt;p&gt;Refactor for more flexibility&lt;/p&gt;</content>
-    <link href="https://github.com/rh12503/triangula/releases/tag/v1.1.5" rel="alternate"></link>
+    <link href="https://github.com/rh12503/triangula/releases/tag/v1.1.6" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>rh12503</name>
     </author>
   </entry>
   <entry>
-    <title>Release notes from triangula - v1.1.6</title>
+    <title>Release notes from triangula - v1.1.5</title>
     <updated>2021-05-11T13:31:09Z</updated>
-    <id>tag:github.com,2008:Repository/354015172/v1.1.6</id>
+    <id>tag:github.com,2008:Repository/354015172/v1.1.5</id>
     <content type="html">&lt;p&gt;Refactor for more flexibility&lt;/p&gt;</content>
-    <link href="https://github.com/rh12503/triangula/releases/tag/v1.1.6" rel="alternate"></link>
+    <link href="https://github.com/rh12503/triangula/releases/tag/v1.1.5" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>rh12503</name>
@@ -6785,17 +6796,6 @@
     <id>tag:github.com,2008:Repository/288485773/v1.3.0</id>
     <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;Display BuildKit version (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;869037334&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/docker/setup-buildx-action/issues/72&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/docker/setup-buildx-action/pull/72/hovercard&#34; href=&#34;https://github.com/docker/setup-buildx-action/pull/72&#34;&gt;#72&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
     <link href="https://github.com/docker/setup-buildx-action/releases/tag/v1.3.0" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>crazy-max</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from login-action - v1.9.0</title>
-    <updated>2021-04-28T09:45:04Z</updated>
-    <id>tag:github.com,2008:Repository/287743349/v1.9.0</id>
-    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;Remove os limitation (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;869312690&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/docker/login-action/issues/66&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/docker/login-action/pull/66/hovercard&#34; href=&#34;https://github.com/docker/login-action/pull/66&#34;&gt;#66&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;Enhance workflow (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;846932676&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/docker/login-action/issues/61&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/docker/login-action/pull/61/hovercard&#34; href=&#34;https://github.com/docker/login-action/pull/61&#34;&gt;#61&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;Add example for Quay (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;842214132&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/docker/login-action/issues/60&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/docker/login-action/pull/60/hovercard&#34; href=&#34;https://github.com/docker/login-action/pull/60&#34;&gt;#60&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;Use &lt;code&gt;GITHUB_TOKEN&lt;/code&gt; with GHCR (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;840240489&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/docker/login-action/issues/59&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/docker/login-action/pull/59/hovercard&#34; href=&#34;https://github.com/docker/login-action/pull/59&#34;&gt;#59&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;Improve GHCR doc (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;809270439&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/docker/login-action/issues/55&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/docker/login-action/pull/55/hovercard&#34; href=&#34;https://github.com/docker/login-action/pull/55&#34;&gt;#55&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;Add e2e tests for GAR (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;772832615&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/docker/login-action/issues/48&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/docker/login-action/pull/48/hovercard&#34; href=&#34;https://github.com/docker/login-action/pull/48&#34;&gt;#48&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;Add e2e tests for GCR (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;769808497&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/docker/login-action/issues/42&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/docker/login-action/pull/42/hovercard&#34; href=&#34;https://github.com/docker/login-action/pull/42&#34;&gt;#42&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/docker/login-action/releases/tag/v1.9.0" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>crazy-max</name>
@@ -7297,22 +7297,22 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from backoff - v2.0.3: Merge pull request #18 from lestrrat-go/topic/fix-v2-go-mod</title>
+    <title>Release notes from backoff - v2.0.2: Merge pull request #18 from lestrrat-go/topic/fix-v2-go-mod</title>
     <updated>2021-01-06T03:00:05Z</updated>
-    <id>tag:github.com,2008:Repository/118608673/v2.0.3</id>
+    <id>tag:github.com,2008:Repository/118608673/v2.0.2</id>
     <content type="html">&lt;p&gt;Fix go.mod&lt;/p&gt;</content>
-    <link href="https://github.com/lestrrat-go/backoff/releases/tag/v2.0.3" rel="alternate"></link>
+    <link href="https://github.com/lestrrat-go/backoff/releases/tag/v2.0.2" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>lestrrat</name>
     </author>
   </entry>
   <entry>
-    <title>Release notes from backoff - v2.0.2: Merge pull request #18 from lestrrat-go/topic/fix-v2-go-mod</title>
+    <title>Release notes from backoff - v2.0.3: Merge pull request #18 from lestrrat-go/topic/fix-v2-go-mod</title>
     <updated>2021-01-06T03:00:05Z</updated>
-    <id>tag:github.com,2008:Repository/118608673/v2.0.2</id>
+    <id>tag:github.com,2008:Repository/118608673/v2.0.3</id>
     <content type="html">&lt;p&gt;Fix go.mod&lt;/p&gt;</content>
-    <link href="https://github.com/lestrrat-go/backoff/releases/tag/v2.0.2" rel="alternate"></link>
+    <link href="https://github.com/lestrrat-go/backoff/releases/tag/v2.0.3" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>lestrrat</name>
