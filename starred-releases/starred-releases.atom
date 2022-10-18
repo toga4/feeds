@@ -1,17 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?><feed xmlns="http://www.w3.org/2005/Atom">
   <title>Releases from Starred by toga4</title>
   <id>https://toga4.github.io/feeds/starred-releases.atom</id>
-  <updated>2022-10-18T19:38:12Z</updated>
+  <updated>2022-10-18T21:24:52Z</updated>
   <link href="https://toga4.github.io/feeds/starred-releases.atom"></link>
   <entry>
+    <title>Release notes from connect-go - v1.1.0</title>
+    <updated>2022-10-18T21:24:52Z</updated>
+    <id>tag:github.com,2008:Repository/391811592/v1.1.0</id>
+    <content type="html">&lt;h2&gt;What&#39;s Changed&lt;/h2&gt;&#xA;&lt;h3&gt;Enhancements&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Add IsWireError to differentiate server-sent and client-synthesized errors by &lt;a class=&#34;user-mention notranslate&#34; data-hovercard-type=&#34;user&#34; data-hovercard-url=&#34;/users/joshcarp/hovercard&#34; data-octo-click=&#34;hovercard-link-click&#34; data-octo-dimensions=&#34;link_type:self&#34; href=&#34;https://github.com/joshcarp&#34;&gt;@joshcarp&lt;/a&gt; in &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1408060715&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/bufbuild/connect-go/issues/374&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/bufbuild/connect-go/pull/374/hovercard&#34; href=&#34;https://github.com/bufbuild/connect-go/pull/374&#34;&gt;#374&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2&gt;New Contributors&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a class=&#34;user-mention notranslate&#34; data-hovercard-type=&#34;user&#34; data-hovercard-url=&#34;/users/joshcarp/hovercard&#34; data-octo-click=&#34;hovercard-link-click&#34; data-octo-dimensions=&#34;link_type:self&#34; href=&#34;https://github.com/joshcarp&#34;&gt;@joshcarp&lt;/a&gt; made their first contribution in &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1408060715&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/bufbuild/connect-go/issues/374&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/bufbuild/connect-go/pull/374/hovercard&#34; href=&#34;https://github.com/bufbuild/connect-go/pull/374&#34;&gt;#374&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: &lt;a class=&#34;commit-link&#34; href=&#34;https://github.com/bufbuild/connect-go/compare/v1.0.0...v1.1.0&#34;&gt;&lt;tt&gt;v1.0.0...v1.1.0&lt;/tt&gt;&lt;/a&gt;&lt;/p&gt;</content>
+    <link href="https://github.com/bufbuild/connect-go/releases/tag/v1.1.0" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>akshayjshah</name>
+    </author>
+  </entry>
+  <entry>
     <title>Release notes from moby - v20.10.20</title>
-    <updated>2022-10-18T19:38:12Z</updated>
+    <updated>2022-10-18T21:19:39Z</updated>
     <id>tag:github.com,2008:Repository/7691631/v20.10.20</id>
-    <content type="html">&lt;p&gt;v20.10.20&lt;/p&gt;</content>
+    <content type="html">&lt;p&gt;This release of Docker Engine contains partial mitigations for a Git vulnerability&lt;br&gt;&#xA;(&lt;a href=&#34;https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-39253&#34; rel=&#34;nofollow&#34;&gt;CVE-2022-39253&lt;/a&gt;), and has updated handling of &lt;code&gt;image:tag@digest&lt;/code&gt; image references.&lt;/p&gt;&#xA;&lt;p&gt;The Git vulnerability allows a maliciously crafted Git repository, when used as a&lt;br&gt;&#xA;build context, to copy arbitrary filesystem paths into resulting containers/images;&lt;br&gt;&#xA;this can occur in both the daemon, and in API clients, depending on the versions and&lt;br&gt;&#xA;tools in use.&lt;/p&gt;&#xA;&lt;p&gt;The mitigations available in this release and in other consumers of the daemon API&lt;br&gt;&#xA;are partial and only protect users who build a Git URL context (e.g. &lt;code&gt;git+protocol://&lt;/code&gt;).&lt;br&gt;&#xA;As the vulnerability could still be exploited by manually run Git commands that interact&lt;br&gt;&#xA;with and check out submodules, users should immediately upgrade to a patched version of&lt;br&gt;&#xA;Git to protect against this vulernability. Further details are available from the GitHub&lt;br&gt;&#xA;blog (&lt;a href=&#34;https://github.blog/2022-10-18-git-security-vulnerabilities-announced/&#34; rel=&#34;nofollow&#34;&gt;&#34;Git security vulnerabilities announced&#34;&lt;/a&gt;).&lt;/p&gt;&#xA;&lt;h3&gt;Client&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Added a mitigation for &lt;a href=&#34;https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-39253&#34; rel=&#34;nofollow&#34;&gt;CVE-2022-39253&lt;/a&gt;,&lt;br&gt;&#xA;when using the classic Builder with a Git URL as the build context.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3&gt;Daemon&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Updated handling of &lt;code&gt;image:tag@digest&lt;/code&gt; references. When pulling an image using&lt;br&gt;&#xA;the &lt;code&gt;image:tag@digest&lt;/code&gt; (&#34;pull by digest&#34;), image resolution happens through&lt;br&gt;&#xA;the content-addressable digest and the &lt;code&gt;image&lt;/code&gt; and &lt;code&gt;tag&lt;/code&gt; are not used. While&lt;br&gt;&#xA;this is expected, this could lead to confusing behavior, and could potentially&lt;br&gt;&#xA;be exploited through social engineering to run an image that is already present&lt;br&gt;&#xA;in the local image store. Docker now checks if the digest matches the repository&lt;br&gt;&#xA;name used to pull the image, and otherwise will produce an error.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3&gt;Builder&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Updated handling of &lt;code&gt;image:tag@digest&lt;/code&gt; references. Refer to the &#34;Daemon&#34; section&lt;br&gt;&#xA;above for details.&lt;/li&gt;&#xA;&lt;li&gt;Added a mitigation to the classic Builder and updated BuildKit to &lt;a href=&#34;https://github.com/moby/buildkit/commit/c014937225cba29cfb1d5161fd134316c0e9bdaa&#34;&gt;v0.8.3-31-gc0149372&lt;/a&gt;,&lt;br&gt;&#xA;for &lt;a href=&#34;https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-39253&#34; rel=&#34;nofollow&#34;&gt;CVE-2022-39253&lt;/a&gt;.&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
     <link href="https://github.com/moby/moby/releases/tag/v20.10.20" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
-      <name>GordonTheTurtle</name>
+      <name>thaJeztah</name>
     </author>
   </entry>
   <entry>
@@ -400,17 +411,6 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from telepresence - rpc/v2.8.1</title>
-    <updated>2022-10-14T20:10:33Z</updated>
-    <id>tag:github.com,2008:Repository/82933315/rpc/v2.8.1</id>
-    <content type="html">&lt;p&gt;v2.8.1&lt;/p&gt;</content>
-    <link href="https://github.com/telepresenceio/telepresence/releases/tag/rpc%2Fv2.8.1" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>njayp</name>
-    </author>
-  </entry>
-  <entry>
     <title>Release notes from telepresence - v2.8.1</title>
     <updated>2022-10-14T20:10:33Z</updated>
     <id>tag:github.com,2008:Repository/82933315/v2.8.1</id>
@@ -422,11 +422,11 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from telepresence - rpc/v2.8.0</title>
-    <updated>2022-10-14T14:26:57Z</updated>
-    <id>tag:github.com,2008:Repository/82933315/rpc/v2.8.0</id>
-    <content type="html">&lt;p&gt;v2.8.0&lt;/p&gt;</content>
-    <link href="https://github.com/telepresenceio/telepresence/releases/tag/rpc%2Fv2.8.0" rel="alternate"></link>
+    <title>Release notes from telepresence - rpc/v2.8.1</title>
+    <updated>2022-10-14T20:10:33Z</updated>
+    <id>tag:github.com,2008:Repository/82933315/rpc/v2.8.1</id>
+    <content type="html">&lt;p&gt;v2.8.1&lt;/p&gt;</content>
+    <link href="https://github.com/telepresenceio/telepresence/releases/tag/rpc%2Fv2.8.1" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>njayp</name>
@@ -438,6 +438,17 @@
     <id>tag:github.com,2008:Repository/82933315/v2.8.0</id>
     <content type="html">&lt;p&gt;v2.8.0&lt;/p&gt;</content>
     <link href="https://github.com/telepresenceio/telepresence/releases/tag/v2.8.0" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>njayp</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from telepresence - rpc/v2.8.0</title>
+    <updated>2022-10-14T14:26:57Z</updated>
+    <id>tag:github.com,2008:Repository/82933315/rpc/v2.8.0</id>
+    <content type="html">&lt;p&gt;v2.8.0&lt;/p&gt;</content>
+    <link href="https://github.com/telepresenceio/telepresence/releases/tag/rpc%2Fv2.8.0" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>njayp</name>
@@ -521,6 +532,17 @@
     </author>
   </entry>
   <entry>
+    <title>Release notes from opentelemetry-operations-go - internal/resourcemapping/v0.34.1</title>
+    <updated>2022-10-13T18:39:47Z</updated>
+    <id>tag:github.com,2008:Repository/244484581/internal/resourcemapping/v0.34.1</id>
+    <content type="html">&lt;p&gt;prepare for v0.34.1 and v1.10.1 (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1408234500&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/517&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleCloudPlatform/opentelemetry-operations-go/pull/517/hovercard&#34; href=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/pull/517&#34;&gt;#517&lt;/a&gt;)&lt;/p&gt;</content>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/internal%2Fresourcemapping%2Fv0.34.1" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>dashpole</name>
+    </author>
+  </entry>
+  <entry>
     <title>Release notes from opentelemetry-operations-go - internal/cloudmock/v0.34.1</title>
     <updated>2022-10-13T18:39:47Z</updated>
     <id>tag:github.com,2008:Repository/244484581/internal/cloudmock/v0.34.1</id>
@@ -537,17 +559,6 @@
     <id>tag:github.com,2008:Repository/244484581/exporter/metric/v0.34.1</id>
     <content type="html">&lt;p&gt;prepare for v0.34.1 and v1.10.1 (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1408234500&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/517&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleCloudPlatform/opentelemetry-operations-go/pull/517/hovercard&#34; href=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/pull/517&#34;&gt;#517&lt;/a&gt;)&lt;/p&gt;</content>
     <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/exporter%2Fmetric%2Fv0.34.1" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>dashpole</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from opentelemetry-operations-go - internal/resourcemapping/v0.34.1</title>
-    <updated>2022-10-13T18:39:47Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/internal/resourcemapping/v0.34.1</id>
-    <content type="html">&lt;p&gt;prepare for v0.34.1 and v1.10.1 (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1408234500&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/517&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleCloudPlatform/opentelemetry-operations-go/pull/517/hovercard&#34; href=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/pull/517&#34;&gt;#517&lt;/a&gt;)&lt;/p&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/internal%2Fresourcemapping%2Fv0.34.1" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>dashpole</name>
@@ -609,22 +620,22 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from opentelemetry-operations-go - internal/resourcemapping/v0.34.0</title>
+    <title>Release notes from opentelemetry-operations-go - exporter/metric/v0.34.0</title>
     <updated>2022-10-13T14:21:56Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/internal/resourcemapping/v0.34.0</id>
+    <id>tag:github.com,2008:Repository/244484581/exporter/metric/v0.34.0</id>
     <content type="html">&lt;p&gt;prepare for v1.10.0 and v0.34.0 (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1406590661&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/513&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleCloudPlatform/opentelemetry-operations-go/pull/513/hovercard&#34; href=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/pull/513&#34;&gt;#513&lt;/a&gt;)&lt;/p&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/internal%2Fresourcemapping%2Fv0.34.0" rel="alternate"></link>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/exporter%2Fmetric%2Fv0.34.0" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>dashpole</name>
     </author>
   </entry>
   <entry>
-    <title>Release notes from opentelemetry-operations-go - exporter/metric/v0.34.0</title>
+    <title>Release notes from opentelemetry-operations-go - exporter/trace/v1.10.0</title>
     <updated>2022-10-13T14:21:56Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/exporter/metric/v0.34.0</id>
+    <id>tag:github.com,2008:Repository/244484581/exporter/trace/v1.10.0</id>
     <content type="html">&lt;p&gt;prepare for v1.10.0 and v0.34.0 (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1406590661&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/513&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleCloudPlatform/opentelemetry-operations-go/pull/513/hovercard&#34; href=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/pull/513&#34;&gt;#513&lt;/a&gt;)&lt;/p&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/exporter%2Fmetric%2Fv0.34.0" rel="alternate"></link>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/exporter%2Ftrace%2Fv1.10.0" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>dashpole</name>
@@ -642,11 +653,11 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from opentelemetry-operations-go - exporter/trace/v1.10.0</title>
+    <title>Release notes from opentelemetry-operations-go - internal/resourcemapping/v0.34.0</title>
     <updated>2022-10-13T14:21:56Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/exporter/trace/v1.10.0</id>
+    <id>tag:github.com,2008:Repository/244484581/internal/resourcemapping/v0.34.0</id>
     <content type="html">&lt;p&gt;prepare for v1.10.0 and v0.34.0 (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1406590661&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/513&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleCloudPlatform/opentelemetry-operations-go/pull/513/hovercard&#34; href=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/pull/513&#34;&gt;#513&lt;/a&gt;)&lt;/p&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/exporter%2Ftrace%2Fv1.10.0" rel="alternate"></link>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/internal%2Fresourcemapping%2Fv0.34.0" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>dashpole</name>
@@ -2842,22 +2853,22 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from kpt - package-examples/ghost/v0: Add a basic ghost package (#3381)</title>
+    <title>Release notes from kpt - package-examples/ingress-nginx/v0: Add a basic ghost package (#3381)</title>
     <updated>2022-07-19T17:43:52Z</updated>
-    <id>tag:github.com,2008:Repository/208908993/package-examples/ghost/v0</id>
+    <id>tag:github.com,2008:Repository/208908993/package-examples/ingress-nginx/v0</id>
     <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Add ghost basic package&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;update ghost pacakge&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;remove set-labels&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/GoogleContainerTools/kpt/releases/tag/package-examples%2Fghost%2Fv0" rel="alternate"></link>
+    <link href="https://github.com/GoogleContainerTools/kpt/releases/tag/package-examples%2Fingress-nginx%2Fv0" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>yuwenma</name>
     </author>
   </entry>
   <entry>
-    <title>Release notes from kpt - package-examples/ingress-nginx/v0: Add a basic ghost package (#3381)</title>
+    <title>Release notes from kpt - package-examples/ghost/v0: Add a basic ghost package (#3381)</title>
     <updated>2022-07-19T17:43:52Z</updated>
-    <id>tag:github.com,2008:Repository/208908993/package-examples/ingress-nginx/v0</id>
+    <id>tag:github.com,2008:Repository/208908993/package-examples/ghost/v0</id>
     <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Add ghost basic package&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;update ghost pacakge&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;remove set-labels&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/GoogleContainerTools/kpt/releases/tag/package-examples%2Fingress-nginx%2Fv0" rel="alternate"></link>
+    <link href="https://github.com/GoogleContainerTools/kpt/releases/tag/package-examples%2Fghost%2Fv0" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>yuwenma</name>
@@ -6758,22 +6769,22 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from triangula - v1.1.5</title>
+    <title>Release notes from triangula - v1.1.6</title>
     <updated>2021-05-11T13:31:09Z</updated>
-    <id>tag:github.com,2008:Repository/354015172/v1.1.5</id>
+    <id>tag:github.com,2008:Repository/354015172/v1.1.6</id>
     <content type="html">&lt;p&gt;Refactor for more flexibility&lt;/p&gt;</content>
-    <link href="https://github.com/rh12503/triangula/releases/tag/v1.1.5" rel="alternate"></link>
+    <link href="https://github.com/rh12503/triangula/releases/tag/v1.1.6" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>rh12503</name>
     </author>
   </entry>
   <entry>
-    <title>Release notes from triangula - v1.1.6</title>
+    <title>Release notes from triangula - v1.1.5</title>
     <updated>2021-05-11T13:31:09Z</updated>
-    <id>tag:github.com,2008:Repository/354015172/v1.1.6</id>
+    <id>tag:github.com,2008:Repository/354015172/v1.1.5</id>
     <content type="html">&lt;p&gt;Refactor for more flexibility&lt;/p&gt;</content>
-    <link href="https://github.com/rh12503/triangula/releases/tag/v1.1.6" rel="alternate"></link>
+    <link href="https://github.com/rh12503/triangula/releases/tag/v1.1.5" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>rh12503</name>
