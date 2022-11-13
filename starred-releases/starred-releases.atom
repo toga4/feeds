@@ -1,8 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?><feed xmlns="http://www.w3.org/2005/Atom">
   <title>Releases from Starred by toga4</title>
   <id>https://toga4.github.io/feeds/starred-releases.atom</id>
-  <updated>2022-11-13T01:00:00Z</updated>
+  <updated>2022-11-13T08:28:14Z</updated>
   <link href="https://toga4.github.io/feeds/starred-releases.atom"></link>
+  <entry>
+    <title>Release notes from helmfile - v0.148.1</title>
+    <updated>2022-11-13T08:28:14Z</updated>
+    <id>tag:github.com,2008:Repository/474521466/v0.148.1</id>
+    <content type="html">&lt;h2&gt;What&#39;s Changed&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Introduce a new test helper for easier log snapshot testing by &lt;a class=&#34;user-mention notranslate&#34; data-hovercard-type=&#34;user&#34; data-hovercard-url=&#34;/users/mumoshu/hovercard&#34; data-octo-click=&#34;hovercard-link-click&#34; data-octo-dimensions=&#34;link_type:self&#34; href=&#34;https://github.com/mumoshu&#34;&gt;@mumoshu&lt;/a&gt; in &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1446701425&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/helmfile/helmfile/issues/514&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/helmfile/helmfile/pull/514/hovercard&#34; href=&#34;https://github.com/helmfile/helmfile/pull/514&#34;&gt;#514&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;fix: helmfile template fails when selector matches a chart fetched with go-getter by &lt;a class=&#34;user-mention notranslate&#34; data-hovercard-type=&#34;user&#34; data-hovercard-url=&#34;/users/yxxhero/hovercard&#34; data-octo-click=&#34;hovercard-link-click&#34; data-octo-dimensions=&#34;link_type:self&#34; href=&#34;https://github.com/yxxhero&#34;&gt;@yxxhero&lt;/a&gt; in &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1436884678&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/helmfile/helmfile/issues/499&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/helmfile/helmfile/pull/499/hovercard&#34; href=&#34;https://github.com/helmfile/helmfile/pull/499&#34;&gt;#499&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: &lt;a class=&#34;commit-link&#34; href=&#34;https://github.com/helmfile/helmfile/compare/v0.148.0...v0.148.1&#34;&gt;&lt;tt&gt;v0.148.0...v0.148.1&lt;/tt&gt;&lt;/a&gt;&lt;/p&gt;</content>
+    <link href="https://github.com/helmfile/helmfile/releases/tag/v0.148.1" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>mumoshu</name>
+    </author>
+  </entry>
   <entry>
     <title>Release notes from helmfile - v0.148.0</title>
     <updated>2022-11-13T01:00:00Z</updated>
@@ -1005,22 +1016,22 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from opentelemetry-go - exporters/stdout/stdoutmetric/v0.33.0</title>
+    <title>Release notes from opentelemetry-go - exporters/prometheus/v0.33.0</title>
     <updated>2022-10-19T19:57:43Z</updated>
-    <id>tag:github.com,2008:Repository/187086161/exporters/stdout/stdoutmetric/v0.33.0</id>
+    <id>tag:github.com,2008:Repository/187086161/exporters/prometheus/v0.33.0</id>
     <content type="html">&lt;p&gt;Module set experimental-metrics, Version v0.33.0&lt;/p&gt;</content>
-    <link href="https://github.com/open-telemetry/opentelemetry-go/releases/tag/exporters%2Fstdout%2Fstdoutmetric%2Fv0.33.0" rel="alternate"></link>
+    <link href="https://github.com/open-telemetry/opentelemetry-go/releases/tag/exporters%2Fprometheus%2Fv0.33.0" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>MrAlias</name>
     </author>
   </entry>
   <entry>
-    <title>Release notes from opentelemetry-go - exporters/prometheus/v0.33.0</title>
+    <title>Release notes from opentelemetry-go - exporters/stdout/stdoutmetric/v0.33.0</title>
     <updated>2022-10-19T19:57:43Z</updated>
-    <id>tag:github.com,2008:Repository/187086161/exporters/prometheus/v0.33.0</id>
+    <id>tag:github.com,2008:Repository/187086161/exporters/stdout/stdoutmetric/v0.33.0</id>
     <content type="html">&lt;p&gt;Module set experimental-metrics, Version v0.33.0&lt;/p&gt;</content>
-    <link href="https://github.com/open-telemetry/opentelemetry-go/releases/tag/exporters%2Fprometheus%2Fv0.33.0" rel="alternate"></link>
+    <link href="https://github.com/open-telemetry/opentelemetry-go/releases/tag/exporters%2Fstdout%2Fstdoutmetric%2Fv0.33.0" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>MrAlias</name>
@@ -1423,22 +1434,22 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from opentelemetry-operations-go - exporter/metric/v0.34.1</title>
+    <title>Release notes from opentelemetry-operations-go - internal/cloudmock/v0.34.1</title>
     <updated>2022-10-13T18:39:47Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/exporter/metric/v0.34.1</id>
+    <id>tag:github.com,2008:Repository/244484581/internal/cloudmock/v0.34.1</id>
     <content type="html">&lt;p&gt;prepare for v0.34.1 and v1.10.1 (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1408234500&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/517&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleCloudPlatform/opentelemetry-operations-go/pull/517/hovercard&#34; href=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/pull/517&#34;&gt;#517&lt;/a&gt;)&lt;/p&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/exporter%2Fmetric%2Fv0.34.1" rel="alternate"></link>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/internal%2Fcloudmock%2Fv0.34.1" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>dashpole</name>
     </author>
   </entry>
   <entry>
-    <title>Release notes from opentelemetry-operations-go - internal/cloudmock/v0.34.1</title>
+    <title>Release notes from opentelemetry-operations-go - exporter/metric/v0.34.1</title>
     <updated>2022-10-13T18:39:47Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/internal/cloudmock/v0.34.1</id>
+    <id>tag:github.com,2008:Repository/244484581/exporter/metric/v0.34.1</id>
     <content type="html">&lt;p&gt;prepare for v0.34.1 and v1.10.1 (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1408234500&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/517&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleCloudPlatform/opentelemetry-operations-go/pull/517/hovercard&#34; href=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/pull/517&#34;&gt;#517&lt;/a&gt;)&lt;/p&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/internal%2Fcloudmock%2Fv0.34.1" rel="alternate"></link>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/exporter%2Fmetric%2Fv0.34.1" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>dashpole</name>
@@ -1500,6 +1511,17 @@
     </author>
   </entry>
   <entry>
+    <title>Release notes from opentelemetry-operations-go - exporter/metric/v0.34.0</title>
+    <updated>2022-10-13T14:21:56Z</updated>
+    <id>tag:github.com,2008:Repository/244484581/exporter/metric/v0.34.0</id>
+    <content type="html">&lt;p&gt;prepare for v1.10.0 and v0.34.0 (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1406590661&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/513&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleCloudPlatform/opentelemetry-operations-go/pull/513/hovercard&#34; href=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/pull/513&#34;&gt;#513&lt;/a&gt;)&lt;/p&gt;</content>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/exporter%2Fmetric%2Fv0.34.0" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>dashpole</name>
+    </author>
+  </entry>
+  <entry>
     <title>Release notes from opentelemetry-operations-go - internal/resourcemapping/v0.34.0</title>
     <updated>2022-10-13T14:21:56Z</updated>
     <id>tag:github.com,2008:Repository/244484581/internal/resourcemapping/v0.34.0</id>
@@ -1527,17 +1549,6 @@
     <id>tag:github.com,2008:Repository/244484581/internal/cloudmock/v0.34.0</id>
     <content type="html">&lt;p&gt;prepare for v1.10.0 and v0.34.0 (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1406590661&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/513&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleCloudPlatform/opentelemetry-operations-go/pull/513/hovercard&#34; href=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/pull/513&#34;&gt;#513&lt;/a&gt;)&lt;/p&gt;</content>
     <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/internal%2Fcloudmock%2Fv0.34.0" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>dashpole</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from opentelemetry-operations-go - exporter/metric/v0.34.0</title>
-    <updated>2022-10-13T14:21:56Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/exporter/metric/v0.34.0</id>
-    <content type="html">&lt;p&gt;prepare for v1.10.0 and v0.34.0 (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1406590661&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/513&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleCloudPlatform/opentelemetry-operations-go/pull/513/hovercard&#34; href=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/pull/513&#34;&gt;#513&lt;/a&gt;)&lt;/p&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/exporter%2Fmetric%2Fv0.34.0" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>dashpole</name>
@@ -4613,17 +4624,6 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from helmfile - v0.144.0: Enhance support for kube-version and api-versions (#2121)</title>
-    <updated>2022-03-31T02:02:36Z</updated>
-    <id>tag:github.com,2008:Repository/474521466/v0.144.0</id>
-    <content type="html">&lt;p&gt;This adds support for &lt;code&gt;kube-version&lt;/code&gt; and &lt;code&gt;api-versions&lt;/code&gt; to be available to &lt;code&gt;chartify&lt;/code&gt; so that it works even if your release requires &lt;code&gt;chartify&lt;/code&gt; due to that you use features like &lt;code&gt;forceNamespace&lt;/code&gt;, &lt;code&gt;jsonPatches&lt;/code&gt;, &lt;code&gt;strategicMergePatches&lt;/code&gt;, and so on.&lt;/p&gt;&#xA;&lt;p&gt;This also enhances &lt;code&gt;ReleaseSpec&lt;/code&gt; which corresponds to each item of &lt;code&gt;releases[]&lt;/code&gt; in your &lt;code&gt;helmfile.yaml&lt;/code&gt; to also accept &lt;code&gt;kubeVersion&lt;/code&gt; and &lt;code&gt;apiVersions&lt;/code&gt;, in addition to the top-level &lt;code&gt;kubeVersion&lt;/code&gt; and &lt;code&gt;apiVersions&lt;/code&gt; we have today.&lt;/p&gt;&#xA;&lt;p&gt;The top-level ones works as the default values for release-specific ones. If you have been using the top-level ones, keep using it. It is backward-compatible. If you want to specify it per release, because, for example, your releases are deployed across clusters(in case you differentiate &lt;code&gt;kubeContext&lt;/code&gt; fields), try the new fields added to the release spec.&lt;/p&gt;&#xA;&lt;p&gt;Resolves #1864&lt;/p&gt;</content>
-    <link href="https://github.com/helmfile/helmfile/releases/tag/v0.144.0" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>mumoshu</name>
-    </author>
-  </entry>
-  <entry>
     <title>Release notes from buf - v1.3.1</title>
     <updated>2022-03-31T00:11:47Z</updated>
     <id>tag:github.com,2008:Repository/212465715/v1.3.1</id>
@@ -7429,22 +7429,22 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from backoff - v2.0.2: Merge pull request #18 from lestrrat-go/topic/fix-v2-go-mod</title>
+    <title>Release notes from backoff - v2.0.3: Merge pull request #18 from lestrrat-go/topic/fix-v2-go-mod</title>
     <updated>2021-01-06T03:00:05Z</updated>
-    <id>tag:github.com,2008:Repository/118608673/v2.0.2</id>
+    <id>tag:github.com,2008:Repository/118608673/v2.0.3</id>
     <content type="html">&lt;p&gt;Fix go.mod&lt;/p&gt;</content>
-    <link href="https://github.com/lestrrat-go/backoff/releases/tag/v2.0.2" rel="alternate"></link>
+    <link href="https://github.com/lestrrat-go/backoff/releases/tag/v2.0.3" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>lestrrat</name>
     </author>
   </entry>
   <entry>
-    <title>Release notes from backoff - v2.0.3: Merge pull request #18 from lestrrat-go/topic/fix-v2-go-mod</title>
+    <title>Release notes from backoff - v2.0.2: Merge pull request #18 from lestrrat-go/topic/fix-v2-go-mod</title>
     <updated>2021-01-06T03:00:05Z</updated>
-    <id>tag:github.com,2008:Repository/118608673/v2.0.3</id>
+    <id>tag:github.com,2008:Repository/118608673/v2.0.2</id>
     <content type="html">&lt;p&gt;Fix go.mod&lt;/p&gt;</content>
-    <link href="https://github.com/lestrrat-go/backoff/releases/tag/v2.0.3" rel="alternate"></link>
+    <link href="https://github.com/lestrrat-go/backoff/releases/tag/v2.0.2" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>lestrrat</name>
