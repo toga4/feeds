@@ -1,8 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?><feed xmlns="http://www.w3.org/2005/Atom">
   <title>Releases from Starred by toga4</title>
   <id>https://toga4.github.io/feeds/starred-releases.atom</id>
-  <updated>2022-11-14T10:13:53Z</updated>
+  <updated>2022-11-15T02:38:52Z</updated>
   <link href="https://toga4.github.io/feeds/starred-releases.atom"></link>
+  <entry>
+    <title>Release notes from go-github - v48.1.0</title>
+    <updated>2022-11-15T02:38:52Z</updated>
+    <id>tag:github.com,2008:Repository/10270722/v48.1.0</id>
+    <content type="html">&lt;p&gt;This minor release includes the following interesting changes:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Add apps to restriction rules in branch protection (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1414779844&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/google/go-github/issues/2509&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/google/go-github/pull/2509/hovercard&#34; href=&#34;https://github.com/google/go-github/pull/2509&#34;&gt;#2509&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;Add support for security manager endpoints (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1423064696&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/google/go-github/issues/2530&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/google/go-github/pull/2530/hovercard&#34; href=&#34;https://github.com/google/go-github/pull/2530&#34;&gt;#2530&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;Add support for cursor pagination in AlertListOptions (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1418012206&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/google/go-github/issues/2512&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/google/go-github/pull/2512/hovercard&#34; href=&#34;https://github.com/google/go-github/pull/2512&#34;&gt;#2512&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;Add merge_group webhook event via MergeGroupEvent and MergeGroup structs (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1435086051&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/google/go-github/issues/2556&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/google/go-github/pull/2556/hovercard&#34; href=&#34;https://github.com/google/go-github/pull/2556&#34;&gt;#2556&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;Code Scanning: add new field for dismissed comment (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1437695497&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/google/go-github/issues/2557&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/google/go-github/pull/2557/hovercard&#34; href=&#34;https://github.com/google/go-github/pull/2557&#34;&gt;#2557&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;Remove references to io/ioutil package (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1429225073&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/google/go-github/issues/2547&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/google/go-github/pull/2547/hovercard&#34; href=&#34;https://github.com/google/go-github/pull/2547&#34;&gt;#2547&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;Add support for Dependabot alert endpoints (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1431690942&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/google/go-github/issues/2554&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/google/go-github/pull/2554/hovercard&#34; href=&#34;https://github.com/google/go-github/pull/2554&#34;&gt;#2554&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;Support workflow restrictions in actions_runner_groups (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1437831191&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/google/go-github/issues/2559&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/google/go-github/pull/2559/hovercard&#34; href=&#34;https://github.com/google/go-github/pull/2559&#34;&gt;#2559&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;along with the following tests, docs, and/or maintenance updates:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Update scrape dependency to v48 (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1412408843&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/google/go-github/issues/2502&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/google/go-github/pull/2502/hovercard&#34; href=&#34;https://github.com/google/go-github/pull/2502&#34;&gt;#2502&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;Update AUTHORS for v48 (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1412417716&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/google/go-github/issues/2503&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/google/go-github/pull/2503/hovercard&#34; href=&#34;https://github.com/google/go-github/pull/2503&#34;&gt;#2503&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;Bump golangci/golangci-lint-action from 3.2.0 to 3.3.0 (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1421297691&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/google/go-github/issues/2515&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/google/go-github/pull/2515/hovercard&#34; href=&#34;https://github.com/google/go-github/pull/2515&#34;&gt;#2515&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;Add test case for JSON resource marshaling (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1421935148&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/google/go-github/issues/2517&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/google/go-github/pull/2517/hovercard&#34; href=&#34;https://github.com/google/go-github/pull/2517&#34;&gt;#2517&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;Add test case for JSON resource marshaling (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1422480436&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/google/go-github/issues/2526&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/google/go-github/pull/2526/hovercard&#34; href=&#34;https://github.com/google/go-github/pull/2526&#34;&gt;#2526&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;Fix typo in README URL (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1420628826&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/google/go-github/issues/2514&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/google/go-github/pull/2514/hovercard&#34; href=&#34;https://github.com/google/go-github/pull/2514&#34;&gt;#2514&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;Update workflow to use Go 1.19 and Go 1.18 (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1422437933&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/google/go-github/issues/2525&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/google/go-github/pull/2525/hovercard&#34; href=&#34;https://github.com/google/go-github/pull/2525&#34;&gt;#2525&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;Add test cases for JSON resource marshaling (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1422399893&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/google/go-github/issues/2524&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/google/go-github/pull/2524/hovercard&#34; href=&#34;https://github.com/google/go-github/pull/2524&#34;&gt;#2524&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;Add test cases for JSON resource marshaling (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1422636787&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/google/go-github/issues/2527&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/google/go-github/pull/2527/hovercard&#34; href=&#34;https://github.com/google/go-github/pull/2527&#34;&gt;#2527&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;Add test case for JSON resource marshaling (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1422178359&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/google/go-github/issues/2521&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/google/go-github/pull/2521/hovercard&#34; href=&#34;https://github.com/google/go-github/pull/2521&#34;&gt;#2521&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;Add test case for JSON resource marshaling (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1422942082&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/google/go-github/issues/2528&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/google/go-github/pull/2528/hovercard&#34; href=&#34;https://github.com/google/go-github/pull/2528&#34;&gt;#2528&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;Add test cases for JSON resource marshaling (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1422104238&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/google/go-github/issues/2520&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/google/go-github/pull/2520/hovercard&#34; href=&#34;https://github.com/google/go-github/pull/2520&#34;&gt;#2520&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;Add test cases for JSON resource marshaling (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1423731783&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/google/go-github/issues/2531&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/google/go-github/pull/2531/hovercard&#34; href=&#34;https://github.com/google/go-github/pull/2531&#34;&gt;#2531&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;Add test cases for JSON resource marshaling (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1423746705&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/google/go-github/issues/2532&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/google/go-github/pull/2532/hovercard&#34; href=&#34;https://github.com/google/go-github/pull/2532&#34;&gt;#2532&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;Add test for resource JSON marshaling (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1423967128&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/google/go-github/issues/2533&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/google/go-github/pull/2533/hovercard&#34; href=&#34;https://github.com/google/go-github/pull/2533&#34;&gt;#2533&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;Add tests for resource JSON marshaling (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1425028552&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/google/go-github/issues/2536&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/google/go-github/pull/2536/hovercard&#34; href=&#34;https://github.com/google/go-github/pull/2536&#34;&gt;#2536&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;Add test case for JSON resource marshaling (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1425841965&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/google/go-github/issues/2537&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/google/go-github/pull/2537/hovercard&#34; href=&#34;https://github.com/google/go-github/pull/2537&#34;&gt;#2537&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;Add test for resource JSON marshaling (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1426608833&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/google/go-github/issues/2538&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/google/go-github/pull/2538/hovercard&#34; href=&#34;https://github.com/google/go-github/pull/2538&#34;&gt;#2538&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;Add test case for JSON resource marshaling (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1426878981&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/google/go-github/issues/2539&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/google/go-github/pull/2539/hovercard&#34; href=&#34;https://github.com/google/go-github/pull/2539&#34;&gt;#2539&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;Add test case for JSON resource marshaling (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1427359296&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/google/go-github/issues/2542&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/google/go-github/pull/2542/hovercard&#34; href=&#34;https://github.com/google/go-github/pull/2542&#34;&gt;#2542&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;Add test case for JSON resource marshaling (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1427262730&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/google/go-github/issues/2541&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/google/go-github/pull/2541/hovercard&#34; href=&#34;https://github.com/google/go-github/pull/2541&#34;&gt;#2541&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;Add test case for JSON resource marshaling (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1427708815&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/google/go-github/issues/2544&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/google/go-github/pull/2544/hovercard&#34; href=&#34;https://github.com/google/go-github/pull/2544&#34;&gt;#2544&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;Add test case for JSON resource marshaling (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1427498573&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/google/go-github/issues/2543&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/google/go-github/pull/2543/hovercard&#34; href=&#34;https://github.com/google/go-github/pull/2543&#34;&gt;#2543&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;Add test case for JSON resource marshaling (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1428150025&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/google/go-github/issues/2545&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/google/go-github/pull/2545/hovercard&#34; href=&#34;https://github.com/google/go-github/pull/2545&#34;&gt;#2545&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;Add test case for JSON resource marshaling (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1428910371&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/google/go-github/issues/2546&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/google/go-github/pull/2546/hovercard&#34; href=&#34;https://github.com/google/go-github/pull/2546&#34;&gt;#2546&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;Add test case for JSON resource marshaling (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1429280653&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/google/go-github/issues/2548&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/google/go-github/pull/2548/hovercard&#34; href=&#34;https://github.com/google/go-github/pull/2548&#34;&gt;#2548&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;Add test case for JSON resource marshaling (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1429360947&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/google/go-github/issues/2549&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/google/go-github/pull/2549/hovercard&#34; href=&#34;https://github.com/google/go-github/pull/2549&#34;&gt;#2549&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;Add test cases for JSON resource marshaling (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1429387598&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/google/go-github/issues/2550&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/google/go-github/pull/2550/hovercard&#34; href=&#34;https://github.com/google/go-github/pull/2550&#34;&gt;#2550&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;Add test case for JSON resource marshaling (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1429400404&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/google/go-github/issues/2551&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/google/go-github/pull/2551/hovercard&#34; href=&#34;https://github.com/google/go-github/pull/2551&#34;&gt;#2551&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;Add test case for JSON resource marshaling (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1429409010&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/google/go-github/issues/2552&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/google/go-github/pull/2552/hovercard&#34; href=&#34;https://github.com/google/go-github/pull/2552&#34;&gt;#2552&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;Bump golangci/golangci-lint-action from 3.3.0 to 3.3.1 (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1448582028&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/google/go-github/issues/2564&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/google/go-github/pull/2564/hovercard&#34; href=&#34;https://github.com/google/go-github/pull/2564&#34;&gt;#2564&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/google/go-github/releases/tag/v48.1.0" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>gmlewis</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from datadog-agent - 7.40.1-dbm-debug-logging</title>
+    <updated>2022-11-15T01:02:30Z</updated>
+    <id>tag:github.com,2008:Repository/49970739/7.40.1-dbm-debug-logging</id>
+    <content type="html">&lt;p&gt;7.40.1-dbm-debug-logging&lt;/p&gt;</content>
+    <link href="https://github.com/DataDog/datadog-agent/releases/tag/7.40.1-dbm-debug-logging" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>EmmaOnThursday</name>
+    </author>
+  </entry>
   <entry>
     <title>Release notes from datadog-agent - 6.40.2-pcf-beta-container-tagger-image</title>
     <updated>2022-11-14T10:13:53Z</updated>
@@ -108,17 +130,6 @@
     <id>tag:github.com,2008:Repository/49970739/6.40.2-beta-custom-pcf-test</id>
     <content type="html">&lt;p&gt;6.40.2-beta-custom-pcf-test&lt;/p&gt;</content>
     <link href="https://github.com/DataDog/datadog-agent/releases/tag/6.40.2-beta-custom-pcf-test" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>sarah-witt</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from datadog-agent - 6.40.2-beta-custom-pcf</title>
-    <updated>2022-11-10T20:48:54Z</updated>
-    <id>tag:github.com,2008:Repository/49970739/6.40.2-beta-custom-pcf</id>
-    <content type="html">&lt;p&gt;6.40.2-beta-custom-pcf&lt;/p&gt;</content>
-    <link href="https://github.com/DataDog/datadog-agent/releases/tag/6.40.2-beta-custom-pcf" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>sarah-witt</name>
@@ -928,22 +939,22 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from opentelemetry-go - exporters/prometheus/v0.33.0</title>
+    <title>Release notes from opentelemetry-go - exporters/stdout/stdoutmetric/v0.33.0</title>
     <updated>2022-10-19T19:57:43Z</updated>
-    <id>tag:github.com,2008:Repository/187086161/exporters/prometheus/v0.33.0</id>
+    <id>tag:github.com,2008:Repository/187086161/exporters/stdout/stdoutmetric/v0.33.0</id>
     <content type="html">&lt;p&gt;Module set experimental-metrics, Version v0.33.0&lt;/p&gt;</content>
-    <link href="https://github.com/open-telemetry/opentelemetry-go/releases/tag/exporters%2Fprometheus%2Fv0.33.0" rel="alternate"></link>
+    <link href="https://github.com/open-telemetry/opentelemetry-go/releases/tag/exporters%2Fstdout%2Fstdoutmetric%2Fv0.33.0" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>MrAlias</name>
     </author>
   </entry>
   <entry>
-    <title>Release notes from opentelemetry-go - exporters/stdout/stdoutmetric/v0.33.0</title>
+    <title>Release notes from opentelemetry-go - exporters/prometheus/v0.33.0</title>
     <updated>2022-10-19T19:57:43Z</updated>
-    <id>tag:github.com,2008:Repository/187086161/exporters/stdout/stdoutmetric/v0.33.0</id>
+    <id>tag:github.com,2008:Repository/187086161/exporters/prometheus/v0.33.0</id>
     <content type="html">&lt;p&gt;Module set experimental-metrics, Version v0.33.0&lt;/p&gt;</content>
-    <link href="https://github.com/open-telemetry/opentelemetry-go/releases/tag/exporters%2Fstdout%2Fstdoutmetric%2Fv0.33.0" rel="alternate"></link>
+    <link href="https://github.com/open-telemetry/opentelemetry-go/releases/tag/exporters%2Fprometheus%2Fv0.33.0" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>MrAlias</name>
@@ -1335,11 +1346,22 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from opentelemetry-operations-go - exporter/metric/v0.34.1</title>
+    <title>Release notes from opentelemetry-operations-go - internal/cloudmock/v0.34.1</title>
     <updated>2022-10-13T18:39:47Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/exporter/metric/v0.34.1</id>
+    <id>tag:github.com,2008:Repository/244484581/internal/cloudmock/v0.34.1</id>
     <content type="html">&lt;p&gt;prepare for v0.34.1 and v1.10.1 (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1408234500&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/517&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleCloudPlatform/opentelemetry-operations-go/pull/517/hovercard&#34; href=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/pull/517&#34;&gt;#517&lt;/a&gt;)&lt;/p&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/exporter%2Fmetric%2Fv0.34.1" rel="alternate"></link>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/internal%2Fcloudmock%2Fv0.34.1" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>dashpole</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from opentelemetry-operations-go - internal/resourcemapping/v0.34.1</title>
+    <updated>2022-10-13T18:39:47Z</updated>
+    <id>tag:github.com,2008:Repository/244484581/internal/resourcemapping/v0.34.1</id>
+    <content type="html">&lt;p&gt;prepare for v0.34.1 and v1.10.1 (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1408234500&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/517&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleCloudPlatform/opentelemetry-operations-go/pull/517/hovercard&#34; href=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/pull/517&#34;&gt;#517&lt;/a&gt;)&lt;/p&gt;</content>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/internal%2Fresourcemapping%2Fv0.34.1" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>dashpole</name>
@@ -1357,22 +1379,11 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from opentelemetry-operations-go - internal/cloudmock/v0.34.1</title>
+    <title>Release notes from opentelemetry-operations-go - exporter/metric/v0.34.1</title>
     <updated>2022-10-13T18:39:47Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/internal/cloudmock/v0.34.1</id>
+    <id>tag:github.com,2008:Repository/244484581/exporter/metric/v0.34.1</id>
     <content type="html">&lt;p&gt;prepare for v0.34.1 and v1.10.1 (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1408234500&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/517&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleCloudPlatform/opentelemetry-operations-go/pull/517/hovercard&#34; href=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/pull/517&#34;&gt;#517&lt;/a&gt;)&lt;/p&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/internal%2Fcloudmock%2Fv0.34.1" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>dashpole</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from opentelemetry-operations-go - internal/resourcemapping/v0.34.1</title>
-    <updated>2022-10-13T18:39:47Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/internal/resourcemapping/v0.34.1</id>
-    <content type="html">&lt;p&gt;prepare for v0.34.1 and v1.10.1 (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1408234500&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/517&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleCloudPlatform/opentelemetry-operations-go/pull/517/hovercard&#34; href=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/pull/517&#34;&gt;#517&lt;/a&gt;)&lt;/p&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/internal%2Fresourcemapping%2Fv0.34.1" rel="alternate"></link>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/exporter%2Fmetric%2Fv0.34.1" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>dashpole</name>
@@ -1423,28 +1434,6 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from opentelemetry-operations-go - internal/cloudmock/v0.34.0</title>
-    <updated>2022-10-13T14:21:56Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/internal/cloudmock/v0.34.0</id>
-    <content type="html">&lt;p&gt;prepare for v1.10.0 and v0.34.0 (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1406590661&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/513&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleCloudPlatform/opentelemetry-operations-go/pull/513/hovercard&#34; href=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/pull/513&#34;&gt;#513&lt;/a&gt;)&lt;/p&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/internal%2Fcloudmock%2Fv0.34.0" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>dashpole</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from opentelemetry-operations-go - internal/resourcemapping/v0.34.0</title>
-    <updated>2022-10-13T14:21:56Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/internal/resourcemapping/v0.34.0</id>
-    <content type="html">&lt;p&gt;prepare for v1.10.0 and v0.34.0 (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1406590661&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/513&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleCloudPlatform/opentelemetry-operations-go/pull/513/hovercard&#34; href=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/pull/513&#34;&gt;#513&lt;/a&gt;)&lt;/p&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/internal%2Fresourcemapping%2Fv0.34.0" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>dashpole</name>
-    </author>
-  </entry>
-  <entry>
     <title>Release notes from opentelemetry-operations-go - exporter/metric/v0.34.0</title>
     <updated>2022-10-13T14:21:56Z</updated>
     <id>tag:github.com,2008:Repository/244484581/exporter/metric/v0.34.0</id>
@@ -1456,11 +1445,33 @@
     </author>
   </entry>
   <entry>
+    <title>Release notes from opentelemetry-operations-go - internal/cloudmock/v0.34.0</title>
+    <updated>2022-10-13T14:21:56Z</updated>
+    <id>tag:github.com,2008:Repository/244484581/internal/cloudmock/v0.34.0</id>
+    <content type="html">&lt;p&gt;prepare for v1.10.0 and v0.34.0 (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1406590661&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/513&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleCloudPlatform/opentelemetry-operations-go/pull/513/hovercard&#34; href=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/pull/513&#34;&gt;#513&lt;/a&gt;)&lt;/p&gt;</content>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/internal%2Fcloudmock%2Fv0.34.0" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>dashpole</name>
+    </author>
+  </entry>
+  <entry>
     <title>Release notes from opentelemetry-operations-go - exporter/trace/v1.10.0</title>
     <updated>2022-10-13T14:21:56Z</updated>
     <id>tag:github.com,2008:Repository/244484581/exporter/trace/v1.10.0</id>
     <content type="html">&lt;p&gt;prepare for v1.10.0 and v0.34.0 (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1406590661&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/513&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleCloudPlatform/opentelemetry-operations-go/pull/513/hovercard&#34; href=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/pull/513&#34;&gt;#513&lt;/a&gt;)&lt;/p&gt;</content>
     <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/exporter%2Ftrace%2Fv1.10.0" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>dashpole</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from opentelemetry-operations-go - internal/resourcemapping/v0.34.0</title>
+    <updated>2022-10-13T14:21:56Z</updated>
+    <id>tag:github.com,2008:Repository/244484581/internal/resourcemapping/v0.34.0</id>
+    <content type="html">&lt;p&gt;prepare for v1.10.0 and v0.34.0 (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1406590661&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/513&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleCloudPlatform/opentelemetry-operations-go/pull/513/hovercard&#34; href=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/pull/513&#34;&gt;#513&lt;/a&gt;)&lt;/p&gt;</content>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/internal%2Fresourcemapping%2Fv0.34.0" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>dashpole</name>
@@ -4910,17 +4921,6 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from go-github - v43.0.0</title>
-    <updated>2022-03-02T01:48:53Z</updated>
-    <id>tag:github.com,2008:Repository/10270722/v43.0.0</id>
-    <content type="html">&lt;p&gt;This release contains the following breaking API changes:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Add list options support for environments &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1105967336&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/google/go-github/issues/2258&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/google/go-github/pull/2258/hovercard&#34; href=&#34;https://github.com/google/go-github/pull/2258&#34;&gt;#2258&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;GitHub Actions Billing returns total_paid_minutes_used as float64 &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1127197401&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/google/go-github/issues/2284&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/google/go-github/pull/2284/hovercard&#34; href=&#34;https://github.com/google/go-github/pull/2284&#34;&gt;#2284&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Fix RequireCodeOwnerReviews and RequiredApprovingReviewCount fields with omitempty &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1133141173&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/google/go-github/issues/2289&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/google/go-github/pull/2289/hovercard&#34; href=&#34;https://github.com/google/go-github/pull/2289&#34;&gt;#2289&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;and the following additional changes:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Update scrape dependency to v42 &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1101152662&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/google/go-github/issues/2254&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/google/go-github/pull/2254/hovercard&#34; href=&#34;https://github.com/google/go-github/pull/2254&#34;&gt;#2254&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Add AllowForking to Repository struct &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1101967488&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/google/go-github/issues/2256&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/google/go-github/pull/2256/hovercard&#34; href=&#34;https://github.com/google/go-github/pull/2256&#34;&gt;#2256&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Bump github.com/bradleyfalzon/ghinstallation/v2 from 2.0.3 to 2.0.4 &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1106182504&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/google/go-github/issues/2259&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/google/go-github/pull/2259/hovercard&#34; href=&#34;https://github.com/google/go-github/pull/2259&#34;&gt;#2259&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Update docs for CreateWorkflowDispatchEventRequest.Ref &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1110899269&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/google/go-github/issues/2263&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/google/go-github/pull/2263/hovercard&#34; href=&#34;https://github.com/google/go-github/pull/2263&#34;&gt;#2263&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Add support for additional PagesUpdate parameters &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1111111544&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/google/go-github/issues/2266&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/google/go-github/pull/2266/hovercard&#34; href=&#34;https://github.com/google/go-github/pull/2266&#34;&gt;#2266&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Bump github.com/google/go-cmp from 0.5.6 to 0.5.7 &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1113032660&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/google/go-github/issues/2269&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/google/go-github/pull/2269/hovercard&#34; href=&#34;https://github.com/google/go-github/pull/2269&#34;&gt;#2269&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Bump github.com/google/go-cmp from 0.5.6 to 0.5.7 in /update-urls &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1113032672&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/google/go-github/issues/2270&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/google/go-github/pull/2270/hovercard&#34; href=&#34;https://github.com/google/go-github/pull/2270&#34;&gt;#2270&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Bump github.com/google/go-cmp from 0.5.6 to 0.5.7 in /scrape &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1113032680&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/google/go-github/issues/2271&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/google/go-github/pull/2271/hovercard&#34; href=&#34;https://github.com/google/go-github/pull/2271&#34;&gt;#2271&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;ci: bump golangci-lint version &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1114099756&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/google/go-github/issues/2272&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/google/go-github/pull/2272/hovercard&#34; href=&#34;https://github.com/google/go-github/pull/2272&#34;&gt;#2272&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Add checks field to RequiredStatusChecks &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1117906592&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/google/go-github/issues/2276&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/google/go-github/pull/2276/hovercard&#34; href=&#34;https://github.com/google/go-github/pull/2276&#34;&gt;#2276&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Add Repo and Org fields to DeployKeyEvent &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1123281728&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/google/go-github/issues/2280&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/google/go-github/pull/2280/hovercard&#34; href=&#34;https://github.com/google/go-github/pull/2280&#34;&gt;#2280&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Add support for the secret scanning API &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1123341949&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/google/go-github/issues/2281&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/google/go-github/pull/2281/hovercard&#34; href=&#34;https://github.com/google/go-github/pull/2281&#34;&gt;#2281&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Add SecretScanningAlertEvent Webhook &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1124080905&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/google/go-github/issues/2282&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/google/go-github/pull/2282/hovercard&#34; href=&#34;https://github.com/google/go-github/pull/2282&#34;&gt;#2282&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Add GetWorkflowRunAttempt &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1137577467&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/google/go-github/issues/2290&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/google/go-github/pull/2290/hovercard&#34; href=&#34;https://github.com/google/go-github/pull/2290&#34;&gt;#2290&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Add APIMeta fields related to SSH keys &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1140723772&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/google/go-github/issues/2293&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/google/go-github/pull/2293/hovercard&#34; href=&#34;https://github.com/google/go-github/pull/2293&#34;&gt;#2293&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Don&#39;t update the ratelimits if we got a response from a cache &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1114898948&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/google/go-github/issues/2273&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/google/go-github/pull/2273/hovercard&#34; href=&#34;https://github.com/google/go-github/pull/2273&#34;&gt;#2273&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Revert &#34;Remove graduated GitHub v3 API preview header&#34; &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1147123489&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/google/go-github/issues/2301&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/google/go-github/pull/2301/hovercard&#34; href=&#34;https://github.com/google/go-github/pull/2301&#34;&gt;#2301&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Bump golangci/golangci-lint-action from 2.5.2 to 3.1.0 &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1154450149&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/google/go-github/issues/2303&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/google/go-github/pull/2303/hovercard&#34; href=&#34;https://github.com/google/go-github/pull/2303&#34;&gt;#2303&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/google/go-github/releases/tag/v43.0.0" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>gmlewis</name>
-    </author>
-  </entry>
-  <entry>
     <title>Release notes from login-action - v1.14.1</title>
     <updated>2022-03-01T19:56:39Z</updated>
     <id>tag:github.com,2008:Repository/287743349/v1.14.1</id>
@@ -6791,22 +6791,22 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from triangula - v1.1.6</title>
+    <title>Release notes from triangula - v1.1.5</title>
     <updated>2021-05-11T13:31:09Z</updated>
-    <id>tag:github.com,2008:Repository/354015172/v1.1.6</id>
+    <id>tag:github.com,2008:Repository/354015172/v1.1.5</id>
     <content type="html">&lt;p&gt;Refactor for more flexibility&lt;/p&gt;</content>
-    <link href="https://github.com/rh12503/triangula/releases/tag/v1.1.6" rel="alternate"></link>
+    <link href="https://github.com/rh12503/triangula/releases/tag/v1.1.5" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>rh12503</name>
     </author>
   </entry>
   <entry>
-    <title>Release notes from triangula - v1.1.5</title>
+    <title>Release notes from triangula - v1.1.6</title>
     <updated>2021-05-11T13:31:09Z</updated>
-    <id>tag:github.com,2008:Repository/354015172/v1.1.5</id>
+    <id>tag:github.com,2008:Repository/354015172/v1.1.6</id>
     <content type="html">&lt;p&gt;Refactor for more flexibility&lt;/p&gt;</content>
-    <link href="https://github.com/rh12503/triangula/releases/tag/v1.1.5" rel="alternate"></link>
+    <link href="https://github.com/rh12503/triangula/releases/tag/v1.1.6" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>rh12503</name>
