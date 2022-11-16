@@ -1,8 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?><feed xmlns="http://www.w3.org/2005/Atom">
   <title>Releases from Starred by toga4</title>
   <id>https://toga4.github.io/feeds/starred-releases.atom</id>
-  <updated>2022-11-15T20:41:40Z</updated>
+  <updated>2022-11-16T08:31:54Z</updated>
   <link href="https://toga4.github.io/feeds/starred-releases.atom"></link>
+  <entry>
+    <title>Release notes from lima - v0.14.0-beta.0</title>
+    <updated>2022-11-16T08:31:54Z</updated>
+    <id>tag:github.com,2008:Repository/367284699/v0.14.0-beta.0</id>
+    <content type="html">&lt;p&gt;This release adds an experimental support for Apple&#39;s &lt;a href=&#34;https://developer.apple.com/documentation/virtualization&#34; rel=&#34;nofollow&#34;&gt;&lt;code&gt;Virtualization.framework&lt;/code&gt;&lt;/a&gt; aka &lt;code&gt;vz&lt;/code&gt;.&lt;/p&gt;&#xA;&lt;div class=&#34;highlight highlight-source-shell notranslate position-relative overflow-auto&#34; data-snippet-clipboard-copy-content=&#34;limactl start template://experimental/vz&#34;&gt;&lt;pre&gt;limactl start template://experimental/vz&lt;/pre&gt;&lt;/div&gt;&#xA;&lt;p&gt;Pros:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Supports faster filesystem sharing (&lt;code&gt;virtiofs&lt;/code&gt;)&lt;/li&gt;&#xA;&lt;li&gt;(&lt;a href=&#34;https://github.com/lima-vm/lima/pull/1155&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/lima-vm/lima/pull/1155/hovercard&#34;&gt;Coming soon&lt;/a&gt;) Supports faster emulation for running Linux/x86_64 ELF binaries on ARM (Rosetta 2)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Cons:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;No support for legacy BIOS&lt;/li&gt;&#xA;&lt;li&gt;The boot log is not available in &lt;code&gt;serial.log&lt;/code&gt;&lt;/li&gt;&#xA;&lt;li&gt;The source code of &lt;code&gt;Virtualization.framework&lt;/code&gt; does not seem available&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Using &lt;code&gt;Virtualization.framework&lt;/code&gt; with Lima needs macOS 13.0 or later.&lt;/p&gt;&#xA;&lt;h2&gt;Changes&lt;/h2&gt;&#xA;&lt;p&gt;(To be documented)&lt;/p&gt;&#xA;&lt;p&gt;Full changes: &lt;a href=&#34;https://github.com/lima-vm/lima/milestone/29?closed=1&#34;&gt;https://github.com/lima-vm/lima/milestone/29?closed=1&lt;/a&gt;&lt;br&gt;&#xA;Thanks to &lt;a class=&#34;user-mention notranslate&#34; data-hovercard-type=&#34;user&#34; data-hovercard-url=&#34;/users/antoineco/hovercard&#34; data-octo-click=&#34;hovercard-link-click&#34; data-octo-dimensions=&#34;link_type:self&#34; href=&#34;https://github.com/antoineco&#34;&gt;@antoineco&lt;/a&gt; &lt;a class=&#34;user-mention notranslate&#34; data-hovercard-type=&#34;user&#34; data-hovercard-url=&#34;/users/balajiv113/hovercard&#34; data-octo-click=&#34;hovercard-link-click&#34; data-octo-dimensions=&#34;link_type:self&#34; href=&#34;https://github.com/balajiv113&#34;&gt;@balajiv113&lt;/a&gt; &lt;a class=&#34;user-mention notranslate&#34; data-hovercard-type=&#34;user&#34; data-hovercard-url=&#34;/users/chrisx8/hovercard&#34; data-octo-click=&#34;hovercard-link-click&#34; data-octo-dimensions=&#34;link_type:self&#34; href=&#34;https://github.com/chrisx8&#34;&gt;@chrisx8&lt;/a&gt; &lt;a class=&#34;user-mention notranslate&#34; data-hovercard-type=&#34;user&#34; data-hovercard-url=&#34;/users/jandubois/hovercard&#34; data-octo-click=&#34;hovercard-link-click&#34; data-octo-dimensions=&#34;link_type:self&#34; href=&#34;https://github.com/jandubois&#34;&gt;@jandubois&lt;/a&gt; &lt;a class=&#34;user-mention notranslate&#34; data-hovercard-type=&#34;user&#34; data-hovercard-url=&#34;/users/pendo324/hovercard&#34; data-octo-click=&#34;hovercard-link-click&#34; data-octo-dimensions=&#34;link_type:self&#34; href=&#34;https://github.com/pendo324&#34;&gt;@pendo324&lt;/a&gt; &lt;a class=&#34;user-mention notranslate&#34; data-hovercard-type=&#34;user&#34; data-hovercard-url=&#34;/users/sam-berning/hovercard&#34; data-octo-click=&#34;hovercard-link-click&#34; data-octo-dimensions=&#34;link_type:self&#34; href=&#34;https://github.com/sam-berning&#34;&gt;@sam-berning&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h2&gt;Usage&lt;/h2&gt;&#xA;&lt;div class=&#34;highlight highlight-text-shell-session notranslate position-relative overflow-auto&#34; data-snippet-clipboard-copy-content=&#34;[macOS]$ limactl start&#xA;...&#xA;INFO[0029] READY. Run `lima` to open the shell.&#xA;&#xA;[macOS]$ lima uname&#xA;Linux&#34;&gt;&lt;pre&gt;&lt;span class=&#34;pl-c1&#34;&gt;[macOS]$ limactl start&lt;/span&gt;&#xA;&lt;span class=&#34;pl-c1&#34;&gt;...&lt;/span&gt;&#xA;&lt;span class=&#34;pl-c1&#34;&gt;INFO[0029] READY. Run `lima` to open the shell.&lt;/span&gt;&#xA;&#xA;&lt;span class=&#34;pl-c1&#34;&gt;[macOS]$ lima uname&lt;/span&gt;&#xA;&lt;span class=&#34;pl-c1&#34;&gt;Linux&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;The binaries were built automatically on GitHub Actions.&lt;br&gt;&#xA;The build log is available for 90 days: &lt;a href=&#34;https://github.com/lima-vm/lima/actions/runs/3477558407&#34;&gt;https://github.com/lima-vm/lima/actions/runs/3477558407&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;The sha256sum of the SHA256SUMS file itself is &lt;code&gt;4ab2fc1128fed870a4803f1c12ebdfc58357584dc25fa31ae2547efb72c13b37&lt;/code&gt; .&lt;/p&gt;</content>
+    <link href="https://github.com/lima-vm/lima/releases/tag/v0.14.0-beta.0" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>github-actions[bot]</name>
+    </author>
+  </entry>
   <entry>
     <title>Release notes from retryablehttp-go - Release v1.0.3</title>
     <updated>2022-11-15T20:41:40Z</updated>
@@ -1379,17 +1390,6 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from opentelemetry-operations-go - internal/cloudmock/v0.34.1</title>
-    <updated>2022-10-13T18:39:47Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/internal/cloudmock/v0.34.1</id>
-    <content type="html">&lt;p&gt;prepare for v0.34.1 and v1.10.1 (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1408234500&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/517&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleCloudPlatform/opentelemetry-operations-go/pull/517/hovercard&#34; href=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/pull/517&#34;&gt;#517&lt;/a&gt;)&lt;/p&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/internal%2Fcloudmock%2Fv0.34.1" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>dashpole</name>
-    </author>
-  </entry>
-  <entry>
     <title>Release notes from opentelemetry-operations-go - exporter/metric/v0.34.1</title>
     <updated>2022-10-13T18:39:47Z</updated>
     <id>tag:github.com,2008:Repository/244484581/exporter/metric/v0.34.1</id>
@@ -1406,6 +1406,17 @@
     <id>tag:github.com,2008:Repository/244484581/exporter/trace/v1.10.1</id>
     <content type="html">&lt;p&gt;prepare for v0.34.1 and v1.10.1 (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1408234500&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/517&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleCloudPlatform/opentelemetry-operations-go/pull/517/hovercard&#34; href=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/pull/517&#34;&gt;#517&lt;/a&gt;)&lt;/p&gt;</content>
     <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/exporter%2Ftrace%2Fv1.10.1" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>dashpole</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from opentelemetry-operations-go - internal/cloudmock/v0.34.1</title>
+    <updated>2022-10-13T18:39:47Z</updated>
+    <id>tag:github.com,2008:Repository/244484581/internal/cloudmock/v0.34.1</id>
+    <content type="html">&lt;p&gt;prepare for v0.34.1 and v1.10.1 (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1408234500&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/517&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleCloudPlatform/opentelemetry-operations-go/pull/517/hovercard&#34; href=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/pull/517&#34;&gt;#517&lt;/a&gt;)&lt;/p&gt;</content>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/internal%2Fcloudmock%2Fv0.34.1" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>dashpole</name>
@@ -1456,11 +1467,11 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from opentelemetry-operations-go - internal/cloudmock/v0.34.0</title>
+    <title>Release notes from opentelemetry-operations-go - internal/resourcemapping/v0.34.0</title>
     <updated>2022-10-13T14:21:56Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/internal/cloudmock/v0.34.0</id>
+    <id>tag:github.com,2008:Repository/244484581/internal/resourcemapping/v0.34.0</id>
     <content type="html">&lt;p&gt;prepare for v1.10.0 and v0.34.0 (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1406590661&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/513&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleCloudPlatform/opentelemetry-operations-go/pull/513/hovercard&#34; href=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/pull/513&#34;&gt;#513&lt;/a&gt;)&lt;/p&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/internal%2Fcloudmock%2Fv0.34.0" rel="alternate"></link>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/internal%2Fresourcemapping%2Fv0.34.0" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>dashpole</name>
@@ -1478,22 +1489,22 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from opentelemetry-operations-go - exporter/metric/v0.34.0</title>
+    <title>Release notes from opentelemetry-operations-go - internal/cloudmock/v0.34.0</title>
     <updated>2022-10-13T14:21:56Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/exporter/metric/v0.34.0</id>
+    <id>tag:github.com,2008:Repository/244484581/internal/cloudmock/v0.34.0</id>
     <content type="html">&lt;p&gt;prepare for v1.10.0 and v0.34.0 (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1406590661&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/513&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleCloudPlatform/opentelemetry-operations-go/pull/513/hovercard&#34; href=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/pull/513&#34;&gt;#513&lt;/a&gt;)&lt;/p&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/exporter%2Fmetric%2Fv0.34.0" rel="alternate"></link>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/internal%2Fcloudmock%2Fv0.34.0" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>dashpole</name>
     </author>
   </entry>
   <entry>
-    <title>Release notes from opentelemetry-operations-go - internal/resourcemapping/v0.34.0</title>
+    <title>Release notes from opentelemetry-operations-go - exporter/metric/v0.34.0</title>
     <updated>2022-10-13T14:21:56Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/internal/resourcemapping/v0.34.0</id>
+    <id>tag:github.com,2008:Repository/244484581/exporter/metric/v0.34.0</id>
     <content type="html">&lt;p&gt;prepare for v1.10.0 and v0.34.0 (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1406590661&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/513&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleCloudPlatform/opentelemetry-operations-go/pull/513/hovercard&#34; href=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/pull/513&#34;&gt;#513&lt;/a&gt;)&lt;/p&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/internal%2Fresourcemapping%2Fv0.34.0" rel="alternate"></link>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/exporter%2Fmetric%2Fv0.34.0" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>dashpole</name>
@@ -4745,17 +4756,6 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from lima - v0.9.0</title>
-    <updated>2022-03-14T08:03:54Z</updated>
-    <id>tag:github.com,2008:Repository/367284699/v0.9.0</id>
-    <content type="html">&lt;p&gt;&lt;g-emoji class=&#34;g-emoji&#34; alias=&#34;warning&#34; fallback-src=&#34;https://github.githubassets.com/images/icons/emoji/unicode/26a0.png&#34;&gt;⚠️&lt;/g-emoji&gt; Running recent Linux guests on M1 macOS needs Homebrew&#39;s QEMU 6.2.0_1 or later.&lt;br&gt;&#xA;&lt;strong&gt;Run &lt;code&gt;brew upgrade&lt;/code&gt; to upgrade QEMU.&lt;/strong&gt;&lt;br&gt;&#xA;Intel macOS users are NOT affected by this issue.&lt;br&gt;&#xA;For the further information, see &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1168011888&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/lima-vm/lima/issues/734&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/lima-vm/lima/pull/734/hovercard&#34; href=&#34;https://github.com/lima-vm/lima/pull/734&#34;&gt;#734&lt;/a&gt; and &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1167203637&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/Homebrew/homebrew-core/issues/96743&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/Homebrew/homebrew-core/pull/96743/hovercard&#34; href=&#34;https://github.com/Homebrew/homebrew-core/pull/96743&#34;&gt;Homebrew/homebrew-core#96743&lt;/a&gt; .&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2&gt;Changes&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;nerdctl:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Update to &lt;a href=&#34;https://github.com/containerd/nerdctl/releases/tag/v0.17.1&#34;&gt;v0.17.1&lt;/a&gt; (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1158238942&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/lima-vm/lima/issues/694&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/lima-vm/lima/pull/694/hovercard&#34; href=&#34;https://github.com/lima-vm/lima/pull/694&#34;&gt;#694&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;Automatically upgrade existing installation of containerd/nerdctl inside the guest (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1158238942&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/lima-vm/lima/issues/694&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/lima-vm/lima/pull/694/hovercard&#34; href=&#34;https://github.com/lima-vm/lima/pull/694&#34;&gt;#694&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;Use fuse-overlayfs only when kernel &amp;lt; 5.13, and use real overlayfs on kernel &amp;gt;= 5.13. Instances created with an old release of Lima will continue to use fuse-overlayfs. (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1159476162&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/lima-vm/lima/issues/695&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/lima-vm/lima/pull/695/hovercard&#34; href=&#34;https://github.com/lima-vm/lima/pull/695&#34;&gt;#695&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;code&gt;limactl&lt;/code&gt; CLI:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Support &lt;code&gt;limactl start template://TEMPLATE&lt;/code&gt; (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1146621078&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/lima-vm/lima/issues/674&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/lima-vm/lima/pull/674/hovercard&#34; href=&#34;https://github.com/lima-vm/lima/pull/674&#34;&gt;#674&lt;/a&gt;), e.g., &lt;code&gt;limactl start --name=default template://docker&lt;/code&gt;. The template can be also chosen from TUI.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;div class=&#34;highlight highlight-text-shell-session notranslate position-relative overflow-auto&#34; data-snippet-clipboard-copy-content=&#34;$ limactl start&#xA;? Creating an instance &amp;quot;default&amp;quot;  [Use arrows to move, type to filter]&#xA;  Proceed with the current configuration&#xA;  Open an editor to review or modify the current configuration&#xA;&amp;gt; Choose another example (docker, podman, archlinux, fedora, ...)&#xA;  Exit&#xA;&#xA;? Choose an example  [Use arrows to move, type to filter]&#xA;&amp;gt; almalinux&#xA;  alpine&#xA;  archlinux&#xA;  debian&#xA;  default&#xA;  docker&#xA;  faasd&#xA;...&#34;&gt;&lt;pre&gt;$ &lt;span class=&#34;pl-s1&#34;&gt;limactl start&lt;/span&gt;&#xA;&lt;span class=&#34;pl-c1&#34;&gt;? Creating an instance &#34;default&#34;  [Use arrows to move, type to filter]&lt;/span&gt;&#xA;&lt;span class=&#34;pl-c1&#34;&gt;  Proceed with the current configuration&lt;/span&gt;&#xA;&lt;span class=&#34;pl-c1&#34;&gt;  Open an editor to review or modify the current configuration&lt;/span&gt;&#xA;&amp;gt; &lt;span class=&#34;pl-s1&#34;&gt;Choose another example (docker, podman, archlinux, fedora, ...)&lt;/span&gt;&#xA;&lt;span class=&#34;pl-c1&#34;&gt;  Exit&lt;/span&gt;&#xA;&#xA;&lt;span class=&#34;pl-c1&#34;&gt;? Choose an example  [Use arrows to move, type to filter]&lt;/span&gt;&#xA;&amp;gt; &lt;span class=&#34;pl-s1&#34;&gt;almalinux&lt;/span&gt;&#xA;&lt;span class=&#34;pl-c1&#34;&gt;  alpine&lt;/span&gt;&#xA;&lt;span class=&#34;pl-c1&#34;&gt;  archlinux&lt;/span&gt;&#xA;&lt;span class=&#34;pl-c1&#34;&gt;  debian&lt;/span&gt;&#xA;&lt;span class=&#34;pl-c1&#34;&gt;  default&lt;/span&gt;&#xA;&lt;span class=&#34;pl-c1&#34;&gt;  docker&lt;/span&gt;&#xA;&lt;span class=&#34;pl-c1&#34;&gt;  faasd&lt;/span&gt;&#xA;&lt;span class=&#34;pl-c1&#34;&gt;...&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Examples:&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Add &lt;a href=&#34;https://github.com/lima-vm/lima/blob/v0.9.0/examples/buildkit.yaml&#34;&gt;&lt;code&gt;buildkit.yaml&lt;/code&gt;&lt;/a&gt; (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1139802440&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/lima-vm/lima/issues/653&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/lima-vm/lima/pull/653/hovercard&#34; href=&#34;https://github.com/lima-vm/lima/pull/653&#34;&gt;#653&lt;/a&gt;, thanks to &lt;a class=&#34;user-mention notranslate&#34; data-hovercard-type=&#34;user&#34; data-hovercard-url=&#34;/users/developer-guy/hovercard&#34; data-octo-click=&#34;hovercard-link-click&#34; data-octo-dimensions=&#34;link_type:self&#34; href=&#34;https://github.com/developer-guy&#34;&gt;@developer-guy&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;Add &lt;a href=&#34;https://github.com/lima-vm/lima/blob/v0.9.0/examples/oraclelinux.yaml&#34;&gt;&lt;code&gt;oraclelinux.yaml&lt;/code&gt;&lt;/a&gt; (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1162176799&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/lima-vm/lima/issues/700&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/lima-vm/lima/pull/700/hovercard&#34; href=&#34;https://github.com/lima-vm/lima/pull/700&#34;&gt;#700&lt;/a&gt;, thanks to &lt;a class=&#34;user-mention notranslate&#34; data-hovercard-type=&#34;user&#34; data-hovercard-url=&#34;/users/chrisperelstein/hovercard&#34; data-octo-click=&#34;hovercard-link-click&#34; data-octo-dimensions=&#34;link_type:self&#34; href=&#34;https://github.com/chrisperelstein&#34;&gt;@chrisperelstein&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Other changes: &lt;a href=&#34;https://github.com/lima-vm/lima/milestone/18?closed=1&#34;&gt;https://github.com/lima-vm/lima/milestone/18?closed=1&lt;/a&gt;&lt;br&gt;&#xA;Thanks to &lt;a class=&#34;user-mention notranslate&#34; data-hovercard-type=&#34;user&#34; data-hovercard-url=&#34;/users/chrisperelstein/hovercard&#34; data-octo-click=&#34;hovercard-link-click&#34; data-octo-dimensions=&#34;link_type:self&#34; href=&#34;https://github.com/chrisperelstein&#34;&gt;@chrisperelstein&lt;/a&gt; &lt;a class=&#34;user-mention notranslate&#34; data-hovercard-type=&#34;user&#34; data-hovercard-url=&#34;/users/developer-guy/hovercard&#34; data-octo-click=&#34;hovercard-link-click&#34; data-octo-dimensions=&#34;link_type:self&#34; href=&#34;https://github.com/developer-guy&#34;&gt;@developer-guy&lt;/a&gt; &lt;a class=&#34;user-mention notranslate&#34; data-hovercard-type=&#34;user&#34; data-hovercard-url=&#34;/users/deviantintegral/hovercard&#34; data-octo-click=&#34;hovercard-link-click&#34; data-octo-dimensions=&#34;link_type:self&#34; href=&#34;https://github.com/deviantintegral&#34;&gt;@deviantintegral&lt;/a&gt; &lt;a class=&#34;user-mention notranslate&#34; data-hovercard-type=&#34;user&#34; data-hovercard-url=&#34;/users/jandubois/hovercard&#34; data-octo-click=&#34;hovercard-link-click&#34; data-octo-dimensions=&#34;link_type:self&#34; href=&#34;https://github.com/jandubois&#34;&gt;@jandubois&lt;/a&gt; &lt;a class=&#34;user-mention notranslate&#34; data-hovercard-type=&#34;user&#34; data-hovercard-url=&#34;/users/jwhb/hovercard&#34; data-octo-click=&#34;hovercard-link-click&#34; data-octo-dimensions=&#34;link_type:self&#34; href=&#34;https://github.com/jwhb&#34;&gt;@jwhb&lt;/a&gt; &lt;a class=&#34;user-mention notranslate&#34; data-hovercard-type=&#34;user&#34; data-hovercard-url=&#34;/users/samuelkarp/hovercard&#34; data-octo-click=&#34;hovercard-link-click&#34; data-octo-dimensions=&#34;link_type:self&#34; href=&#34;https://github.com/samuelkarp&#34;&gt;@samuelkarp&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h2&gt;Homebrew&lt;/h2&gt;&#xA;&lt;p&gt;&lt;code&gt;brew install lima&lt;/code&gt;&lt;br&gt;&#xA;&lt;a class=&#34;commit-link&#34; data-hovercard-type=&#34;commit&#34; data-hovercard-url=&#34;https://github.com/Homebrew/homebrew-core/commit/dfb16b662187d68a8c1b20b4f8f998d54601ae80/hovercard&#34; href=&#34;https://github.com/Homebrew/homebrew-core/commit/dfb16b662187d68a8c1b20b4f8f998d54601ae80&#34;&gt;Homebrew/homebrew-core@&lt;tt&gt;dfb16b6&lt;/tt&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h2&gt;Usage&lt;/h2&gt;&#xA;&lt;div class=&#34;highlight highlight-text-shell-session notranslate position-relative overflow-auto&#34; data-snippet-clipboard-copy-content=&#34;[macOS]$ limactl start&#xA;...&#xA;INFO[0029] READY. Run `lima` to open the shell.&#xA;&#xA;[macOS]$ lima uname&#xA;Linux&#34;&gt;&lt;pre&gt;&lt;span class=&#34;pl-c1&#34;&gt;[macOS]$ limactl start&lt;/span&gt;&#xA;&lt;span class=&#34;pl-c1&#34;&gt;...&lt;/span&gt;&#xA;&lt;span class=&#34;pl-c1&#34;&gt;INFO[0029] READY. Run `lima` to open the shell.&lt;/span&gt;&#xA;&#xA;&lt;span class=&#34;pl-c1&#34;&gt;[macOS]$ lima uname&lt;/span&gt;&#xA;&lt;span class=&#34;pl-c1&#34;&gt;Linux&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;The binaries were built automatically on GitHub Actions.&lt;br&gt;&#xA;The build log is available for 90 days: &lt;a href=&#34;https://github.com/lima-vm/lima/actions/runs/1967583891&#34;&gt;https://github.com/lima-vm/lima/actions/runs/1967583891&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;The sha256sum of the SHA256SUMS file itself is &lt;code&gt;a10848bd3bfa41b395ca54473bc82fe59081cc4e0b11f7b6c7c35a18ba633374&lt;/code&gt; .&lt;/p&gt;</content>
-    <link href="https://github.com/lima-vm/lima/releases/tag/v0.9.0" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>github-actions[bot]</name>
-    </author>
-  </entry>
-  <entry>
     <title>Release notes from moby - v20.10.13</title>
     <updated>2022-03-10T18:59:43Z</updated>
     <id>tag:github.com,2008:Repository/7691631/v20.10.13</id>
@@ -6802,22 +6802,22 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from triangula - v1.1.6</title>
+    <title>Release notes from triangula - v1.1.5</title>
     <updated>2021-05-11T13:31:09Z</updated>
-    <id>tag:github.com,2008:Repository/354015172/v1.1.6</id>
+    <id>tag:github.com,2008:Repository/354015172/v1.1.5</id>
     <content type="html">&lt;p&gt;Refactor for more flexibility&lt;/p&gt;</content>
-    <link href="https://github.com/rh12503/triangula/releases/tag/v1.1.6" rel="alternate"></link>
+    <link href="https://github.com/rh12503/triangula/releases/tag/v1.1.5" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>rh12503</name>
     </author>
   </entry>
   <entry>
-    <title>Release notes from triangula - v1.1.5</title>
+    <title>Release notes from triangula - v1.1.6</title>
     <updated>2021-05-11T13:31:09Z</updated>
-    <id>tag:github.com,2008:Repository/354015172/v1.1.5</id>
+    <id>tag:github.com,2008:Repository/354015172/v1.1.6</id>
     <content type="html">&lt;p&gt;Refactor for more flexibility&lt;/p&gt;</content>
-    <link href="https://github.com/rh12503/triangula/releases/tag/v1.1.5" rel="alternate"></link>
+    <link href="https://github.com/rh12503/triangula/releases/tag/v1.1.6" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>rh12503</name>
@@ -7330,22 +7330,22 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from backoff - v2.0.3: Merge pull request #18 from lestrrat-go/topic/fix-v2-go-mod</title>
+    <title>Release notes from backoff - v2.0.2: Merge pull request #18 from lestrrat-go/topic/fix-v2-go-mod</title>
     <updated>2021-01-06T03:00:05Z</updated>
-    <id>tag:github.com,2008:Repository/118608673/v2.0.3</id>
+    <id>tag:github.com,2008:Repository/118608673/v2.0.2</id>
     <content type="html">&lt;p&gt;Fix go.mod&lt;/p&gt;</content>
-    <link href="https://github.com/lestrrat-go/backoff/releases/tag/v2.0.3" rel="alternate"></link>
+    <link href="https://github.com/lestrrat-go/backoff/releases/tag/v2.0.2" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>lestrrat</name>
     </author>
   </entry>
   <entry>
-    <title>Release notes from backoff - v2.0.2: Merge pull request #18 from lestrrat-go/topic/fix-v2-go-mod</title>
+    <title>Release notes from backoff - v2.0.3: Merge pull request #18 from lestrrat-go/topic/fix-v2-go-mod</title>
     <updated>2021-01-06T03:00:05Z</updated>
-    <id>tag:github.com,2008:Repository/118608673/v2.0.2</id>
+    <id>tag:github.com,2008:Repository/118608673/v2.0.3</id>
     <content type="html">&lt;p&gt;Fix go.mod&lt;/p&gt;</content>
-    <link href="https://github.com/lestrrat-go/backoff/releases/tag/v2.0.2" rel="alternate"></link>
+    <link href="https://github.com/lestrrat-go/backoff/releases/tag/v2.0.3" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>lestrrat</name>
