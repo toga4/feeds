@@ -1,8 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?><feed xmlns="http://www.w3.org/2005/Atom">
   <title>Releases from Starred by toga4</title>
   <id>https://toga4.github.io/feeds/starred-releases.atom</id>
-  <updated>2022-11-16T22:00:02Z</updated>
+  <updated>2022-11-16T23:59:11Z</updated>
   <link href="https://toga4.github.io/feeds/starred-releases.atom"></link>
+  <entry>
+    <title>Release notes from skaffold - v2.0.2 Release</title>
+    <updated>2022-11-16T23:59:11Z</updated>
+    <id>tag:github.com,2008:Repository/118654121/v2.0.2</id>
+    <content type="html">&lt;h1&gt;v2.0.2 Release - 11/15/2022&lt;/h1&gt;&#xA;&lt;p&gt;&lt;strong&gt;Linux amd64&lt;/strong&gt;&lt;br&gt;&#xA;&lt;code&gt;curl -Lo skaffold https://storage.googleapis.com/skaffold/releases/v2.0.2/skaffold-linux-amd64 &amp;amp;&amp;amp; chmod +x skaffold &amp;amp;&amp;amp; sudo mv skaffold /usr/local/bin&lt;/code&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Linux arm64&lt;/strong&gt;&lt;br&gt;&#xA;&lt;code&gt;curl -Lo skaffold https://storage.googleapis.com/skaffold/releases/v2.0.2/skaffold-linux-arm64 &amp;amp;&amp;amp; chmod +x skaffold &amp;amp;&amp;amp; sudo mv skaffold /usr/local/bin&lt;/code&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;macOS amd64&lt;/strong&gt;&lt;br&gt;&#xA;&lt;code&gt;curl -Lo skaffold https://storage.googleapis.com/skaffold/releases/v2.0.2/skaffold-darwin-amd64 &amp;amp;&amp;amp; chmod +x skaffold &amp;amp;&amp;amp; sudo mv skaffold /usr/local/bin&lt;/code&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;macOS arm64&lt;/strong&gt;&lt;br&gt;&#xA;&lt;code&gt;curl -Lo skaffold https://storage.googleapis.com/skaffold/releases/v2.0.2/skaffold-darwin-arm64 &amp;amp;&amp;amp; chmod +x skaffold &amp;amp;&amp;amp; sudo mv skaffold /usr/local/bin&lt;/code&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Windows&lt;/strong&gt;&lt;br&gt;&#xA;&lt;a href=&#34;https://storage.googleapis.com/skaffold/releases/v2.0.2/skaffold-windows-amd64.exe&#34; rel=&#34;nofollow&#34;&gt;https://storage.googleapis.com/skaffold/releases/v2.0.2/skaffold-windows-amd64.exe&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Docker image&lt;/strong&gt;&lt;br&gt;&#xA;&lt;code&gt;gcr.io/k8s-skaffold/skaffold:v2.0.2&lt;/code&gt;&lt;/p&gt;&#xA;&lt;p&gt;Note: This release comes with a new config version, &lt;code&gt;v4beta1&lt;/code&gt;. To upgrade your skaffold.yaml, use &lt;code&gt;skaffold fix&lt;/code&gt;. If you choose not to upgrade, skaffold will auto-upgrade as best as it can.&lt;/p&gt;&#xA;&lt;p&gt;New Features and Additions:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;feat: add --tolerate-failures-until-deadline flag and deploy.tolerateFailuresUntilDeadline config for improved ci/cd usage &lt;a href=&#34;https://github.com/GoogleContainerTools/skaffold/pull/8047&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleContainerTools/skaffold/pull/8047/hovercard&#34;&gt;#8047&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;feat: Add an example e2e test environment / e2e tests for GRPC service. &lt;a href=&#34;https://github.com/GoogleContainerTools/skaffold/pull/7932&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleContainerTools/skaffold/pull/7932/hovercard&#34;&gt;#7932&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;feat: add skipTests to ignore helm test directory on manifest generation &lt;a href=&#34;https://github.com/GoogleContainerTools/skaffold/pull/8011&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleContainerTools/skaffold/pull/8011/hovercard&#34;&gt;#8011&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;feat: add support for deploying Cloud Run Jobs. &lt;a href=&#34;https://github.com/GoogleContainerTools/skaffold/pull/7915&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleContainerTools/skaffold/pull/7915/hovercard&#34;&gt;#7915&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;feat: context copy retry. If we add a for loop and execute the kubectlcli.Run method for copying context to kaniko pod , this makes more reliable and less prune to network failures &lt;a href=&#34;https://github.com/GoogleContainerTools/skaffold/pull/7887&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleContainerTools/skaffold/pull/7887/hovercard&#34;&gt;#7887&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;feat: new cloudbuild slim &lt;a href=&#34;https://github.com/GoogleContainerTools/skaffold/pull/8004&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleContainerTools/skaffold/pull/8004/hovercard&#34;&gt;#8004&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;feat: new dockerfiles and cloudbuild config for slim image &lt;a href=&#34;https://github.com/GoogleContainerTools/skaffold/pull/7996&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleContainerTools/skaffold/pull/7996/hovercard&#34;&gt;#7996&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;feat: completion for the Fish shell &lt;a href=&#34;https://github.com/GoogleContainerTools/skaffold/pull/8097&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleContainerTools/skaffold/pull/8097/hovercard&#34;&gt;#8097&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Fixes:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;fix: add description to StatusCheck TaskEvent &lt;a href=&#34;https://github.com/GoogleContainerTools/skaffold/pull/8017&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleContainerTools/skaffold/pull/8017/hovercard&#34;&gt;#8017&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;fix: Avoid nil context error &lt;a href=&#34;https://github.com/GoogleContainerTools/skaffold/pull/8038&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleContainerTools/skaffold/pull/8038/hovercard&#34;&gt;#8038&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;fix: cleanup not called when using helm deployer alone &lt;a href=&#34;https://github.com/GoogleContainerTools/skaffold/pull/8040&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleContainerTools/skaffold/pull/8040/hovercard&#34;&gt;#8040&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;fix: container image push to local cluster &lt;a href=&#34;https://github.com/GoogleContainerTools/skaffold/pull/8007&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleContainerTools/skaffold/pull/8007/hovercard&#34;&gt;#8007&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;fix: log duplication when using dependencies &lt;a href=&#34;https://github.com/GoogleContainerTools/skaffold/pull/8042&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleContainerTools/skaffold/pull/8042/hovercard&#34;&gt;#8042&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;fix: not print error message if it is empty &lt;a href=&#34;https://github.com/GoogleContainerTools/skaffold/pull/8005&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleContainerTools/skaffold/pull/8005/hovercard&#34;&gt;#8005&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;fix: preserve configs order when creating renderers and deployers &lt;a href=&#34;https://github.com/GoogleContainerTools/skaffold/pull/8028&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleContainerTools/skaffold/pull/8028/hovercard&#34;&gt;#8028&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;fix: properly add RemoteManifests support to skaffold v2 &lt;a href=&#34;https://github.com/GoogleContainerTools/skaffold/pull/8036&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleContainerTools/skaffold/pull/8036/hovercard&#34;&gt;#8036&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;fix: use std lib signal handling &lt;a href=&#34;https://github.com/GoogleContainerTools/skaffold/pull/8046&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleContainerTools/skaffold/pull/8046/hovercard&#34;&gt;#8046&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;fix(sec): upgrade runc version v1.0.2 -&amp;gt; v1.1.2 &lt;a href=&#34;https://github.com/GoogleContainerTools/skaffold/pull/8050&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleContainerTools/skaffold/pull/8050/hovercard&#34;&gt;#8050&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;fix: add unique tag to test image to avoid collisions with other tests &lt;a href=&#34;https://github.com/GoogleContainerTools/skaffold/pull/8087&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleContainerTools/skaffold/pull/8087/hovercard&#34;&gt;#8087&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;fix: correct issues with current upgrade logic for artifactOverrides with helm imageStrategy &lt;a href=&#34;https://github.com/GoogleContainerTools/skaffold/pull/8066&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleContainerTools/skaffold/pull/8066/hovercard&#34;&gt;#8066&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;fix: override protocols argument pass to helm post-renderer &lt;a href=&#34;https://github.com/GoogleContainerTools/skaffold/pull/8083&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleContainerTools/skaffold/pull/8083/hovercard&#34;&gt;#8083&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;fix: resolve issue where skaffold filter command did not properly configure the filter allow &amp;amp; deny lists &lt;a href=&#34;https://github.com/GoogleContainerTools/skaffold/pull/8085&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleContainerTools/skaffold/pull/8085/hovercard&#34;&gt;#8085&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Updates and Refactors:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;chore: add v1.39.3 release CHANGELOG.md entry &lt;a href=&#34;https://github.com/GoogleContainerTools/skaffold/pull/7991&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleContainerTools/skaffold/pull/7991/hovercard&#34;&gt;#7991&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;chore: bump skaffold schema version to v4beta1 &lt;a href=&#34;https://github.com/GoogleContainerTools/skaffold/pull/8034&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleContainerTools/skaffold/pull/8034/hovercard&#34;&gt;#8034&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;chore: make syncstore generic &lt;a href=&#34;https://github.com/GoogleContainerTools/skaffold/pull/8000&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleContainerTools/skaffold/pull/8000/hovercard&#34;&gt;#8000&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;chore: update examples/getting-started to go 1.19 &lt;a href=&#34;https://github.com/GoogleContainerTools/skaffold/pull/8043&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleContainerTools/skaffold/pull/8043/hovercard&#34;&gt;#8043&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;chore: update workflow files &lt;a href=&#34;https://github.com/GoogleContainerTools/skaffold/pull/8001&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleContainerTools/skaffold/pull/8001/hovercard&#34;&gt;#8001&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;chore: upgrade jib plugin versions to 3.3.1 &lt;a href=&#34;https://github.com/GoogleContainerTools/skaffold/pull/8003&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleContainerTools/skaffold/pull/8003/hovercard&#34;&gt;#8003&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;chore(deps): bump some .github/workflows deps &lt;a href=&#34;https://github.com/GoogleContainerTools/skaffold/pull/8051&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleContainerTools/skaffold/pull/8051/hovercard&#34;&gt;#8051&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;chore(doc): note that filesync works for debug &lt;a href=&#34;https://github.com/GoogleContainerTools/skaffold/pull/8044&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleContainerTools/skaffold/pull/8044/hovercard&#34;&gt;#8044&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;chore: reduce gcp integration test time &lt;a href=&#34;https://github.com/GoogleContainerTools/skaffold/pull/8080&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleContainerTools/skaffold/pull/8080/hovercard&#34;&gt;#8080&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;chore: remove uncessary server bins &lt;a href=&#34;https://github.com/GoogleContainerTools/skaffold/pull/8092&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleContainerTools/skaffold/pull/8092/hovercard&#34;&gt;#8092&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;refactor: use exclude directives instead of replace directives for pinning &lt;a href=&#34;https://github.com/GoogleContainerTools/skaffold/pull/8056&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleContainerTools/skaffold/pull/8056/hovercard&#34;&gt;#8056&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/GoogleContainerTools/skaffold/releases/tag/v2.0.2" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>github-actions[bot]</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from fake-gcs-server - v1.42.2</title>
+    <updated>2022-11-16T23:21:05Z</updated>
+    <id>tag:github.com,2008:Repository/91218588/v1.42.2</id>
+    <content type="html">&lt;h2&gt;What&#39;s Changed&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Add mime.type for yaml by &lt;a class=&#34;user-mention notranslate&#34; data-hovercard-type=&#34;user&#34; data-hovercard-url=&#34;/users/fsouza/hovercard&#34; data-octo-click=&#34;hovercard-link-click&#34; data-octo-dimensions=&#34;link_type:self&#34; href=&#34;https://github.com/fsouza&#34;&gt;@fsouza&lt;/a&gt; in &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1452411067&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/fsouza/fake-gcs-server/issues/991&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/fsouza/fake-gcs-server/pull/991/hovercard&#34; href=&#34;https://github.com/fsouza/fake-gcs-server/pull/991&#34;&gt;#991&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: &lt;a class=&#34;commit-link&#34; href=&#34;https://github.com/fsouza/fake-gcs-server/compare/v1.42.1...v1.42.2&#34;&gt;&lt;tt&gt;v1.42.1...v1.42.2&lt;/tt&gt;&lt;/a&gt;&lt;/p&gt;</content>
+    <link href="https://github.com/fsouza/fake-gcs-server/releases/tag/v1.42.2" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>github-actions[bot]</name>
+    </author>
+  </entry>
   <entry>
     <title>Release notes from datadog-agent - lambda-extension-34</title>
     <updated>2022-11-16T22:00:02Z</updated>
@@ -23,17 +45,6 @@
     <summary type="html"></summary>
     <author>
       <name>KnVerey</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from skaffold - v2.0.2</title>
-    <updated>2022-11-16T19:31:12Z</updated>
-    <id>tag:github.com,2008:Repository/118654121/v2.0.2</id>
-    <content type="html">&lt;p&gt;v2.0.2 Release&lt;/p&gt;</content>
-    <link href="https://github.com/GoogleContainerTools/skaffold/releases/tag/v2.0.2" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>actions-user</name>
     </author>
   </entry>
   <entry>
@@ -994,22 +1005,22 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from opentelemetry-go - exporters/stdout/stdoutmetric/v0.33.0</title>
+    <title>Release notes from opentelemetry-go - exporters/prometheus/v0.33.0</title>
     <updated>2022-10-19T19:57:43Z</updated>
-    <id>tag:github.com,2008:Repository/187086161/exporters/stdout/stdoutmetric/v0.33.0</id>
+    <id>tag:github.com,2008:Repository/187086161/exporters/prometheus/v0.33.0</id>
     <content type="html">&lt;p&gt;Module set experimental-metrics, Version v0.33.0&lt;/p&gt;</content>
-    <link href="https://github.com/open-telemetry/opentelemetry-go/releases/tag/exporters%2Fstdout%2Fstdoutmetric%2Fv0.33.0" rel="alternate"></link>
+    <link href="https://github.com/open-telemetry/opentelemetry-go/releases/tag/exporters%2Fprometheus%2Fv0.33.0" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>MrAlias</name>
     </author>
   </entry>
   <entry>
-    <title>Release notes from opentelemetry-go - exporters/prometheus/v0.33.0</title>
+    <title>Release notes from opentelemetry-go - exporters/stdout/stdoutmetric/v0.33.0</title>
     <updated>2022-10-19T19:57:43Z</updated>
-    <id>tag:github.com,2008:Repository/187086161/exporters/prometheus/v0.33.0</id>
+    <id>tag:github.com,2008:Repository/187086161/exporters/stdout/stdoutmetric/v0.33.0</id>
     <content type="html">&lt;p&gt;Module set experimental-metrics, Version v0.33.0&lt;/p&gt;</content>
-    <link href="https://github.com/open-telemetry/opentelemetry-go/releases/tag/exporters%2Fprometheus%2Fv0.33.0" rel="alternate"></link>
+    <link href="https://github.com/open-telemetry/opentelemetry-go/releases/tag/exporters%2Fstdout%2Fstdoutmetric%2Fv0.33.0" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>MrAlias</name>
@@ -1401,22 +1412,22 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from opentelemetry-operations-go - internal/cloudmock/v0.34.1</title>
+    <title>Release notes from opentelemetry-operations-go - internal/resourcemapping/v0.34.1</title>
     <updated>2022-10-13T18:39:47Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/internal/cloudmock/v0.34.1</id>
+    <id>tag:github.com,2008:Repository/244484581/internal/resourcemapping/v0.34.1</id>
     <content type="html">&lt;p&gt;prepare for v0.34.1 and v1.10.1 (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1408234500&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/517&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleCloudPlatform/opentelemetry-operations-go/pull/517/hovercard&#34; href=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/pull/517&#34;&gt;#517&lt;/a&gt;)&lt;/p&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/internal%2Fcloudmock%2Fv0.34.1" rel="alternate"></link>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/internal%2Fresourcemapping%2Fv0.34.1" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>dashpole</name>
     </author>
   </entry>
   <entry>
-    <title>Release notes from opentelemetry-operations-go - internal/resourcemapping/v0.34.1</title>
+    <title>Release notes from opentelemetry-operations-go - exporter/metric/v0.34.1</title>
     <updated>2022-10-13T18:39:47Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/internal/resourcemapping/v0.34.1</id>
+    <id>tag:github.com,2008:Repository/244484581/exporter/metric/v0.34.1</id>
     <content type="html">&lt;p&gt;prepare for v0.34.1 and v1.10.1 (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1408234500&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/517&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleCloudPlatform/opentelemetry-operations-go/pull/517/hovercard&#34; href=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/pull/517&#34;&gt;#517&lt;/a&gt;)&lt;/p&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/internal%2Fresourcemapping%2Fv0.34.1" rel="alternate"></link>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/exporter%2Fmetric%2Fv0.34.1" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>dashpole</name>
@@ -1434,11 +1445,11 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from opentelemetry-operations-go - exporter/metric/v0.34.1</title>
+    <title>Release notes from opentelemetry-operations-go - internal/cloudmock/v0.34.1</title>
     <updated>2022-10-13T18:39:47Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/exporter/metric/v0.34.1</id>
+    <id>tag:github.com,2008:Repository/244484581/internal/cloudmock/v0.34.1</id>
     <content type="html">&lt;p&gt;prepare for v0.34.1 and v1.10.1 (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1408234500&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/517&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleCloudPlatform/opentelemetry-operations-go/pull/517/hovercard&#34; href=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/pull/517&#34;&gt;#517&lt;/a&gt;)&lt;/p&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/exporter%2Fmetric%2Fv0.34.1" rel="alternate"></link>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/internal%2Fcloudmock%2Fv0.34.1" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>dashpole</name>
@@ -1489,11 +1500,11 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from opentelemetry-operations-go - exporter/trace/v1.10.0</title>
+    <title>Release notes from opentelemetry-operations-go - exporter/metric/v0.34.0</title>
     <updated>2022-10-13T14:21:56Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/exporter/trace/v1.10.0</id>
+    <id>tag:github.com,2008:Repository/244484581/exporter/metric/v0.34.0</id>
     <content type="html">&lt;p&gt;prepare for v1.10.0 and v0.34.0 (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1406590661&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/513&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleCloudPlatform/opentelemetry-operations-go/pull/513/hovercard&#34; href=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/pull/513&#34;&gt;#513&lt;/a&gt;)&lt;/p&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/exporter%2Ftrace%2Fv1.10.0" rel="alternate"></link>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/exporter%2Fmetric%2Fv0.34.0" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>dashpole</name>
@@ -1511,22 +1522,22 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from opentelemetry-operations-go - exporter/metric/v0.34.0</title>
+    <title>Release notes from opentelemetry-operations-go - internal/cloudmock/v0.34.0</title>
     <updated>2022-10-13T14:21:56Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/exporter/metric/v0.34.0</id>
+    <id>tag:github.com,2008:Repository/244484581/internal/cloudmock/v0.34.0</id>
     <content type="html">&lt;p&gt;prepare for v1.10.0 and v0.34.0 (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1406590661&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/513&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleCloudPlatform/opentelemetry-operations-go/pull/513/hovercard&#34; href=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/pull/513&#34;&gt;#513&lt;/a&gt;)&lt;/p&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/exporter%2Fmetric%2Fv0.34.0" rel="alternate"></link>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/internal%2Fcloudmock%2Fv0.34.0" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>dashpole</name>
     </author>
   </entry>
   <entry>
-    <title>Release notes from opentelemetry-operations-go - internal/cloudmock/v0.34.0</title>
+    <title>Release notes from opentelemetry-operations-go - exporter/trace/v1.10.0</title>
     <updated>2022-10-13T14:21:56Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/internal/cloudmock/v0.34.0</id>
+    <id>tag:github.com,2008:Repository/244484581/exporter/trace/v1.10.0</id>
     <content type="html">&lt;p&gt;prepare for v1.10.0 and v0.34.0 (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1406590661&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/513&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleCloudPlatform/opentelemetry-operations-go/pull/513/hovercard&#34; href=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/pull/513&#34;&gt;#513&lt;/a&gt;)&lt;/p&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/internal%2Fcloudmock%2Fv0.34.0" rel="alternate"></link>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/exporter%2Ftrace%2Fv1.10.0" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>dashpole</name>
@@ -3664,17 +3675,6 @@
     <summary type="html"></summary>
     <author>
       <name>derailed</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from fake-gcs-server - v1.38.3</title>
-    <updated>2022-06-26T23:40:28Z</updated>
-    <id>tag:github.com,2008:Repository/91218588/v1.38.3</id>
-    <content type="html">&lt;h2&gt;What&#39;s Changed&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;return attrs for newly created object in rewrite by &lt;a class=&#34;user-mention notranslate&#34; data-hovercard-type=&#34;user&#34; data-hovercard-url=&#34;/users/jess-sheneberger/hovercard&#34; data-octo-click=&#34;hovercard-link-click&#34; data-octo-dimensions=&#34;link_type:self&#34; href=&#34;https://github.com/jess-sheneberger&#34;&gt;@jess-sheneberger&lt;/a&gt; in &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1263995027&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/fsouza/fake-gcs-server/issues/823&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/fsouza/fake-gcs-server/pull/823/hovercard&#34; href=&#34;https://github.com/fsouza/fake-gcs-server/pull/823&#34;&gt;#823&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Fix upload response structure by &lt;a class=&#34;user-mention notranslate&#34; data-hovercard-type=&#34;user&#34; data-hovercard-url=&#34;/users/barathsriram/hovercard&#34; data-octo-click=&#34;hovercard-link-click&#34; data-octo-dimensions=&#34;link_type:self&#34; href=&#34;https://github.com/barathsriram&#34;&gt;@barathsriram&lt;/a&gt; in &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1284978709&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/fsouza/fake-gcs-server/issues/843&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/fsouza/fake-gcs-server/pull/843/hovercard&#34; href=&#34;https://github.com/fsouza/fake-gcs-server/pull/843&#34;&gt;#843&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2&gt;New Contributors&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a class=&#34;user-mention notranslate&#34; data-hovercard-type=&#34;user&#34; data-hovercard-url=&#34;/users/jess-sheneberger/hovercard&#34; data-octo-click=&#34;hovercard-link-click&#34; data-octo-dimensions=&#34;link_type:self&#34; href=&#34;https://github.com/jess-sheneberger&#34;&gt;@jess-sheneberger&lt;/a&gt; made their first contribution in &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1263995027&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/fsouza/fake-gcs-server/issues/823&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/fsouza/fake-gcs-server/pull/823/hovercard&#34; href=&#34;https://github.com/fsouza/fake-gcs-server/pull/823&#34;&gt;#823&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a class=&#34;user-mention notranslate&#34; data-hovercard-type=&#34;user&#34; data-hovercard-url=&#34;/users/barathsriram/hovercard&#34; data-octo-click=&#34;hovercard-link-click&#34; data-octo-dimensions=&#34;link_type:self&#34; href=&#34;https://github.com/barathsriram&#34;&gt;@barathsriram&lt;/a&gt; made their first contribution in &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1284978709&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/fsouza/fake-gcs-server/issues/843&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/fsouza/fake-gcs-server/pull/843/hovercard&#34; href=&#34;https://github.com/fsouza/fake-gcs-server/pull/843&#34;&gt;#843&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: &lt;a class=&#34;commit-link&#34; href=&#34;https://github.com/fsouza/fake-gcs-server/compare/v1.38.2...v1.38.3&#34;&gt;&lt;tt&gt;v1.38.2...v1.38.3&lt;/tt&gt;&lt;/a&gt;&lt;/p&gt;</content>
-    <link href="https://github.com/fsouza/fake-gcs-server/releases/tag/v1.38.3" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>github-actions[bot]</name>
     </author>
   </entry>
   <entry>
