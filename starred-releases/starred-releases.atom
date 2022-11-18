@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?><feed xmlns="http://www.w3.org/2005/Atom">
   <title>Releases from Starred by toga4</title>
   <id>https://toga4.github.io/feeds/starred-releases.atom</id>
-  <updated>2022-11-18T18:42:55Z</updated>
+  <updated>2022-11-18T19:29:06Z</updated>
   <link href="https://toga4.github.io/feeds/starred-releases.atom"></link>
   <entry>
     <title>Release notes from syft - v0.62.0</title>
-    <updated>2022-11-18T18:42:55Z</updated>
+    <updated>2022-11-18T19:29:06Z</updated>
     <id>tag:github.com,2008:Repository/262126497/v0.62.0</id>
-    <content type="html">&lt;p&gt;fix: spdx java checksum correctness (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1455595408&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/anchore/syft/issues/1348&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/anchore/syft/pull/1348/hovercard&#34; href=&#34;https://github.com/anchore/syft/pull/1348&#34;&gt;#1348&lt;/a&gt;)&lt;/p&gt;</content>
+    <content type="html">&lt;h1&gt;Changelog&lt;/h1&gt;&#xA;&lt;h2&gt;&lt;a href=&#34;https://github.com/anchore/syft/tree/v0.62.0&#34;&gt;v0.62.0&lt;/a&gt; (2022-11-18)&lt;/h2&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://github.com/anchore/syft/compare/v0.61.0...v0.62.0&#34;&gt;Full Changelog&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h3&gt;Added Features&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;NPM package-lock.json version 3 [&lt;a href=&#34;https://github.com/anchore/syft/issues/1203&#34; data-hovercard-type=&#34;issue&#34; data-hovercard-url=&#34;/anchore/syft/issues/1203/hovercard&#34;&gt;Issue #1203&lt;/a&gt;]&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3&gt;Bug Fixes&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Don&#39;t replace : with - in docker SPDX namespaces [&lt;a href=&#34;https://github.com/anchore/syft/issues/1111&#34; data-hovercard-type=&#34;issue&#34; data-hovercard-url=&#34;/anchore/syft/issues/1111/hovercard&#34;&gt;Issue #1111&lt;/a&gt;]&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
     <link href="https://github.com/anchore/syft/releases/tag/v0.62.0" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
-      <name>spiffcs</name>
+      <name>github-actions[bot]</name>
     </author>
   </entry>
   <entry>
@@ -1049,22 +1049,22 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from opentelemetry-go - exporters/stdout/stdoutmetric/v0.33.0</title>
+    <title>Release notes from opentelemetry-go - exporters/prometheus/v0.33.0</title>
     <updated>2022-10-19T19:57:43Z</updated>
-    <id>tag:github.com,2008:Repository/187086161/exporters/stdout/stdoutmetric/v0.33.0</id>
+    <id>tag:github.com,2008:Repository/187086161/exporters/prometheus/v0.33.0</id>
     <content type="html">&lt;p&gt;Module set experimental-metrics, Version v0.33.0&lt;/p&gt;</content>
-    <link href="https://github.com/open-telemetry/opentelemetry-go/releases/tag/exporters%2Fstdout%2Fstdoutmetric%2Fv0.33.0" rel="alternate"></link>
+    <link href="https://github.com/open-telemetry/opentelemetry-go/releases/tag/exporters%2Fprometheus%2Fv0.33.0" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>MrAlias</name>
     </author>
   </entry>
   <entry>
-    <title>Release notes from opentelemetry-go - exporters/prometheus/v0.33.0</title>
+    <title>Release notes from opentelemetry-go - exporters/stdout/stdoutmetric/v0.33.0</title>
     <updated>2022-10-19T19:57:43Z</updated>
-    <id>tag:github.com,2008:Repository/187086161/exporters/prometheus/v0.33.0</id>
+    <id>tag:github.com,2008:Repository/187086161/exporters/stdout/stdoutmetric/v0.33.0</id>
     <content type="html">&lt;p&gt;Module set experimental-metrics, Version v0.33.0&lt;/p&gt;</content>
-    <link href="https://github.com/open-telemetry/opentelemetry-go/releases/tag/exporters%2Fprometheus%2Fv0.33.0" rel="alternate"></link>
+    <link href="https://github.com/open-telemetry/opentelemetry-go/releases/tag/exporters%2Fstdout%2Fstdoutmetric%2Fv0.33.0" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>MrAlias</name>
@@ -1445,11 +1445,33 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from opentelemetry-operations-go - exporter/trace/v1.10.1</title>
+    <title>Release notes from opentelemetry-operations-go - detectors/gcp/v0.34.1</title>
     <updated>2022-10-13T18:39:47Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/exporter/trace/v1.10.1</id>
+    <id>tag:github.com,2008:Repository/244484581/detectors/gcp/v0.34.1</id>
     <content type="html">&lt;p&gt;prepare for v0.34.1 and v1.10.1 (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1408234500&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/517&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleCloudPlatform/opentelemetry-operations-go/pull/517/hovercard&#34; href=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/pull/517&#34;&gt;#517&lt;/a&gt;)&lt;/p&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/exporter%2Ftrace%2Fv1.10.1" rel="alternate"></link>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/detectors%2Fgcp%2Fv0.34.1" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>dashpole</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from opentelemetry-operations-go - exporter/collector/googlemanagedprometheus/v0.34.1</title>
+    <updated>2022-10-13T18:39:47Z</updated>
+    <id>tag:github.com,2008:Repository/244484581/exporter/collector/googlemanagedprometheus/v0.34.1</id>
+    <content type="html">&lt;p&gt;prepare for v0.34.1 and v1.10.1 (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1408234500&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/517&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleCloudPlatform/opentelemetry-operations-go/pull/517/hovercard&#34; href=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/pull/517&#34;&gt;#517&lt;/a&gt;)&lt;/p&gt;</content>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/exporter%2Fcollector%2Fgooglemanagedprometheus%2Fv0.34.1" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>dashpole</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from opentelemetry-operations-go - exporter/collector/v0.34.1</title>
+    <updated>2022-10-13T18:39:47Z</updated>
+    <id>tag:github.com,2008:Repository/244484581/exporter/collector/v0.34.1</id>
+    <content type="html">&lt;p&gt;prepare for v0.34.1 and v1.10.1 (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1408234500&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/517&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleCloudPlatform/opentelemetry-operations-go/pull/517/hovercard&#34; href=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/pull/517&#34;&gt;#517&lt;/a&gt;)&lt;/p&gt;</content>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/exporter%2Fcollector%2Fv0.34.1" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>dashpole</name>
@@ -1489,6 +1511,39 @@
     </author>
   </entry>
   <entry>
+    <title>Release notes from opentelemetry-operations-go - example/trace/http/v0.34.1</title>
+    <updated>2022-10-13T18:39:47Z</updated>
+    <id>tag:github.com,2008:Repository/244484581/example/trace/http/v0.34.1</id>
+    <content type="html">&lt;p&gt;prepare for v0.34.1 and v1.10.1 (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1408234500&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/517&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleCloudPlatform/opentelemetry-operations-go/pull/517/hovercard&#34; href=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/pull/517&#34;&gt;#517&lt;/a&gt;)&lt;/p&gt;</content>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/example%2Ftrace%2Fhttp%2Fv0.34.1" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>dashpole</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from opentelemetry-operations-go - exporter/trace/v1.10.1</title>
+    <updated>2022-10-13T18:39:47Z</updated>
+    <id>tag:github.com,2008:Repository/244484581/exporter/trace/v1.10.1</id>
+    <content type="html">&lt;p&gt;prepare for v0.34.1 and v1.10.1 (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1408234500&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/517&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleCloudPlatform/opentelemetry-operations-go/pull/517/hovercard&#34; href=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/pull/517&#34;&gt;#517&lt;/a&gt;)&lt;/p&gt;</content>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/exporter%2Ftrace%2Fv1.10.1" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>dashpole</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from opentelemetry-operations-go - example/metric/v0.34.1</title>
+    <updated>2022-10-13T18:39:47Z</updated>
+    <id>tag:github.com,2008:Repository/244484581/example/metric/v0.34.1</id>
+    <content type="html">&lt;p&gt;prepare for v0.34.1 and v1.10.1 (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1408234500&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/517&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleCloudPlatform/opentelemetry-operations-go/pull/517/hovercard&#34; href=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/pull/517&#34;&gt;#517&lt;/a&gt;)&lt;/p&gt;</content>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/example%2Fmetric%2Fv0.34.1" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>dashpole</name>
+    </author>
+  </entry>
+  <entry>
     <title>Release notes from deploy-cloudrun - v0.10.2</title>
     <updated>2022-10-13T18:08:21Z</updated>
     <id>tag:github.com,2008:Repository/308778047/v0.10.2</id>
@@ -1519,61 +1574,6 @@
     <summary type="html"></summary>
     <author>
       <name>github-actions[bot]</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from opentelemetry-operations-go - v0.34.0 and v1.10.0</title>
-    <updated>2022-10-13T14:31:43Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/v0.34.0</id>
-    <content type="html">&lt;h2&gt;Breaking changes to the Metric SDK exporter&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Remove deprecated functions prior to next release by &lt;a class=&#34;user-mention notranslate&#34; data-hovercard-type=&#34;user&#34; data-hovercard-url=&#34;/users/dashpole/hovercard&#34; data-octo-click=&#34;hovercard-link-click&#34; data-octo-dimensions=&#34;link_type:self&#34; href=&#34;https://github.com/dashpole&#34;&gt;@dashpole&lt;/a&gt; in &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1403596466&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/509&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleCloudPlatform/opentelemetry-operations-go/pull/509/hovercard&#34; href=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/pull/509&#34;&gt;#509&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Change default metric prefix for SDK exporter to workload.googleapis.com by &lt;a class=&#34;user-mention notranslate&#34; data-hovercard-type=&#34;user&#34; data-hovercard-url=&#34;/users/dashpole/hovercard&#34; data-octo-click=&#34;hovercard-link-click&#34; data-octo-dimensions=&#34;link_type:self&#34; href=&#34;https://github.com/dashpole&#34;&gt;@dashpole&lt;/a&gt; in &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1396647600&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/495&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleCloudPlatform/opentelemetry-operations-go/pull/495/hovercard&#34; href=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/pull/495&#34;&gt;#495&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Add display name to metric descriptors for SDK metric exporter by &lt;a class=&#34;user-mention notranslate&#34; data-hovercard-type=&#34;user&#34; data-hovercard-url=&#34;/users/dashpole/hovercard&#34; data-octo-click=&#34;hovercard-link-click&#34; data-octo-dimensions=&#34;link_type:self&#34; href=&#34;https://github.com/dashpole&#34;&gt;@dashpole&lt;/a&gt; in &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1396681965&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/497&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleCloudPlatform/opentelemetry-operations-go/pull/497/hovercard&#34; href=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/pull/497&#34;&gt;#497&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Use the resourcemapping package to map SDK metrics to monitored resources by &lt;a class=&#34;user-mention notranslate&#34; data-hovercard-type=&#34;user&#34; data-hovercard-url=&#34;/users/dashpole/hovercard&#34; data-octo-click=&#34;hovercard-link-click&#34; data-octo-dimensions=&#34;link_type:self&#34; href=&#34;https://github.com/dashpole&#34;&gt;@dashpole&lt;/a&gt; in &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1398192089&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/501&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleCloudPlatform/opentelemetry-operations-go/pull/501/hovercard&#34; href=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/pull/501&#34;&gt;#501&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Add service labels to GCM metrics exporter by &lt;a class=&#34;user-mention notranslate&#34; data-hovercard-type=&#34;user&#34; data-hovercard-url=&#34;/users/dashpole/hovercard&#34; data-octo-click=&#34;hovercard-link-click&#34; data-octo-dimensions=&#34;link_type:self&#34; href=&#34;https://github.com/dashpole&#34;&gt;@dashpole&lt;/a&gt; in &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1403491951&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/508&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleCloudPlatform/opentelemetry-operations-go/pull/508/hovercard&#34; href=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/pull/508&#34;&gt;#508&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2&gt;Deprecations&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Deprecated unused constants by &lt;a class=&#34;user-mention notranslate&#34; data-hovercard-type=&#34;user&#34; data-hovercard-url=&#34;/users/dashpole/hovercard&#34; data-octo-click=&#34;hovercard-link-click&#34; data-octo-dimensions=&#34;link_type:self&#34; href=&#34;https://github.com/dashpole&#34;&gt;@dashpole&lt;/a&gt; in &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1403609432&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/510&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleCloudPlatform/opentelemetry-operations-go/pull/510/hovercard&#34; href=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/pull/510&#34;&gt;#510&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2&gt;Additions&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Make SDK metric exporter methods safe to use concurrently by &lt;a class=&#34;user-mention notranslate&#34; data-hovercard-type=&#34;user&#34; data-hovercard-url=&#34;/users/dashpole/hovercard&#34; data-octo-click=&#34;hovercard-link-click&#34; data-octo-dimensions=&#34;link_type:self&#34; href=&#34;https://github.com/dashpole&#34;&gt;@dashpole&lt;/a&gt; in &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1396844842&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/500&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleCloudPlatform/opentelemetry-operations-go/pull/500/hovercard&#34; href=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/pull/500&#34;&gt;#500&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Set MetricDescriptor.Labels in SDK metrics exporter by &lt;a class=&#34;user-mention notranslate&#34; data-hovercard-type=&#34;user&#34; data-hovercard-url=&#34;/users/dashpole/hovercard&#34; data-octo-click=&#34;hovercard-link-click&#34; data-octo-dimensions=&#34;link_type:self&#34; href=&#34;https://github.com/dashpole&#34;&gt;@dashpole&lt;/a&gt; in &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1396666432&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/496&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleCloudPlatform/opentelemetry-operations-go/pull/496/hovercard&#34; href=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/pull/496&#34;&gt;#496&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2&gt;Bug fixes&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Convert non-monotonic sums to gauges in the SDK exporter by &lt;a class=&#34;user-mention notranslate&#34; data-hovercard-type=&#34;user&#34; data-hovercard-url=&#34;/users/dashpole/hovercard&#34; data-octo-click=&#34;hovercard-link-click&#34; data-octo-dimensions=&#34;link_type:self&#34; href=&#34;https://github.com/dashpole&#34;&gt;@dashpole&lt;/a&gt; in &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1398293939&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/502&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleCloudPlatform/opentelemetry-operations-go/pull/502/hovercard&#34; href=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/pull/502&#34;&gt;#502&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Correctly sanitize metric label keys in the SDK metric exporter by &lt;a class=&#34;user-mention notranslate&#34; data-hovercard-type=&#34;user&#34; data-hovercard-url=&#34;/users/dashpole/hovercard&#34; data-octo-click=&#34;hovercard-link-click&#34; data-octo-dimensions=&#34;link_type:self&#34; href=&#34;https://github.com/dashpole&#34;&gt;@dashpole&lt;/a&gt; in &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1396686212&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/498&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleCloudPlatform/opentelemetry-operations-go/pull/498/hovercard&#34; href=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/pull/498&#34;&gt;#498&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2&gt;What&#39;s Changed&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Run collector metrics integration tests on the SDK metrics exporter by &lt;a class=&#34;user-mention notranslate&#34; data-hovercard-type=&#34;user&#34; data-hovercard-url=&#34;/users/dashpole/hovercard&#34; data-octo-click=&#34;hovercard-link-click&#34; data-octo-dimensions=&#34;link_type:self&#34; href=&#34;https://github.com/dashpole&#34;&gt;@dashpole&lt;/a&gt; in &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1395355852&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/494&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleCloudPlatform/opentelemetry-operations-go/pull/494/hovercard&#34; href=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/pull/494&#34;&gt;#494&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Enable testing the SDK exporter using collector integration tests by &lt;a class=&#34;user-mention notranslate&#34; data-hovercard-type=&#34;user&#34; data-hovercard-url=&#34;/users/dashpole/hovercard&#34; data-octo-click=&#34;hovercard-link-click&#34; data-octo-dimensions=&#34;link_type:self&#34; href=&#34;https://github.com/dashpole&#34;&gt;@dashpole&lt;/a&gt; in &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1398306882&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/503&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleCloudPlatform/opentelemetry-operations-go/pull/503/hovercard&#34; href=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/pull/503&#34;&gt;#503&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Update otel-go to the latest metric release by &lt;a class=&#34;user-mention notranslate&#34; data-hovercard-type=&#34;user&#34; data-hovercard-url=&#34;/users/dashpole/hovercard&#34; data-octo-click=&#34;hovercard-link-click&#34; data-octo-dimensions=&#34;link_type:self&#34; href=&#34;https://github.com/dashpole&#34;&gt;@dashpole&lt;/a&gt; in &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1406587371&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/512&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleCloudPlatform/opentelemetry-operations-go/pull/512/hovercard&#34; href=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/pull/512&#34;&gt;#512&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Remove trace exporter dependency on otelhttp by &lt;a class=&#34;user-mention notranslate&#34; data-hovercard-type=&#34;user&#34; data-hovercard-url=&#34;/users/dashpole/hovercard&#34; data-octo-click=&#34;hovercard-link-click&#34; data-octo-dimensions=&#34;link_type:self&#34; href=&#34;https://github.com/dashpole&#34;&gt;@dashpole&lt;/a&gt; in &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1406709653&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/514&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleCloudPlatform/opentelemetry-operations-go/pull/514/hovercard&#34; href=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/pull/514&#34;&gt;#514&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Prepare for v1.10.0 and v0.34.0 by &lt;a class=&#34;user-mention notranslate&#34; data-hovercard-type=&#34;user&#34; data-hovercard-url=&#34;/users/dashpole/hovercard&#34; data-octo-click=&#34;hovercard-link-click&#34; data-octo-dimensions=&#34;link_type:self&#34; href=&#34;https://github.com/dashpole&#34;&gt;@dashpole&lt;/a&gt; in &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1406590661&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/513&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleCloudPlatform/opentelemetry-operations-go/pull/513/hovercard&#34; href=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/pull/513&#34;&gt;#513&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: &lt;a class=&#34;commit-link&#34; href=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/compare/v0.33.0...v0.34.0&#34;&gt;&lt;tt&gt;v0.33.0...v0.34.0&lt;/tt&gt;&lt;/a&gt;&lt;/p&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/v0.34.0" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>dashpole</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from opentelemetry-operations-go - exporter/metric/v0.34.0</title>
-    <updated>2022-10-13T14:21:56Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/exporter/metric/v0.34.0</id>
-    <content type="html">&lt;p&gt;prepare for v1.10.0 and v0.34.0 (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1406590661&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/513&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleCloudPlatform/opentelemetry-operations-go/pull/513/hovercard&#34; href=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/pull/513&#34;&gt;#513&lt;/a&gt;)&lt;/p&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/exporter%2Fmetric%2Fv0.34.0" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>dashpole</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from opentelemetry-operations-go - exporter/trace/v1.10.0</title>
-    <updated>2022-10-13T14:21:56Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/exporter/trace/v1.10.0</id>
-    <content type="html">&lt;p&gt;prepare for v1.10.0 and v0.34.0 (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1406590661&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/513&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleCloudPlatform/opentelemetry-operations-go/pull/513/hovercard&#34; href=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/pull/513&#34;&gt;#513&lt;/a&gt;)&lt;/p&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/exporter%2Ftrace%2Fv1.10.0" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>dashpole</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from opentelemetry-operations-go - internal/resourcemapping/v0.34.0</title>
-    <updated>2022-10-13T14:21:56Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/internal/resourcemapping/v0.34.0</id>
-    <content type="html">&lt;p&gt;prepare for v1.10.0 and v0.34.0 (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1406590661&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/513&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleCloudPlatform/opentelemetry-operations-go/pull/513/hovercard&#34; href=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/pull/513&#34;&gt;#513&lt;/a&gt;)&lt;/p&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/internal%2Fresourcemapping%2Fv0.34.0" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>dashpole</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from opentelemetry-operations-go - internal/cloudmock/v0.34.0</title>
-    <updated>2022-10-13T14:21:56Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/internal/cloudmock/v0.34.0</id>
-    <content type="html">&lt;p&gt;prepare for v1.10.0 and v0.34.0 (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1406590661&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/513&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleCloudPlatform/opentelemetry-operations-go/pull/513/hovercard&#34; href=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/pull/513&#34;&gt;#513&lt;/a&gt;)&lt;/p&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/internal%2Fcloudmock%2Fv0.34.0" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>dashpole</name>
     </author>
   </entry>
   <entry>
@@ -4008,11 +4008,11 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from kustomize - kyaml/v0.13.7</title>
-    <updated>2022-05-20T18:43:02Z</updated>
-    <id>tag:github.com,2008:Repository/133067498/kyaml/v0.13.7</id>
-    <content type="html">&lt;p&gt;&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1149971599&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/kubernetes-sigs/kustomize/issues/4489&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/kubernetes-sigs/kustomize/pull/4489/hovercard&#34; href=&#34;https://github.com/kubernetes-sigs/kustomize/pull/4489&#34;&gt;#4489&lt;/a&gt;: Fix containerized function mounts issue&lt;br&gt;&#xA;&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1192223984&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/kubernetes-sigs/kustomize/issues/4568&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/kubernetes-sigs/kustomize/pull/4568/hovercard&#34; href=&#34;https://github.com/kubernetes-sigs/kustomize/pull/4568&#34;&gt;#4568&lt;/a&gt;: Openapi parsing performance improvement with protobuffer&lt;br&gt;&#xA;&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1200485512&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/kubernetes-sigs/kustomize/issues/4577&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/kubernetes-sigs/kustomize/pull/4577/hovercard&#34; href=&#34;https://github.com/kubernetes-sigs/kustomize/pull/4577&#34;&gt;#4577&lt;/a&gt;: Fix error message using replacement wildcard and &lt;code&gt;create&lt;/code&gt; option&lt;br&gt;&#xA;&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1208797048&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/kubernetes-sigs/kustomize/issues/4591&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/kubernetes-sigs/kustomize/pull/4591/hovercard&#34; href=&#34;https://github.com/kubernetes-sigs/kustomize/pull/4591&#34;&gt;#4591&lt;/a&gt;: Added code for fields with dots(.) in their names work as needed&lt;br&gt;&#xA;&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1230213172&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/kubernetes-sigs/kustomize/issues/4629&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/kubernetes-sigs/kustomize/pull/4629/hovercard&#34; href=&#34;https://github.com/kubernetes-sigs/kustomize/pull/4629&#34;&gt;#4629&lt;/a&gt;: Fn framework: bugfix for schema providers + configurable template extensions&lt;br&gt;&#xA;&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1234115605&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/kubernetes-sigs/kustomize/issues/4635&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/kubernetes-sigs/kustomize/pull/4635/hovercard&#34; href=&#34;https://github.com/kubernetes-sigs/kustomize/pull/4635&#34;&gt;#4635&lt;/a&gt;: Fix: Testing code leaked to production&lt;/p&gt;</content>
-    <link href="https://github.com/kubernetes-sigs/kustomize/releases/tag/kyaml%2Fv0.13.7" rel="alternate"></link>
+    <title>Release notes from kustomize - kustomize/v4.5.5</title>
+    <updated>2022-05-20T20:46:32Z</updated>
+    <id>tag:github.com,2008:Repository/133067498/kustomize/v4.5.5</id>
+    <content type="html">&lt;p&gt;This release is expected to have significant performance improvements for a good portion of inputs, due to &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1192223984&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/kubernetes-sigs/kustomize/issues/4568&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/kubernetes-sigs/kustomize/pull/4568/hovercard&#34; href=&#34;https://github.com/kubernetes-sigs/kustomize/pull/4568&#34;&gt;#4568&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;h3&gt;Small features&lt;/h3&gt;&#xA;&lt;p&gt;&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1008495989&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/kubernetes-sigs/kustomize/issues/4209&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/kubernetes-sigs/kustomize/pull/4209/hovercard&#34; href=&#34;https://github.com/kubernetes-sigs/kustomize/pull/4209&#34;&gt;#4209&lt;/a&gt;: [Address &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;907874324&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/kubernetes-sigs/kustomize/issues/3937&#34; data-hovercard-type=&#34;issue&#34; data-hovercard-url=&#34;/kubernetes-sigs/kustomize/issues/3937/hovercard&#34; href=&#34;https://github.com/kubernetes-sigs/kustomize/issues/3937&#34;&gt;#3937&lt;/a&gt;] Add labels to template/metadata if includeTemplates is true&lt;br&gt;&#xA;&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1091856180&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/kubernetes-sigs/kustomize/issues/4364&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/kubernetes-sigs/kustomize/pull/4364/hovercard&#34; href=&#34;https://github.com/kubernetes-sigs/kustomize/pull/4364&#34;&gt;#4364&lt;/a&gt;: Add tagsuffix to take image tag suffix&lt;br&gt;&#xA;&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1192222267&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/kubernetes-sigs/kustomize/issues/4567&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/kubernetes-sigs/kustomize/pull/4567/hovercard&#34; href=&#34;https://github.com/kubernetes-sigs/kustomize/pull/4567&#34;&gt;#4567&lt;/a&gt;: Add support for remote OpenAPI schema&lt;/p&gt;&#xA;&lt;h3&gt;Bug fixes and performance improvements&lt;/h3&gt;&#xA;&lt;p&gt;&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1192223984&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/kubernetes-sigs/kustomize/issues/4568&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/kubernetes-sigs/kustomize/pull/4568/hovercard&#34; href=&#34;https://github.com/kubernetes-sigs/kustomize/pull/4568&#34;&gt;#4568&lt;/a&gt;: openapi parsing performance improvement with protobuffer&lt;br&gt;&#xA;&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1149971599&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/kubernetes-sigs/kustomize/issues/4489&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/kubernetes-sigs/kustomize/pull/4489/hovercard&#34; href=&#34;https://github.com/kubernetes-sigs/kustomize/pull/4489&#34;&gt;#4489&lt;/a&gt;: Fix containerized function mounts issue&lt;br&gt;&#xA;&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1200485512&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/kubernetes-sigs/kustomize/issues/4577&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/kubernetes-sigs/kustomize/pull/4577/hovercard&#34; href=&#34;https://github.com/kubernetes-sigs/kustomize/pull/4577&#34;&gt;#4577&lt;/a&gt;: Fix error message using replacement wildcard and create option&lt;br&gt;&#xA;&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1190451767&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/kubernetes-sigs/kustomize/issues/4565&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/kubernetes-sigs/kustomize/pull/4565/hovercard&#34; href=&#34;https://github.com/kubernetes-sigs/kustomize/pull/4565&#34;&gt;#4565&lt;/a&gt;: Raise error for external generators or transformers&lt;/p&gt;&#xA;&lt;h3&gt;Dependency changes&lt;/h3&gt;&#xA;&lt;p&gt;&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1243499499&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/kubernetes-sigs/kustomize/issues/4644&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/kubernetes-sigs/kustomize/pull/4644/hovercard&#34; href=&#34;https://github.com/kubernetes-sigs/kustomize/pull/4644&#34;&gt;#4644&lt;/a&gt;: Update kyaml to v0.13.7&lt;br&gt;&#xA;&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1243513454&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/kubernetes-sigs/kustomize/issues/4645&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/kubernetes-sigs/kustomize/pull/4645/hovercard&#34; href=&#34;https://github.com/kubernetes-sigs/kustomize/pull/4645&#34;&gt;#4645&lt;/a&gt;: Update cmd/config to v0.10.7&lt;br&gt;&#xA;&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1243532121&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/kubernetes-sigs/kustomize/issues/4646&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/kubernetes-sigs/kustomize/pull/4646/hovercard&#34; href=&#34;https://github.com/kubernetes-sigs/kustomize/pull/4646&#34;&gt;#4646&lt;/a&gt;: Update api to v0.11.5&lt;/p&gt;</content>
+    <link href="https://github.com/kubernetes-sigs/kustomize/releases/tag/kustomize%2Fv4.5.5" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>KnVerey</name>
@@ -6802,22 +6802,22 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from triangula - v1.1.6</title>
+    <title>Release notes from triangula - v1.1.5</title>
     <updated>2021-05-11T13:31:09Z</updated>
-    <id>tag:github.com,2008:Repository/354015172/v1.1.6</id>
+    <id>tag:github.com,2008:Repository/354015172/v1.1.5</id>
     <content type="html">&lt;p&gt;Refactor for more flexibility&lt;/p&gt;</content>
-    <link href="https://github.com/rh12503/triangula/releases/tag/v1.1.6" rel="alternate"></link>
+    <link href="https://github.com/rh12503/triangula/releases/tag/v1.1.5" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>rh12503</name>
     </author>
   </entry>
   <entry>
-    <title>Release notes from triangula - v1.1.5</title>
+    <title>Release notes from triangula - v1.1.6</title>
     <updated>2021-05-11T13:31:09Z</updated>
-    <id>tag:github.com,2008:Repository/354015172/v1.1.5</id>
+    <id>tag:github.com,2008:Repository/354015172/v1.1.6</id>
     <content type="html">&lt;p&gt;Refactor for more flexibility&lt;/p&gt;</content>
-    <link href="https://github.com/rh12503/triangula/releases/tag/v1.1.5" rel="alternate"></link>
+    <link href="https://github.com/rh12503/triangula/releases/tag/v1.1.6" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>rh12503</name>
@@ -7330,22 +7330,22 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from backoff - v2.0.2: Merge pull request #18 from lestrrat-go/topic/fix-v2-go-mod</title>
+    <title>Release notes from backoff - v2.0.3: Merge pull request #18 from lestrrat-go/topic/fix-v2-go-mod</title>
     <updated>2021-01-06T03:00:05Z</updated>
-    <id>tag:github.com,2008:Repository/118608673/v2.0.2</id>
+    <id>tag:github.com,2008:Repository/118608673/v2.0.3</id>
     <content type="html">&lt;p&gt;Fix go.mod&lt;/p&gt;</content>
-    <link href="https://github.com/lestrrat-go/backoff/releases/tag/v2.0.2" rel="alternate"></link>
+    <link href="https://github.com/lestrrat-go/backoff/releases/tag/v2.0.3" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>lestrrat</name>
     </author>
   </entry>
   <entry>
-    <title>Release notes from backoff - v2.0.3: Merge pull request #18 from lestrrat-go/topic/fix-v2-go-mod</title>
+    <title>Release notes from backoff - v2.0.2: Merge pull request #18 from lestrrat-go/topic/fix-v2-go-mod</title>
     <updated>2021-01-06T03:00:05Z</updated>
-    <id>tag:github.com,2008:Repository/118608673/v2.0.3</id>
+    <id>tag:github.com,2008:Repository/118608673/v2.0.2</id>
     <content type="html">&lt;p&gt;Fix go.mod&lt;/p&gt;</content>
-    <link href="https://github.com/lestrrat-go/backoff/releases/tag/v2.0.3" rel="alternate"></link>
+    <link href="https://github.com/lestrrat-go/backoff/releases/tag/v2.0.2" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>lestrrat</name>
