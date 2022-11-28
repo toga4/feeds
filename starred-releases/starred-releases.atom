@@ -1,8 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?><feed xmlns="http://www.w3.org/2005/Atom">
   <title>Releases from Starred by toga4</title>
   <id>https://toga4.github.io/feeds/starred-releases.atom</id>
-  <updated>2022-11-27T17:00:26Z</updated>
+  <updated>2022-11-28T17:02:49Z</updated>
   <link href="https://toga4.github.io/feeds/starred-releases.atom"></link>
+  <entry>
+    <title>Release notes from syft - v0.62.2</title>
+    <updated>2022-11-28T17:02:49Z</updated>
+    <id>tag:github.com,2008:Repository/262126497/v0.62.2</id>
+    <content type="html">&lt;h1&gt;Changelog&lt;/h1&gt;&#xA;&lt;h2&gt;&lt;a href=&#34;https://github.com/anchore/syft/tree/v0.62.2&#34;&gt;v0.62.2&lt;/a&gt; (2022-11-28)&lt;/h2&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://github.com/anchore/syft/compare/v0.62.1...v0.62.2&#34;&gt;Full Changelog&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h3&gt;Added Features&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;SPDX-json output differs between cli and golang implementation [&lt;a href=&#34;https://github.com/anchore/syft/issues/1213&#34; data-hovercard-type=&#34;issue&#34; data-hovercard-url=&#34;/anchore/syft/issues/1213/hovercard&#34;&gt;Issue #1213&lt;/a&gt;]&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3&gt;Bug Fixes&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Python cataloging fails to remove some non-version characters from version string [&lt;a href=&#34;https://github.com/anchore/syft/issues/1360&#34; data-hovercard-type=&#34;issue&#34; data-hovercard-url=&#34;/anchore/syft/issues/1360/hovercard&#34;&gt;Issue #1360&lt;/a&gt;]&lt;/li&gt;&#xA;&lt;li&gt;Haskell Cabal packages crash syft [&lt;a href=&#34;https://github.com/anchore/syft/issues/1362&#34; data-hovercard-type=&#34;issue&#34; data-hovercard-url=&#34;/anchore/syft/issues/1362/hovercard&#34;&gt;Issue #1362&lt;/a&gt;]&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/anchore/syft/releases/tag/v0.62.2" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>github-actions[bot]</name>
+    </author>
+  </entry>
   <entry>
     <title>Release notes from trivy - v0.35.0</title>
     <updated>2022-11-27T17:00:26Z</updated>
@@ -1698,28 +1709,6 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from opentelemetry-operations-go - internal/resourcemapping/v0.34.0</title>
-    <updated>2022-10-13T14:21:56Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/internal/resourcemapping/v0.34.0</id>
-    <content type="html">&lt;p&gt;prepare for v1.10.0 and v0.34.0 (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1406590661&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/513&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleCloudPlatform/opentelemetry-operations-go/pull/513/hovercard&#34; href=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/pull/513&#34;&gt;#513&lt;/a&gt;)&lt;/p&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/internal%2Fresourcemapping%2Fv0.34.0" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>dashpole</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from opentelemetry-operations-go - internal/cloudmock/v0.34.0</title>
-    <updated>2022-10-13T14:21:56Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/internal/cloudmock/v0.34.0</id>
-    <content type="html">&lt;p&gt;prepare for v1.10.0 and v0.34.0 (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1406590661&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/513&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleCloudPlatform/opentelemetry-operations-go/pull/513/hovercard&#34; href=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/pull/513&#34;&gt;#513&lt;/a&gt;)&lt;/p&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/internal%2Fcloudmock%2Fv0.34.0" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>dashpole</name>
-    </author>
-  </entry>
-  <entry>
     <title>Release notes from opentelemetry-operations-go - exporter/trace/v1.10.0</title>
     <updated>2022-10-13T14:21:56Z</updated>
     <id>tag:github.com,2008:Repository/244484581/exporter/trace/v1.10.0</id>
@@ -1731,11 +1720,33 @@
     </author>
   </entry>
   <entry>
+    <title>Release notes from opentelemetry-operations-go - internal/resourcemapping/v0.34.0</title>
+    <updated>2022-10-13T14:21:56Z</updated>
+    <id>tag:github.com,2008:Repository/244484581/internal/resourcemapping/v0.34.0</id>
+    <content type="html">&lt;p&gt;prepare for v1.10.0 and v0.34.0 (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1406590661&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/513&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleCloudPlatform/opentelemetry-operations-go/pull/513/hovercard&#34; href=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/pull/513&#34;&gt;#513&lt;/a&gt;)&lt;/p&gt;</content>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/internal%2Fresourcemapping%2Fv0.34.0" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>dashpole</name>
+    </author>
+  </entry>
+  <entry>
     <title>Release notes from opentelemetry-operations-go - exporter/metric/v0.34.0</title>
     <updated>2022-10-13T14:21:56Z</updated>
     <id>tag:github.com,2008:Repository/244484581/exporter/metric/v0.34.0</id>
     <content type="html">&lt;p&gt;prepare for v1.10.0 and v0.34.0 (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1406590661&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/513&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleCloudPlatform/opentelemetry-operations-go/pull/513/hovercard&#34; href=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/pull/513&#34;&gt;#513&lt;/a&gt;)&lt;/p&gt;</content>
     <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/exporter%2Fmetric%2Fv0.34.0" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>dashpole</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from opentelemetry-operations-go - internal/cloudmock/v0.34.0</title>
+    <updated>2022-10-13T14:21:56Z</updated>
+    <id>tag:github.com,2008:Repository/244484581/internal/cloudmock/v0.34.0</id>
+    <content type="html">&lt;p&gt;prepare for v1.10.0 and v0.34.0 (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1406590661&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/513&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleCloudPlatform/opentelemetry-operations-go/pull/513/hovercard&#34; href=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/pull/513&#34;&gt;#513&lt;/a&gt;)&lt;/p&gt;</content>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/internal%2Fcloudmock%2Fv0.34.0" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>dashpole</name>
@@ -2311,17 +2322,6 @@
     <summary type="html"></summary>
     <author>
       <name>mumoshu</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from syft - v0.57.0</title>
-    <updated>2022-09-19T21:07:53Z</updated>
-    <id>tag:github.com,2008:Repository/262126497/v0.57.0</id>
-    <content type="html">&lt;h1&gt;Changelog&lt;/h1&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://github.com/anchore/syft/compare/v0.56.0...04d288b3643f906255af88108f27712bb2be5b63&#34;&gt;Full Changelog&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h3&gt;Added Features&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Consistent sorting for SPDX JSON output [&lt;a href=&#34;https://github.com/anchore/syft/issues/1213&#34; data-hovercard-type=&#34;issue&#34; data-hovercard-url=&#34;/anchore/syft/issues/1213/hovercard&#34;&gt;Issue #1213&lt;/a&gt;]&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3&gt;Bug Fixes&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Attest panic on MacOS [&lt;a href=&#34;https://github.com/anchore/syft/issues/1210&#34; data-hovercard-type=&#34;issue&#34; data-hovercard-url=&#34;/anchore/syft/issues/1210/hovercard&#34;&gt;Issue #1210&lt;/a&gt;]&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/anchore/syft/releases/tag/v0.57.0" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>anchoreops</name>
     </author>
   </entry>
   <entry>
