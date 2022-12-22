@@ -1,8 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?><feed xmlns="http://www.w3.org/2005/Atom">
   <title>Releases from Starred by toga4</title>
   <id>https://toga4.github.io/feeds/starred-releases.atom</id>
-  <updated>2022-12-22T09:22:55Z</updated>
+  <updated>2022-12-22T19:57:34Z</updated>
   <link href="https://toga4.github.io/feeds/starred-releases.atom"></link>
+  <entry>
+    <title>Release notes from cli - v2.21.0-pre.2</title>
+    <updated>2022-12-22T19:57:34Z</updated>
+    <id>tag:github.com,2008:Repository/212613049/v2.21.0-pre.2</id>
+    <content type="html">&lt;p&gt;enable hook output&lt;/p&gt;</content>
+    <link href="https://github.com/cli/cli/releases/tag/v2.21.0-pre.2" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>mislav</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from cli - v2.21.0-pre.1: Supported passing nested JSON arrays/objects to api command via field…</title>
+    <updated>2022-12-22T19:12:00Z</updated>
+    <id>tag:github.com,2008:Repository/212613049/v2.21.0-pre.1</id>
+    <content type="html">&lt;p&gt;…s (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1448465079&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/cli/cli/issues/6614&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/cli/cli/pull/6614/hovercard&#34; href=&#34;https://github.com/cli/cli/pull/6614&#34;&gt;#6614&lt;/a&gt;)&lt;/p&gt;&#xA;&lt;p&gt;Examples:&lt;/p&gt;&#xA;&lt;div class=&#34;snippet-clipboard-content notranslate position-relative overflow-auto&#34; data-snippet-clipboard-copy-content=&#34;-f labels[]=bug -f labels[]=p1&#xA;    #=&amp;gt; { &amp;quot;labels&amp;quot;: [&amp;quot;bug&amp;quot;, &amp;quot;p1&amp;quot;] }&#xA;&#xA;-f branch[name]=patch-1 -F branch[protected]=true&#xA;    #=&amp;gt; { &amp;quot;branch&amp;quot;: { &amp;quot;name&amp;quot;: &amp;quot;patch-1&amp;quot;, &amp;quot;protected&amp;quot;: true }&#xA;&#xA;-f labels[][name]=bug-1 -f labels[][color]=red&#xA;    #=&amp;gt; { &amp;quot;labels&amp;quot;: [{ &amp;quot;name&amp;quot;: &amp;quot;bug-1&amp;quot;, &amp;quot;color&amp;quot;: &amp;quot;red&amp;quot; }] }&#34;&gt;&lt;pre class=&#34;notranslate&#34;&gt;&lt;code&gt;-f labels[]=bug -f labels[]=p1&#xA;    #=&amp;gt; { &#34;labels&#34;: [&#34;bug&#34;, &#34;p1&#34;] }&#xA;&#xA;-f branch[name]=patch-1 -F branch[protected]=true&#xA;    #=&amp;gt; { &#34;branch&#34;: { &#34;name&#34;: &#34;patch-1&#34;, &#34;protected&#34;: true }&#xA;&#xA;-f labels[][name]=bug-1 -f labels[][color]=red&#xA;    #=&amp;gt; { &#34;labels&#34;: [{ &#34;name&#34;: &#34;bug-1&#34;, &#34;color&#34;: &#34;red&#34; }] }&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content>
+    <link href="https://github.com/cli/cli/releases/tag/v2.21.0-pre.1" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>mislav</name>
+    </author>
+  </entry>
   <entry>
     <title>Release notes from datadog-go - v5.2.0</title>
     <updated>2022-12-22T09:22:55Z</updated>
@@ -653,11 +675,11 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from opentelemetry-go-contrib - samplers/jaegerremote/example/v0.6.0</title>
+    <title>Release notes from opentelemetry-go-contrib - samplers/probability/consistent/v0.6.0</title>
     <updated>2022-12-05T21:47:16Z</updated>
-    <id>tag:github.com,2008:Repository/242202166/samplers/jaegerremote/example/v0.6.0</id>
+    <id>tag:github.com,2008:Repository/242202166/samplers/probability/consistent/v0.6.0</id>
     <content type="html">&lt;p&gt;Module set experimental-samplers, Version v0.6.0&lt;/p&gt;</content>
-    <link href="https://github.com/open-telemetry/opentelemetry-go-contrib/releases/tag/samplers%2Fjaegerremote%2Fexample%2Fv0.6.0" rel="alternate"></link>
+    <link href="https://github.com/open-telemetry/opentelemetry-go-contrib/releases/tag/samplers%2Fprobability%2Fconsistent%2Fv0.6.0" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>MadVikingGod</name>
@@ -675,22 +697,22 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from opentelemetry-go-contrib - samplers/jaegerremote/v0.6.0</title>
+    <title>Release notes from opentelemetry-go-contrib - samplers/jaegerremote/example/v0.6.0</title>
     <updated>2022-12-05T21:47:16Z</updated>
-    <id>tag:github.com,2008:Repository/242202166/samplers/jaegerremote/v0.6.0</id>
+    <id>tag:github.com,2008:Repository/242202166/samplers/jaegerremote/example/v0.6.0</id>
     <content type="html">&lt;p&gt;Module set experimental-samplers, Version v0.6.0&lt;/p&gt;</content>
-    <link href="https://github.com/open-telemetry/opentelemetry-go-contrib/releases/tag/samplers%2Fjaegerremote%2Fv0.6.0" rel="alternate"></link>
+    <link href="https://github.com/open-telemetry/opentelemetry-go-contrib/releases/tag/samplers%2Fjaegerremote%2Fexample%2Fv0.6.0" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>MadVikingGod</name>
     </author>
   </entry>
   <entry>
-    <title>Release notes from opentelemetry-go-contrib - samplers/probability/consistent/v0.6.0</title>
+    <title>Release notes from opentelemetry-go-contrib - samplers/jaegerremote/v0.6.0</title>
     <updated>2022-12-05T21:47:16Z</updated>
-    <id>tag:github.com,2008:Repository/242202166/samplers/probability/consistent/v0.6.0</id>
+    <id>tag:github.com,2008:Repository/242202166/samplers/jaegerremote/v0.6.0</id>
     <content type="html">&lt;p&gt;Module set experimental-samplers, Version v0.6.0&lt;/p&gt;</content>
-    <link href="https://github.com/open-telemetry/opentelemetry-go-contrib/releases/tag/samplers%2Fprobability%2Fconsistent%2Fv0.6.0" rel="alternate"></link>
+    <link href="https://github.com/open-telemetry/opentelemetry-go-contrib/releases/tag/samplers%2Fjaegerremote%2Fv0.6.0" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>MadVikingGod</name>
@@ -763,33 +785,11 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from opentelemetry-go - exporters/stdout/stdoutmetric/v0.34.0</title>
-    <updated>2022-12-05T19:44:51Z</updated>
-    <id>tag:github.com,2008:Repository/187086161/exporters/stdout/stdoutmetric/v0.34.0</id>
-    <content type="html">&lt;p&gt;Module set experimental-metrics, Version v0.34.0&lt;/p&gt;</content>
-    <link href="https://github.com/open-telemetry/opentelemetry-go/releases/tag/exporters%2Fstdout%2Fstdoutmetric%2Fv0.34.0" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>MadVikingGod</name>
-    </author>
-  </entry>
-  <entry>
     <title>Release notes from opentelemetry-go - exporters/prometheus/v0.34.0</title>
     <updated>2022-12-05T19:44:51Z</updated>
     <id>tag:github.com,2008:Repository/187086161/exporters/prometheus/v0.34.0</id>
     <content type="html">&lt;p&gt;Module set experimental-metrics, Version v0.34.0&lt;/p&gt;</content>
     <link href="https://github.com/open-telemetry/opentelemetry-go/releases/tag/exporters%2Fprometheus%2Fv0.34.0" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>MadVikingGod</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from opentelemetry-go - sdk/metric/v0.34.0</title>
-    <updated>2022-12-05T19:44:51Z</updated>
-    <id>tag:github.com,2008:Repository/187086161/sdk/metric/v0.34.0</id>
-    <content type="html">&lt;p&gt;Module set experimental-metrics, Version v0.34.0&lt;/p&gt;</content>
-    <link href="https://github.com/open-telemetry/opentelemetry-go/releases/tag/sdk%2Fmetric%2Fv0.34.0" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>MadVikingGod</name>
@@ -807,11 +807,33 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from opentelemetry-go - exporters/stdout/stdouttrace/v1.11.2</title>
+    <title>Release notes from opentelemetry-go - sdk/metric/v0.34.0</title>
+    <updated>2022-12-05T19:44:51Z</updated>
+    <id>tag:github.com,2008:Repository/187086161/sdk/metric/v0.34.0</id>
+    <content type="html">&lt;p&gt;Module set experimental-metrics, Version v0.34.0&lt;/p&gt;</content>
+    <link href="https://github.com/open-telemetry/opentelemetry-go/releases/tag/sdk%2Fmetric%2Fv0.34.0" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>MadVikingGod</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from opentelemetry-go - exporters/stdout/stdoutmetric/v0.34.0</title>
+    <updated>2022-12-05T19:44:51Z</updated>
+    <id>tag:github.com,2008:Repository/187086161/exporters/stdout/stdoutmetric/v0.34.0</id>
+    <content type="html">&lt;p&gt;Module set experimental-metrics, Version v0.34.0&lt;/p&gt;</content>
+    <link href="https://github.com/open-telemetry/opentelemetry-go/releases/tag/exporters%2Fstdout%2Fstdoutmetric%2Fv0.34.0" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>MadVikingGod</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from opentelemetry-go - trace/v1.11.2</title>
     <updated>2022-12-05T19:44:35Z</updated>
-    <id>tag:github.com,2008:Repository/187086161/exporters/stdout/stdouttrace/v1.11.2</id>
+    <id>tag:github.com,2008:Repository/187086161/trace/v1.11.2</id>
     <content type="html">&lt;p&gt;Module set stable-v1, Version v1.11.2&lt;/p&gt;</content>
-    <link href="https://github.com/open-telemetry/opentelemetry-go/releases/tag/exporters%2Fstdout%2Fstdouttrace%2Fv1.11.2" rel="alternate"></link>
+    <link href="https://github.com/open-telemetry/opentelemetry-go/releases/tag/trace%2Fv1.11.2" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>MadVikingGod</name>
@@ -840,22 +862,22 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from opentelemetry-go - sdk/v1.11.2</title>
+    <title>Release notes from opentelemetry-go - exporters/stdout/stdouttrace/v1.11.2</title>
     <updated>2022-12-05T19:44:35Z</updated>
-    <id>tag:github.com,2008:Repository/187086161/sdk/v1.11.2</id>
+    <id>tag:github.com,2008:Repository/187086161/exporters/stdout/stdouttrace/v1.11.2</id>
     <content type="html">&lt;p&gt;Module set stable-v1, Version v1.11.2&lt;/p&gt;</content>
-    <link href="https://github.com/open-telemetry/opentelemetry-go/releases/tag/sdk%2Fv1.11.2" rel="alternate"></link>
+    <link href="https://github.com/open-telemetry/opentelemetry-go/releases/tag/exporters%2Fstdout%2Fstdouttrace%2Fv1.11.2" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>MadVikingGod</name>
     </author>
   </entry>
   <entry>
-    <title>Release notes from opentelemetry-go - trace/v1.11.2</title>
+    <title>Release notes from opentelemetry-go - sdk/v1.11.2</title>
     <updated>2022-12-05T19:44:35Z</updated>
-    <id>tag:github.com,2008:Repository/187086161/trace/v1.11.2</id>
+    <id>tag:github.com,2008:Repository/187086161/sdk/v1.11.2</id>
     <content type="html">&lt;p&gt;Module set stable-v1, Version v1.11.2&lt;/p&gt;</content>
-    <link href="https://github.com/open-telemetry/opentelemetry-go/releases/tag/trace%2Fv1.11.2" rel="alternate"></link>
+    <link href="https://github.com/open-telemetry/opentelemetry-go/releases/tag/sdk%2Fv1.11.2" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>MadVikingGod</name>
@@ -1126,11 +1148,55 @@
     </author>
   </entry>
   <entry>
+    <title>Release notes from opentelemetry-operations-go - exporter/collector/v0.34.2</title>
+    <updated>2022-11-29T17:15:55Z</updated>
+    <id>tag:github.com,2008:Repository/244484581/exporter/collector/v0.34.2</id>
+    <content type="html">&lt;p&gt;Fix propagator package in release.go (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1468373574&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/540&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleCloudPlatform/opentelemetry-operations-go/pull/540/hovercard&#34; href=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/pull/540&#34;&gt;#540&lt;/a&gt;)&lt;/p&gt;</content>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/exporter%2Fcollector%2Fv0.34.2" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>damemi</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from opentelemetry-operations-go - exporter/trace/v1.10.2</title>
+    <updated>2022-11-29T17:15:55Z</updated>
+    <id>tag:github.com,2008:Repository/244484581/exporter/trace/v1.10.2</id>
+    <content type="html">&lt;p&gt;Fix propagator package in release.go (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1468373574&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/540&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleCloudPlatform/opentelemetry-operations-go/pull/540/hovercard&#34; href=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/pull/540&#34;&gt;#540&lt;/a&gt;)&lt;/p&gt;</content>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/exporter%2Ftrace%2Fv1.10.2" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>damemi</name>
+    </author>
+  </entry>
+  <entry>
     <title>Release notes from opentelemetry-operations-go - exporter/collector/googlemanagedprometheus/v0.34.2</title>
     <updated>2022-11-29T17:15:55Z</updated>
     <id>tag:github.com,2008:Repository/244484581/exporter/collector/googlemanagedprometheus/v0.34.2</id>
     <content type="html">&lt;p&gt;Fix propagator package in release.go (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1468373574&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/540&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleCloudPlatform/opentelemetry-operations-go/pull/540/hovercard&#34; href=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/pull/540&#34;&gt;#540&lt;/a&gt;)&lt;/p&gt;</content>
     <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/exporter%2Fcollector%2Fgooglemanagedprometheus%2Fv0.34.2" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>damemi</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from opentelemetry-operations-go - example/trace/http/v0.34.2</title>
+    <updated>2022-11-29T17:15:55Z</updated>
+    <id>tag:github.com,2008:Repository/244484581/example/trace/http/v0.34.2</id>
+    <content type="html">&lt;p&gt;Fix propagator package in release.go (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1468373574&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/540&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleCloudPlatform/opentelemetry-operations-go/pull/540/hovercard&#34; href=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/pull/540&#34;&gt;#540&lt;/a&gt;)&lt;/p&gt;</content>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/example%2Ftrace%2Fhttp%2Fv0.34.2" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>damemi</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from opentelemetry-operations-go - exporter/metric/v0.34.2</title>
+    <updated>2022-11-29T17:15:55Z</updated>
+    <id>tag:github.com,2008:Repository/244484581/exporter/metric/v0.34.2</id>
+    <content type="html">&lt;p&gt;Fix propagator package in release.go (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1468373574&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/540&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleCloudPlatform/opentelemetry-operations-go/pull/540/hovercard&#34; href=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/pull/540&#34;&gt;#540&lt;/a&gt;)&lt;/p&gt;</content>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/exporter%2Fmetric%2Fv0.34.2" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>damemi</name>
@@ -1153,50 +1219,6 @@
     <id>tag:github.com,2008:Repository/244484581/example/metric/v0.34.2</id>
     <content type="html">&lt;p&gt;Fix propagator package in release.go (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1468373574&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/540&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleCloudPlatform/opentelemetry-operations-go/pull/540/hovercard&#34; href=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/pull/540&#34;&gt;#540&lt;/a&gt;)&lt;/p&gt;</content>
     <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/example%2Fmetric%2Fv0.34.2" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>damemi</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from opentelemetry-operations-go - exporter/trace/v1.10.2</title>
-    <updated>2022-11-29T17:15:55Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/exporter/trace/v1.10.2</id>
-    <content type="html">&lt;p&gt;Fix propagator package in release.go (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1468373574&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/540&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleCloudPlatform/opentelemetry-operations-go/pull/540/hovercard&#34; href=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/pull/540&#34;&gt;#540&lt;/a&gt;)&lt;/p&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/exporter%2Ftrace%2Fv1.10.2" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>damemi</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from opentelemetry-operations-go - exporter/metric/v0.34.2</title>
-    <updated>2022-11-29T17:15:55Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/exporter/metric/v0.34.2</id>
-    <content type="html">&lt;p&gt;Fix propagator package in release.go (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1468373574&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/540&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleCloudPlatform/opentelemetry-operations-go/pull/540/hovercard&#34; href=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/pull/540&#34;&gt;#540&lt;/a&gt;)&lt;/p&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/exporter%2Fmetric%2Fv0.34.2" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>damemi</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from opentelemetry-operations-go - example/trace/http/v0.34.2</title>
-    <updated>2022-11-29T17:15:55Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/example/trace/http/v0.34.2</id>
-    <content type="html">&lt;p&gt;Fix propagator package in release.go (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1468373574&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/540&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleCloudPlatform/opentelemetry-operations-go/pull/540/hovercard&#34; href=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/pull/540&#34;&gt;#540&lt;/a&gt;)&lt;/p&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/example%2Ftrace%2Fhttp%2Fv0.34.2" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>damemi</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from opentelemetry-operations-go - exporter/collector/v0.34.2</title>
-    <updated>2022-11-29T17:15:55Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/exporter/collector/v0.34.2</id>
-    <content type="html">&lt;p&gt;Fix propagator package in release.go (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1468373574&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/540&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleCloudPlatform/opentelemetry-operations-go/pull/540/hovercard&#34; href=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/pull/540&#34;&gt;#540&lt;/a&gt;)&lt;/p&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/exporter%2Fcollector%2Fv0.34.2" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>damemi</name>
@@ -2619,28 +2641,6 @@
     <summary type="html"></summary>
     <author>
       <name>kpt-robot</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from cli - GitHub CLI 2.17.0</title>
-    <updated>2022-10-04T21:42:58Z</updated>
-    <id>tag:github.com,2008:Repository/212613049/v2.17.0</id>
-    <content type="html">&lt;h2&gt;What&#39;s Changed&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Add &lt;code&gt;gh auth token&lt;/code&gt; by &lt;a class=&#34;user-mention notranslate&#34; data-hovercard-type=&#34;user&#34; data-hovercard-url=&#34;/users/nsmag/hovercard&#34; data-octo-click=&#34;hovercard-link-click&#34; data-octo-dimensions=&#34;link_type:self&#34; href=&#34;https://github.com/nsmag&#34;&gt;@nsmag&lt;/a&gt; in &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1382089563&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/cli/cli/issues/6324&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/cli/cli/pull/6324/hovercard&#34; href=&#34;https://github.com/cli/cli/pull/6324&#34;&gt;#6324&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Add flag to pr merge allowing the selection of the merge commit email by &lt;a class=&#34;user-mention notranslate&#34; data-hovercard-type=&#34;user&#34; data-hovercard-url=&#34;/users/aacoakley/hovercard&#34; data-octo-click=&#34;hovercard-link-click&#34; data-octo-dimensions=&#34;link_type:self&#34; href=&#34;https://github.com/aacoakley&#34;&gt;@aacoakley&lt;/a&gt; in &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1393485740&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/cli/cli/issues/6382&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/cli/cli/pull/6382/hovercard&#34; href=&#34;https://github.com/cli/cli/pull/6382&#34;&gt;#6382&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Fix color output for non-256 color terminals by &lt;a class=&#34;user-mention notranslate&#34; data-hovercard-type=&#34;user&#34; data-hovercard-url=&#34;/users/mislav/hovercard&#34; data-octo-click=&#34;hovercard-link-click&#34; data-octo-dimensions=&#34;link_type:self&#34; href=&#34;https://github.com/mislav&#34;&gt;@mislav&lt;/a&gt; in &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1388148770&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/cli/cli/issues/6356&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/cli/cli/pull/6356/hovercard&#34; href=&#34;https://github.com/cli/cli/pull/6356&#34;&gt;#6356&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;surface merge conflicts in pr status by &lt;a class=&#34;user-mention notranslate&#34; data-hovercard-type=&#34;user&#34; data-hovercard-url=&#34;/users/mntlty/hovercard&#34; data-octo-click=&#34;hovercard-link-click&#34; data-octo-dimensions=&#34;link_type:self&#34; href=&#34;https://github.com/mntlty&#34;&gt;@mntlty&lt;/a&gt; in &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1317491897&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/cli/cli/issues/5999&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/cli/cli/pull/5999/hovercard&#34; href=&#34;https://github.com/cli/cli/pull/5999&#34;&gt;#5999&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Add header to the &lt;code&gt;gpg-key list&lt;/code&gt; output by &lt;a class=&#34;user-mention notranslate&#34; data-hovercard-type=&#34;user&#34; data-hovercard-url=&#34;/users/nsmag/hovercard&#34; data-octo-click=&#34;hovercard-link-click&#34; data-octo-dimensions=&#34;link_type:self&#34; href=&#34;https://github.com/nsmag&#34;&gt;@nsmag&lt;/a&gt; in &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1387681567&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/cli/cli/issues/6353&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/cli/cli/pull/6353/hovercard&#34; href=&#34;https://github.com/cli/cli/pull/6353&#34;&gt;#6353&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Fix Ubuntu installation instructions for curl by &lt;a class=&#34;user-mention notranslate&#34; data-hovercard-type=&#34;user&#34; data-hovercard-url=&#34;/users/mislav/hovercard&#34; data-octo-click=&#34;hovercard-link-click&#34; data-octo-dimensions=&#34;link_type:self&#34; href=&#34;https://github.com/mislav&#34;&gt;@mislav&lt;/a&gt; in &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1388190740&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/cli/cli/issues/6357&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/cli/cli/pull/6357/hovercard&#34; href=&#34;https://github.com/cli/cli/pull/6357&#34;&gt;#6357&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Fix missing text in &#34;man gh-codespace-ssh&#34; by &lt;a class=&#34;user-mention notranslate&#34; data-hovercard-type=&#34;user&#34; data-hovercard-url=&#34;/users/anthonyfok/hovercard&#34; data-octo-click=&#34;hovercard-link-click&#34; data-octo-dimensions=&#34;link_type:self&#34; href=&#34;https://github.com/anthonyfok&#34;&gt;@anthonyfok&lt;/a&gt; in &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1389883927&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/cli/cli/issues/6368&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/cli/cli/pull/6368/hovercard&#34; href=&#34;https://github.com/cli/cli/pull/6368&#34;&gt;#6368&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;update formatting help by &lt;a class=&#34;user-mention notranslate&#34; data-hovercard-type=&#34;user&#34; data-hovercard-url=&#34;/users/mntlty/hovercard&#34; data-octo-click=&#34;hovercard-link-click&#34; data-octo-dimensions=&#34;link_type:self&#34; href=&#34;https://github.com/mntlty&#34;&gt;@mntlty&lt;/a&gt; in &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1388672080&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/cli/cli/issues/6359&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/cli/cli/pull/6359/hovercard&#34; href=&#34;https://github.com/cli/cli/pull/6359&#34;&gt;#6359&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;add and use ConfirmDeletion in {label,repo} delete by &lt;a class=&#34;user-mention notranslate&#34; data-hovercard-type=&#34;user&#34; data-hovercard-url=&#34;/users/vilmibm/hovercard&#34; data-octo-click=&#34;hovercard-link-click&#34; data-octo-dimensions=&#34;link_type:self&#34; href=&#34;https://github.com/vilmibm&#34;&gt;@vilmibm&lt;/a&gt; in &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1381647749&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/cli/cli/issues/6320&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/cli/cli/pull/6320/hovercard&#34; href=&#34;https://github.com/cli/cli/pull/6320&#34;&gt;#6320&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Add more help to &#34;template&#34; flags by &lt;a class=&#34;user-mention notranslate&#34; data-hovercard-type=&#34;user&#34; data-hovercard-url=&#34;/users/heaths/hovercard&#34; data-octo-click=&#34;hovercard-link-click&#34; data-octo-dimensions=&#34;link_type:self&#34; href=&#34;https://github.com/heaths&#34;&gt;@heaths&lt;/a&gt; in &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1376958157&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/cli/cli/issues/6296&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/cli/cli/pull/6296/hovercard&#34; href=&#34;https://github.com/cli/cli/pull/6296&#34;&gt;#6296&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2&gt;New Contributors&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a class=&#34;user-mention notranslate&#34; data-hovercard-type=&#34;user&#34; data-hovercard-url=&#34;/users/aacoakley/hovercard&#34; data-octo-click=&#34;hovercard-link-click&#34; data-octo-dimensions=&#34;link_type:self&#34; href=&#34;https://github.com/aacoakley&#34;&gt;@aacoakley&lt;/a&gt; made their first contribution in &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1393485740&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/cli/cli/issues/6382&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/cli/cli/pull/6382/hovercard&#34; href=&#34;https://github.com/cli/cli/pull/6382&#34;&gt;#6382&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: &lt;a class=&#34;commit-link&#34; href=&#34;https://github.com/cli/cli/compare/v2.16.1...v2.17.0&#34;&gt;&lt;tt&gt;v2.16.1...v2.17.0&lt;/tt&gt;&lt;/a&gt;&lt;/p&gt;</content>
-    <link href="https://github.com/cli/cli/releases/tag/v2.17.0" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>github-actions[bot]</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from cli - GitHub CLI 2.17.0-pre0</title>
-    <updated>2022-10-04T20:51:28Z</updated>
-    <id>tag:github.com,2008:Repository/212613049/v2.17.0-pre0</id>
-    <content type="html">&lt;h2&gt;What&#39;s Changed&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Fix color output for non-256 color terminals by &lt;a class=&#34;user-mention notranslate&#34; data-hovercard-type=&#34;user&#34; data-hovercard-url=&#34;/users/mislav/hovercard&#34; data-octo-click=&#34;hovercard-link-click&#34; data-octo-dimensions=&#34;link_type:self&#34; href=&#34;https://github.com/mislav&#34;&gt;@mislav&lt;/a&gt; in &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1388148770&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/cli/cli/issues/6356&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/cli/cli/pull/6356/hovercard&#34; href=&#34;https://github.com/cli/cli/pull/6356&#34;&gt;#6356&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Add header to the &lt;code&gt;gpg-key list&lt;/code&gt; output by &lt;a class=&#34;user-mention notranslate&#34; data-hovercard-type=&#34;user&#34; data-hovercard-url=&#34;/users/nsmag/hovercard&#34; data-octo-click=&#34;hovercard-link-click&#34; data-octo-dimensions=&#34;link_type:self&#34; href=&#34;https://github.com/nsmag&#34;&gt;@nsmag&lt;/a&gt; in &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1387681567&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/cli/cli/issues/6353&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/cli/cli/pull/6353/hovercard&#34; href=&#34;https://github.com/cli/cli/pull/6353&#34;&gt;#6353&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Fix Ubuntu installation instructions for curl by &lt;a class=&#34;user-mention notranslate&#34; data-hovercard-type=&#34;user&#34; data-hovercard-url=&#34;/users/mislav/hovercard&#34; data-octo-click=&#34;hovercard-link-click&#34; data-octo-dimensions=&#34;link_type:self&#34; href=&#34;https://github.com/mislav&#34;&gt;@mislav&lt;/a&gt; in &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1388190740&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/cli/cli/issues/6357&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/cli/cli/pull/6357/hovercard&#34; href=&#34;https://github.com/cli/cli/pull/6357&#34;&gt;#6357&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Fix missing text in &#34;man gh-codespace-ssh&#34; by &lt;a class=&#34;user-mention notranslate&#34; data-hovercard-type=&#34;user&#34; data-hovercard-url=&#34;/users/anthonyfok/hovercard&#34; data-octo-click=&#34;hovercard-link-click&#34; data-octo-dimensions=&#34;link_type:self&#34; href=&#34;https://github.com/anthonyfok&#34;&gt;@anthonyfok&lt;/a&gt; in &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1389883927&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/cli/cli/issues/6368&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/cli/cli/pull/6368/hovercard&#34; href=&#34;https://github.com/cli/cli/pull/6368&#34;&gt;#6368&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;surface merge conflicts in pr status by &lt;a class=&#34;user-mention notranslate&#34; data-hovercard-type=&#34;user&#34; data-hovercard-url=&#34;/users/mntlty/hovercard&#34; data-octo-click=&#34;hovercard-link-click&#34; data-octo-dimensions=&#34;link_type:self&#34; href=&#34;https://github.com/mntlty&#34;&gt;@mntlty&lt;/a&gt; in &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1317491897&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/cli/cli/issues/5999&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/cli/cli/pull/5999/hovercard&#34; href=&#34;https://github.com/cli/cli/pull/5999&#34;&gt;#5999&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;update formatting help by &lt;a class=&#34;user-mention notranslate&#34; data-hovercard-type=&#34;user&#34; data-hovercard-url=&#34;/users/mntlty/hovercard&#34; data-octo-click=&#34;hovercard-link-click&#34; data-octo-dimensions=&#34;link_type:self&#34; href=&#34;https://github.com/mntlty&#34;&gt;@mntlty&lt;/a&gt; in &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1388672080&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/cli/cli/issues/6359&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/cli/cli/pull/6359/hovercard&#34; href=&#34;https://github.com/cli/cli/pull/6359&#34;&gt;#6359&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;add and use ConfirmDeletion in {label,repo} delete by &lt;a class=&#34;user-mention notranslate&#34; data-hovercard-type=&#34;user&#34; data-hovercard-url=&#34;/users/vilmibm/hovercard&#34; data-octo-click=&#34;hovercard-link-click&#34; data-octo-dimensions=&#34;link_type:self&#34; href=&#34;https://github.com/vilmibm&#34;&gt;@vilmibm&lt;/a&gt; in &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1381647749&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/cli/cli/issues/6320&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/cli/cli/pull/6320/hovercard&#34; href=&#34;https://github.com/cli/cli/pull/6320&#34;&gt;#6320&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Add flag to pr merge allowing the selection of the merge commit email by &lt;a class=&#34;user-mention notranslate&#34; data-hovercard-type=&#34;user&#34; data-hovercard-url=&#34;/users/aacoakley/hovercard&#34; data-octo-click=&#34;hovercard-link-click&#34; data-octo-dimensions=&#34;link_type:self&#34; href=&#34;https://github.com/aacoakley&#34;&gt;@aacoakley&lt;/a&gt; in &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1393485740&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/cli/cli/issues/6382&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/cli/cli/pull/6382/hovercard&#34; href=&#34;https://github.com/cli/cli/pull/6382&#34;&gt;#6382&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Add more help to &#34;template&#34; flags by &lt;a class=&#34;user-mention notranslate&#34; data-hovercard-type=&#34;user&#34; data-hovercard-url=&#34;/users/heaths/hovercard&#34; data-octo-click=&#34;hovercard-link-click&#34; data-octo-dimensions=&#34;link_type:self&#34; href=&#34;https://github.com/heaths&#34;&gt;@heaths&lt;/a&gt; in &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1376958157&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/cli/cli/issues/6296&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/cli/cli/pull/6296/hovercard&#34; href=&#34;https://github.com/cli/cli/pull/6296&#34;&gt;#6296&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Add &lt;code&gt;gh auth token&lt;/code&gt; by &lt;a class=&#34;user-mention notranslate&#34; data-hovercard-type=&#34;user&#34; data-hovercard-url=&#34;/users/nsmag/hovercard&#34; data-octo-click=&#34;hovercard-link-click&#34; data-octo-dimensions=&#34;link_type:self&#34; href=&#34;https://github.com/nsmag&#34;&gt;@nsmag&lt;/a&gt; in &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1382089563&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/cli/cli/issues/6324&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/cli/cli/pull/6324/hovercard&#34; href=&#34;https://github.com/cli/cli/pull/6324&#34;&gt;#6324&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2&gt;New Contributors&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a class=&#34;user-mention notranslate&#34; data-hovercard-type=&#34;user&#34; data-hovercard-url=&#34;/users/aacoakley/hovercard&#34; data-octo-click=&#34;hovercard-link-click&#34; data-octo-dimensions=&#34;link_type:self&#34; href=&#34;https://github.com/aacoakley&#34;&gt;@aacoakley&lt;/a&gt; made their first contribution in &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1393485740&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/cli/cli/issues/6382&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/cli/cli/pull/6382/hovercard&#34; href=&#34;https://github.com/cli/cli/pull/6382&#34;&gt;#6382&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: &lt;a class=&#34;commit-link&#34; href=&#34;https://github.com/cli/cli/compare/v2.16.1...v2.17.0-pre0&#34;&gt;&lt;tt&gt;v2.16.1...v2.17.0-pre0&lt;/tt&gt;&lt;/a&gt;&lt;/p&gt;</content>
-    <link href="https://github.com/cli/cli/releases/tag/v2.17.0-pre0" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>github-actions[bot]</name>
     </author>
   </entry>
   <entry>
@@ -7033,22 +7033,22 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from triangula - v1.1.5</title>
+    <title>Release notes from triangula - v1.1.6</title>
     <updated>2021-05-11T13:31:09Z</updated>
-    <id>tag:github.com,2008:Repository/354015172/v1.1.5</id>
+    <id>tag:github.com,2008:Repository/354015172/v1.1.6</id>
     <content type="html">&lt;p&gt;Refactor for more flexibility&lt;/p&gt;</content>
-    <link href="https://github.com/rh12503/triangula/releases/tag/v1.1.5" rel="alternate"></link>
+    <link href="https://github.com/rh12503/triangula/releases/tag/v1.1.6" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>rh12503</name>
     </author>
   </entry>
   <entry>
-    <title>Release notes from triangula - v1.1.6</title>
+    <title>Release notes from triangula - v1.1.5</title>
     <updated>2021-05-11T13:31:09Z</updated>
-    <id>tag:github.com,2008:Repository/354015172/v1.1.6</id>
+    <id>tag:github.com,2008:Repository/354015172/v1.1.5</id>
     <content type="html">&lt;p&gt;Refactor for more flexibility&lt;/p&gt;</content>
-    <link href="https://github.com/rh12503/triangula/releases/tag/v1.1.6" rel="alternate"></link>
+    <link href="https://github.com/rh12503/triangula/releases/tag/v1.1.5" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>rh12503</name>
