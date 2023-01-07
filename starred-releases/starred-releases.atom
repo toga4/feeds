@@ -348,7 +348,7 @@
     <title>Release notes from moby - v23.0.0-rc.1</title>
     <updated>2022-12-27T13:36:30Z</updated>
     <id>tag:github.com,2008:Repository/7691631/v23.0.0-rc.1</id>
-    <content type="html">&lt;p&gt;This is a pre-release of the upcoming 23.0.0 release.&lt;/p&gt;&#xA;&lt;p&gt;Pre-releases are intended for testing new releases: &lt;strong&gt;only install in a test environment!&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;div class=&#34;snippet-clipboard-content notranslate position-relative overflow-auto&#34; data-snippet-clipboard-copy-content=&#34;curl -fsSL https://get.docker.com -o get-docker.sh&#xA;sudo CHANNEL=test sh get-docker.sh&#34;&gt;&lt;pre lang=&#34;bash&#34; class=&#34;notranslate&#34;&gt;&lt;code&gt;curl -fsSL https://get.docker.com -o get-docker.sh&#xA;sudo CHANNEL=test sh get-docker.sh&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;Starting with the 23.0.0 release, we&#39;re moving away from using CalVer versioning,&lt;br&gt;&#xA;and use versioning that&#39;s using SemVer &lt;em&gt;format&lt;/em&gt;. Changing the version format is&lt;br&gt;&#xA;a stepping-stone towards go module compatibility, but the repository does not&lt;br&gt;&#xA;yet use go-modules, and still requires using a &#34;+incompatible&#34; version; we&#39;ll&lt;br&gt;&#xA;be working towards go module compatibility in a future release.&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;h3&gt;Known issues:&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;There is no changelog yet; an overview of pull requests included in this release can be found on GitHub:&#xA;&lt;ul&gt;&#xA;&lt;li&gt;docker cli: &lt;a href=&#34;https://github.com/docker/cli/pulls?q=is%3Apr+milestone%3A23.0.0+is%3Amerged&#34;&gt;all pull requests for 23.0.0&lt;/a&gt; / &lt;a href=&#34;https://github.com/docker/cli/pulls?q=is%3Apr+milestone%3A23.0.0+label%3Aimpact%2Fchangelog+is%3Amerged&#34;&gt;all &#34;changelog&#34; pull requests for 23.0.0&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;docker engine: &lt;a href=&#34;https://github.com/moby/moby/pulls?q=is%3Apr+milestone%3A23.0.0+is%3Amerged&#34;&gt;all pull requests for 23.0.0&lt;/a&gt; / &lt;a href=&#34;https://github.com/moby/moby/pulls?q=is%3Apr+milestone%3A23.0.0+label%3Aimpact%2Fchangelog+is%3Amerged&#34;&gt;all &#34;changelog&#34; pull requests for 23.0.0&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;Static binaries (&lt;code&gt;.tar.gz&lt;/code&gt;) are no longer include cli plugins; use the deb/rpm packages, or manual installation instructions from the &lt;a href=&#34;https://github.com/docker/buildx#manual-download&#34;&gt;buildx github repository&lt;/a&gt; and  &lt;a href=&#34;https://github.com/docker/compose/#where-to-get-docker-compose&#34;&gt;docker compose github repository&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Static binaries for &lt;code&gt;dockerd&lt;/code&gt; are broken on &lt;code&gt;armhf&lt;/code&gt; and &lt;code&gt;armel&lt;/code&gt; (32-bit).&lt;/li&gt;&#xA;&lt;li&gt;There are no packages available yet for the s390x and ppc64le architectures&lt;/li&gt;&#xA;&lt;li&gt;There may be bugs! &lt;g-emoji class=&#34;g-emoji&#34; alias=&#34;warning&#34; fallback-src=&#34;https://github.githubassets.com/images/icons/emoji/unicode/26a0.png&#34;&gt;⚠️&lt;/g-emoji&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Bugs and regressions can be reported in these issue trackers:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Related to the CLI: &lt;a href=&#34;https://github.com/docker/cli/issues&#34;&gt;https://github.com/docker/cli/issues&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Related to the Docker Engine &lt;a href=&#34;https://github.com/moby/moby/issues&#34;&gt;https://github.com/moby/moby/issues&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;When reporting issues, include &lt;code&gt;[23.0.0-rc]&lt;/code&gt; in the issue title&lt;/p&gt;</content>
+    <content type="html">&lt;p&gt;This is a pre-release of the upcoming 23.0.0 release.&lt;/p&gt;&#xA;&lt;p&gt;Pre-releases are intended for testing new releases: &lt;strong&gt;only install in a test environment!&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;div class=&#34;highlight highlight-source-shell notranslate position-relative overflow-auto&#34; data-snippet-clipboard-copy-content=&#34;curl -fsSL https://get.docker.com -o get-docker.sh&#xA;sudo CHANNEL=test sh get-docker.sh&#34;&gt;&lt;pre&gt;curl -fsSL https://get.docker.com -o get-docker.sh&#xA;sudo CHANNEL=test sh get-docker.sh&lt;/pre&gt;&lt;/div&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;Starting with the 23.0.0 release, we&#39;re moving away from using CalVer versioning,&lt;br&gt;&#xA;and use versioning that&#39;s using SemVer &lt;em&gt;format&lt;/em&gt;. Changing the version format is&lt;br&gt;&#xA;a stepping-stone towards go module compatibility, but the repository does not&lt;br&gt;&#xA;yet use go-modules, and still requires using a &#34;+incompatible&#34; version; we&#39;ll&lt;br&gt;&#xA;be working towards go module compatibility in a future release.&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;h3&gt;Known issues:&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;There is no changelog yet; an overview of pull requests included in this release can be found on GitHub:&#xA;&lt;ul&gt;&#xA;&lt;li&gt;docker cli: &lt;a href=&#34;https://github.com/docker/cli/pulls?q=is%3Apr+milestone%3A23.0.0+is%3Amerged&#34;&gt;all pull requests for 23.0.0&lt;/a&gt; / &lt;a href=&#34;https://github.com/docker/cli/pulls?q=is%3Apr+milestone%3A23.0.0+label%3Aimpact%2Fchangelog+is%3Amerged&#34;&gt;all &#34;changelog&#34; pull requests for 23.0.0&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;docker engine: &lt;a href=&#34;https://github.com/moby/moby/pulls?q=is%3Apr+milestone%3A23.0.0+is%3Amerged&#34;&gt;all pull requests for 23.0.0&lt;/a&gt; / &lt;a href=&#34;https://github.com/moby/moby/pulls?q=is%3Apr+milestone%3A23.0.0+label%3Aimpact%2Fchangelog+is%3Amerged&#34;&gt;all &#34;changelog&#34; pull requests for 23.0.0&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;Static binaries (&lt;code&gt;.tar.gz&lt;/code&gt;) are no longer include cli plugins; use the deb/rpm packages, or manual installation instructions from the &lt;a href=&#34;https://github.com/docker/buildx#manual-download&#34;&gt;buildx github repository&lt;/a&gt; and  &lt;a href=&#34;https://github.com/docker/compose/#where-to-get-docker-compose&#34;&gt;docker compose github repository&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Static binaries for &lt;code&gt;dockerd&lt;/code&gt; are broken on &lt;code&gt;armhf&lt;/code&gt; and &lt;code&gt;armel&lt;/code&gt; (32-bit).&lt;/li&gt;&#xA;&lt;li&gt;There are no packages available yet for the s390x and ppc64le architectures&lt;/li&gt;&#xA;&lt;li&gt;There may be bugs! &lt;g-emoji class=&#34;g-emoji&#34; alias=&#34;warning&#34; fallback-src=&#34;https://github.githubassets.com/images/icons/emoji/unicode/26a0.png&#34;&gt;⚠️&lt;/g-emoji&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Bugs and regressions can be reported in these issue trackers:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Related to the CLI: &lt;a href=&#34;https://github.com/docker/cli/issues&#34;&gt;https://github.com/docker/cli/issues&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Related to the Docker Engine &lt;a href=&#34;https://github.com/moby/moby/issues&#34;&gt;https://github.com/moby/moby/issues&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;When reporting issues, include &lt;code&gt;[23.0.0-rc]&lt;/code&gt; in the issue title&lt;/p&gt;</content>
     <link href="https://github.com/moby/moby/releases/tag/v23.0.0-rc.1" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
@@ -983,6 +983,17 @@
     </author>
   </entry>
   <entry>
+    <title>Release notes from opentelemetry-go-contrib - samplers/aws/xray/v0.6.0</title>
+    <updated>2022-12-05T21:47:16Z</updated>
+    <id>tag:github.com,2008:Repository/242202166/samplers/aws/xray/v0.6.0</id>
+    <content type="html">&lt;p&gt;Module set experimental-samplers, Version v0.6.0&lt;/p&gt;</content>
+    <link href="https://github.com/open-telemetry/opentelemetry-go-contrib/releases/tag/samplers%2Faws%2Fxray%2Fv0.6.0" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>MadVikingGod</name>
+    </author>
+  </entry>
+  <entry>
     <title>Release notes from opentelemetry-go-contrib - samplers/probability/consistent/v0.6.0</title>
     <updated>2022-12-05T21:47:16Z</updated>
     <id>tag:github.com,2008:Repository/242202166/samplers/probability/consistent/v0.6.0</id>
@@ -1016,17 +1027,6 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from opentelemetry-go-contrib - samplers/aws/xray/v0.6.0</title>
-    <updated>2022-12-05T21:47:16Z</updated>
-    <id>tag:github.com,2008:Repository/242202166/samplers/aws/xray/v0.6.0</id>
-    <content type="html">&lt;p&gt;Module set experimental-samplers, Version v0.6.0&lt;/p&gt;</content>
-    <link href="https://github.com/open-telemetry/opentelemetry-go-contrib/releases/tag/samplers%2Faws%2Fxray%2Fv0.6.0" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>MadVikingGod</name>
-    </author>
-  </entry>
-  <entry>
     <title>Release notes from opentelemetry-go-contrib - zpages/v0.37.0</title>
     <updated>2022-12-05T21:46:57Z</updated>
     <id>tag:github.com,2008:Repository/242202166/zpages/v0.37.0</id>
@@ -1038,22 +1038,22 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from opentelemetry-go-contrib - propagators/opencensus/v0.37.0</title>
+    <title>Release notes from opentelemetry-go-contrib - propagators/opencensus/examples/v0.37.0</title>
     <updated>2022-12-05T21:46:56Z</updated>
-    <id>tag:github.com,2008:Repository/242202166/propagators/opencensus/v0.37.0</id>
+    <id>tag:github.com,2008:Repository/242202166/propagators/opencensus/examples/v0.37.0</id>
     <content type="html">&lt;p&gt;Module set experimental-instrumentation, Version v0.37.0&lt;/p&gt;</content>
-    <link href="https://github.com/open-telemetry/opentelemetry-go-contrib/releases/tag/propagators%2Fopencensus%2Fv0.37.0" rel="alternate"></link>
+    <link href="https://github.com/open-telemetry/opentelemetry-go-contrib/releases/tag/propagators%2Fopencensus%2Fexamples%2Fv0.37.0" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>MadVikingGod</name>
     </author>
   </entry>
   <entry>
-    <title>Release notes from opentelemetry-go-contrib - propagators/opencensus/examples/v0.37.0</title>
+    <title>Release notes from opentelemetry-go-contrib - propagators/opencensus/v0.37.0</title>
     <updated>2022-12-05T21:46:56Z</updated>
-    <id>tag:github.com,2008:Repository/242202166/propagators/opencensus/examples/v0.37.0</id>
+    <id>tag:github.com,2008:Repository/242202166/propagators/opencensus/v0.37.0</id>
     <content type="html">&lt;p&gt;Module set experimental-instrumentation, Version v0.37.0&lt;/p&gt;</content>
-    <link href="https://github.com/open-telemetry/opentelemetry-go-contrib/releases/tag/propagators%2Fopencensus%2Fexamples%2Fv0.37.0" rel="alternate"></link>
+    <link href="https://github.com/open-telemetry/opentelemetry-go-contrib/releases/tag/propagators%2Fopencensus%2Fv0.37.0" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>MadVikingGod</name>
@@ -1093,6 +1093,28 @@
     </author>
   </entry>
   <entry>
+    <title>Release notes from opentelemetry-go - exporters/prometheus/v0.34.0</title>
+    <updated>2022-12-05T19:44:51Z</updated>
+    <id>tag:github.com,2008:Repository/187086161/exporters/prometheus/v0.34.0</id>
+    <content type="html">&lt;p&gt;Module set experimental-metrics, Version v0.34.0&lt;/p&gt;</content>
+    <link href="https://github.com/open-telemetry/opentelemetry-go/releases/tag/exporters%2Fprometheus%2Fv0.34.0" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>MadVikingGod</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from opentelemetry-go - exporters/stdout/stdoutmetric/v0.34.0</title>
+    <updated>2022-12-05T19:44:51Z</updated>
+    <id>tag:github.com,2008:Repository/187086161/exporters/stdout/stdoutmetric/v0.34.0</id>
+    <content type="html">&lt;p&gt;Module set experimental-metrics, Version v0.34.0&lt;/p&gt;</content>
+    <link href="https://github.com/open-telemetry/opentelemetry-go/releases/tag/exporters%2Fstdout%2Fstdoutmetric%2Fv0.34.0" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>MadVikingGod</name>
+    </author>
+  </entry>
+  <entry>
     <title>Release notes from opentelemetry-go - metric/v0.34.0</title>
     <updated>2022-12-05T19:44:51Z</updated>
     <id>tag:github.com,2008:Repository/187086161/metric/v0.34.0</id>
@@ -1115,33 +1137,11 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from opentelemetry-go - exporters/stdout/stdoutmetric/v0.34.0</title>
-    <updated>2022-12-05T19:44:51Z</updated>
-    <id>tag:github.com,2008:Repository/187086161/exporters/stdout/stdoutmetric/v0.34.0</id>
-    <content type="html">&lt;p&gt;Module set experimental-metrics, Version v0.34.0&lt;/p&gt;</content>
-    <link href="https://github.com/open-telemetry/opentelemetry-go/releases/tag/exporters%2Fstdout%2Fstdoutmetric%2Fv0.34.0" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>MadVikingGod</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from opentelemetry-go - exporters/prometheus/v0.34.0</title>
-    <updated>2022-12-05T19:44:51Z</updated>
-    <id>tag:github.com,2008:Repository/187086161/exporters/prometheus/v0.34.0</id>
-    <content type="html">&lt;p&gt;Module set experimental-metrics, Version v0.34.0&lt;/p&gt;</content>
-    <link href="https://github.com/open-telemetry/opentelemetry-go/releases/tag/exporters%2Fprometheus%2Fv0.34.0" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>MadVikingGod</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from opentelemetry-go - exporters/otlp/otlptrace/v1.11.2</title>
+    <title>Release notes from opentelemetry-go - sdk/v1.11.2</title>
     <updated>2022-12-05T19:44:35Z</updated>
-    <id>tag:github.com,2008:Repository/187086161/exporters/otlp/otlptrace/v1.11.2</id>
+    <id>tag:github.com,2008:Repository/187086161/sdk/v1.11.2</id>
     <content type="html">&lt;p&gt;Module set stable-v1, Version v1.11.2&lt;/p&gt;</content>
-    <link href="https://github.com/open-telemetry/opentelemetry-go/releases/tag/exporters%2Fotlp%2Fotlptrace%2Fv1.11.2" rel="alternate"></link>
+    <link href="https://github.com/open-telemetry/opentelemetry-go/releases/tag/sdk%2Fv1.11.2" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>MadVikingGod</name>
@@ -1170,11 +1170,11 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from opentelemetry-go - sdk/v1.11.2</title>
+    <title>Release notes from opentelemetry-go - exporters/otlp/otlptrace/v1.11.2</title>
     <updated>2022-12-05T19:44:35Z</updated>
-    <id>tag:github.com,2008:Repository/187086161/sdk/v1.11.2</id>
+    <id>tag:github.com,2008:Repository/187086161/exporters/otlp/otlptrace/v1.11.2</id>
     <content type="html">&lt;p&gt;Module set stable-v1, Version v1.11.2&lt;/p&gt;</content>
-    <link href="https://github.com/open-telemetry/opentelemetry-go/releases/tag/sdk%2Fv1.11.2" rel="alternate"></link>
+    <link href="https://github.com/open-telemetry/opentelemetry-go/releases/tag/exporters%2Fotlp%2Fotlptrace%2Fv1.11.2" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>MadVikingGod</name>
@@ -1456,6 +1456,28 @@
     </author>
   </entry>
   <entry>
+    <title>Release notes from opentelemetry-operations-go - internal/cloudmock/v0.34.2</title>
+    <updated>2022-11-29T17:15:55Z</updated>
+    <id>tag:github.com,2008:Repository/244484581/internal/cloudmock/v0.34.2</id>
+    <content type="html">&lt;p&gt;Fix propagator package in release.go (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1468373574&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/540&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleCloudPlatform/opentelemetry-operations-go/pull/540/hovercard&#34; href=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/pull/540&#34;&gt;#540&lt;/a&gt;)&lt;/p&gt;</content>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/internal%2Fcloudmock%2Fv0.34.2" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>damemi</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from opentelemetry-operations-go - example/metric/v0.34.2</title>
+    <updated>2022-11-29T17:15:55Z</updated>
+    <id>tag:github.com,2008:Repository/244484581/example/metric/v0.34.2</id>
+    <content type="html">&lt;p&gt;Fix propagator package in release.go (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1468373574&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/540&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleCloudPlatform/opentelemetry-operations-go/pull/540/hovercard&#34; href=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/pull/540&#34;&gt;#540&lt;/a&gt;)&lt;/p&gt;</content>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/example%2Fmetric%2Fv0.34.2" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>damemi</name>
+    </author>
+  </entry>
+  <entry>
     <title>Release notes from opentelemetry-operations-go - example/trace/http/v0.34.2</title>
     <updated>2022-11-29T17:15:55Z</updated>
     <id>tag:github.com,2008:Repository/244484581/example/trace/http/v0.34.2</id>
@@ -1478,44 +1500,11 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from opentelemetry-operations-go - propagator/v0.34.2</title>
+    <title>Release notes from opentelemetry-operations-go - exporter/collector/v0.34.2</title>
     <updated>2022-11-29T17:15:55Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/propagator/v0.34.2</id>
+    <id>tag:github.com,2008:Repository/244484581/exporter/collector/v0.34.2</id>
     <content type="html">&lt;p&gt;Fix propagator package in release.go (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1468373574&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/540&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleCloudPlatform/opentelemetry-operations-go/pull/540/hovercard&#34; href=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/pull/540&#34;&gt;#540&lt;/a&gt;)&lt;/p&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/propagator%2Fv0.34.2" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>damemi</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from opentelemetry-operations-go - internal/resourcemapping/v0.34.2</title>
-    <updated>2022-11-29T17:15:55Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/internal/resourcemapping/v0.34.2</id>
-    <content type="html">&lt;p&gt;Fix propagator package in release.go (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1468373574&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/540&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleCloudPlatform/opentelemetry-operations-go/pull/540/hovercard&#34; href=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/pull/540&#34;&gt;#540&lt;/a&gt;)&lt;/p&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/internal%2Fresourcemapping%2Fv0.34.2" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>damemi</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from opentelemetry-operations-go - internal/cloudmock/v0.34.2</title>
-    <updated>2022-11-29T17:15:55Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/internal/cloudmock/v0.34.2</id>
-    <content type="html">&lt;p&gt;Fix propagator package in release.go (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1468373574&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/540&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleCloudPlatform/opentelemetry-operations-go/pull/540/hovercard&#34; href=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/pull/540&#34;&gt;#540&lt;/a&gt;)&lt;/p&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/internal%2Fcloudmock%2Fv0.34.2" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>damemi</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from opentelemetry-operations-go - exporter/trace/v1.10.2</title>
-    <updated>2022-11-29T17:15:55Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/exporter/trace/v1.10.2</id>
-    <content type="html">&lt;p&gt;Fix propagator package in release.go (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1468373574&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/540&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleCloudPlatform/opentelemetry-operations-go/pull/540/hovercard&#34; href=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/pull/540&#34;&gt;#540&lt;/a&gt;)&lt;/p&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/exporter%2Ftrace%2Fv1.10.2" rel="alternate"></link>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/exporter%2Fcollector%2Fv0.34.2" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>damemi</name>
@@ -1533,22 +1522,33 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from opentelemetry-operations-go - example/metric/v0.34.2</title>
+    <title>Release notes from opentelemetry-operations-go - exporter/trace/v1.10.2</title>
     <updated>2022-11-29T17:15:55Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/example/metric/v0.34.2</id>
+    <id>tag:github.com,2008:Repository/244484581/exporter/trace/v1.10.2</id>
     <content type="html">&lt;p&gt;Fix propagator package in release.go (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1468373574&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/540&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleCloudPlatform/opentelemetry-operations-go/pull/540/hovercard&#34; href=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/pull/540&#34;&gt;#540&lt;/a&gt;)&lt;/p&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/example%2Fmetric%2Fv0.34.2" rel="alternate"></link>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/exporter%2Ftrace%2Fv1.10.2" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>damemi</name>
     </author>
   </entry>
   <entry>
-    <title>Release notes from opentelemetry-operations-go - exporter/collector/v0.34.2</title>
+    <title>Release notes from opentelemetry-operations-go - internal/resourcemapping/v0.34.2</title>
     <updated>2022-11-29T17:15:55Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/exporter/collector/v0.34.2</id>
+    <id>tag:github.com,2008:Repository/244484581/internal/resourcemapping/v0.34.2</id>
     <content type="html">&lt;p&gt;Fix propagator package in release.go (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1468373574&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/540&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleCloudPlatform/opentelemetry-operations-go/pull/540/hovercard&#34; href=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/pull/540&#34;&gt;#540&lt;/a&gt;)&lt;/p&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/exporter%2Fcollector%2Fv0.34.2" rel="alternate"></link>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/internal%2Fresourcemapping%2Fv0.34.2" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>damemi</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from opentelemetry-operations-go - propagator/v0.34.2</title>
+    <updated>2022-11-29T17:15:55Z</updated>
+    <id>tag:github.com,2008:Repository/244484581/propagator/v0.34.2</id>
+    <content type="html">&lt;p&gt;Fix propagator package in release.go (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1468373574&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/540&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleCloudPlatform/opentelemetry-operations-go/pull/540/hovercard&#34; href=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/pull/540&#34;&gt;#540&lt;/a&gt;)&lt;/p&gt;</content>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/propagator%2Fv0.34.2" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>damemi</name>
@@ -7066,22 +7066,22 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from triangula - v1.1.5</title>
+    <title>Release notes from triangula - v1.1.6</title>
     <updated>2021-05-11T13:31:09Z</updated>
-    <id>tag:github.com,2008:Repository/354015172/v1.1.5</id>
+    <id>tag:github.com,2008:Repository/354015172/v1.1.6</id>
     <content type="html">&lt;p&gt;Refactor for more flexibility&lt;/p&gt;</content>
-    <link href="https://github.com/rh12503/triangula/releases/tag/v1.1.5" rel="alternate"></link>
+    <link href="https://github.com/rh12503/triangula/releases/tag/v1.1.6" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>rh12503</name>
     </author>
   </entry>
   <entry>
-    <title>Release notes from triangula - v1.1.6</title>
+    <title>Release notes from triangula - v1.1.5</title>
     <updated>2021-05-11T13:31:09Z</updated>
-    <id>tag:github.com,2008:Repository/354015172/v1.1.6</id>
+    <id>tag:github.com,2008:Repository/354015172/v1.1.5</id>
     <content type="html">&lt;p&gt;Refactor for more flexibility&lt;/p&gt;</content>
-    <link href="https://github.com/rh12503/triangula/releases/tag/v1.1.6" rel="alternate"></link>
+    <link href="https://github.com/rh12503/triangula/releases/tag/v1.1.5" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>rh12503</name>
@@ -7550,22 +7550,22 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from backoff - v2.0.2: Merge pull request #18 from lestrrat-go/topic/fix-v2-go-mod</title>
+    <title>Release notes from backoff - v2.0.3: Merge pull request #18 from lestrrat-go/topic/fix-v2-go-mod</title>
     <updated>2021-01-06T03:00:05Z</updated>
-    <id>tag:github.com,2008:Repository/118608673/v2.0.2</id>
+    <id>tag:github.com,2008:Repository/118608673/v2.0.3</id>
     <content type="html">&lt;p&gt;Fix go.mod&lt;/p&gt;</content>
-    <link href="https://github.com/lestrrat-go/backoff/releases/tag/v2.0.2" rel="alternate"></link>
+    <link href="https://github.com/lestrrat-go/backoff/releases/tag/v2.0.3" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>lestrrat</name>
     </author>
   </entry>
   <entry>
-    <title>Release notes from backoff - v2.0.3: Merge pull request #18 from lestrrat-go/topic/fix-v2-go-mod</title>
+    <title>Release notes from backoff - v2.0.2: Merge pull request #18 from lestrrat-go/topic/fix-v2-go-mod</title>
     <updated>2021-01-06T03:00:05Z</updated>
-    <id>tag:github.com,2008:Repository/118608673/v2.0.3</id>
+    <id>tag:github.com,2008:Repository/118608673/v2.0.2</id>
     <content type="html">&lt;p&gt;Fix go.mod&lt;/p&gt;</content>
-    <link href="https://github.com/lestrrat-go/backoff/releases/tag/v2.0.3" rel="alternate"></link>
+    <link href="https://github.com/lestrrat-go/backoff/releases/tag/v2.0.2" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>lestrrat</name>
