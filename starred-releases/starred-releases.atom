@@ -576,6 +576,17 @@
     </author>
   </entry>
   <entry>
+    <title>Release notes from influxdb - v2.6.1</title>
+    <updated>2022-12-29T19:07:18Z</updated>
+    <id>tag:github.com,2008:Repository/13124802/v2.6.1</id>
+    <content type="html">&lt;p&gt;In addition to the list of changes below, please also see the &lt;a href=&#34;https://docs.influxdata.com/influxdb/v2.6/reference/release-notes/influxdb/&#34; rel=&#34;nofollow&#34;&gt;official release notes&lt;/a&gt; for other important information about this release.&lt;/p&gt;&#xA;&lt;h2&gt;v2.6.1 [2022/12/29]&lt;/h2&gt;&#xA;&lt;h3&gt;Bug Fixes&lt;/h3&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/influxdata/influxdb/commit/9dcf880&#34;&gt;9dcf880&lt;/a&gt;: Update UI to resolve Dashboard crash and All Access Token creation&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;table&gt;&#xA;&lt;thead&gt;&#xA;&lt;tr&gt;&#xA;&lt;th&gt;OSS BINARY FILES&lt;/th&gt;&#xA;&lt;th&gt;SHA256&lt;/th&gt;&#xA;&lt;/tr&gt;&#xA;&lt;/thead&gt;&#xA;&lt;tbody&gt;&#xA;&lt;tr&gt;&#xA;&lt;td&gt;&lt;a href=&#34;https://dl.influxdata.com/influxdb/releases/influxdb2-2.6.1-windows-amd64.zip&#34; rel=&#34;nofollow&#34;&gt;influxdb2-2.6.1-windows-amd64.zip&lt;/a&gt;&lt;/td&gt;&#xA;&lt;td&gt;c84c8237c74e795b88cc5ddc6f90a2c0db18f5b71e58deac28c3c69adbba1a53&lt;/td&gt;&#xA;&lt;/tr&gt;&#xA;&lt;tr&gt;&#xA;&lt;td&gt;&lt;a href=&#34;https://dl.influxdata.com/influxdb/releases/influxdb2-2.6.1-linux-arm64.tar.gz&#34; rel=&#34;nofollow&#34;&gt;influxdb2-2.6.1-linux-arm64.tar.gz&lt;/a&gt;&lt;/td&gt;&#xA;&lt;td&gt;906b360e03801349badff704ab5b5e2b7034b077dafdd43ffc424ccc5cb831fc&lt;/td&gt;&#xA;&lt;/tr&gt;&#xA;&lt;tr&gt;&#xA;&lt;td&gt;&lt;a href=&#34;https://dl.influxdata.com/influxdb/releases/influxdb2-2.6.1-linux-amd64.tar.gz&#34; rel=&#34;nofollow&#34;&gt;influxdb2-2.6.1-linux-amd64.tar.gz&lt;/a&gt;&lt;/td&gt;&#xA;&lt;td&gt;003908bacc9653603cc7cad68e40f66552b6a09279305228d26b33b71346941e&lt;/td&gt;&#xA;&lt;/tr&gt;&#xA;&lt;tr&gt;&#xA;&lt;td&gt;&lt;a href=&#34;https://dl.influxdata.com/influxdb/releases/influxdb2-2.6.1-darwin-amd64.tar.gz&#34; rel=&#34;nofollow&#34;&gt;influxdb2-2.6.1-darwin-amd64.tar.gz&lt;/a&gt;&lt;/td&gt;&#xA;&lt;td&gt;28d7c610331f79af44fd7bb54c3c9396bbaf1031301e56be51c43622880f7f0b&lt;/td&gt;&#xA;&lt;/tr&gt;&#xA;&lt;/tbody&gt;&#xA;&lt;/table&gt;&#xA;&lt;table&gt;&#xA;&lt;thead&gt;&#xA;&lt;tr&gt;&#xA;&lt;th&gt;OSS UBUNTU &amp;amp; DEBIAN PACKAGE FILES&lt;/th&gt;&#xA;&lt;th&gt;SHA256&lt;/th&gt;&#xA;&lt;/tr&gt;&#xA;&lt;/thead&gt;&#xA;&lt;tbody&gt;&#xA;&lt;tr&gt;&#xA;&lt;td&gt;&lt;a href=&#34;https://dl.influxdata.com/influxdb/releases/influxdb2-2.6.1-arm64.deb&#34; rel=&#34;nofollow&#34;&gt;influxdb2-2.6.1-arm64.deb&lt;/a&gt;&lt;/td&gt;&#xA;&lt;td&gt;90092356cb8ee126fe84dd5a54fa5c511cb807a9b1de26e0a0dcc57348e2165b&lt;/td&gt;&#xA;&lt;/tr&gt;&#xA;&lt;tr&gt;&#xA;&lt;td&gt;&lt;a href=&#34;https://dl.influxdata.com/influxdb/releases/influxdb2-2.6.1-amd64.deb&#34; rel=&#34;nofollow&#34;&gt;influxdb2-2.6.1-amd64.deb&lt;/a&gt;&lt;/td&gt;&#xA;&lt;td&gt;d638a5eff9b74295bae141dc8a32839f461a1c60e37590211531ba6a642a26e2&lt;/td&gt;&#xA;&lt;/tr&gt;&#xA;&lt;/tbody&gt;&#xA;&lt;/table&gt;&#xA;&lt;table&gt;&#xA;&lt;thead&gt;&#xA;&lt;tr&gt;&#xA;&lt;th&gt;OSS REDHAT &amp;amp; CENTOS PACKAGE FILES&lt;/th&gt;&#xA;&lt;th&gt;SHA256&lt;/th&gt;&#xA;&lt;/tr&gt;&#xA;&lt;/thead&gt;&#xA;&lt;tbody&gt;&#xA;&lt;tr&gt;&#xA;&lt;td&gt;&lt;a href=&#34;https://dl.influxdata.com/influxdb/releases/influxdb2-2.6.1.aarch64.rpm&#34; rel=&#34;nofollow&#34;&gt;influxdb2-2.6.1.aarch64.rpm&lt;/a&gt;&lt;/td&gt;&#xA;&lt;td&gt;070e3a702c3ec8d921a98d69c6c45b385542653d0a689aa23f0d7bc0c97f04a9&lt;/td&gt;&#xA;&lt;/tr&gt;&#xA;&lt;tr&gt;&#xA;&lt;td&gt;&lt;a href=&#34;https://dl.influxdata.com/influxdb/releases/influxdb2-2.6.1.x86_64.rpm&#34; rel=&#34;nofollow&#34;&gt;influxdb2-2.6.1.x86_64.rpm&lt;/a&gt;&lt;/td&gt;&#xA;&lt;td&gt;fd88c9f02e227228ff6ad5b080f08d3204fcc855541fea9183d81a5a23fa1dff&lt;/td&gt;&#xA;&lt;/tr&gt;&#xA;&lt;/tbody&gt;&#xA;&lt;/table&gt;</content>
+    <link href="https://github.com/influxdata/influxdb/releases/tag/v2.6.1" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>jeffreyssmith2nd</name>
+    </author>
+  </entry>
+  <entry>
     <title>Release notes from fake-gcs-server - v1.43.0</title>
     <updated>2022-12-28T23:40:02Z</updated>
     <id>tag:github.com,2008:Repository/91218588/v1.43.0</id>
@@ -818,6 +829,17 @@
     </author>
   </entry>
   <entry>
+    <title>Release notes from influxdb - v1.10.1rc0</title>
+    <updated>2022-12-16T20:21:25Z</updated>
+    <id>tag:github.com,2008:Repository/13124802/v1.10.1rc0</id>
+    <content type="html">&lt;p&gt;v1.10.1rc0&lt;/p&gt;</content>
+    <link href="https://github.com/influxdata/influxdb/releases/tag/v1.10.1rc0" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>bnpfeife</name>
+    </author>
+  </entry>
+  <entry>
     <title>Release notes from moby - v20.10.22</title>
     <updated>2022-12-16T14:44:15Z</updated>
     <id>tag:github.com,2008:Repository/7691631/v20.10.22</id>
@@ -848,6 +870,39 @@
     <summary type="html"></summary>
     <author>
       <name>ubogdan</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from influxdb - v2.5.1</title>
+    <updated>2022-12-15T22:25:39Z</updated>
+    <id>tag:github.com,2008:Repository/13124802/v2.5.1</id>
+    <content type="html">&lt;p&gt;In addition to the list of changes below, please also see the &lt;a href=&#34;https://docs.influxdata.com/influxdb/v2.5/reference/release-notes/influxdb/&#34; rel=&#34;nofollow&#34;&gt;official release notes&lt;/a&gt; for other important information about this release.&lt;/p&gt;&#xA;&lt;h2&gt;v2.5.1 [2022/11/02]&lt;/h2&gt;&#xA;&lt;h3&gt;Other&lt;/h3&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/influxdata/influxdb/commit/5b6fdbf&#34;&gt;5b6fdbf&lt;/a&gt;: Revert &#34;fix: set limited permissions on package installs&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;table&gt;&#xA;&lt;thead&gt;&#xA;&lt;tr&gt;&#xA;&lt;th&gt;OSS BINARY FILES&lt;/th&gt;&#xA;&lt;th&gt;SHA256&lt;/th&gt;&#xA;&lt;/tr&gt;&#xA;&lt;/thead&gt;&#xA;&lt;tbody&gt;&#xA;&lt;tr&gt;&#xA;&lt;td&gt;&lt;a href=&#34;https://dl.influxdata.com/influxdb/releases/influxdb2-2.5.1-linux-arm64.tar.gz&#34; rel=&#34;nofollow&#34;&gt;influxdb2-2.5.1-linux-arm64.tar.gz&lt;/a&gt;&lt;/td&gt;&#xA;&lt;td&gt;9ca6f7b43d19c9106dddb8c7ad91266a221af8903ec5e0b844d4c43c9f2d6690&lt;/td&gt;&#xA;&lt;/tr&gt;&#xA;&lt;tr&gt;&#xA;&lt;td&gt;&lt;a href=&#34;https://dl.influxdata.com/influxdb/releases/influxdb2-2.5.1-windows-amd64.zip&#34; rel=&#34;nofollow&#34;&gt;influxdb2-2.5.1-windows-amd64.zip&lt;/a&gt;&lt;/td&gt;&#xA;&lt;td&gt;8b214ed71e092d0993c0960f3c02cad386a35d1013ef0f20fedeeaa20a8216e8&lt;/td&gt;&#xA;&lt;/tr&gt;&#xA;&lt;tr&gt;&#xA;&lt;td&gt;&lt;a href=&#34;https://dl.influxdata.com/influxdb/releases/influxdb2-2.5.1-linux-amd64.tar.gz&#34; rel=&#34;nofollow&#34;&gt;influxdb2-2.5.1-linux-amd64.tar.gz&lt;/a&gt;&lt;/td&gt;&#xA;&lt;td&gt;2a844970be699ad7bede7f0cba7ae6d9edc0951801c22fc7a6d0c122631fad6e&lt;/td&gt;&#xA;&lt;/tr&gt;&#xA;&lt;tr&gt;&#xA;&lt;td&gt;&lt;a href=&#34;https://dl.influxdata.com/influxdb/releases/influxdb2-2.5.1-darwin-amd64.tar.gz&#34; rel=&#34;nofollow&#34;&gt;influxdb2-2.5.1-darwin-amd64.tar.gz&lt;/a&gt;&lt;/td&gt;&#xA;&lt;td&gt;f1cec9952dd2f25d4b166e5bc3a69889a66129a67b606e3607e116e2ab0e7b80&lt;/td&gt;&#xA;&lt;/tr&gt;&#xA;&lt;/tbody&gt;&#xA;&lt;/table&gt;&#xA;&lt;table&gt;&#xA;&lt;thead&gt;&#xA;&lt;tr&gt;&#xA;&lt;th&gt;OSS UBUNTU &amp;amp; DEBIAN PACKAGE FILES&lt;/th&gt;&#xA;&lt;th&gt;SHA256&lt;/th&gt;&#xA;&lt;/tr&gt;&#xA;&lt;/thead&gt;&#xA;&lt;tbody&gt;&#xA;&lt;tr&gt;&#xA;&lt;td&gt;&lt;a href=&#34;https://dl.influxdata.com/influxdb/releases/influxdb2-2.5.1-amd64.deb&#34; rel=&#34;nofollow&#34;&gt;influxdb2-2.5.1-amd64.deb&lt;/a&gt;&lt;/td&gt;&#xA;&lt;td&gt;3c545777e1086e9067916781c9fc4f8a85c460702407b4197acedce7d8cad97b&lt;/td&gt;&#xA;&lt;/tr&gt;&#xA;&lt;tr&gt;&#xA;&lt;td&gt;&lt;a href=&#34;https://dl.influxdata.com/influxdb/releases/influxdb2-2.5.1-arm64.deb&#34; rel=&#34;nofollow&#34;&gt;influxdb2-2.5.1-arm64.deb&lt;/a&gt;&lt;/td&gt;&#xA;&lt;td&gt;276bcd02c982f5ddef8de159fa60433435b20aaac4e48d16edf5b39070f4b81d&lt;/td&gt;&#xA;&lt;/tr&gt;&#xA;&lt;/tbody&gt;&#xA;&lt;/table&gt;&#xA;&lt;table&gt;&#xA;&lt;thead&gt;&#xA;&lt;tr&gt;&#xA;&lt;th&gt;OSS REDHAT &amp;amp; CENTOS PACKAGE FILES&lt;/th&gt;&#xA;&lt;th&gt;SHA256&lt;/th&gt;&#xA;&lt;/tr&gt;&#xA;&lt;/thead&gt;&#xA;&lt;tbody&gt;&#xA;&lt;tr&gt;&#xA;&lt;td&gt;&lt;a href=&#34;https://dl.influxdata.com/influxdb/releases/influxdb2-2.5.1.aarch64.rpm&#34; rel=&#34;nofollow&#34;&gt;influxdb2-2.5.1.aarch64.rpm&lt;/a&gt;&lt;/td&gt;&#xA;&lt;td&gt;ea7d462b1868bf54094f93341dc4d97d2ade2cf5964fa3e6a2e440db975d5fe6&lt;/td&gt;&#xA;&lt;/tr&gt;&#xA;&lt;tr&gt;&#xA;&lt;td&gt;&lt;a href=&#34;https://dl.influxdata.com/influxdb/releases/influxdb2-2.5.1.x86_64.rpm&#34; rel=&#34;nofollow&#34;&gt;influxdb2-2.5.1.x86_64.rpm&lt;/a&gt;&lt;/td&gt;&#xA;&lt;td&gt;de65864f8aff1fdfd38a2fd231608181f459a227368eaaf23c454fa9fc845323&lt;/td&gt;&#xA;&lt;/tr&gt;&#xA;&lt;/tbody&gt;&#xA;&lt;/table&gt;</content>
+    <link href="https://github.com/influxdata/influxdb/releases/tag/v2.5.1" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>jeffreyssmith2nd</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from influxdb - v2.5.0</title>
+    <updated>2022-12-15T22:25:26Z</updated>
+    <id>tag:github.com,2008:Repository/13124802/v2.5.0</id>
+    <content type="html">&lt;p&gt;In addition to the list of changes below, please also see the &lt;a href=&#34;https://docs.influxdata.com/influxdb/v2.5/reference/release-notes/influxdb/&#34; rel=&#34;nofollow&#34;&gt;official release notes&lt;/a&gt; for other important information about this release.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;WARNING: RPMs/Debs are broken for this release and have been removed. They will be re-added in a follow up release.&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;h2&gt;v2.5.0 [2022/11/01]&lt;/h2&gt;&#xA;&lt;h3&gt;Bug Fixes&lt;/h3&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/influxdata/influxdb/commit/daaf866&#34;&gt;daaf866&lt;/a&gt;: Several minor quality issues&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/influxdata/influxdb/commit/ee8ca45&#34;&gt;ee8ca45&lt;/a&gt;: Use copy of loop variable in parallel test&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/influxdata/influxdb/commit/11019d2&#34;&gt;11019d2&lt;/a&gt;: Check that user IDs are not in use in user create&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/influxdata/influxdb/commit/b87deb4&#34;&gt;b87deb4&lt;/a&gt;: Don&#39;t allow creating an auth with instance resources&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/influxdata/influxdb/commit/b51fefd&#34;&gt;b51fefd&lt;/a&gt;: Set limited permissions on package installs&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/influxdata/influxdb/commit/663d43d&#34;&gt;663d43d&lt;/a&gt;: Allow backup of all buckets&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/influxdata/influxdb/commit/a0f1184&#34;&gt;a0f1184&lt;/a&gt;: Manually scheduled task runs now run when expected&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/influxdata/influxdb/commit/4ed184d&#34;&gt;4ed184d&lt;/a&gt;: Fixes an error querying virtual dbrps&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/influxdata/influxdb/commit/2ad8995&#34;&gt;2ad8995&lt;/a&gt;: Improve delete speed when a measurement is part of the predicate&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/influxdata/influxdb/commit/3ac7a10&#34;&gt;3ac7a10&lt;/a&gt;: Downgrading to 2.3 was broken&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/influxdata/influxdb/commit/55b7d29&#34;&gt;55b7d29&lt;/a&gt;: Sql scan error on remote bucket id when replication to 1.x&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/influxdata/influxdb/commit/81e2ec6&#34;&gt;81e2ec6&lt;/a&gt;: Enable gzipped responses with the legacy handler&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/influxdata/influxdb/commit/e61485a&#34;&gt;e61485a&lt;/a&gt;: Only the latest scraper being run&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/influxdata/influxdb/commit/9582826&#34;&gt;9582826&lt;/a&gt;: Handle a potential nil iterator leading to a panic&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/influxdata/influxdb/commit/6fc66ac&#34;&gt;6fc66ac&lt;/a&gt;: Do not require remoteOrgID in remote config/creation request&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h3&gt;Features&lt;/h3&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/influxdata/influxdb/commit/485968c&#34;&gt;485968c&lt;/a&gt;: Unpin ui to point at latest&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/influxdata/influxdb/commit/b72848d&#34;&gt;b72848d&lt;/a&gt;: Optimize saving changes to fields.idx&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/influxdata/influxdb/commit/c40ad64&#34;&gt;c40ad64&lt;/a&gt;: Set SameSite=strict on session cookie&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/influxdata/influxdb/commit/f36646d&#34;&gt;f36646d&lt;/a&gt;: Bump to latest UI&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h3&gt;Other&lt;/h3&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/influxdata/influxdb/commit/accce86&#34;&gt;accce86&lt;/a&gt;: Chore: update CHANGELOG_frozen.md for 2.4&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/influxdata/influxdb/commit/785a465&#34;&gt;785a465&lt;/a&gt;: Refactor: remove reference to flux.Spec in query tests&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/influxdata/influxdb/commit/728070e&#34;&gt;728070e&lt;/a&gt;: Chore: upgrade Rust to 1.63.0&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/influxdata/influxdb/commit/aa9c49e&#34;&gt;aa9c49e&lt;/a&gt;: Build(flux): update flux to v0.180.1&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/influxdata/influxdb/commit/8f15620&#34;&gt;8f15620&lt;/a&gt;: Build(flux): update flux to v0.181.0&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/influxdata/influxdb/commit/1c6fbf9&#34;&gt;1c6fbf9&lt;/a&gt;: Chore: add protoc-gen script to releng (2.x)&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/influxdata/influxdb/commit/c433342&#34;&gt;c433342&lt;/a&gt;: Chore: remove duplicate word in comments&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/influxdata/influxdb/commit/91623dd&#34;&gt;91623dd&lt;/a&gt;: Docs(logger): fix incorrect doc string&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/influxdata/influxdb/commit/43c2e08&#34;&gt;43c2e08&lt;/a&gt;: Chore: upgrade to Go 1.18.6&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/influxdata/influxdb/commit/635f8d8&#34;&gt;635f8d8&lt;/a&gt;: Build(flux): update flux to v0.184.2&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/influxdata/influxdb/commit/eada36b&#34;&gt;eada36b&lt;/a&gt;: Test: remove group skips&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/influxdata/influxdb/commit/aa5c1c0&#34;&gt;aa5c1c0&lt;/a&gt;: Docs: cleanup CONTRIBUTING.md - clarify instructions and output.&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/influxdata/influxdb/commit/a321e72&#34;&gt;a321e72&lt;/a&gt;: Build(flux): update flux to v0.185.0&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/influxdata/influxdb/commit/d8553c0&#34;&gt;d8553c0&lt;/a&gt;: Test(flux): use vanilla flagger for fluxtest&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/influxdata/influxdb/commit/34254ee&#34;&gt;34254ee&lt;/a&gt;: Build(flux): update flux to v0.186.0&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/influxdata/influxdb/commit/a0c3703&#34;&gt;a0c3703&lt;/a&gt;: Build(flux): update flux to v0.187.0&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/influxdata/influxdb/commit/89d9207&#34;&gt;89d9207&lt;/a&gt;: Chore: update to use scheduled pipeline (2.x)&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/influxdata/influxdb/commit/0389d51&#34;&gt;0389d51&lt;/a&gt;: Chore: upgrade to Go 1.18.7&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/influxdata/influxdb/commit/fa393cc&#34;&gt;fa393cc&lt;/a&gt;: Chore(readme): add resource links and logo&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/influxdata/influxdb/commit/1033334&#34;&gt;1033334&lt;/a&gt;: Build(flux): update flux to v0.188.0&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/influxdata/influxdb/commit/8c23f92&#34;&gt;8c23f92&lt;/a&gt;: Build(flux): update flux to v0.188.1&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;table&gt;&#xA;&lt;thead&gt;&#xA;&lt;tr&gt;&#xA;&lt;th&gt;OSS BINARY FILES&lt;/th&gt;&#xA;&lt;th&gt;SHA256&lt;/th&gt;&#xA;&lt;/tr&gt;&#xA;&lt;/thead&gt;&#xA;&lt;tbody&gt;&#xA;&lt;tr&gt;&#xA;&lt;td&gt;&lt;a href=&#34;https://dl.influxdata.com/influxdb/releases/influxdb2-2.5.0-windows-amd64.zip&#34; rel=&#34;nofollow&#34;&gt;influxdb2-2.5.0-windows-amd64.zip&lt;/a&gt;&lt;/td&gt;&#xA;&lt;td&gt;7ca8e1b412852ceb9101bca13de7f72838e1def3ed715bd4f39848b0f103475b&lt;/td&gt;&#xA;&lt;/tr&gt;&#xA;&lt;tr&gt;&#xA;&lt;td&gt;&lt;a href=&#34;https://dl.influxdata.com/influxdb/releases/influxdb2-2.5.0-darwin-amd64.tar.gz&#34; rel=&#34;nofollow&#34;&gt;influxdb2-2.5.0-darwin-amd64.tar.gz&lt;/a&gt;&lt;/td&gt;&#xA;&lt;td&gt;e31a87ba4a42843aa8dfa7e0300368c4ff8c500f7b2f4cdd8f39e549e7b83d93&lt;/td&gt;&#xA;&lt;/tr&gt;&#xA;&lt;tr&gt;&#xA;&lt;td&gt;&lt;a href=&#34;https://dl.influxdata.com/influxdb/releases/influxdb2-2.5.0-linux-amd64.tar.gz&#34; rel=&#34;nofollow&#34;&gt;influxdb2-2.5.0-linux-amd64.tar.gz&lt;/a&gt;&lt;/td&gt;&#xA;&lt;td&gt;77363064483b842ecf88c175b4afc09b644156d01f422fb52f1448c0acb9d694&lt;/td&gt;&#xA;&lt;/tr&gt;&#xA;&lt;tr&gt;&#xA;&lt;td&gt;&lt;a href=&#34;https://dl.influxdata.com/influxdb/releases/influxdb2-2.5.0-linux-arm64.tar.gz&#34; rel=&#34;nofollow&#34;&gt;influxdb2-2.5.0-linux-arm64.tar.gz&lt;/a&gt;&lt;/td&gt;&#xA;&lt;td&gt;21a67f13489c8dbcb3176b71ba8e8809553cdea3cf1cea7c6f155cb313b44c3a&lt;/td&gt;&#xA;&lt;/tr&gt;&#xA;&lt;/tbody&gt;&#xA;&lt;/table&gt;</content>
+    <link href="https://github.com/influxdata/influxdb/releases/tag/v2.5.0" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>jeffreyssmith2nd</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from influxdb - v2.6.0</title>
+    <updated>2022-12-15T22:24:13Z</updated>
+    <id>tag:github.com,2008:Repository/13124802/v2.6.0</id>
+    <content type="html">&lt;p&gt;In addition to the list of changes below, please also see the &lt;a href=&#34;https://docs.influxdata.com/influxdb/v2.6/reference/release-notes/influxdb/&#34; rel=&#34;nofollow&#34;&gt;official release notes&lt;/a&gt; for other important information about this release.&lt;/p&gt;&#xA;&lt;h2&gt;v2.6.0 [2022/12/15]&lt;/h2&gt;&#xA;&lt;h3&gt;Bug Fixes&lt;/h3&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/influxdata/influxdb/commit/666cabb&#34;&gt;666cabb&lt;/a&gt;: Fix wrong max age transformation from seconds&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/influxdata/influxdb/commit/f026d7b&#34;&gt;f026d7b&lt;/a&gt;: Fixes migrating when a remote already exists&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/influxdata/influxdb/commit/9bf8840&#34;&gt;9bf8840&lt;/a&gt;: Update me and users routes to match cloud/documentation&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/influxdata/influxdb/commit/ade21ad&#34;&gt;ade21ad&lt;/a&gt;: Restrict file permissions by default&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/influxdata/influxdb/commit/ffd069a&#34;&gt;ffd069a&lt;/a&gt;: Handle NaN in scraper&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/influxdata/influxdb/commit/24a2b62&#34;&gt;24a2b62&lt;/a&gt;: Pin UI to older version to address Dashboard issues&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h3&gt;Features&lt;/h3&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/influxdata/influxdb/commit/7708108&#34;&gt;7708108&lt;/a&gt;: Port check-schema and merge-schema from 1.x&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/influxdata/influxdb/commit/c2eac86&#34;&gt;c2eac86&lt;/a&gt;: Port report-db command from 1.x&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/influxdata/influxdb/commit/853d615&#34;&gt;853d615&lt;/a&gt;: Perform basic package validation&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h3&gt;Other&lt;/h3&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/influxdata/influxdb/commit/e62c8ab&#34;&gt;e62c8ab&lt;/a&gt;: Chore: upgrade to Go 1.18.8&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/influxdata/influxdb/commit/86207fe&#34;&gt;86207fe&lt;/a&gt;: Build(flux): update flux to v0.189.0&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/influxdata/influxdb/commit/61870e5&#34;&gt;61870e5&lt;/a&gt;: Chore: update 2.5 changelog&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/influxdata/influxdb/commit/4de89af&#34;&gt;4de89af&lt;/a&gt;: Refactor: remove dead iterator code&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/influxdata/influxdb/commit/07e6ef2&#34;&gt;07e6ef2&lt;/a&gt;: Build(flux): update flux to v0.191.0&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/influxdata/influxdb/commit/ef098ac&#34;&gt;ef098ac&lt;/a&gt;: Chore: cleanup codeowners file&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/influxdata/influxdb/commit/26daa86&#34;&gt;26daa86&lt;/a&gt;: Chore: bump testcontainers to latest released version&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;table&gt;&#xA;&lt;thead&gt;&#xA;&lt;tr&gt;&#xA;&lt;th&gt;OSS BINARY FILES&lt;/th&gt;&#xA;&lt;th&gt;SHA256&lt;/th&gt;&#xA;&lt;/tr&gt;&#xA;&lt;/thead&gt;&#xA;&lt;tbody&gt;&#xA;&lt;tr&gt;&#xA;&lt;td&gt;&lt;a href=&#34;https://dl.influxdata.com/influxdb/releases/influxdb2-2.6.0-windows-amd64.zip&#34; rel=&#34;nofollow&#34;&gt;influxdb2-2.6.0-windows-amd64.zip&lt;/a&gt;&lt;/td&gt;&#xA;&lt;td&gt;8419682cec38d12d9a6a7a98bfcdb215878e2892db835f15da5febb172234736&lt;/td&gt;&#xA;&lt;/tr&gt;&#xA;&lt;tr&gt;&#xA;&lt;td&gt;&lt;a href=&#34;https://dl.influxdata.com/influxdb/releases/influxdb2-2.6.0-linux-arm64.tar.gz&#34; rel=&#34;nofollow&#34;&gt;influxdb2-2.6.0-linux-arm64.tar.gz&lt;/a&gt;&lt;/td&gt;&#xA;&lt;td&gt;f6a7600e7ce4fc8c3c9d98d3bc558bc4896a42834a76747af538ed15c20fa8c5&lt;/td&gt;&#xA;&lt;/tr&gt;&#xA;&lt;tr&gt;&#xA;&lt;td&gt;&lt;a href=&#34;https://dl.influxdata.com/influxdb/releases/influxdb2-2.6.0-linux-amd64.tar.gz&#34; rel=&#34;nofollow&#34;&gt;influxdb2-2.6.0-linux-amd64.tar.gz&lt;/a&gt;&lt;/td&gt;&#xA;&lt;td&gt;aadce4d38978bc081eb0aa88cde7f214e3cf48a592c8881006a363632cc33738&lt;/td&gt;&#xA;&lt;/tr&gt;&#xA;&lt;tr&gt;&#xA;&lt;td&gt;&lt;a href=&#34;https://dl.influxdata.com/influxdb/releases/influxdb2-2.6.0-darwin-amd64.tar.gz&#34; rel=&#34;nofollow&#34;&gt;influxdb2-2.6.0-darwin-amd64.tar.gz&lt;/a&gt;&lt;/td&gt;&#xA;&lt;td&gt;9e8c14ad872b8e56451ac2cd5f515ab5e5dcc484a561b5a4b02c708c6287c5e9&lt;/td&gt;&#xA;&lt;/tr&gt;&#xA;&lt;/tbody&gt;&#xA;&lt;/table&gt;&#xA;&lt;table&gt;&#xA;&lt;thead&gt;&#xA;&lt;tr&gt;&#xA;&lt;th&gt;OSS UBUNTU &amp;amp; DEBIAN PACKAGE FILES&lt;/th&gt;&#xA;&lt;th&gt;SHA256&lt;/th&gt;&#xA;&lt;/tr&gt;&#xA;&lt;/thead&gt;&#xA;&lt;tbody&gt;&#xA;&lt;tr&gt;&#xA;&lt;td&gt;&lt;a href=&#34;https://dl.influxdata.com/influxdb/releases/influxdb2-2.6.0-amd64.deb&#34; rel=&#34;nofollow&#34;&gt;influxdb2-2.6.0-amd64.deb&lt;/a&gt;&lt;/td&gt;&#xA;&lt;td&gt;99770c5a78dfe061c630f897fac1e03c20f35fe20044f86d3209289c6761d579&lt;/td&gt;&#xA;&lt;/tr&gt;&#xA;&lt;tr&gt;&#xA;&lt;td&gt;&lt;a href=&#34;https://dl.influxdata.com/influxdb/releases/influxdb2-2.6.0-arm64.deb&#34; rel=&#34;nofollow&#34;&gt;influxdb2-2.6.0-arm64.deb&lt;/a&gt;&lt;/td&gt;&#xA;&lt;td&gt;e6c759216fa656ecd0bf666003d7e07daf472d5398ee4be9f9423e862161f029&lt;/td&gt;&#xA;&lt;/tr&gt;&#xA;&lt;/tbody&gt;&#xA;&lt;/table&gt;&#xA;&lt;table&gt;&#xA;&lt;thead&gt;&#xA;&lt;tr&gt;&#xA;&lt;th&gt;OSS REDHAT &amp;amp; CENTOS PACKAGE FILES&lt;/th&gt;&#xA;&lt;th&gt;SHA256&lt;/th&gt;&#xA;&lt;/tr&gt;&#xA;&lt;/thead&gt;&#xA;&lt;tbody&gt;&#xA;&lt;tr&gt;&#xA;&lt;td&gt;&lt;a href=&#34;https://dl.influxdata.com/influxdb/releases/influxdb2-2.6.0.aarch64.rpm&#34; rel=&#34;nofollow&#34;&gt;influxdb2-2.6.0.aarch64.rpm&lt;/a&gt;&lt;/td&gt;&#xA;&lt;td&gt;61b5cae9e59c5b02d886e2de7aba0f72131e2d1d01548d008c30c52794595f0e&lt;/td&gt;&#xA;&lt;/tr&gt;&#xA;&lt;tr&gt;&#xA;&lt;td&gt;&lt;a href=&#34;https://dl.influxdata.com/influxdb/releases/influxdb2-2.6.0.x86_64.rpm&#34; rel=&#34;nofollow&#34;&gt;influxdb2-2.6.0.x86_64.rpm&lt;/a&gt;&lt;/td&gt;&#xA;&lt;td&gt;31b690854f7e5ff6a9b7d2199ee69bcefc12165c8a27e3827a834dcd818fa051&lt;/td&gt;&#xA;&lt;/tr&gt;&#xA;&lt;/tbody&gt;&#xA;&lt;/table&gt;</content>
+    <link href="https://github.com/influxdata/influxdb/releases/tag/v2.6.0" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>jeffreyssmith2nd</name>
     </author>
   </entry>
   <entry>
@@ -925,6 +980,17 @@
     <summary type="html"></summary>
     <author>
       <name>github-actions[bot]</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from influxdb - v1.9.9</title>
+    <updated>2022-12-13T21:39:35Z</updated>
+    <id>tag:github.com,2008:Repository/13124802/v1.9.9</id>
+    <content type="html">&lt;p&gt;v1.9.9&lt;/p&gt;</content>
+    <link href="https://github.com/influxdata/influxdb/releases/tag/v1.9.9" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>gwossum</name>
     </author>
   </entry>
   <entry>
@@ -1170,6 +1236,17 @@
     </author>
   </entry>
   <entry>
+    <title>Release notes from influxdb - v1.11.0</title>
+    <updated>2022-12-06T20:11:26Z</updated>
+    <id>tag:github.com,2008:Repository/13124802/v1.11.0</id>
+    <content type="html">&lt;p&gt;v1.11.0&lt;/p&gt;</content>
+    <link href="https://github.com/influxdata/influxdb/releases/tag/v1.11.0" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>bnpfeife</name>
+    </author>
+  </entry>
+  <entry>
     <title>Release notes from syft - v0.61.0</title>
     <updated>2022-12-06T19:27:44Z</updated>
     <id>tag:github.com,2008:Repository/262126497/v0.61.0</id>
@@ -1236,22 +1313,22 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from opentelemetry-go-contrib - samplers/probability/consistent/v0.6.0</title>
+    <title>Release notes from opentelemetry-go-contrib - samplers/jaegerremote/v0.6.0</title>
     <updated>2022-12-05T21:47:16Z</updated>
-    <id>tag:github.com,2008:Repository/242202166/samplers/probability/consistent/v0.6.0</id>
+    <id>tag:github.com,2008:Repository/242202166/samplers/jaegerremote/v0.6.0</id>
     <content type="html">&lt;p&gt;Module set experimental-samplers, Version v0.6.0&lt;/p&gt;</content>
-    <link href="https://github.com/open-telemetry/opentelemetry-go-contrib/releases/tag/samplers%2Fprobability%2Fconsistent%2Fv0.6.0" rel="alternate"></link>
+    <link href="https://github.com/open-telemetry/opentelemetry-go-contrib/releases/tag/samplers%2Fjaegerremote%2Fv0.6.0" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>MadVikingGod</name>
     </author>
   </entry>
   <entry>
-    <title>Release notes from opentelemetry-go-contrib - samplers/jaegerremote/v0.6.0</title>
+    <title>Release notes from opentelemetry-go-contrib - samplers/probability/consistent/v0.6.0</title>
     <updated>2022-12-05T21:47:16Z</updated>
-    <id>tag:github.com,2008:Repository/242202166/samplers/jaegerremote/v0.6.0</id>
+    <id>tag:github.com,2008:Repository/242202166/samplers/probability/consistent/v0.6.0</id>
     <content type="html">&lt;p&gt;Module set experimental-samplers, Version v0.6.0&lt;/p&gt;</content>
-    <link href="https://github.com/open-telemetry/opentelemetry-go-contrib/releases/tag/samplers%2Fjaegerremote%2Fv0.6.0" rel="alternate"></link>
+    <link href="https://github.com/open-telemetry/opentelemetry-go-contrib/releases/tag/samplers%2Fprobability%2Fconsistent%2Fv0.6.0" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>MadVikingGod</name>
@@ -1291,17 +1368,6 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from opentelemetry-go-contrib - propagators/opencensus/v0.37.0</title>
-    <updated>2022-12-05T21:46:56Z</updated>
-    <id>tag:github.com,2008:Repository/242202166/propagators/opencensus/v0.37.0</id>
-    <content type="html">&lt;p&gt;Module set experimental-instrumentation, Version v0.37.0&lt;/p&gt;</content>
-    <link href="https://github.com/open-telemetry/opentelemetry-go-contrib/releases/tag/propagators%2Fopencensus%2Fv0.37.0" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>MadVikingGod</name>
-    </author>
-  </entry>
-  <entry>
     <title>Release notes from opentelemetry-go-contrib - propagators/opencensus/examples/v0.37.0</title>
     <updated>2022-12-05T21:46:56Z</updated>
     <id>tag:github.com,2008:Repository/242202166/propagators/opencensus/examples/v0.37.0</id>
@@ -1313,11 +1379,11 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from opentelemetry-go-contrib - tools/v1.12.0</title>
-    <updated>2022-12-05T21:46:48Z</updated>
-    <id>tag:github.com,2008:Repository/242202166/tools/v1.12.0</id>
-    <content type="html">&lt;p&gt;Module set stable-v1, Version v1.12.0&lt;/p&gt;</content>
-    <link href="https://github.com/open-telemetry/opentelemetry-go-contrib/releases/tag/tools%2Fv1.12.0" rel="alternate"></link>
+    <title>Release notes from opentelemetry-go-contrib - propagators/opencensus/v0.37.0</title>
+    <updated>2022-12-05T21:46:56Z</updated>
+    <id>tag:github.com,2008:Repository/242202166/propagators/opencensus/v0.37.0</id>
+    <content type="html">&lt;p&gt;Module set experimental-instrumentation, Version v0.37.0&lt;/p&gt;</content>
+    <link href="https://github.com/open-telemetry/opentelemetry-go-contrib/releases/tag/propagators%2Fopencensus%2Fv0.37.0" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>MadVikingGod</name>
@@ -1335,22 +1401,22 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from opentelemetry-go - Release v1.11.2/0.34.0</title>
-    <updated>2022-12-05T19:48:58Z</updated>
-    <id>tag:github.com,2008:Repository/187086161/v1.11.2</id>
-    <content type="html">&lt;h3&gt;Added&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;The &lt;code&gt;WithView&lt;/code&gt; &lt;code&gt;Option&lt;/code&gt; is added to the &lt;code&gt;go.opentelemetry.io/otel/sdk/metric&lt;/code&gt; package.&lt;br&gt;&#xA;This option is used to configure the view(s) a &lt;code&gt;MeterProvider&lt;/code&gt; will use for all &lt;code&gt;Reader&lt;/code&gt;s that are registered with it. (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1418587420&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/open-telemetry/opentelemetry-go/issues/3387&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/open-telemetry/opentelemetry-go/pull/3387/hovercard&#34; href=&#34;https://github.com/open-telemetry/opentelemetry-go/pull/3387&#34;&gt;#3387&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;Add Instrumentation Scope and Version as info metric and label in Prometheus exporter.&lt;br&gt;&#xA;This can be disabled using the &lt;code&gt;WithoutScopeInfo()&lt;/code&gt; option added to that package.(&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1406506199&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/open-telemetry/opentelemetry-go/issues/3273&#34; data-hovercard-type=&#34;issue&#34; data-hovercard-url=&#34;/open-telemetry/opentelemetry-go/issues/3273/hovercard&#34; href=&#34;https://github.com/open-telemetry/opentelemetry-go/issues/3273&#34;&gt;#3273&lt;/a&gt;, &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1412583806&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/open-telemetry/opentelemetry-go/issues/3357&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/open-telemetry/opentelemetry-go/pull/3357/hovercard&#34; href=&#34;https://github.com/open-telemetry/opentelemetry-go/pull/3357&#34;&gt;#3357&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;OTLP exporters now recognize: (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1414021221&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/open-telemetry/opentelemetry-go/issues/3363&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/open-telemetry/opentelemetry-go/pull/3363/hovercard&#34; href=&#34;https://github.com/open-telemetry/opentelemetry-go/pull/3363&#34;&gt;#3363&lt;/a&gt;)&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;code&gt;OTEL_EXPORTER_OTLP_INSECURE&lt;/code&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;code&gt;OTEL_EXPORTER_OTLP_TRACES_INSECURE&lt;/code&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;code&gt;OTEL_EXPORTER_OTLP_METRICS_INSECURE&lt;/code&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;code&gt;OTEL_EXPORTER_OTLP_CLIENT_KEY&lt;/code&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;code&gt;OTEL_EXPORTER_OTLP_TRACES_CLIENT_KEY&lt;/code&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;code&gt;OTEL_EXPORTER_OTLP_METRICS_CLIENT_KEY&lt;/code&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;code&gt;OTEL_EXPORTER_OTLP_CLIENT_CERTIFICATE&lt;/code&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;code&gt;OTEL_EXPORTER_OTLP_TRACES_CLIENT_CERTIFICATE&lt;/code&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;code&gt;OTEL_EXPORTER_OTLP_METRICS_CLIENT_CERTIFICATE&lt;/code&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;The &lt;code&gt;View&lt;/code&gt; type and related &lt;code&gt;NewView&lt;/code&gt; function to create a view according to the OpenTelemetry specification are added to &lt;code&gt;go.opentelemetry.io/otel/sdk/metric&lt;/code&gt;.&lt;br&gt;&#xA;These additions are replacements for the &lt;code&gt;View&lt;/code&gt; type and &lt;code&gt;New&lt;/code&gt; function from &lt;code&gt;go.opentelemetry.io/otel/sdk/metric/view&lt;/code&gt;. (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1444675621&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/open-telemetry/opentelemetry-go/issues/3459&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/open-telemetry/opentelemetry-go/pull/3459/hovercard&#34; href=&#34;https://github.com/open-telemetry/opentelemetry-go/pull/3459&#34;&gt;#3459&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;The &lt;code&gt;Instrument&lt;/code&gt; and &lt;code&gt;InstrumentKind&lt;/code&gt; type are added to &lt;code&gt;go.opentelemetry.io/otel/sdk/metric&lt;/code&gt;.&lt;br&gt;&#xA;These additions are replacements for the &lt;code&gt;Instrument&lt;/code&gt; and &lt;code&gt;InstrumentKind&lt;/code&gt; types from &lt;code&gt;go.opentelemetry.io/otel/sdk/metric/view&lt;/code&gt;. (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1444675621&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/open-telemetry/opentelemetry-go/issues/3459&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/open-telemetry/opentelemetry-go/pull/3459/hovercard&#34; href=&#34;https://github.com/open-telemetry/opentelemetry-go/pull/3459&#34;&gt;#3459&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;The &lt;code&gt;Stream&lt;/code&gt; type is added to &lt;code&gt;go.opentelemetry.io/otel/sdk/metric&lt;/code&gt; to define a metric data stream a view will produce. (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1444675621&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/open-telemetry/opentelemetry-go/issues/3459&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/open-telemetry/opentelemetry-go/pull/3459/hovercard&#34; href=&#34;https://github.com/open-telemetry/opentelemetry-go/pull/3459&#34;&gt;#3459&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;The &lt;code&gt;AssertHasAttributes&lt;/code&gt; allows instrument authors to test that datapoints returned have appropriate attributes. (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1458234155&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/open-telemetry/opentelemetry-go/issues/3487&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/open-telemetry/opentelemetry-go/pull/3487/hovercard&#34; href=&#34;https://github.com/open-telemetry/opentelemetry-go/pull/3487&#34;&gt;#3487&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3&gt;Changed&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;The &lt;code&gt;&#34;go.opentelemetry.io/otel/sdk/metric&#34;.WithReader&lt;/code&gt; option no longer accepts views to associate with the &lt;code&gt;Reader&lt;/code&gt;.&lt;br&gt;&#xA;Instead, views are now registered directly with the &lt;code&gt;MeterProvider&lt;/code&gt; via the new &lt;code&gt;WithView&lt;/code&gt; option.&lt;br&gt;&#xA;The views registered with the &lt;code&gt;MeterProvider&lt;/code&gt; apply to all &lt;code&gt;Reader&lt;/code&gt;s. (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1418587420&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/open-telemetry/opentelemetry-go/issues/3387&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/open-telemetry/opentelemetry-go/pull/3387/hovercard&#34; href=&#34;https://github.com/open-telemetry/opentelemetry-go/pull/3387&#34;&gt;#3387&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;The &lt;code&gt;Temporality(view.InstrumentKind) metricdata.Temporality&lt;/code&gt; and &lt;code&gt;Aggregation(view.InstrumentKind) aggregation.Aggregation&lt;/code&gt; methods are added to the &lt;code&gt;&#34;go.opentelemetry.io/otel/sdk/metric&#34;.Exporter&lt;/code&gt; interface. (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1396757890&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/open-telemetry/opentelemetry-go/issues/3260&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/open-telemetry/opentelemetry-go/pull/3260/hovercard&#34; href=&#34;https://github.com/open-telemetry/opentelemetry-go/pull/3260&#34;&gt;#3260&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;The &lt;code&gt;Temporality(view.InstrumentKind) metricdata.Temporality&lt;/code&gt; and &lt;code&gt;Aggregation(view.InstrumentKind) aggregation.Aggregation&lt;/code&gt; methods are added to the &lt;code&gt;&#34;go.opentelemetry.io/otel/exporters/otlp/otlpmetric&#34;.Client&lt;/code&gt; interface. (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1396757890&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/open-telemetry/opentelemetry-go/issues/3260&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/open-telemetry/opentelemetry-go/pull/3260/hovercard&#34; href=&#34;https://github.com/open-telemetry/opentelemetry-go/pull/3260&#34;&gt;#3260&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;The &lt;code&gt;WithTemporalitySelector&lt;/code&gt; and &lt;code&gt;WithAggregationSelector&lt;/code&gt; &lt;code&gt;ReaderOption&lt;/code&gt;s have been changed to &lt;code&gt;ManualReaderOption&lt;/code&gt;s in the &lt;code&gt;go.opentelemetry.io/otel/sdk/metric&lt;/code&gt; package. (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1396757890&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/open-telemetry/opentelemetry-go/issues/3260&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/open-telemetry/opentelemetry-go/pull/3260/hovercard&#34; href=&#34;https://github.com/open-telemetry/opentelemetry-go/pull/3260&#34;&gt;#3260&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;The periodic reader in the &lt;code&gt;go.opentelemetry.io/otel/sdk/metric&lt;/code&gt; package now uses the temporality and aggregation selectors from its configured exporter instead of accepting them as options. (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1396757890&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/open-telemetry/opentelemetry-go/issues/3260&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/open-telemetry/opentelemetry-go/pull/3260/hovercard&#34; href=&#34;https://github.com/open-telemetry/opentelemetry-go/pull/3260&#34;&gt;#3260&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3&gt;Fixed&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;The &lt;code&gt;go.opentelemetry.io/otel/exporters/prometheus&lt;/code&gt; exporter fixes duplicated &lt;code&gt;_total&lt;/code&gt; suffixes. (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1416176475&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/open-telemetry/opentelemetry-go/issues/3369&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/open-telemetry/opentelemetry-go/pull/3369/hovercard&#34; href=&#34;https://github.com/open-telemetry/opentelemetry-go/pull/3369&#34;&gt;#3369&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;Remove comparable requirement for &lt;code&gt;Reader&lt;/code&gt;s. (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1418587420&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/open-telemetry/opentelemetry-go/issues/3387&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/open-telemetry/opentelemetry-go/pull/3387/hovercard&#34; href=&#34;https://github.com/open-telemetry/opentelemetry-go/pull/3387&#34;&gt;#3387&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;Cumulative metrics from the OpenCensus bridge (&lt;code&gt;go.opentelemetry.io/otel/bridge/opencensus&lt;/code&gt;) are defined as monotonic sums, instead of non-monotonic. (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1418603583&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/open-telemetry/opentelemetry-go/issues/3389&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/open-telemetry/opentelemetry-go/pull/3389/hovercard&#34; href=&#34;https://github.com/open-telemetry/opentelemetry-go/pull/3389&#34;&gt;#3389&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;Asynchronous counters (&lt;code&gt;Counter&lt;/code&gt; and &lt;code&gt;UpDownCounter&lt;/code&gt;) from the metric SDK now produce delta sums when configured with delta temporality. (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1423262891&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/open-telemetry/opentelemetry-go/issues/3398&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/open-telemetry/opentelemetry-go/pull/3398/hovercard&#34; href=&#34;https://github.com/open-telemetry/opentelemetry-go/pull/3398&#34;&gt;#3398&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;Exported &lt;code&gt;Status&lt;/code&gt; codes in the &lt;code&gt;go.opentelemetry.io/otel/exporters/zipkin&lt;/code&gt; exporter are now exported as all upper case values. (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1411087183&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/open-telemetry/opentelemetry-go/issues/3340&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/open-telemetry/opentelemetry-go/pull/3340/hovercard&#34; href=&#34;https://github.com/open-telemetry/opentelemetry-go/pull/3340&#34;&gt;#3340&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;&lt;code&gt;Aggregation&lt;/code&gt;s from &lt;code&gt;go.opentelemetry.io/otel/sdk/metric&lt;/code&gt; with no data are not exported. (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1422369464&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/open-telemetry/opentelemetry-go/issues/3394&#34; data-hovercard-type=&#34;issue&#34; data-hovercard-url=&#34;/open-telemetry/opentelemetry-go/issues/3394/hovercard&#34; href=&#34;https://github.com/open-telemetry/opentelemetry-go/issues/3394&#34;&gt;#3394&lt;/a&gt;, &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1432268768&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/open-telemetry/opentelemetry-go/issues/3436&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/open-telemetry/opentelemetry-go/pull/3436/hovercard&#34; href=&#34;https://github.com/open-telemetry/opentelemetry-go/pull/3436&#34;&gt;#3436&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;Reenabled Attribute Filters in the Metric SDK. (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1422913545&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/open-telemetry/opentelemetry-go/issues/3396&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/open-telemetry/opentelemetry-go/pull/3396/hovercard&#34; href=&#34;https://github.com/open-telemetry/opentelemetry-go/pull/3396&#34;&gt;#3396&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;Asynchronous callbacks are only called if they are registered with at least one instrument that does not use drop aggragation. (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1427759619&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/open-telemetry/opentelemetry-go/issues/3408&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/open-telemetry/opentelemetry-go/pull/3408/hovercard&#34; href=&#34;https://github.com/open-telemetry/opentelemetry-go/pull/3408&#34;&gt;#3408&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;Do not report empty partial-success responses in the &lt;code&gt;go.opentelemetry.io/otel/exporters/otlp&lt;/code&gt; exporters. (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1433419787&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/open-telemetry/opentelemetry-go/issues/3438&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/open-telemetry/opentelemetry-go/pull/3438/hovercard&#34; href=&#34;https://github.com/open-telemetry/opentelemetry-go/pull/3438&#34;&gt;#3438&lt;/a&gt;, &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1429053294&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/open-telemetry/opentelemetry-go/issues/3432&#34; data-hovercard-type=&#34;issue&#34; data-hovercard-url=&#34;/open-telemetry/opentelemetry-go/issues/3432/hovercard&#34; href=&#34;https://github.com/open-telemetry/opentelemetry-go/issues/3432&#34;&gt;#3432&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;Handle partial success responses in &lt;code&gt;go.opentelemetry.io/otel/exporters/otlp/otlpmetric&lt;/code&gt; exporters. (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1368529632&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/open-telemetry/opentelemetry-go/issues/3162&#34; data-hovercard-type=&#34;issue&#34; data-hovercard-url=&#34;/open-telemetry/opentelemetry-go/issues/3162/hovercard&#34; href=&#34;https://github.com/open-telemetry/opentelemetry-go/issues/3162&#34;&gt;#3162&lt;/a&gt;, &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1435309958&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/open-telemetry/opentelemetry-go/issues/3440&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/open-telemetry/opentelemetry-go/pull/3440/hovercard&#34; href=&#34;https://github.com/open-telemetry/opentelemetry-go/pull/3440&#34;&gt;#3440&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;Prevent duplicate Prometheus description, unit, and type. (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1449203844&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/open-telemetry/opentelemetry-go/issues/3469&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/open-telemetry/opentelemetry-go/pull/3469/hovercard&#34; href=&#34;https://github.com/open-telemetry/opentelemetry-go/pull/3469&#34;&gt;#3469&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;Prevents panic when using incorrect &lt;code&gt;attribute.Value.As[Type]Slice()&lt;/code&gt;. (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1458648588&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/open-telemetry/opentelemetry-go/issues/3489&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/open-telemetry/opentelemetry-go/pull/3489/hovercard&#34; href=&#34;https://github.com/open-telemetry/opentelemetry-go/pull/3489&#34;&gt;#3489&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2&gt;Removed&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;The &lt;code&gt;go.opentelemetry.io/otel/exporters/otlp/otlpmetric.Client&lt;/code&gt; interface is removed. (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1458168409&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/open-telemetry/opentelemetry-go/issues/3486&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/open-telemetry/opentelemetry-go/pull/3486/hovercard&#34; href=&#34;https://github.com/open-telemetry/opentelemetry-go/pull/3486&#34;&gt;#3486&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;The &lt;code&gt;go.opentelemetry.io/otel/exporters/otlp/otlpmetric.New&lt;/code&gt; function is removed. Use the &lt;code&gt;otlpmetric[http|grpc].New&lt;/code&gt; directly. (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1458168409&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/open-telemetry/opentelemetry-go/issues/3486&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/open-telemetry/opentelemetry-go/pull/3486/hovercard&#34; href=&#34;https://github.com/open-telemetry/opentelemetry-go/pull/3486&#34;&gt;#3486&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3&gt;Deprecated&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;The &lt;code&gt;go.opentelemetry.io/otel/sdk/metric/view&lt;/code&gt; package is deprecated.&lt;br&gt;&#xA;Use &lt;code&gt;Instrument&lt;/code&gt;, &lt;code&gt;InstrumentKind&lt;/code&gt;, &lt;code&gt;View&lt;/code&gt;, and &lt;code&gt;NewView&lt;/code&gt; in &lt;code&gt;go.opentelemetry.io/otel/sdk/metric&lt;/code&gt; instead. (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1456589636&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/open-telemetry/opentelemetry-go/issues/3476&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/open-telemetry/opentelemetry-go/pull/3476/hovercard&#34; href=&#34;https://github.com/open-telemetry/opentelemetry-go/pull/3476&#34;&gt;#3476&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/open-telemetry/opentelemetry-go/releases/tag/v1.11.2" rel="alternate"></link>
+    <title>Release notes from opentelemetry-go-contrib - tools/v1.12.0</title>
+    <updated>2022-12-05T21:46:48Z</updated>
+    <id>tag:github.com,2008:Repository/242202166/tools/v1.12.0</id>
+    <content type="html">&lt;p&gt;Module set stable-v1, Version v1.12.0&lt;/p&gt;</content>
+    <link href="https://github.com/open-telemetry/opentelemetry-go-contrib/releases/tag/tools%2Fv1.12.0" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>MadVikingGod</name>
     </author>
   </entry>
   <entry>
-    <title>Release notes from opentelemetry-go - exporters/prometheus/v0.34.0</title>
-    <updated>2022-12-05T19:44:51Z</updated>
-    <id>tag:github.com,2008:Repository/187086161/exporters/prometheus/v0.34.0</id>
-    <content type="html">&lt;p&gt;Module set experimental-metrics, Version v0.34.0&lt;/p&gt;</content>
-    <link href="https://github.com/open-telemetry/opentelemetry-go/releases/tag/exporters%2Fprometheus%2Fv0.34.0" rel="alternate"></link>
+    <title>Release notes from opentelemetry-go - Release v1.11.2/0.34.0</title>
+    <updated>2022-12-05T19:48:58Z</updated>
+    <id>tag:github.com,2008:Repository/187086161/v1.11.2</id>
+    <content type="html">&lt;h3&gt;Added&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;The &lt;code&gt;WithView&lt;/code&gt; &lt;code&gt;Option&lt;/code&gt; is added to the &lt;code&gt;go.opentelemetry.io/otel/sdk/metric&lt;/code&gt; package.&lt;br&gt;&#xA;This option is used to configure the view(s) a &lt;code&gt;MeterProvider&lt;/code&gt; will use for all &lt;code&gt;Reader&lt;/code&gt;s that are registered with it. (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1418587420&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/open-telemetry/opentelemetry-go/issues/3387&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/open-telemetry/opentelemetry-go/pull/3387/hovercard&#34; href=&#34;https://github.com/open-telemetry/opentelemetry-go/pull/3387&#34;&gt;#3387&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;Add Instrumentation Scope and Version as info metric and label in Prometheus exporter.&lt;br&gt;&#xA;This can be disabled using the &lt;code&gt;WithoutScopeInfo()&lt;/code&gt; option added to that package.(&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1406506199&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/open-telemetry/opentelemetry-go/issues/3273&#34; data-hovercard-type=&#34;issue&#34; data-hovercard-url=&#34;/open-telemetry/opentelemetry-go/issues/3273/hovercard&#34; href=&#34;https://github.com/open-telemetry/opentelemetry-go/issues/3273&#34;&gt;#3273&lt;/a&gt;, &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1412583806&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/open-telemetry/opentelemetry-go/issues/3357&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/open-telemetry/opentelemetry-go/pull/3357/hovercard&#34; href=&#34;https://github.com/open-telemetry/opentelemetry-go/pull/3357&#34;&gt;#3357&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;OTLP exporters now recognize: (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1414021221&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/open-telemetry/opentelemetry-go/issues/3363&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/open-telemetry/opentelemetry-go/pull/3363/hovercard&#34; href=&#34;https://github.com/open-telemetry/opentelemetry-go/pull/3363&#34;&gt;#3363&lt;/a&gt;)&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;code&gt;OTEL_EXPORTER_OTLP_INSECURE&lt;/code&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;code&gt;OTEL_EXPORTER_OTLP_TRACES_INSECURE&lt;/code&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;code&gt;OTEL_EXPORTER_OTLP_METRICS_INSECURE&lt;/code&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;code&gt;OTEL_EXPORTER_OTLP_CLIENT_KEY&lt;/code&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;code&gt;OTEL_EXPORTER_OTLP_TRACES_CLIENT_KEY&lt;/code&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;code&gt;OTEL_EXPORTER_OTLP_METRICS_CLIENT_KEY&lt;/code&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;code&gt;OTEL_EXPORTER_OTLP_CLIENT_CERTIFICATE&lt;/code&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;code&gt;OTEL_EXPORTER_OTLP_TRACES_CLIENT_CERTIFICATE&lt;/code&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;code&gt;OTEL_EXPORTER_OTLP_METRICS_CLIENT_CERTIFICATE&lt;/code&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;The &lt;code&gt;View&lt;/code&gt; type and related &lt;code&gt;NewView&lt;/code&gt; function to create a view according to the OpenTelemetry specification are added to &lt;code&gt;go.opentelemetry.io/otel/sdk/metric&lt;/code&gt;.&lt;br&gt;&#xA;These additions are replacements for the &lt;code&gt;View&lt;/code&gt; type and &lt;code&gt;New&lt;/code&gt; function from &lt;code&gt;go.opentelemetry.io/otel/sdk/metric/view&lt;/code&gt;. (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1444675621&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/open-telemetry/opentelemetry-go/issues/3459&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/open-telemetry/opentelemetry-go/pull/3459/hovercard&#34; href=&#34;https://github.com/open-telemetry/opentelemetry-go/pull/3459&#34;&gt;#3459&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;The &lt;code&gt;Instrument&lt;/code&gt; and &lt;code&gt;InstrumentKind&lt;/code&gt; type are added to &lt;code&gt;go.opentelemetry.io/otel/sdk/metric&lt;/code&gt;.&lt;br&gt;&#xA;These additions are replacements for the &lt;code&gt;Instrument&lt;/code&gt; and &lt;code&gt;InstrumentKind&lt;/code&gt; types from &lt;code&gt;go.opentelemetry.io/otel/sdk/metric/view&lt;/code&gt;. (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1444675621&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/open-telemetry/opentelemetry-go/issues/3459&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/open-telemetry/opentelemetry-go/pull/3459/hovercard&#34; href=&#34;https://github.com/open-telemetry/opentelemetry-go/pull/3459&#34;&gt;#3459&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;The &lt;code&gt;Stream&lt;/code&gt; type is added to &lt;code&gt;go.opentelemetry.io/otel/sdk/metric&lt;/code&gt; to define a metric data stream a view will produce. (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1444675621&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/open-telemetry/opentelemetry-go/issues/3459&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/open-telemetry/opentelemetry-go/pull/3459/hovercard&#34; href=&#34;https://github.com/open-telemetry/opentelemetry-go/pull/3459&#34;&gt;#3459&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;The &lt;code&gt;AssertHasAttributes&lt;/code&gt; allows instrument authors to test that datapoints returned have appropriate attributes. (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1458234155&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/open-telemetry/opentelemetry-go/issues/3487&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/open-telemetry/opentelemetry-go/pull/3487/hovercard&#34; href=&#34;https://github.com/open-telemetry/opentelemetry-go/pull/3487&#34;&gt;#3487&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3&gt;Changed&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;The &lt;code&gt;&#34;go.opentelemetry.io/otel/sdk/metric&#34;.WithReader&lt;/code&gt; option no longer accepts views to associate with the &lt;code&gt;Reader&lt;/code&gt;.&lt;br&gt;&#xA;Instead, views are now registered directly with the &lt;code&gt;MeterProvider&lt;/code&gt; via the new &lt;code&gt;WithView&lt;/code&gt; option.&lt;br&gt;&#xA;The views registered with the &lt;code&gt;MeterProvider&lt;/code&gt; apply to all &lt;code&gt;Reader&lt;/code&gt;s. (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1418587420&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/open-telemetry/opentelemetry-go/issues/3387&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/open-telemetry/opentelemetry-go/pull/3387/hovercard&#34; href=&#34;https://github.com/open-telemetry/opentelemetry-go/pull/3387&#34;&gt;#3387&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;The &lt;code&gt;Temporality(view.InstrumentKind) metricdata.Temporality&lt;/code&gt; and &lt;code&gt;Aggregation(view.InstrumentKind) aggregation.Aggregation&lt;/code&gt; methods are added to the &lt;code&gt;&#34;go.opentelemetry.io/otel/sdk/metric&#34;.Exporter&lt;/code&gt; interface. (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1396757890&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/open-telemetry/opentelemetry-go/issues/3260&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/open-telemetry/opentelemetry-go/pull/3260/hovercard&#34; href=&#34;https://github.com/open-telemetry/opentelemetry-go/pull/3260&#34;&gt;#3260&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;The &lt;code&gt;Temporality(view.InstrumentKind) metricdata.Temporality&lt;/code&gt; and &lt;code&gt;Aggregation(view.InstrumentKind) aggregation.Aggregation&lt;/code&gt; methods are added to the &lt;code&gt;&#34;go.opentelemetry.io/otel/exporters/otlp/otlpmetric&#34;.Client&lt;/code&gt; interface. (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1396757890&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/open-telemetry/opentelemetry-go/issues/3260&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/open-telemetry/opentelemetry-go/pull/3260/hovercard&#34; href=&#34;https://github.com/open-telemetry/opentelemetry-go/pull/3260&#34;&gt;#3260&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;The &lt;code&gt;WithTemporalitySelector&lt;/code&gt; and &lt;code&gt;WithAggregationSelector&lt;/code&gt; &lt;code&gt;ReaderOption&lt;/code&gt;s have been changed to &lt;code&gt;ManualReaderOption&lt;/code&gt;s in the &lt;code&gt;go.opentelemetry.io/otel/sdk/metric&lt;/code&gt; package. (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1396757890&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/open-telemetry/opentelemetry-go/issues/3260&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/open-telemetry/opentelemetry-go/pull/3260/hovercard&#34; href=&#34;https://github.com/open-telemetry/opentelemetry-go/pull/3260&#34;&gt;#3260&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;The periodic reader in the &lt;code&gt;go.opentelemetry.io/otel/sdk/metric&lt;/code&gt; package now uses the temporality and aggregation selectors from its configured exporter instead of accepting them as options. (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1396757890&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/open-telemetry/opentelemetry-go/issues/3260&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/open-telemetry/opentelemetry-go/pull/3260/hovercard&#34; href=&#34;https://github.com/open-telemetry/opentelemetry-go/pull/3260&#34;&gt;#3260&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3&gt;Fixed&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;The &lt;code&gt;go.opentelemetry.io/otel/exporters/prometheus&lt;/code&gt; exporter fixes duplicated &lt;code&gt;_total&lt;/code&gt; suffixes. (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1416176475&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/open-telemetry/opentelemetry-go/issues/3369&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/open-telemetry/opentelemetry-go/pull/3369/hovercard&#34; href=&#34;https://github.com/open-telemetry/opentelemetry-go/pull/3369&#34;&gt;#3369&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;Remove comparable requirement for &lt;code&gt;Reader&lt;/code&gt;s. (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1418587420&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/open-telemetry/opentelemetry-go/issues/3387&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/open-telemetry/opentelemetry-go/pull/3387/hovercard&#34; href=&#34;https://github.com/open-telemetry/opentelemetry-go/pull/3387&#34;&gt;#3387&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;Cumulative metrics from the OpenCensus bridge (&lt;code&gt;go.opentelemetry.io/otel/bridge/opencensus&lt;/code&gt;) are defined as monotonic sums, instead of non-monotonic. (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1418603583&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/open-telemetry/opentelemetry-go/issues/3389&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/open-telemetry/opentelemetry-go/pull/3389/hovercard&#34; href=&#34;https://github.com/open-telemetry/opentelemetry-go/pull/3389&#34;&gt;#3389&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;Asynchronous counters (&lt;code&gt;Counter&lt;/code&gt; and &lt;code&gt;UpDownCounter&lt;/code&gt;) from the metric SDK now produce delta sums when configured with delta temporality. (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1423262891&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/open-telemetry/opentelemetry-go/issues/3398&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/open-telemetry/opentelemetry-go/pull/3398/hovercard&#34; href=&#34;https://github.com/open-telemetry/opentelemetry-go/pull/3398&#34;&gt;#3398&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;Exported &lt;code&gt;Status&lt;/code&gt; codes in the &lt;code&gt;go.opentelemetry.io/otel/exporters/zipkin&lt;/code&gt; exporter are now exported as all upper case values. (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1411087183&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/open-telemetry/opentelemetry-go/issues/3340&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/open-telemetry/opentelemetry-go/pull/3340/hovercard&#34; href=&#34;https://github.com/open-telemetry/opentelemetry-go/pull/3340&#34;&gt;#3340&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;&lt;code&gt;Aggregation&lt;/code&gt;s from &lt;code&gt;go.opentelemetry.io/otel/sdk/metric&lt;/code&gt; with no data are not exported. (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1422369464&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/open-telemetry/opentelemetry-go/issues/3394&#34; data-hovercard-type=&#34;issue&#34; data-hovercard-url=&#34;/open-telemetry/opentelemetry-go/issues/3394/hovercard&#34; href=&#34;https://github.com/open-telemetry/opentelemetry-go/issues/3394&#34;&gt;#3394&lt;/a&gt;, &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1432268768&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/open-telemetry/opentelemetry-go/issues/3436&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/open-telemetry/opentelemetry-go/pull/3436/hovercard&#34; href=&#34;https://github.com/open-telemetry/opentelemetry-go/pull/3436&#34;&gt;#3436&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;Reenabled Attribute Filters in the Metric SDK. (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1422913545&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/open-telemetry/opentelemetry-go/issues/3396&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/open-telemetry/opentelemetry-go/pull/3396/hovercard&#34; href=&#34;https://github.com/open-telemetry/opentelemetry-go/pull/3396&#34;&gt;#3396&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;Asynchronous callbacks are only called if they are registered with at least one instrument that does not use drop aggragation. (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1427759619&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/open-telemetry/opentelemetry-go/issues/3408&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/open-telemetry/opentelemetry-go/pull/3408/hovercard&#34; href=&#34;https://github.com/open-telemetry/opentelemetry-go/pull/3408&#34;&gt;#3408&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;Do not report empty partial-success responses in the &lt;code&gt;go.opentelemetry.io/otel/exporters/otlp&lt;/code&gt; exporters. (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1433419787&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/open-telemetry/opentelemetry-go/issues/3438&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/open-telemetry/opentelemetry-go/pull/3438/hovercard&#34; href=&#34;https://github.com/open-telemetry/opentelemetry-go/pull/3438&#34;&gt;#3438&lt;/a&gt;, &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1429053294&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/open-telemetry/opentelemetry-go/issues/3432&#34; data-hovercard-type=&#34;issue&#34; data-hovercard-url=&#34;/open-telemetry/opentelemetry-go/issues/3432/hovercard&#34; href=&#34;https://github.com/open-telemetry/opentelemetry-go/issues/3432&#34;&gt;#3432&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;Handle partial success responses in &lt;code&gt;go.opentelemetry.io/otel/exporters/otlp/otlpmetric&lt;/code&gt; exporters. (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1368529632&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/open-telemetry/opentelemetry-go/issues/3162&#34; data-hovercard-type=&#34;issue&#34; data-hovercard-url=&#34;/open-telemetry/opentelemetry-go/issues/3162/hovercard&#34; href=&#34;https://github.com/open-telemetry/opentelemetry-go/issues/3162&#34;&gt;#3162&lt;/a&gt;, &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1435309958&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/open-telemetry/opentelemetry-go/issues/3440&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/open-telemetry/opentelemetry-go/pull/3440/hovercard&#34; href=&#34;https://github.com/open-telemetry/opentelemetry-go/pull/3440&#34;&gt;#3440&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;Prevent duplicate Prometheus description, unit, and type. (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1449203844&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/open-telemetry/opentelemetry-go/issues/3469&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/open-telemetry/opentelemetry-go/pull/3469/hovercard&#34; href=&#34;https://github.com/open-telemetry/opentelemetry-go/pull/3469&#34;&gt;#3469&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;Prevents panic when using incorrect &lt;code&gt;attribute.Value.As[Type]Slice()&lt;/code&gt;. (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1458648588&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/open-telemetry/opentelemetry-go/issues/3489&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/open-telemetry/opentelemetry-go/pull/3489/hovercard&#34; href=&#34;https://github.com/open-telemetry/opentelemetry-go/pull/3489&#34;&gt;#3489&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2&gt;Removed&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;The &lt;code&gt;go.opentelemetry.io/otel/exporters/otlp/otlpmetric.Client&lt;/code&gt; interface is removed. (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1458168409&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/open-telemetry/opentelemetry-go/issues/3486&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/open-telemetry/opentelemetry-go/pull/3486/hovercard&#34; href=&#34;https://github.com/open-telemetry/opentelemetry-go/pull/3486&#34;&gt;#3486&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;The &lt;code&gt;go.opentelemetry.io/otel/exporters/otlp/otlpmetric.New&lt;/code&gt; function is removed. Use the &lt;code&gt;otlpmetric[http|grpc].New&lt;/code&gt; directly. (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1458168409&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/open-telemetry/opentelemetry-go/issues/3486&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/open-telemetry/opentelemetry-go/pull/3486/hovercard&#34; href=&#34;https://github.com/open-telemetry/opentelemetry-go/pull/3486&#34;&gt;#3486&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3&gt;Deprecated&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;The &lt;code&gt;go.opentelemetry.io/otel/sdk/metric/view&lt;/code&gt; package is deprecated.&lt;br&gt;&#xA;Use &lt;code&gt;Instrument&lt;/code&gt;, &lt;code&gt;InstrumentKind&lt;/code&gt;, &lt;code&gt;View&lt;/code&gt;, and &lt;code&gt;NewView&lt;/code&gt; in &lt;code&gt;go.opentelemetry.io/otel/sdk/metric&lt;/code&gt; instead. (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1456589636&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/open-telemetry/opentelemetry-go/issues/3476&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/open-telemetry/opentelemetry-go/pull/3476/hovercard&#34; href=&#34;https://github.com/open-telemetry/opentelemetry-go/pull/3476&#34;&gt;#3476&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/open-telemetry/opentelemetry-go/releases/tag/v1.11.2" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>MadVikingGod</name>
@@ -1390,6 +1456,17 @@
     </author>
   </entry>
   <entry>
+    <title>Release notes from opentelemetry-go - exporters/prometheus/v0.34.0</title>
+    <updated>2022-12-05T19:44:51Z</updated>
+    <id>tag:github.com,2008:Repository/187086161/exporters/prometheus/v0.34.0</id>
+    <content type="html">&lt;p&gt;Module set experimental-metrics, Version v0.34.0&lt;/p&gt;</content>
+    <link href="https://github.com/open-telemetry/opentelemetry-go/releases/tag/exporters%2Fprometheus%2Fv0.34.0" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>MadVikingGod</name>
+    </author>
+  </entry>
+  <entry>
     <title>Release notes from opentelemetry-go - exporters/stdout/stdouttrace/v1.11.2</title>
     <updated>2022-12-05T19:44:35Z</updated>
     <id>tag:github.com,2008:Repository/187086161/exporters/stdout/stdouttrace/v1.11.2</id>
@@ -1412,17 +1489,6 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from opentelemetry-go - sdk/v1.11.2</title>
-    <updated>2022-12-05T19:44:35Z</updated>
-    <id>tag:github.com,2008:Repository/187086161/sdk/v1.11.2</id>
-    <content type="html">&lt;p&gt;Module set stable-v1, Version v1.11.2&lt;/p&gt;</content>
-    <link href="https://github.com/open-telemetry/opentelemetry-go/releases/tag/sdk%2Fv1.11.2" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>MadVikingGod</name>
-    </author>
-  </entry>
-  <entry>
     <title>Release notes from opentelemetry-go - trace/v1.11.2</title>
     <updated>2022-12-05T19:44:35Z</updated>
     <id>tag:github.com,2008:Repository/187086161/trace/v1.11.2</id>
@@ -1439,6 +1505,17 @@
     <id>tag:github.com,2008:Repository/187086161/exporters/zipkin/v1.11.2</id>
     <content type="html">&lt;p&gt;Module set stable-v1, Version v1.11.2&lt;/p&gt;</content>
     <link href="https://github.com/open-telemetry/opentelemetry-go/releases/tag/exporters%2Fzipkin%2Fv1.11.2" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>MadVikingGod</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from opentelemetry-go - sdk/v1.11.2</title>
+    <updated>2022-12-05T19:44:35Z</updated>
+    <id>tag:github.com,2008:Repository/187086161/sdk/v1.11.2</id>
+    <content type="html">&lt;p&gt;Module set stable-v1, Version v1.11.2&lt;/p&gt;</content>
+    <link href="https://github.com/open-telemetry/opentelemetry-go/releases/tag/sdk%2Fv1.11.2" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>MadVikingGod</name>
@@ -1709,72 +1786,6 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from opentelemetry-operations-go - exporter/metric/v0.34.2</title>
-    <updated>2022-11-29T17:15:55Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/exporter/metric/v0.34.2</id>
-    <content type="html">&lt;p&gt;Fix propagator package in release.go (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1468373574&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/540&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleCloudPlatform/opentelemetry-operations-go/pull/540/hovercard&#34; href=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/pull/540&#34;&gt;#540&lt;/a&gt;)&lt;/p&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/exporter%2Fmetric%2Fv0.34.2" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>damemi</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from opentelemetry-operations-go - example/metric/v0.34.2</title>
-    <updated>2022-11-29T17:15:55Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/example/metric/v0.34.2</id>
-    <content type="html">&lt;p&gt;Fix propagator package in release.go (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1468373574&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/540&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleCloudPlatform/opentelemetry-operations-go/pull/540/hovercard&#34; href=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/pull/540&#34;&gt;#540&lt;/a&gt;)&lt;/p&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/example%2Fmetric%2Fv0.34.2" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>damemi</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from opentelemetry-operations-go - exporter/collector/googlemanagedprometheus/v0.34.2</title>
-    <updated>2022-11-29T17:15:55Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/exporter/collector/googlemanagedprometheus/v0.34.2</id>
-    <content type="html">&lt;p&gt;Fix propagator package in release.go (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1468373574&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/540&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleCloudPlatform/opentelemetry-operations-go/pull/540/hovercard&#34; href=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/pull/540&#34;&gt;#540&lt;/a&gt;)&lt;/p&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/exporter%2Fcollector%2Fgooglemanagedprometheus%2Fv0.34.2" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>damemi</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from opentelemetry-operations-go - internal/cloudmock/v0.34.2</title>
-    <updated>2022-11-29T17:15:55Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/internal/cloudmock/v0.34.2</id>
-    <content type="html">&lt;p&gt;Fix propagator package in release.go (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1468373574&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/540&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleCloudPlatform/opentelemetry-operations-go/pull/540/hovercard&#34; href=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/pull/540&#34;&gt;#540&lt;/a&gt;)&lt;/p&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/internal%2Fcloudmock%2Fv0.34.2" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>damemi</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from opentelemetry-operations-go - propagator/v0.34.2</title>
-    <updated>2022-11-29T17:15:55Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/propagator/v0.34.2</id>
-    <content type="html">&lt;p&gt;Fix propagator package in release.go (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1468373574&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/540&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleCloudPlatform/opentelemetry-operations-go/pull/540/hovercard&#34; href=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/pull/540&#34;&gt;#540&lt;/a&gt;)&lt;/p&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/propagator%2Fv0.34.2" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>damemi</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from opentelemetry-operations-go - example/trace/http/v0.34.2</title>
-    <updated>2022-11-29T17:15:55Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/example/trace/http/v0.34.2</id>
-    <content type="html">&lt;p&gt;Fix propagator package in release.go (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1468373574&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/540&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleCloudPlatform/opentelemetry-operations-go/pull/540/hovercard&#34; href=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/pull/540&#34;&gt;#540&lt;/a&gt;)&lt;/p&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/example%2Ftrace%2Fhttp%2Fv0.34.2" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>damemi</name>
-    </author>
-  </entry>
-  <entry>
     <title>Release notes from opentelemetry-operations-go - internal/resourcemapping/v0.34.2</title>
     <updated>2022-11-29T17:15:55Z</updated>
     <id>tag:github.com,2008:Repository/244484581/internal/resourcemapping/v0.34.2</id>
@@ -1797,11 +1808,77 @@
     </author>
   </entry>
   <entry>
+    <title>Release notes from opentelemetry-operations-go - internal/cloudmock/v0.34.2</title>
+    <updated>2022-11-29T17:15:55Z</updated>
+    <id>tag:github.com,2008:Repository/244484581/internal/cloudmock/v0.34.2</id>
+    <content type="html">&lt;p&gt;Fix propagator package in release.go (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1468373574&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/540&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleCloudPlatform/opentelemetry-operations-go/pull/540/hovercard&#34; href=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/pull/540&#34;&gt;#540&lt;/a&gt;)&lt;/p&gt;</content>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/internal%2Fcloudmock%2Fv0.34.2" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>damemi</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from opentelemetry-operations-go - exporter/collector/googlemanagedprometheus/v0.34.2</title>
+    <updated>2022-11-29T17:15:55Z</updated>
+    <id>tag:github.com,2008:Repository/244484581/exporter/collector/googlemanagedprometheus/v0.34.2</id>
+    <content type="html">&lt;p&gt;Fix propagator package in release.go (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1468373574&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/540&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleCloudPlatform/opentelemetry-operations-go/pull/540/hovercard&#34; href=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/pull/540&#34;&gt;#540&lt;/a&gt;)&lt;/p&gt;</content>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/exporter%2Fcollector%2Fgooglemanagedprometheus%2Fv0.34.2" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>damemi</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from opentelemetry-operations-go - exporter/metric/v0.34.2</title>
+    <updated>2022-11-29T17:15:55Z</updated>
+    <id>tag:github.com,2008:Repository/244484581/exporter/metric/v0.34.2</id>
+    <content type="html">&lt;p&gt;Fix propagator package in release.go (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1468373574&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/540&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleCloudPlatform/opentelemetry-operations-go/pull/540/hovercard&#34; href=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/pull/540&#34;&gt;#540&lt;/a&gt;)&lt;/p&gt;</content>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/exporter%2Fmetric%2Fv0.34.2" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>damemi</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from opentelemetry-operations-go - example/metric/v0.34.2</title>
+    <updated>2022-11-29T17:15:55Z</updated>
+    <id>tag:github.com,2008:Repository/244484581/example/metric/v0.34.2</id>
+    <content type="html">&lt;p&gt;Fix propagator package in release.go (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1468373574&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/540&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleCloudPlatform/opentelemetry-operations-go/pull/540/hovercard&#34; href=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/pull/540&#34;&gt;#540&lt;/a&gt;)&lt;/p&gt;</content>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/example%2Fmetric%2Fv0.34.2" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>damemi</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from opentelemetry-operations-go - example/trace/http/v0.34.2</title>
+    <updated>2022-11-29T17:15:55Z</updated>
+    <id>tag:github.com,2008:Repository/244484581/example/trace/http/v0.34.2</id>
+    <content type="html">&lt;p&gt;Fix propagator package in release.go (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1468373574&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/540&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleCloudPlatform/opentelemetry-operations-go/pull/540/hovercard&#34; href=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/pull/540&#34;&gt;#540&lt;/a&gt;)&lt;/p&gt;</content>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/example%2Ftrace%2Fhttp%2Fv0.34.2" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>damemi</name>
+    </author>
+  </entry>
+  <entry>
     <title>Release notes from opentelemetry-operations-go - exporter/collector/v0.34.2</title>
     <updated>2022-11-29T17:15:55Z</updated>
     <id>tag:github.com,2008:Repository/244484581/exporter/collector/v0.34.2</id>
     <content type="html">&lt;p&gt;Fix propagator package in release.go (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1468373574&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/540&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleCloudPlatform/opentelemetry-operations-go/pull/540/hovercard&#34; href=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/pull/540&#34;&gt;#540&lt;/a&gt;)&lt;/p&gt;</content>
     <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/exporter%2Fcollector%2Fv0.34.2" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>damemi</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from opentelemetry-operations-go - propagator/v0.34.2</title>
+    <updated>2022-11-29T17:15:55Z</updated>
+    <id>tag:github.com,2008:Repository/244484581/propagator/v0.34.2</id>
+    <content type="html">&lt;p&gt;Fix propagator package in release.go (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1468373574&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/540&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleCloudPlatform/opentelemetry-operations-go/pull/540/hovercard&#34; href=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/pull/540&#34;&gt;#540&lt;/a&gt;)&lt;/p&gt;</content>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/propagator%2Fv0.34.2" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>damemi</name>
@@ -2553,17 +2630,6 @@
     <summary type="html"></summary>
     <author>
       <name>h2non</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from testify - v1.8.1: Bump github.com/stretchr/objx from 0.4.0 to 0.5.0 (#1283)</title>
-    <updated>2022-10-20T10:50:56Z</updated>
-    <id>tag:github.com,2008:Repository/6247705/v1.8.1</id>
-    <content type="html">&lt;p&gt;Bumps &lt;a href=&#34;https://github.com/stretchr/objx&#34;&gt;github.com/stretchr/objx&lt;/a&gt; from 0.4.0 to 0.5.0.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/stretchr/objx/releases&#34;&gt;Release notes&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/stretchr/objx/compare/v0.4.0...v0.5.0&#34;&gt;Commits&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;updated-dependencies:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;dependency-name: github.com/stretchr/objx&lt;br&gt;&#xA;dependency-type: direct:production&lt;br&gt;&#xA;update-type: version-update:semver-minor&lt;br&gt;&#xA;...&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Signed-off-by: dependabot[bot] &lt;a href=&#34;mailto:support@github.com&#34;&gt;support@github.com&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;Signed-off-by: dependabot[bot] &lt;a href=&#34;mailto:support@github.com&#34;&gt;support@github.com&lt;/a&gt;&lt;br&gt;&#xA;Co-authored-by: dependabot[bot] &amp;lt;49699333+dependabot[bot]@users.noreply.github.com&amp;gt;&lt;/p&gt;</content>
-    <link href="https://github.com/stretchr/testify/releases/tag/v1.8.1" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>dependabot[bot]</name>
     </author>
   </entry>
   <entry>
@@ -3645,6 +3711,17 @@
     </author>
   </entry>
   <entry>
+    <title>Release notes from influxdb - v2.4.0</title>
+    <updated>2022-08-30T16:13:08Z</updated>
+    <id>tag:github.com,2008:Repository/13124802/v2.4.0</id>
+    <content type="html">&lt;p&gt;In addition to the list of changes below, please also see the &lt;a href=&#34;https://docs.influxdata.com/influxdb/v2.4/reference/release-notes/influxdb/&#34; rel=&#34;nofollow&#34;&gt;official release notes&lt;/a&gt; for other important information about this release.&lt;/p&gt;&#xA;&lt;h2&gt;v2.4.0 [2022/08/18]&lt;/h2&gt;&#xA;&lt;hr&gt;&#xA;&lt;h3&gt;Bug Fixes&lt;/h3&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/influxdata/influxdb/commit/21885a7&#34;&gt;21885a7&lt;/a&gt;: Log the log level at startup&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/influxdata/influxdb/commit/76cfddb&#34;&gt;76cfddb&lt;/a&gt;: Emit zipfile for windows&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/influxdata/influxdb/commit/69a95dc&#34;&gt;69a95dc&lt;/a&gt;: Update the condition when reseting cursor&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/influxdata/influxdb/commit/4789d54&#34;&gt;4789d54&lt;/a&gt;: Improve error messages opening index partitions&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/influxdata/influxdb/commit/00edb77&#34;&gt;00edb77&lt;/a&gt;: Create TSI MANIFEST files atomically&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/influxdata/influxdb/commit/f762346&#34;&gt;f762346&lt;/a&gt;: Add paths to tsi log and index file errors&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/influxdata/influxdb/commit/619eb1c&#34;&gt;619eb1c&lt;/a&gt;: Restore in-memory Manifest on write error&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/influxdata/influxdb/commit/f7b1905&#34;&gt;f7b1905&lt;/a&gt;: Do not delete replication on remote config delete&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/influxdata/influxdb/commit/afbbfac&#34;&gt;afbbfac&lt;/a&gt;: Fix virtual DBRP FindMany, make virtual bucket default if not overridden&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/influxdata/influxdb/commit/187f991&#34;&gt;187f991&lt;/a&gt;: Improve virtual DBRP default handling&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h3&gt;Features&lt;/h3&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/influxdata/influxdb/commit/bf5e6eb&#34;&gt;bf5e6eb&lt;/a&gt;: Update Contributing.md to be more accurate for a clean checkout&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/influxdata/influxdb/commit/e7cf522&#34;&gt;e7cf522&lt;/a&gt;: Implement nightly docker builds without goreleaser&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/influxdata/influxdb/commit/67ccbae&#34;&gt;67ccbae&lt;/a&gt;: Add the concept of an instance owner&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/influxdata/influxdb/commit/adeac8b&#34;&gt;adeac8b&lt;/a&gt;: Add virtual DBRP mappings based on bucket name&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/influxdata/influxdb/commit/90d45e8&#34;&gt;90d45e8&lt;/a&gt;: Enable static-pie builds (2.x)&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/influxdata/influxdb/commit/6f50e70&#34;&gt;6f50e70&lt;/a&gt;: Replicate based on bucket name rather than id&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h3&gt;Other&lt;/h3&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/influxdata/influxdb/commit/83bb8ed&#34;&gt;83bb8ed&lt;/a&gt;: Build: update frozen changelog&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/influxdata/influxdb/commit/85e4e63&#34;&gt;85e4e63&lt;/a&gt;: Build: fix release workflow&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/influxdata/influxdb/commit/cbbf4b2&#34;&gt;cbbf4b2&lt;/a&gt;: Build(flux): update flux to v0.172.0&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/influxdata/influxdb/commit/3fcc085&#34;&gt;3fcc085&lt;/a&gt;: Chore: Fix link in the README&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/influxdata/influxdb/commit/07bab31&#34;&gt;07bab31&lt;/a&gt;: Build(flux): update flux to v0.173.0&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/influxdata/influxdb/commit/4d33c70&#34;&gt;4d33c70&lt;/a&gt;: Build(flux): update flux to v0.174.0&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/influxdata/influxdb/commit/4da4d03&#34;&gt;4da4d03&lt;/a&gt;: Build(flux): update flux to v0.174.1&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/influxdata/influxdb/commit/4b2949a&#34;&gt;4b2949a&lt;/a&gt;: Build: upload release and nightly CHANGELOG.md&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/influxdata/influxdb/commit/33a7add&#34;&gt;33a7add&lt;/a&gt;: Test(label): Invalid closure capture&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/influxdata/influxdb/commit/91a83ba&#34;&gt;91a83ba&lt;/a&gt;: Chore: Update PULL_REQUEST_TEMPLATE.md&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/influxdata/influxdb/commit/85dc158&#34;&gt;85dc158&lt;/a&gt;: Chore: upgrade CircleCI Mac OSX image&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/influxdata/influxdb/commit/37562c7&#34;&gt;37562c7&lt;/a&gt;: Build: upgrade to Go 1.18.4&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/influxdata/influxdb/commit/a9f751f&#34;&gt;a9f751f&lt;/a&gt;: Feat(query): add planner rule for converting aggregate window to a push down&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/influxdata/influxdb/commit/c58bbab&#34;&gt;c58bbab&lt;/a&gt;: Build(flux): update flux to v0.176.0&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/influxdata/influxdb/commit/f0072ef&#34;&gt;f0072ef&lt;/a&gt;: Chore(pkger): fix typo in README.md&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/influxdata/influxdb/commit/7e7d1db&#34;&gt;7e7d1db&lt;/a&gt;: Build(flux): update flux to v0.177.0&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/influxdata/influxdb/commit/cd4f93b&#34;&gt;cd4f93b&lt;/a&gt;: Build(flux): update flux to v0.177.1&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/influxdata/influxdb/commit/78c969e&#34;&gt;78c969e&lt;/a&gt;: Build(flux): update flux to v0.178.0&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/influxdata/influxdb/commit/c2c9d17&#34;&gt;c2c9d17&lt;/a&gt;: Build(flux): update flux to v0.179.0&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/influxdata/influxdb/commit/48fb5ce&#34;&gt;48fb5ce&lt;/a&gt;: Chore: update fluxtest skip list&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/influxdata/influxdb/commit/de247ba&#34;&gt;de247ba&lt;/a&gt;: Chore: use 22.04 image instead of 21.10 for perf test&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;table&gt;&#xA;&lt;thead&gt;&#xA;&lt;tr&gt;&#xA;&lt;th&gt;OSS BINARY FILES&lt;/th&gt;&#xA;&lt;th&gt;SHA256&lt;/th&gt;&#xA;&lt;/tr&gt;&#xA;&lt;/thead&gt;&#xA;&lt;tbody&gt;&#xA;&lt;tr&gt;&#xA;&lt;td&gt;&lt;a href=&#34;https://dl.influxdata.com/influxdb/releases/influxdb2-2.4.0-darwin-amd64.tar.gz&#34; rel=&#34;nofollow&#34;&gt;influxdb2-2.4.0-darwin-amd64.tar.gz&lt;/a&gt;&lt;/td&gt;&#xA;&lt;td&gt;156c52b6999134284abae7b110d25416740414c56702c29fd8efe00b6be98682&lt;/td&gt;&#xA;&lt;/tr&gt;&#xA;&lt;tr&gt;&#xA;&lt;td&gt;&lt;a href=&#34;https://dl.influxdata.com/influxdb/releases/influxdb2-2.4.0-linux-arm64.tar.gz&#34; rel=&#34;nofollow&#34;&gt;influxdb2-2.4.0-linux-arm64.tar.gz&lt;/a&gt;&lt;/td&gt;&#xA;&lt;td&gt;4fde9265af5ab9a2b8fbb10bb5df42bd809fd24af352cd7eca0ee9ecf4fdb3b9&lt;/td&gt;&#xA;&lt;/tr&gt;&#xA;&lt;tr&gt;&#xA;&lt;td&gt;&lt;a href=&#34;https://dl.influxdata.com/influxdb/releases/influxdb2-2.4.0-windows-amd64.zip&#34; rel=&#34;nofollow&#34;&gt;influxdb2-2.4.0-windows-amd64.zip&lt;/a&gt;&lt;/td&gt;&#xA;&lt;td&gt;07769bd83e5f211490e1d3dac3cfc0cb674a25edc860137f5df444856308fa4e&lt;/td&gt;&#xA;&lt;/tr&gt;&#xA;&lt;tr&gt;&#xA;&lt;td&gt;&lt;a href=&#34;https://dl.influxdata.com/influxdb/releases/influxdb2-2.4.0-linux-amd64.tar.gz&#34; rel=&#34;nofollow&#34;&gt;influxdb2-2.4.0-linux-amd64.tar.gz&lt;/a&gt;&lt;/td&gt;&#xA;&lt;td&gt;51ddd49a482490752647a4f134c3c838adab64903f2a6ed9c90daff8418b7c58&lt;/td&gt;&#xA;&lt;/tr&gt;&#xA;&lt;/tbody&gt;&#xA;&lt;/table&gt;&#xA;&lt;table&gt;&#xA;&lt;thead&gt;&#xA;&lt;tr&gt;&#xA;&lt;th&gt;OSS UBUNTU &amp;amp; DEBIAN PACKAGE FILES&lt;/th&gt;&#xA;&lt;th&gt;SHA256&lt;/th&gt;&#xA;&lt;/tr&gt;&#xA;&lt;/thead&gt;&#xA;&lt;tbody&gt;&#xA;&lt;tr&gt;&#xA;&lt;td&gt;&lt;a href=&#34;https://dl.influxdata.com/influxdb/releases/influxdb2-2.4.0-arm64.deb&#34; rel=&#34;nofollow&#34;&gt;influxdb2-2.4.0-arm64.deb&lt;/a&gt;&lt;/td&gt;&#xA;&lt;td&gt;f0579ede760b2b65b327b95a6fb4bcfeab4cb06fa26aa961fb9810c3dafdf620&lt;/td&gt;&#xA;&lt;/tr&gt;&#xA;&lt;tr&gt;&#xA;&lt;td&gt;&lt;a href=&#34;https://dl.influxdata.com/influxdb/releases/influxdb2-2.4.0-amd64.deb&#34; rel=&#34;nofollow&#34;&gt;influxdb2-2.4.0-amd64.deb&lt;/a&gt;&lt;/td&gt;&#xA;&lt;td&gt;7de3ccf9672d259a82e79d629397913512045a4dba1e2cb1ef98e8887d2da599&lt;/td&gt;&#xA;&lt;/tr&gt;&#xA;&lt;/tbody&gt;&#xA;&lt;/table&gt;&#xA;&lt;table&gt;&#xA;&lt;thead&gt;&#xA;&lt;tr&gt;&#xA;&lt;th&gt;OSS REDHAT &amp;amp; CENTOS PACKAGE FILES&lt;/th&gt;&#xA;&lt;th&gt;SHA256&lt;/th&gt;&#xA;&lt;/tr&gt;&#xA;&lt;/thead&gt;&#xA;&lt;tbody&gt;&#xA;&lt;tr&gt;&#xA;&lt;td&gt;&lt;a href=&#34;https://dl.influxdata.com/influxdb/releases/influxdb2-2.4.0.x86_64.rpm&#34; rel=&#34;nofollow&#34;&gt;influxdb2-2.4.0.x86_64.rpm&lt;/a&gt;&lt;/td&gt;&#xA;&lt;td&gt;02b3e1843fe232c2944e23322be228530bb752d50bdfc22abd5b2201ad12b6fc&lt;/td&gt;&#xA;&lt;/tr&gt;&#xA;&lt;tr&gt;&#xA;&lt;td&gt;&lt;a href=&#34;https://dl.influxdata.com/influxdb/releases/influxdb2-2.4.0.aarch64.rpm&#34; rel=&#34;nofollow&#34;&gt;influxdb2-2.4.0.aarch64.rpm&lt;/a&gt;&lt;/td&gt;&#xA;&lt;td&gt;25b30d342a0ae9e275d25a23070115363ddd6e1412934c28aa9d2085e26833da&lt;/td&gt;&#xA;&lt;/tr&gt;&#xA;&lt;/tbody&gt;&#xA;&lt;/table&gt;</content>
+    <link href="https://github.com/influxdata/influxdb/releases/tag/v2.4.0" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>jeffreyssmith2nd</name>
+    </author>
+  </entry>
+  <entry>
     <title>Release notes from kpt - porch/v0.0.9</title>
     <updated>2022-08-30T04:33:26Z</updated>
     <id>tag:github.com,2008:Repository/208908993/porch/v0.0.9</id>
@@ -3931,6 +4008,17 @@
     </author>
   </entry>
   <entry>
+    <title>Release notes from influxdb - v1.10.0</title>
+    <updated>2022-08-04T20:28:39Z</updated>
+    <id>tag:github.com,2008:Repository/13124802/v1.10.0</id>
+    <content type="html">&lt;p&gt;v1.10.0&lt;/p&gt;</content>
+    <link href="https://github.com/influxdata/influxdb/releases/tag/v1.10.0" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>bnpfeife</name>
+    </author>
+  </entry>
+  <entry>
     <title>Release notes from golangci-lint - v1.48.0</title>
     <updated>2022-08-04T19:06:11Z</updated>
     <id>tag:github.com,2008:Repository/132145189/v1.48.0</id>
@@ -4137,6 +4225,17 @@
     <summary type="html"></summary>
     <author>
       <name>sethvargo</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from influxdb - v1.10.0rc4</title>
+    <updated>2022-07-21T21:23:02Z</updated>
+    <id>tag:github.com,2008:Repository/13124802/v1.10.0rc4</id>
+    <content type="html">&lt;p&gt;v1.10.0rc4&lt;/p&gt;</content>
+    <link href="https://github.com/influxdata/influxdb/releases/tag/v1.10.0rc4" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>bnpfeife</name>
     </author>
   </entry>
   <entry>
@@ -4371,17 +4470,6 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from testify - v1.8.0: impr: `CallerInfo` should print full paths to the terminal (#1201)</title>
-    <updated>2022-06-29T10:56:06Z</updated>
-    <id>tag:github.com,2008:Repository/6247705/v1.8.0</id>
-    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;impr: &lt;code&gt;CallerInfo&lt;/code&gt; should print full paths to the terminal&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;I am proposing this simple change, which changes this output&lt;/p&gt;&#xA;&lt;div class=&#34;snippet-clipboard-content notranslate position-relative overflow-auto&#34; data-snippet-clipboard-copy-content=&#34;--- FAIL: TestABC (0.00s)&#xA;    --- FAIL: TestABC/C (0.00s)&#xA;        /this/is/a/path/to/file_test.go:258:&#xA;            &#x9;Error Trace:&#x9;file_test.go:258&#xA;            &#x9;            &#x9;&#x9;&#x9;&#x9;file_test.go:748&#xA;            &#x9;Error:      &#x9;Not equal:&#xA;...&#34;&gt;&lt;pre class=&#34;notranslate&#34;&gt;&lt;code&gt;--- FAIL: TestABC (0.00s)&#xA;    --- FAIL: TestABC/C (0.00s)&#xA;        /this/is/a/path/to/file_test.go:258:&#xA;            &#x9;Error Trace:&#x9;file_test.go:258&#xA;            &#x9;            &#x9;&#x9;&#x9;&#x9;file_test.go:748&#xA;            &#x9;Error:      &#x9;Not equal:&#xA;...&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&#xA;&lt;p&gt;to this:&lt;/p&gt;&#xA;&lt;div class=&#34;snippet-clipboard-content notranslate position-relative overflow-auto&#34; data-snippet-clipboard-copy-content=&#34;--- FAIL: TestABC (0.00s)&#xA;    --- FAIL: TestABC/C (0.00s)&#xA;        /this/is/a/path/to/file_test.go:258:&#xA;            &#x9;Error Trace:&#x9;/this/is/a/path/to/file_test.go:258&#xA;            &#x9;            &#x9;&#x9;&#x9;&#x9;/this/is/a/path/to/file_test.go:748&#xA;            &#x9;Error:      &#x9;Not equal:&#xA;...&#34;&gt;&lt;pre class=&#34;notranslate&#34;&gt;&lt;code&gt;--- FAIL: TestABC (0.00s)&#xA;    --- FAIL: TestABC/C (0.00s)&#xA;        /this/is/a/path/to/file_test.go:258:&#xA;            &#x9;Error Trace:&#x9;/this/is/a/path/to/file_test.go:258&#xA;            &#x9;            &#x9;&#x9;&#x9;&#x9;/this/is/a/path/to/file_test.go:748&#xA;            &#x9;Error:      &#x9;Not equal:&#xA;...&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&#xA;&lt;p&gt;With the latter output, it is much more straightforward to find the file&lt;br&gt;&#xA;you are looking for, even though in the displayed case, the file is the same.&lt;/p&gt;&#xA;&lt;p&gt;However, for VSCodium, the case is a little more helpful, since VSCodium&#39;s&lt;br&gt;&#xA;terminal is smart enough to recognize the output, and make links out of that input.&lt;/p&gt;&#xA;&lt;p&gt;Signed-off-by: Stavros Ntentos &lt;a href=&#34;mailto:133706+stdedos@users.noreply.github.com&#34;&gt;133706+stdedos@users.noreply.github.com&lt;/a&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;test: fix the tests that depended on the previous behavior&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Signed-off-by: Stavros Ntentos &lt;a href=&#34;mailto:133706+stdedos@users.noreply.github.com&#34;&gt;133706+stdedos@users.noreply.github.com&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;Co-authored-by: Stavros Ntentos &lt;a href=&#34;mailto:11300730-stavros-relex@users.noreply.gitlab.com&#34;&gt;11300730-stavros-relex@users.noreply.gitlab.com&lt;/a&gt;&lt;/p&gt;</content>
-    <link href="https://github.com/stretchr/testify/releases/tag/v1.8.0" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>stdedos</name>
-    </author>
-  </entry>
-  <entry>
     <title>Release notes from colima - v0.4.3</title>
     <updated>2022-06-29T07:50:06Z</updated>
     <id>tag:github.com,2008:Repository/403020531/v0.4.3</id>
@@ -4412,17 +4500,6 @@
     <summary type="html"></summary>
     <author>
       <name>derailed</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from testify - v1.7.5: fixing panic in calls to assertion with nil m.mutex (#1212)</title>
-    <updated>2022-06-24T00:11:59Z</updated>
-    <id>tag:github.com,2008:Repository/6247705/v1.7.5</id>
-    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;fixing panic in calls to assertion with nil m.mutex&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;This reverts a change that was made in &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1225207823&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/stretchr/testify/issues/1182&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/stretchr/testify/pull/1182/hovercard&#34; href=&#34;https://github.com/stretchr/testify/pull/1182&#34;&gt;#1182&lt;/a&gt;&lt;br&gt;&#xA;The PR makes m.mutex a pointer which now needs to be checked but it&#39;s not checked for nil everywhere.&lt;/p&gt;&#xA;&lt;p&gt;This should also help with these issues:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1277904465&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/stretchr/testify/issues/1208&#34; data-hovercard-type=&#34;issue&#34; data-hovercard-url=&#34;/stretchr/testify/issues/1208/hovercard&#34; href=&#34;https://github.com/stretchr/testify/issues/1208&#34;&gt;#1208&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1280244535&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/stretchr/testify/issues/1210&#34; data-hovercard-type=&#34;issue&#34; data-hovercard-url=&#34;/stretchr/testify/issues/1210/hovercard&#34; href=&#34;https://github.com/stretchr/testify/issues/1210&#34;&gt;#1210&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Revert throwing out the lock because other concurrent calls can already have it locked&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;fix go vet copy lock by using pointer&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;fix obj assignment for passing test&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/stretchr/testify/releases/tag/v1.7.5" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>unknown</name>
     </author>
   </entry>
   <entry>
@@ -4478,28 +4555,6 @@
     <summary type="html"></summary>
     <author>
       <name>gmlewis</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from testify - v1.7.4: Fix panic in AssertExpectations for mocks without expectations (#1207)</title>
-    <updated>2022-06-20T21:08:00Z</updated>
-    <id>tag:github.com,2008:Repository/6247705/v1.7.4</id>
-    <content type="html">&lt;p&gt;Co-authored-by: Tony Abboud &lt;a href=&#34;mailto:tabboud@palantir.com&#34;&gt;tabboud@palantir.com&lt;/a&gt;&lt;/p&gt;</content>
-    <link href="https://github.com/stretchr/testify/releases/tag/v1.7.4" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>tabboud</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from testify - v1.7.3: Bump actions/setup-go from 3.1.0 to 3.2.0 (#1191)</title>
-    <updated>2022-06-20T10:32:41Z</updated>
-    <id>tag:github.com,2008:Repository/6247705/v1.7.3</id>
-    <content type="html">&lt;p&gt;Bumps &lt;a href=&#34;https://github.com/actions/setup-go&#34;&gt;actions/setup-go&lt;/a&gt; from 3.1.0 to 3.2.0.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/actions/setup-go/releases&#34;&gt;Release notes&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/actions/setup-go/compare/v3.1.0...v3.2.0&#34;&gt;Commits&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;updated-dependencies:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;dependency-name: actions/setup-go&lt;br&gt;&#xA;dependency-type: direct:production&lt;br&gt;&#xA;update-type: version-update:semver-minor&lt;br&gt;&#xA;...&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Signed-off-by: dependabot[bot] &lt;a href=&#34;mailto:support@github.com&#34;&gt;support@github.com&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;Co-authored-by: dependabot[bot] &amp;lt;49699333+dependabot[bot]@users.noreply.github.com&amp;gt;&lt;/p&gt;</content>
-    <link href="https://github.com/stretchr/testify/releases/tag/v1.7.3" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>dependabot[bot]</name>
     </author>
   </entry>
   <entry>
@@ -4610,17 +4665,6 @@
     <summary type="html"></summary>
     <author>
       <name>xiantang</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from testify - v1.7.2</title>
-    <updated>2022-06-06T09:52:45Z</updated>
-    <id>tag:github.com,2008:Repository/6247705/v1.7.2</id>
-    <content type="html">&lt;p&gt;Update gopkg.in/yaml.v3&lt;/p&gt;</content>
-    <link href="https://github.com/stretchr/testify/releases/tag/v1.7.2" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>ingwarsw</name>
     </author>
   </entry>
   <entry>
@@ -5248,17 +5292,6 @@
     <summary type="html"></summary>
     <author>
       <name>alicebob</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from testify - v1.7.1: Fixed didPanic to now detect panic(nil).</title>
-    <updated>2022-03-15T21:08:43Z</updated>
-    <id>tag:github.com,2008:Repository/6247705/v1.7.1</id>
-    <content type="html">&lt;p&gt;Previously, the function would not detect panic(nil) calls.&lt;br&gt;&#xA;In didPanic, removed the anonymous function call, instead,&lt;br&gt;&#xA;added named return values. Added extra test cases for the&lt;br&gt;&#xA;panic(nil) call.&lt;/p&gt;</content>
-    <link href="https://github.com/stretchr/testify/releases/tag/v1.7.1" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>RmbRT</name>
     </author>
   </entry>
   <entry>
@@ -7539,17 +7572,6 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from testify - Minor improvements and bug fixes</title>
-    <updated>2021-01-13T09:57:58Z</updated>
-    <id>tag:github.com,2008:Repository/6247705/v1.7.0</id>
-    <content type="html">&lt;p&gt;Minor feature improvements and bug fixes&lt;/p&gt;</content>
-    <link href="https://github.com/stretchr/testify/releases/tag/v1.7.0" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>boyan-soubachov</name>
-    </author>
-  </entry>
-  <entry>
     <title>Release notes from go-oidc - v3.0.0</title>
     <updated>2021-01-11T17:55:26Z</updated>
     <id>tag:github.com,2008:Repository/38275789/v3.0.0</id>
@@ -8111,17 +8133,6 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from testify - Fixes breaking change with HTTPBodyContains</title>
-    <updated>2020-06-05T10:54:21Z</updated>
-    <id>tag:github.com,2008:Repository/6247705/v1.6.1</id>
-    <content type="html">&lt;p&gt;A breaking change was accidentally released in v1.6.0 which breaks the API for the &lt;code&gt;HTTPBodyContains&lt;/code&gt; and &lt;code&gt;HTTPBodyNotContains&lt;/code&gt;, this release reverts that change.&lt;/p&gt;</content>
-    <link href="https://github.com/stretchr/testify/releases/tag/v1.6.1" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>boyan-soubachov</name>
-    </author>
-  </entry>
-  <entry>
     <title>Release notes from ghq - Checking in changes prior to tagging of version v1.1.1</title>
     <updated>2020-06-03T03:42:32Z</updated>
     <id>tag:github.com,2008:Repository/8026846/v1.1.1</id>
@@ -8141,17 +8152,6 @@
     <summary type="html"></summary>
     <author>
       <name>github-actions[bot]</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from testify - v1.6.0</title>
-    <updated>2020-05-29T05:33:36Z</updated>
-    <id>tag:github.com,2008:Repository/6247705/v1.6.0</id>
-    <content type="html">&lt;p&gt;Latest release of testify. This includes many fixes and enhancements. Please view the &lt;a href=&#34;https://github.com/stretchr/testify/milestone/3?closed=1&#34;&gt;v1.6.0 milestone&lt;/a&gt; for a list of changes.&lt;/p&gt;</content>
-    <link href="https://github.com/stretchr/testify/releases/tag/v1.6.0" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>boyan-soubachov</name>
     </author>
   </entry>
   <entry>
