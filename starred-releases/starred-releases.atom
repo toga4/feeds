@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?><feed xmlns="http://www.w3.org/2005/Atom">
   <title>Releases from Starred by toga4</title>
   <id>https://toga4.github.io/feeds/starred-releases.atom</id>
-  <updated>2023-01-26T18:08:45Z</updated>
+  <updated>2023-01-26T18:17:30Z</updated>
   <link href="https://toga4.github.io/feeds/starred-releases.atom"></link>
   <entry>
     <title>Release notes from k9s - v0.27.0</title>
-    <updated>2023-01-26T18:08:45Z</updated>
+    <updated>2023-01-26T18:17:30Z</updated>
     <id>tag:github.com,2008:Repository/167596393/v0.27.0</id>
-    <content type="html">&lt;p&gt;v0.27.0&lt;/p&gt;</content>
+    <content type="html">&lt;p&gt;&lt;a target=&#34;_blank&#34; rel=&#34;noopener noreferrer nofollow&#34; href=&#34;https://raw.githubusercontent.com/derailed/k9s/master/assets/k9s.png&#34;&gt;&lt;img src=&#34;https://raw.githubusercontent.com/derailed/k9s/master/assets/k9s.png&#34; align=&#34;center&#34; width=&#34;800&#34; height=&#34;auto&#34; style=&#34;max-width: 100%;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h1&gt;Release v0.27.0&lt;/h1&gt;&#xA;&lt;h2&gt;Notes&lt;/h2&gt;&#xA;&lt;p&gt;Thank you to all that contributed with flushing out issues and enhancements for K9s! I&#39;ll try to mark some of these issues as fixed. But if you don&#39;t mind grab the latest rev and see if we&#39;re happier with some of the fixes! If you&#39;ve filed an issue please help me verify and close. Your support, kindness and awesome suggestions to make K9s better are, as ever, very much noted and appreciated! Also big thanks to all that have allocated their own time to help others on both slack and on this repo!!&lt;/p&gt;&#xA;&lt;p&gt;As you may know, K9s is not pimped out by corps with deep pockets, thus if you feel K9s is helping your Kubernetes journey, please consider joining our &lt;a href=&#34;https://github.com/sponsors/derailed&#34;&gt;sponsorship program&lt;/a&gt; and/or make some noise on social! &lt;a href=&#34;https://twitter.com/kitesurfer&#34; rel=&#34;nofollow&#34;&gt;@kitesurfer&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;On Slack? Please join us &lt;a href=&#34;https://join.slack.com/t/k9sers/shared_invite/enQtOTA5MDEyNzI5MTU0LWQ1ZGI3MzliYzZhZWEyNzYxYzA3NjE0YTk1YmFmNzViZjIyNzhkZGI0MmJjYzhlNjdlMGJhYzE2ZGU1NjkyNTM&#34; rel=&#34;nofollow&#34;&gt;K9slackers&lt;/a&gt;&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2&gt;Maintenance Release&lt;/h2&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2&gt;♫ Sounds Behind The Release ♭&lt;/h2&gt;&#xA;&lt;p&gt;I&#39;d like to dedicate this release to &lt;code&gt;Jeff Beck&lt;/code&gt; one of my all time favorite musicians that sadly passed away this last week ;(&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=xiDYrQp9wFQ&#34; rel=&#34;nofollow&#34;&gt;The Pump - Jeff Beck&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=O640IGLjnfs&#34; rel=&#34;nofollow&#34;&gt;Brush With The Blues - Jeff Beck&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=VC02wGj5gPw&#34; rel=&#34;nofollow&#34;&gt;Cause We&#39;ve Ended As Lovers - Jeff Beck&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=howz7gVecjE&#34; rel=&#34;nofollow&#34;&gt;Where Were You - Jeff Beck&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=_3aIEzXHBWw&#34; rel=&#34;nofollow&#34;&gt;Rockabilly Set At Ronnie Scott&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2&gt;A Word From Our Sponsors...&lt;/h2&gt;&#xA;&lt;p&gt;To all the good folks below that opted to &lt;code&gt;pay it forward&lt;/code&gt; and join our sponsorship program, I salute you!!&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/vibin&#34;&gt;Vibin reddy&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/mckk&#34;&gt;Maciek Albin&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/dyennam&#34;&gt;Dherraj Yennam&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/aream2006&#34;&gt;Alan Ream&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/djheap&#34;&gt;djheap&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/MaterializeInc&#34;&gt;MaterializeInc&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/jeff303&#34;&gt;Jeff Evans&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2&gt;Resolved Issues&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/derailed/k9s/issues/1917&#34; data-hovercard-type=&#34;issue&#34; data-hovercard-url=&#34;/derailed/k9s/issues/1917/hovercard&#34;&gt;Issue #1917&lt;/a&gt; Crash on open single ingress from list&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/derailed/k9s/issues/1680&#34; data-hovercard-type=&#34;issue&#34; data-hovercard-url=&#34;/derailed/k9s/issues/1680/hovercard&#34;&gt;Issue #1906&lt;/a&gt; k9s exits silently if screenDumpDir cannot be created&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/derailed/k9s/issues/1661&#34; data-hovercard-type=&#34;issue&#34; data-hovercard-url=&#34;/derailed/k9s/issues/1661/hovercard&#34;&gt;Issue #1661&lt;/a&gt; ClusterRole with wrong privilege list display&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/derailed/k9s/issues/1680&#34; data-hovercard-type=&#34;issue&#34; data-hovercard-url=&#34;/derailed/k9s/issues/1680/hovercard&#34;&gt;Issue #1680&lt;/a&gt; Change pod kill grace period for 0 to 1&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2&gt;Contributed PRs&lt;/h2&gt;&#xA;&lt;p&gt;Please give &lt;code&gt;Big Thanks!&lt;/code&gt; and &lt;code&gt;ATTA Girls/Boys!&lt;/code&gt; to all the fine contributors for making K9s better for all of us!!&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/derailed/k9s/pull/1910&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/derailed/k9s/pull/1910/hovercard&#34;&gt;PR #1910&lt;/a&gt; Replace x86_64 to amd64 build&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/derailed/k9s/pull/1877&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/derailed/k9s/pull/1877/hovercard&#34;&gt;PR #1877&lt;/a&gt; Bug: portforward custom containers not showing&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/derailed/k9s/pull/1874&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/derailed/k9s/pull/1874/hovercard&#34;&gt;PR #1874&lt;/a&gt; Feat: Add noLastestRevCheck config option&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/derailed/k9s/pull/1872&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/derailed/k9s/pull/1872/hovercard&#34;&gt;PR #1872&lt;/a&gt; Docs: Add k8s client compatibility matrix&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/derailed/k9s/pull/1871&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/derailed/k9s/pull/1871/hovercard&#34;&gt;PR #1871&lt;/a&gt; Bug: update scanSA calls to account for blank service accounts&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/derailed/k9s/pull/1866&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/derailed/k9s/pull/1866/hovercard&#34;&gt;PR #1866&lt;/a&gt; Bug: Fix order of arguments for CanI function call&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/derailed/k9s/pull/1859&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/derailed/k9s/pull/1859/hovercard&#34;&gt;PR #1859&lt;/a&gt; FEAT: Add vim-like quit force option&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/derailed/k9s/pull/1849&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/derailed/k9s/pull/1849/hovercard&#34;&gt;PR #1849&lt;/a&gt; Bug: Fix build date for OSX&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/derailed/k9s/pull/1847&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/derailed/k9s/pull/1847/hovercard&#34;&gt;PR #1847&lt;/a&gt; FEAT: Add labels configuration for shell node pod&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/derailed/k9s/pull/1840&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/derailed/k9s/pull/1840/hovercard&#34;&gt;PR #1840&lt;/a&gt; FEAT: Add policy view to service accounts&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/derailed/k9s/pull/1837&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/derailed/k9s/pull/1837/hovercard&#34;&gt;PR #1837&lt;/a&gt; FEAT: Use default terminal colors for better readability&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/derailed/k9s/pull/1830&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/derailed/k9s/pull/1830/hovercard&#34;&gt;PR #1830&lt;/a&gt; FEAT: Plugin support for carvel kapp CR&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/derailed/k9s/pull/1829&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/derailed/k9s/pull/1829/hovercard&#34;&gt;PR #1829&lt;/a&gt; FEAT: flux.yml plugin new displays stderr messages&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;&lt;a target=&#34;_blank&#34; rel=&#34;noopener noreferrer nofollow&#34; href=&#34;https://raw.githubusercontent.com/derailed/k9s/master/assets/imhotep_logo.png&#34;&gt;&lt;img src=&#34;https://raw.githubusercontent.com/derailed/k9s/master/assets/imhotep_logo.png&#34; width=&#34;32&#34; height=&#34;auto&#34; style=&#34;max-width: 100%;&#34;&gt;&lt;/a&gt; © 2022 Imhotep Software LLC. All materials licensed under &lt;a href=&#34;http://www.apache.org/licenses/LICENSE-2.0&#34; rel=&#34;nofollow&#34;&gt;Apache v2.0&lt;/a&gt;&lt;/p&gt;</content>
     <link href="https://github.com/derailed/k9s/releases/tag/v0.27.0" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
@@ -1687,22 +1687,22 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from opentelemetry-go-contrib - samplers/jaegerremote/v0.6.0</title>
+    <title>Release notes from opentelemetry-go-contrib - samplers/probability/consistent/v0.6.0</title>
     <updated>2022-12-05T21:47:16Z</updated>
-    <id>tag:github.com,2008:Repository/242202166/samplers/jaegerremote/v0.6.0</id>
+    <id>tag:github.com,2008:Repository/242202166/samplers/probability/consistent/v0.6.0</id>
     <content type="html">&lt;p&gt;Module set experimental-samplers, Version v0.6.0&lt;/p&gt;</content>
-    <link href="https://github.com/open-telemetry/opentelemetry-go-contrib/releases/tag/samplers%2Fjaegerremote%2Fv0.6.0" rel="alternate"></link>
+    <link href="https://github.com/open-telemetry/opentelemetry-go-contrib/releases/tag/samplers%2Fprobability%2Fconsistent%2Fv0.6.0" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>MadVikingGod</name>
     </author>
   </entry>
   <entry>
-    <title>Release notes from opentelemetry-go-contrib - samplers/probability/consistent/v0.6.0</title>
+    <title>Release notes from opentelemetry-go-contrib - samplers/jaegerremote/v0.6.0</title>
     <updated>2022-12-05T21:47:16Z</updated>
-    <id>tag:github.com,2008:Repository/242202166/samplers/probability/consistent/v0.6.0</id>
+    <id>tag:github.com,2008:Repository/242202166/samplers/jaegerremote/v0.6.0</id>
     <content type="html">&lt;p&gt;Module set experimental-samplers, Version v0.6.0&lt;/p&gt;</content>
-    <link href="https://github.com/open-telemetry/opentelemetry-go-contrib/releases/tag/samplers%2Fprobability%2Fconsistent%2Fv0.6.0" rel="alternate"></link>
+    <link href="https://github.com/open-telemetry/opentelemetry-go-contrib/releases/tag/samplers%2Fjaegerremote%2Fv0.6.0" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>MadVikingGod</name>
@@ -1742,22 +1742,22 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from opentelemetry-go-contrib - tools/v1.12.0</title>
+    <title>Release notes from opentelemetry-go-contrib - propagators/ot/v1.12.0</title>
     <updated>2022-12-05T21:46:48Z</updated>
-    <id>tag:github.com,2008:Repository/242202166/tools/v1.12.0</id>
+    <id>tag:github.com,2008:Repository/242202166/propagators/ot/v1.12.0</id>
     <content type="html">&lt;p&gt;Module set stable-v1, Version v1.12.0&lt;/p&gt;</content>
-    <link href="https://github.com/open-telemetry/opentelemetry-go-contrib/releases/tag/tools%2Fv1.12.0" rel="alternate"></link>
+    <link href="https://github.com/open-telemetry/opentelemetry-go-contrib/releases/tag/propagators%2Fot%2Fv1.12.0" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>MadVikingGod</name>
     </author>
   </entry>
   <entry>
-    <title>Release notes from opentelemetry-go-contrib - propagators/ot/v1.12.0</title>
+    <title>Release notes from opentelemetry-go-contrib - tools/v1.12.0</title>
     <updated>2022-12-05T21:46:48Z</updated>
-    <id>tag:github.com,2008:Repository/242202166/propagators/ot/v1.12.0</id>
+    <id>tag:github.com,2008:Repository/242202166/tools/v1.12.0</id>
     <content type="html">&lt;p&gt;Module set stable-v1, Version v1.12.0&lt;/p&gt;</content>
-    <link href="https://github.com/open-telemetry/opentelemetry-go-contrib/releases/tag/propagators%2Fot%2Fv1.12.0" rel="alternate"></link>
+    <link href="https://github.com/open-telemetry/opentelemetry-go-contrib/releases/tag/tools%2Fv1.12.0" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>MadVikingGod</name>
@@ -1852,22 +1852,22 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from opentelemetry-go - exporters/otlp/otlptrace/v1.11.2</title>
+    <title>Release notes from opentelemetry-go - trace/v1.11.2</title>
     <updated>2022-12-05T19:44:35Z</updated>
-    <id>tag:github.com,2008:Repository/187086161/exporters/otlp/otlptrace/v1.11.2</id>
+    <id>tag:github.com,2008:Repository/187086161/trace/v1.11.2</id>
     <content type="html">&lt;p&gt;Module set stable-v1, Version v1.11.2&lt;/p&gt;</content>
-    <link href="https://github.com/open-telemetry/opentelemetry-go/releases/tag/exporters%2Fotlp%2Fotlptrace%2Fv1.11.2" rel="alternate"></link>
+    <link href="https://github.com/open-telemetry/opentelemetry-go/releases/tag/trace%2Fv1.11.2" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>MadVikingGod</name>
     </author>
   </entry>
   <entry>
-    <title>Release notes from opentelemetry-go - trace/v1.11.2</title>
+    <title>Release notes from opentelemetry-go - exporters/otlp/otlptrace/v1.11.2</title>
     <updated>2022-12-05T19:44:35Z</updated>
-    <id>tag:github.com,2008:Repository/187086161/trace/v1.11.2</id>
+    <id>tag:github.com,2008:Repository/187086161/exporters/otlp/otlptrace/v1.11.2</id>
     <content type="html">&lt;p&gt;Module set stable-v1, Version v1.11.2&lt;/p&gt;</content>
-    <link href="https://github.com/open-telemetry/opentelemetry-go/releases/tag/trace%2Fv1.11.2" rel="alternate"></link>
+    <link href="https://github.com/open-telemetry/opentelemetry-go/releases/tag/exporters%2Fotlp%2Fotlptrace%2Fv1.11.2" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>MadVikingGod</name>
@@ -2127,11 +2127,11 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from opentelemetry-operations-go - internal/cloudmock/v0.34.2</title>
+    <title>Release notes from opentelemetry-operations-go - internal/resourcemapping/v0.34.2</title>
     <updated>2022-11-29T17:15:55Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/internal/cloudmock/v0.34.2</id>
+    <id>tag:github.com,2008:Repository/244484581/internal/resourcemapping/v0.34.2</id>
     <content type="html">&lt;p&gt;Fix propagator package in release.go (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1468373574&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/540&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleCloudPlatform/opentelemetry-operations-go/pull/540/hovercard&#34; href=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/pull/540&#34;&gt;#540&lt;/a&gt;)&lt;/p&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/internal%2Fcloudmock%2Fv0.34.2" rel="alternate"></link>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/internal%2Fresourcemapping%2Fv0.34.2" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>damemi</name>
@@ -2154,28 +2154,6 @@
     <id>tag:github.com,2008:Repository/244484581/propagator/v0.34.2</id>
     <content type="html">&lt;p&gt;Fix propagator package in release.go (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1468373574&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/540&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleCloudPlatform/opentelemetry-operations-go/pull/540/hovercard&#34; href=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/pull/540&#34;&gt;#540&lt;/a&gt;)&lt;/p&gt;</content>
     <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/propagator%2Fv0.34.2" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>damemi</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from opentelemetry-operations-go - internal/resourcemapping/v0.34.2</title>
-    <updated>2022-11-29T17:15:55Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/internal/resourcemapping/v0.34.2</id>
-    <content type="html">&lt;p&gt;Fix propagator package in release.go (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1468373574&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/540&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleCloudPlatform/opentelemetry-operations-go/pull/540/hovercard&#34; href=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/pull/540&#34;&gt;#540&lt;/a&gt;)&lt;/p&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/internal%2Fresourcemapping%2Fv0.34.2" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>damemi</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from opentelemetry-operations-go - exporter/trace/v1.10.2</title>
-    <updated>2022-11-29T17:15:55Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/exporter/trace/v1.10.2</id>
-    <content type="html">&lt;p&gt;Fix propagator package in release.go (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1468373574&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/540&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleCloudPlatform/opentelemetry-operations-go/pull/540/hovercard&#34; href=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/pull/540&#34;&gt;#540&lt;/a&gt;)&lt;/p&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/exporter%2Ftrace%2Fv1.10.2" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>damemi</name>
@@ -2220,6 +2198,28 @@
     <id>tag:github.com,2008:Repository/244484581/exporter/collector/v0.34.2</id>
     <content type="html">&lt;p&gt;Fix propagator package in release.go (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1468373574&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/540&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleCloudPlatform/opentelemetry-operations-go/pull/540/hovercard&#34; href=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/pull/540&#34;&gt;#540&lt;/a&gt;)&lt;/p&gt;</content>
     <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/exporter%2Fcollector%2Fv0.34.2" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>damemi</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from opentelemetry-operations-go - internal/cloudmock/v0.34.2</title>
+    <updated>2022-11-29T17:15:55Z</updated>
+    <id>tag:github.com,2008:Repository/244484581/internal/cloudmock/v0.34.2</id>
+    <content type="html">&lt;p&gt;Fix propagator package in release.go (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1468373574&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/540&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleCloudPlatform/opentelemetry-operations-go/pull/540/hovercard&#34; href=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/pull/540&#34;&gt;#540&lt;/a&gt;)&lt;/p&gt;</content>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/internal%2Fcloudmock%2Fv0.34.2" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>damemi</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from opentelemetry-operations-go - exporter/trace/v1.10.2</title>
+    <updated>2022-11-29T17:15:55Z</updated>
+    <id>tag:github.com,2008:Repository/244484581/exporter/trace/v1.10.2</id>
+    <content type="html">&lt;p&gt;Fix propagator package in release.go (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1468373574&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/540&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleCloudPlatform/opentelemetry-operations-go/pull/540/hovercard&#34; href=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/pull/540&#34;&gt;#540&lt;/a&gt;)&lt;/p&gt;</content>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/exporter%2Ftrace%2Fv1.10.2" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>damemi</name>
@@ -7176,22 +7176,22 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from triangula - v1.1.5</title>
+    <title>Release notes from triangula - v1.1.6</title>
     <updated>2021-05-11T13:31:09Z</updated>
-    <id>tag:github.com,2008:Repository/354015172/v1.1.5</id>
+    <id>tag:github.com,2008:Repository/354015172/v1.1.6</id>
     <content type="html">&lt;p&gt;Refactor for more flexibility&lt;/p&gt;</content>
-    <link href="https://github.com/rh12503/triangula/releases/tag/v1.1.5" rel="alternate"></link>
+    <link href="https://github.com/rh12503/triangula/releases/tag/v1.1.6" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>rh12503</name>
     </author>
   </entry>
   <entry>
-    <title>Release notes from triangula - v1.1.6</title>
+    <title>Release notes from triangula - v1.1.5</title>
     <updated>2021-05-11T13:31:09Z</updated>
-    <id>tag:github.com,2008:Repository/354015172/v1.1.6</id>
+    <id>tag:github.com,2008:Repository/354015172/v1.1.5</id>
     <content type="html">&lt;p&gt;Refactor for more flexibility&lt;/p&gt;</content>
-    <link href="https://github.com/rh12503/triangula/releases/tag/v1.1.6" rel="alternate"></link>
+    <link href="https://github.com/rh12503/triangula/releases/tag/v1.1.5" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>rh12503</name>
@@ -7649,22 +7649,22 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from backoff - v2.0.3: Merge pull request #18 from lestrrat-go/topic/fix-v2-go-mod</title>
+    <title>Release notes from backoff - v2.0.2: Merge pull request #18 from lestrrat-go/topic/fix-v2-go-mod</title>
     <updated>2021-01-06T03:00:05Z</updated>
-    <id>tag:github.com,2008:Repository/118608673/v2.0.3</id>
+    <id>tag:github.com,2008:Repository/118608673/v2.0.2</id>
     <content type="html">&lt;p&gt;Fix go.mod&lt;/p&gt;</content>
-    <link href="https://github.com/lestrrat-go/backoff/releases/tag/v2.0.3" rel="alternate"></link>
+    <link href="https://github.com/lestrrat-go/backoff/releases/tag/v2.0.2" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>lestrrat</name>
     </author>
   </entry>
   <entry>
-    <title>Release notes from backoff - v2.0.2: Merge pull request #18 from lestrrat-go/topic/fix-v2-go-mod</title>
+    <title>Release notes from backoff - v2.0.3: Merge pull request #18 from lestrrat-go/topic/fix-v2-go-mod</title>
     <updated>2021-01-06T03:00:05Z</updated>
-    <id>tag:github.com,2008:Repository/118608673/v2.0.2</id>
+    <id>tag:github.com,2008:Repository/118608673/v2.0.3</id>
     <content type="html">&lt;p&gt;Fix go.mod&lt;/p&gt;</content>
-    <link href="https://github.com/lestrrat-go/backoff/releases/tag/v2.0.2" rel="alternate"></link>
+    <link href="https://github.com/lestrrat-go/backoff/releases/tag/v2.0.3" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>lestrrat</name>
