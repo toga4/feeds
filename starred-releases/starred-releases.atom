@@ -1,8 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?><feed xmlns="http://www.w3.org/2005/Atom">
   <title>Releases from Starred by toga4</title>
   <id>https://toga4.github.io/feeds/starred-releases.atom</id>
-  <updated>2023-02-01T20:37:19Z</updated>
+  <updated>2023-02-01T21:37:14Z</updated>
   <link href="https://toga4.github.io/feeds/starred-releases.atom"></link>
+  <entry>
+    <title>Release notes from kustomize - kyaml/v0.14.0</title>
+    <updated>2023-02-01T21:37:14Z</updated>
+    <id>tag:github.com,2008:Repository/133067498/kyaml/v0.14.0</id>
+    <content type="html">&lt;h2&gt;Features&lt;/h2&gt;&#xA;&lt;p&gt;&lt;a aria-label=&#34;Pull request #4886&#34; class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1462604797&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/kubernetes-sigs/kustomize/issues/4886&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/kubernetes-sigs/kustomize/pull/4886/hovercard&#34; href=&#34;https://github.com/kubernetes-sigs/kustomize/pull/4886&#34;&gt;#4886&lt;/a&gt;: add creation support to PathMatcher filter&lt;br&gt;&#xA;&lt;a aria-label=&#34;Pull request #4947&#34; class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1511077414&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/kubernetes-sigs/kustomize/issues/4947&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/kubernetes-sigs/kustomize/pull/4947/hovercard&#34; href=&#34;https://github.com/kubernetes-sigs/kustomize/pull/4947&#34;&gt;#4947&lt;/a&gt;: allow &lt;code&gt;PathSplitter&lt;/code&gt; filter path to start with a slash&lt;/p&gt;&#xA;&lt;h2&gt;Bug fixes/performance improvements&lt;/h2&gt;&#xA;&lt;p&gt;&lt;a aria-label=&#34;Pull request #4944&#34; class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1505582457&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/kubernetes-sigs/kustomize/issues/4944&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/kubernetes-sigs/kustomize/pull/4944/hovercard&#34; href=&#34;https://github.com/kubernetes-sigs/kustomize/pull/4944&#34;&gt;#4944&lt;/a&gt;: Refactor mapping node traversal and optimize &lt;code&gt;RNode.GetAnnotations&lt;/code&gt; and &lt;code&gt;RNode.GetLabels&lt;/code&gt;&lt;br&gt;&#xA;&lt;a aria-label=&#34;Pull request #4890&#34; class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1465250113&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/kubernetes-sigs/kustomize/issues/4890&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/kubernetes-sigs/kustomize/pull/4890/hovercard&#34; href=&#34;https://github.com/kubernetes-sigs/kustomize/pull/4890&#34;&gt;#4890&lt;/a&gt;: merge2: preserve explicitly set null values&lt;br&gt;&#xA;&lt;a aria-label=&#34;Pull request #4967&#34; class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1527249670&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/kubernetes-sigs/kustomize/issues/4967&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/kubernetes-sigs/kustomize/pull/4967/hovercard&#34; href=&#34;https://github.com/kubernetes-sigs/kustomize/pull/4967&#34;&gt;#4967&lt;/a&gt;: fix data race when using openapi from multiple goroutines&lt;br&gt;&#xA;&lt;a aria-label=&#34;Pull request #4990&#34; class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1548418457&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/kubernetes-sigs/kustomize/issues/4990&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/kubernetes-sigs/kustomize/pull/4990/hovercard&#34; href=&#34;https://github.com/kubernetes-sigs/kustomize/pull/4990&#34;&gt;#4990&lt;/a&gt;: Improve panic error message for invalid openapi schema file to include the parse error&lt;br&gt;&#xA;&lt;a aria-label=&#34;Pull request #4806&#34; class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1382498911&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/kubernetes-sigs/kustomize/issues/4806&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/kubernetes-sigs/kustomize/pull/4806/hovercard&#34; href=&#34;https://github.com/kubernetes-sigs/kustomize/pull/4806&#34;&gt;#4806&lt;/a&gt;: &lt;code&gt;runtimeutils.GetFunctionSpec&lt;/code&gt; throws error when resource metadata is not found&lt;br&gt;&#xA;&lt;a aria-label=&#34;Pull request #4582&#34; class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1204957521&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/kubernetes-sigs/kustomize/issues/4582&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/kubernetes-sigs/kustomize/pull/4582/hovercard&#34; href=&#34;https://github.com/kubernetes-sigs/kustomize/pull/4582&#34;&gt;#4582&lt;/a&gt;: update openapi scripts to fetch protobuffer schemas&lt;/p&gt;&#xA;&lt;h2&gt;Dependencies&lt;/h2&gt;&#xA;&lt;p&gt;&lt;a aria-label=&#34;Pull request #4877&#34; class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1452567002&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/kubernetes-sigs/kustomize/issues/4877&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/kubernetes-sigs/kustomize/pull/4877/hovercard&#34; href=&#34;https://github.com/kubernetes-sigs/kustomize/pull/4877&#34;&gt;#4877&lt;/a&gt;: Update minimum Go version to Go 1.19&lt;br&gt;&#xA;&lt;a aria-label=&#34;Pull request #4889&#34; class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1465122445&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/kubernetes-sigs/kustomize/issues/4889&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/kubernetes-sigs/kustomize/pull/4889/hovercard&#34; href=&#34;https://github.com/kubernetes-sigs/kustomize/pull/4889&#34;&gt;#4889&lt;/a&gt;: fix: all module net and text dependent package &lt;a title=&#34;CVE-2022-41717&#34; data-hovercard-type=&#34;advisory&#34; data-hovercard-url=&#34;/advisories/GHSA-xrjj-mj9h-534m/hovercard&#34; href=&#34;https://github.com/advisories/GHSA-xrjj-mj9h-534m&#34;&gt;CVE-2022-41717&lt;/a&gt; and &lt;a title=&#34;CVE-2022-32149&#34; data-hovercard-type=&#34;advisory&#34; data-hovercard-url=&#34;/advisories/GHSA-69ch-w2m2-3vjp/hovercard&#34; href=&#34;https://github.com/advisories/GHSA-69ch-w2m2-3vjp&#34;&gt;CVE-2022-32149&lt;/a&gt; vulnerabilities&lt;br&gt;&#xA;&lt;a aria-label=&#34;Pull request #4965&#34; class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1526175398&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/kubernetes-sigs/kustomize/issues/4965&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/kubernetes-sigs/kustomize/pull/4965/hovercard&#34; href=&#34;https://github.com/kubernetes-sigs/kustomize/pull/4965&#34;&gt;#4965&lt;/a&gt;: Bump k8s.io/kube-openapi to remove archived dependency&lt;br&gt;&#xA;&lt;a aria-label=&#34;Pull request #4960&#34; class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1523192912&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/kubernetes-sigs/kustomize/issues/4960&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/kubernetes-sigs/kustomize/pull/4960/hovercard&#34; href=&#34;https://github.com/kubernetes-sigs/kustomize/pull/4960&#34;&gt;#4960&lt;/a&gt;: Update sigs.k8s.io/yaml to v1.3.0&lt;br&gt;&#xA;&lt;a aria-label=&#34;Pull request #4970&#34; class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1527993157&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/kubernetes-sigs/kustomize/issues/4970&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/kubernetes-sigs/kustomize/pull/4970/hovercard&#34; href=&#34;https://github.com/kubernetes-sigs/kustomize/pull/4970&#34;&gt;#4970&lt;/a&gt;: Replace github/pkg/errors with sigs.k8s.io/kustomize/kyaml/errors&lt;/p&gt;&#xA;&lt;h2&gt;Breaking changes&lt;/h2&gt;&#xA;&lt;p&gt;&lt;a aria-label=&#34;Pull request #4926&#34; class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1492602086&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/kubernetes-sigs/kustomize/issues/4926&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/kubernetes-sigs/kustomize/pull/4926/hovercard&#34; href=&#34;https://github.com/kubernetes-sigs/kustomize/pull/4926&#34;&gt;#4926&lt;/a&gt;: &lt;code&gt;copyutils.CopyDir()&lt;/code&gt; now requires a FileSystem argument&lt;br&gt;&#xA;&lt;a aria-label=&#34;Pull request #4019&#34; class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;933902547&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/kubernetes-sigs/kustomize/issues/4019&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/kubernetes-sigs/kustomize/pull/4019/hovercard&#34; href=&#34;https://github.com/kubernetes-sigs/kustomize/pull/4019&#34;&gt;#4019&lt;/a&gt;: remove &lt;code&gt;Resid.LegacySortString()&lt;/code&gt;&lt;/p&gt;</content>
+    <link href="https://github.com/kubernetes-sigs/kustomize/releases/tag/kyaml%2Fv0.14.0" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>KnVerey</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from connect-go - v1.5.1</title>
+    <updated>2023-02-01T21:31:15Z</updated>
+    <id>tag:github.com,2008:Repository/391811592/v1.5.1</id>
+    <content type="html">&lt;h2&gt;What&#39;s Changed&lt;/h2&gt;&#xA;&lt;p&gt;Thanks to &lt;a class=&#34;user-mention notranslate&#34; data-hovercard-type=&#34;user&#34; data-hovercard-url=&#34;/users/mattrobenolt/hovercard&#34; data-octo-click=&#34;hovercard-link-click&#34; data-octo-dimensions=&#34;link_type:self&#34; href=&#34;https://github.com/mattrobenolt&#34;&gt;@mattrobenolt&lt;/a&gt;, v1.5.1 exclusively contains performance improvements. There should be no other user-visible behavior changes.&lt;/p&gt;&#xA;&lt;h3&gt;Bugfixes&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Minimize allocations writing User-Agent header by &lt;a class=&#34;user-mention notranslate&#34; data-hovercard-type=&#34;user&#34; data-hovercard-url=&#34;/users/mattrobenolt/hovercard&#34; data-octo-click=&#34;hovercard-link-click&#34; data-octo-dimensions=&#34;link_type:self&#34; href=&#34;https://github.com/mattrobenolt&#34;&gt;@mattrobenolt&lt;/a&gt; in &lt;a aria-label=&#34;Pull request #446&#34; class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1558774751&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/bufbuild/connect-go/issues/446&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/bufbuild/connect-go/pull/446/hovercard&#34; href=&#34;https://github.com/bufbuild/connect-go/pull/446&#34;&gt;#446&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Minimize allocations parsing Content-Type by &lt;a class=&#34;user-mention notranslate&#34; data-hovercard-type=&#34;user&#34; data-hovercard-url=&#34;/users/mattrobenolt/hovercard&#34; data-octo-click=&#34;hovercard-link-click&#34; data-octo-dimensions=&#34;link_type:self&#34; href=&#34;https://github.com/mattrobenolt&#34;&gt;@mattrobenolt&lt;/a&gt; in &lt;a aria-label=&#34;Pull request #444&#34; class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1558667463&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/bufbuild/connect-go/issues/444&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/bufbuild/connect-go/pull/444/hovercard&#34; href=&#34;https://github.com/bufbuild/connect-go/pull/444&#34;&gt;#444&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Optimize header access by &lt;a class=&#34;user-mention notranslate&#34; data-hovercard-type=&#34;user&#34; data-hovercard-url=&#34;/users/mattrobenolt/hovercard&#34; data-octo-click=&#34;hovercard-link-click&#34; data-octo-dimensions=&#34;link_type:self&#34; href=&#34;https://github.com/mattrobenolt&#34;&gt;@mattrobenolt&lt;/a&gt; in &lt;a aria-label=&#34;Pull request #445&#34; class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1558726010&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/bufbuild/connect-go/issues/445&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/bufbuild/connect-go/pull/445/hovercard&#34; href=&#34;https://github.com/bufbuild/connect-go/pull/445&#34;&gt;#445&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Optimize Peer lookups by &lt;a class=&#34;user-mention notranslate&#34; data-hovercard-type=&#34;user&#34; data-hovercard-url=&#34;/users/mattrobenolt/hovercard&#34; data-octo-click=&#34;hovercard-link-click&#34; data-octo-dimensions=&#34;link_type:self&#34; href=&#34;https://github.com/mattrobenolt&#34;&gt;@mattrobenolt&lt;/a&gt; in &lt;a aria-label=&#34;Pull request #447&#34; class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1560502973&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/bufbuild/connect-go/issues/447&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/bufbuild/connect-go/pull/447/hovercard&#34; href=&#34;https://github.com/bufbuild/connect-go/pull/447&#34;&gt;#447&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: &lt;a class=&#34;commit-link&#34; href=&#34;https://github.com/bufbuild/connect-go/compare/v1.5.0...v1.5.1&#34;&gt;&lt;tt&gt;v1.5.0...v1.5.1&lt;/tt&gt;&lt;/a&gt;&lt;/p&gt;</content>
+    <link href="https://github.com/bufbuild/connect-go/releases/tag/v1.5.1" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>akshayjshah</name>
+    </author>
+  </entry>
   <entry>
     <title>Release notes from datadog-agent - pkg/util/scrubber/v0.42.1-rc.3</title>
     <updated>2023-02-01T20:37:19Z</updated>
@@ -257,11 +279,11 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from opentelemetry-operations-go - exporter/collector/v0.35.0: Prepare release v1.11.0 and v0.35.0 (#577)</title>
+    <title>Release notes from opentelemetry-operations-go - exporter/collector/googlemanagedprometheus/v0.35.0: Prepare release v1.11.0 and v0.35.0 (#577)</title>
     <updated>2023-01-30T18:03:25Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/exporter/collector/v0.35.0</id>
+    <id>tag:github.com,2008:Repository/244484581/exporter/collector/googlemanagedprometheus/v0.35.0</id>
     <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Update versions to 1.11.0 and 0.35.0&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Add e2e-test-server to release.go&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make prepare-release&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/exporter%2Fcollector%2Fv0.35.0" rel="alternate"></link>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/exporter%2Fcollector%2Fgooglemanagedprometheus%2Fv0.35.0" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>damemi</name>
@@ -290,22 +312,11 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from opentelemetry-operations-go - exporter/collector/googlemanagedprometheus/v0.35.0: Prepare release v1.11.0 and v0.35.0 (#577)</title>
+    <title>Release notes from opentelemetry-operations-go - exporter/collector/v0.35.0: Prepare release v1.11.0 and v0.35.0 (#577)</title>
     <updated>2023-01-30T18:03:25Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/exporter/collector/googlemanagedprometheus/v0.35.0</id>
+    <id>tag:github.com,2008:Repository/244484581/exporter/collector/v0.35.0</id>
     <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Update versions to 1.11.0 and 0.35.0&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Add e2e-test-server to release.go&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make prepare-release&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/exporter%2Fcollector%2Fgooglemanagedprometheus%2Fv0.35.0" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>damemi</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from opentelemetry-operations-go - internal/cloudmock/v0.35.0: Prepare release v1.11.0 and v0.35.0 (#577)</title>
-    <updated>2023-01-30T18:03:25Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/internal/cloudmock/v0.35.0</id>
-    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Update versions to 1.11.0 and 0.35.0&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Add e2e-test-server to release.go&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make prepare-release&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/internal%2Fcloudmock%2Fv0.35.0" rel="alternate"></link>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/exporter%2Fcollector%2Fv0.35.0" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>damemi</name>
@@ -317,6 +328,17 @@
     <id>tag:github.com,2008:Repository/244484581/example/trace/http/v0.35.0</id>
     <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Update versions to 1.11.0 and 0.35.0&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Add e2e-test-server to release.go&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make prepare-release&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
     <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/example%2Ftrace%2Fhttp%2Fv0.35.0" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>damemi</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from opentelemetry-operations-go - internal/cloudmock/v0.35.0: Prepare release v1.11.0 and v0.35.0 (#577)</title>
+    <updated>2023-01-30T18:03:25Z</updated>
+    <id>tag:github.com,2008:Repository/244484581/internal/cloudmock/v0.35.0</id>
+    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Update versions to 1.11.0 and 0.35.0&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Add e2e-test-server to release.go&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make prepare-release&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/internal%2Fcloudmock%2Fv0.35.0" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>damemi</name>
@@ -3722,17 +3744,6 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from connect-go - v0.5.0</title>
-    <updated>2022-09-23T17:48:13Z</updated>
-    <id>tag:github.com,2008:Repository/391811592/v0.5.0</id>
-    <content type="html">&lt;h2&gt;What&#39;s Changed&lt;/h2&gt;&#xA;&lt;h3&gt;Enhancements&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Add a helper to write RPC errors from &lt;code&gt;net/http&lt;/code&gt; middleware by &lt;a class=&#34;user-mention notranslate&#34; data-hovercard-type=&#34;user&#34; data-hovercard-url=&#34;/users/rhbuf/hovercard&#34; data-octo-click=&#34;hovercard-link-click&#34; data-octo-dimensions=&#34;link_type:self&#34; href=&#34;https://github.com/rhbuf&#34;&gt;@rhbuf&lt;/a&gt; in &lt;a aria-label=&#34;Pull request #337&#34; class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1325712946&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/bufbuild/connect-go/issues/337&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/bufbuild/connect-go/pull/337/hovercard&#34; href=&#34;https://github.com/bufbuild/connect-go/pull/337&#34;&gt;#337&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Expose peer information to handlers and clients by &lt;a class=&#34;user-mention notranslate&#34; data-hovercard-type=&#34;user&#34; data-hovercard-url=&#34;/users/akshayjshah/hovercard&#34; data-octo-click=&#34;hovercard-link-click&#34; data-octo-dimensions=&#34;link_type:self&#34; href=&#34;https://github.com/akshayjshah&#34;&gt;@akshayjshah&lt;/a&gt; in &lt;a aria-label=&#34;Pull request #364&#34; class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1381914312&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/bufbuild/connect-go/issues/364&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/bufbuild/connect-go/pull/364/hovercard&#34; href=&#34;https://github.com/bufbuild/connect-go/pull/364&#34;&gt;#364&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Interoperate cleanly with &lt;code&gt;http.MaxBytesHandler&lt;/code&gt; by &lt;a class=&#34;user-mention notranslate&#34; data-hovercard-type=&#34;user&#34; data-hovercard-url=&#34;/users/akshayjshah/hovercard&#34; data-octo-click=&#34;hovercard-link-click&#34; data-octo-dimensions=&#34;link_type:self&#34; href=&#34;https://github.com/akshayjshah&#34;&gt;@akshayjshah&lt;/a&gt; in &lt;a aria-label=&#34;Pull request #355&#34; class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1359516942&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/bufbuild/connect-go/issues/355&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/bufbuild/connect-go/pull/355/hovercard&#34; href=&#34;https://github.com/bufbuild/connect-go/pull/355&#34;&gt;#355&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Support &lt;code&gt;application/json; charset=utf8&lt;/code&gt; Content-Type by &lt;a class=&#34;user-mention notranslate&#34; data-hovercard-type=&#34;user&#34; data-hovercard-url=&#34;/users/buildbreaker/hovercard&#34; data-octo-click=&#34;hovercard-link-click&#34; data-octo-dimensions=&#34;link_type:self&#34; href=&#34;https://github.com/buildbreaker&#34;&gt;@buildbreaker&lt;/a&gt; in &lt;a aria-label=&#34;Pull request #358&#34; class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1366974798&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/bufbuild/connect-go/issues/358&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/bufbuild/connect-go/pull/358/hovercard&#34; href=&#34;https://github.com/bufbuild/connect-go/pull/358&#34;&gt;#358&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3&gt;Bugfixes&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Fix error code for ReadMaxBytes by &lt;a class=&#34;user-mention notranslate&#34; data-hovercard-type=&#34;user&#34; data-hovercard-url=&#34;/users/akshayjshah/hovercard&#34; data-octo-click=&#34;hovercard-link-click&#34; data-octo-dimensions=&#34;link_type:self&#34; href=&#34;https://github.com/akshayjshah&#34;&gt;@akshayjshah&lt;/a&gt; in &lt;a aria-label=&#34;Pull request #354&#34; class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1359497630&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/bufbuild/connect-go/issues/354&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/bufbuild/connect-go/pull/354/hovercard&#34; href=&#34;https://github.com/bufbuild/connect-go/pull/354&#34;&gt;#354&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3&gt;Other changes&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Improve test coverage of bidi streams &lt;a class=&#34;user-mention notranslate&#34; data-hovercard-type=&#34;user&#34; data-hovercard-url=&#34;/users/pkwarren/hovercard&#34; data-octo-click=&#34;hovercard-link-click&#34; data-octo-dimensions=&#34;link_type:self&#34; href=&#34;https://github.com/pkwarren&#34;&gt;@pkwarren&lt;/a&gt; in &lt;a aria-label=&#34;Pull request #352&#34; class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1346717776&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/bufbuild/connect-go/issues/352&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/bufbuild/connect-go/pull/352/hovercard&#34; href=&#34;https://github.com/bufbuild/connect-go/pull/352&#34;&gt;#352&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Shorten stability section of README by &lt;a class=&#34;user-mention notranslate&#34; data-hovercard-type=&#34;user&#34; data-hovercard-url=&#34;/users/akshayjshah/hovercard&#34; data-octo-click=&#34;hovercard-link-click&#34; data-octo-dimensions=&#34;link_type:self&#34; href=&#34;https://github.com/akshayjshah&#34;&gt;@akshayjshah&lt;/a&gt; in &lt;a aria-label=&#34;Pull request #353&#34; class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1354694606&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/bufbuild/connect-go/issues/353&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/bufbuild/connect-go/pull/353/hovercard&#34; href=&#34;https://github.com/bufbuild/connect-go/pull/353&#34;&gt;#353&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Add Github Actions workflow to notify on unreviewed changes by &lt;a class=&#34;user-mention notranslate&#34; data-hovercard-type=&#34;user&#34; data-hovercard-url=&#34;/users/rubensf/hovercard&#34; data-octo-click=&#34;hovercard-link-click&#34; data-octo-dimensions=&#34;link_type:self&#34; href=&#34;https://github.com/rubensf&#34;&gt;@rubensf&lt;/a&gt; in &lt;a aria-label=&#34;Pull request #365&#34; class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1382993179&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/bufbuild/connect-go/issues/365&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/bufbuild/connect-go/pull/365/hovercard&#34; href=&#34;https://github.com/bufbuild/connect-go/pull/365&#34;&gt;#365&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2&gt;New Contributors&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a class=&#34;user-mention notranslate&#34; data-hovercard-type=&#34;user&#34; data-hovercard-url=&#34;/users/rhbuf/hovercard&#34; data-octo-click=&#34;hovercard-link-click&#34; data-octo-dimensions=&#34;link_type:self&#34; href=&#34;https://github.com/rhbuf&#34;&gt;@rhbuf&lt;/a&gt; made their first contribution in &lt;a aria-label=&#34;Pull request #337&#34; class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1325712946&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/bufbuild/connect-go/issues/337&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/bufbuild/connect-go/pull/337/hovercard&#34; href=&#34;https://github.com/bufbuild/connect-go/pull/337&#34;&gt;#337&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: &lt;a class=&#34;commit-link&#34; href=&#34;https://github.com/bufbuild/connect-go/compare/v0.4.0...v0.5.0&#34;&gt;&lt;tt&gt;v0.4.0...v0.5.0&lt;/tt&gt;&lt;/a&gt;&lt;/p&gt;</content>
-    <link href="https://github.com/bufbuild/connect-go/releases/tag/v0.5.0" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>akshayjshah</name>
-    </author>
-  </entry>
-  <entry>
     <title>Release notes from f1 - v2.0.16</title>
     <updated>2022-09-23T14:53:06Z</updated>
     <id>tag:github.com,2008:Repository/273013131/v2.0.16</id>
@@ -5039,17 +5050,6 @@
     <summary type="html"></summary>
     <author>
       <name>aeneasr</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from kustomize - kyaml/v0.13.7</title>
-    <updated>2022-05-20T18:43:02Z</updated>
-    <id>tag:github.com,2008:Repository/133067498/kyaml/v0.13.7</id>
-    <content type="html">&lt;p&gt;&lt;a aria-label=&#34;Pull request #4489&#34; class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1149971599&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/kubernetes-sigs/kustomize/issues/4489&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/kubernetes-sigs/kustomize/pull/4489/hovercard&#34; href=&#34;https://github.com/kubernetes-sigs/kustomize/pull/4489&#34;&gt;#4489&lt;/a&gt;: Fix containerized function mounts issue&lt;br&gt;&#xA;&lt;a aria-label=&#34;Pull request #4568&#34; class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1192223984&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/kubernetes-sigs/kustomize/issues/4568&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/kubernetes-sigs/kustomize/pull/4568/hovercard&#34; href=&#34;https://github.com/kubernetes-sigs/kustomize/pull/4568&#34;&gt;#4568&lt;/a&gt;: Openapi parsing performance improvement with protobuffer&lt;br&gt;&#xA;&lt;a aria-label=&#34;Pull request #4577&#34; class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1200485512&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/kubernetes-sigs/kustomize/issues/4577&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/kubernetes-sigs/kustomize/pull/4577/hovercard&#34; href=&#34;https://github.com/kubernetes-sigs/kustomize/pull/4577&#34;&gt;#4577&lt;/a&gt;: Fix error message using replacement wildcard and &lt;code&gt;create&lt;/code&gt; option&lt;br&gt;&#xA;&lt;a aria-label=&#34;Pull request #4591&#34; class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1208797048&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/kubernetes-sigs/kustomize/issues/4591&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/kubernetes-sigs/kustomize/pull/4591/hovercard&#34; href=&#34;https://github.com/kubernetes-sigs/kustomize/pull/4591&#34;&gt;#4591&lt;/a&gt;: Added code for fields with dots(.) in their names work as needed&lt;br&gt;&#xA;&lt;a aria-label=&#34;Pull request #4629&#34; class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1230213172&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/kubernetes-sigs/kustomize/issues/4629&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/kubernetes-sigs/kustomize/pull/4629/hovercard&#34; href=&#34;https://github.com/kubernetes-sigs/kustomize/pull/4629&#34;&gt;#4629&lt;/a&gt;: Fn framework: bugfix for schema providers + configurable template extensions&lt;br&gt;&#xA;&lt;a aria-label=&#34;Pull request #4635&#34; class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1234115605&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/kubernetes-sigs/kustomize/issues/4635&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/kubernetes-sigs/kustomize/pull/4635/hovercard&#34; href=&#34;https://github.com/kubernetes-sigs/kustomize/pull/4635&#34;&gt;#4635&lt;/a&gt;: Fix: Testing code leaked to production&lt;/p&gt;</content>
-    <link href="https://github.com/kubernetes-sigs/kustomize/releases/tag/kyaml%2Fv0.13.7" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>KnVerey</name>
     </author>
   </entry>
   <entry>
@@ -7319,22 +7319,22 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from triangula - v1.1.6</title>
+    <title>Release notes from triangula - v1.1.5</title>
     <updated>2021-05-11T13:31:09Z</updated>
-    <id>tag:github.com,2008:Repository/354015172/v1.1.6</id>
+    <id>tag:github.com,2008:Repository/354015172/v1.1.5</id>
     <content type="html">&lt;p&gt;Refactor for more flexibility&lt;/p&gt;</content>
-    <link href="https://github.com/rh12503/triangula/releases/tag/v1.1.6" rel="alternate"></link>
+    <link href="https://github.com/rh12503/triangula/releases/tag/v1.1.5" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>rh12503</name>
     </author>
   </entry>
   <entry>
-    <title>Release notes from triangula - v1.1.5</title>
+    <title>Release notes from triangula - v1.1.6</title>
     <updated>2021-05-11T13:31:09Z</updated>
-    <id>tag:github.com,2008:Repository/354015172/v1.1.5</id>
+    <id>tag:github.com,2008:Repository/354015172/v1.1.6</id>
     <content type="html">&lt;p&gt;Refactor for more flexibility&lt;/p&gt;</content>
-    <link href="https://github.com/rh12503/triangula/releases/tag/v1.1.5" rel="alternate"></link>
+    <link href="https://github.com/rh12503/triangula/releases/tag/v1.1.6" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>rh12503</name>
@@ -7748,22 +7748,22 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from backoff - v2.0.3: Merge pull request #18 from lestrrat-go/topic/fix-v2-go-mod</title>
+    <title>Release notes from backoff - v2.0.2: Merge pull request #18 from lestrrat-go/topic/fix-v2-go-mod</title>
     <updated>2021-01-06T03:00:05Z</updated>
-    <id>tag:github.com,2008:Repository/118608673/v2.0.3</id>
+    <id>tag:github.com,2008:Repository/118608673/v2.0.2</id>
     <content type="html">&lt;p&gt;Fix go.mod&lt;/p&gt;</content>
-    <link href="https://github.com/lestrrat-go/backoff/releases/tag/v2.0.3" rel="alternate"></link>
+    <link href="https://github.com/lestrrat-go/backoff/releases/tag/v2.0.2" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>lestrrat</name>
     </author>
   </entry>
   <entry>
-    <title>Release notes from backoff - v2.0.2: Merge pull request #18 from lestrrat-go/topic/fix-v2-go-mod</title>
+    <title>Release notes from backoff - v2.0.3: Merge pull request #18 from lestrrat-go/topic/fix-v2-go-mod</title>
     <updated>2021-01-06T03:00:05Z</updated>
-    <id>tag:github.com,2008:Repository/118608673/v2.0.2</id>
+    <id>tag:github.com,2008:Repository/118608673/v2.0.3</id>
     <content type="html">&lt;p&gt;Fix go.mod&lt;/p&gt;</content>
-    <link href="https://github.com/lestrrat-go/backoff/releases/tag/v2.0.2" rel="alternate"></link>
+    <link href="https://github.com/lestrrat-go/backoff/releases/tag/v2.0.3" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>lestrrat</name>
