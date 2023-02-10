@@ -1,8 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?><feed xmlns="http://www.w3.org/2005/Atom">
   <title>Releases from Starred by toga4</title>
   <id>https://toga4.github.io/feeds/starred-releases.atom</id>
-  <updated>2023-02-09T19:50:56Z</updated>
+  <updated>2023-02-10T00:16:37Z</updated>
   <link href="https://toga4.github.io/feeds/starred-releases.atom"></link>
+  <entry>
+    <title>Release notes from trivy - v0.37.2: BREAKING: use normalized trivy-java-db (#3583)</title>
+    <updated>2023-02-10T00:16:37Z</updated>
+    <id>tag:github.com,2008:Repository/180687624/v0.37.2</id>
+    <content type="html">&lt;p&gt;Co-authored-by: knqyf263 &lt;a href=&#34;mailto:knqyf263@gmail.com&#34;&gt;knqyf263@gmail.com&lt;/a&gt;&lt;/p&gt;</content>
+    <link href="https://github.com/aquasecurity/trivy/releases/tag/v0.37.2" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>DmitriyLewen</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from moby - v23.0.1</title>
+    <updated>2023-02-10T00:15:52Z</updated>
+    <id>tag:github.com,2008:Repository/7691631/v23.0.1</id>
+    <content type="html">&lt;h2&gt;23.0.1&lt;/h2&gt;&#xA;&lt;p&gt;For a full list of pull requests and changes in this release, refer to the relevant GitHub milestones:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/docker/cli/milestone/73?closed=1&#34;&gt;docker/cli, 23.0.1 milestone&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/moby/moby/milestone/113?closed=1&#34;&gt;moby/moby, 23.0.1 milestone&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3&gt;Bug fixes and enhancements&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Fix containers not starting if the kernel has AppArmor enabled, but &lt;code&gt;apparmor_parser&lt;/code&gt; is not available. &lt;a href=&#34;https://github.com/moby/moby/pull/44942&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/moby/moby/pull/44942/hovercard&#34;&gt;moby/moby#44942&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Fix BuildKit-enabled builds with inline caching causing the daemon to crash. &lt;a href=&#34;https://github.com/moby/moby/pull/44944&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/moby/moby/pull/44944/hovercard&#34;&gt;moby/moby#44944&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Fix BuildKit improperly loading cached layers created by previous versions. &lt;a href=&#34;https://github.com/moby/moby/pull/44959&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/moby/moby/pull/44959/hovercard&#34;&gt;moby/moby#44959&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Fix an issue where &lt;code&gt;ipvlan&lt;/code&gt; networks created prior to upgrading would prevent the daemon from starting. &lt;a href=&#34;https://github.com/moby/moby/pull/44937&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/moby/moby/pull/44937/hovercard&#34;&gt;moby/moby#44937&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Fix the &lt;code&gt;overlay2&lt;/code&gt; storage driver failing early in &lt;code&gt;metacopy&lt;/code&gt; testing when initialized on an unsupported backing filesystem. &lt;a href=&#34;https://github.com/moby/moby/pull/44922&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/moby/moby/pull/44922/hovercard&#34;&gt;moby/moby#44922&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Fix &lt;code&gt;exec&lt;/code&gt; exit events being misinterpreted as container exits under some runtimes, such as Kata Containers. &lt;a href=&#34;https://github.com/moby/moby/pull/44892&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/moby/moby/pull/44892/hovercard&#34;&gt;moby/moby#44892&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Improve the error message returned by the CLI when recieving a truncated JSON response caused by the API hanging up mid-request. &lt;a href=&#34;https://github.com/docker/cli/pull/4004&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/docker/cli/pull/4004/hovercard&#34;&gt;docker/cli#4004&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Fix an incorrect CLI exit code when attempting to execute a directory with a &lt;code&gt;runc&lt;/code&gt; compiled using Go 1.20. &lt;a href=&#34;https://github.com/docker/cli/pull/4004&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/docker/cli/pull/4004/hovercard&#34;&gt;docker/cli#4004&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Fix mishandling the size argument to &lt;code&gt;--device-write-bps&lt;/code&gt; as a path. &lt;a href=&#34;https://github.com/docker/cli/pull/4004&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/docker/cli/pull/4004/hovercard&#34;&gt;docker/cli#4004&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3&gt;Packaging&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Add &lt;code&gt;/etc/docker&lt;/code&gt; to RPM and DEB packaging. &lt;a href=&#34;https://github.com/docker/docker-ce-packaging/pull/842&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/docker/docker-ce-packaging/pull/842/hovercard&#34;&gt;docker/docker-ce-packaging#842&lt;/a&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Not all use cases will benefit; if you depend on this, you should explicitly &lt;code&gt;mkdir -p /etc/docker&lt;/code&gt;.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;Upgrade Compose to &lt;code&gt;v2.16.0&lt;/code&gt;. &lt;a href=&#34;https://github.com/docker/docker-ce-packaging/pull/844&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/docker/docker-ce-packaging/pull/844/hovercard&#34;&gt;docker/docker-ce-packaging#844&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/moby/moby/releases/tag/v23.0.1" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>thaJeztah</name>
+    </author>
+  </entry>
   <entry>
     <title>Release notes from terraform - v1.3.8</title>
     <updated>2023-02-09T19:50:56Z</updated>
@@ -191,11 +213,77 @@
     </author>
   </entry>
   <entry>
+    <title>Release notes from opentelemetry-operations-go - exporter/trace/v1.11.1: Prepare release v0.35.1/v1.11.1 (#586)</title>
+    <updated>2023-02-08T18:20:09Z</updated>
+    <id>tag:github.com,2008:Repository/244484581/exporter/trace/v1.11.1</id>
+    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Update versions in release.go&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make prepare-release&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Add make fixtures to releasing.md&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/exporter%2Ftrace%2Fv1.11.1" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>damemi</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from opentelemetry-operations-go - exporter/collector/googlemanagedprometheus/v0.35.1: Prepare release v0.35.1/v1.11.1 (#586)</title>
+    <updated>2023-02-08T18:20:09Z</updated>
+    <id>tag:github.com,2008:Repository/244484581/exporter/collector/googlemanagedprometheus/v0.35.1</id>
+    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Update versions in release.go&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make prepare-release&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Add make fixtures to releasing.md&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/exporter%2Fcollector%2Fgooglemanagedprometheus%2Fv0.35.1" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>damemi</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from opentelemetry-operations-go - internal/cloudmock/v0.35.1: Prepare release v0.35.1/v1.11.1 (#586)</title>
+    <updated>2023-02-08T18:20:09Z</updated>
+    <id>tag:github.com,2008:Repository/244484581/internal/cloudmock/v0.35.1</id>
+    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Update versions in release.go&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make prepare-release&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Add make fixtures to releasing.md&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/internal%2Fcloudmock%2Fv0.35.1" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>damemi</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from opentelemetry-operations-go - internal/resourcemapping/v0.35.1: Prepare release v0.35.1/v1.11.1 (#586)</title>
+    <updated>2023-02-08T18:20:09Z</updated>
+    <id>tag:github.com,2008:Repository/244484581/internal/resourcemapping/v0.35.1</id>
+    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Update versions in release.go&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make prepare-release&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Add make fixtures to releasing.md&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/internal%2Fresourcemapping%2Fv0.35.1" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>damemi</name>
+    </author>
+  </entry>
+  <entry>
     <title>Release notes from opentelemetry-operations-go - example/metric/v0.35.1: Prepare release v0.35.1/v1.11.1 (#586)</title>
     <updated>2023-02-08T18:20:09Z</updated>
     <id>tag:github.com,2008:Repository/244484581/example/metric/v0.35.1</id>
     <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Update versions in release.go&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make prepare-release&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Add make fixtures to releasing.md&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
     <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/example%2Fmetric%2Fv0.35.1" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>damemi</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from opentelemetry-operations-go - example/trace/http/v0.35.1: Prepare release v0.35.1/v1.11.1 (#586)</title>
+    <updated>2023-02-08T18:20:09Z</updated>
+    <id>tag:github.com,2008:Repository/244484581/example/trace/http/v0.35.1</id>
+    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Update versions in release.go&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make prepare-release&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Add make fixtures to releasing.md&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/example%2Ftrace%2Fhttp%2Fv0.35.1" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>damemi</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from opentelemetry-operations-go - propagator/v0.35.1: Prepare release v0.35.1/v1.11.1 (#586)</title>
+    <updated>2023-02-08T18:20:09Z</updated>
+    <id>tag:github.com,2008:Repository/244484581/propagator/v0.35.1</id>
+    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Update versions in release.go&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make prepare-release&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Add make fixtures to releasing.md&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/propagator%2Fv0.35.1" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>damemi</name>
@@ -218,72 +306,6 @@
     <id>tag:github.com,2008:Repository/244484581/exporter/collector/v0.35.1</id>
     <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Update versions in release.go&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make prepare-release&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Add make fixtures to releasing.md&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
     <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/exporter%2Fcollector%2Fv0.35.1" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>damemi</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from opentelemetry-operations-go - exporter/collector/googlemanagedprometheus/v0.35.1: Prepare release v0.35.1/v1.11.1 (#586)</title>
-    <updated>2023-02-08T18:20:09Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/exporter/collector/googlemanagedprometheus/v0.35.1</id>
-    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Update versions in release.go&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make prepare-release&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Add make fixtures to releasing.md&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/exporter%2Fcollector%2Fgooglemanagedprometheus%2Fv0.35.1" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>damemi</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from opentelemetry-operations-go - example/trace/http/v0.35.1: Prepare release v0.35.1/v1.11.1 (#586)</title>
-    <updated>2023-02-08T18:20:09Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/example/trace/http/v0.35.1</id>
-    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Update versions in release.go&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make prepare-release&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Add make fixtures to releasing.md&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/example%2Ftrace%2Fhttp%2Fv0.35.1" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>damemi</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from opentelemetry-operations-go - internal/resourcemapping/v0.35.1: Prepare release v0.35.1/v1.11.1 (#586)</title>
-    <updated>2023-02-08T18:20:09Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/internal/resourcemapping/v0.35.1</id>
-    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Update versions in release.go&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make prepare-release&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Add make fixtures to releasing.md&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/internal%2Fresourcemapping%2Fv0.35.1" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>damemi</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from opentelemetry-operations-go - internal/cloudmock/v0.35.1: Prepare release v0.35.1/v1.11.1 (#586)</title>
-    <updated>2023-02-08T18:20:09Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/internal/cloudmock/v0.35.1</id>
-    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Update versions in release.go&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make prepare-release&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Add make fixtures to releasing.md&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/internal%2Fcloudmock%2Fv0.35.1" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>damemi</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from opentelemetry-operations-go - exporter/trace/v1.11.1: Prepare release v0.35.1/v1.11.1 (#586)</title>
-    <updated>2023-02-08T18:20:09Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/exporter/trace/v1.11.1</id>
-    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Update versions in release.go&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make prepare-release&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Add make fixtures to releasing.md&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/exporter%2Ftrace%2Fv1.11.1" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>damemi</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from opentelemetry-operations-go - propagator/v0.35.1: Prepare release v0.35.1/v1.11.1 (#586)</title>
-    <updated>2023-02-08T18:20:09Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/propagator/v0.35.1</id>
-    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Update versions in release.go&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make prepare-release&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Add make fixtures to releasing.md&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/propagator%2Fv0.35.1" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>damemi</name>
@@ -3447,17 +3469,6 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from moby - v20.10.20</title>
-    <updated>2022-10-18T21:19:39Z</updated>
-    <id>tag:github.com,2008:Repository/7691631/v20.10.20</id>
-    <content type="html">&lt;p&gt;This release of Docker Engine contains partial mitigations for a Git vulnerability&lt;br&gt;&#xA;(&lt;a href=&#34;https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-39253&#34; rel=&#34;nofollow&#34;&gt;CVE-2022-39253&lt;/a&gt;), and has updated handling of &lt;code&gt;image:tag@digest&lt;/code&gt; image references.&lt;/p&gt;&#xA;&lt;p&gt;The Git vulnerability allows a maliciously crafted Git repository, when used as a&lt;br&gt;&#xA;build context, to copy arbitrary filesystem paths into resulting containers/images;&lt;br&gt;&#xA;this can occur in both the daemon, and in API clients, depending on the versions and&lt;br&gt;&#xA;tools in use.&lt;/p&gt;&#xA;&lt;p&gt;The mitigations available in this release and in other consumers of the daemon API&lt;br&gt;&#xA;are partial and only protect users who build a Git URL context (e.g. &lt;code&gt;git+protocol://&lt;/code&gt;).&lt;br&gt;&#xA;As the vulnerability could still be exploited by manually run Git commands that interact&lt;br&gt;&#xA;with and check out submodules, users should immediately upgrade to a patched version of&lt;br&gt;&#xA;Git to protect against this vulernability. Further details are available from the GitHub&lt;br&gt;&#xA;blog (&lt;a href=&#34;https://github.blog/2022-10-18-git-security-vulnerabilities-announced/&#34; rel=&#34;nofollow&#34;&gt;&#34;Git security vulnerabilities announced&#34;&lt;/a&gt;).&lt;/p&gt;&#xA;&lt;h3&gt;Client&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Added a mitigation for &lt;a href=&#34;https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-39253&#34; rel=&#34;nofollow&#34;&gt;CVE-2022-39253&lt;/a&gt;,&lt;br&gt;&#xA;when using the classic Builder with a Git URL as the build context.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3&gt;Daemon&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Updated handling of &lt;code&gt;image:tag@digest&lt;/code&gt; references. When pulling an image using&lt;br&gt;&#xA;the &lt;code&gt;image:tag@digest&lt;/code&gt; (&#34;pull by digest&#34;), image resolution happens through&lt;br&gt;&#xA;the content-addressable digest and the &lt;code&gt;image&lt;/code&gt; and &lt;code&gt;tag&lt;/code&gt; are not used. While&lt;br&gt;&#xA;this is expected, this could lead to confusing behavior, and could potentially&lt;br&gt;&#xA;be exploited through social engineering to run an image that is already present&lt;br&gt;&#xA;in the local image store. Docker now checks if the digest matches the repository&lt;br&gt;&#xA;name used to pull the image, and otherwise will produce an error.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3&gt;Builder&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Updated handling of &lt;code&gt;image:tag@digest&lt;/code&gt; references. Refer to the &#34;Daemon&#34; section&lt;br&gt;&#xA;above for details.&lt;/li&gt;&#xA;&lt;li&gt;Added a mitigation to the classic Builder and updated BuildKit to &lt;a href=&#34;https://github.com/moby/buildkit/commit/c014937225cba29cfb1d5161fd134316c0e9bdaa&#34;&gt;v0.8.3-31-gc0149372&lt;/a&gt;,&lt;br&gt;&#xA;for &lt;a href=&#34;https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-39253&#34; rel=&#34;nofollow&#34;&gt;CVE-2022-39253&lt;/a&gt;.&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/moby/moby/releases/tag/v20.10.20" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>thaJeztah</name>
-    </author>
-  </entry>
-  <entry>
     <title>Release notes from compose - v2.12.0</title>
     <updated>2022-10-18T19:27:56Z</updated>
     <id>tag:github.com,2008:Repository/15045751/v2.12.0</id>
@@ -4258,17 +4269,6 @@
     <summary type="html"></summary>
     <author>
       <name>jeffreyssmith2nd</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from trivy - v0.31.3</title>
-    <updated>2022-08-29T06:46:57Z</updated>
-    <id>tag:github.com,2008:Repository/180687624/v0.31.3</id>
-    <content type="html">&lt;h2&gt;Changelog&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a class=&#34;commit-link&#34; data-hovercard-type=&#34;commit&#34; data-hovercard-url=&#34;https://github.com/aquasecurity/trivy/commit/db67f16ac6a8a1b880c29b5ef0ac9ec49da5c566/hovercard&#34; href=&#34;https://github.com/aquasecurity/trivy/commit/db67f16ac6a8a1b880c29b5ef0ac9ec49da5c566&#34;&gt;&lt;tt&gt;db67f16&lt;/tt&gt;&lt;/a&gt; fix: handle empty OS family (&lt;a aria-label=&#34;Pull request #2768&#34; class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1347784677&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/aquasecurity/trivy/issues/2768&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/aquasecurity/trivy/pull/2768/hovercard&#34; href=&#34;https://github.com/aquasecurity/trivy/pull/2768&#34;&gt;#2768&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;&lt;a class=&#34;commit-link&#34; data-hovercard-type=&#34;commit&#34; data-hovercard-url=&#34;https://github.com/aquasecurity/trivy/commit/77616bebae955afbfd388f88ef7aced38c29deb6/hovercard&#34; href=&#34;https://github.com/aquasecurity/trivy/commit/77616bebae955afbfd388f88ef7aced38c29deb6&#34;&gt;&lt;tt&gt;77616be&lt;/tt&gt;&lt;/a&gt; fix: fix k8s summary report (&lt;a aria-label=&#34;Pull request #2777&#34; class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1350203507&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/aquasecurity/trivy/issues/2777&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/aquasecurity/trivy/pull/2777/hovercard&#34; href=&#34;https://github.com/aquasecurity/trivy/pull/2777&#34;&gt;#2777&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;&lt;a class=&#34;commit-link&#34; data-hovercard-type=&#34;commit&#34; data-hovercard-url=&#34;https://github.com/aquasecurity/trivy/commit/fcccfced234d178615cf243e9d1e306881ff4741/hovercard&#34; href=&#34;https://github.com/aquasecurity/trivy/commit/fcccfced234d178615cf243e9d1e306881ff4741&#34;&gt;&lt;tt&gt;fcccfce&lt;/tt&gt;&lt;/a&gt; fix: don&#39;t skip packages that don&#39;t contain vulns, when using --list-all-pkgs flag (&lt;a aria-label=&#34;Pull request #2767&#34; class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1347604605&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/aquasecurity/trivy/issues/2767&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/aquasecurity/trivy/pull/2767/hovercard&#34; href=&#34;https://github.com/aquasecurity/trivy/pull/2767&#34;&gt;#2767&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;&lt;a class=&#34;commit-link&#34; data-hovercard-type=&#34;commit&#34; data-hovercard-url=&#34;https://github.com/aquasecurity/trivy/commit/8bc215ccf6be86440bbbecf3a16bd5d888b78d19/hovercard&#34; href=&#34;https://github.com/aquasecurity/trivy/commit/8bc215ccf6be86440bbbecf3a16bd5d888b78d19&#34;&gt;&lt;tt&gt;8bc215c&lt;/tt&gt;&lt;/a&gt; chore: bump trivy-kubernetes (&lt;a aria-label=&#34;Pull request #2770&#34; class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1348130551&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/aquasecurity/trivy/issues/2770&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/aquasecurity/trivy/pull/2770/hovercard&#34; href=&#34;https://github.com/aquasecurity/trivy/pull/2770&#34;&gt;#2770&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;&lt;a class=&#34;commit-link&#34; data-hovercard-type=&#34;commit&#34; data-hovercard-url=&#34;https://github.com/aquasecurity/trivy/commit/d8d8e62793a8e063fddc641a4946b179ff53e5d2/hovercard&#34; href=&#34;https://github.com/aquasecurity/trivy/commit/d8d8e62793a8e063fddc641a4946b179ff53e5d2&#34;&gt;&lt;tt&gt;d8d8e62&lt;/tt&gt;&lt;/a&gt; fix(secret): Consider secrets in rpc calls (&lt;a aria-label=&#34;Pull request #2753&#34; class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1345790288&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/aquasecurity/trivy/issues/2753&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/aquasecurity/trivy/pull/2753/hovercard&#34; href=&#34;https://github.com/aquasecurity/trivy/pull/2753&#34;&gt;#2753&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;&lt;a class=&#34;commit-link&#34; data-hovercard-type=&#34;commit&#34; data-hovercard-url=&#34;https://github.com/aquasecurity/trivy/commit/b0e89d4c57d4fc240e56777697042d301ad6a64c/hovercard&#34; href=&#34;https://github.com/aquasecurity/trivy/commit/b0e89d4c57d4fc240e56777697042d301ad6a64c&#34;&gt;&lt;tt&gt;b0e89d4&lt;/tt&gt;&lt;/a&gt; fix(java): check depManagement from upper pom&#39;s (&lt;a aria-label=&#34;Pull request #2747&#34; class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1344131189&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/aquasecurity/trivy/issues/2747&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/aquasecurity/trivy/pull/2747/hovercard&#34; href=&#34;https://github.com/aquasecurity/trivy/pull/2747&#34;&gt;#2747&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;&lt;a class=&#34;commit-link&#34; data-hovercard-type=&#34;commit&#34; data-hovercard-url=&#34;https://github.com/aquasecurity/trivy/commit/da6f1b6f25d764974fcea19f17d45ef141d8b763/hovercard&#34; href=&#34;https://github.com/aquasecurity/trivy/commit/da6f1b6f25d764974fcea19f17d45ef141d8b763&#34;&gt;&lt;tt&gt;da6f1b6&lt;/tt&gt;&lt;/a&gt; fix(php): skip &lt;code&gt;composer.lock&lt;/code&gt; inside &lt;code&gt;vendor&lt;/code&gt; folder (&lt;a aria-label=&#34;Pull request #2718&#34; class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1340140272&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/aquasecurity/trivy/issues/2718&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/aquasecurity/trivy/pull/2718/hovercard&#34; href=&#34;https://github.com/aquasecurity/trivy/pull/2718&#34;&gt;#2718&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;&lt;a class=&#34;commit-link&#34; data-hovercard-type=&#34;commit&#34; data-hovercard-url=&#34;https://github.com/aquasecurity/trivy/commit/2f2952c65842594aef6fc2241e372bb016513cfd/hovercard&#34; href=&#34;https://github.com/aquasecurity/trivy/commit/2f2952c65842594aef6fc2241e372bb016513cfd&#34;&gt;&lt;tt&gt;2f2952c&lt;/tt&gt;&lt;/a&gt; fix: fix k8s rbac filter (&lt;a aria-label=&#34;Pull request #2765&#34; class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1347067260&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/aquasecurity/trivy/issues/2765&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/aquasecurity/trivy/pull/2765/hovercard&#34; href=&#34;https://github.com/aquasecurity/trivy/pull/2765&#34;&gt;#2765&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;&lt;a class=&#34;commit-link&#34; data-hovercard-type=&#34;commit&#34; data-hovercard-url=&#34;https://github.com/aquasecurity/trivy/commit/8bc56bf2fcc5e3cf6cb0e15ee791197ba716297d/hovercard&#34; href=&#34;https://github.com/aquasecurity/trivy/commit/8bc56bf2fcc5e3cf6cb0e15ee791197ba716297d&#34;&gt;&lt;tt&gt;8bc56bf&lt;/tt&gt;&lt;/a&gt; feat(misconf): skipping misconfigurations by AVD ID (&lt;a aria-label=&#34;Pull request #2743&#34; class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1342960780&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/aquasecurity/trivy/issues/2743&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/aquasecurity/trivy/pull/2743/hovercard&#34; href=&#34;https://github.com/aquasecurity/trivy/pull/2743&#34;&gt;#2743&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;&lt;a class=&#34;commit-link&#34; data-hovercard-type=&#34;commit&#34; data-hovercard-url=&#34;https://github.com/aquasecurity/trivy/commit/9c1ce5afe8469cbc2e7d960e6d62e46c14cb90d8/hovercard&#34; href=&#34;https://github.com/aquasecurity/trivy/commit/9c1ce5afe8469cbc2e7d960e6d62e46c14cb90d8&#34;&gt;&lt;tt&gt;9c1ce5a&lt;/tt&gt;&lt;/a&gt; chore(deps): Upgrade Alpine to 3.16.2 to fix zlib issue (&lt;a aria-label=&#34;Pull request #2741&#34; class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1342679516&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/aquasecurity/trivy/issues/2741&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/aquasecurity/trivy/pull/2741/hovercard&#34; href=&#34;https://github.com/aquasecurity/trivy/pull/2741&#34;&gt;#2741&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;&lt;a class=&#34;commit-link&#34; data-hovercard-type=&#34;commit&#34; data-hovercard-url=&#34;https://github.com/aquasecurity/trivy/commit/3cd10b23582909d70d1c6734ec5eb3e2388d0754/hovercard&#34; href=&#34;https://github.com/aquasecurity/trivy/commit/3cd10b23582909d70d1c6734ec5eb3e2388d0754&#34;&gt;&lt;tt&gt;3cd10b2&lt;/tt&gt;&lt;/a&gt; docs: add MacPorts install instructions (&lt;a aria-label=&#34;Pull request #2727&#34; class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1340365517&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/aquasecurity/trivy/issues/2727&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/aquasecurity/trivy/pull/2727/hovercard&#34; href=&#34;https://github.com/aquasecurity/trivy/pull/2727&#34;&gt;#2727&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;&lt;a class=&#34;commit-link&#34; data-hovercard-type=&#34;commit&#34; data-hovercard-url=&#34;https://github.com/aquasecurity/trivy/commit/f369bd3e3dbc3f64135e361bca8059ecd4113e91/hovercard&#34; href=&#34;https://github.com/aquasecurity/trivy/commit/f369bd3e3dbc3f64135e361bca8059ecd4113e91&#34;&gt;&lt;tt&gt;f369bd3&lt;/tt&gt;&lt;/a&gt; docs: typo (&lt;a aria-label=&#34;Pull request #2730&#34; class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1340871428&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/aquasecurity/trivy/issues/2730&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/aquasecurity/trivy/pull/2730/hovercard&#34; href=&#34;https://github.com/aquasecurity/trivy/pull/2730&#34;&gt;#2730&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/aquasecurity/trivy/releases/tag/v0.31.3" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>aqua-bot</name>
     </author>
   </entry>
   <entry>
@@ -7704,22 +7704,22 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from backoff - v2.0.3: Merge pull request #18 from lestrrat-go/topic/fix-v2-go-mod</title>
+    <title>Release notes from backoff - v2.0.2: Merge pull request #18 from lestrrat-go/topic/fix-v2-go-mod</title>
     <updated>2021-01-06T03:00:05Z</updated>
-    <id>tag:github.com,2008:Repository/118608673/v2.0.3</id>
+    <id>tag:github.com,2008:Repository/118608673/v2.0.2</id>
     <content type="html">&lt;p&gt;Fix go.mod&lt;/p&gt;</content>
-    <link href="https://github.com/lestrrat-go/backoff/releases/tag/v2.0.3" rel="alternate"></link>
+    <link href="https://github.com/lestrrat-go/backoff/releases/tag/v2.0.2" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>lestrrat</name>
     </author>
   </entry>
   <entry>
-    <title>Release notes from backoff - v2.0.2: Merge pull request #18 from lestrrat-go/topic/fix-v2-go-mod</title>
+    <title>Release notes from backoff - v2.0.3: Merge pull request #18 from lestrrat-go/topic/fix-v2-go-mod</title>
     <updated>2021-01-06T03:00:05Z</updated>
-    <id>tag:github.com,2008:Repository/118608673/v2.0.2</id>
+    <id>tag:github.com,2008:Repository/118608673/v2.0.3</id>
     <content type="html">&lt;p&gt;Fix go.mod&lt;/p&gt;</content>
-    <link href="https://github.com/lestrrat-go/backoff/releases/tag/v2.0.2" rel="alternate"></link>
+    <link href="https://github.com/lestrrat-go/backoff/releases/tag/v2.0.3" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>lestrrat</name>
