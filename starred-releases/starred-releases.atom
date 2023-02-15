@@ -1,8 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?><feed xmlns="http://www.w3.org/2005/Atom">
   <title>Releases from Starred by toga4</title>
   <id>https://toga4.github.io/feeds/starred-releases.atom</id>
-  <updated>2023-02-14T20:26:20Z</updated>
+  <updated>2023-02-15T13:02:50Z</updated>
   <link href="https://toga4.github.io/feeds/starred-releases.atom"></link>
+  <entry>
+    <title>Release notes from casbin - v2.63.0</title>
+    <updated>2023-02-15T13:02:50Z</updated>
+    <id>tag:github.com,2008:Repository/87617508/v2.63.0</id>
+    <content type="html">&lt;h1&gt;&lt;a href=&#34;https://github.com/casbin/casbin/compare/v2.62.0...v2.63.0&#34;&gt;2.63.0&lt;/a&gt; (2023-02-15)&lt;/h1&gt;&#xA;&lt;h3&gt;Features&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Add methods such as AddPoliciesEx (&lt;a href=&#34;https://github.com/casbin/casbin/issues/1196&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/casbin/casbin/pull/1196/hovercard&#34;&gt;#1196&lt;/a&gt;) (&lt;a href=&#34;https://github.com/casbin/casbin/commit/ea5ed6b907fb98786e861f8ca453756aea938937&#34;&gt;ea5ed6b&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/casbin/casbin/releases/tag/v2.63.0" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>github-actions[bot]</name>
+    </author>
+  </entry>
   <entry>
     <title>Release notes from alacritty - Alacritty Version 0.12.0 Release Candidate 1</title>
     <updated>2023-02-14T20:26:20Z</updated>
@@ -312,22 +323,22 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from opentelemetry-operations-go - exporter/metric/v0.35.1: Prepare release v0.35.1/v1.11.1 (#586)</title>
+    <title>Release notes from opentelemetry-operations-go - internal/cloudmock/v0.35.1: Prepare release v0.35.1/v1.11.1 (#586)</title>
     <updated>2023-02-08T18:20:09Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/exporter/metric/v0.35.1</id>
+    <id>tag:github.com,2008:Repository/244484581/internal/cloudmock/v0.35.1</id>
     <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Update versions in release.go&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make prepare-release&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Add make fixtures to releasing.md&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/exporter%2Fmetric%2Fv0.35.1" rel="alternate"></link>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/internal%2Fcloudmock%2Fv0.35.1" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>damemi</name>
     </author>
   </entry>
   <entry>
-    <title>Release notes from opentelemetry-operations-go - example/metric/v0.35.1: Prepare release v0.35.1/v1.11.1 (#586)</title>
+    <title>Release notes from opentelemetry-operations-go - example/trace/http/v0.35.1: Prepare release v0.35.1/v1.11.1 (#586)</title>
     <updated>2023-02-08T18:20:09Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/example/metric/v0.35.1</id>
+    <id>tag:github.com,2008:Repository/244484581/example/trace/http/v0.35.1</id>
     <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Update versions in release.go&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make prepare-release&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Add make fixtures to releasing.md&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/example%2Fmetric%2Fv0.35.1" rel="alternate"></link>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/example%2Ftrace%2Fhttp%2Fv0.35.1" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>damemi</name>
@@ -345,11 +356,22 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from opentelemetry-operations-go - internal/cloudmock/v0.35.1: Prepare release v0.35.1/v1.11.1 (#586)</title>
+    <title>Release notes from opentelemetry-operations-go - propagator/v0.35.1: Prepare release v0.35.1/v1.11.1 (#586)</title>
     <updated>2023-02-08T18:20:09Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/internal/cloudmock/v0.35.1</id>
+    <id>tag:github.com,2008:Repository/244484581/propagator/v0.35.1</id>
     <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Update versions in release.go&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make prepare-release&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Add make fixtures to releasing.md&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/internal%2Fcloudmock%2Fv0.35.1" rel="alternate"></link>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/propagator%2Fv0.35.1" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>damemi</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from opentelemetry-operations-go - exporter/metric/v0.35.1: Prepare release v0.35.1/v1.11.1 (#586)</title>
+    <updated>2023-02-08T18:20:09Z</updated>
+    <id>tag:github.com,2008:Repository/244484581/exporter/metric/v0.35.1</id>
+    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Update versions in release.go&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make prepare-release&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Add make fixtures to releasing.md&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/exporter%2Fmetric%2Fv0.35.1" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>damemi</name>
@@ -378,22 +400,11 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from opentelemetry-operations-go - propagator/v0.35.1: Prepare release v0.35.1/v1.11.1 (#586)</title>
+    <title>Release notes from opentelemetry-operations-go - example/metric/v0.35.1: Prepare release v0.35.1/v1.11.1 (#586)</title>
     <updated>2023-02-08T18:20:09Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/propagator/v0.35.1</id>
+    <id>tag:github.com,2008:Repository/244484581/example/metric/v0.35.1</id>
     <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Update versions in release.go&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make prepare-release&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Add make fixtures to releasing.md&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/propagator%2Fv0.35.1" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>damemi</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from opentelemetry-operations-go - example/trace/http/v0.35.1: Prepare release v0.35.1/v1.11.1 (#586)</title>
-    <updated>2023-02-08T18:20:09Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/example/trace/http/v0.35.1</id>
-    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Update versions in release.go&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make prepare-release&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Add make fixtures to releasing.md&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/example%2Ftrace%2Fhttp%2Fv0.35.1" rel="alternate"></link>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/example%2Fmetric%2Fv0.35.1" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>damemi</name>
@@ -3235,17 +3246,6 @@
     <summary type="html"></summary>
     <author>
       <name>vladdoster</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from casbin - v2.57.0</title>
-    <updated>2022-11-06T11:51:39Z</updated>
-    <id>tag:github.com,2008:Repository/87617508/v2.57.0</id>
-    <content type="html">&lt;h1&gt;&lt;a href=&#34;https://github.com/casbin/casbin/compare/v2.56.0...v2.57.0&#34;&gt;2.57.0&lt;/a&gt; (2022-11-06)&lt;/h1&gt;&#xA;&lt;h3&gt;Features&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Add RoleManagerWithContext interface for handling request timeouts (&lt;a href=&#34;https://github.com/casbin/casbin/issues/1127&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/casbin/casbin/pull/1127/hovercard&#34;&gt;#1127&lt;/a&gt;) (&lt;a href=&#34;https://github.com/casbin/casbin/commit/10fbdc22b90a13d3a972d2767a9e1d1115d842aa&#34;&gt;10fbdc2&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/casbin/casbin/releases/tag/v2.57.0" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>github-actions[bot]</name>
     </author>
   </entry>
   <entry>
@@ -7704,22 +7704,22 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from backoff - v2.0.2: Merge pull request #18 from lestrrat-go/topic/fix-v2-go-mod</title>
+    <title>Release notes from backoff - v2.0.3: Merge pull request #18 from lestrrat-go/topic/fix-v2-go-mod</title>
     <updated>2021-01-06T03:00:05Z</updated>
-    <id>tag:github.com,2008:Repository/118608673/v2.0.2</id>
+    <id>tag:github.com,2008:Repository/118608673/v2.0.3</id>
     <content type="html">&lt;p&gt;Fix go.mod&lt;/p&gt;</content>
-    <link href="https://github.com/lestrrat-go/backoff/releases/tag/v2.0.2" rel="alternate"></link>
+    <link href="https://github.com/lestrrat-go/backoff/releases/tag/v2.0.3" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>lestrrat</name>
     </author>
   </entry>
   <entry>
-    <title>Release notes from backoff - v2.0.3: Merge pull request #18 from lestrrat-go/topic/fix-v2-go-mod</title>
+    <title>Release notes from backoff - v2.0.2: Merge pull request #18 from lestrrat-go/topic/fix-v2-go-mod</title>
     <updated>2021-01-06T03:00:05Z</updated>
-    <id>tag:github.com,2008:Repository/118608673/v2.0.3</id>
+    <id>tag:github.com,2008:Repository/118608673/v2.0.2</id>
     <content type="html">&lt;p&gt;Fix go.mod&lt;/p&gt;</content>
-    <link href="https://github.com/lestrrat-go/backoff/releases/tag/v2.0.3" rel="alternate"></link>
+    <link href="https://github.com/lestrrat-go/backoff/releases/tag/v2.0.2" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>lestrrat</name>
