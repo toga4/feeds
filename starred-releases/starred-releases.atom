@@ -1,8 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?><feed xmlns="http://www.w3.org/2005/Atom">
   <title>Releases from Starred by toga4</title>
   <id>https://toga4.github.io/feeds/starred-releases.atom</id>
-  <updated>2023-02-15T15:34:43Z</updated>
+  <updated>2023-02-15T17:57:14Z</updated>
   <link href="https://toga4.github.io/feeds/starred-releases.atom"></link>
+  <entry>
+    <title>Release notes from secrets-store-csi-driver-provider-gcp - v1.2.0</title>
+    <updated>2023-02-15T17:57:14Z</updated>
+    <id>tag:github.com,2008:Repository/267427111/v1.2.0</id>
+    <content type="html">&lt;p&gt;Images:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;code&gt;asia-docker.pkg.dev/secretmanager-csi/secrets-store-csi-driver-provider-gcp/plugin:v1.2.0&lt;/code&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;code&gt;europe-docker.pkg.dev/secretmanager-csi/secrets-store-csi-driver-provider-gcp/plugin:v1.2.0&lt;/code&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;code&gt;us-docker.pkg.dev/secretmanager-csi/secrets-store-csi-driver-provider-gcp/plugin:v1.2.0&lt;/code&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Digest: &lt;code&gt;sha256:b7dde5ed536b2c6500c9237e14f6851cf8a2ff6d7a72656c3741be38e2cddf4d&lt;/code&gt;&lt;/p&gt;&#xA;&lt;p&gt;See See &lt;a href=&#34;/GoogleCloudPlatform/secrets-store-csi-driver-provider-gcp/blob/v1.2.0/CHANGELOG.md#v120&#34;&gt;CHANGELOG.md&lt;/a&gt; for more details. for more details.&lt;/p&gt;</content>
+    <link href="https://github.com/GoogleCloudPlatform/secrets-store-csi-driver-provider-gcp/releases/tag/v1.2.0" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>tam7t</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from terraform - v1.3.9</title>
+    <updated>2023-02-15T17:31:10Z</updated>
+    <id>tag:github.com,2008:Repository/17728164/v1.3.9</id>
+    <content type="html">&lt;h2&gt;1.3.9 (February 15, 2023)&lt;/h2&gt;&#xA;&lt;p&gt;BUG FIXES:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Fix crash when planning to remove already-deposed resource instances. (&lt;a href=&#34;https://github.com/hashicorp/terraform/issues/32663&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/hashicorp/terraform/pull/32663/hovercard&#34;&gt;#32663&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/hashicorp/terraform/releases/tag/v1.3.9" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>hc-github-team-tf-core</name>
+    </author>
+  </entry>
   <entry>
     <title>Release notes from terraform - v1.4.0-beta2</title>
     <updated>2023-02-15T15:34:43Z</updated>
@@ -323,22 +345,11 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from opentelemetry-operations-go - exporter/collector/v0.35.1: Prepare release v0.35.1/v1.11.1 (#586)</title>
+    <title>Release notes from opentelemetry-operations-go - internal/resourcemapping/v0.35.1: Prepare release v0.35.1/v1.11.1 (#586)</title>
     <updated>2023-02-08T18:20:09Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/exporter/collector/v0.35.1</id>
+    <id>tag:github.com,2008:Repository/244484581/internal/resourcemapping/v0.35.1</id>
     <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Update versions in release.go&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make prepare-release&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Add make fixtures to releasing.md&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/exporter%2Fcollector%2Fv0.35.1" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>damemi</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from opentelemetry-operations-go - propagator/v0.35.1: Prepare release v0.35.1/v1.11.1 (#586)</title>
-    <updated>2023-02-08T18:20:09Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/propagator/v0.35.1</id>
-    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Update versions in release.go&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make prepare-release&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Add make fixtures to releasing.md&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/propagator%2Fv0.35.1" rel="alternate"></link>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/internal%2Fresourcemapping%2Fv0.35.1" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>damemi</name>
@@ -378,17 +389,6 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from opentelemetry-operations-go - exporter/metric/v0.35.1: Prepare release v0.35.1/v1.11.1 (#586)</title>
-    <updated>2023-02-08T18:20:09Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/exporter/metric/v0.35.1</id>
-    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Update versions in release.go&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make prepare-release&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Add make fixtures to releasing.md&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/exporter%2Fmetric%2Fv0.35.1" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>damemi</name>
-    </author>
-  </entry>
-  <entry>
     <title>Release notes from opentelemetry-operations-go - exporter/trace/v1.11.1: Prepare release v0.35.1/v1.11.1 (#586)</title>
     <updated>2023-02-08T18:20:09Z</updated>
     <id>tag:github.com,2008:Repository/244484581/exporter/trace/v1.11.1</id>
@@ -411,11 +411,33 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from opentelemetry-operations-go - internal/resourcemapping/v0.35.1: Prepare release v0.35.1/v1.11.1 (#586)</title>
+    <title>Release notes from opentelemetry-operations-go - propagator/v0.35.1: Prepare release v0.35.1/v1.11.1 (#586)</title>
     <updated>2023-02-08T18:20:09Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/internal/resourcemapping/v0.35.1</id>
+    <id>tag:github.com,2008:Repository/244484581/propagator/v0.35.1</id>
     <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Update versions in release.go&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make prepare-release&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Add make fixtures to releasing.md&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/internal%2Fresourcemapping%2Fv0.35.1" rel="alternate"></link>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/propagator%2Fv0.35.1" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>damemi</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from opentelemetry-operations-go - exporter/collector/v0.35.1: Prepare release v0.35.1/v1.11.1 (#586)</title>
+    <updated>2023-02-08T18:20:09Z</updated>
+    <id>tag:github.com,2008:Repository/244484581/exporter/collector/v0.35.1</id>
+    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Update versions in release.go&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make prepare-release&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Add make fixtures to releasing.md&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/exporter%2Fcollector%2Fv0.35.1" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>damemi</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from opentelemetry-operations-go - exporter/metric/v0.35.1: Prepare release v0.35.1/v1.11.1 (#586)</title>
+    <updated>2023-02-08T18:20:09Z</updated>
+    <id>tag:github.com,2008:Repository/244484581/exporter/metric/v0.35.1</id>
+    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Update versions in release.go&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make prepare-release&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Add make fixtures to releasing.md&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/exporter%2Fmetric%2Fv0.35.1" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>damemi</name>
@@ -3510,17 +3532,6 @@
     <summary type="html"></summary>
     <author>
       <name>jhump</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from terraform - v1.3.3</title>
-    <updated>2022-10-19T17:54:32Z</updated>
-    <id>tag:github.com,2008:Repository/17728164/v1.3.3</id>
-    <content type="html">&lt;h2&gt;1.3.3 (October 19, 2022)&lt;/h2&gt;&#xA;&lt;p&gt;BUG FIXES:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Fix error when removing a resource from configuration which has according to the provider has already been deleted. (&lt;a href=&#34;https://github.com/hashicorp/terraform/issues/31850&#34; data-hovercard-type=&#34;issue&#34; data-hovercard-url=&#34;/hashicorp/terraform/issues/31850/hovercard&#34;&gt;#31850&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;Fix error when setting empty collections into variables with collections of nested objects with default values. (&lt;a href=&#34;https://github.com/hashicorp/terraform/issues/32033&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/hashicorp/terraform/pull/32033/hovercard&#34;&gt;#32033&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/hashicorp/terraform/releases/tag/v1.3.3" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>hc-github-team-tf-core</name>
     </author>
   </entry>
   <entry>
@@ -7275,22 +7286,22 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from triangula - v1.1.5</title>
+    <title>Release notes from triangula - v1.1.6</title>
     <updated>2021-05-11T13:31:09Z</updated>
-    <id>tag:github.com,2008:Repository/354015172/v1.1.5</id>
+    <id>tag:github.com,2008:Repository/354015172/v1.1.6</id>
     <content type="html">&lt;p&gt;Refactor for more flexibility&lt;/p&gt;</content>
-    <link href="https://github.com/rh12503/triangula/releases/tag/v1.1.5" rel="alternate"></link>
+    <link href="https://github.com/rh12503/triangula/releases/tag/v1.1.6" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>rh12503</name>
     </author>
   </entry>
   <entry>
-    <title>Release notes from triangula - v1.1.6</title>
+    <title>Release notes from triangula - v1.1.5</title>
     <updated>2021-05-11T13:31:09Z</updated>
-    <id>tag:github.com,2008:Repository/354015172/v1.1.6</id>
+    <id>tag:github.com,2008:Repository/354015172/v1.1.5</id>
     <content type="html">&lt;p&gt;Refactor for more flexibility&lt;/p&gt;</content>
-    <link href="https://github.com/rh12503/triangula/releases/tag/v1.1.6" rel="alternate"></link>
+    <link href="https://github.com/rh12503/triangula/releases/tag/v1.1.5" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>rh12503</name>
@@ -7704,22 +7715,22 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from backoff - v2.0.2: Merge pull request #18 from lestrrat-go/topic/fix-v2-go-mod</title>
+    <title>Release notes from backoff - v2.0.3: Merge pull request #18 from lestrrat-go/topic/fix-v2-go-mod</title>
     <updated>2021-01-06T03:00:05Z</updated>
-    <id>tag:github.com,2008:Repository/118608673/v2.0.2</id>
+    <id>tag:github.com,2008:Repository/118608673/v2.0.3</id>
     <content type="html">&lt;p&gt;Fix go.mod&lt;/p&gt;</content>
-    <link href="https://github.com/lestrrat-go/backoff/releases/tag/v2.0.2" rel="alternate"></link>
+    <link href="https://github.com/lestrrat-go/backoff/releases/tag/v2.0.3" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>lestrrat</name>
     </author>
   </entry>
   <entry>
-    <title>Release notes from backoff - v2.0.3: Merge pull request #18 from lestrrat-go/topic/fix-v2-go-mod</title>
+    <title>Release notes from backoff - v2.0.2: Merge pull request #18 from lestrrat-go/topic/fix-v2-go-mod</title>
     <updated>2021-01-06T03:00:05Z</updated>
-    <id>tag:github.com,2008:Repository/118608673/v2.0.3</id>
+    <id>tag:github.com,2008:Repository/118608673/v2.0.2</id>
     <content type="html">&lt;p&gt;Fix go.mod&lt;/p&gt;</content>
-    <link href="https://github.com/lestrrat-go/backoff/releases/tag/v2.0.3" rel="alternate"></link>
+    <link href="https://github.com/lestrrat-go/backoff/releases/tag/v2.0.2" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>lestrrat</name>
