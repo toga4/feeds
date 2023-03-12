@@ -1,13 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?><feed xmlns="http://www.w3.org/2005/Atom">
   <title>Releases from Starred by toga4</title>
   <id>https://toga4.github.io/feeds/starred-releases.atom</id>
-  <updated>2023-03-12T07:02:04Z</updated>
+  <updated>2023-03-12T07:29:09Z</updated>
   <link href="https://toga4.github.io/feeds/starred-releases.atom"></link>
   <entry>
+    <title>Release notes from wrench - v1.5.0</title>
+    <updated>2023-03-12T07:29:09Z</updated>
+    <id>tag:github.com,2008:Repository/205979677/v1.5.0</id>
+    <content type="html">&lt;h2&gt;What&#39;s Changed&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;add dockerfile by &lt;a class=&#34;user-mention notranslate&#34; data-hovercard-type=&#34;user&#34; data-hovercard-url=&#34;/users/kazegusuri/hovercard&#34; data-octo-click=&#34;hovercard-link-click&#34; data-octo-dimensions=&#34;link_type:self&#34; href=&#34;https://github.com/kazegusuri&#34;&gt;@kazegusuri&lt;/a&gt; in &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1620263083&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/cloudspannerecosystem/wrench/issues/85&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/cloudspannerecosystem/wrench/pull/85/hovercard&#34; href=&#34;https://github.com/cloudspannerecosystem/wrench/pull/85&#34;&gt;#85&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: &lt;a class=&#34;commit-link&#34; href=&#34;https://github.com/cloudspannerecosystem/wrench/compare/v1.4.1...v1.5.0&#34;&gt;&lt;tt&gt;v1.4.1...v1.5.0&lt;/tt&gt;&lt;/a&gt;&lt;/p&gt;</content>
+    <link href="https://github.com/cloudspannerecosystem/wrench/releases/tag/v1.5.0" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>kazegusuri</name>
+    </author>
+  </entry>
+  <entry>
     <title>Release notes from stern - v1.24.0</title>
-    <updated>2023-03-12T07:02:04Z</updated>
+    <updated>2023-03-12T07:25:23Z</updated>
     <id>tag:github.com,2008:Repository/306013800/v1.24.0</id>
-    <content type="html">&lt;h2&gt;Changelog&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a class=&#34;commit-link&#34; data-hovercard-type=&#34;commit&#34; data-hovercard-url=&#34;https://github.com/stern/stern/commit/68305a0ab1383053166b7b606ad167b43fc6b329/hovercard&#34; href=&#34;https://github.com/stern/stern/commit/68305a0ab1383053166b7b606ad167b43fc6b329&#34;&gt;&lt;tt&gt;68305a0&lt;/tt&gt;&lt;/a&gt; Update CHANGELOG for v1.24.0 (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1620223628&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/stern/stern/issues/251&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/stern/stern/pull/251/hovercard&#34; href=&#34;https://github.com/stern/stern/pull/251&#34;&gt;#251&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <content type="html">&lt;h2&gt;&lt;g-emoji class=&#34;g-emoji&#34; alias=&#34;zap&#34; fallback-src=&#34;https://github.githubassets.com/images/icons/emoji/unicode/26a1.png&#34;&gt;⚡&lt;/g-emoji&gt; Nortable Changes&lt;/h2&gt;&#xA;&lt;h3&gt;Add a short format for timestamps&lt;/h3&gt;&#xA;&lt;p&gt;&lt;code&gt;--timestamps&lt;/code&gt; flag now accepts a format, one of &lt;code&gt;default&lt;/code&gt; or &lt;code&gt;short&lt;/code&gt;.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;code&gt;default&lt;/code&gt;: the original format &lt;code&gt;2006-01-02T15:04:05.000000000Z07:00&lt;/code&gt; (RFC3339Nano with trailing zeros)&lt;/li&gt;&#xA;&lt;li&gt;&lt;code&gt;short&lt;/code&gt;: the new format &lt;code&gt;01-02 15:04:05&lt;/code&gt; (time.DateTime without year).&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;If &lt;code&gt;--timestamps&lt;/code&gt; is specified but without value, &lt;code&gt;default&lt;/code&gt; is used to maintain backward compatibility.&lt;/p&gt;&#xA;&lt;div class=&#34;snippet-clipboard-content notranslate position-relative overflow-auto&#34; data-snippet-clipboard-copy-content=&#34;$ stern --timestamps=short -n kube-system ds/kindnet --no-follow --tail 1 --only-log-lines&#xA;kindnet-hqn2k kindnet-cni 03-12 09:29:53 I0312 00:29:53.620499       1 main.go:250] Node kind-worker3 has CIDR [10.244.1.0/24]&#xA;kindnet-5f4ms kindnet-cni 03-12 09:29:53 I0312 00:29:53.374482       1 main.go:250] Node kind-worker3 has CIDR [10.244.1.0/24]&#34;&gt;&lt;pre class=&#34;notranslate&#34;&gt;&lt;code&gt;$ stern --timestamps=short -n kube-system ds/kindnet --no-follow --tail 1 --only-log-lines&#xA;kindnet-hqn2k kindnet-cni 03-12 09:29:53 I0312 00:29:53.620499       1 main.go:250] Node kind-worker3 has CIDR [10.244.1.0/24]&#xA;kindnet-5f4ms kindnet-cni 03-12 09:29:53 I0312 00:29:53.374482       1 main.go:250] Node kind-worker3 has CIDR [10.244.1.0/24]&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&#xA;&lt;h3&gt;Add &lt;code&gt;--node&lt;/code&gt; flag to filter on a specific node&lt;/h3&gt;&#xA;&lt;p&gt;New &lt;code&gt;--node&lt;/code&gt; flag allows you to filter pods on a specific node. This flag will be helpful when we debug pods on the specific node.&lt;/p&gt;&#xA;&lt;div class=&#34;snippet-clipboard-content notranslate position-relative overflow-auto&#34; data-snippet-clipboard-copy-content=&#34;# Print a DaemonSet pod on the specific node&#xA;stern --node &amp;lt;NODE_NAME&amp;gt; daemonsets/&amp;lt;DS_NAME&amp;gt;&#xA;&#xA;# Print all pods on the specific node&#xA;stern --node &amp;lt;NODE_NAME&amp;gt; --all-namespaces --no-follow --max-log-requests 1 .&#34;&gt;&lt;pre class=&#34;notranslate&#34;&gt;&lt;code&gt;# Print a DaemonSet pod on the specific node&#xA;stern --node &amp;lt;NODE_NAME&amp;gt; daemonsets/&amp;lt;DS_NAME&amp;gt;&#xA;&#xA;# Print all pods on the specific node&#xA;stern --node &amp;lt;NODE_NAME&amp;gt; --all-namespaces --no-follow --max-log-requests 1 .&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&#xA;&lt;h3&gt;Highlight matched strings in the log lines with the include option&lt;/h3&gt;&#xA;&lt;p&gt;&lt;code&gt;--include&lt;/code&gt; flag now highlight matched strings in the log lines.&lt;/p&gt;&#xA;&lt;p&gt;&lt;a target=&#34;_blank&#34; rel=&#34;noopener noreferrer nofollow&#34; href=&#34;https://user-images.githubusercontent.com/230185/224530495-d60be03d-8e10-436c-bddd-5a4bf55fbdfc.png&#34;&gt;&lt;img width=&#34;598&#34; alt=&#34;image&#34; src=&#34;https://user-images.githubusercontent.com/230185/224530495-d60be03d-8e10-436c-bddd-5a4bf55fbdfc.png&#34; style=&#34;max-width: 100%;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h3&gt;Add &lt;code&gt;all&lt;/code&gt; option to &lt;code&gt;--container-state&lt;/code&gt; flag&lt;/h3&gt;&#xA;&lt;p&gt;&lt;code&gt;--container-state&lt;/code&gt; flag now accepts &lt;code&gt;all&lt;/code&gt; that is the same with specifying &lt;code&gt;running,waiting,terminated&lt;/code&gt;. This change is helpful when we debug CrashLoopBackoff containers.&lt;/p&gt;&#xA;&lt;div class=&#34;snippet-clipboard-content notranslate position-relative overflow-auto&#34; data-snippet-clipboard-copy-content=&#34;# Before&#xA;stern --container-state running,waiting,terminated &amp;lt;QUERY&amp;gt;&#xA;&#xA;# After&#xA;stern --container-state all &amp;lt;QUERY&amp;gt;`&#34;&gt;&lt;pre class=&#34;notranslate&#34;&gt;&lt;code&gt;# Before&#xA;stern --container-state running,waiting,terminated &amp;lt;QUERY&amp;gt;&#xA;&#xA;# After&#xA;stern --container-state all &amp;lt;QUERY&amp;gt;`&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&#xA;&lt;h2&gt;&lt;g-emoji class=&#34;g-emoji&#34; alias=&#34;warning&#34; fallback-src=&#34;https://github.githubassets.com/images/icons/emoji/unicode/26a0.png&#34;&gt;⚠️&lt;/g-emoji&gt; Breaking Changes&lt;/h2&gt;&#xA;&lt;h3&gt;Add &lt;code&gt;--max-log-requests&lt;/code&gt; flag to limit concurrent requests&lt;/h3&gt;&#xA;&lt;p&gt;New &lt;code&gt;--max-log-requests&lt;/code&gt; flag allows you to limit concurrent requests to prevent unintentional load to a cluster. The behavior and the default are different depending on the presence of the &lt;code&gt;--no-follow&lt;/code&gt; flag.&lt;/p&gt;&#xA;&lt;table&gt;&#xA;&lt;thead&gt;&#xA;&lt;tr&gt;&#xA;&lt;th&gt;&lt;code&gt;--no-follow&lt;/code&gt;&lt;/th&gt;&#xA;&lt;th&gt;default&lt;/th&gt;&#xA;&lt;th&gt;behavior&lt;/th&gt;&#xA;&lt;/tr&gt;&#xA;&lt;/thead&gt;&#xA;&lt;tbody&gt;&#xA;&lt;tr&gt;&#xA;&lt;td&gt;specified&lt;/td&gt;&#xA;&lt;td&gt;5&lt;/td&gt;&#xA;&lt;td&gt;limits the number of concurrent logs to request&lt;/td&gt;&#xA;&lt;/tr&gt;&#xA;&lt;tr&gt;&#xA;&lt;td&gt;not specified&lt;/td&gt;&#xA;&lt;td&gt;50&lt;/td&gt;&#xA;&lt;td&gt;exits with an error when if it reaches the concurrent limit&lt;/td&gt;&#xA;&lt;/tr&gt;&#xA;&lt;/tbody&gt;&#xA;&lt;/table&gt;&#xA;&lt;p&gt;If you want to change to the same behavior as before, specify a sufficiently large value for &lt;code&gt;--max-log-requests&lt;/code&gt;.&lt;/p&gt;&#xA;&lt;h3&gt;Change the default of &lt;code&gt;--container-state&lt;/code&gt; flag to &lt;code&gt;all&lt;/code&gt;&lt;/h3&gt;&#xA;&lt;p&gt;The default value of &lt;code&gt;--container-state&lt;/code&gt; has been changed to &lt;code&gt;all&lt;/code&gt; from &lt;code&gt;running&lt;/code&gt;. With this change, stern will now show logs of completed (&lt;code&gt;terminated&lt;/code&gt;) and CrashLoopBackoff (&lt;code&gt;waiting&lt;/code&gt;) pods in addition to running pods by default.&lt;/p&gt;&#xA;&lt;p&gt;If you want to change to the same behavior as before, explicitly specify &lt;code&gt;--container-state&lt;/code&gt; to &lt;code&gt;running&lt;/code&gt;.&lt;/p&gt;&#xA;&lt;h2&gt;Changes&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Upgrade golang.org/x/net to fix a dependabot alert (&lt;a href=&#34;https://github.com/stern/stern/pull/250&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/stern/stern/pull/250/hovercard&#34;&gt;#250&lt;/a&gt;) &lt;a href=&#34;https://github.com/stern/stern/commit/e26d049&#34;&gt;e26d049&lt;/a&gt; (Kazuki Suda)&lt;/li&gt;&#xA;&lt;li&gt;Add a short format for timestamps (&lt;a href=&#34;https://github.com/stern/stern/pull/249&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/stern/stern/pull/249/hovercard&#34;&gt;#249&lt;/a&gt;) &lt;a href=&#34;https://github.com/stern/stern/commit/43ab3f1&#34;&gt;43ab3f1&lt;/a&gt; (Takashi Kusumi)&lt;/li&gt;&#xA;&lt;li&gt;Bump golangci-lint to v1.51.2 (&lt;a href=&#34;https://github.com/stern/stern/pull/248&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/stern/stern/pull/248/hovercard&#34;&gt;#248&lt;/a&gt;) &lt;a href=&#34;https://github.com/stern/stern/commit/079d158&#34;&gt;079d158&lt;/a&gt; (Takashi Kusumi)&lt;/li&gt;&#xA;&lt;li&gt;Add dynamic completion for --node flag (&lt;a href=&#34;https://github.com/stern/stern/pull/244&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/stern/stern/pull/244/hovercard&#34;&gt;#244&lt;/a&gt;) &lt;a href=&#34;https://github.com/stern/stern/commit/59d4453&#34;&gt;59d4453&lt;/a&gt; (Takashi Kusumi)&lt;/li&gt;&#xA;&lt;li&gt;Add --node flag to filter on a specific node (&lt;a href=&#34;https://github.com/stern/stern/pull/243&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/stern/stern/pull/243/hovercard&#34;&gt;#243&lt;/a&gt;) &lt;a href=&#34;https://github.com/stern/stern/commit/f90f70f&#34;&gt;f90f70f&lt;/a&gt; (Takashi Kusumi)&lt;/li&gt;&#xA;&lt;li&gt;allow flexible log parsing and formatting (&lt;a href=&#34;https://github.com/stern/stern/pull/239&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/stern/stern/pull/239/hovercard&#34;&gt;#239&lt;/a&gt;) &lt;a href=&#34;https://github.com/stern/stern/commit/12a55fa&#34;&gt;12a55fa&lt;/a&gt; (Dmytro Milinevskyi)&lt;/li&gt;&#xA;&lt;li&gt;Documenting how to get Bash completion in Krew mode (&lt;a href=&#34;https://github.com/stern/stern/pull/240&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/stern/stern/pull/240/hovercard&#34;&gt;#240&lt;/a&gt;) &lt;a href=&#34;https://github.com/stern/stern/commit/24c8716&#34;&gt;24c8716&lt;/a&gt; (Jesse Glick)&lt;/li&gt;&#xA;&lt;li&gt;Add CI for skipped files (&lt;a href=&#34;https://github.com/stern/stern/pull/241&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/stern/stern/pull/241/hovercard&#34;&gt;#241&lt;/a&gt;) &lt;a href=&#34;https://github.com/stern/stern/commit/7131af2&#34;&gt;7131af2&lt;/a&gt; (Takashi Kusumi)&lt;/li&gt;&#xA;&lt;li&gt;Replace actions/cache with setup-go&#39;s cache (&lt;a href=&#34;https://github.com/stern/stern/pull/238&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/stern/stern/pull/238/hovercard&#34;&gt;#238&lt;/a&gt;) &lt;a href=&#34;https://github.com/stern/stern/commit/74952fd&#34;&gt;74952fd&lt;/a&gt; (Takashi Kusumi)&lt;/li&gt;&#xA;&lt;li&gt;Make CI jobs faster (&lt;a href=&#34;https://github.com/stern/stern/pull/237&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/stern/stern/pull/237/hovercard&#34;&gt;#237&lt;/a&gt;) &lt;a href=&#34;https://github.com/stern/stern/commit/4bb340d&#34;&gt;4bb340d&lt;/a&gt; (Kazuki Suda)&lt;/li&gt;&#xA;&lt;li&gt;Refactor options.sternConfig() (&lt;a href=&#34;https://github.com/stern/stern/pull/236&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/stern/stern/pull/236/hovercard&#34;&gt;#236&lt;/a&gt;) &lt;a href=&#34;https://github.com/stern/stern/commit/2315b23&#34;&gt;2315b23&lt;/a&gt; (Takashi Kusumi)&lt;/li&gt;&#xA;&lt;li&gt;Return error when output option is invalid (&lt;a href=&#34;https://github.com/stern/stern/pull/235&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/stern/stern/pull/235/hovercard&#34;&gt;#235&lt;/a&gt;) &lt;a href=&#34;https://github.com/stern/stern/commit/1c5aa2b&#34;&gt;1c5aa2b&lt;/a&gt; (Takashi Kusumi)&lt;/li&gt;&#xA;&lt;li&gt;Refactor template logic (&lt;a href=&#34;https://github.com/stern/stern/pull/233&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/stern/stern/pull/233/hovercard&#34;&gt;#233&lt;/a&gt;) &lt;a href=&#34;https://github.com/stern/stern/commit/371daf1&#34;&gt;371daf1&lt;/a&gt; (Takashi Kusumi)&lt;/li&gt;&#xA;&lt;li&gt;Revert &#34;add support to parse JSON logs (&lt;a href=&#34;https://github.com/stern/stern/pull/228&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/stern/stern/pull/228/hovercard&#34;&gt;#228&lt;/a&gt;)&#34; (&lt;a href=&#34;https://github.com/stern/stern/pull/232&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/stern/stern/pull/232/hovercard&#34;&gt;#232&lt;/a&gt;) &lt;a href=&#34;https://github.com/stern/stern/commit/202f7e8&#34;&gt;202f7e8&lt;/a&gt; (Dmytro Milinevskyi)&lt;/li&gt;&#xA;&lt;li&gt;Change the default of --container-state to &lt;code&gt;all&lt;/code&gt; (&lt;a href=&#34;https://github.com/stern/stern/pull/225&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/stern/stern/pull/225/hovercard&#34;&gt;#225&lt;/a&gt;) &lt;a href=&#34;https://github.com/stern/stern/commit/2502c91&#34;&gt;2502c91&lt;/a&gt; (Takashi Kusumi)&lt;/li&gt;&#xA;&lt;li&gt;Highlight matched strings in the log lines with the include option (&lt;a href=&#34;https://github.com/stern/stern/pull/231&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/stern/stern/pull/231/hovercard&#34;&gt;#231&lt;/a&gt;) &lt;a href=&#34;https://github.com/stern/stern/commit/9fbaa18&#34;&gt;9fbaa18&lt;/a&gt; (Kazuki Suda)&lt;/li&gt;&#xA;&lt;li&gt;Support resuming from the last log when retrying (&lt;a href=&#34;https://github.com/stern/stern/pull/230&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/stern/stern/pull/230/hovercard&#34;&gt;#230&lt;/a&gt;) &lt;a href=&#34;https://github.com/stern/stern/commit/52894f8&#34;&gt;52894f8&lt;/a&gt; (Takashi Kusumi)&lt;/li&gt;&#xA;&lt;li&gt;add support to parse JSON logs (&lt;a href=&#34;https://github.com/stern/stern/pull/228&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/stern/stern/pull/228/hovercard&#34;&gt;#228&lt;/a&gt;) &lt;a href=&#34;https://github.com/stern/stern/commit/72a5854&#34;&gt;72a5854&lt;/a&gt; (Dmytro Milinevskyi)&lt;/li&gt;&#xA;&lt;li&gt;Show initContainers first when --no-follow and --max-log-requests 1 (&lt;a href=&#34;https://github.com/stern/stern/pull/226&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/stern/stern/pull/226/hovercard&#34;&gt;#226&lt;/a&gt;) &lt;a href=&#34;https://github.com/stern/stern/commit/ef753f1&#34;&gt;ef753f1&lt;/a&gt; (Takashi Kusumi)&lt;/li&gt;&#xA;&lt;li&gt;Add --max-log-requests flag to limit concurrent requests (&lt;a href=&#34;https://github.com/stern/stern/pull/224&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/stern/stern/pull/224/hovercard&#34;&gt;#224&lt;/a&gt;) &lt;a href=&#34;https://github.com/stern/stern/commit/0b939c5&#34;&gt;0b939c5&lt;/a&gt; (Takashi Kusumi)&lt;/li&gt;&#xA;&lt;li&gt;Improve handling of container termination (&lt;a href=&#34;https://github.com/stern/stern/pull/221&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/stern/stern/pull/221/hovercard&#34;&gt;#221&lt;/a&gt;) &lt;a href=&#34;https://github.com/stern/stern/commit/8312782&#34;&gt;8312782&lt;/a&gt; (Takashi Kusumi)&lt;/li&gt;&#xA;&lt;li&gt;Allow pods without labels to be selected in the resource query (&lt;a href=&#34;https://github.com/stern/stern/pull/223&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/stern/stern/pull/223/hovercard&#34;&gt;#223&lt;/a&gt;) &lt;a href=&#34;https://github.com/stern/stern/commit/fc51906&#34;&gt;fc51906&lt;/a&gt; (Takashi Kusumi)&lt;/li&gt;&#xA;&lt;li&gt;Add &lt;code&gt;all&lt;/code&gt; option to --container-state flag (&lt;a href=&#34;https://github.com/stern/stern/pull/222&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/stern/stern/pull/222/hovercard&#34;&gt;#222&lt;/a&gt;) &lt;a href=&#34;https://github.com/stern/stern/commit/6e0d5fc&#34;&gt;6e0d5fc&lt;/a&gt; (Takashi Kusumi)&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
     <link href="https://github.com/stern/stern/releases/tag/v1.24.0" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
@@ -1126,55 +1137,11 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from opentelemetry-operations-go - internal/cloudmock/v0.35.2: Prepare release v0.35.2/1.11.2 (#592)</title>
-    <updated>2023-02-17T14:11:30Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/internal/cloudmock/v0.35.2</id>
-    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Update version in tools/release.go&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make prepare-release&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/internal%2Fcloudmock%2Fv0.35.2" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>damemi</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from opentelemetry-operations-go - exporter/collector/googlemanagedprometheus/v0.35.2: Prepare release v0.35.2/1.11.2 (#592)</title>
-    <updated>2023-02-17T14:11:30Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/exporter/collector/googlemanagedprometheus/v0.35.2</id>
-    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Update version in tools/release.go&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make prepare-release&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/exporter%2Fcollector%2Fgooglemanagedprometheus%2Fv0.35.2" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>damemi</name>
-    </author>
-  </entry>
-  <entry>
     <title>Release notes from opentelemetry-operations-go - propagator/v0.35.2: Prepare release v0.35.2/1.11.2 (#592)</title>
     <updated>2023-02-17T14:11:30Z</updated>
     <id>tag:github.com,2008:Repository/244484581/propagator/v0.35.2</id>
     <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Update version in tools/release.go&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make prepare-release&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
     <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/propagator%2Fv0.35.2" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>damemi</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from opentelemetry-operations-go - internal/resourcemapping/v0.35.2: Prepare release v0.35.2/1.11.2 (#592)</title>
-    <updated>2023-02-17T14:11:30Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/internal/resourcemapping/v0.35.2</id>
-    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Update version in tools/release.go&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make prepare-release&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/internal%2Fresourcemapping%2Fv0.35.2" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>damemi</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from opentelemetry-operations-go - exporter/trace/v1.11.2: Prepare release v0.35.2/1.11.2 (#592)</title>
-    <updated>2023-02-17T14:11:30Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/exporter/trace/v1.11.2</id>
-    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Update version in tools/release.go&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make prepare-release&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/exporter%2Ftrace%2Fv1.11.2" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>damemi</name>
@@ -1192,11 +1159,22 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from opentelemetry-operations-go - exporter/collector/v0.35.2: Prepare release v0.35.2/1.11.2 (#592)</title>
+    <title>Release notes from opentelemetry-operations-go - exporter/collector/googlemanagedprometheus/v0.35.2: Prepare release v0.35.2/1.11.2 (#592)</title>
     <updated>2023-02-17T14:11:30Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/exporter/collector/v0.35.2</id>
+    <id>tag:github.com,2008:Repository/244484581/exporter/collector/googlemanagedprometheus/v0.35.2</id>
     <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Update version in tools/release.go&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make prepare-release&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/exporter%2Fcollector%2Fv0.35.2" rel="alternate"></link>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/exporter%2Fcollector%2Fgooglemanagedprometheus%2Fv0.35.2" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>damemi</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from opentelemetry-operations-go - example/trace/http/v0.35.2: Prepare release v0.35.2/1.11.2 (#592)</title>
+    <updated>2023-02-17T14:11:30Z</updated>
+    <id>tag:github.com,2008:Repository/244484581/example/trace/http/v0.35.2</id>
+    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Update version in tools/release.go&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make prepare-release&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/example%2Ftrace%2Fhttp%2Fv0.35.2" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>damemi</name>
@@ -1214,11 +1192,44 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from opentelemetry-operations-go - example/trace/http/v0.35.2: Prepare release v0.35.2/1.11.2 (#592)</title>
+    <title>Release notes from opentelemetry-operations-go - exporter/trace/v1.11.2: Prepare release v0.35.2/1.11.2 (#592)</title>
     <updated>2023-02-17T14:11:30Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/example/trace/http/v0.35.2</id>
+    <id>tag:github.com,2008:Repository/244484581/exporter/trace/v1.11.2</id>
     <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Update version in tools/release.go&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make prepare-release&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/example%2Ftrace%2Fhttp%2Fv0.35.2" rel="alternate"></link>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/exporter%2Ftrace%2Fv1.11.2" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>damemi</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from opentelemetry-operations-go - internal/resourcemapping/v0.35.2: Prepare release v0.35.2/1.11.2 (#592)</title>
+    <updated>2023-02-17T14:11:30Z</updated>
+    <id>tag:github.com,2008:Repository/244484581/internal/resourcemapping/v0.35.2</id>
+    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Update version in tools/release.go&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make prepare-release&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/internal%2Fresourcemapping%2Fv0.35.2" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>damemi</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from opentelemetry-operations-go - internal/cloudmock/v0.35.2: Prepare release v0.35.2/1.11.2 (#592)</title>
+    <updated>2023-02-17T14:11:30Z</updated>
+    <id>tag:github.com,2008:Repository/244484581/internal/cloudmock/v0.35.2</id>
+    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Update version in tools/release.go&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make prepare-release&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/internal%2Fcloudmock%2Fv0.35.2" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>damemi</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from opentelemetry-operations-go - exporter/collector/v0.35.2: Prepare release v0.35.2/1.11.2 (#592)</title>
+    <updated>2023-02-17T14:11:30Z</updated>
+    <id>tag:github.com,2008:Repository/244484581/exporter/collector/v0.35.2</id>
+    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Update version in tools/release.go&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make prepare-release&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/exporter%2Fcollector%2Fv0.35.2" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>damemi</name>
@@ -4756,17 +4767,6 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from wrench - 1.1.0</title>
-    <updated>2022-08-18T05:47:41Z</updated>
-    <id>tag:github.com,2008:Repository/205979677/v1.1.0</id>
-    <content type="html">&lt;h3&gt;Features&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Now we can write comments to DDL and DML files.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3&gt;Breaking Changes &lt;g-emoji class=&#34;g-emoji&#34; alias=&#34;warning&#34; fallback-src=&#34;https://github.githubassets.com/images/icons/emoji/unicode/26a0.png&#34;&gt;⚠️&lt;/g-emoji&gt;&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Now &lt;code&gt;wrench&lt;/code&gt; does not allow putting both DDL and DML statements into a file at the same time.&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/cloudspannerecosystem/wrench/releases/tag/v1.1.0" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>110y</name>
-    </author>
-  </entry>
-  <entry>
     <title>Release notes from berglas - v1.0.1</title>
     <updated>2022-08-17T14:07:56Z</updated>
     <id>tag:github.com,2008:Repository/180709218/v1.0.1</id>
@@ -7792,22 +7792,22 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from backoff - v2.0.2: Merge pull request #18 from lestrrat-go/topic/fix-v2-go-mod</title>
+    <title>Release notes from backoff - v2.0.3: Merge pull request #18 from lestrrat-go/topic/fix-v2-go-mod</title>
     <updated>2021-01-06T03:00:05Z</updated>
-    <id>tag:github.com,2008:Repository/118608673/v2.0.2</id>
+    <id>tag:github.com,2008:Repository/118608673/v2.0.3</id>
     <content type="html">&lt;p&gt;Fix go.mod&lt;/p&gt;</content>
-    <link href="https://github.com/lestrrat-go/backoff/releases/tag/v2.0.2" rel="alternate"></link>
+    <link href="https://github.com/lestrrat-go/backoff/releases/tag/v2.0.3" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>lestrrat</name>
     </author>
   </entry>
   <entry>
-    <title>Release notes from backoff - v2.0.3: Merge pull request #18 from lestrrat-go/topic/fix-v2-go-mod</title>
+    <title>Release notes from backoff - v2.0.2: Merge pull request #18 from lestrrat-go/topic/fix-v2-go-mod</title>
     <updated>2021-01-06T03:00:05Z</updated>
-    <id>tag:github.com,2008:Repository/118608673/v2.0.3</id>
+    <id>tag:github.com,2008:Repository/118608673/v2.0.2</id>
     <content type="html">&lt;p&gt;Fix go.mod&lt;/p&gt;</content>
-    <link href="https://github.com/lestrrat-go/backoff/releases/tag/v2.0.3" rel="alternate"></link>
+    <link href="https://github.com/lestrrat-go/backoff/releases/tag/v2.0.2" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>lestrrat</name>
