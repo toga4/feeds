@@ -1,8 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?><feed xmlns="http://www.w3.org/2005/Atom">
   <title>Releases from Starred by toga4</title>
   <id>https://toga4.github.io/feeds/starred-releases.atom</id>
-  <updated>2023-03-14T00:26:47Z</updated>
+  <updated>2023-03-14T01:41:45Z</updated>
   <link href="https://toga4.github.io/feeds/starred-releases.atom"></link>
+  <entry>
+    <title>Release notes from kustomize - kustomize/v5.0.1</title>
+    <updated>2023-03-14T01:41:45Z</updated>
+    <id>tag:github.com,2008:Repository/133067498/kustomize/v5.0.1</id>
+    <content type="html">&lt;h2&gt;Bug fixes&lt;/h2&gt;&#xA;&lt;p&gt;&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1588131170&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/kubernetes-sigs/kustomize/issues/5048&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/kubernetes-sigs/kustomize/pull/5048/hovercard&#34; href=&#34;https://github.com/kubernetes-sigs/kustomize/pull/5048&#34;&gt;#5048&lt;/a&gt;: Fix a regression causing warning messages to be intermingled with Kustomize build output on stdout&lt;br&gt;&#xA;&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1609377784&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/kubernetes-sigs/kustomize/issues/5073&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/kubernetes-sigs/kustomize/pull/5073/hovercard&#34; href=&#34;https://github.com/kubernetes-sigs/kustomize/pull/5073&#34;&gt;#5073&lt;/a&gt;: Revert strict decoding of Kustomization files due to regression in anchor handling&lt;/p&gt;&#xA;&lt;h2&gt;Dependencies&lt;/h2&gt;&#xA;&lt;p&gt;&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1622457488&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/kubernetes-sigs/kustomize/issues/5088&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/kubernetes-sigs/kustomize/pull/5088/hovercard&#34; href=&#34;https://github.com/kubernetes-sigs/kustomize/pull/5088&#34;&gt;#5088&lt;/a&gt;: Update kyaml to v0.14.1&lt;br&gt;&#xA;&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1622512267&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/kubernetes-sigs/kustomize/issues/5089&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/kubernetes-sigs/kustomize/pull/5089/hovercard&#34; href=&#34;https://github.com/kubernetes-sigs/kustomize/pull/5089&#34;&gt;#5089&lt;/a&gt;: Update cmd/config to v0.11.1&lt;br&gt;&#xA;&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1622540589&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/kubernetes-sigs/kustomize/issues/5090&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/kubernetes-sigs/kustomize/pull/5090/hovercard&#34; href=&#34;https://github.com/kubernetes-sigs/kustomize/pull/5090&#34;&gt;#5090&lt;/a&gt;: Update api to v0.13.2&lt;/p&gt;</content>
+    <link href="https://github.com/kubernetes-sigs/kustomize/releases/tag/kustomize%2Fv5.0.1" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>KnVerey</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from kustomize - api/v0.13.2</title>
+    <updated>2023-03-14T01:06:45Z</updated>
+    <id>tag:github.com,2008:Repository/133067498/api/v0.13.2</id>
+    <content type="html">&lt;p&gt;&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1588131170&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/kubernetes-sigs/kustomize/issues/5048&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/kubernetes-sigs/kustomize/pull/5048/hovercard&#34; href=&#34;https://github.com/kubernetes-sigs/kustomize/pull/5048&#34;&gt;#5048&lt;/a&gt;: Fix a regression causing warning messages to be intermingled with Kustomize build output on stdout&lt;br&gt;&#xA;&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1609377784&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/kubernetes-sigs/kustomize/issues/5073&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/kubernetes-sigs/kustomize/pull/5073/hovercard&#34; href=&#34;https://github.com/kubernetes-sigs/kustomize/pull/5073&#34;&gt;#5073&lt;/a&gt;: Revert strict decoding of Kustomization files due to regression in anchor handling&lt;br&gt;&#xA;&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1622457488&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/kubernetes-sigs/kustomize/issues/5088&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/kubernetes-sigs/kustomize/pull/5088/hovercard&#34; href=&#34;https://github.com/kubernetes-sigs/kustomize/pull/5088&#34;&gt;#5088&lt;/a&gt;: Update kyaml to v0.14.1&lt;/p&gt;</content>
+    <link href="https://github.com/kubernetes-sigs/kustomize/releases/tag/api%2Fv0.13.2" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>KnVerey</name>
+    </author>
+  </entry>
   <entry>
     <title>Release notes from kustomize - cmd/config/v0.11.1</title>
     <updated>2023-03-14T00:26:47Z</updated>
@@ -1203,33 +1225,11 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from opentelemetry-operations-go - exporter/collector/v0.35.2: Prepare release v0.35.2/1.11.2 (#592)</title>
-    <updated>2023-02-17T14:11:30Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/exporter/collector/v0.35.2</id>
-    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Update version in tools/release.go&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make prepare-release&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/exporter%2Fcollector%2Fv0.35.2" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>damemi</name>
-    </author>
-  </entry>
-  <entry>
     <title>Release notes from opentelemetry-operations-go - example/trace/http/v0.35.2: Prepare release v0.35.2/1.11.2 (#592)</title>
     <updated>2023-02-17T14:11:30Z</updated>
     <id>tag:github.com,2008:Repository/244484581/example/trace/http/v0.35.2</id>
     <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Update version in tools/release.go&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make prepare-release&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
     <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/example%2Ftrace%2Fhttp%2Fv0.35.2" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>damemi</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from opentelemetry-operations-go - exporter/collector/googlemanagedprometheus/v0.35.2: Prepare release v0.35.2/1.11.2 (#592)</title>
-    <updated>2023-02-17T14:11:30Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/exporter/collector/googlemanagedprometheus/v0.35.2</id>
-    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Update version in tools/release.go&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make prepare-release&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/exporter%2Fcollector%2Fgooglemanagedprometheus%2Fv0.35.2" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>damemi</name>
@@ -1258,22 +1258,11 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from opentelemetry-operations-go - propagator/v0.35.2: Prepare release v0.35.2/1.11.2 (#592)</title>
+    <title>Release notes from opentelemetry-operations-go - internal/cloudmock/v0.35.2: Prepare release v0.35.2/1.11.2 (#592)</title>
     <updated>2023-02-17T14:11:30Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/propagator/v0.35.2</id>
+    <id>tag:github.com,2008:Repository/244484581/internal/cloudmock/v0.35.2</id>
     <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Update version in tools/release.go&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make prepare-release&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/propagator%2Fv0.35.2" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>damemi</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from opentelemetry-operations-go - internal/resourcemapping/v0.35.2: Prepare release v0.35.2/1.11.2 (#592)</title>
-    <updated>2023-02-17T14:11:30Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/internal/resourcemapping/v0.35.2</id>
-    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Update version in tools/release.go&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make prepare-release&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/internal%2Fresourcemapping%2Fv0.35.2" rel="alternate"></link>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/internal%2Fcloudmock%2Fv0.35.2" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>damemi</name>
@@ -1291,11 +1280,44 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from opentelemetry-operations-go - internal/cloudmock/v0.35.2: Prepare release v0.35.2/1.11.2 (#592)</title>
+    <title>Release notes from opentelemetry-operations-go - exporter/collector/googlemanagedprometheus/v0.35.2: Prepare release v0.35.2/1.11.2 (#592)</title>
     <updated>2023-02-17T14:11:30Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/internal/cloudmock/v0.35.2</id>
+    <id>tag:github.com,2008:Repository/244484581/exporter/collector/googlemanagedprometheus/v0.35.2</id>
     <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Update version in tools/release.go&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make prepare-release&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/internal%2Fcloudmock%2Fv0.35.2" rel="alternate"></link>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/exporter%2Fcollector%2Fgooglemanagedprometheus%2Fv0.35.2" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>damemi</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from opentelemetry-operations-go - exporter/collector/v0.35.2: Prepare release v0.35.2/1.11.2 (#592)</title>
+    <updated>2023-02-17T14:11:30Z</updated>
+    <id>tag:github.com,2008:Repository/244484581/exporter/collector/v0.35.2</id>
+    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Update version in tools/release.go&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make prepare-release&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/exporter%2Fcollector%2Fv0.35.2" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>damemi</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from opentelemetry-operations-go - internal/resourcemapping/v0.35.2: Prepare release v0.35.2/1.11.2 (#592)</title>
+    <updated>2023-02-17T14:11:30Z</updated>
+    <id>tag:github.com,2008:Repository/244484581/internal/resourcemapping/v0.35.2</id>
+    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Update version in tools/release.go&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make prepare-release&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/internal%2Fresourcemapping%2Fv0.35.2" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>damemi</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from opentelemetry-operations-go - propagator/v0.35.2: Prepare release v0.35.2/1.11.2 (#592)</title>
+    <updated>2023-02-17T14:11:30Z</updated>
+    <id>tag:github.com,2008:Repository/244484581/propagator/v0.35.2</id>
+    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Update version in tools/release.go&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make prepare-release&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/propagator%2Fv0.35.2" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>damemi</name>
@@ -4921,28 +4943,6 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from kustomize - kustomize/v4.5.7</title>
-    <updated>2022-08-02T16:39:10Z</updated>
-    <id>tag:github.com,2008:Repository/133067498/kustomize/v4.5.7</id>
-    <content type="html">&lt;p&gt;Due to an oversight, kustomize v4.5.6 has the golang testing library compiled in unnecessarily. This is a rerelease with the same functionality, but without the unnecessary additional library compiled in.&lt;/p&gt;&#xA;&lt;h3&gt;Dependency changes&lt;/h3&gt;&#xA;&lt;p&gt;&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1326015278&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/kubernetes-sigs/kustomize/issues/4743&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/kubernetes-sigs/kustomize/pull/4743/hovercard&#34; href=&#34;https://github.com/kubernetes-sigs/kustomize/pull/4743&#34;&gt;#4743&lt;/a&gt;: Pin to kyaml v0.13.9&lt;br&gt;&#xA;&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1326050511&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/kubernetes-sigs/kustomize/issues/4744&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/kubernetes-sigs/kustomize/pull/4744/hovercard&#34; href=&#34;https://github.com/kubernetes-sigs/kustomize/pull/4744&#34;&gt;#4744&lt;/a&gt;: pin to cmd/config 0.10.9&lt;br&gt;&#xA;&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1326089119&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/kubernetes-sigs/kustomize/issues/4745&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/kubernetes-sigs/kustomize/pull/4745/hovercard&#34; href=&#34;https://github.com/kubernetes-sigs/kustomize/pull/4745&#34;&gt;#4745&lt;/a&gt;: pin to api v0.12.1&lt;/p&gt;</content>
-    <link href="https://github.com/kubernetes-sigs/kustomize/releases/tag/kustomize%2Fv4.5.7" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>KnVerey</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from kustomize - kyaml/v0.13.9</title>
-    <updated>2022-08-02T15:18:41Z</updated>
-    <id>tag:github.com,2008:Repository/133067498/kyaml/v0.13.9</id>
-    <content type="html">&lt;p&gt;&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1324959089&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/kubernetes-sigs/kustomize/issues/4742&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/kubernetes-sigs/kustomize/pull/4742/hovercard&#34; href=&#34;https://github.com/kubernetes-sigs/kustomize/pull/4742&#34;&gt;#4742&lt;/a&gt;: prevent testing lib from being compiled in&lt;/p&gt;</content>
-    <link href="https://github.com/kubernetes-sigs/kustomize/releases/tag/kyaml%2Fv0.13.9" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>KnVerey</name>
-    </author>
-  </entry>
-  <entry>
     <title>Release notes from lima - v0.11.3</title>
     <updated>2022-08-01T23:37:35Z</updated>
     <id>tag:github.com,2008:Repository/367284699/v0.11.3</id>
@@ -7803,22 +7803,22 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from backoff - v2.0.2: Merge pull request #18 from lestrrat-go/topic/fix-v2-go-mod</title>
+    <title>Release notes from backoff - v2.0.3: Merge pull request #18 from lestrrat-go/topic/fix-v2-go-mod</title>
     <updated>2021-01-06T03:00:05Z</updated>
-    <id>tag:github.com,2008:Repository/118608673/v2.0.2</id>
+    <id>tag:github.com,2008:Repository/118608673/v2.0.3</id>
     <content type="html">&lt;p&gt;Fix go.mod&lt;/p&gt;</content>
-    <link href="https://github.com/lestrrat-go/backoff/releases/tag/v2.0.2" rel="alternate"></link>
+    <link href="https://github.com/lestrrat-go/backoff/releases/tag/v2.0.3" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>lestrrat</name>
     </author>
   </entry>
   <entry>
-    <title>Release notes from backoff - v2.0.3: Merge pull request #18 from lestrrat-go/topic/fix-v2-go-mod</title>
+    <title>Release notes from backoff - v2.0.2: Merge pull request #18 from lestrrat-go/topic/fix-v2-go-mod</title>
     <updated>2021-01-06T03:00:05Z</updated>
-    <id>tag:github.com,2008:Repository/118608673/v2.0.3</id>
+    <id>tag:github.com,2008:Repository/118608673/v2.0.2</id>
     <content type="html">&lt;p&gt;Fix go.mod&lt;/p&gt;</content>
-    <link href="https://github.com/lestrrat-go/backoff/releases/tag/v2.0.3" rel="alternate"></link>
+    <link href="https://github.com/lestrrat-go/backoff/releases/tag/v2.0.2" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>lestrrat</name>
