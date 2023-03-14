@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?><feed xmlns="http://www.w3.org/2005/Atom">
   <title>Releases from Starred by toga4</title>
   <id>https://toga4.github.io/feeds/starred-releases.atom</id>
-  <updated>2023-03-14T09:17:36Z</updated>
+  <updated>2023-03-14T10:58:33Z</updated>
   <link href="https://toga4.github.io/feeds/starred-releases.atom"></link>
   <entry>
-    <title>Release notes from trivy - v0.38.3: chore(deps): bump github.com/aws/aws-sdk-go-v2/service/ec2 from 1.86.…</title>
-    <updated>2023-03-14T09:17:36Z</updated>
+    <title>Release notes from trivy - v0.38.3</title>
+    <updated>2023-03-14T10:58:33Z</updated>
     <id>tag:github.com,2008:Repository/180687624/v0.38.3</id>
-    <content type="html">&lt;p&gt;…1 to 1.89.1 (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1621281566&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/aquasecurity/trivy/issues/3827&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/aquasecurity/trivy/pull/3827/hovercard&#34; href=&#34;https://github.com/aquasecurity/trivy/pull/3827&#34;&gt;#3827&lt;/a&gt;)&lt;/p&gt;&#xA;&lt;p&gt;Co-authored-by: knqyf263 &lt;a href=&#34;mailto:knqyf263@gmail.com&#34;&gt;knqyf263@gmail.com&lt;/a&gt;&lt;/p&gt;</content>
+    <content type="html">&lt;h2&gt;Changelog&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a class=&#34;commit-link&#34; data-hovercard-type=&#34;commit&#34; data-hovercard-url=&#34;https://github.com/aquasecurity/trivy/commit/a12f58be57931c13b5ba9016bc8afd52bd63d3ae/hovercard&#34; href=&#34;https://github.com/aquasecurity/trivy/commit/a12f58be57931c13b5ba9016bc8afd52bd63d3ae&#34;&gt;&lt;tt&gt;a12f58b&lt;/tt&gt;&lt;/a&gt; chore(deps): bump github.com/aws/aws-sdk-go-v2/service/ec2 from 1.86.1 to 1.89.1 (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1621281566&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/aquasecurity/trivy/issues/3827&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/aquasecurity/trivy/pull/3827/hovercard&#34; href=&#34;https://github.com/aquasecurity/trivy/pull/3827&#34;&gt;#3827&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;&lt;a class=&#34;commit-link&#34; data-hovercard-type=&#34;commit&#34; data-hovercard-url=&#34;https://github.com/aquasecurity/trivy/commit/ee518350c568a81812997eaec1bc02e6a72e70e6/hovercard&#34; href=&#34;https://github.com/aquasecurity/trivy/commit/ee518350c568a81812997eaec1bc02e6a72e70e6&#34;&gt;&lt;tt&gt;ee51835&lt;/tt&gt;&lt;/a&gt; fix(java): skip empty files for jar post analyzer (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1622845411&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/aquasecurity/trivy/issues/3832&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/aquasecurity/trivy/pull/3832/hovercard&#34; href=&#34;https://github.com/aquasecurity/trivy/pull/3832&#34;&gt;#3832&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;&lt;a class=&#34;commit-link&#34; data-hovercard-type=&#34;commit&#34; data-hovercard-url=&#34;https://github.com/aquasecurity/trivy/commit/3987a679f9520259a1b1474e81704b8aedce2ef7/hovercard&#34; href=&#34;https://github.com/aquasecurity/trivy/commit/3987a679f9520259a1b1474e81704b8aedce2ef7&#34;&gt;&lt;tt&gt;3987a67&lt;/tt&gt;&lt;/a&gt; fix(docker): build healthcheck command for line without /bin/sh prefix (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1622815579&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/aquasecurity/trivy/issues/3831&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/aquasecurity/trivy/pull/3831/hovercard&#34; href=&#34;https://github.com/aquasecurity/trivy/pull/3831&#34;&gt;#3831&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;&lt;a class=&#34;commit-link&#34; data-hovercard-type=&#34;commit&#34; data-hovercard-url=&#34;https://github.com/aquasecurity/trivy/commit/2bb25e766bc1afe035ea3204f54444774f1ca8ab/hovercard&#34; href=&#34;https://github.com/aquasecurity/trivy/commit/2bb25e766bc1afe035ea3204f54444774f1ca8ab&#34;&gt;&lt;tt&gt;2bb25e7&lt;/tt&gt;&lt;/a&gt; refactor(license): use goyacc for license parser (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1620527363&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/aquasecurity/trivy/issues/3824&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/aquasecurity/trivy/pull/3824/hovercard&#34; href=&#34;https://github.com/aquasecurity/trivy/pull/3824&#34;&gt;#3824&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;&lt;a class=&#34;commit-link&#34; data-hovercard-type=&#34;commit&#34; data-hovercard-url=&#34;https://github.com/aquasecurity/trivy/commit/00c763bc106d23dc1afa2d5fadadc538bfe317e5/hovercard&#34; href=&#34;https://github.com/aquasecurity/trivy/commit/00c763bc106d23dc1afa2d5fadadc538bfe317e5&#34;&gt;&lt;tt&gt;00c763b&lt;/tt&gt;&lt;/a&gt; chore(deps): bump github.com/docker/docker from 23.0.0-rc.1+incompatible to 23.0.1+incompatible (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1578804988&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/aquasecurity/trivy/issues/3586&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/aquasecurity/trivy/pull/3586/hovercard&#34; href=&#34;https://github.com/aquasecurity/trivy/pull/3586&#34;&gt;#3586&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;&lt;a class=&#34;commit-link&#34; data-hovercard-type=&#34;commit&#34; data-hovercard-url=&#34;https://github.com/aquasecurity/trivy/commit/cac5881bbb84cad27a2c86780a9efe45af90038d/hovercard&#34; href=&#34;https://github.com/aquasecurity/trivy/commit/cac5881bbb84cad27a2c86780a9efe45af90038d&#34;&gt;&lt;tt&gt;cac5881&lt;/tt&gt;&lt;/a&gt; fix: populate timeout context to node-collector (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1609639975&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/aquasecurity/trivy/issues/3766&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/aquasecurity/trivy/pull/3766/hovercard&#34; href=&#34;https://github.com/aquasecurity/trivy/pull/3766&#34;&gt;#3766&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;&lt;a class=&#34;commit-link&#34; data-hovercard-type=&#34;commit&#34; data-hovercard-url=&#34;https://github.com/aquasecurity/trivy/commit/bd9c6e613e0f73de306d7e7b7f22434c652dfc47/hovercard&#34; href=&#34;https://github.com/aquasecurity/trivy/commit/bd9c6e613e0f73de306d7e7b7f22434c652dfc47&#34;&gt;&lt;tt&gt;bd9c6e6&lt;/tt&gt;&lt;/a&gt; fix: exclude node collector scanning (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1611009346&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/aquasecurity/trivy/issues/3771&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/aquasecurity/trivy/pull/3771/hovercard&#34; href=&#34;https://github.com/aquasecurity/trivy/pull/3771&#34;&gt;#3771&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;&lt;a class=&#34;commit-link&#34; data-hovercard-type=&#34;commit&#34; data-hovercard-url=&#34;https://github.com/aquasecurity/trivy/commit/20f10673b914567609c5bd9ccbd837879ff31df2/hovercard&#34; href=&#34;https://github.com/aquasecurity/trivy/commit/20f10673b914567609c5bd9ccbd837879ff31df2&#34;&gt;&lt;tt&gt;20f1067&lt;/tt&gt;&lt;/a&gt; fix: display correct flag in error message when skipping java db update &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1618148781&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/aquasecurity/trivy/issues/3808&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/aquasecurity/trivy/pull/3808/hovercard&#34; href=&#34;https://github.com/aquasecurity/trivy/pull/3808&#34;&gt;#3808&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a class=&#34;commit-link&#34; data-hovercard-type=&#34;commit&#34; data-hovercard-url=&#34;https://github.com/aquasecurity/trivy/commit/1fac7bf1ba8d18dd14da67e2e3aa831e2dea4306/hovercard&#34; href=&#34;https://github.com/aquasecurity/trivy/commit/1fac7bf1ba8d18dd14da67e2e3aa831e2dea4306&#34;&gt;&lt;tt&gt;1fac7bf&lt;/tt&gt;&lt;/a&gt; fix: disable jar analyzer for scanners other than vuln (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1618312163&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/aquasecurity/trivy/issues/3810&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/aquasecurity/trivy/pull/3810/hovercard&#34; href=&#34;https://github.com/aquasecurity/trivy/pull/3810&#34;&gt;#3810&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;&lt;a class=&#34;commit-link&#34; data-hovercard-type=&#34;commit&#34; data-hovercard-url=&#34;https://github.com/aquasecurity/trivy/commit/aaf265881ec9fa052ad7defe7482f22eb2d14b70/hovercard&#34; href=&#34;https://github.com/aquasecurity/trivy/commit/aaf265881ec9fa052ad7defe7482f22eb2d14b70&#34;&gt;&lt;tt&gt;aaf2658&lt;/tt&gt;&lt;/a&gt; fix(sbom): fix incompliant license format for spdx (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1510162315&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/aquasecurity/trivy/issues/3335&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/aquasecurity/trivy/pull/3335/hovercard&#34; href=&#34;https://github.com/aquasecurity/trivy/pull/3335&#34;&gt;#3335&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;&lt;a class=&#34;commit-link&#34; data-hovercard-type=&#34;commit&#34; data-hovercard-url=&#34;https://github.com/aquasecurity/trivy/commit/f8307635ad8fb3e7abe7e0a53d942bcfe7e1a4cf/hovercard&#34; href=&#34;https://github.com/aquasecurity/trivy/commit/f8307635ad8fb3e7abe7e0a53d942bcfe7e1a4cf&#34;&gt;&lt;tt&gt;f830763&lt;/tt&gt;&lt;/a&gt; fix(java): the project props take precedence over the parent&#39;s props (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1502705976&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/aquasecurity/trivy/issues/3320&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/aquasecurity/trivy/pull/3320/hovercard&#34; href=&#34;https://github.com/aquasecurity/trivy/pull/3320&#34;&gt;#3320&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;&lt;a class=&#34;commit-link&#34; data-hovercard-type=&#34;commit&#34; data-hovercard-url=&#34;https://github.com/aquasecurity/trivy/commit/1aa3b7dc28f148cf6c286a32056fafc31e08c565/hovercard&#34; href=&#34;https://github.com/aquasecurity/trivy/commit/1aa3b7dc28f148cf6c286a32056fafc31e08c565&#34;&gt;&lt;tt&gt;1aa3b7d&lt;/tt&gt;&lt;/a&gt; docs: add canary build info to README.md (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1616732512&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/aquasecurity/trivy/issues/3799&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/aquasecurity/trivy/pull/3799/hovercard&#34; href=&#34;https://github.com/aquasecurity/trivy/pull/3799&#34;&gt;#3799&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;&lt;a class=&#34;commit-link&#34; data-hovercard-type=&#34;commit&#34; data-hovercard-url=&#34;https://github.com/aquasecurity/trivy/commit/57904c0f975b9957323ac362c604db057c904aa2/hovercard&#34; href=&#34;https://github.com/aquasecurity/trivy/commit/57904c0f975b9957323ac362c604db057c904aa2&#34;&gt;&lt;tt&gt;57904c0&lt;/tt&gt;&lt;/a&gt; docs: adding link to gh token generation (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1613174416&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/aquasecurity/trivy/issues/3784&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/aquasecurity/trivy/pull/3784/hovercard&#34; href=&#34;https://github.com/aquasecurity/trivy/pull/3784&#34;&gt;#3784&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;&lt;a class=&#34;commit-link&#34; data-hovercard-type=&#34;commit&#34; data-hovercard-url=&#34;https://github.com/aquasecurity/trivy/commit/bdccf72338ba3e501d14db857db566b356e116ca/hovercard&#34; href=&#34;https://github.com/aquasecurity/trivy/commit/bdccf72338ba3e501d14db857db566b356e116ca&#34;&gt;&lt;tt&gt;bdccf72&lt;/tt&gt;&lt;/a&gt; docs: changing docs in accordance with &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1549563200&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/aquasecurity/trivy/issues/3460&#34; data-hovercard-type=&#34;issue&#34; data-hovercard-url=&#34;/aquasecurity/trivy/issues/3460/hovercard&#34; href=&#34;https://github.com/aquasecurity/trivy/issues/3460&#34;&gt;#3460&lt;/a&gt; (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1613736785&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/aquasecurity/trivy/issues/3787&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/aquasecurity/trivy/pull/3787/hovercard&#34; href=&#34;https://github.com/aquasecurity/trivy/pull/3787&#34;&gt;#3787&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
     <link href="https://github.com/aquasecurity/trivy/releases/tag/v0.38.3" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
-      <name>dependabot[bot]</name>
+      <name>aqua-bot</name>
     </author>
   </entry>
   <entry>
@@ -1236,11 +1236,11 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from opentelemetry-operations-go - exporter/metric/v0.35.2: Prepare release v0.35.2/1.11.2 (#592)</title>
+    <title>Release notes from opentelemetry-operations-go - example/trace/http/v0.35.2: Prepare release v0.35.2/1.11.2 (#592)</title>
     <updated>2023-02-17T14:11:30Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/exporter/metric/v0.35.2</id>
+    <id>tag:github.com,2008:Repository/244484581/example/trace/http/v0.35.2</id>
     <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Update version in tools/release.go&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make prepare-release&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/exporter%2Fmetric%2Fv0.35.2" rel="alternate"></link>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/example%2Ftrace%2Fhttp%2Fv0.35.2" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>damemi</name>
@@ -1258,28 +1258,6 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from opentelemetry-operations-go - example/metric/v0.35.2: Prepare release v0.35.2/1.11.2 (#592)</title>
-    <updated>2023-02-17T14:11:30Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/example/metric/v0.35.2</id>
-    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Update version in tools/release.go&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make prepare-release&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/example%2Fmetric%2Fv0.35.2" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>damemi</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from opentelemetry-operations-go - internal/resourcemapping/v0.35.2: Prepare release v0.35.2/1.11.2 (#592)</title>
-    <updated>2023-02-17T14:11:30Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/internal/resourcemapping/v0.35.2</id>
-    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Update version in tools/release.go&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make prepare-release&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/internal%2Fresourcemapping%2Fv0.35.2" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>damemi</name>
-    </author>
-  </entry>
-  <entry>
     <title>Release notes from opentelemetry-operations-go - propagator/v0.35.2: Prepare release v0.35.2/1.11.2 (#592)</title>
     <updated>2023-02-17T14:11:30Z</updated>
     <id>tag:github.com,2008:Repository/244484581/propagator/v0.35.2</id>
@@ -1291,11 +1269,11 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from opentelemetry-operations-go - internal/cloudmock/v0.35.2: Prepare release v0.35.2/1.11.2 (#592)</title>
+    <title>Release notes from opentelemetry-operations-go - example/metric/v0.35.2: Prepare release v0.35.2/1.11.2 (#592)</title>
     <updated>2023-02-17T14:11:30Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/internal/cloudmock/v0.35.2</id>
+    <id>tag:github.com,2008:Repository/244484581/example/metric/v0.35.2</id>
     <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Update version in tools/release.go&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make prepare-release&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/internal%2Fcloudmock%2Fv0.35.2" rel="alternate"></link>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/example%2Fmetric%2Fv0.35.2" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>damemi</name>
@@ -1313,11 +1291,33 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from opentelemetry-operations-go - example/trace/http/v0.35.2: Prepare release v0.35.2/1.11.2 (#592)</title>
+    <title>Release notes from opentelemetry-operations-go - internal/cloudmock/v0.35.2: Prepare release v0.35.2/1.11.2 (#592)</title>
     <updated>2023-02-17T14:11:30Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/example/trace/http/v0.35.2</id>
+    <id>tag:github.com,2008:Repository/244484581/internal/cloudmock/v0.35.2</id>
     <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Update version in tools/release.go&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make prepare-release&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/example%2Ftrace%2Fhttp%2Fv0.35.2" rel="alternate"></link>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/internal%2Fcloudmock%2Fv0.35.2" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>damemi</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from opentelemetry-operations-go - exporter/metric/v0.35.2: Prepare release v0.35.2/1.11.2 (#592)</title>
+    <updated>2023-02-17T14:11:30Z</updated>
+    <id>tag:github.com,2008:Repository/244484581/exporter/metric/v0.35.2</id>
+    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Update version in tools/release.go&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make prepare-release&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/exporter%2Fmetric%2Fv0.35.2" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>damemi</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from opentelemetry-operations-go - internal/resourcemapping/v0.35.2: Prepare release v0.35.2/1.11.2 (#592)</title>
+    <updated>2023-02-17T14:11:30Z</updated>
+    <id>tag:github.com,2008:Repository/244484581/internal/resourcemapping/v0.35.2</id>
+    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Update version in tools/release.go&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make prepare-release&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/internal%2Fresourcemapping%2Fv0.35.2" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>damemi</name>
@@ -7418,22 +7418,22 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from triangula - v1.1.6</title>
+    <title>Release notes from triangula - v1.1.5</title>
     <updated>2021-05-11T13:31:09Z</updated>
-    <id>tag:github.com,2008:Repository/354015172/v1.1.6</id>
+    <id>tag:github.com,2008:Repository/354015172/v1.1.5</id>
     <content type="html">&lt;p&gt;Refactor for more flexibility&lt;/p&gt;</content>
-    <link href="https://github.com/rh12503/triangula/releases/tag/v1.1.6" rel="alternate"></link>
+    <link href="https://github.com/rh12503/triangula/releases/tag/v1.1.5" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>rh12503</name>
     </author>
   </entry>
   <entry>
-    <title>Release notes from triangula - v1.1.5</title>
+    <title>Release notes from triangula - v1.1.6</title>
     <updated>2021-05-11T13:31:09Z</updated>
-    <id>tag:github.com,2008:Repository/354015172/v1.1.5</id>
+    <id>tag:github.com,2008:Repository/354015172/v1.1.6</id>
     <content type="html">&lt;p&gt;Refactor for more flexibility&lt;/p&gt;</content>
-    <link href="https://github.com/rh12503/triangula/releases/tag/v1.1.5" rel="alternate"></link>
+    <link href="https://github.com/rh12503/triangula/releases/tag/v1.1.6" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>rh12503</name>
