@@ -1,8 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?><feed xmlns="http://www.w3.org/2005/Atom">
   <title>Releases from Starred by toga4</title>
   <id>https://toga4.github.io/feeds/starred-releases.atom</id>
-  <updated>2023-03-14T23:33:20Z</updated>
+  <updated>2023-03-15T06:14:03Z</updated>
   <link href="https://toga4.github.io/feeds/starred-releases.atom"></link>
+  <entry>
+    <title>Release notes from cache - Updating actions/core to version 1.10.0</title>
+    <updated>2023-03-15T06:14:03Z</updated>
+    <id>tag:github.com,2008:Repository/215566462/v2.1.8</id>
+    <content type="html">&lt;p&gt;The ::save-state and ::set-output are deprecated. The newer version of actions/core &amp;gt;1.10.0 uses the new syntax for save and set output. After this change, customers using actions/cache@v2 won&#39;t see deprecation warning message.&lt;/p&gt;</content>
+    <link href="https://github.com/actions/cache/releases/tag/v2.1.8" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>anuragc617</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from cache - v2: use @actions/core version 1.10.0 which doesn&#39;t use the deprecated…</title>
+    <updated>2023-03-15T06:06:34Z</updated>
+    <id>tag:github.com,2008:Repository/215566462/v2</id>
+    <content type="html">&lt;p&gt;… save-state and set-output workflow commands.&lt;/p&gt;</content>
+    <link href="https://github.com/actions/cache/releases/tag/v2" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>anuragc617</name>
+    </author>
+  </entry>
   <entry>
     <title>Release notes from datadog-agent - 7.43.1-beta-cache-hit-ratio</title>
     <updated>2023-03-14T23:33:20Z</updated>
@@ -1247,28 +1269,6 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from opentelemetry-operations-go - example/trace/http/v0.35.2: Prepare release v0.35.2/1.11.2 (#592)</title>
-    <updated>2023-02-17T14:11:30Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/example/trace/http/v0.35.2</id>
-    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Update version in tools/release.go&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make prepare-release&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/example%2Ftrace%2Fhttp%2Fv0.35.2" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>damemi</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from opentelemetry-operations-go - internal/cloudmock/v0.35.2: Prepare release v0.35.2/1.11.2 (#592)</title>
-    <updated>2023-02-17T14:11:30Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/internal/cloudmock/v0.35.2</id>
-    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Update version in tools/release.go&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make prepare-release&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/internal%2Fcloudmock%2Fv0.35.2" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>damemi</name>
-    </author>
-  </entry>
-  <entry>
     <title>Release notes from opentelemetry-operations-go - exporter/collector/googlemanagedprometheus/v0.35.2: Prepare release v0.35.2/1.11.2 (#592)</title>
     <updated>2023-02-17T14:11:30Z</updated>
     <id>tag:github.com,2008:Repository/244484581/exporter/collector/googlemanagedprometheus/v0.35.2</id>
@@ -1280,22 +1280,11 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from opentelemetry-operations-go - internal/resourcemapping/v0.35.2: Prepare release v0.35.2/1.11.2 (#592)</title>
+    <title>Release notes from opentelemetry-operations-go - example/trace/http/v0.35.2: Prepare release v0.35.2/1.11.2 (#592)</title>
     <updated>2023-02-17T14:11:30Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/internal/resourcemapping/v0.35.2</id>
+    <id>tag:github.com,2008:Repository/244484581/example/trace/http/v0.35.2</id>
     <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Update version in tools/release.go&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make prepare-release&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/internal%2Fresourcemapping%2Fv0.35.2" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>damemi</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from opentelemetry-operations-go - propagator/v0.35.2: Prepare release v0.35.2/1.11.2 (#592)</title>
-    <updated>2023-02-17T14:11:30Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/propagator/v0.35.2</id>
-    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Update version in tools/release.go&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make prepare-release&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/propagator%2Fv0.35.2" rel="alternate"></link>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/example%2Ftrace%2Fhttp%2Fv0.35.2" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>damemi</name>
@@ -1329,6 +1318,39 @@
     <id>tag:github.com,2008:Repository/244484581/exporter/trace/v1.11.2</id>
     <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Update version in tools/release.go&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make prepare-release&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
     <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/exporter%2Ftrace%2Fv1.11.2" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>damemi</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from opentelemetry-operations-go - internal/cloudmock/v0.35.2: Prepare release v0.35.2/1.11.2 (#592)</title>
+    <updated>2023-02-17T14:11:30Z</updated>
+    <id>tag:github.com,2008:Repository/244484581/internal/cloudmock/v0.35.2</id>
+    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Update version in tools/release.go&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make prepare-release&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/internal%2Fcloudmock%2Fv0.35.2" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>damemi</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from opentelemetry-operations-go - internal/resourcemapping/v0.35.2: Prepare release v0.35.2/1.11.2 (#592)</title>
+    <updated>2023-02-17T14:11:30Z</updated>
+    <id>tag:github.com,2008:Repository/244484581/internal/resourcemapping/v0.35.2</id>
+    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Update version in tools/release.go&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make prepare-release&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/internal%2Fresourcemapping%2Fv0.35.2" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>damemi</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from opentelemetry-operations-go - propagator/v0.35.2: Prepare release v0.35.2/1.11.2 (#592)</title>
+    <updated>2023-02-17T14:11:30Z</updated>
+    <id>tag:github.com,2008:Repository/244484581/propagator/v0.35.2</id>
+    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Update version in tools/release.go&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make prepare-release&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/propagator%2Fv0.35.2" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>damemi</name>
@@ -2820,17 +2842,6 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from cache - v3.2.1</title>
-    <updated>2022-12-27T10:46:45Z</updated>
-    <id>tag:github.com,2008:Repository/215566462/v3.2.1</id>
-    <content type="html">&lt;h2&gt;What&#39;s Changed&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Release compression related changes for windows by &lt;a class=&#34;user-mention notranslate&#34; data-hovercard-type=&#34;user&#34; data-hovercard-url=&#34;/users/Phantsure/hovercard&#34; data-octo-click=&#34;hovercard-link-click&#34; data-octo-dimensions=&#34;link_type:self&#34; href=&#34;https://github.com/Phantsure&#34;&gt;@Phantsure&lt;/a&gt; in &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1508935046&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/actions/cache/issues/1039&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/actions/cache/pull/1039/hovercard&#34; href=&#34;https://github.com/actions/cache/pull/1039&#34;&gt;#1039&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Upgrade codeql to v2 by &lt;a class=&#34;user-mention notranslate&#34; data-hovercard-type=&#34;user&#34; data-hovercard-url=&#34;/users/Phantsure/hovercard&#34; data-octo-click=&#34;hovercard-link-click&#34; data-octo-dimensions=&#34;link_type:self&#34; href=&#34;https://github.com/Phantsure&#34;&gt;@Phantsure&lt;/a&gt; in &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1484352263&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/actions/cache/issues/1023&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/actions/cache/pull/1023/hovercard&#34; href=&#34;https://github.com/actions/cache/pull/1023&#34;&gt;#1023&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: &lt;a class=&#34;commit-link&#34; href=&#34;https://github.com/actions/cache/compare/v3.2.0...v3.2.1&#34;&gt;&lt;tt&gt;v3.2.0...v3.2.1&lt;/tt&gt;&lt;/a&gt;&lt;/p&gt;</content>
-    <link href="https://github.com/actions/cache/releases/tag/v3.2.1" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>Phantsure</name>
-    </author>
-  </entry>
-  <entry>
     <title>Release notes from lima - v0.14.2</title>
     <updated>2022-12-23T14:21:56Z</updated>
     <id>tag:github.com,2008:Repository/367284699/v0.14.2</id>
@@ -2872,17 +2883,6 @@
     <summary type="html"></summary>
     <author>
       <name>aaron-prindle</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from cache - v3.2.0</title>
-    <updated>2022-12-21T14:17:00Z</updated>
-    <id>tag:github.com,2008:Repository/215566462/v3.2.0</id>
-    <content type="html">&lt;h2&gt;What&#39;s Changed&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;fix wrong timeout env var key in README.md by &lt;a class=&#34;user-mention notranslate&#34; data-hovercard-type=&#34;user&#34; data-hovercard-url=&#34;/users/walterddr/hovercard&#34; data-octo-click=&#34;hovercard-link-click&#34; data-octo-dimensions=&#34;link_type:self&#34; href=&#34;https://github.com/walterddr&#34;&gt;@walterddr&lt;/a&gt; in &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1412396059&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/actions/cache/issues/959&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/actions/cache/pull/959/hovercard&#34; href=&#34;https://github.com/actions/cache/pull/959&#34;&gt;#959&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Updated release doc with correct env variable by &lt;a class=&#34;user-mention notranslate&#34; data-hovercard-type=&#34;user&#34; data-hovercard-url=&#34;/users/kotewar/hovercard&#34; data-octo-click=&#34;hovercard-link-click&#34; data-octo-dimensions=&#34;link_type:self&#34; href=&#34;https://github.com/kotewar&#34;&gt;@kotewar&lt;/a&gt; in &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1412687530&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/actions/cache/issues/960&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/actions/cache/pull/960/hovercard&#34; href=&#34;https://github.com/actions/cache/pull/960&#34;&gt;#960&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Create pull_request_template.md by &lt;a class=&#34;user-mention notranslate&#34; data-hovercard-type=&#34;user&#34; data-hovercard-url=&#34;/users/pdotl/hovercard&#34; data-octo-click=&#34;hovercard-link-click&#34; data-octo-dimensions=&#34;link_type:self&#34; href=&#34;https://github.com/pdotl&#34;&gt;@pdotl&lt;/a&gt; in &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1418485652&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/actions/cache/issues/963&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/actions/cache/pull/963/hovercard&#34; href=&#34;https://github.com/actions/cache/pull/963&#34;&gt;#963&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Update README with clearer info about cache-hit and its value by &lt;a class=&#34;user-mention notranslate&#34; data-hovercard-type=&#34;user&#34; data-hovercard-url=&#34;/users/kotewar/hovercard&#34; data-octo-click=&#34;hovercard-link-click&#34; data-octo-dimensions=&#34;link_type:self&#34; href=&#34;https://github.com/kotewar&#34;&gt;@kotewar&lt;/a&gt; in &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1413717110&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/actions/cache/issues/961&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/actions/cache/pull/961/hovercard&#34; href=&#34;https://github.com/actions/cache/pull/961&#34;&gt;#961&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Change datadog/squid to Ubuntu/squid in CI check by &lt;a class=&#34;user-mention notranslate&#34; data-hovercard-type=&#34;user&#34; data-hovercard-url=&#34;/users/bishal-pdMSFT/hovercard&#34; data-octo-click=&#34;hovercard-link-click&#34; data-octo-dimensions=&#34;link_type:self&#34; href=&#34;https://github.com/bishal-pdMSFT&#34;&gt;@bishal-pdMSFT&lt;/a&gt; in &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1437906071&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/actions/cache/issues/976&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/actions/cache/pull/976/hovercard&#34; href=&#34;https://github.com/actions/cache/pull/976&#34;&gt;#976&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Add more details to version section in readme by &lt;a class=&#34;user-mention notranslate&#34; data-hovercard-type=&#34;user&#34; data-hovercard-url=&#34;/users/bishal-pdMSFT/hovercard&#34; data-octo-click=&#34;hovercard-link-click&#34; data-octo-dimensions=&#34;link_type:self&#34; href=&#34;https://github.com/bishal-pdMSFT&#34;&gt;@bishal-pdMSFT&lt;/a&gt; in &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1429452898&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/actions/cache/issues/971&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/actions/cache/pull/971/hovercard&#34; href=&#34;https://github.com/actions/cache/pull/971&#34;&gt;#971&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Update hashFiles documentation reference by &lt;a class=&#34;user-mention notranslate&#34; data-hovercard-type=&#34;user&#34; data-hovercard-url=&#34;/users/asaf400/hovercard&#34; data-octo-click=&#34;hovercard-link-click&#34; data-octo-dimensions=&#34;link_type:self&#34; href=&#34;https://github.com/asaf400&#34;&gt;@asaf400&lt;/a&gt; in &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1442644989&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/actions/cache/issues/979&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/actions/cache/pull/979/hovercard&#34; href=&#34;https://github.com/actions/cache/pull/979&#34;&gt;#979&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Updated link for cache segment download info by &lt;a class=&#34;user-mention notranslate&#34; data-hovercard-type=&#34;user&#34; data-hovercard-url=&#34;/users/kotewar/hovercard&#34; data-octo-click=&#34;hovercard-link-click&#34; data-octo-dimensions=&#34;link_type:self&#34; href=&#34;https://github.com/kotewar&#34;&gt;@kotewar&lt;/a&gt; in &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1451194051&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/actions/cache/issues/986&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/actions/cache/pull/986/hovercard&#34; href=&#34;https://github.com/actions/cache/pull/986&#34;&gt;#986&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Readme update for deleting caches by &lt;a class=&#34;user-mention notranslate&#34; data-hovercard-type=&#34;user&#34; data-hovercard-url=&#34;/users/t-dedah/hovercard&#34; data-octo-click=&#34;hovercard-link-click&#34; data-octo-dimensions=&#34;link_type:self&#34; href=&#34;https://github.com/t-dedah&#34;&gt;@t-dedah&lt;/a&gt; in &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1447098751&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/actions/cache/issues/981&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/actions/cache/pull/981/hovercard&#34; href=&#34;https://github.com/actions/cache/pull/981&#34;&gt;#981&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Add oncall logic to assign issues and PRs by &lt;a class=&#34;user-mention notranslate&#34; data-hovercard-type=&#34;user&#34; data-hovercard-url=&#34;/users/vsvipul/hovercard&#34; data-octo-click=&#34;hovercard-link-click&#34; data-octo-dimensions=&#34;link_type:self&#34; href=&#34;https://github.com/vsvipul&#34;&gt;@vsvipul&lt;/a&gt; in &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1465956575&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/actions/cache/issues/997&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/actions/cache/pull/997/hovercard&#34; href=&#34;https://github.com/actions/cache/pull/997&#34;&gt;#997&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Bump minimatch from 3.0.4 to 3.1.2 by &lt;a class=&#34;user-mention notranslate&#34; data-hovercard-type=&#34;organization&#34; data-hovercard-url=&#34;/orgs/dependabot/hovercard&#34; data-octo-click=&#34;hovercard-link-click&#34; data-octo-dimensions=&#34;link_type:self&#34; href=&#34;https://github.com/dependabot&#34;&gt;@dependabot&lt;/a&gt; in &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1466174684&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/actions/cache/issues/998&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/actions/cache/pull/998/hovercard&#34; href=&#34;https://github.com/actions/cache/pull/998&#34;&gt;#998&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Revert &#34;Bump minimatch from 3.0.4 to 3.1.2&#34; by &lt;a class=&#34;user-mention notranslate&#34; data-hovercard-type=&#34;user&#34; data-hovercard-url=&#34;/users/vsvipul/hovercard&#34; data-octo-click=&#34;hovercard-link-click&#34; data-octo-dimensions=&#34;link_type:self&#34; href=&#34;https://github.com/vsvipul&#34;&gt;@vsvipul&lt;/a&gt; in &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1469120367&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/actions/cache/issues/1005&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/actions/cache/pull/1005/hovercard&#34; href=&#34;https://github.com/actions/cache/pull/1005&#34;&gt;#1005&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Fix npm vulnerability by &lt;a class=&#34;user-mention notranslate&#34; data-hovercard-type=&#34;user&#34; data-hovercard-url=&#34;/users/Phantsure/hovercard&#34; data-octo-click=&#34;hovercard-link-click&#34; data-octo-dimensions=&#34;link_type:self&#34; href=&#34;https://github.com/Phantsure&#34;&gt;@Phantsure&lt;/a&gt; in &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1469240040&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/actions/cache/issues/1007&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/actions/cache/pull/1007/hovercard&#34; href=&#34;https://github.com/actions/cache/pull/1007&#34;&gt;#1007&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;refactor: Use early return pattern to avoid nested conditions by &lt;a class=&#34;user-mention notranslate&#34; data-hovercard-type=&#34;user&#34; data-hovercard-url=&#34;/users/jongwooo/hovercard&#34; data-octo-click=&#34;hovercard-link-click&#34; data-octo-dimensions=&#34;link_type:self&#34; href=&#34;https://github.com/jongwooo&#34;&gt;@jongwooo&lt;/a&gt; in &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1472368942&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/actions/cache/issues/1013&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/actions/cache/pull/1013/hovercard&#34; href=&#34;https://github.com/actions/cache/pull/1013&#34;&gt;#1013&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Use cache in check-dist.yml by &lt;a class=&#34;user-mention notranslate&#34; data-hovercard-type=&#34;user&#34; data-hovercard-url=&#34;/users/jongwooo/hovercard&#34; data-octo-click=&#34;hovercard-link-click&#34; data-octo-dimensions=&#34;link_type:self&#34; href=&#34;https://github.com/jongwooo&#34;&gt;@jongwooo&lt;/a&gt; in &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1468275339&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/actions/cache/issues/1004&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/actions/cache/pull/1004/hovercard&#34; href=&#34;https://github.com/actions/cache/pull/1004&#34;&gt;#1004&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;chore: Use built-in cache action to cache dependencies by &lt;a class=&#34;user-mention notranslate&#34; data-hovercard-type=&#34;user&#34; data-hovercard-url=&#34;/users/jongwooo/hovercard&#34; data-octo-click=&#34;hovercard-link-click&#34; data-octo-dimensions=&#34;link_type:self&#34; href=&#34;https://github.com/jongwooo&#34;&gt;@jongwooo&lt;/a&gt; in &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1475805736&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/actions/cache/issues/1014&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/actions/cache/pull/1014/hovercard&#34; href=&#34;https://github.com/actions/cache/pull/1014&#34;&gt;#1014&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Updated node example by &lt;a class=&#34;user-mention notranslate&#34; data-hovercard-type=&#34;user&#34; data-hovercard-url=&#34;/users/t-dedah/hovercard&#34; data-octo-click=&#34;hovercard-link-click&#34; data-octo-dimensions=&#34;link_type:self&#34; href=&#34;https://github.com/t-dedah&#34;&gt;@t-dedah&lt;/a&gt; in &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1469310873&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/actions/cache/issues/1008&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/actions/cache/pull/1008/hovercard&#34; href=&#34;https://github.com/actions/cache/pull/1008&#34;&gt;#1008&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Fix: Node npm doc example  by &lt;a class=&#34;user-mention notranslate&#34; data-hovercard-type=&#34;user&#34; data-hovercard-url=&#34;/users/apascualm/hovercard&#34; data-octo-click=&#34;hovercard-link-click&#34; data-octo-dimensions=&#34;link_type:self&#34; href=&#34;https://github.com/apascualm&#34;&gt;@apascualm&lt;/a&gt; in &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1488846733&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/actions/cache/issues/1026&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/actions/cache/pull/1026/hovercard&#34; href=&#34;https://github.com/actions/cache/pull/1026&#34;&gt;#1026&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;docs: fix an invalid link in workarounds.md by &lt;a class=&#34;user-mention notranslate&#34; data-hovercard-type=&#34;user&#34; data-hovercard-url=&#34;/users/teatimeguest/hovercard&#34; data-octo-click=&#34;hovercard-link-click&#34; data-octo-dimensions=&#34;link_type:self&#34; href=&#34;https://github.com/teatimeguest&#34;&gt;@teatimeguest&lt;/a&gt; in &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1378829502&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/actions/cache/issues/929&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/actions/cache/pull/929/hovercard&#34; href=&#34;https://github.com/actions/cache/pull/929&#34;&gt;#929&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;General Availability release for granular cache by &lt;a class=&#34;user-mention notranslate&#34; data-hovercard-type=&#34;user&#34; data-hovercard-url=&#34;/users/kotewar/hovercard&#34; data-octo-click=&#34;hovercard-link-click&#34; data-octo-dimensions=&#34;link_type:self&#34; href=&#34;https://github.com/kotewar&#34;&gt;@kotewar&lt;/a&gt; in &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1506180562&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/actions/cache/issues/1035&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/actions/cache/pull/1035/hovercard&#34; href=&#34;https://github.com/actions/cache/pull/1035&#34;&gt;#1035&lt;/a&gt; More details here on &lt;a href=&#34;https://github.com/actions/cache/discussions/1020&#34; data-hovercard-type=&#34;discussion&#34; data-hovercard-url=&#34;/actions/cache/discussions/1020/hovercard&#34;&gt;beta&lt;/a&gt; release.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2&gt;New Contributors&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a class=&#34;user-mention notranslate&#34; data-hovercard-type=&#34;user&#34; data-hovercard-url=&#34;/users/walterddr/hovercard&#34; data-octo-click=&#34;hovercard-link-click&#34; data-octo-dimensions=&#34;link_type:self&#34; href=&#34;https://github.com/walterddr&#34;&gt;@walterddr&lt;/a&gt; made their first contribution in &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1412396059&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/actions/cache/issues/959&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/actions/cache/pull/959/hovercard&#34; href=&#34;https://github.com/actions/cache/pull/959&#34;&gt;#959&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a class=&#34;user-mention notranslate&#34; data-hovercard-type=&#34;user&#34; data-hovercard-url=&#34;/users/asaf400/hovercard&#34; data-octo-click=&#34;hovercard-link-click&#34; data-octo-dimensions=&#34;link_type:self&#34; href=&#34;https://github.com/asaf400&#34;&gt;@asaf400&lt;/a&gt; made their first contribution in &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1442644989&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/actions/cache/issues/979&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/actions/cache/pull/979/hovercard&#34; href=&#34;https://github.com/actions/cache/pull/979&#34;&gt;#979&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a class=&#34;user-mention notranslate&#34; data-hovercard-type=&#34;user&#34; data-hovercard-url=&#34;/users/jongwooo/hovercard&#34; data-octo-click=&#34;hovercard-link-click&#34; data-octo-dimensions=&#34;link_type:self&#34; href=&#34;https://github.com/jongwooo&#34;&gt;@jongwooo&lt;/a&gt; made their first contribution in &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1472368942&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/actions/cache/issues/1013&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/actions/cache/pull/1013/hovercard&#34; href=&#34;https://github.com/actions/cache/pull/1013&#34;&gt;#1013&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a class=&#34;user-mention notranslate&#34; data-hovercard-type=&#34;user&#34; data-hovercard-url=&#34;/users/apascualm/hovercard&#34; data-octo-click=&#34;hovercard-link-click&#34; data-octo-dimensions=&#34;link_type:self&#34; href=&#34;https://github.com/apascualm&#34;&gt;@apascualm&lt;/a&gt; made their first contribution in &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1488846733&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/actions/cache/issues/1026&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/actions/cache/pull/1026/hovercard&#34; href=&#34;https://github.com/actions/cache/pull/1026&#34;&gt;#1026&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a class=&#34;user-mention notranslate&#34; data-hovercard-type=&#34;user&#34; data-hovercard-url=&#34;/users/teatimeguest/hovercard&#34; data-octo-click=&#34;hovercard-link-click&#34; data-octo-dimensions=&#34;link_type:self&#34; href=&#34;https://github.com/teatimeguest&#34;&gt;@teatimeguest&lt;/a&gt; made their first contribution in &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1378829502&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/actions/cache/issues/929&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/actions/cache/pull/929/hovercard&#34; href=&#34;https://github.com/actions/cache/pull/929&#34;&gt;#929&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: &lt;a class=&#34;commit-link&#34; href=&#34;https://github.com/actions/cache/compare/v3...v3.2.0&#34;&gt;&lt;tt&gt;v3...v3.2.0&lt;/tt&gt;&lt;/a&gt;&lt;/p&gt;</content>
-    <link href="https://github.com/actions/cache/releases/tag/v3.2.0" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>kotewar</name>
     </author>
   </entry>
   <entry>
@@ -7418,22 +7418,22 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from triangula - v1.1.5</title>
+    <title>Release notes from triangula - v1.1.6</title>
     <updated>2021-05-11T13:31:09Z</updated>
-    <id>tag:github.com,2008:Repository/354015172/v1.1.5</id>
+    <id>tag:github.com,2008:Repository/354015172/v1.1.6</id>
     <content type="html">&lt;p&gt;Refactor for more flexibility&lt;/p&gt;</content>
-    <link href="https://github.com/rh12503/triangula/releases/tag/v1.1.5" rel="alternate"></link>
+    <link href="https://github.com/rh12503/triangula/releases/tag/v1.1.6" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>rh12503</name>
     </author>
   </entry>
   <entry>
-    <title>Release notes from triangula - v1.1.6</title>
+    <title>Release notes from triangula - v1.1.5</title>
     <updated>2021-05-11T13:31:09Z</updated>
-    <id>tag:github.com,2008:Repository/354015172/v1.1.6</id>
+    <id>tag:github.com,2008:Repository/354015172/v1.1.5</id>
     <content type="html">&lt;p&gt;Refactor for more flexibility&lt;/p&gt;</content>
-    <link href="https://github.com/rh12503/triangula/releases/tag/v1.1.6" rel="alternate"></link>
+    <link href="https://github.com/rh12503/triangula/releases/tag/v1.1.5" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>rh12503</name>
