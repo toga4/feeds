@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?><feed xmlns="http://www.w3.org/2005/Atom">
   <title>Releases from Starred by toga4</title>
   <id>https://toga4.github.io/feeds/starred-releases.atom</id>
-  <updated>2023-03-22T17:56:02Z</updated>
+  <updated>2023-03-22T18:19:28Z</updated>
   <link href="https://toga4.github.io/feeds/starred-releases.atom"></link>
   <entry>
-    <title>Release notes from datadog-agent - zucchetti-dbm-beta-0.1</title>
-    <updated>2023-03-22T17:56:02Z</updated>
-    <id>tag:github.com,2008:Repository/49970739/zucchetti-dbm-beta-0.1</id>
-    <content type="html">&lt;p&gt;dbm-beta pin int-core version&lt;/p&gt;</content>
-    <link href="https://github.com/DataDog/datadog-agent/releases/tag/zucchetti-dbm-beta-0.1" rel="alternate"></link>
+    <title>Release notes from datadog-agent - lambda-extension-41: [serverless] Default DD_TRACE_MANAGED_SERVICES to true (#16176)</title>
+    <updated>2023-03-22T18:19:28Z</updated>
+    <id>tag:github.com,2008:Repository/49970739/lambda-extension-41</id>
+    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;default DD_TRACE_MANAGED_SERVICES to true&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;add unit tests&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/DataDog/datadog-agent/releases/tag/lambda-extension-41" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
-      <name>alexbarksdale</name>
+      <name>zARODz11z</name>
     </author>
   </entry>
   <entry>
@@ -20,6 +20,17 @@
     <id>tag:github.com,2008:Repository/49970739/zucchetti-dbm-beta-0.2</id>
     <content type="html">&lt;p&gt;dbm-beta pin int-core version&lt;/p&gt;</content>
     <link href="https://github.com/DataDog/datadog-agent/releases/tag/zucchetti-dbm-beta-0.2" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>alexbarksdale</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from datadog-agent - zucchetti-dbm-beta-0.1</title>
+    <updated>2023-03-22T17:56:02Z</updated>
+    <id>tag:github.com,2008:Repository/49970739/zucchetti-dbm-beta-0.1</id>
+    <content type="html">&lt;p&gt;dbm-beta pin int-core version&lt;/p&gt;</content>
+    <link href="https://github.com/DataDog/datadog-agent/releases/tag/zucchetti-dbm-beta-0.1" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>alexbarksdale</name>
@@ -86,17 +97,6 @@
     <id>tag:github.com,2008:Repository/49970739/pkg/util/cgroups/v0.44.0-rc.5</id>
     <content type="html">&lt;p&gt;pkg/util/cgroups/v0.44.0-rc.5&lt;/p&gt;</content>
     <link href="https://github.com/DataDog/datadog-agent/releases/tag/pkg%2Futil%2Fcgroups%2Fv0.44.0-rc.5" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>kacper-murzyn</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from datadog-agent - pkg/security/secl/v0.44.0-rc.5</title>
-    <updated>2023-03-21T18:16:03Z</updated>
-    <id>tag:github.com,2008:Repository/49970739/pkg/security/secl/v0.44.0-rc.5</id>
-    <content type="html">&lt;p&gt;pkg/security/secl/v0.44.0-rc.5&lt;/p&gt;</content>
-    <link href="https://github.com/DataDog/datadog-agent/releases/tag/pkg%2Fsecurity%2Fsecl%2Fv0.44.0-rc.5" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>kacper-murzyn</name>
@@ -400,66 +400,22 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from opentelemetry-operations-go - exporter/trace/v1.12.0: Prepare v0.36.0 and 1.12.0 (#610)</title>
+    <title>Release notes from opentelemetry-operations-go - internal/cloudmock/v0.36.0: Prepare v0.36.0 and 1.12.0 (#610)</title>
     <updated>2023-03-15T14:24:07Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/exporter/trace/v1.12.0</id>
+    <id>tag:github.com,2008:Repository/244484581/internal/cloudmock/v0.36.0</id>
     <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Bump release versions&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make prepare-release&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/exporter%2Ftrace%2Fv1.12.0" rel="alternate"></link>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/internal%2Fcloudmock%2Fv0.36.0" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>damemi</name>
     </author>
   </entry>
   <entry>
-    <title>Release notes from opentelemetry-operations-go - propagator/v0.36.0: Prepare v0.36.0 and 1.12.0 (#610)</title>
+    <title>Release notes from opentelemetry-operations-go - internal/resourcemapping/v0.36.0: Prepare v0.36.0 and 1.12.0 (#610)</title>
     <updated>2023-03-15T14:24:07Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/propagator/v0.36.0</id>
+    <id>tag:github.com,2008:Repository/244484581/internal/resourcemapping/v0.36.0</id>
     <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Bump release versions&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make prepare-release&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/propagator%2Fv0.36.0" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>damemi</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from opentelemetry-operations-go - exporter/collector/v0.36.0: Prepare v0.36.0 and 1.12.0 (#610)</title>
-    <updated>2023-03-15T14:24:07Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/exporter/collector/v0.36.0</id>
-    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Bump release versions&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make prepare-release&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/exporter%2Fcollector%2Fv0.36.0" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>damemi</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from opentelemetry-operations-go - exporter/metric/v0.36.0: Prepare v0.36.0 and 1.12.0 (#610)</title>
-    <updated>2023-03-15T14:24:07Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/exporter/metric/v0.36.0</id>
-    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Bump release versions&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make prepare-release&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/exporter%2Fmetric%2Fv0.36.0" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>damemi</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from opentelemetry-operations-go - example/metric/v0.36.0: Prepare v0.36.0 and 1.12.0 (#610)</title>
-    <updated>2023-03-15T14:24:07Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/example/metric/v0.36.0</id>
-    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Bump release versions&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make prepare-release&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/example%2Fmetric%2Fv0.36.0" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>damemi</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from opentelemetry-operations-go - exporter/collector/googlemanagedprometheus/v0.36.0: Prepare v0.36.0 and 1.12.0 (#610)</title>
-    <updated>2023-03-15T14:24:07Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/exporter/collector/googlemanagedprometheus/v0.36.0</id>
-    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Bump release versions&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make prepare-release&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/exporter%2Fcollector%2Fgooglemanagedprometheus%2Fv0.36.0" rel="alternate"></link>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/internal%2Fresourcemapping%2Fv0.36.0" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>damemi</name>
@@ -477,22 +433,66 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from opentelemetry-operations-go - internal/cloudmock/v0.36.0: Prepare v0.36.0 and 1.12.0 (#610)</title>
+    <title>Release notes from opentelemetry-operations-go - example/metric/v0.36.0: Prepare v0.36.0 and 1.12.0 (#610)</title>
     <updated>2023-03-15T14:24:07Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/internal/cloudmock/v0.36.0</id>
+    <id>tag:github.com,2008:Repository/244484581/example/metric/v0.36.0</id>
     <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Bump release versions&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make prepare-release&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/internal%2Fcloudmock%2Fv0.36.0" rel="alternate"></link>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/example%2Fmetric%2Fv0.36.0" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>damemi</name>
     </author>
   </entry>
   <entry>
-    <title>Release notes from opentelemetry-operations-go - internal/resourcemapping/v0.36.0: Prepare v0.36.0 and 1.12.0 (#610)</title>
+    <title>Release notes from opentelemetry-operations-go - exporter/collector/v0.36.0: Prepare v0.36.0 and 1.12.0 (#610)</title>
     <updated>2023-03-15T14:24:07Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/internal/resourcemapping/v0.36.0</id>
+    <id>tag:github.com,2008:Repository/244484581/exporter/collector/v0.36.0</id>
     <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Bump release versions&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make prepare-release&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/internal%2Fresourcemapping%2Fv0.36.0" rel="alternate"></link>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/exporter%2Fcollector%2Fv0.36.0" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>damemi</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from opentelemetry-operations-go - exporter/collector/googlemanagedprometheus/v0.36.0: Prepare v0.36.0 and 1.12.0 (#610)</title>
+    <updated>2023-03-15T14:24:07Z</updated>
+    <id>tag:github.com,2008:Repository/244484581/exporter/collector/googlemanagedprometheus/v0.36.0</id>
+    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Bump release versions&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make prepare-release&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/exporter%2Fcollector%2Fgooglemanagedprometheus%2Fv0.36.0" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>damemi</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from opentelemetry-operations-go - exporter/trace/v1.12.0: Prepare v0.36.0 and 1.12.0 (#610)</title>
+    <updated>2023-03-15T14:24:07Z</updated>
+    <id>tag:github.com,2008:Repository/244484581/exporter/trace/v1.12.0</id>
+    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Bump release versions&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make prepare-release&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/exporter%2Ftrace%2Fv1.12.0" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>damemi</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from opentelemetry-operations-go - exporter/metric/v0.36.0: Prepare v0.36.0 and 1.12.0 (#610)</title>
+    <updated>2023-03-15T14:24:07Z</updated>
+    <id>tag:github.com,2008:Repository/244484581/exporter/metric/v0.36.0</id>
+    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Bump release versions&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make prepare-release&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/exporter%2Fmetric%2Fv0.36.0" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>damemi</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from opentelemetry-operations-go - propagator/v0.36.0: Prepare v0.36.0 and 1.12.0 (#610)</title>
+    <updated>2023-03-15T14:24:07Z</updated>
+    <id>tag:github.com,2008:Repository/244484581/propagator/v0.36.0</id>
+    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Bump release versions&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make prepare-release&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/propagator%2Fv0.36.0" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>damemi</name>
@@ -7429,22 +7429,22 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from triangula - v1.1.5</title>
+    <title>Release notes from triangula - v1.1.6</title>
     <updated>2021-05-11T13:31:09Z</updated>
-    <id>tag:github.com,2008:Repository/354015172/v1.1.5</id>
+    <id>tag:github.com,2008:Repository/354015172/v1.1.6</id>
     <content type="html">&lt;p&gt;Refactor for more flexibility&lt;/p&gt;</content>
-    <link href="https://github.com/rh12503/triangula/releases/tag/v1.1.5" rel="alternate"></link>
+    <link href="https://github.com/rh12503/triangula/releases/tag/v1.1.6" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>rh12503</name>
     </author>
   </entry>
   <entry>
-    <title>Release notes from triangula - v1.1.6</title>
+    <title>Release notes from triangula - v1.1.5</title>
     <updated>2021-05-11T13:31:09Z</updated>
-    <id>tag:github.com,2008:Repository/354015172/v1.1.6</id>
+    <id>tag:github.com,2008:Repository/354015172/v1.1.5</id>
     <content type="html">&lt;p&gt;Refactor for more flexibility&lt;/p&gt;</content>
-    <link href="https://github.com/rh12503/triangula/releases/tag/v1.1.6" rel="alternate"></link>
+    <link href="https://github.com/rh12503/triangula/releases/tag/v1.1.5" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>rh12503</name>
