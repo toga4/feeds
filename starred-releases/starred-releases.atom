@@ -1,11 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?><feed xmlns="http://www.w3.org/2005/Atom">
   <title>Releases from Starred by toga4</title>
   <id>https://toga4.github.io/feeds/starred-releases.atom</id>
-  <updated>2023-03-24T23:29:34Z</updated>
+  <updated>2023-03-25T03:02:05Z</updated>
   <link href="https://toga4.github.io/feeds/starred-releases.atom"></link>
   <entry>
+    <title>Release notes from tbls - v1.64.0</title>
+    <updated>2023-03-25T03:02:05Z</updated>
+    <id>tag:github.com,2008:Repository/133827809/v1.64.0</id>
+    <content type="html">&lt;h2&gt;What&#39;s Changed&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;[Breaking Change] Add workaround for overlapping characters in the table name area of ER diagrams. by &lt;a class=&#34;user-mention notranslate&#34; data-hovercard-type=&#34;user&#34; data-hovercard-url=&#34;/users/k1LoW/hovercard&#34; data-octo-click=&#34;hovercard-link-click&#34; data-octo-dimensions=&#34;link_type:self&#34; href=&#34;https://github.com/k1LoW&#34;&gt;@k1LoW&lt;/a&gt; in &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1638883458&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/k1LoW/tbls/issues/456&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/k1LoW/tbls/pull/456/hovercard&#34; href=&#34;https://github.com/k1LoW/tbls/pull/456&#34;&gt;#456&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;[Breaking Change] Add workaround for overlapping text in table name area of ER diagram on table page by &lt;a class=&#34;user-mention notranslate&#34; data-hovercard-type=&#34;user&#34; data-hovercard-url=&#34;/users/k1LoW/hovercard&#34; data-octo-click=&#34;hovercard-link-click&#34; data-octo-dimensions=&#34;link_type:self&#34; href=&#34;https://github.com/k1LoW&#34;&gt;@k1LoW&lt;/a&gt; in &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1639062857&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/k1LoW/tbls/issues/458&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/k1LoW/tbls/pull/458/hovercard&#34; href=&#34;https://github.com/k1LoW/tbls/pull/458&#34;&gt;#458&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: &lt;a class=&#34;commit-link&#34; href=&#34;https://github.com/k1LoW/tbls/compare/v1.63.0...v1.64.0&#34;&gt;&lt;tt&gt;v1.63.0...v1.64.0&lt;/tt&gt;&lt;/a&gt;&lt;/p&gt;</content>
+    <link href="https://github.com/k1LoW/tbls/releases/tag/v1.64.0" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>github-actions[bot]</name>
+    </author>
+  </entry>
+  <entry>
     <title>Release notes from alacritty - Alacritty Version 0.12.0</title>
-    <updated>2023-03-24T23:29:34Z</updated>
+    <updated>2023-03-25T02:42:48Z</updated>
     <id>tag:github.com,2008:Repository/51980455/v0.12.0</id>
     <content type="html">&lt;h3&gt;Added&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Uppercase &lt;code&gt;-T&lt;/code&gt; short form for &lt;code&gt;--title&lt;/code&gt;&lt;/li&gt;&#xA;&lt;li&gt;Support for horizontal scrolling in mouse mode and alternative scrolling modes&lt;/li&gt;&#xA;&lt;li&gt;Support for fractional scaling on Wayland with wp-fractional-scale protocol&lt;/li&gt;&#xA;&lt;li&gt;Support for running on GLES context&lt;/li&gt;&#xA;&lt;li&gt;Touchscreen input for click/scroll/select/zoom&lt;/li&gt;&#xA;&lt;li&gt;&lt;code&gt;window.resize_increments&lt;/code&gt; config option, disabled by default&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3&gt;Changed&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Always use sRGB color space on macOS&lt;/li&gt;&#xA;&lt;li&gt;Erase in line after the last column will no longer clear the last column&lt;/li&gt;&#xA;&lt;li&gt;Open new windows by default with macOS &lt;code&gt;Cmd&lt;/code&gt;+&lt;code&gt;N&lt;/code&gt; binding&lt;/li&gt;&#xA;&lt;li&gt;The hint about window transparency is now properly issued on Wayland and macOS&lt;/li&gt;&#xA;&lt;li&gt;&lt;code&gt;window.decorations_theme_variant&lt;/code&gt; could now control theme on macOS and Windows&lt;/li&gt;&#xA;&lt;li&gt;The IME purpose is now set to &lt;code&gt;Terminal&lt;/code&gt; which could help with OSK&lt;/li&gt;&#xA;&lt;li&gt;&lt;code&gt;window.decorations_theme_variant&lt;/code&gt; is now using &lt;code&gt;Dark&lt;/code&gt;, &lt;code&gt;Light&lt;/code&gt;, and &lt;code&gt;None&lt;/code&gt; values&lt;/li&gt;&#xA;&lt;li&gt;Resize increments are now set on macOS and X11 to resize by cell sizes&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3&gt;Fixed&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;code&gt;--help&lt;/code&gt; output for &lt;code&gt;--class&lt;/code&gt; does not match man pages&lt;/li&gt;&#xA;&lt;li&gt;Cursor and underlines always being black on very old hardware&lt;/li&gt;&#xA;&lt;li&gt;Crash when using very low negative &lt;code&gt;font.offset&lt;/code&gt;&lt;/li&gt;&#xA;&lt;li&gt;Startup failure on macOS with default config when system &lt;code&gt;/bin/sh&lt;/code&gt; is &lt;code&gt;dash&lt;/code&gt;&lt;/li&gt;&#xA;&lt;li&gt;Artifacts in corners for maximized window with CSD on Wayland&lt;/li&gt;&#xA;&lt;li&gt;Dotted underline not shown on macOS&lt;/li&gt;&#xA;&lt;li&gt;Underline on macOS always being at the bottom of the cell&lt;/li&gt;&#xA;&lt;li&gt;Crash with &lt;code&gt;OT-SVG&lt;/code&gt; fonts on Linux/BSD&lt;/li&gt;&#xA;&lt;li&gt;Crash during text compose on old GNOME under Wayland&lt;/li&gt;&#xA;&lt;li&gt;Mouse cursor staying hidden after window regains focus on macOS Ventura&lt;/li&gt;&#xA;&lt;li&gt;Blurry fonts when changing padding size at runtime&lt;/li&gt;&#xA;&lt;li&gt;Crash while typing on Wayland&lt;/li&gt;&#xA;&lt;li&gt;Multi-line semantic bracket selection&lt;/li&gt;&#xA;&lt;li&gt;Reduced GPU memory usage&lt;/li&gt;&#xA;&lt;li&gt;Low frame rate when multiple windows render at the same time&lt;/li&gt;&#xA;&lt;li&gt;Redraw hanging until a keypress on X11 in rare cases&lt;/li&gt;&#xA;&lt;li&gt;Window clipping when maximizing a window without decorations on Windows&lt;/li&gt;&#xA;&lt;li&gt;Quadrants not aligned with half blocks with built-in font&lt;/li&gt;&#xA;&lt;li&gt;EOT (&lt;code&gt;\x03&lt;/code&gt;) escaping bracketed paste mode&lt;/li&gt;&#xA;&lt;li&gt;Drag &amp;amp; Drop not working for the search bar&lt;/li&gt;&#xA;&lt;li&gt;Simple-fullscreened window not resized when moving between monitors on macOS&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3&gt;Removed&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;code&gt;window.gtk_theme_variant&lt;/code&gt; config field; use &lt;code&gt;window.decorations_theme_variant&lt;/code&gt; instead&lt;/li&gt;&#xA;&lt;li&gt;&lt;code&gt;alt_send_esc&lt;/code&gt; is now always set to &lt;code&gt;true&lt;/code&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
     <link href="https://github.com/alacritty/alacritty/releases/tag/v0.12.0" rel="alternate"></link>
@@ -26,22 +37,22 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from datadog-agent - 7.44.0-rc.5-dbm-beta-0.2</title>
+    <title>Release notes from datadog-agent - 6.44.0-rc.5-dbm-beta-0.2</title>
     <updated>2023-03-24T18:09:54Z</updated>
-    <id>tag:github.com,2008:Repository/49970739/7.44.0-rc.5-dbm-beta-0.2</id>
+    <id>tag:github.com,2008:Repository/49970739/6.44.0-rc.5-dbm-beta-0.2</id>
     <content type="html">&lt;p&gt;merge&lt;/p&gt;</content>
-    <link href="https://github.com/DataDog/datadog-agent/releases/tag/7.44.0-rc.5-dbm-beta-0.2" rel="alternate"></link>
+    <link href="https://github.com/DataDog/datadog-agent/releases/tag/6.44.0-rc.5-dbm-beta-0.2" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>nenadnoveljic</name>
     </author>
   </entry>
   <entry>
-    <title>Release notes from datadog-agent - 6.44.0-rc.5-dbm-beta-0.2</title>
+    <title>Release notes from datadog-agent - 7.44.0-rc.5-dbm-beta-0.2</title>
     <updated>2023-03-24T18:09:54Z</updated>
-    <id>tag:github.com,2008:Repository/49970739/6.44.0-rc.5-dbm-beta-0.2</id>
+    <id>tag:github.com,2008:Repository/49970739/7.44.0-rc.5-dbm-beta-0.2</id>
     <content type="html">&lt;p&gt;merge&lt;/p&gt;</content>
-    <link href="https://github.com/DataDog/datadog-agent/releases/tag/6.44.0-rc.5-dbm-beta-0.2" rel="alternate"></link>
+    <link href="https://github.com/DataDog/datadog-agent/releases/tag/7.44.0-rc.5-dbm-beta-0.2" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>nenadnoveljic</name>
@@ -301,22 +312,22 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from opentelemetry-go - exporters/stdout/stdouttrace/v1.15.0-rc.2</title>
+    <title>Release notes from opentelemetry-go - exporters/zipkin/v1.15.0-rc.2</title>
     <updated>2023-03-23T14:48:55Z</updated>
-    <id>tag:github.com,2008:Repository/187086161/exporters/stdout/stdouttrace/v1.15.0-rc.2</id>
+    <id>tag:github.com,2008:Repository/187086161/exporters/zipkin/v1.15.0-rc.2</id>
     <content type="html">&lt;p&gt;Module set stable-v1, Version v1.15.0-rc.2&lt;/p&gt;</content>
-    <link href="https://github.com/open-telemetry/opentelemetry-go/releases/tag/exporters%2Fstdout%2Fstdouttrace%2Fv1.15.0-rc.2" rel="alternate"></link>
+    <link href="https://github.com/open-telemetry/opentelemetry-go/releases/tag/exporters%2Fzipkin%2Fv1.15.0-rc.2" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>MrAlias</name>
     </author>
   </entry>
   <entry>
-    <title>Release notes from opentelemetry-go - exporters/zipkin/v1.15.0-rc.2</title>
+    <title>Release notes from opentelemetry-go - exporters/stdout/stdouttrace/v1.15.0-rc.2</title>
     <updated>2023-03-23T14:48:55Z</updated>
-    <id>tag:github.com,2008:Repository/187086161/exporters/zipkin/v1.15.0-rc.2</id>
+    <id>tag:github.com,2008:Repository/187086161/exporters/stdout/stdouttrace/v1.15.0-rc.2</id>
     <content type="html">&lt;p&gt;Module set stable-v1, Version v1.15.0-rc.2&lt;/p&gt;</content>
-    <link href="https://github.com/open-telemetry/opentelemetry-go/releases/tag/exporters%2Fzipkin%2Fv1.15.0-rc.2" rel="alternate"></link>
+    <link href="https://github.com/open-telemetry/opentelemetry-go/releases/tag/exporters%2Fstdout%2Fstdouttrace%2Fv1.15.0-rc.2" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>MrAlias</name>
@@ -378,22 +389,22 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from datadog-agent - zucchetti-dbm-beta-0.3</title>
+    <title>Release notes from datadog-agent - zucchetti-dbm-beta-0.2</title>
     <updated>2023-03-22T17:56:02Z</updated>
-    <id>tag:github.com,2008:Repository/49970739/zucchetti-dbm-beta-0.3</id>
+    <id>tag:github.com,2008:Repository/49970739/zucchetti-dbm-beta-0.2</id>
     <content type="html">&lt;p&gt;dbm-beta pin int-core version&lt;/p&gt;</content>
-    <link href="https://github.com/DataDog/datadog-agent/releases/tag/zucchetti-dbm-beta-0.3" rel="alternate"></link>
+    <link href="https://github.com/DataDog/datadog-agent/releases/tag/zucchetti-dbm-beta-0.2" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>alexbarksdale</name>
     </author>
   </entry>
   <entry>
-    <title>Release notes from datadog-agent - zucchetti-dbm-beta-0.2</title>
+    <title>Release notes from datadog-agent - zucchetti-dbm-beta-0.3</title>
     <updated>2023-03-22T17:56:02Z</updated>
-    <id>tag:github.com,2008:Repository/49970739/zucchetti-dbm-beta-0.2</id>
+    <id>tag:github.com,2008:Repository/49970739/zucchetti-dbm-beta-0.3</id>
     <content type="html">&lt;p&gt;dbm-beta pin int-core version&lt;/p&gt;</content>
-    <link href="https://github.com/DataDog/datadog-agent/releases/tag/zucchetti-dbm-beta-0.2" rel="alternate"></link>
+    <link href="https://github.com/DataDog/datadog-agent/releases/tag/zucchetti-dbm-beta-0.3" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>alexbarksdale</name>
@@ -675,11 +686,11 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from opentelemetry-operations-go - example/trace/http/v0.36.0: Prepare v0.36.0 and 1.12.0 (#610)</title>
+    <title>Release notes from opentelemetry-operations-go - example/metric/v0.36.0: Prepare v0.36.0 and 1.12.0 (#610)</title>
     <updated>2023-03-15T14:24:07Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/example/trace/http/v0.36.0</id>
+    <id>tag:github.com,2008:Repository/244484581/example/metric/v0.36.0</id>
     <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Bump release versions&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make prepare-release&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/example%2Ftrace%2Fhttp%2Fv0.36.0" rel="alternate"></link>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/example%2Fmetric%2Fv0.36.0" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>damemi</name>
@@ -691,17 +702,6 @@
     <id>tag:github.com,2008:Repository/244484581/exporter/metric/v0.36.0</id>
     <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Bump release versions&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make prepare-release&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
     <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/exporter%2Fmetric%2Fv0.36.0" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>damemi</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from opentelemetry-operations-go - exporter/collector/googlemanagedprometheus/v0.36.0: Prepare v0.36.0 and 1.12.0 (#610)</title>
-    <updated>2023-03-15T14:24:07Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/exporter/collector/googlemanagedprometheus/v0.36.0</id>
-    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Bump release versions&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make prepare-release&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/exporter%2Fcollector%2Fgooglemanagedprometheus%2Fv0.36.0" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>damemi</name>
@@ -752,11 +752,22 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from opentelemetry-operations-go - example/metric/v0.36.0: Prepare v0.36.0 and 1.12.0 (#610)</title>
+    <title>Release notes from opentelemetry-operations-go - example/trace/http/v0.36.0: Prepare v0.36.0 and 1.12.0 (#610)</title>
     <updated>2023-03-15T14:24:07Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/example/metric/v0.36.0</id>
+    <id>tag:github.com,2008:Repository/244484581/example/trace/http/v0.36.0</id>
     <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Bump release versions&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make prepare-release&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/example%2Fmetric%2Fv0.36.0" rel="alternate"></link>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/example%2Ftrace%2Fhttp%2Fv0.36.0" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>damemi</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from opentelemetry-operations-go - exporter/collector/googlemanagedprometheus/v0.36.0: Prepare v0.36.0 and 1.12.0 (#610)</title>
+    <updated>2023-03-15T14:24:07Z</updated>
+    <id>tag:github.com,2008:Repository/244484581/exporter/collector/googlemanagedprometheus/v0.36.0</id>
+    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Bump release versions&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make prepare-release&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/exporter%2Fcollector%2Fgooglemanagedprometheus%2Fv0.36.0" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>damemi</name>
@@ -3653,17 +3664,6 @@
     <summary type="html"></summary>
     <author>
       <name>thaJeztah</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from tbls - v1.56.9</title>
-    <updated>2022-12-06T09:20:39Z</updated>
-    <id>tag:github.com,2008:Repository/133827809/v1.56.9</id>
-    <content type="html">&lt;h2&gt;What&#39;s Changed&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Update sample/mariadb by &lt;a class=&#34;user-mention notranslate&#34; data-hovercard-type=&#34;user&#34; data-hovercard-url=&#34;/users/k1LoW/hovercard&#34; data-octo-click=&#34;hovercard-link-click&#34; data-octo-dimensions=&#34;link_type:self&#34; href=&#34;https://github.com/k1LoW&#34;&gt;@k1LoW&lt;/a&gt; in &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1478300685&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/k1LoW/tbls/issues/391&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/k1LoW/tbls/pull/391/hovercard&#34; href=&#34;https://github.com/k1LoW/tbls/pull/391&#34;&gt;#391&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;fix: Percentage columns are always output in Excel format by &lt;a class=&#34;user-mention notranslate&#34; data-hovercard-type=&#34;user&#34; data-hovercard-url=&#34;/users/zonbitamago/hovercard&#34; data-octo-click=&#34;hovercard-link-click&#34; data-octo-dimensions=&#34;link_type:self&#34; href=&#34;https://github.com/zonbitamago&#34;&gt;@zonbitamago&lt;/a&gt; in &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1476679468&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/k1LoW/tbls/issues/390&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/k1LoW/tbls/pull/390/hovercard&#34; href=&#34;https://github.com/k1LoW/tbls/pull/390&#34;&gt;#390&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Change columns key to constants. by &lt;a class=&#34;user-mention notranslate&#34; data-hovercard-type=&#34;user&#34; data-hovercard-url=&#34;/users/k1LoW/hovercard&#34; data-octo-click=&#34;hovercard-link-click&#34; data-octo-dimensions=&#34;link_type:self&#34; href=&#34;https://github.com/k1LoW&#34;&gt;@k1LoW&lt;/a&gt; in &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1478496107&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/k1LoW/tbls/issues/393&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/k1LoW/tbls/pull/393/hovercard&#34; href=&#34;https://github.com/k1LoW/tbls/pull/393&#34;&gt;#393&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2&gt;New Contributors&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a class=&#34;user-mention notranslate&#34; data-hovercard-type=&#34;user&#34; data-hovercard-url=&#34;/users/zonbitamago/hovercard&#34; data-octo-click=&#34;hovercard-link-click&#34; data-octo-dimensions=&#34;link_type:self&#34; href=&#34;https://github.com/zonbitamago&#34;&gt;@zonbitamago&lt;/a&gt; made their first contribution in &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1476679468&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/k1LoW/tbls/issues/390&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/k1LoW/tbls/pull/390/hovercard&#34; href=&#34;https://github.com/k1LoW/tbls/pull/390&#34;&gt;#390&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: &lt;a class=&#34;commit-link&#34; href=&#34;https://github.com/k1LoW/tbls/compare/v1.56.8...v1.56.9&#34;&gt;&lt;tt&gt;v1.56.8...v1.56.9&lt;/tt&gt;&lt;/a&gt;&lt;/p&gt;</content>
-    <link href="https://github.com/k1LoW/tbls/releases/tag/v1.56.9" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>github-actions[bot]</name>
     </author>
   </entry>
   <entry>
@@ -7429,22 +7429,22 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from triangula - v1.1.6</title>
+    <title>Release notes from triangula - v1.1.5</title>
     <updated>2021-05-11T13:31:09Z</updated>
-    <id>tag:github.com,2008:Repository/354015172/v1.1.6</id>
+    <id>tag:github.com,2008:Repository/354015172/v1.1.5</id>
     <content type="html">&lt;p&gt;Refactor for more flexibility&lt;/p&gt;</content>
-    <link href="https://github.com/rh12503/triangula/releases/tag/v1.1.6" rel="alternate"></link>
+    <link href="https://github.com/rh12503/triangula/releases/tag/v1.1.5" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>rh12503</name>
     </author>
   </entry>
   <entry>
-    <title>Release notes from triangula - v1.1.5</title>
+    <title>Release notes from triangula - v1.1.6</title>
     <updated>2021-05-11T13:31:09Z</updated>
-    <id>tag:github.com,2008:Repository/354015172/v1.1.5</id>
+    <id>tag:github.com,2008:Repository/354015172/v1.1.6</id>
     <content type="html">&lt;p&gt;Refactor for more flexibility&lt;/p&gt;</content>
-    <link href="https://github.com/rh12503/triangula/releases/tag/v1.1.5" rel="alternate"></link>
+    <link href="https://github.com/rh12503/triangula/releases/tag/v1.1.6" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>rh12503</name>
