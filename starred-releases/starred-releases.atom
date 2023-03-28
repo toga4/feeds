@@ -1,8 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?><feed xmlns="http://www.w3.org/2005/Atom">
   <title>Releases from Starred by toga4</title>
   <id>https://toga4.github.io/feeds/starred-releases.atom</id>
-  <updated>2023-03-28T09:08:07Z</updated>
+  <updated>2023-03-28T12:16:51Z</updated>
   <link href="https://toga4.github.io/feeds/starred-releases.atom"></link>
+  <entry>
+    <title>Release notes from moby - v23.0.2</title>
+    <updated>2023-03-28T12:16:51Z</updated>
+    <id>tag:github.com,2008:Repository/7691631/v23.0.2</id>
+    <content type="html">&lt;h2&gt;23.0.2&lt;/h2&gt;&#xA;&lt;p&gt;For a full list of pull requests and changes in this release, refer to the relevant GitHub milestones:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/docker/cli/milestone/75?closed=1&#34;&gt;docker/cli, 23.0.2 milestone&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/moby/moby/milestone/114?closed=1&#34;&gt;moby/moby, 23.0.2 milestone&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3&gt;Bug fixes and enhancements&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Fully resolve missing checks for &lt;code&gt;apparmor_parser&lt;/code&gt; when an AppArmor enabled kernel is detected. &lt;a href=&#34;https://github.com/containerd/containerd/pull/8087&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/containerd/containerd/pull/8087/hovercard&#34;&gt;containerd/containerd#8087&lt;/a&gt;, &lt;a href=&#34;https://github.com/moby/moby/pull/45043&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/moby/moby/pull/45043/hovercard&#34;&gt;moby/moby#45043&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Ensure that credentials are redacted from Git URLs when generating BuildKit buildinfo. Fixes &lt;a href=&#34;https://github.com/moby/buildkit/security/advisories/GHSA-gc89-7gcr-jxqc&#34;&gt;CVE-2023-26054&lt;/a&gt;. &lt;a href=&#34;https://github.com/moby/moby/pull/45110&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/moby/moby/pull/45110/hovercard&#34;&gt;moby/moby#45110&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Fix anonymous volumes created by a &lt;code&gt;VOLUME&lt;/code&gt; line in a Dockerfile being excluded from volume prune. &lt;a href=&#34;https://github.com/moby/moby/pull/45159&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/moby/moby/pull/45159/hovercard&#34;&gt;moby/moby#45159&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Fix a failure to properly propagate errors during removal of volumes on a Swarm node. &lt;a href=&#34;https://github.com/moby/moby/pull/45155&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/moby/moby/pull/45155/hovercard&#34;&gt;moby/moby#45155&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Temporarily work around a bug in BuildKit &lt;code&gt;COPY --link&lt;/code&gt; by disabling mergeop/diffop optimization. &lt;a href=&#34;https://github.com/moby/moby/pull/45112&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/moby/moby/pull/45112/hovercard&#34;&gt;moby/moby#45112&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Properly clean up child tasks when a parent Swarm job is removed. &lt;a href=&#34;https://github.com/moby/swarmkit/pull/3112&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/moby/swarmkit/pull/3112/hovercard&#34;&gt;moby/swarmkit#3112&lt;/a&gt;, &lt;a href=&#34;https://github.com/moby/moby/pull/45107&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/moby/moby/pull/45107/hovercard&#34;&gt;moby/moby#45107&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Fix Swarm service creation logic so that both a GenericResource and a non-default network can be used together. &lt;a href=&#34;https://github.com/moby/swarmkit/pull/3082&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/moby/swarmkit/pull/3082/hovercard&#34;&gt;moby/swarmkit#3082&lt;/a&gt;, &lt;a href=&#34;https://github.com/moby/moby/pull/45107&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/moby/moby/pull/45107/hovercard&#34;&gt;moby/moby#45107&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Fix Swarm CSI support requiring the CSI plugin to offer staging endpoints in order to publish a volume. &lt;a href=&#34;https://github.com/moby/swarmkit/pull/3116&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/moby/swarmkit/pull/3116/hovercard&#34;&gt;moby/swarmkit#3116&lt;/a&gt;, &lt;a href=&#34;https://github.com/moby/moby/pull/45107&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/moby/moby/pull/45107/hovercard&#34;&gt;moby/moby#45107&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Fix a panic caused by log buffering in some configurations. &lt;a href=&#34;https://github.com/containerd/fifo/pull/47&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/containerd/fifo/pull/47/hovercard&#34;&gt;containerd/fifo#47&lt;/a&gt;, &lt;a href=&#34;https://github.com/moby/moby/pull/45051&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/moby/moby/pull/45051/hovercard&#34;&gt;moby/moby#45051&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Log errors in the REST to Swarm gRPC API translation layer at the debug level to reduce redundancy and noise. &lt;a href=&#34;https://github.com/moby/moby/pull/45016&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/moby/moby/pull/45016/hovercard&#34;&gt;moby/moby#45016&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Fix a DNS resolution issue affecting containers created with &lt;code&gt;--dns-opt&lt;/code&gt; or &lt;code&gt;--dns-search&lt;/code&gt; when &lt;code&gt;systemd-resolved&lt;/code&gt; is used outside the container. &lt;a href=&#34;https://github.com/moby/moby/pull/45000&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/moby/moby/pull/45000/hovercard&#34;&gt;moby/moby#45000&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Fix a panic when logging errors in handling DNS queries originating from inside a container. &lt;a href=&#34;https://github.com/moby/moby/pull/44980&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/moby/moby/pull/44980/hovercard&#34;&gt;moby/moby#44980&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Improve the speed of &lt;code&gt;docker ps&lt;/code&gt; by allowing users to opt out of size calculations with &lt;code&gt;--size=false&lt;/code&gt;. &lt;a href=&#34;https://github.com/docker/cli/pull/4107&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/docker/cli/pull/4107/hovercard&#34;&gt;docker/cli#4107&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Extend support for Bash completion to all plugins. &lt;a href=&#34;https://github.com/docker/cli/pull/4092&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/docker/cli/pull/4092/hovercard&#34;&gt;docker/cli#4092&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Fix &lt;code&gt;docker stack deploy&lt;/code&gt; failing on Windows when special environment variables set by &lt;code&gt;cmd.exe&lt;/code&gt; are present. &lt;a href=&#34;https://github.com/docker/cli/pull/4083&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/docker/cli/pull/4083/hovercard&#34;&gt;docker/cli#4083&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Add forward compatibility for future API versions by considering empty image tags to be the same as &lt;code&gt;&amp;lt;none&amp;gt;&lt;/code&gt;. &lt;a href=&#34;https://github.com/docker/cli/pull/4065&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/docker/cli/pull/4065/hovercard&#34;&gt;docker/cli#4065&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Atomically write context files to greatly reduce the probability of corruption, and improve the error message for a corrupt context. &lt;a href=&#34;https://github.com/docker/cli/pull/4063&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/docker/cli/pull/4063/hovercard&#34;&gt;docker/cli#4063&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3&gt;Packaging&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Upgrade Go to &lt;code&gt;1.19.7&lt;/code&gt;. &lt;a href=&#34;https://github.com/docker/docker-ce-packaging/pull/857&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/docker/docker-ce-packaging/pull/857/hovercard&#34;&gt;docker/docker-ce-packaging#857&lt;/a&gt;, &lt;a href=&#34;https://github.com/docker/cli/pull/4086&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/docker/cli/pull/4086/hovercard&#34;&gt;docker/cli#4086&lt;/a&gt;, &lt;a href=&#34;https://github.com/moby/moby/pull/45137&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/moby/moby/pull/45137/hovercard&#34;&gt;moby/moby#45137&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Upgrade &lt;code&gt;containerd&lt;/code&gt; to &lt;code&gt;v1.6.19&lt;/code&gt;. &lt;a href=&#34;https://github.com/moby/moby/pull/45084&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/moby/moby/pull/45084/hovercard&#34;&gt;moby/moby#45084&lt;/a&gt;, &lt;a href=&#34;https://github.com/moby/moby/pull/45099&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/moby/moby/pull/45099/hovercard&#34;&gt;moby/moby#45099&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Upgrade Buildx to &lt;code&gt;v0.10.4&lt;/code&gt;. &lt;a href=&#34;https://github.com/docker/docker-ce-packaging/pull/855&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/docker/docker-ce-packaging/pull/855/hovercard&#34;&gt;docker/docker-ce-packaging#855&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Upgrade Compose to &lt;code&gt;v2.17.2&lt;/code&gt;. &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1641595870&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/docker/docker-ce-packaging/issues/867&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/docker/docker-ce-packaging/pull/867/hovercard&#34; href=&#34;https://github.com/docker/docker-ce-packaging/pull/867&#34;&gt;docker/docker-ce-packaging#867&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/moby/moby/releases/tag/v23.0.2" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>thaJeztah</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from swag - v1.8.12</title>
+    <updated>2023-03-28T11:20:58Z</updated>
+    <id>tag:github.com,2008:Repository/93928882/v1.8.12</id>
+    <content type="html">&lt;h2&gt;Changelog&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a class=&#34;commit-link&#34; data-hovercard-type=&#34;commit&#34; data-hovercard-url=&#34;https://github.com/swaggo/swag/commit/122a2e26a675afe66fac7f525a87fb942964bad6/hovercard&#34; href=&#34;https://github.com/swaggo/swag/commit/122a2e26a675afe66fac7f525a87fb942964bad6&#34;&gt;&lt;tt&gt;122a2e2&lt;/tt&gt;&lt;/a&gt; FIX    generics like type JSON[K,V string] map[K]V (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1634995588&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/swaggo/swag/issues/1509&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/swaggo/swag/pull/1509/hovercard&#34; href=&#34;https://github.com/swaggo/swag/pull/1509&#34;&gt;#1509&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;&lt;a class=&#34;commit-link&#34; data-hovercard-type=&#34;commit&#34; data-hovercard-url=&#34;https://github.com/swaggo/swag/commit/ea779b8384c446a802adef43d211140c6160b42a/hovercard&#34; href=&#34;https://github.com/swaggo/swag/commit/ea779b8384c446a802adef43d211140c6160b42a&#34;&gt;&lt;tt&gt;ea779b8&lt;/tt&gt;&lt;/a&gt; chore: drop support for go 1.16 (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1643715503&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/swaggo/swag/issues/1518&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/swaggo/swag/pull/1518/hovercard&#34; href=&#34;https://github.com/swaggo/swag/pull/1518&#34;&gt;#1518&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;&lt;a class=&#34;commit-link&#34; data-hovercard-type=&#34;commit&#34; data-hovercard-url=&#34;https://github.com/swaggo/swag/commit/c9bca7735aa36362594ccda7da7d1db558c647f8/hovercard&#34; href=&#34;https://github.com/swaggo/swag/commit/c9bca7735aa36362594ccda7da7d1db558c647f8&#34;&gt;&lt;tt&gt;c9bca77&lt;/tt&gt;&lt;/a&gt; fix field of enum type as formdata (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1635014325&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/swaggo/swag/issues/1511&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/swaggo/swag/pull/1511/hovercard&#34; href=&#34;https://github.com/swaggo/swag/pull/1511&#34;&gt;#1511&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/swaggo/swag/releases/tag/v1.8.12" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>ubogdan</name>
+    </author>
+  </entry>
   <entry>
     <title>Release notes from go-yaml - 1.10.1</title>
     <updated>2023-03-28T09:08:07Z</updated>
@@ -15,22 +37,22 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from datadog-agent - 6.43.1-dbm-oracle-beta-0.9</title>
+    <title>Release notes from datadog-agent - 7.43.1-dbm-oracle-beta-0.9</title>
     <updated>2023-03-28T07:09:28Z</updated>
-    <id>tag:github.com,2008:Repository/49970739/6.43.1-dbm-oracle-beta-0.9</id>
+    <id>tag:github.com,2008:Repository/49970739/7.43.1-dbm-oracle-beta-0.9</id>
     <content type="html">&lt;p&gt;tidy&lt;/p&gt;</content>
-    <link href="https://github.com/DataDog/datadog-agent/releases/tag/6.43.1-dbm-oracle-beta-0.9" rel="alternate"></link>
+    <link href="https://github.com/DataDog/datadog-agent/releases/tag/7.43.1-dbm-oracle-beta-0.9" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>nenadnoveljic</name>
     </author>
   </entry>
   <entry>
-    <title>Release notes from datadog-agent - 7.43.1-dbm-oracle-beta-0.9</title>
+    <title>Release notes from datadog-agent - 6.43.1-dbm-oracle-beta-0.9</title>
     <updated>2023-03-28T07:09:28Z</updated>
-    <id>tag:github.com,2008:Repository/49970739/7.43.1-dbm-oracle-beta-0.9</id>
+    <id>tag:github.com,2008:Repository/49970739/6.43.1-dbm-oracle-beta-0.9</id>
     <content type="html">&lt;p&gt;tidy&lt;/p&gt;</content>
-    <link href="https://github.com/DataDog/datadog-agent/releases/tag/7.43.1-dbm-oracle-beta-0.9" rel="alternate"></link>
+    <link href="https://github.com/DataDog/datadog-agent/releases/tag/6.43.1-dbm-oracle-beta-0.9" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>nenadnoveljic</name>
@@ -158,22 +180,22 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from datadog-agent - 6.44.0-rc.5-dbm-beta-0.2</title>
+    <title>Release notes from datadog-agent - 7.44.0-rc.5-dbm-beta-0.2</title>
     <updated>2023-03-24T18:09:54Z</updated>
-    <id>tag:github.com,2008:Repository/49970739/6.44.0-rc.5-dbm-beta-0.2</id>
+    <id>tag:github.com,2008:Repository/49970739/7.44.0-rc.5-dbm-beta-0.2</id>
     <content type="html">&lt;p&gt;merge&lt;/p&gt;</content>
-    <link href="https://github.com/DataDog/datadog-agent/releases/tag/6.44.0-rc.5-dbm-beta-0.2" rel="alternate"></link>
+    <link href="https://github.com/DataDog/datadog-agent/releases/tag/7.44.0-rc.5-dbm-beta-0.2" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>nenadnoveljic</name>
     </author>
   </entry>
   <entry>
-    <title>Release notes from datadog-agent - 7.44.0-rc.5-dbm-beta-0.2</title>
+    <title>Release notes from datadog-agent - 6.44.0-rc.5-dbm-beta-0.2</title>
     <updated>2023-03-24T18:09:54Z</updated>
-    <id>tag:github.com,2008:Repository/49970739/7.44.0-rc.5-dbm-beta-0.2</id>
+    <id>tag:github.com,2008:Repository/49970739/6.44.0-rc.5-dbm-beta-0.2</id>
     <content type="html">&lt;p&gt;merge&lt;/p&gt;</content>
-    <link href="https://github.com/DataDog/datadog-agent/releases/tag/7.44.0-rc.5-dbm-beta-0.2" rel="alternate"></link>
+    <link href="https://github.com/DataDog/datadog-agent/releases/tag/6.44.0-rc.5-dbm-beta-0.2" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>nenadnoveljic</name>
@@ -257,22 +279,22 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from opentelemetry-go-contrib - samplers/aws/xray/v0.10.0-rc.2</title>
+    <title>Release notes from opentelemetry-go-contrib - samplers/jaegerremote/v0.10.0-rc.2</title>
     <updated>2023-03-23T15:43:21Z</updated>
-    <id>tag:github.com,2008:Repository/242202166/samplers/aws/xray/v0.10.0-rc.2</id>
+    <id>tag:github.com,2008:Repository/242202166/samplers/jaegerremote/v0.10.0-rc.2</id>
     <content type="html">&lt;p&gt;Module set experimental-samplers, Version v0.10.0-rc.2&lt;/p&gt;</content>
-    <link href="https://github.com/open-telemetry/opentelemetry-go-contrib/releases/tag/samplers%2Faws%2Fxray%2Fv0.10.0-rc.2" rel="alternate"></link>
+    <link href="https://github.com/open-telemetry/opentelemetry-go-contrib/releases/tag/samplers%2Fjaegerremote%2Fv0.10.0-rc.2" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>MrAlias</name>
     </author>
   </entry>
   <entry>
-    <title>Release notes from opentelemetry-go-contrib - samplers/jaegerremote/v0.10.0-rc.2</title>
+    <title>Release notes from opentelemetry-go-contrib - samplers/aws/xray/v0.10.0-rc.2</title>
     <updated>2023-03-23T15:43:21Z</updated>
-    <id>tag:github.com,2008:Repository/242202166/samplers/jaegerremote/v0.10.0-rc.2</id>
+    <id>tag:github.com,2008:Repository/242202166/samplers/aws/xray/v0.10.0-rc.2</id>
     <content type="html">&lt;p&gt;Module set experimental-samplers, Version v0.10.0-rc.2&lt;/p&gt;</content>
-    <link href="https://github.com/open-telemetry/opentelemetry-go-contrib/releases/tag/samplers%2Fjaegerremote%2Fv0.10.0-rc.2" rel="alternate"></link>
+    <link href="https://github.com/open-telemetry/opentelemetry-go-contrib/releases/tag/samplers%2Faws%2Fxray%2Fv0.10.0-rc.2" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>MrAlias</name>
@@ -763,11 +785,22 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from opentelemetry-operations-go - propagator/v0.36.0: Prepare v0.36.0 and 1.12.0 (#610)</title>
+    <title>Release notes from opentelemetry-operations-go - internal/resourcemapping/v0.36.0: Prepare v0.36.0 and 1.12.0 (#610)</title>
     <updated>2023-03-15T14:24:07Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/propagator/v0.36.0</id>
+    <id>tag:github.com,2008:Repository/244484581/internal/resourcemapping/v0.36.0</id>
     <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Bump release versions&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make prepare-release&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/propagator%2Fv0.36.0" rel="alternate"></link>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/internal%2Fresourcemapping%2Fv0.36.0" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>damemi</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from opentelemetry-operations-go - example/trace/http/v0.36.0: Prepare v0.36.0 and 1.12.0 (#610)</title>
+    <updated>2023-03-15T14:24:07Z</updated>
+    <id>tag:github.com,2008:Repository/244484581/example/trace/http/v0.36.0</id>
+    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Bump release versions&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make prepare-release&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/example%2Ftrace%2Fhttp%2Fv0.36.0" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>damemi</name>
@@ -785,22 +818,22 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from opentelemetry-operations-go - exporter/collector/googlemanagedprometheus/v0.36.0: Prepare v0.36.0 and 1.12.0 (#610)</title>
+    <title>Release notes from opentelemetry-operations-go - propagator/v0.36.0: Prepare v0.36.0 and 1.12.0 (#610)</title>
     <updated>2023-03-15T14:24:07Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/exporter/collector/googlemanagedprometheus/v0.36.0</id>
+    <id>tag:github.com,2008:Repository/244484581/propagator/v0.36.0</id>
     <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Bump release versions&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make prepare-release&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/exporter%2Fcollector%2Fgooglemanagedprometheus%2Fv0.36.0" rel="alternate"></link>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/propagator%2Fv0.36.0" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>damemi</name>
     </author>
   </entry>
   <entry>
-    <title>Release notes from opentelemetry-operations-go - example/trace/http/v0.36.0: Prepare v0.36.0 and 1.12.0 (#610)</title>
+    <title>Release notes from opentelemetry-operations-go - exporter/trace/v1.12.0: Prepare v0.36.0 and 1.12.0 (#610)</title>
     <updated>2023-03-15T14:24:07Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/example/trace/http/v0.36.0</id>
+    <id>tag:github.com,2008:Repository/244484581/exporter/trace/v1.12.0</id>
     <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Bump release versions&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make prepare-release&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/example%2Ftrace%2Fhttp%2Fv0.36.0" rel="alternate"></link>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/exporter%2Ftrace%2Fv1.12.0" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>damemi</name>
@@ -840,22 +873,11 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from opentelemetry-operations-go - internal/resourcemapping/v0.36.0: Prepare v0.36.0 and 1.12.0 (#610)</title>
+    <title>Release notes from opentelemetry-operations-go - exporter/collector/googlemanagedprometheus/v0.36.0: Prepare v0.36.0 and 1.12.0 (#610)</title>
     <updated>2023-03-15T14:24:07Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/internal/resourcemapping/v0.36.0</id>
+    <id>tag:github.com,2008:Repository/244484581/exporter/collector/googlemanagedprometheus/v0.36.0</id>
     <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Bump release versions&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make prepare-release&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/internal%2Fresourcemapping%2Fv0.36.0" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>damemi</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from opentelemetry-operations-go - exporter/trace/v1.12.0: Prepare v0.36.0 and 1.12.0 (#610)</title>
-    <updated>2023-03-15T14:24:07Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/exporter/trace/v1.12.0</id>
-    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Bump release versions&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make prepare-release&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/exporter%2Ftrace%2Fv1.12.0" rel="alternate"></link>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/exporter%2Fcollector%2Fgooglemanagedprometheus%2Fv0.36.0" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>damemi</name>
@@ -4217,17 +4239,6 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from moby - v20.10.21</title>
-    <updated>2022-10-25T21:44:27Z</updated>
-    <id>tag:github.com,2008:Repository/7691631/v20.10.21</id>
-    <content type="html">&lt;p&gt;This release of Docker Engine contains updated versions of Docker Compose,&lt;br&gt;&#xA;Docker Scan, Containerd, added packages for Ubuntu 22.10, and some minor bug&lt;br&gt;&#xA;fixes and enhancements.&lt;/p&gt;&#xA;&lt;h3&gt;Client&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Remove &#34;experimental&#34; gates around &#34;--platform&#34; in bash completion &lt;a href=&#34;https://github.com/docker/cli/pull/3824&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/docker/cli/pull/3824/hovercard&#34;&gt;docker/cli#3824&lt;/a&gt;.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3&gt;Daemon&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Allow &#34;allow-nondistributable-artifacts&#34; to be configured for Docker Hub &lt;a href=&#34;https://github.com/moby/moby/pull/44313&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/moby/moby/pull/44313/hovercard&#34;&gt;moby/moby#44313&lt;/a&gt;.&lt;/li&gt;&#xA;&lt;li&gt;Fix an &lt;code&gt;Invalid standard handle identifie&lt;/code&gt; panic when  registering the docker daemon as a service from a legacy CLI on Windows &lt;a href=&#34;https://github.com/moby/moby/pull/44326&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/moby/moby/pull/44326/hovercard&#34;&gt;moby/moby#44326&lt;/a&gt;.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3&gt;Builder&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Fix running git commands in Cygwin on Windows &lt;a href=&#34;https://github.com/moby/moby/pull/44332&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/moby/moby/pull/44332/hovercard&#34;&gt;moby/moby#44332&lt;/a&gt;.&lt;/li&gt;&#xA;&lt;li&gt;Update bundled BuildKit version to to fix &#34;output clipped, log limit 1MiB reached&#34; errors &lt;a href=&#34;https://github.com/moby/moby/pull/44339&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/moby/moby/pull/44339/hovercard&#34;&gt;moby/moby#44339&lt;/a&gt;.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3&gt;Packaging&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Provide packages for Ubuntu 22.10 &#34;Kinetic Kudu&#34;.&lt;/li&gt;&#xA;&lt;li&gt;Update Docker Compose to &lt;a href=&#34;https://github.com/docker/compose/releases/tag/v2.12.2&#34;&gt;v2.12.2&lt;/a&gt;.&lt;/li&gt;&#xA;&lt;li&gt;Update Docker Scan to &lt;a href=&#34;https://github.com/docker/scan-cli-plugin/releases/tag/v0.21.0&#34;&gt;v0.21.0&lt;/a&gt;.&lt;/li&gt;&#xA;&lt;li&gt;Update containerd (&lt;code&gt;containerd.io&lt;/code&gt; package) to &lt;a href=&#34;https://github.com/containerd/containerd/releases/tag/v1.6.9&#34;&gt;v1.6.9&lt;/a&gt;.&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/moby/moby/releases/tag/v20.10.21" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>thaJeztah</name>
-    </author>
-  </entry>
-  <entry>
     <title>Release notes from lima - v0.13.0</title>
     <updated>2022-10-25T15:44:32Z</updated>
     <id>tag:github.com,2008:Repository/367284699/v0.13.0</id>
@@ -4907,17 +4918,6 @@
     <summary type="html"></summary>
     <author>
       <name>braydonk</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from swag - v1.8.5</title>
-    <updated>2022-08-25T20:52:07Z</updated>
-    <id>tag:github.com,2008:Repository/93928882/v1.8.5</id>
-    <content type="html">&lt;h2&gt;Changelog&lt;/h2&gt;&#xA;&lt;p&gt;&lt;a class=&#34;commit-link&#34; data-hovercard-type=&#34;commit&#34; data-hovercard-url=&#34;https://github.com/swaggo/swag/commit/2f148dd6bddbd1340878e46cfa628efe118987d3/hovercard&#34; href=&#34;https://github.com/swaggo/swag/commit/2f148dd6bddbd1340878e46cfa628efe118987d3&#34;&gt;&lt;tt&gt;2f148dd&lt;/tt&gt;&lt;/a&gt; Extended generics support (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1323584102&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/swaggo/swag/issues/1277&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/swaggo/swag/pull/1277/hovercard&#34; href=&#34;https://github.com/swaggo/swag/pull/1277&#34;&gt;#1277&lt;/a&gt;)&lt;br&gt;&#xA;&lt;a class=&#34;commit-link&#34; data-hovercard-type=&#34;commit&#34; data-hovercard-url=&#34;https://github.com/swaggo/swag/commit/23661ef81ec4231315459906c39b9dcab1da5952/hovercard&#34; href=&#34;https://github.com/swaggo/swag/commit/23661ef81ec4231315459906c39b9dcab1da5952&#34;&gt;&lt;tt&gt;23661ef&lt;/tt&gt;&lt;/a&gt; chore: set CGO_ENABLED=0  for goreleaser to avoid dynamic linking (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1337740601&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/swaggo/swag/issues/1293&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/swaggo/swag/pull/1293/hovercard&#34; href=&#34;https://github.com/swaggo/swag/pull/1293&#34;&gt;#1293&lt;/a&gt;)&lt;br&gt;&#xA;&lt;a class=&#34;commit-link&#34; data-hovercard-type=&#34;commit&#34; data-hovercard-url=&#34;https://github.com/swaggo/swag/commit/732c0879d89dde8df85f435d43bdcd95a1ccc83f/hovercard&#34; href=&#34;https://github.com/swaggo/swag/commit/732c0879d89dde8df85f435d43bdcd95a1ccc83f&#34;&gt;&lt;tt&gt;732c087&lt;/tt&gt;&lt;/a&gt; doc: add function scoped struct declaration example (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1341542559&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/swaggo/swag/issues/1296&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/swaggo/swag/pull/1296/hovercard&#34; href=&#34;https://github.com/swaggo/swag/pull/1296&#34;&gt;#1296&lt;/a&gt;)&lt;br&gt;&#xA;&lt;a class=&#34;commit-link&#34; data-hovercard-type=&#34;commit&#34; data-hovercard-url=&#34;https://github.com/swaggo/swag/commit/45f01a1ca491ab4612226375f5cd3990f640bbaa/hovercard&#34; href=&#34;https://github.com/swaggo/swag/commit/45f01a1ca491ab4612226375f5cd3990f640bbaa&#34;&gt;&lt;tt&gt;45f01a1&lt;/tt&gt;&lt;/a&gt; feat: add function scoped struct parse (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1331002135&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/swaggo/swag/issues/1283&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/swaggo/swag/pull/1283/hovercard&#34; href=&#34;https://github.com/swaggo/swag/pull/1283&#34;&gt;#1283&lt;/a&gt;)&lt;br&gt;&#xA;&lt;a class=&#34;commit-link&#34; data-hovercard-type=&#34;commit&#34; data-hovercard-url=&#34;https://github.com/swaggo/swag/commit/cf03796091e797fb357be12225dfafca4c578fae/hovercard&#34; href=&#34;https://github.com/swaggo/swag/commit/cf03796091e797fb357be12225dfafca4c578fae&#34;&gt;&lt;tt&gt;cf03796&lt;/tt&gt;&lt;/a&gt; feat: get swagger instance from register (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1341621056&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/swaggo/swag/issues/1298&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/swaggo/swag/pull/1298/hovercard&#34; href=&#34;https://github.com/swaggo/swag/pull/1298&#34;&gt;#1298&lt;/a&gt;)&lt;br&gt;&#xA;&lt;a class=&#34;commit-link&#34; data-hovercard-type=&#34;commit&#34; data-hovercard-url=&#34;https://github.com/swaggo/swag/commit/af1c5256a1b4149f6958c18977d57895a5594f73/hovercard&#34; href=&#34;https://github.com/swaggo/swag/commit/af1c5256a1b4149f6958c18977d57895a5594f73&#34;&gt;&lt;tt&gt;af1c525&lt;/tt&gt;&lt;/a&gt; fix: Go generics cannot find common package object type definition (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1328950852&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/swaggo/swag/issues/1281&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/swaggo/swag/pull/1281/hovercard&#34; href=&#34;https://github.com/swaggo/swag/pull/1281&#34;&gt;#1281&lt;/a&gt;)&lt;br&gt;&#xA;&lt;a class=&#34;commit-link&#34; data-hovercard-type=&#34;commit&#34; data-hovercard-url=&#34;https://github.com/swaggo/swag/commit/9d34a7683d438a2b593fa073ba8820309a3c0987/hovercard&#34; href=&#34;https://github.com/swaggo/swag/commit/9d34a7683d438a2b593fa073ba8820309a3c0987&#34;&gt;&lt;tt&gt;9d34a76&lt;/tt&gt;&lt;/a&gt; fix: Nested generic fields not fully working, if generic type is from… (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1348501617&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/swaggo/swag/issues/1305&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/swaggo/swag/pull/1305/hovercard&#34; href=&#34;https://github.com/swaggo/swag/pull/1305&#34;&gt;#1305&lt;/a&gt;)&lt;/p&gt;</content>
-    <link href="https://github.com/swaggo/swag/releases/tag/v1.8.5" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>ubogdan</name>
     </author>
   </entry>
   <entry>
@@ -7814,22 +7814,22 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from backoff - v2.0.2: Merge pull request #18 from lestrrat-go/topic/fix-v2-go-mod</title>
+    <title>Release notes from backoff - v2.0.3: Merge pull request #18 from lestrrat-go/topic/fix-v2-go-mod</title>
     <updated>2021-01-06T03:00:05Z</updated>
-    <id>tag:github.com,2008:Repository/118608673/v2.0.2</id>
+    <id>tag:github.com,2008:Repository/118608673/v2.0.3</id>
     <content type="html">&lt;p&gt;Fix go.mod&lt;/p&gt;</content>
-    <link href="https://github.com/lestrrat-go/backoff/releases/tag/v2.0.2" rel="alternate"></link>
+    <link href="https://github.com/lestrrat-go/backoff/releases/tag/v2.0.3" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>lestrrat</name>
     </author>
   </entry>
   <entry>
-    <title>Release notes from backoff - v2.0.3: Merge pull request #18 from lestrrat-go/topic/fix-v2-go-mod</title>
+    <title>Release notes from backoff - v2.0.2: Merge pull request #18 from lestrrat-go/topic/fix-v2-go-mod</title>
     <updated>2021-01-06T03:00:05Z</updated>
-    <id>tag:github.com,2008:Repository/118608673/v2.0.3</id>
+    <id>tag:github.com,2008:Repository/118608673/v2.0.2</id>
     <content type="html">&lt;p&gt;Fix go.mod&lt;/p&gt;</content>
-    <link href="https://github.com/lestrrat-go/backoff/releases/tag/v2.0.3" rel="alternate"></link>
+    <link href="https://github.com/lestrrat-go/backoff/releases/tag/v2.0.2" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>lestrrat</name>
