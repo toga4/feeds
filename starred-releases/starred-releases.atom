@@ -1,8 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?><feed xmlns="http://www.w3.org/2005/Atom">
   <title>Releases from Starred by toga4</title>
   <id>https://toga4.github.io/feeds/starred-releases.atom</id>
-  <updated>2023-04-05T17:29:55Z</updated>
+  <updated>2023-04-05T18:35:05Z</updated>
   <link href="https://toga4.github.io/feeds/starred-releases.atom"></link>
+  <entry>
+    <title>Release notes from skaffold - v1.39.7 Release</title>
+    <updated>2023-04-05T18:35:05Z</updated>
+    <id>tag:github.com,2008:Repository/118654121/v1.39.7</id>
+    <content type="html">&lt;h2&gt;v1.39.7 Release - 4/05/2022&lt;/h2&gt;&#xA;&lt;p&gt;Linux amd64&lt;br&gt;&#xA;curl -Lo skaffold &lt;a href=&#34;https://storage.googleapis.com/skaffold/releases/v1.39.7/skaffold-linux-amd64&#34; rel=&#34;nofollow&#34;&gt;https://storage.googleapis.com/skaffold/releases/v1.39.7/skaffold-linux-amd64&lt;/a&gt; &amp;amp;&amp;amp; chmod +x skaffold &amp;amp;&amp;amp; sudo mv skaffold /usr/local/bin&lt;/p&gt;&#xA;&lt;p&gt;Linux arm64&lt;br&gt;&#xA;curl -Lo skaffold &lt;a href=&#34;https://storage.googleapis.com/skaffold/releases/v1.39.7/skaffold-linux-arm64&#34; rel=&#34;nofollow&#34;&gt;https://storage.googleapis.com/skaffold/releases/v1.39.7/skaffold-linux-arm64&lt;/a&gt; &amp;amp;&amp;amp; chmod +x skaffold &amp;amp;&amp;amp; sudo mv skaffold /usr/local/bin&lt;/p&gt;&#xA;&lt;p&gt;macOS amd64&lt;br&gt;&#xA;curl -Lo skaffold &lt;a href=&#34;https://storage.googleapis.com/skaffold/releases/v1.39.7/skaffold-darwin-amd64&#34; rel=&#34;nofollow&#34;&gt;https://storage.googleapis.com/skaffold/releases/v1.39.7/skaffold-darwin-amd64&lt;/a&gt; &amp;amp;&amp;amp; chmod +x skaffold &amp;amp;&amp;amp; sudo mv skaffold /usr/local/bin&lt;/p&gt;&#xA;&lt;p&gt;macOS arm64&lt;br&gt;&#xA;curl -Lo skaffold &lt;a href=&#34;https://storage.googleapis.com/skaffold/releases/v1.39.7/skaffold-darwin-arm64&#34; rel=&#34;nofollow&#34;&gt;https://storage.googleapis.com/skaffold/releases/v1.39.7/skaffold-darwin-arm64&lt;/a&gt; &amp;amp;&amp;amp; chmod +x skaffold &amp;amp;&amp;amp; sudo mv skaffold /usr/local/bin&lt;/p&gt;&#xA;&lt;p&gt;Windows&lt;br&gt;&#xA;&lt;a href=&#34;https://storage.googleapis.com/skaffold/releases/v1.39.7/skaffold-windows-amd64.exe&#34; rel=&#34;nofollow&#34;&gt;https://storage.googleapis.com/skaffold/releases/v1.39.7/skaffold-windows-amd64.exe&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;Docker image&lt;br&gt;&#xA;gcr.io/k8s-skaffold/skaffold:v1.39.7&lt;/p&gt;&#xA;&lt;h2&gt;What&#39;s Changed&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;chore: upgrade v1.39 deps to fix vuls by &lt;a class=&#34;user-mention notranslate&#34; data-hovercard-type=&#34;user&#34; data-hovercard-url=&#34;/users/ericzzzzzzz/hovercard&#34; data-octo-click=&#34;hovercard-link-click&#34; data-octo-dimensions=&#34;link_type:self&#34; href=&#34;https://github.com/ericzzzzzzz&#34;&gt;@ericzzzzzzz&lt;/a&gt; in &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1649617981&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/GoogleContainerTools/skaffold/issues/8621&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleContainerTools/skaffold/pull/8621/hovercard&#34; href=&#34;https://github.com/GoogleContainerTools/skaffold/pull/8621&#34;&gt;#8621&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: &lt;a class=&#34;commit-link&#34; href=&#34;https://github.com/GoogleContainerTools/skaffold/compare/v1.39.6...v1.39.7&#34;&gt;&lt;tt&gt;v1.39.6...v1.39.7&lt;/tt&gt;&lt;/a&gt;&lt;/p&gt;</content>
+    <link href="https://github.com/GoogleContainerTools/skaffold/releases/tag/v1.39.7" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>ericzzzzzzz</name>
+    </author>
+  </entry>
   <entry>
     <title>Release notes from go-github - v51.0.0</title>
     <updated>2023-04-05T17:29:55Z</updated>
@@ -125,17 +136,6 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from skaffold - v1.39.7: chore: upgrade v1.39 deps to fix vuls (#8621)</title>
-    <updated>2023-04-04T18:34:33Z</updated>
-    <id>tag:github.com,2008:Repository/118654121/v1.39.7</id>
-    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;chore: upgrade v1.39 deps&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;chore: fix some unit tests&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;chore: fix imports&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;chore: fix unit test&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;chore: fix unit test&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;chore: fix tests&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;chore: fix integration test&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;chore: fix ko_test&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;chore: fix gcloud image build not pushing raw-bin images&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/GoogleContainerTools/skaffold/releases/tag/v1.39.7" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>ericzzzzzzz</name>
-    </author>
-  </entry>
-  <entry>
     <title>Release notes from opentelemetry-operations-go - v0.37.0 and v1.13.0</title>
     <updated>2023-04-04T17:28:58Z</updated>
     <id>tag:github.com,2008:Repository/244484581/v0.37.0</id>
@@ -147,66 +147,11 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from opentelemetry-operations-go - internal/resourcemapping/v0.37.0: Prepare release v0.37.0/1.13.0 (#619)</title>
+    <title>Release notes from opentelemetry-operations-go - exporter/metric/v0.37.0: Prepare release v0.37.0/1.13.0 (#619)</title>
     <updated>2023-04-04T17:27:38Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/internal/resourcemapping/v0.37.0</id>
+    <id>tag:github.com,2008:Repository/244484581/exporter/metric/v0.37.0</id>
     <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make prepare-release v0.37.0/1.13.0&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/internal%2Fresourcemapping%2Fv0.37.0" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>damemi</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from opentelemetry-operations-go - exporter/collector/googlemanagedprometheus/v0.37.0: Prepare release v0.37.0/1.13.0 (#619)</title>
-    <updated>2023-04-04T17:27:38Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/exporter/collector/googlemanagedprometheus/v0.37.0</id>
-    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make prepare-release v0.37.0/1.13.0&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/exporter%2Fcollector%2Fgooglemanagedprometheus%2Fv0.37.0" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>damemi</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from opentelemetry-operations-go - propagator/v0.37.0: Prepare release v0.37.0/1.13.0 (#619)</title>
-    <updated>2023-04-04T17:27:38Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/propagator/v0.37.0</id>
-    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make prepare-release v0.37.0/1.13.0&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/propagator%2Fv0.37.0" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>damemi</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from opentelemetry-operations-go - example/metric/v0.37.0: Prepare release v0.37.0/1.13.0 (#619)</title>
-    <updated>2023-04-04T17:27:38Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/example/metric/v0.37.0</id>
-    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make prepare-release v0.37.0/1.13.0&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/example%2Fmetric%2Fv0.37.0" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>damemi</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from opentelemetry-operations-go - internal/cloudmock/v0.37.0: Prepare release v0.37.0/1.13.0 (#619)</title>
-    <updated>2023-04-04T17:27:38Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/internal/cloudmock/v0.37.0</id>
-    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make prepare-release v0.37.0/1.13.0&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/internal%2Fcloudmock%2Fv0.37.0" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>damemi</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from opentelemetry-operations-go - example/trace/http/v0.37.0: Prepare release v0.37.0/1.13.0 (#619)</title>
-    <updated>2023-04-04T17:27:38Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/example/trace/http/v0.37.0</id>
-    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make prepare-release v0.37.0/1.13.0&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/example%2Ftrace%2Fhttp%2Fv0.37.0" rel="alternate"></link>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/exporter%2Fmetric%2Fv0.37.0" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>damemi</name>
@@ -224,11 +169,66 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from opentelemetry-operations-go - exporter/metric/v0.37.0: Prepare release v0.37.0/1.13.0 (#619)</title>
+    <title>Release notes from opentelemetry-operations-go - propagator/v0.37.0: Prepare release v0.37.0/1.13.0 (#619)</title>
     <updated>2023-04-04T17:27:38Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/exporter/metric/v0.37.0</id>
+    <id>tag:github.com,2008:Repository/244484581/propagator/v0.37.0</id>
     <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make prepare-release v0.37.0/1.13.0&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/exporter%2Fmetric%2Fv0.37.0" rel="alternate"></link>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/propagator%2Fv0.37.0" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>damemi</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from opentelemetry-operations-go - internal/resourcemapping/v0.37.0: Prepare release v0.37.0/1.13.0 (#619)</title>
+    <updated>2023-04-04T17:27:38Z</updated>
+    <id>tag:github.com,2008:Repository/244484581/internal/resourcemapping/v0.37.0</id>
+    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make prepare-release v0.37.0/1.13.0&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/internal%2Fresourcemapping%2Fv0.37.0" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>damemi</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from opentelemetry-operations-go - example/metric/v0.37.0: Prepare release v0.37.0/1.13.0 (#619)</title>
+    <updated>2023-04-04T17:27:38Z</updated>
+    <id>tag:github.com,2008:Repository/244484581/example/metric/v0.37.0</id>
+    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make prepare-release v0.37.0/1.13.0&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/example%2Fmetric%2Fv0.37.0" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>damemi</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from opentelemetry-operations-go - example/trace/http/v0.37.0: Prepare release v0.37.0/1.13.0 (#619)</title>
+    <updated>2023-04-04T17:27:38Z</updated>
+    <id>tag:github.com,2008:Repository/244484581/example/trace/http/v0.37.0</id>
+    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make prepare-release v0.37.0/1.13.0&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/example%2Ftrace%2Fhttp%2Fv0.37.0" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>damemi</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from opentelemetry-operations-go - exporter/collector/googlemanagedprometheus/v0.37.0: Prepare release v0.37.0/1.13.0 (#619)</title>
+    <updated>2023-04-04T17:27:38Z</updated>
+    <id>tag:github.com,2008:Repository/244484581/exporter/collector/googlemanagedprometheus/v0.37.0</id>
+    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make prepare-release v0.37.0/1.13.0&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/exporter%2Fcollector%2Fgooglemanagedprometheus%2Fv0.37.0" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>damemi</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from opentelemetry-operations-go - internal/cloudmock/v0.37.0: Prepare release v0.37.0/1.13.0 (#619)</title>
+    <updated>2023-04-04T17:27:38Z</updated>
+    <id>tag:github.com,2008:Repository/244484581/internal/cloudmock/v0.37.0</id>
+    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make prepare-release v0.37.0/1.13.0&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/internal%2Fcloudmock%2Fv0.37.0" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>damemi</name>
@@ -345,22 +345,22 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from datadog-agent - 6.43.1-dbm-oracle-beta-0.16</title>
+    <title>Release notes from datadog-agent - 7.43.1-dbm-oracle-beta-0.16</title>
     <updated>2023-04-03T08:00:11Z</updated>
-    <id>tag:github.com,2008:Repository/49970739/6.43.1-dbm-oracle-beta-0.16</id>
+    <id>tag:github.com,2008:Repository/49970739/7.43.1-dbm-oracle-beta-0.16</id>
     <content type="html">&lt;p&gt;dbm-oracle-beta-0.16&lt;/p&gt;</content>
-    <link href="https://github.com/DataDog/datadog-agent/releases/tag/6.43.1-dbm-oracle-beta-0.16" rel="alternate"></link>
+    <link href="https://github.com/DataDog/datadog-agent/releases/tag/7.43.1-dbm-oracle-beta-0.16" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>nenadnoveljic</name>
     </author>
   </entry>
   <entry>
-    <title>Release notes from datadog-agent - 7.43.1-dbm-oracle-beta-0.16</title>
+    <title>Release notes from datadog-agent - 6.43.1-dbm-oracle-beta-0.16</title>
     <updated>2023-04-03T08:00:11Z</updated>
-    <id>tag:github.com,2008:Repository/49970739/7.43.1-dbm-oracle-beta-0.16</id>
+    <id>tag:github.com,2008:Repository/49970739/6.43.1-dbm-oracle-beta-0.16</id>
     <content type="html">&lt;p&gt;dbm-oracle-beta-0.16&lt;/p&gt;</content>
-    <link href="https://github.com/DataDog/datadog-agent/releases/tag/7.43.1-dbm-oracle-beta-0.16" rel="alternate"></link>
+    <link href="https://github.com/DataDog/datadog-agent/releases/tag/6.43.1-dbm-oracle-beta-0.16" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>nenadnoveljic</name>
@@ -7748,22 +7748,22 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from backoff - v2.0.3: Merge pull request #18 from lestrrat-go/topic/fix-v2-go-mod</title>
+    <title>Release notes from backoff - v2.0.2: Merge pull request #18 from lestrrat-go/topic/fix-v2-go-mod</title>
     <updated>2021-01-06T03:00:05Z</updated>
-    <id>tag:github.com,2008:Repository/118608673/v2.0.3</id>
+    <id>tag:github.com,2008:Repository/118608673/v2.0.2</id>
     <content type="html">&lt;p&gt;Fix go.mod&lt;/p&gt;</content>
-    <link href="https://github.com/lestrrat-go/backoff/releases/tag/v2.0.3" rel="alternate"></link>
+    <link href="https://github.com/lestrrat-go/backoff/releases/tag/v2.0.2" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>lestrrat</name>
     </author>
   </entry>
   <entry>
-    <title>Release notes from backoff - v2.0.2: Merge pull request #18 from lestrrat-go/topic/fix-v2-go-mod</title>
+    <title>Release notes from backoff - v2.0.3: Merge pull request #18 from lestrrat-go/topic/fix-v2-go-mod</title>
     <updated>2021-01-06T03:00:05Z</updated>
-    <id>tag:github.com,2008:Repository/118608673/v2.0.2</id>
+    <id>tag:github.com,2008:Repository/118608673/v2.0.3</id>
     <content type="html">&lt;p&gt;Fix go.mod&lt;/p&gt;</content>
-    <link href="https://github.com/lestrrat-go/backoff/releases/tag/v2.0.2" rel="alternate"></link>
+    <link href="https://github.com/lestrrat-go/backoff/releases/tag/v2.0.3" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>lestrrat</name>
