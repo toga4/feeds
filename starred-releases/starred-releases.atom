@@ -70,6 +70,17 @@
     </author>
   </entry>
   <entry>
+    <title>Release notes from cloud-spanner-emulator - v1.5.3</title>
+    <updated>2023-04-05T11:27:13Z</updated>
+    <id>tag:github.com,2008:Repository/251420886/v1.5.3</id>
+    <content type="html">&lt;h3&gt;Bug Fixes&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Fixes error for failing to infer the type of null-valued untyped parameters for DATE and TIMESTAMP columns&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Fix MacOS schema parser build&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3&gt;Incompatible Changes&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Extend support for disable_query_null_filtered_index_check as a flag and statement level hint&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3&gt;New Feature&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;upgrade abseil dependency&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;upgrade gcc version&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;upgrade zetasql dependency&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;upgrade distroless docker build&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;autoformat WORKSPACE and auto update dependancies using gazelle&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/GoogleCloudPlatform/cloud-spanner-emulator/releases/tag/v1.5.3" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>arunmoezhi</name>
+    </author>
+  </entry>
+  <entry>
     <title>Release notes from casbin - v2.66.2</title>
     <updated>2023-04-05T01:23:09Z</updated>
     <id>tag:github.com,2008:Repository/87617508/v2.66.2</id>
@@ -158,11 +169,11 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from opentelemetry-operations-go - propagator/v0.37.0: Prepare release v0.37.0/1.13.0 (#619)</title>
+    <title>Release notes from opentelemetry-operations-go - exporter/collector/googlemanagedprometheus/v0.37.0: Prepare release v0.37.0/1.13.0 (#619)</title>
     <updated>2023-04-04T17:27:38Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/propagator/v0.37.0</id>
+    <id>tag:github.com,2008:Repository/244484581/exporter/collector/googlemanagedprometheus/v0.37.0</id>
     <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make prepare-release v0.37.0/1.13.0&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/propagator%2Fv0.37.0" rel="alternate"></link>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/exporter%2Fcollector%2Fgooglemanagedprometheus%2Fv0.37.0" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>damemi</name>
@@ -180,44 +191,11 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from opentelemetry-operations-go - example/trace/http/v0.37.0: Prepare release v0.37.0/1.13.0 (#619)</title>
+    <title>Release notes from opentelemetry-operations-go - internal/cloudmock/v0.37.0: Prepare release v0.37.0/1.13.0 (#619)</title>
     <updated>2023-04-04T17:27:38Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/example/trace/http/v0.37.0</id>
+    <id>tag:github.com,2008:Repository/244484581/internal/cloudmock/v0.37.0</id>
     <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make prepare-release v0.37.0/1.13.0&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/example%2Ftrace%2Fhttp%2Fv0.37.0" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>damemi</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from opentelemetry-operations-go - exporter/collector/googlemanagedprometheus/v0.37.0: Prepare release v0.37.0/1.13.0 (#619)</title>
-    <updated>2023-04-04T17:27:38Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/exporter/collector/googlemanagedprometheus/v0.37.0</id>
-    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make prepare-release v0.37.0/1.13.0&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/exporter%2Fcollector%2Fgooglemanagedprometheus%2Fv0.37.0" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>damemi</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from opentelemetry-operations-go - exporter/collector/v0.37.0: Prepare release v0.37.0/1.13.0 (#619)</title>
-    <updated>2023-04-04T17:27:38Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/exporter/collector/v0.37.0</id>
-    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make prepare-release v0.37.0/1.13.0&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/exporter%2Fcollector%2Fv0.37.0" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>damemi</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from opentelemetry-operations-go - exporter/metric/v0.37.0: Prepare release v0.37.0/1.13.0 (#619)</title>
-    <updated>2023-04-04T17:27:38Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/exporter/metric/v0.37.0</id>
-    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make prepare-release v0.37.0/1.13.0&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/exporter%2Fmetric%2Fv0.37.0" rel="alternate"></link>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/internal%2Fcloudmock%2Fv0.37.0" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>damemi</name>
@@ -235,11 +213,22 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from opentelemetry-operations-go - internal/cloudmock/v0.37.0: Prepare release v0.37.0/1.13.0 (#619)</title>
+    <title>Release notes from opentelemetry-operations-go - exporter/metric/v0.37.0: Prepare release v0.37.0/1.13.0 (#619)</title>
     <updated>2023-04-04T17:27:38Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/internal/cloudmock/v0.37.0</id>
+    <id>tag:github.com,2008:Repository/244484581/exporter/metric/v0.37.0</id>
     <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make prepare-release v0.37.0/1.13.0&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/internal%2Fcloudmock%2Fv0.37.0" rel="alternate"></link>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/exporter%2Fmetric%2Fv0.37.0" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>damemi</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from opentelemetry-operations-go - exporter/collector/v0.37.0: Prepare release v0.37.0/1.13.0 (#619)</title>
+    <updated>2023-04-04T17:27:38Z</updated>
+    <id>tag:github.com,2008:Repository/244484581/exporter/collector/v0.37.0</id>
+    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make prepare-release v0.37.0/1.13.0&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/exporter%2Fcollector%2Fv0.37.0" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>damemi</name>
@@ -257,14 +246,25 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from datadog-agent - 6.43.1-dbm-oracle-beta-0.17</title>
-    <updated>2023-04-04T16:38:26Z</updated>
-    <id>tag:github.com,2008:Repository/49970739/6.43.1-dbm-oracle-beta-0.17</id>
-    <content type="html">&lt;p&gt;dbm-oracle-beta-0.16&lt;/p&gt;</content>
-    <link href="https://github.com/DataDog/datadog-agent/releases/tag/6.43.1-dbm-oracle-beta-0.17" rel="alternate"></link>
+    <title>Release notes from opentelemetry-operations-go - example/trace/http/v0.37.0: Prepare release v0.37.0/1.13.0 (#619)</title>
+    <updated>2023-04-04T17:27:38Z</updated>
+    <id>tag:github.com,2008:Repository/244484581/example/trace/http/v0.37.0</id>
+    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make prepare-release v0.37.0/1.13.0&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/example%2Ftrace%2Fhttp%2Fv0.37.0" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
-      <name>nenadnoveljic</name>
+      <name>damemi</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from opentelemetry-operations-go - propagator/v0.37.0: Prepare release v0.37.0/1.13.0 (#619)</title>
+    <updated>2023-04-04T17:27:38Z</updated>
+    <id>tag:github.com,2008:Repository/244484581/propagator/v0.37.0</id>
+    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make prepare-release v0.37.0/1.13.0&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/propagator%2Fv0.37.0" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>damemi</name>
     </author>
   </entry>
   <entry>
@@ -273,6 +273,17 @@
     <id>tag:github.com,2008:Repository/49970739/7.43.1-dbm-oracle-beta-0.17</id>
     <content type="html">&lt;p&gt;dbm-oracle-beta-0.16&lt;/p&gt;</content>
     <link href="https://github.com/DataDog/datadog-agent/releases/tag/7.43.1-dbm-oracle-beta-0.17" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>nenadnoveljic</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from datadog-agent - 6.43.1-dbm-oracle-beta-0.17</title>
+    <updated>2023-04-04T16:38:26Z</updated>
+    <id>tag:github.com,2008:Repository/49970739/6.43.1-dbm-oracle-beta-0.17</id>
+    <content type="html">&lt;p&gt;dbm-oracle-beta-0.16&lt;/p&gt;</content>
+    <link href="https://github.com/DataDog/datadog-agent/releases/tag/6.43.1-dbm-oracle-beta-0.17" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>nenadnoveljic</name>
@@ -356,22 +367,22 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from datadog-agent - 6.43.1-dbm-oracle-beta-0.16</title>
+    <title>Release notes from datadog-agent - 7.43.1-dbm-oracle-beta-0.16</title>
     <updated>2023-04-03T08:00:11Z</updated>
-    <id>tag:github.com,2008:Repository/49970739/6.43.1-dbm-oracle-beta-0.16</id>
+    <id>tag:github.com,2008:Repository/49970739/7.43.1-dbm-oracle-beta-0.16</id>
     <content type="html">&lt;p&gt;dbm-oracle-beta-0.16&lt;/p&gt;</content>
-    <link href="https://github.com/DataDog/datadog-agent/releases/tag/6.43.1-dbm-oracle-beta-0.16" rel="alternate"></link>
+    <link href="https://github.com/DataDog/datadog-agent/releases/tag/7.43.1-dbm-oracle-beta-0.16" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>nenadnoveljic</name>
     </author>
   </entry>
   <entry>
-    <title>Release notes from datadog-agent - 7.43.1-dbm-oracle-beta-0.16</title>
+    <title>Release notes from datadog-agent - 6.43.1-dbm-oracle-beta-0.16</title>
     <updated>2023-04-03T08:00:11Z</updated>
-    <id>tag:github.com,2008:Repository/49970739/7.43.1-dbm-oracle-beta-0.16</id>
+    <id>tag:github.com,2008:Repository/49970739/6.43.1-dbm-oracle-beta-0.16</id>
     <content type="html">&lt;p&gt;dbm-oracle-beta-0.16&lt;/p&gt;</content>
-    <link href="https://github.com/DataDog/datadog-agent/releases/tag/7.43.1-dbm-oracle-beta-0.16" rel="alternate"></link>
+    <link href="https://github.com/DataDog/datadog-agent/releases/tag/6.43.1-dbm-oracle-beta-0.16" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>nenadnoveljic</name>
@@ -466,22 +477,22 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from datadog-agent - 7.43.1-dbm-oracle-beta-0.15</title>
+    <title>Release notes from datadog-agent - 6.43.1-dbm-oracle-beta-0.15</title>
     <updated>2023-03-31T20:27:12Z</updated>
-    <id>tag:github.com,2008:Repository/49970739/7.43.1-dbm-oracle-beta-0.15</id>
+    <id>tag:github.com,2008:Repository/49970739/6.43.1-dbm-oracle-beta-0.15</id>
     <content type="html">&lt;p&gt;dbm-oracle-beta-0.15&lt;/p&gt;</content>
-    <link href="https://github.com/DataDog/datadog-agent/releases/tag/7.43.1-dbm-oracle-beta-0.15" rel="alternate"></link>
+    <link href="https://github.com/DataDog/datadog-agent/releases/tag/6.43.1-dbm-oracle-beta-0.15" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>nenadnoveljic</name>
     </author>
   </entry>
   <entry>
-    <title>Release notes from datadog-agent - 6.43.1-dbm-oracle-beta-0.15</title>
+    <title>Release notes from datadog-agent - 7.43.1-dbm-oracle-beta-0.15</title>
     <updated>2023-03-31T20:27:12Z</updated>
-    <id>tag:github.com,2008:Repository/49970739/6.43.1-dbm-oracle-beta-0.15</id>
+    <id>tag:github.com,2008:Repository/49970739/7.43.1-dbm-oracle-beta-0.15</id>
     <content type="html">&lt;p&gt;dbm-oracle-beta-0.15&lt;/p&gt;</content>
-    <link href="https://github.com/DataDog/datadog-agent/releases/tag/6.43.1-dbm-oracle-beta-0.15" rel="alternate"></link>
+    <link href="https://github.com/DataDog/datadog-agent/releases/tag/7.43.1-dbm-oracle-beta-0.15" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>nenadnoveljic</name>
@@ -653,17 +664,6 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from spanner-cli - v0.9.17</title>
-    <updated>2023-03-27T05:30:55Z</updated>
-    <id>tag:github.com,2008:Repository/152699846/v0.9.17</id>
-    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;Features&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Support &lt;code&gt;THEN RETURN&lt;/code&gt; in DML statement (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1638881708&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/cloudspannerecosystem/spanner-cli/issues/152&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/cloudspannerecosystem/spanner-cli/pull/152/hovercard&#34; href=&#34;https://github.com/cloudspannerecosystem/spanner-cli/pull/152&#34;&gt;#152&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;Bug Fixes&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Preserve comments for SQL and fix some comment handling (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1637448694&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/cloudspannerecosystem/spanner-cli/issues/150&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/cloudspannerecosystem/spanner-cli/pull/150/hovercard&#34; href=&#34;https://github.com/cloudspannerecosystem/spanner-cli/pull/150&#34;&gt;#150&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;Breaking Changes&#xA;&lt;ul&gt;&#xA;&lt;li&gt;None&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/cloudspannerecosystem/spanner-cli/releases/tag/v0.9.17" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>yfuruyama</name>
-    </author>
-  </entry>
-  <entry>
     <title>Release notes from task - v3.23.0</title>
     <updated>2023-03-27T00:47:54Z</updated>
     <id>tag:github.com,2008:Repository/83252983/v3.23.0</id>
@@ -774,6 +774,17 @@
     </author>
   </entry>
   <entry>
+    <title>Release notes from cloud-spanner-emulator - v1.5.2</title>
+    <updated>2023-03-24T05:17:44Z</updated>
+    <id>tag:github.com,2008:Repository/251420886/v1.5.2</id>
+    <content type="html">&lt;h3&gt;New Features&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;autogenerate information schema catalog data&lt;/li&gt;&#xA;&lt;li&gt;add a devcontainer for emulator&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/GoogleCloudPlatform/cloud-spanner-emulator/releases/tag/v1.5.2" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>arunmoezhi</name>
+    </author>
+  </entry>
+  <entry>
     <title>Release notes from opentelemetry-go-contrib - Release v1.16.0-rc.2/v0.41.0-rc.2/v0.10.0-rc.2</title>
     <updated>2023-03-23T15:49:54Z</updated>
     <id>tag:github.com,2008:Repository/242202166/v1.16.0-rc.2</id>
@@ -807,22 +818,22 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from opentelemetry-go-contrib - samplers/aws/xray/v0.10.0-rc.2</title>
+    <title>Release notes from opentelemetry-go-contrib - samplers/jaegerremote/v0.10.0-rc.2</title>
     <updated>2023-03-23T15:43:21Z</updated>
-    <id>tag:github.com,2008:Repository/242202166/samplers/aws/xray/v0.10.0-rc.2</id>
+    <id>tag:github.com,2008:Repository/242202166/samplers/jaegerremote/v0.10.0-rc.2</id>
     <content type="html">&lt;p&gt;Module set experimental-samplers, Version v0.10.0-rc.2&lt;/p&gt;</content>
-    <link href="https://github.com/open-telemetry/opentelemetry-go-contrib/releases/tag/samplers%2Faws%2Fxray%2Fv0.10.0-rc.2" rel="alternate"></link>
+    <link href="https://github.com/open-telemetry/opentelemetry-go-contrib/releases/tag/samplers%2Fjaegerremote%2Fv0.10.0-rc.2" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>MrAlias</name>
     </author>
   </entry>
   <entry>
-    <title>Release notes from opentelemetry-go-contrib - samplers/jaegerremote/v0.10.0-rc.2</title>
+    <title>Release notes from opentelemetry-go-contrib - samplers/aws/xray/v0.10.0-rc.2</title>
     <updated>2023-03-23T15:43:21Z</updated>
-    <id>tag:github.com,2008:Repository/242202166/samplers/jaegerremote/v0.10.0-rc.2</id>
+    <id>tag:github.com,2008:Repository/242202166/samplers/aws/xray/v0.10.0-rc.2</id>
     <content type="html">&lt;p&gt;Module set experimental-samplers, Version v0.10.0-rc.2&lt;/p&gt;</content>
-    <link href="https://github.com/open-telemetry/opentelemetry-go-contrib/releases/tag/samplers%2Fjaegerremote%2Fv0.10.0-rc.2" rel="alternate"></link>
+    <link href="https://github.com/open-telemetry/opentelemetry-go-contrib/releases/tag/samplers%2Faws%2Fxray%2Fv0.10.0-rc.2" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>MrAlias</name>
@@ -961,22 +972,22 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from opentelemetry-go - exporters/stdout/stdouttrace/v1.15.0-rc.2</title>
+    <title>Release notes from opentelemetry-go - exporters/zipkin/v1.15.0-rc.2</title>
     <updated>2023-03-23T14:48:55Z</updated>
-    <id>tag:github.com,2008:Repository/187086161/exporters/stdout/stdouttrace/v1.15.0-rc.2</id>
+    <id>tag:github.com,2008:Repository/187086161/exporters/zipkin/v1.15.0-rc.2</id>
     <content type="html">&lt;p&gt;Module set stable-v1, Version v1.15.0-rc.2&lt;/p&gt;</content>
-    <link href="https://github.com/open-telemetry/opentelemetry-go/releases/tag/exporters%2Fstdout%2Fstdouttrace%2Fv1.15.0-rc.2" rel="alternate"></link>
+    <link href="https://github.com/open-telemetry/opentelemetry-go/releases/tag/exporters%2Fzipkin%2Fv1.15.0-rc.2" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>MrAlias</name>
     </author>
   </entry>
   <entry>
-    <title>Release notes from opentelemetry-go - exporters/zipkin/v1.15.0-rc.2</title>
+    <title>Release notes from opentelemetry-go - exporters/stdout/stdouttrace/v1.15.0-rc.2</title>
     <updated>2023-03-23T14:48:55Z</updated>
-    <id>tag:github.com,2008:Repository/187086161/exporters/zipkin/v1.15.0-rc.2</id>
+    <id>tag:github.com,2008:Repository/187086161/exporters/stdout/stdouttrace/v1.15.0-rc.2</id>
     <content type="html">&lt;p&gt;Module set stable-v1, Version v1.15.0-rc.2&lt;/p&gt;</content>
-    <link href="https://github.com/open-telemetry/opentelemetry-go/releases/tag/exporters%2Fzipkin%2Fv1.15.0-rc.2" rel="alternate"></link>
+    <link href="https://github.com/open-telemetry/opentelemetry-go/releases/tag/exporters%2Fstdout%2Fstdouttrace%2Fv1.15.0-rc.2" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>MrAlias</name>
@@ -1665,17 +1676,6 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from spanner-cli - v0.9.16</title>
-    <updated>2023-03-07T02:26:05Z</updated>
-    <id>tag:github.com,2008:Repository/152699846/v0.9.16</id>
-    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;Features&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Support accessing database with fine-grained access control (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1610896796&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/cloudspannerecosystem/spanner-cli/issues/147&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/cloudspannerecosystem/spanner-cli/pull/147/hovercard&#34; href=&#34;https://github.com/cloudspannerecosystem/spanner-cli/pull/147&#34;&gt;#147&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;Bug Fixes&#xA;&lt;ul&gt;&#xA;&lt;li&gt;None&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;Breaking Changes&#xA;&lt;ul&gt;&#xA;&lt;li&gt;None&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/cloudspannerecosystem/spanner-cli/releases/tag/v0.9.16" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>yfuruyama</name>
-    </author>
-  </entry>
-  <entry>
     <title>Release notes from skaffold - v2.2.0 Release</title>
     <updated>2023-03-06T22:29:58Z</updated>
     <id>tag:github.com,2008:Repository/118654121/v2.2.0</id>
@@ -1706,6 +1706,17 @@
     <summary type="html"></summary>
     <author>
       <name>andykuszyk-form3</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from cloud-spanner-emulator - v1.5.1</title>
+    <updated>2023-03-06T07:07:55Z</updated>
+    <id>tag:github.com,2008:Repository/251420886/v1.5.1</id>
+    <content type="html">&lt;h3&gt;Bug Fixes&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Allow using managed index names as query hints in the emulator&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3&gt;New Features&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Add PG datetime evaluators to the Emulator function catalog.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;update docker to fix data file read issue&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Add database dialect support to the emulator.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Add PG map_double_to_int evaluator to the Emulator function catalog.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Invoker Rights Views Support.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Add support of DML THEN RETURN. However, the generated columns in THEN RETURN clause is currently evaluated as null value. The GC support in THEN RETURN is planned.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3&gt;Significant Changes&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Support generated primary key mutations in Emulator.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Adopt the new operations.proto and ddl_parser.cc.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/GoogleCloudPlatform/cloud-spanner-emulator/releases/tag/v1.5.1" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>arunmoezhi</name>
     </author>
   </entry>
   <entry>
@@ -2809,6 +2820,17 @@
     </author>
   </entry>
   <entry>
+    <title>Release notes from cloud-spanner-emulator - v1.5.0</title>
+    <updated>2023-01-25T08:42:21Z</updated>
+    <id>tag:github.com,2008:Repository/251420886/v1.5.0</id>
+    <content type="html">&lt;h3&gt;New Feature&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;populate information schema columns semi-automatically&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;upgrade most of the build dependancies and remove unneeded ones&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;use column names instead of numbers when reading from csv&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Add tests for timestamp from proto conversion&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Add tests for duration from proto conversion&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Add a security policy&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;remove python six dependancy&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Update the grammar file for DDL parser&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;autoformat WORKSPACE and auto update dependancies using gazelle&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;upgrade dependancies&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/GoogleCloudPlatform/cloud-spanner-emulator/releases/tag/v1.5.0" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>arunmoezhi</name>
+    </author>
+  </entry>
+  <entry>
     <title>Release notes from expr - v1.10.5</title>
     <updated>2023-01-24T18:57:06Z</updated>
     <id>tag:github.com,2008:Repository/140958903/v1.10.5</id>
@@ -3367,6 +3389,17 @@
     <summary type="html"></summary>
     <author>
       <name>github-actions[bot]</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from cloud-spanner-emulator - v1.4.9</title>
+    <updated>2022-12-28T10:17:32Z</updated>
+    <id>tag:github.com,2008:Repository/251420886/v1.4.9</id>
+    <content type="html">&lt;h3&gt;New Feature&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Enable WITH expression in emulator&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Add tests for timestamp to proto conversion&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Refactoring information schema&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;update information schema for SPANNER_STATISTICS table&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;use a specific version of bazel for consistent builds&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;upgrade bazel from 5.2.0 to 5.3.0&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;upgrade bazel from 5.3.0 to 5.4.0&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3&gt;Significant Changes&lt;/h3&gt;&#xA;&lt;p&gt;update internal configuration files&lt;/p&gt;</content>
+    <link href="https://github.com/GoogleCloudPlatform/cloud-spanner-emulator/releases/tag/v1.4.9" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>arunmoezhi</name>
     </author>
   </entry>
   <entry>
@@ -4041,6 +4074,17 @@
     </author>
   </entry>
   <entry>
+    <title>Release notes from cloud-spanner-emulator - v1.4.8</title>
+    <updated>2022-11-23T07:44:19Z</updated>
+    <id>tag:github.com,2008:Repository/251420886/v1.4.8</id>
+    <content type="html">&lt;h3&gt;New Feature&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;enable DEFAULT values in emulator&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/GoogleCloudPlatform/cloud-spanner-emulator/releases/tag/v1.4.8" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>arunmoezhi</name>
+    </author>
+  </entry>
+  <entry>
     <title>Release notes from get-gke-credentials - v1.0.0</title>
     <updated>2022-11-22T21:51:22Z</updated>
     <id>tag:github.com,2008:Repository/308778062/v1.0.0</id>
@@ -4159,6 +4203,17 @@
     <summary type="html"></summary>
     <author>
       <name>github-actions[bot]</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from cloud-spanner-emulator - v1.4.7</title>
+    <updated>2022-11-09T08:11:31Z</updated>
+    <id>tag:github.com,2008:Repository/251420886/v1.4.7</id>
+    <content type="html">&lt;h3&gt;New Feature&lt;/h3&gt;&#xA;&lt;div class=&#34;snippet-clipboard-content notranslate position-relative overflow-auto&#34; data-snippet-clipboard-copy-content=&#34;*   enable granular instances in emulator&#xA;&#xA;*   Added support of `disable_inline` hint to the cloud spanner.&#xA;&#xA;*   upgrade go version to fix a vulnerability&#xA;&#xA;*   support the hint hash_join_execution in emulator&#xA;&#xA;*   upgrade zetasql&#34;&gt;&lt;pre class=&#34;notranslate&#34;&gt;&lt;code&gt;*   enable granular instances in emulator&#xA;&#xA;*   Added support of `disable_inline` hint to the cloud spanner.&#xA;&#xA;*   upgrade go version to fix a vulnerability&#xA;&#xA;*   support the hint hash_join_execution in emulator&#xA;&#xA;*   upgrade zetasql&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content>
+    <link href="https://github.com/GoogleCloudPlatform/cloud-spanner-emulator/releases/tag/v1.4.7" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>gauravsnj</name>
     </author>
   </entry>
   <entry>
@@ -4602,14 +4657,14 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from spanner-cli - v0.9.15</title>
-    <updated>2022-09-25T23:31:47Z</updated>
-    <id>tag:github.com,2008:Repository/152699846/v0.9.15</id>
-    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;Features&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Support &lt;code&gt;ANALYZE&lt;/code&gt; statement (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1375583224&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/cloudspannerecosystem/spanner-cli/issues/141&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/cloudspannerecosystem/spanner-cli/pull/141/hovercard&#34; href=&#34;https://github.com/cloudspannerecosystem/spanner-cli/pull/141&#34;&gt;#141&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;Bug Fixes&#xA;&lt;ul&gt;&#xA;&lt;li&gt;None&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;Breaking Changes&#xA;&lt;ul&gt;&#xA;&lt;li&gt;None&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/cloudspannerecosystem/spanner-cli/releases/tag/v0.9.15" rel="alternate"></link>
+    <title>Release notes from cloud-spanner-emulator - v1.4.6</title>
+    <updated>2022-09-26T05:46:14Z</updated>
+    <id>tag:github.com,2008:Repository/251420886/v1.4.6</id>
+    <content type="html">&lt;h3&gt;New Features&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;upgrade go version to fix a vulnerability&lt;/li&gt;&#xA;&lt;li&gt;bazel multi architecture docker file&lt;/li&gt;&#xA;&lt;li&gt;Remove changelog file. Each release will have its own changelog&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/GoogleCloudPlatform/cloud-spanner-emulator/releases/tag/v1.4.6" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
-      <name>yfuruyama</name>
+      <name>arunmoezhi</name>
     </author>
   </entry>
   <entry>
@@ -4767,17 +4822,6 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from spanner-cli - v0.9.14</title>
-    <updated>2022-09-16T01:42:23Z</updated>
-    <id>tag:github.com,2008:Repository/152699846/v0.9.14</id>
-    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;Features&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Add fine-grained ACL support (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1367412889&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/cloudspannerecosystem/spanner-cli/issues/140&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/cloudspannerecosystem/spanner-cli/pull/140/hovercard&#34; href=&#34;https://github.com/cloudspannerecosystem/spanner-cli/pull/140&#34;&gt;#140&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;Bug Fixes&#xA;&lt;ul&gt;&#xA;&lt;li&gt;None&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;Breaking Changes&#xA;&lt;ul&gt;&#xA;&lt;li&gt;None&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/cloudspannerecosystem/spanner-cli/releases/tag/v0.9.14" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>yfuruyama</name>
-    </author>
-  </entry>
-  <entry>
     <title>Release notes from helmfile - v0.145.5</title>
     <updated>2022-09-14T01:15:11Z</updated>
     <id>tag:github.com,2008:Repository/474521466/v0.145.5</id>
@@ -4808,6 +4852,17 @@
     <summary type="html"></summary>
     <author>
       <name>nvanbenschoten</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from cloud-spanner-emulator - v1.4.5</title>
+    <updated>2022-09-09T12:58:42Z</updated>
+    <id>tag:github.com,2008:Repository/251420886/v1.4.5</id>
+    <content type="html">&lt;h3&gt;New Features&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Add creation time to instance API&lt;/li&gt;&#xA;&lt;li&gt;Add update time to instance API&lt;/li&gt;&#xA;&lt;li&gt;Change type of COLUMN_DEFAULT in INFORMATION_SCHEMA from BYTES to STRING&lt;/li&gt;&#xA;&lt;li&gt;The Spanner emulator will enforce a maximum number of elements&lt;br&gt;&#xA;in an IN list, to match that enforced by Spanner.&lt;/li&gt;&#xA;&lt;li&gt;upgrade bazel and almost all of the external dependencies&lt;/li&gt;&#xA;&lt;li&gt;Add support for Default Primary Key Columns.&lt;/li&gt;&#xA;&lt;li&gt;update to ubuntu 1804 and reuse existing ubuntu docker file for release&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/GoogleCloudPlatform/cloud-spanner-emulator/releases/tag/v1.4.5" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>arunmoezhi</name>
     </author>
   </entry>
   <entry>
@@ -5042,6 +5097,17 @@
     </author>
   </entry>
   <entry>
+    <title>Release notes from cloud-spanner-emulator - v1.4.3</title>
+    <updated>2022-08-10T12:15:34Z</updated>
+    <id>tag:github.com,2008:Repository/251420886/v1.4.3</id>
+    <content type="html">&lt;h3&gt;New Features&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Add support for INFORMATION_SCHEMA.TABLES ROW_DELETION_POLICY_EXPRESSION column&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Support ANALYZE parsing in emulator and ignore the schema change&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Add INFORMATION_SCHEMA.DATABASE_OPTIONS to spanner emulator.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/GoogleCloudPlatform/cloud-spanner-emulator/releases/tag/v1.4.3" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>arunmoezhi</name>
+    </author>
+  </entry>
+  <entry>
     <title>Release notes from build-push-action - v3.1.1</title>
     <updated>2022-08-05T13:29:18Z</updated>
     <id>tag:github.com,2008:Repository/241092383/v3.1.1</id>
@@ -5185,17 +5251,6 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from spanner-cli - v0.9.13</title>
-    <updated>2022-07-12T07:37:30Z</updated>
-    <id>tag:github.com,2008:Repository/152699846/v0.9.13</id>
-    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;Features&#xA;&lt;ul&gt;&#xA;&lt;li&gt;New option called &lt;code&gt;--history&lt;/code&gt; to configure history file path (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1301636870&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/cloudspannerecosystem/spanner-cli/issues/138&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/cloudspannerecosystem/spanner-cli/pull/138/hovercard&#34; href=&#34;https://github.com/cloudspannerecosystem/spanner-cli/pull/138&#34;&gt;#138&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;Bug Fixes&#xA;&lt;ul&gt;&#xA;&lt;li&gt;None&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;Breaking Changes&#xA;&lt;ul&gt;&#xA;&lt;li&gt;None&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/cloudspannerecosystem/spanner-cli/releases/tag/v0.9.13" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>yfuruyama</name>
-    </author>
-  </entry>
-  <entry>
     <title>Release notes from setup-go - Update actions/cache version to 3.0.0</title>
     <updated>2022-07-11T14:01:33Z</updated>
     <id>tag:github.com,2008:Repository/192624594/v3.2.1</id>
@@ -5292,17 +5347,6 @@
     <summary type="html"></summary>
     <author>
       <name>github-actions[bot]</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from spanner-cli - v0.9.12</title>
-    <updated>2022-06-13T01:38:08Z</updated>
-    <id>tag:github.com,2008:Repository/152699846/v0.9.12</id>
-    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;Features&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Remove EXPERIMENTAL flag for query execution plan (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1210592610&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/cloudspannerecosystem/spanner-cli/issues/131&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/cloudspannerecosystem/spanner-cli/pull/131/hovercard&#34; href=&#34;https://github.com/cloudspannerecosystem/spanner-cli/pull/131&#34;&gt;#131&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;Handles SIGINT (Ctr-C) and gracefully stops an inflight request. (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1264051593&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/cloudspannerecosystem/spanner-cli/issues/134&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/cloudspannerecosystem/spanner-cli/pull/134/hovercard&#34; href=&#34;https://github.com/cloudspannerecosystem/spanner-cli/pull/134&#34;&gt;#134&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;Support generic DDLs (Support CREATE/ALTER/DROP CHANGE STREAM) (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1265650203&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/cloudspannerecosystem/spanner-cli/issues/136&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/cloudspannerecosystem/spanner-cli/pull/136/hovercard&#34; href=&#34;https://github.com/cloudspannerecosystem/spanner-cli/pull/136&#34;&gt;#136&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;Bug Fixes&#xA;&lt;ul&gt;&#xA;&lt;li&gt;None&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;Breaking Changes&#xA;&lt;ul&gt;&#xA;&lt;li&gt;None&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/cloudspannerecosystem/spanner-cli/releases/tag/v0.9.12" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>yfuruyama</name>
     </author>
   </entry>
   <entry>
@@ -5732,17 +5776,6 @@
     <summary type="html"></summary>
     <author>
       <name>github-actions[bot]</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from spanner-cli - v0.9.11</title>
-    <updated>2022-04-20T00:09:46Z</updated>
-    <id>tag:github.com,2008:Repository/152699846/v0.9.11</id>
-    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;Features&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Support Transaction Tags and Request Tags (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1205709061&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/cloudspannerecosystem/spanner-cli/issues/128&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/cloudspannerecosystem/spanner-cli/pull/128/hovercard&#34; href=&#34;https://github.com/cloudspannerecosystem/spanner-cli/pull/128&#34;&gt;#128&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;Bug Fixes&#xA;&lt;ul&gt;&#xA;&lt;li&gt;None&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;Breaking Changes&#xA;&lt;ul&gt;&#xA;&lt;li&gt;None&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/cloudspannerecosystem/spanner-cli/releases/tag/v0.9.11" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>yfuruyama</name>
     </author>
   </entry>
   <entry>
@@ -6216,17 +6249,6 @@
     <summary type="html"></summary>
     <author>
       <name>nikolaydubina</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from spanner-cli - v0.9.10</title>
-    <updated>2022-01-25T13:11:18Z</updated>
-    <id>tag:github.com,2008:Repository/152699846/v0.9.10</id>
-    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;Features&#xA;&lt;ul&gt;&#xA;&lt;li&gt;None&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;Bug Fixes&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Fix decode algorithm for bytes data (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1113315732&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/cloudspannerecosystem/spanner-cli/issues/123&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/cloudspannerecosystem/spanner-cli/pull/123/hovercard&#34; href=&#34;https://github.com/cloudspannerecosystem/spanner-cli/pull/123&#34;&gt;#123&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;Breaking Changes&#xA;&lt;ul&gt;&#xA;&lt;li&gt;None&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/cloudspannerecosystem/spanner-cli/releases/tag/v0.9.10" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>yfuruyama</name>
     </author>
   </entry>
   <entry>
@@ -6879,17 +6901,6 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from spanner-cli - v0.9.9</title>
-    <updated>2021-08-31T13:17:28Z</updated>
-    <id>tag:github.com,2008:Repository/152699846/v0.9.9</id>
-    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;Features&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Support JSON data type (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;983386867&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/cloudspannerecosystem/spanner-cli/issues/118&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/cloudspannerecosystem/spanner-cli/pull/118/hovercard&#34; href=&#34;https://github.com/cloudspannerecosystem/spanner-cli/pull/118&#34;&gt;#118&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;Support &lt;code&gt;ALTER STATISTICS&lt;/code&gt; statement (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;983450950&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/cloudspannerecosystem/spanner-cli/issues/119&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/cloudspannerecosystem/spanner-cli/pull/119/hovercard&#34; href=&#34;https://github.com/cloudspannerecosystem/spanner-cli/pull/119&#34;&gt;#119&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;Show optimizer statistics package when used with --verbose mode (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;983450950&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/cloudspannerecosystem/spanner-cli/issues/119&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/cloudspannerecosystem/spanner-cli/pull/119/hovercard&#34; href=&#34;https://github.com/cloudspannerecosystem/spanner-cli/pull/119&#34;&gt;#119&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;Bug Fixes&#xA;&lt;ul&gt;&#xA;&lt;li&gt;None&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;Breaking Changes&#xA;&lt;ul&gt;&#xA;&lt;li&gt;None&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/cloudspannerecosystem/spanner-cli/releases/tag/v0.9.9" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>yfuruyama</name>
-    </author>
-  </entry>
-  <entry>
     <title>Release notes from zapr - v1.1.0</title>
     <updated>2021-08-25T15:53:26Z</updated>
     <id>tag:github.com,2008:Repository/139176177/v1.1.0</id>
@@ -6920,17 +6931,6 @@
     <summary type="html"></summary>
     <author>
       <name>deankarn</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from spanner-cli - v0.9.8</title>
-    <updated>2021-08-21T09:36:22Z</updated>
-    <id>tag:github.com,2008:Repository/152699846/v0.9.8</id>
-    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;Features&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Support the following VIEW statements (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;975952546&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/cloudspannerecosystem/spanner-cli/issues/117&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/cloudspannerecosystem/spanner-cli/pull/117/hovercard&#34; href=&#34;https://github.com/cloudspannerecosystem/spanner-cli/pull/117&#34;&gt;#117&lt;/a&gt;)&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;code&gt;CREATE VIEW ...;&lt;/code&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;code&gt;CREATE OR REPLACE VIEW ...;&lt;/code&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;code&gt;DROP VIEW ...;&lt;/code&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;Bug Fixes&#xA;&lt;ul&gt;&#xA;&lt;li&gt;None&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;Breaking Changes&#xA;&lt;ul&gt;&#xA;&lt;li&gt;None&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/cloudspannerecosystem/spanner-cli/releases/tag/v0.9.8" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>yfuruyama</name>
     </author>
   </entry>
   <entry>
@@ -7363,22 +7363,22 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from triangula - v1.1.6</title>
+    <title>Release notes from triangula - v1.1.5</title>
     <updated>2021-05-11T13:31:09Z</updated>
-    <id>tag:github.com,2008:Repository/354015172/v1.1.6</id>
+    <id>tag:github.com,2008:Repository/354015172/v1.1.5</id>
     <content type="html">&lt;p&gt;Refactor for more flexibility&lt;/p&gt;</content>
-    <link href="https://github.com/rh12503/triangula/releases/tag/v1.1.6" rel="alternate"></link>
+    <link href="https://github.com/rh12503/triangula/releases/tag/v1.1.5" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>rh12503</name>
     </author>
   </entry>
   <entry>
-    <title>Release notes from triangula - v1.1.5</title>
+    <title>Release notes from triangula - v1.1.6</title>
     <updated>2021-05-11T13:31:09Z</updated>
-    <id>tag:github.com,2008:Repository/354015172/v1.1.5</id>
+    <id>tag:github.com,2008:Repository/354015172/v1.1.6</id>
     <content type="html">&lt;p&gt;Refactor for more flexibility&lt;/p&gt;</content>
-    <link href="https://github.com/rh12503/triangula/releases/tag/v1.1.5" rel="alternate"></link>
+    <link href="https://github.com/rh12503/triangula/releases/tag/v1.1.6" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>rh12503</name>
@@ -7748,22 +7748,22 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from backoff - v2.0.2: Merge pull request #18 from lestrrat-go/topic/fix-v2-go-mod</title>
+    <title>Release notes from backoff - v2.0.3: Merge pull request #18 from lestrrat-go/topic/fix-v2-go-mod</title>
     <updated>2021-01-06T03:00:05Z</updated>
-    <id>tag:github.com,2008:Repository/118608673/v2.0.2</id>
+    <id>tag:github.com,2008:Repository/118608673/v2.0.3</id>
     <content type="html">&lt;p&gt;Fix go.mod&lt;/p&gt;</content>
-    <link href="https://github.com/lestrrat-go/backoff/releases/tag/v2.0.2" rel="alternate"></link>
+    <link href="https://github.com/lestrrat-go/backoff/releases/tag/v2.0.3" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>lestrrat</name>
     </author>
   </entry>
   <entry>
-    <title>Release notes from backoff - v2.0.3: Merge pull request #18 from lestrrat-go/topic/fix-v2-go-mod</title>
+    <title>Release notes from backoff - v2.0.2: Merge pull request #18 from lestrrat-go/topic/fix-v2-go-mod</title>
     <updated>2021-01-06T03:00:05Z</updated>
-    <id>tag:github.com,2008:Repository/118608673/v2.0.3</id>
+    <id>tag:github.com,2008:Repository/118608673/v2.0.2</id>
     <content type="html">&lt;p&gt;Fix go.mod&lt;/p&gt;</content>
-    <link href="https://github.com/lestrrat-go/backoff/releases/tag/v2.0.3" rel="alternate"></link>
+    <link href="https://github.com/lestrrat-go/backoff/releases/tag/v2.0.2" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>lestrrat</name>
