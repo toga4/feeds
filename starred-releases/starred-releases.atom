@@ -1,8 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?><feed xmlns="http://www.w3.org/2005/Atom">
   <title>Releases from Starred by toga4</title>
   <id>https://toga4.github.io/feeds/starred-releases.atom</id>
-  <updated>2023-04-08T09:33:22Z</updated>
+  <updated>2023-04-09T16:08:53Z</updated>
   <link href="https://toga4.github.io/feeds/starred-releases.atom"></link>
+  <entry>
+    <title>Release notes from excelize - v2.7.1</title>
+    <updated>2023-04-09T16:08:53Z</updated>
+    <id>tag:github.com,2008:Repository/66841911/v2.7.1</id>
+    <content type="html">&lt;p&gt;We are pleased to announce the release of version 2.7.1. Featured are a handful of new areas of functionality and numerous bug fixes.&lt;/p&gt;&#xA;&lt;p&gt;A summary of changes is available in the &lt;a href=&#34;https://github.com/xuri/excelize/releases/tag/v2.7.1&#34;&gt;Release Notes&lt;/a&gt;. A full list of changes is available in the &lt;a href=&#34;https://github.com/xuri/excelize/compare/v2.7.0...v2.7.1&#34;&gt;changelog&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;h2&gt;Release Notes&lt;/h2&gt;&#xA;&lt;p&gt;The most notable changes in this release are:&lt;/p&gt;&#xA;&lt;h3&gt;Breaking Change&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Remove the &lt;code&gt;Color&lt;/code&gt; field in the &lt;code&gt;ChartLine&lt;/code&gt; data type&lt;/li&gt;&#xA;&lt;li&gt;Replace the data type &lt;code&gt;ShapeParagraph&lt;/code&gt; with &lt;code&gt;RichTextRun&lt;/code&gt;&lt;/li&gt;&#xA;&lt;li&gt;Remove the &lt;code&gt;Color&lt;/code&gt; field from the type &lt;code&gt;Shape&lt;/code&gt;, and uses the &lt;code&gt;Fill&lt;/code&gt; instead of it&lt;/li&gt;&#xA;&lt;li&gt;Remove the exported type &lt;code&gt;AutoFilterListOptions&lt;/code&gt;&lt;/li&gt;&#xA;&lt;li&gt;Rename the exported type &lt;code&gt;TableOptions&lt;/code&gt; to &lt;code&gt;Table&lt;/code&gt;&lt;/li&gt;&#xA;&lt;li&gt;The &lt;code&gt;AddChart&lt;/code&gt; function require using &lt;code&gt;ChartType&lt;/code&gt; enumeration value to specify the chart type&lt;/li&gt;&#xA;&lt;li&gt;Change 7 functions signature:&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Change the &lt;code&gt;func (f *File) AutoFilter(sheet, rangeRef string, opts *AutoFilterOptions) error&lt;/code&gt; to &lt;code&gt;func (f *File) AutoFilter(sheet, rangeRef string, opts []AutoFilterOptions) error&lt;/code&gt;&lt;/li&gt;&#xA;&lt;li&gt;Change the &lt;code&gt;func (f *File) AddPictureFromBytes(sheet, cell, name, extension string, file []byte, opts *GraphicOptions) error&lt;/code&gt; to &lt;code&gt;func (f *File) AddPictureFromBytes(sheet, cell string, pic *Picture) error&lt;/code&gt;&lt;/li&gt;&#xA;&lt;li&gt;Change the &lt;code&gt;func (f *File) GetPicture(sheet, cell string) (string, []byte, error)&lt;/code&gt; to &lt;code&gt;func (f *File) GetPictures(sheet, cell string) ([]Picture, error)&lt;/code&gt;&lt;/li&gt;&#xA;&lt;li&gt;Change the &lt;code&gt;func (f *File) AddVBAProject(bin string) error&lt;/code&gt; to &lt;code&gt;func (f *File) AddVBAProject(file []byte) error&lt;/code&gt;&lt;/li&gt;&#xA;&lt;li&gt;Change the &lt;code&gt;func (f *File) GetComments() (map[string][]Comment, error)&lt;/code&gt; to &lt;code&gt;func (f *File) GetComments(sheet string) ([]Comment, error)&lt;/code&gt;&lt;/li&gt;&#xA;&lt;li&gt;Change the &lt;code&gt;func (f *File) AddTable(sheet, rangeRef string, opts *TableOptions) error&lt;/code&gt; to &lt;code&gt;func (f *File) AddTable(sheet string, table *Table) error&lt;/code&gt;&lt;/li&gt;&#xA;&lt;li&gt;Change the &lt;code&gt;func (sw *StreamWriter) AddTable(rangeRef string, opts *TableOptions) error&lt;/code&gt; to &lt;code&gt;func (sw *StreamWriter) AddTable(table *Table) error&lt;/code&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3&gt;Notable Features&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Add new functions &lt;code&gt;SetSheetDimension&lt;/code&gt; and &lt;code&gt;GetSheetDimension&lt;/code&gt; for workbook dimension supports, related issue &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1570446885&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/qax-os/excelize/issues/1463&#34; data-hovercard-type=&#34;issue&#34; data-hovercard-url=&#34;/qax-os/excelize/issues/1463/hovercard&#34; href=&#34;https://github.com/qax-os/excelize/issues/1463&#34;&gt;#1463&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;The &lt;code&gt;NewStyle&lt;/code&gt; function support to create of 17 kinds of fill variants styles&lt;/li&gt;&#xA;&lt;li&gt;Increase max cell styles limit to 65430&lt;/li&gt;&#xA;&lt;li&gt;The &lt;code&gt;AddPicture&lt;/code&gt; function allowing insert BMP format images&lt;/li&gt;&#xA;&lt;li&gt;The &lt;code&gt;GetPictures&lt;/code&gt; function support to get multiple images in a cell&lt;/li&gt;&#xA;&lt;li&gt;The &lt;code&gt;SetConditionalFormat&lt;/code&gt; function support to creating a conditional format with a &#34;stop if true&#34; or &#34;icon sets&#34; rule&lt;/li&gt;&#xA;&lt;li&gt;The &lt;code&gt;SetConditionalFormat&lt;/code&gt; function support to set border color and create solid color for the color data bar, related issue &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1569625007&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/qax-os/excelize/issues/1462&#34; data-hovercard-type=&#34;issue&#34; data-hovercard-url=&#34;/qax-os/excelize/issues/1462/hovercard&#34; href=&#34;https://github.com/qax-os/excelize/issues/1462&#34;&gt;#1462&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;The &lt;code&gt;AddChart&lt;/code&gt; function support to set the format for the chart data series solid fill, related issue &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1588995250&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/qax-os/excelize/issues/1474&#34; data-hovercard-type=&#34;issue&#34; data-hovercard-url=&#34;/qax-os/excelize/issues/1474/hovercard&#34; href=&#34;https://github.com/qax-os/excelize/issues/1474&#34;&gt;#1474&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;The &lt;code&gt;AddChart&lt;/code&gt; function support to set the bubble size in a data series&lt;/li&gt;&#xA;&lt;li&gt;The &lt;code&gt;AddChart&lt;/code&gt; function support to specifies the values in second plot for the bar/pie of pie chart&lt;/li&gt;&#xA;&lt;li&gt;The &lt;code&gt;AddChart&lt;/code&gt; function support to set number format for chart data labels and axis, related issue &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1628857994&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/qax-os/excelize/issues/1499&#34; data-hovercard-type=&#34;issue&#34; data-hovercard-url=&#34;/qax-os/excelize/issues/1499/hovercard&#34; href=&#34;https://github.com/qax-os/excelize/issues/1499&#34;&gt;#1499&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;The &lt;code&gt;AddTable&lt;/code&gt; function support to specify if show header row of the table when create the table&lt;/li&gt;&#xA;&lt;li&gt;The &lt;code&gt;AddTable&lt;/code&gt; function support to validate table name, and added a new error constant &lt;code&gt;ErrTableNameLength&lt;/code&gt;, related issue &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1581466730&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/qax-os/excelize/issues/1468&#34; data-hovercard-type=&#34;issue&#34; data-hovercard-url=&#34;/qax-os/excelize/issues/1468/hovercard&#34; href=&#34;https://github.com/qax-os/excelize/issues/1468&#34;&gt;#1468&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;The &lt;code&gt;AutoFilter&lt;/code&gt; function support to add multiple filter columns when create auto filter&lt;/li&gt;&#xA;&lt;li&gt;The &lt;code&gt;CalcCellValue&lt;/code&gt; function support to specify if applying number format style for the cell calculation result&lt;/li&gt;&#xA;&lt;li&gt;The &lt;code&gt;CalcCellValue&lt;/code&gt; function support double-byte chars for formula functions: LEFT, LEN, LENB, MID, MIDB, RIGHT and RIGHTB, related issue &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1591086093&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/qax-os/excelize/issues/1476&#34; data-hovercard-type=&#34;issue&#34; data-hovercard-url=&#34;/qax-os/excelize/issues/1476/hovercard&#34; href=&#34;https://github.com/qax-os/excelize/issues/1476&#34;&gt;#1476&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;The &lt;code&gt;CalcCellValue&lt;/code&gt; function now returns formula error string in the result, and using the error message in returns error, related issue &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1621400030&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/qax-os/excelize/issues/1490&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/qax-os/excelize/pull/1490/hovercard&#34; href=&#34;https://github.com/qax-os/excelize/pull/1490&#34;&gt;#1490&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Case-insensitive for the image file extension name, related issue &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1635001394&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/qax-os/excelize/issues/1503&#34; data-hovercard-type=&#34;issue&#34; data-hovercard-url=&#34;/qax-os/excelize/issues/1503/hovercard&#34; href=&#34;https://github.com/qax-os/excelize/issues/1503&#34;&gt;#1503&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;The stream writer will be skip set cell value when got nil value, related issue &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;776408397&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/qax-os/excelize/issues/756&#34; data-hovercard-type=&#34;issue&#34; data-hovercard-url=&#34;/qax-os/excelize/issues/756/hovercard&#34; href=&#34;https://github.com/qax-os/excelize/issues/756&#34;&gt;#756&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;The &lt;code&gt;GetCellHyperLink&lt;/code&gt; function support get cell hyperlink for merged cells&lt;/li&gt;&#xA;&lt;li&gt;Add new exported data type &lt;code&gt;ChartType&lt;/code&gt; for represents chart type enumeration&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3&gt;Improve the Compatibility&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Add support for workbook function groups&lt;/li&gt;&#xA;&lt;li&gt;Add support for strict theme namespace, related issue &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1530017706&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/qax-os/excelize/issues/1447&#34; data-hovercard-type=&#34;issue&#34; data-hovercard-url=&#34;/qax-os/excelize/issues/1447/hovercard&#34; href=&#34;https://github.com/qax-os/excelize/issues/1447&#34;&gt;#1447&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Fix panic caused by the workbook relationship part not exist&lt;/li&gt;&#xA;&lt;li&gt;Improve compatibility with SST index which contains blank characters, related issue &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1639478312&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/qax-os/excelize/issues/1508&#34; data-hovercard-type=&#34;issue&#34; data-hovercard-url=&#34;/qax-os/excelize/issues/1508/hovercard&#34; href=&#34;https://github.com/qax-os/excelize/issues/1508&#34;&gt;#1508&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3&gt;Bug Fixes&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Fix decimal number format round issue in some cases&lt;/li&gt;&#xA;&lt;li&gt;Fix incorrect cell type when modifying string cell with the time number, resolve issue &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1572288280&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/qax-os/excelize/issues/1464&#34; data-hovercard-type=&#34;issue&#34; data-hovercard-url=&#34;/qax-os/excelize/issues/1464/hovercard&#34; href=&#34;https://github.com/qax-os/excelize/issues/1464&#34;&gt;#1464&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Fix cell resolver caused incorrect calculation result, resolve issue &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1583756579&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/qax-os/excelize/issues/1469&#34; data-hovercard-type=&#34;issue&#34; data-hovercard-url=&#34;/qax-os/excelize/issues/1469/hovercard&#34; href=&#34;https://github.com/qax-os/excelize/issues/1469&#34;&gt;#1469&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Fix conditional format data bar min/max value doesn&#39;t work, resolve issue &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1621530398&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/qax-os/excelize/issues/1492&#34; data-hovercard-type=&#34;issue&#34; data-hovercard-url=&#34;/qax-os/excelize/issues/1492/hovercard&#34; href=&#34;https://github.com/qax-os/excelize/issues/1492&#34;&gt;#1492&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Supports 0 row height and column width, resolve issue &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1566576839&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/qax-os/excelize/issues/1461&#34; data-hovercard-type=&#34;issue&#34; data-hovercard-url=&#34;/qax-os/excelize/issues/1461/hovercard&#34; href=&#34;https://github.com/qax-os/excelize/issues/1461&#34;&gt;#1461&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3&gt;Performance&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Improve performance for apply number format with month name, related issue &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1552782307&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/qax-os/excelize/issues/1455&#34; data-hovercard-type=&#34;issue&#34; data-hovercard-url=&#34;/qax-os/excelize/issues/1455/hovercard&#34; href=&#34;https://github.com/qax-os/excelize/issues/1455&#34;&gt;#1455&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Speed up for checking merged cells, related issue &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1532598105&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/qax-os/excelize/issues/1448&#34; data-hovercard-type=&#34;issue&#34; data-hovercard-url=&#34;/qax-os/excelize/issues/1448/hovercard&#34; href=&#34;https://github.com/qax-os/excelize/issues/1448&#34;&gt;#1448&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3&gt;Miscellaneous&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;A pure WebAssembly / Javascript port of Go Excelize library named &lt;a href=&#34;https://github.com/xuri/excelize-wasm&#34;&gt;excelize-wasm&lt;/a&gt; NPM package has been production-ready use&lt;/li&gt;&#xA;&lt;li&gt;The dependencies module has been updated&lt;/li&gt;&#xA;&lt;li&gt;Unit tests and godoc updated&lt;/li&gt;&#xA;&lt;li&gt;Using the specialized name in variables and functions&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://xuri.me/excelize&#34; rel=&#34;nofollow&#34;&gt;Documentation website&lt;/a&gt; with multilingual: Arabic, German, Spanish, English, French, Russian, Chinese, Japanese, and Korean, which has been updated&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3&gt;Thank you&lt;/h3&gt;&#xA;&lt;p&gt;Thanks for all the contributors to Excelize. Below is a list of contributors that have code contributions in this version:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a class=&#34;user-mention notranslate&#34; data-hovercard-type=&#34;user&#34; data-hovercard-url=&#34;/users/liron-l/hovercard&#34; data-octo-click=&#34;hovercard-link-click&#34; data-octo-dimensions=&#34;link_type:self&#34; href=&#34;https://github.com/liron-l&#34;&gt;@liron-l&lt;/a&gt; (Liron Levin)&lt;/li&gt;&#xA;&lt;li&gt;&lt;a class=&#34;user-mention notranslate&#34; data-hovercard-type=&#34;user&#34; data-hovercard-url=&#34;/users/nathj07/hovercard&#34; data-octo-click=&#34;hovercard-link-click&#34; data-octo-dimensions=&#34;link_type:self&#34; href=&#34;https://github.com/nathj07&#34;&gt;@nathj07&lt;/a&gt; (Nathan Davies)&lt;/li&gt;&#xA;&lt;li&gt;&lt;a class=&#34;user-mention notranslate&#34; data-hovercard-type=&#34;user&#34; data-hovercard-url=&#34;/users/Josh-Weston/hovercard&#34; data-octo-click=&#34;hovercard-link-click&#34; data-octo-dimensions=&#34;link_type:self&#34; href=&#34;https://github.com/Josh-Weston&#34;&gt;@Josh-Weston&lt;/a&gt; (Josh Weston)&lt;/li&gt;&#xA;&lt;li&gt;&lt;a class=&#34;user-mention notranslate&#34; data-hovercard-type=&#34;user&#34; data-hovercard-url=&#34;/users/jaby/hovercard&#34; data-octo-click=&#34;hovercard-link-click&#34; data-octo-dimensions=&#34;link_type:self&#34; href=&#34;https://github.com/jaby&#34;&gt;@jaby&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a class=&#34;user-mention notranslate&#34; data-hovercard-type=&#34;user&#34; data-hovercard-url=&#34;/users/FlowingSPDG/hovercard&#34; data-octo-click=&#34;hovercard-link-click&#34; data-octo-dimensions=&#34;link_type:self&#34; href=&#34;https://github.com/FlowingSPDG&#34;&gt;@FlowingSPDG&lt;/a&gt; (Shugo Kawamura)&lt;/li&gt;&#xA;&lt;li&gt;&lt;a class=&#34;user-mention notranslate&#34; data-hovercard-type=&#34;user&#34; data-hovercard-url=&#34;/users/barismar/hovercard&#34; data-octo-click=&#34;hovercard-link-click&#34; data-octo-dimensions=&#34;link_type:self&#34; href=&#34;https://github.com/barismar&#34;&gt;@barismar&lt;/a&gt; (Baris Mar Aziz)&lt;/li&gt;&#xA;&lt;li&gt;&lt;a class=&#34;user-mention notranslate&#34; data-hovercard-type=&#34;user&#34; data-hovercard-url=&#34;/users/doingNobb/hovercard&#34; data-octo-click=&#34;hovercard-link-click&#34; data-octo-dimensions=&#34;link_type:self&#34; href=&#34;https://github.com/doingNobb&#34;&gt;@doingNobb&lt;/a&gt; (张涛)&lt;/li&gt;&#xA;&lt;li&gt;&lt;a class=&#34;user-mention notranslate&#34; data-hovercard-type=&#34;user&#34; data-hovercard-url=&#34;/users/rpoetrap/hovercard&#34; data-octo-click=&#34;hovercard-link-click&#34; data-octo-dimensions=&#34;link_type:self&#34; href=&#34;https://github.com/rpoetrap&#34;&gt;@rpoetrap&lt;/a&gt; (Rizki Putra)&lt;/li&gt;&#xA;&lt;li&gt;&lt;a class=&#34;user-mention notranslate&#34; data-hovercard-type=&#34;user&#34; data-hovercard-url=&#34;/users/huangshaokun/hovercard&#34; data-octo-click=&#34;hovercard-link-click&#34; data-octo-dimensions=&#34;link_type:self&#34; href=&#34;https://github.com/huangshaokun&#34;&gt;@huangshaokun&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a class=&#34;user-mention notranslate&#34; data-hovercard-type=&#34;user&#34; data-hovercard-url=&#34;/users/CHANTXU64/hovercard&#34; data-octo-click=&#34;hovercard-link-click&#34; data-octo-dimensions=&#34;link_type:self&#34; href=&#34;https://github.com/CHANTXU64&#34;&gt;@CHANTXU64&lt;/a&gt; (ChantXu64)&lt;/li&gt;&#xA;&lt;li&gt;&lt;a class=&#34;user-mention notranslate&#34; data-hovercard-type=&#34;user&#34; data-hovercard-url=&#34;/users/playGitboy/hovercard&#34; data-octo-click=&#34;hovercard-link-click&#34; data-octo-dimensions=&#34;link_type:self&#34; href=&#34;https://github.com/playGitboy&#34;&gt;@playGitboy&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/qax-os/excelize/releases/tag/v2.7.1" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>xuri</name>
+    </author>
+  </entry>
   <entry>
     <title>Release notes from tbls - v1.65.1</title>
     <updated>2023-04-08T09:33:22Z</updated>
@@ -246,66 +257,11 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from opentelemetry-operations-go - exporter/metric/v0.37.0: Prepare release v0.37.0/1.13.0 (#619)</title>
-    <updated>2023-04-04T17:27:38Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/exporter/metric/v0.37.0</id>
-    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make prepare-release v0.37.0/1.13.0&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/exporter%2Fmetric%2Fv0.37.0" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>damemi</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from opentelemetry-operations-go - exporter/collector/v0.37.0: Prepare release v0.37.0/1.13.0 (#619)</title>
-    <updated>2023-04-04T17:27:38Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/exporter/collector/v0.37.0</id>
-    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make prepare-release v0.37.0/1.13.0&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/exporter%2Fcollector%2Fv0.37.0" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>damemi</name>
-    </author>
-  </entry>
-  <entry>
     <title>Release notes from opentelemetry-operations-go - exporter/collector/googlemanagedprometheus/v0.37.0: Prepare release v0.37.0/1.13.0 (#619)</title>
     <updated>2023-04-04T17:27:38Z</updated>
     <id>tag:github.com,2008:Repository/244484581/exporter/collector/googlemanagedprometheus/v0.37.0</id>
     <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make prepare-release v0.37.0/1.13.0&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
     <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/exporter%2Fcollector%2Fgooglemanagedprometheus%2Fv0.37.0" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>damemi</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from opentelemetry-operations-go - exporter/trace/v1.13.0: Prepare release v0.37.0/1.13.0 (#619)</title>
-    <updated>2023-04-04T17:27:38Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/exporter/trace/v1.13.0</id>
-    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make prepare-release v0.37.0/1.13.0&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/exporter%2Ftrace%2Fv1.13.0" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>damemi</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from opentelemetry-operations-go - example/trace/http/v0.37.0: Prepare release v0.37.0/1.13.0 (#619)</title>
-    <updated>2023-04-04T17:27:38Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/example/trace/http/v0.37.0</id>
-    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make prepare-release v0.37.0/1.13.0&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/example%2Ftrace%2Fhttp%2Fv0.37.0" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>damemi</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from opentelemetry-operations-go - example/metric/v0.37.0: Prepare release v0.37.0/1.13.0 (#619)</title>
-    <updated>2023-04-04T17:27:38Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/example/metric/v0.37.0</id>
-    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make prepare-release v0.37.0/1.13.0&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/example%2Fmetric%2Fv0.37.0" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>damemi</name>
@@ -323,11 +279,33 @@
     </author>
   </entry>
   <entry>
+    <title>Release notes from opentelemetry-operations-go - exporter/collector/v0.37.0: Prepare release v0.37.0/1.13.0 (#619)</title>
+    <updated>2023-04-04T17:27:38Z</updated>
+    <id>tag:github.com,2008:Repository/244484581/exporter/collector/v0.37.0</id>
+    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make prepare-release v0.37.0/1.13.0&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/exporter%2Fcollector%2Fv0.37.0" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>damemi</name>
+    </author>
+  </entry>
+  <entry>
     <title>Release notes from opentelemetry-operations-go - internal/resourcemapping/v0.37.0: Prepare release v0.37.0/1.13.0 (#619)</title>
     <updated>2023-04-04T17:27:38Z</updated>
     <id>tag:github.com,2008:Repository/244484581/internal/resourcemapping/v0.37.0</id>
     <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make prepare-release v0.37.0/1.13.0&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
     <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/internal%2Fresourcemapping%2Fv0.37.0" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>damemi</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from opentelemetry-operations-go - example/trace/http/v0.37.0: Prepare release v0.37.0/1.13.0 (#619)</title>
+    <updated>2023-04-04T17:27:38Z</updated>
+    <id>tag:github.com,2008:Repository/244484581/example/trace/http/v0.37.0</id>
+    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make prepare-release v0.37.0/1.13.0&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/example%2Ftrace%2Fhttp%2Fv0.37.0" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>damemi</name>
@@ -345,14 +323,36 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from datadog-agent - 7.43.1-dbm-oracle-beta-0.17</title>
-    <updated>2023-04-04T16:38:26Z</updated>
-    <id>tag:github.com,2008:Repository/49970739/7.43.1-dbm-oracle-beta-0.17</id>
-    <content type="html">&lt;p&gt;dbm-oracle-beta-0.16&lt;/p&gt;</content>
-    <link href="https://github.com/DataDog/datadog-agent/releases/tag/7.43.1-dbm-oracle-beta-0.17" rel="alternate"></link>
+    <title>Release notes from opentelemetry-operations-go - exporter/trace/v1.13.0: Prepare release v0.37.0/1.13.0 (#619)</title>
+    <updated>2023-04-04T17:27:38Z</updated>
+    <id>tag:github.com,2008:Repository/244484581/exporter/trace/v1.13.0</id>
+    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make prepare-release v0.37.0/1.13.0&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/exporter%2Ftrace%2Fv1.13.0" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
-      <name>nenadnoveljic</name>
+      <name>damemi</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from opentelemetry-operations-go - exporter/metric/v0.37.0: Prepare release v0.37.0/1.13.0 (#619)</title>
+    <updated>2023-04-04T17:27:38Z</updated>
+    <id>tag:github.com,2008:Repository/244484581/exporter/metric/v0.37.0</id>
+    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make prepare-release v0.37.0/1.13.0&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/exporter%2Fmetric%2Fv0.37.0" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>damemi</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from opentelemetry-operations-go - example/metric/v0.37.0: Prepare release v0.37.0/1.13.0 (#619)</title>
+    <updated>2023-04-04T17:27:38Z</updated>
+    <id>tag:github.com,2008:Repository/244484581/example/metric/v0.37.0</id>
+    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make prepare-release v0.37.0/1.13.0&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/example%2Fmetric%2Fv0.37.0" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>damemi</name>
     </author>
   </entry>
   <entry>
@@ -361,6 +361,17 @@
     <id>tag:github.com,2008:Repository/49970739/6.43.1-dbm-oracle-beta-0.17</id>
     <content type="html">&lt;p&gt;dbm-oracle-beta-0.16&lt;/p&gt;</content>
     <link href="https://github.com/DataDog/datadog-agent/releases/tag/6.43.1-dbm-oracle-beta-0.17" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>nenadnoveljic</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from datadog-agent - 7.43.1-dbm-oracle-beta-0.17</title>
+    <updated>2023-04-04T16:38:26Z</updated>
+    <id>tag:github.com,2008:Repository/49970739/7.43.1-dbm-oracle-beta-0.17</id>
+    <content type="html">&lt;p&gt;dbm-oracle-beta-0.16&lt;/p&gt;</content>
+    <link href="https://github.com/DataDog/datadog-agent/releases/tag/7.43.1-dbm-oracle-beta-0.17" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>nenadnoveljic</name>
@@ -433,22 +444,22 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from datadog-agent - 6.43.1-dbm-oracle-beta-0.16</title>
+    <title>Release notes from datadog-agent - 7.43.1-dbm-oracle-beta-0.16</title>
     <updated>2023-04-03T08:00:11Z</updated>
-    <id>tag:github.com,2008:Repository/49970739/6.43.1-dbm-oracle-beta-0.16</id>
+    <id>tag:github.com,2008:Repository/49970739/7.43.1-dbm-oracle-beta-0.16</id>
     <content type="html">&lt;p&gt;dbm-oracle-beta-0.16&lt;/p&gt;</content>
-    <link href="https://github.com/DataDog/datadog-agent/releases/tag/6.43.1-dbm-oracle-beta-0.16" rel="alternate"></link>
+    <link href="https://github.com/DataDog/datadog-agent/releases/tag/7.43.1-dbm-oracle-beta-0.16" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>nenadnoveljic</name>
     </author>
   </entry>
   <entry>
-    <title>Release notes from datadog-agent - 7.43.1-dbm-oracle-beta-0.16</title>
+    <title>Release notes from datadog-agent - 6.43.1-dbm-oracle-beta-0.16</title>
     <updated>2023-04-03T08:00:11Z</updated>
-    <id>tag:github.com,2008:Repository/49970739/7.43.1-dbm-oracle-beta-0.16</id>
+    <id>tag:github.com,2008:Repository/49970739/6.43.1-dbm-oracle-beta-0.16</id>
     <content type="html">&lt;p&gt;dbm-oracle-beta-0.16&lt;/p&gt;</content>
-    <link href="https://github.com/DataDog/datadog-agent/releases/tag/7.43.1-dbm-oracle-beta-0.16" rel="alternate"></link>
+    <link href="https://github.com/DataDog/datadog-agent/releases/tag/6.43.1-dbm-oracle-beta-0.16" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>nenadnoveljic</name>
@@ -873,22 +884,22 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from opentelemetry-go-contrib - samplers/aws/xray/v0.10.0-rc.2</title>
+    <title>Release notes from opentelemetry-go-contrib - samplers/jaegerremote/v0.10.0-rc.2</title>
     <updated>2023-03-23T15:43:21Z</updated>
-    <id>tag:github.com,2008:Repository/242202166/samplers/aws/xray/v0.10.0-rc.2</id>
+    <id>tag:github.com,2008:Repository/242202166/samplers/jaegerremote/v0.10.0-rc.2</id>
     <content type="html">&lt;p&gt;Module set experimental-samplers, Version v0.10.0-rc.2&lt;/p&gt;</content>
-    <link href="https://github.com/open-telemetry/opentelemetry-go-contrib/releases/tag/samplers%2Faws%2Fxray%2Fv0.10.0-rc.2" rel="alternate"></link>
+    <link href="https://github.com/open-telemetry/opentelemetry-go-contrib/releases/tag/samplers%2Fjaegerremote%2Fv0.10.0-rc.2" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>MrAlias</name>
     </author>
   </entry>
   <entry>
-    <title>Release notes from opentelemetry-go-contrib - samplers/jaegerremote/v0.10.0-rc.2</title>
+    <title>Release notes from opentelemetry-go-contrib - samplers/aws/xray/v0.10.0-rc.2</title>
     <updated>2023-03-23T15:43:21Z</updated>
-    <id>tag:github.com,2008:Repository/242202166/samplers/jaegerremote/v0.10.0-rc.2</id>
+    <id>tag:github.com,2008:Repository/242202166/samplers/aws/xray/v0.10.0-rc.2</id>
     <content type="html">&lt;p&gt;Module set experimental-samplers, Version v0.10.0-rc.2&lt;/p&gt;</content>
-    <link href="https://github.com/open-telemetry/opentelemetry-go-contrib/releases/tag/samplers%2Fjaegerremote%2Fv0.10.0-rc.2" rel="alternate"></link>
+    <link href="https://github.com/open-telemetry/opentelemetry-go-contrib/releases/tag/samplers%2Faws%2Fxray%2Fv0.10.0-rc.2" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>MrAlias</name>
@@ -1027,22 +1038,22 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from opentelemetry-go - exporters/stdout/stdouttrace/v1.15.0-rc.2</title>
+    <title>Release notes from opentelemetry-go - exporters/zipkin/v1.15.0-rc.2</title>
     <updated>2023-03-23T14:48:55Z</updated>
-    <id>tag:github.com,2008:Repository/187086161/exporters/stdout/stdouttrace/v1.15.0-rc.2</id>
+    <id>tag:github.com,2008:Repository/187086161/exporters/zipkin/v1.15.0-rc.2</id>
     <content type="html">&lt;p&gt;Module set stable-v1, Version v1.15.0-rc.2&lt;/p&gt;</content>
-    <link href="https://github.com/open-telemetry/opentelemetry-go/releases/tag/exporters%2Fstdout%2Fstdouttrace%2Fv1.15.0-rc.2" rel="alternate"></link>
+    <link href="https://github.com/open-telemetry/opentelemetry-go/releases/tag/exporters%2Fzipkin%2Fv1.15.0-rc.2" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>MrAlias</name>
     </author>
   </entry>
   <entry>
-    <title>Release notes from opentelemetry-go - exporters/zipkin/v1.15.0-rc.2</title>
+    <title>Release notes from opentelemetry-go - exporters/stdout/stdouttrace/v1.15.0-rc.2</title>
     <updated>2023-03-23T14:48:55Z</updated>
-    <id>tag:github.com,2008:Repository/187086161/exporters/zipkin/v1.15.0-rc.2</id>
+    <id>tag:github.com,2008:Repository/187086161/exporters/stdout/stdouttrace/v1.15.0-rc.2</id>
     <content type="html">&lt;p&gt;Module set stable-v1, Version v1.15.0-rc.2&lt;/p&gt;</content>
-    <link href="https://github.com/open-telemetry/opentelemetry-go/releases/tag/exporters%2Fzipkin%2Fv1.15.0-rc.2" rel="alternate"></link>
+    <link href="https://github.com/open-telemetry/opentelemetry-go/releases/tag/exporters%2Fstdout%2Fstdouttrace%2Fv1.15.0-rc.2" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>MrAlias</name>
@@ -7022,17 +7033,6 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from excelize - v2.2.0</title>
-    <updated>2021-07-29T01:25:19Z</updated>
-    <id>tag:github.com,2008:Repository/66841911/v2.2.0</id>
-    <content type="html">&lt;p&gt;We are pleased to announce the release of version 2.2.0. Featured are a handful of new areas of functionality and numerous bug fixes.&lt;/p&gt;&#xA;&lt;p&gt;A summary of changes is available in the &lt;a href=&#34;https://github.com/xuri/excelize/releases/tag/v2.2.0&#34;&gt;Release Notes&lt;/a&gt;. A full list of changes is available in the &lt;a href=&#34;https://github.com/xuri/excelize/compare/v2.1.0...v2.2.0&#34;&gt;changelog&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;h2&gt;Release Notes&lt;/h2&gt;&#xA;&lt;p&gt;The most notable changes in this release are:&lt;/p&gt;&#xA;&lt;h4&gt;Notable Features&lt;/h4&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Using the worksheet index instead of ID in the following functions: &lt;code&gt;GetSheetName&lt;/code&gt;, &lt;code&gt;GetSheetIndex&lt;/code&gt;, &lt;code&gt;GetActiveSheetIndex&lt;/code&gt; and &lt;code&gt;SetActiveSheet&lt;/code&gt;, relate issue &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;495321378&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/qax-os/excelize/issues/485&#34; data-hovercard-type=&#34;issue&#34; data-hovercard-url=&#34;/qax-os/excelize/issues/485/hovercard&#34; href=&#34;https://github.com/qax-os/excelize/issues/485&#34;&gt;#485&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;New function &lt;a href=&#34;https://pkg.go.dev/github.com/xuri/excelize/v2@v2.2.0#File.GetSheetList&#34; rel=&#34;nofollow&#34;&gt;&lt;code&gt;GetSheetList&lt;/code&gt;&lt;/a&gt; to get the worksheet, chart sheet, and dialog sheet name list of the workbook&lt;/li&gt;&#xA;&lt;li&gt;New function &lt;a href=&#34;https://pkg.go.dev/github.com/xuri/excelize/v2@v2.2.0#File.AddChartSheet&#34; rel=&#34;nofollow&#34;&gt;&lt;code&gt;AddChartSheet&lt;/code&gt;&lt;/a&gt; support create chart sheet, relate issue &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;474025940&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/qax-os/excelize/issues/451&#34; data-hovercard-type=&#34;issue&#34; data-hovercard-url=&#34;/qax-os/excelize/issues/451/hovercard&#34; href=&#34;https://github.com/qax-os/excelize/issues/451&#34;&gt;#451&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;New function &lt;a href=&#34;https://pkg.go.dev/github.com/xuri/excelize/v2@v2.2.0#File.UnsetConditionalFormat&#34; rel=&#34;nofollow&#34;&gt;&lt;code&gt;UnsetConditionalFormat&lt;/code&gt;&lt;/a&gt;, support for remove conditional format, relate issue &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;560320272&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/qax-os/excelize/issues/571&#34; data-hovercard-type=&#34;issue&#34; data-hovercard-url=&#34;/qax-os/excelize/issues/571/hovercard&#34; href=&#34;https://github.com/qax-os/excelize/issues/571&#34;&gt;#571&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;New function &lt;a href=&#34;https://pkg.go.dev/github.com/xuri/excelize/v2@v2.2.0#File.DeleteDataValidation&#34; rel=&#34;nofollow&#34;&gt;&lt;code&gt;DeleteDataValidation&lt;/code&gt;&lt;/a&gt;, support delete data validation, relate issue &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;414781920&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/qax-os/excelize/issues/348&#34; data-hovercard-type=&#34;issue&#34; data-hovercard-url=&#34;/qax-os/excelize/issues/348/hovercard&#34; href=&#34;https://github.com/qax-os/excelize/issues/348&#34;&gt;#348&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;New function &lt;a href=&#34;https://pkg.go.dev/github.com/xuri/excelize/v2@v2.2.0#File.SetCellRichText&#34; rel=&#34;nofollow&#34;&gt;&lt;code&gt;SetCellRichText&lt;/code&gt;&lt;/a&gt;, support set rich text, relate issue &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;284069526&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/qax-os/excelize/issues/172&#34; data-hovercard-type=&#34;issue&#34; data-hovercard-url=&#34;/qax-os/excelize/issues/172/hovercard&#34; href=&#34;https://github.com/qax-os/excelize/issues/172&#34;&gt;#172&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;New functions &lt;a href=&#34;https://pkg.go.dev/github.com/xuri/excelize/v2@v2.2.0#File.InsertPageBreak&#34; rel=&#34;nofollow&#34;&gt;&lt;code&gt;InsertPageBreak&lt;/code&gt;&lt;/a&gt; and &lt;a href=&#34;https://pkg.go.dev/github.com/xuri/excelize/v2@v2.2.0#File.RemovePageBreak&#34; rel=&#34;nofollow&#34;&gt;&lt;code&gt;RemovePageBreak&lt;/code&gt;&lt;/a&gt;, support for insert and remove page break, relate issue &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;499413148&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/qax-os/excelize/issues/492&#34; data-hovercard-type=&#34;issue&#34; data-hovercard-url=&#34;/qax-os/excelize/issues/492/hovercard&#34; href=&#34;https://github.com/qax-os/excelize/issues/492&#34;&gt;#492&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;The &lt;a href=&#34;https://pkg.go.dev/github.com/xuri/excelize/v2@v2.2.0#File.AddPivotTable&#34; rel=&#34;nofollow&#34;&gt;&lt;code&gt;AddPivotTable&lt;/code&gt;&lt;/a&gt; API changed, support for setting date field subtotal and names of the pivot table, relate issue &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;567453956&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/qax-os/excelize/issues/582&#34; data-hovercard-type=&#34;issue&#34; data-hovercard-url=&#34;/qax-os/excelize/issues/582/hovercard&#34; href=&#34;https://github.com/qax-os/excelize/issues/582&#34;&gt;#582&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;The &lt;a href=&#34;https://pkg.go.dev/github.com/xuri/excelize/v2@v2.2.0#File.AddPivotTable&#34; rel=&#34;nofollow&#34;&gt;&lt;code&gt;AddPivotTable&lt;/code&gt;&lt;/a&gt; support to set the filter for the pivot table, relate issue &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;587703604&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/qax-os/excelize/issues/598&#34; data-hovercard-type=&#34;issue&#34; data-hovercard-url=&#34;/qax-os/excelize/issues/598/hovercard&#34; href=&#34;https://github.com/qax-os/excelize/issues/598&#34;&gt;#598&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;The &lt;a href=&#34;https://pkg.go.dev/github.com/xuri/excelize/v2@v2.2.0#File.AddPivotTable&#34; rel=&#34;nofollow&#34;&gt;&lt;code&gt;AddPivotTable&lt;/code&gt;&lt;/a&gt; allow empty filter, data, and rows in the pivot table&lt;/li&gt;&#xA;&lt;li&gt;Export &lt;a href=&#34;https://pkg.go.dev/github.com/xuri/excelize/v2@v2.2.0#File.ExcelDateToTime&#34; rel=&#34;nofollow&#34;&gt;&lt;code&gt;ExcelDateToTime&lt;/code&gt;&lt;/a&gt; function to convert excel date to time&lt;/li&gt;&#xA;&lt;li&gt;Export &lt;a href=&#34;https://pkg.go.dev/github.com/xuri/excelize/v2@v2.2.0#Style&#34; rel=&#34;nofollow&#34;&gt;&lt;code&gt;Style&lt;/code&gt;&lt;/a&gt; structs to allow create the style for cells by given JSON or structure pointer, relate issue &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;478855869&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/qax-os/excelize/issues/470&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/qax-os/excelize/pull/470/hovercard&#34; href=&#34;https://github.com/qax-os/excelize/pull/470&#34;&gt;#470&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h4&gt;Bug Fixes&lt;/h4&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Fix &lt;code&gt;greaterThanOrEqual&lt;/code&gt; and &lt;code&gt;lessThanOrEqual&lt;/code&gt; operators did not work when setting the conditional format for cell by &lt;code&gt;SetConditionalFormat&lt;/code&gt;, resolve issue &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;596596779&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/qax-os/excelize/issues/608&#34; data-hovercard-type=&#34;issue&#34; data-hovercard-url=&#34;/qax-os/excelize/issues/608/hovercard&#34; href=&#34;https://github.com/qax-os/excelize/issues/608&#34;&gt;#608&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Fix corrupt worksheet created by &lt;a href=&#34;https://pkg.go.dev/github.com/xuri/excelize/v2@v2.2.0#StreamWriter&#34; rel=&#34;nofollow&#34;&gt;&lt;code&gt;StreamWriter&lt;/code&gt;&lt;/a&gt;, resolve issue &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;564033405&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/qax-os/excelize/issues/576&#34; data-hovercard-type=&#34;issue&#34; data-hovercard-url=&#34;/qax-os/excelize/issues/576/hovercard&#34; href=&#34;https://github.com/qax-os/excelize/issues/576&#34;&gt;#576&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Escape character in the formula, resolve issue &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;565427566&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/qax-os/excelize/issues/578&#34; data-hovercard-type=&#34;issue&#34; data-hovercard-url=&#34;/qax-os/excelize/issues/578/hovercard&#34; href=&#34;https://github.com/qax-os/excelize/issues/578&#34;&gt;#578&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Fix the &lt;a href=&#34;https://pkg.go.dev/github.com/xuri/excelize/v2@v2.2.0#File.DuplicateRowTo&#34; rel=&#34;nofollow&#34;&gt;&lt;code&gt;DuplicateRowTo&lt;/code&gt;&lt;/a&gt; function doesn&#39;t duplicate merged cells, resolve issue &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;569651938&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/qax-os/excelize/issues/586&#34; data-hovercard-type=&#34;issue&#34; data-hovercard-url=&#34;/qax-os/excelize/issues/586/hovercard&#34; href=&#34;https://github.com/qax-os/excelize/issues/586&#34;&gt;#586&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Fix conditional formatting hides the adjacent borders by ignoring empty conditional format style, resolve issue &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;309459520&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/qax-os/excelize/issues/200&#34; data-hovercard-type=&#34;issue&#34; data-hovercard-url=&#34;/qax-os/excelize/issues/200/hovercard&#34; href=&#34;https://github.com/qax-os/excelize/issues/200&#34;&gt;#200&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Fix missing comments by &lt;a href=&#34;https://pkg.go.dev/github.com/xuri/excelize/v2@v2.2.0#File.GetComments&#34; rel=&#34;nofollow&#34;&gt;&lt;code&gt;GetComments&lt;/code&gt;&lt;/a&gt;, resolve issue &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;413001653&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/qax-os/excelize/issues/345&#34; data-hovercard-type=&#34;issue&#34; data-hovercard-url=&#34;/qax-os/excelize/issues/345/hovercard&#34; href=&#34;https://github.com/qax-os/excelize/issues/345&#34;&gt;#345&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Fix reading wrong string by &lt;a href=&#34;https://pkg.go.dev/github.com/xuri/excelize/v2@v2.2.0#File.GetCellValue&#34; rel=&#34;nofollow&#34;&gt;&lt;code&gt;GetCellValue&lt;/code&gt;&lt;/a&gt; in some case, resolve issue &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;591707365&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/qax-os/excelize/issues/602&#34; data-hovercard-type=&#34;issue&#34; data-hovercard-url=&#34;/qax-os/excelize/issues/602/hovercard&#34; href=&#34;https://github.com/qax-os/excelize/issues/602&#34;&gt;#602&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Check and fill the cell without &lt;code&gt;r&lt;/code&gt; attribute in a row element, fix returned empty value when &lt;a href=&#34;https://pkg.go.dev/github.com/xuri/excelize/v2@v2.2.0#File.GetCellValue&#34; rel=&#34;nofollow&#34;&gt;&lt;code&gt;GetCellValue&lt;/code&gt;&lt;/a&gt; in some case&lt;/li&gt;&#xA;&lt;li&gt;Allow empty or default cell style formats, resolve &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;612612540&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/qax-os/excelize/issues/628&#34; data-hovercard-type=&#34;issue&#34; data-hovercard-url=&#34;/qax-os/excelize/issues/628/hovercard&#34; href=&#34;https://github.com/qax-os/excelize/issues/628&#34;&gt;#628&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h4&gt;Performance&lt;/h4&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Reduce redundant memory copy in &lt;code&gt;getRowHeight&lt;/code&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h4&gt;Miscellaneous&lt;/h4&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Remove calculated properties to make recalculate formulas in some spreadsheet applications, such as Kingsoft WPS™ Office&lt;/li&gt;&#xA;&lt;li&gt;Add missing checking error in unit tests&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://xuri.me/excelize&#34; rel=&#34;nofollow&#34;&gt;Documentation website&lt;/a&gt; with multilingual: English, French, Russian, Chinese, Japanese, and Korean, which has been updated&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/qax-os/excelize/releases/tag/v2.2.0" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>xuri</name>
-    </author>
-  </entry>
-  <entry>
     <title>Release notes from excelize - v2.3.0</title>
     <updated>2021-07-29T01:24:56Z</updated>
     <id>tag:github.com,2008:Repository/66841911/v2.3.0</id>
@@ -7748,22 +7748,22 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from backoff - v2.0.3: Merge pull request #18 from lestrrat-go/topic/fix-v2-go-mod</title>
+    <title>Release notes from backoff - v2.0.2: Merge pull request #18 from lestrrat-go/topic/fix-v2-go-mod</title>
     <updated>2021-01-06T03:00:05Z</updated>
-    <id>tag:github.com,2008:Repository/118608673/v2.0.3</id>
+    <id>tag:github.com,2008:Repository/118608673/v2.0.2</id>
     <content type="html">&lt;p&gt;Fix go.mod&lt;/p&gt;</content>
-    <link href="https://github.com/lestrrat-go/backoff/releases/tag/v2.0.3" rel="alternate"></link>
+    <link href="https://github.com/lestrrat-go/backoff/releases/tag/v2.0.2" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>lestrrat</name>
     </author>
   </entry>
   <entry>
-    <title>Release notes from backoff - v2.0.2: Merge pull request #18 from lestrrat-go/topic/fix-v2-go-mod</title>
+    <title>Release notes from backoff - v2.0.3: Merge pull request #18 from lestrrat-go/topic/fix-v2-go-mod</title>
     <updated>2021-01-06T03:00:05Z</updated>
-    <id>tag:github.com,2008:Repository/118608673/v2.0.2</id>
+    <id>tag:github.com,2008:Repository/118608673/v2.0.3</id>
     <content type="html">&lt;p&gt;Fix go.mod&lt;/p&gt;</content>
-    <link href="https://github.com/lestrrat-go/backoff/releases/tag/v2.0.2" rel="alternate"></link>
+    <link href="https://github.com/lestrrat-go/backoff/releases/tag/v2.0.3" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>lestrrat</name>
