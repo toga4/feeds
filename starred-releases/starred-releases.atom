@@ -1,8 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?><feed xmlns="http://www.w3.org/2005/Atom">
   <title>Releases from Starred by toga4</title>
   <id>https://toga4.github.io/feeds/starred-releases.atom</id>
-  <updated>2023-04-08T09:33:22Z</updated>
+  <updated>2023-04-09T08:06:57Z</updated>
   <link href="https://toga4.github.io/feeds/starred-releases.atom"></link>
+  <entry>
+    <title>Release notes from trivy - v0.39.1: fix(rust): fix panic when &#39;dependencies&#39; field is not used in cargo.t…</title>
+    <updated>2023-04-09T08:06:57Z</updated>
+    <id>tag:github.com,2008:Repository/180687624/v0.39.1</id>
+    <content type="html">&lt;p&gt;…oml (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1656676142&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/aquasecurity/trivy/issues/3997&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/aquasecurity/trivy/pull/3997/hovercard&#34; href=&#34;https://github.com/aquasecurity/trivy/pull/3997&#34;&gt;#3997&lt;/a&gt;)&lt;/p&gt;</content>
+    <link href="https://github.com/aquasecurity/trivy/releases/tag/v0.39.1" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>DmitriyLewen</name>
+    </author>
+  </entry>
   <entry>
     <title>Release notes from tbls - v1.65.1</title>
     <updated>2023-04-08T09:33:22Z</updated>
@@ -246,11 +257,11 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from opentelemetry-operations-go - propagator/v0.37.0: Prepare release v0.37.0/1.13.0 (#619)</title>
+    <title>Release notes from opentelemetry-operations-go - example/trace/http/v0.37.0: Prepare release v0.37.0/1.13.0 (#619)</title>
     <updated>2023-04-04T17:27:38Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/propagator/v0.37.0</id>
+    <id>tag:github.com,2008:Repository/244484581/example/trace/http/v0.37.0</id>
     <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make prepare-release v0.37.0/1.13.0&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/propagator%2Fv0.37.0" rel="alternate"></link>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/example%2Ftrace%2Fhttp%2Fv0.37.0" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>damemi</name>
@@ -262,6 +273,28 @@
     <id>tag:github.com,2008:Repository/244484581/internal/cloudmock/v0.37.0</id>
     <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make prepare-release v0.37.0/1.13.0&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
     <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/internal%2Fcloudmock%2Fv0.37.0" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>damemi</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from opentelemetry-operations-go - example/metric/v0.37.0: Prepare release v0.37.0/1.13.0 (#619)</title>
+    <updated>2023-04-04T17:27:38Z</updated>
+    <id>tag:github.com,2008:Repository/244484581/example/metric/v0.37.0</id>
+    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make prepare-release v0.37.0/1.13.0&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/example%2Fmetric%2Fv0.37.0" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>damemi</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from opentelemetry-operations-go - internal/resourcemapping/v0.37.0: Prepare release v0.37.0/1.13.0 (#619)</title>
+    <updated>2023-04-04T17:27:38Z</updated>
+    <id>tag:github.com,2008:Repository/244484581/internal/resourcemapping/v0.37.0</id>
+    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make prepare-release v0.37.0/1.13.0&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/internal%2Fresourcemapping%2Fv0.37.0" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>damemi</name>
@@ -290,28 +323,6 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from opentelemetry-operations-go - exporter/collector/v0.37.0: Prepare release v0.37.0/1.13.0 (#619)</title>
-    <updated>2023-04-04T17:27:38Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/exporter/collector/v0.37.0</id>
-    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make prepare-release v0.37.0/1.13.0&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/exporter%2Fcollector%2Fv0.37.0" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>damemi</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from opentelemetry-operations-go - internal/resourcemapping/v0.37.0: Prepare release v0.37.0/1.13.0 (#619)</title>
-    <updated>2023-04-04T17:27:38Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/internal/resourcemapping/v0.37.0</id>
-    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make prepare-release v0.37.0/1.13.0&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/internal%2Fresourcemapping%2Fv0.37.0" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>damemi</name>
-    </author>
-  </entry>
-  <entry>
     <title>Release notes from opentelemetry-operations-go - exporter/collector/googlemanagedprometheus/v0.37.0: Prepare release v0.37.0/1.13.0 (#619)</title>
     <updated>2023-04-04T17:27:38Z</updated>
     <id>tag:github.com,2008:Repository/244484581/exporter/collector/googlemanagedprometheus/v0.37.0</id>
@@ -323,36 +334,25 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from opentelemetry-operations-go - example/metric/v0.37.0: Prepare release v0.37.0/1.13.0 (#619)</title>
+    <title>Release notes from opentelemetry-operations-go - propagator/v0.37.0: Prepare release v0.37.0/1.13.0 (#619)</title>
     <updated>2023-04-04T17:27:38Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/example/metric/v0.37.0</id>
+    <id>tag:github.com,2008:Repository/244484581/propagator/v0.37.0</id>
     <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make prepare-release v0.37.0/1.13.0&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/example%2Fmetric%2Fv0.37.0" rel="alternate"></link>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/propagator%2Fv0.37.0" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>damemi</name>
     </author>
   </entry>
   <entry>
-    <title>Release notes from opentelemetry-operations-go - example/trace/http/v0.37.0: Prepare release v0.37.0/1.13.0 (#619)</title>
+    <title>Release notes from opentelemetry-operations-go - exporter/collector/v0.37.0: Prepare release v0.37.0/1.13.0 (#619)</title>
     <updated>2023-04-04T17:27:38Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/example/trace/http/v0.37.0</id>
+    <id>tag:github.com,2008:Repository/244484581/exporter/collector/v0.37.0</id>
     <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make prepare-release v0.37.0/1.13.0&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/example%2Ftrace%2Fhttp%2Fv0.37.0" rel="alternate"></link>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/exporter%2Fcollector%2Fv0.37.0" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>damemi</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from datadog-agent - 7.43.1-dbm-oracle-beta-0.17</title>
-    <updated>2023-04-04T16:38:26Z</updated>
-    <id>tag:github.com,2008:Repository/49970739/7.43.1-dbm-oracle-beta-0.17</id>
-    <content type="html">&lt;p&gt;dbm-oracle-beta-0.16&lt;/p&gt;</content>
-    <link href="https://github.com/DataDog/datadog-agent/releases/tag/7.43.1-dbm-oracle-beta-0.17" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>nenadnoveljic</name>
     </author>
   </entry>
   <entry>
@@ -361,6 +361,17 @@
     <id>tag:github.com,2008:Repository/49970739/6.43.1-dbm-oracle-beta-0.17</id>
     <content type="html">&lt;p&gt;dbm-oracle-beta-0.16&lt;/p&gt;</content>
     <link href="https://github.com/DataDog/datadog-agent/releases/tag/6.43.1-dbm-oracle-beta-0.17" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>nenadnoveljic</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from datadog-agent - 7.43.1-dbm-oracle-beta-0.17</title>
+    <updated>2023-04-04T16:38:26Z</updated>
+    <id>tag:github.com,2008:Repository/49970739/7.43.1-dbm-oracle-beta-0.17</id>
+    <content type="html">&lt;p&gt;dbm-oracle-beta-0.16&lt;/p&gt;</content>
+    <link href="https://github.com/DataDog/datadog-agent/releases/tag/7.43.1-dbm-oracle-beta-0.17" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>nenadnoveljic</name>
@@ -554,22 +565,22 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from datadog-agent - 6.43.1-dbm-oracle-beta-0.15</title>
+    <title>Release notes from datadog-agent - 7.43.1-dbm-oracle-beta-0.15</title>
     <updated>2023-03-31T20:27:12Z</updated>
-    <id>tag:github.com,2008:Repository/49970739/6.43.1-dbm-oracle-beta-0.15</id>
+    <id>tag:github.com,2008:Repository/49970739/7.43.1-dbm-oracle-beta-0.15</id>
     <content type="html">&lt;p&gt;dbm-oracle-beta-0.15&lt;/p&gt;</content>
-    <link href="https://github.com/DataDog/datadog-agent/releases/tag/6.43.1-dbm-oracle-beta-0.15" rel="alternate"></link>
+    <link href="https://github.com/DataDog/datadog-agent/releases/tag/7.43.1-dbm-oracle-beta-0.15" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>nenadnoveljic</name>
     </author>
   </entry>
   <entry>
-    <title>Release notes from datadog-agent - 7.43.1-dbm-oracle-beta-0.15</title>
+    <title>Release notes from datadog-agent - 6.43.1-dbm-oracle-beta-0.15</title>
     <updated>2023-03-31T20:27:12Z</updated>
-    <id>tag:github.com,2008:Repository/49970739/7.43.1-dbm-oracle-beta-0.15</id>
+    <id>tag:github.com,2008:Repository/49970739/6.43.1-dbm-oracle-beta-0.15</id>
     <content type="html">&lt;p&gt;dbm-oracle-beta-0.15&lt;/p&gt;</content>
-    <link href="https://github.com/DataDog/datadog-agent/releases/tag/7.43.1-dbm-oracle-beta-0.15" rel="alternate"></link>
+    <link href="https://github.com/DataDog/datadog-agent/releases/tag/6.43.1-dbm-oracle-beta-0.15" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>nenadnoveljic</name>
@@ -1049,22 +1060,22 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from opentelemetry-go - exporters/stdout/stdouttrace/v1.15.0-rc.2</title>
+    <title>Release notes from opentelemetry-go - exporters/zipkin/v1.15.0-rc.2</title>
     <updated>2023-03-23T14:48:55Z</updated>
-    <id>tag:github.com,2008:Repository/187086161/exporters/stdout/stdouttrace/v1.15.0-rc.2</id>
+    <id>tag:github.com,2008:Repository/187086161/exporters/zipkin/v1.15.0-rc.2</id>
     <content type="html">&lt;p&gt;Module set stable-v1, Version v1.15.0-rc.2&lt;/p&gt;</content>
-    <link href="https://github.com/open-telemetry/opentelemetry-go/releases/tag/exporters%2Fstdout%2Fstdouttrace%2Fv1.15.0-rc.2" rel="alternate"></link>
+    <link href="https://github.com/open-telemetry/opentelemetry-go/releases/tag/exporters%2Fzipkin%2Fv1.15.0-rc.2" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>MrAlias</name>
     </author>
   </entry>
   <entry>
-    <title>Release notes from opentelemetry-go - exporters/zipkin/v1.15.0-rc.2</title>
+    <title>Release notes from opentelemetry-go - exporters/stdout/stdouttrace/v1.15.0-rc.2</title>
     <updated>2023-03-23T14:48:55Z</updated>
-    <id>tag:github.com,2008:Repository/187086161/exporters/zipkin/v1.15.0-rc.2</id>
+    <id>tag:github.com,2008:Repository/187086161/exporters/stdout/stdouttrace/v1.15.0-rc.2</id>
     <content type="html">&lt;p&gt;Module set stable-v1, Version v1.15.0-rc.2&lt;/p&gt;</content>
-    <link href="https://github.com/open-telemetry/opentelemetry-go/releases/tag/exporters%2Fzipkin%2Fv1.15.0-rc.2" rel="alternate"></link>
+    <link href="https://github.com/open-telemetry/opentelemetry-go/releases/tag/exporters%2Fstdout%2Fstdouttrace%2Fv1.15.0-rc.2" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>MrAlias</name>
@@ -3301,17 +3312,6 @@
     <summary type="html"></summary>
     <author>
       <name>dmitry-shibanov</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from trivy - v0.36.1</title>
-    <updated>2023-01-05T11:24:11Z</updated>
-    <id>tag:github.com,2008:Repository/180687624/v0.36.1</id>
-    <content type="html">&lt;h2&gt;Changelog&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a class=&#34;commit-link&#34; data-hovercard-type=&#34;commit&#34; data-hovercard-url=&#34;https://github.com/aquasecurity/trivy/commit/9039df4993f1e574a4f0a8e630bbeea16dfed10d/hovercard&#34; href=&#34;https://github.com/aquasecurity/trivy/commit/9039df4993f1e574a4f0a8e630bbeea16dfed10d&#34;&gt;&lt;tt&gt;9039df4&lt;/tt&gt;&lt;/a&gt; fix(deps): fix errors on yarn.lock files that contain local file reference (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1520319109&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/aquasecurity/trivy/issues/3384&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/aquasecurity/trivy/pull/3384/hovercard&#34; href=&#34;https://github.com/aquasecurity/trivy/pull/3384&#34;&gt;#3384&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;&lt;a class=&#34;commit-link&#34; data-hovercard-type=&#34;commit&#34; data-hovercard-url=&#34;https://github.com/aquasecurity/trivy/commit/60cf4fe49f877186f276c46913cf1d0c8b31ec90/hovercard&#34; href=&#34;https://github.com/aquasecurity/trivy/commit/60cf4fe49f877186f276c46913cf1d0c8b31ec90&#34;&gt;&lt;tt&gt;60cf4fe&lt;/tt&gt;&lt;/a&gt; feat(flag): early fail when the format is invalid (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1516275397&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/aquasecurity/trivy/issues/3370&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/aquasecurity/trivy/pull/3370/hovercard&#34; href=&#34;https://github.com/aquasecurity/trivy/pull/3370&#34;&gt;#3370&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;&lt;a class=&#34;commit-link&#34; data-hovercard-type=&#34;commit&#34; data-hovercard-url=&#34;https://github.com/aquasecurity/trivy/commit/9470e3cd27badac16221093190bb51be05bdd3a8/hovercard&#34; href=&#34;https://github.com/aquasecurity/trivy/commit/9470e3cd27badac16221093190bb51be05bdd3a8&#34;&gt;&lt;tt&gt;9470e3c&lt;/tt&gt;&lt;/a&gt; chore(deps): bump github.com/aws/aws-sdk-go from 1.44.136 to 1.44.171 (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1515590980&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/aquasecurity/trivy/issues/3366&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/aquasecurity/trivy/pull/3366/hovercard&#34; href=&#34;https://github.com/aquasecurity/trivy/pull/3366&#34;&gt;#3366&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;&lt;a class=&#34;commit-link&#34; data-hovercard-type=&#34;commit&#34; data-hovercard-url=&#34;https://github.com/aquasecurity/trivy/commit/d274d1568ae63e3564fe193e12b2f03257e943db/hovercard&#34; href=&#34;https://github.com/aquasecurity/trivy/commit/d274d1568ae63e3564fe193e12b2f03257e943db&#34;&gt;&lt;tt&gt;d274d15&lt;/tt&gt;&lt;/a&gt; docs(aws): fix broken links (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1517498672&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/aquasecurity/trivy/issues/3374&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/aquasecurity/trivy/pull/3374/hovercard&#34; href=&#34;https://github.com/aquasecurity/trivy/pull/3374&#34;&gt;#3374&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;&lt;a class=&#34;commit-link&#34; data-hovercard-type=&#34;commit&#34; data-hovercard-url=&#34;https://github.com/aquasecurity/trivy/commit/2a870f8a82762db63d6bea34e91fc86dd4f013d3/hovercard&#34; href=&#34;https://github.com/aquasecurity/trivy/commit/2a870f8a82762db63d6bea34e91fc86dd4f013d3&#34;&gt;&lt;tt&gt;2a870f8&lt;/tt&gt;&lt;/a&gt; chore(deps): bump actions/stale from 6 to 7 (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1515586596&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/aquasecurity/trivy/issues/3360&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/aquasecurity/trivy/pull/3360/hovercard&#34; href=&#34;https://github.com/aquasecurity/trivy/pull/3360&#34;&gt;#3360&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;&lt;a class=&#34;commit-link&#34; data-hovercard-type=&#34;commit&#34; data-hovercard-url=&#34;https://github.com/aquasecurity/trivy/commit/5974023b7f61f17b6b88c25d8e075f8a1973a2ee/hovercard&#34; href=&#34;https://github.com/aquasecurity/trivy/commit/5974023b7f61f17b6b88c25d8e075f8a1973a2ee&#34;&gt;&lt;tt&gt;5974023&lt;/tt&gt;&lt;/a&gt; chore(deps): bump helm/kind-action from 1.4.0 to 1.5.0 (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1515586505&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/aquasecurity/trivy/issues/3359&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/aquasecurity/trivy/pull/3359/hovercard&#34; href=&#34;https://github.com/aquasecurity/trivy/pull/3359&#34;&gt;#3359&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;&lt;a class=&#34;commit-link&#34; data-hovercard-type=&#34;commit&#34; data-hovercard-url=&#34;https://github.com/aquasecurity/trivy/commit/02aa8c2c5081df8ee0b496da7d5752e974c67501/hovercard&#34; href=&#34;https://github.com/aquasecurity/trivy/commit/02aa8c2c5081df8ee0b496da7d5752e974c67501&#34;&gt;&lt;tt&gt;02aa8c2&lt;/tt&gt;&lt;/a&gt; chore(deps): bump github.com/CycloneDX/cyclonedx-go from 0.6.0 to 0.7.0 (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1393415638&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/aquasecurity/trivy/issues/2974&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/aquasecurity/trivy/pull/2974/hovercard&#34; href=&#34;https://github.com/aquasecurity/trivy/pull/2974&#34;&gt;#2974&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;&lt;a class=&#34;commit-link&#34; data-hovercard-type=&#34;commit&#34; data-hovercard-url=&#34;https://github.com/aquasecurity/trivy/commit/6e6171feadbbbd3ceee13b90c43d6b906f44b77a/hovercard&#34; href=&#34;https://github.com/aquasecurity/trivy/commit/6e6171feadbbbd3ceee13b90c43d6b906f44b77a&#34;&gt;&lt;tt&gt;6e6171f&lt;/tt&gt;&lt;/a&gt; chore(deps): bump azure/setup-helm from 3.4 to 3.5 (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1515586451&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/aquasecurity/trivy/issues/3358&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/aquasecurity/trivy/pull/3358/hovercard&#34; href=&#34;https://github.com/aquasecurity/trivy/pull/3358&#34;&gt;#3358&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;&lt;a class=&#34;commit-link&#34; data-hovercard-type=&#34;commit&#34; data-hovercard-url=&#34;https://github.com/aquasecurity/trivy/commit/066f27792fb93879bae6cb46a3b4e7189d17882e/hovercard&#34; href=&#34;https://github.com/aquasecurity/trivy/commit/066f27792fb93879bae6cb46a3b4e7189d17882e&#34;&gt;&lt;tt&gt;066f277&lt;/tt&gt;&lt;/a&gt; chore(deps): bump github.com/moby/buildkit from 0.10.4 to 0.10.6 (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1446920367&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/aquasecurity/trivy/issues/3173&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/aquasecurity/trivy/pull/3173/hovercard&#34; href=&#34;https://github.com/aquasecurity/trivy/pull/3173&#34;&gt;#3173&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;&lt;a class=&#34;commit-link&#34; data-hovercard-type=&#34;commit&#34; data-hovercard-url=&#34;https://github.com/aquasecurity/trivy/commit/8cc3284106aad679eca3050516337e3d8d136a27/hovercard&#34; href=&#34;https://github.com/aquasecurity/trivy/commit/8cc3284106aad679eca3050516337e3d8d136a27&#34;&gt;&lt;tt&gt;8cc3284&lt;/tt&gt;&lt;/a&gt; chore(deps): bump goreleaser/goreleaser-action from 3 to 4 (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1515586388&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/aquasecurity/trivy/issues/3357&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/aquasecurity/trivy/pull/3357/hovercard&#34; href=&#34;https://github.com/aquasecurity/trivy/pull/3357&#34;&gt;#3357&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;&lt;a class=&#34;commit-link&#34; data-hovercard-type=&#34;commit&#34; data-hovercard-url=&#34;https://github.com/aquasecurity/trivy/commit/8d71346143022376d134d5edca2d79a72870bad8/hovercard&#34; href=&#34;https://github.com/aquasecurity/trivy/commit/8d71346143022376d134d5edca2d79a72870bad8&#34;&gt;&lt;tt&gt;8d71346&lt;/tt&gt;&lt;/a&gt; chore(deps): bump github.com/containerd/containerd from 1.6.8 to 1.6.14 (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1515591339&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/aquasecurity/trivy/issues/3367&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/aquasecurity/trivy/pull/3367/hovercard&#34; href=&#34;https://github.com/aquasecurity/trivy/pull/3367&#34;&gt;#3367&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;&lt;a class=&#34;commit-link&#34; data-hovercard-type=&#34;commit&#34; data-hovercard-url=&#34;https://github.com/aquasecurity/trivy/commit/5b944d20acbc238c0e41bfba7281acd20489843e/hovercard&#34; href=&#34;https://github.com/aquasecurity/trivy/commit/5b944d20acbc238c0e41bfba7281acd20489843e&#34;&gt;&lt;tt&gt;5b944d2&lt;/tt&gt;&lt;/a&gt; chore(go): updates wazero to v1.0.0-pre.7 (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1515274463&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/aquasecurity/trivy/issues/3355&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/aquasecurity/trivy/pull/3355/hovercard&#34; href=&#34;https://github.com/aquasecurity/trivy/pull/3355&#34;&gt;#3355&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;&lt;a class=&#34;commit-link&#34; data-hovercard-type=&#34;commit&#34; data-hovercard-url=&#34;https://github.com/aquasecurity/trivy/commit/9c645b99e24441e891b85413313ed8d63937b71b/hovercard&#34; href=&#34;https://github.com/aquasecurity/trivy/commit/9c645b99e24441e891b85413313ed8d63937b71b&#34;&gt;&lt;tt&gt;9c645b9&lt;/tt&gt;&lt;/a&gt; chore(deps): bump golang.org/x/text from 0.4.0 to 0.5.0 (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1515590272&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/aquasecurity/trivy/issues/3362&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/aquasecurity/trivy/pull/3362/hovercard&#34; href=&#34;https://github.com/aquasecurity/trivy/pull/3362&#34;&gt;#3362&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;&lt;a class=&#34;commit-link&#34; data-hovercard-type=&#34;commit&#34; data-hovercard-url=&#34;https://github.com/aquasecurity/trivy/commit/e2cd782d3ac6f89e07c15a9c1ff4adc7ee866a0f/hovercard&#34; href=&#34;https://github.com/aquasecurity/trivy/commit/e2cd782d3ac6f89e07c15a9c1ff4adc7ee866a0f&#34;&gt;&lt;tt&gt;e2cd782&lt;/tt&gt;&lt;/a&gt; chore(deps): bump actions/cache from 3.0.11 to 3.2.2 (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1515586323&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/aquasecurity/trivy/issues/3356&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/aquasecurity/trivy/pull/3356/hovercard&#34; href=&#34;https://github.com/aquasecurity/trivy/pull/3356&#34;&gt;#3356&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/aquasecurity/trivy/releases/tag/v0.36.1" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>aqua-bot</name>
     </author>
   </entry>
   <entry>
@@ -7748,22 +7748,22 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from backoff - v2.0.3: Merge pull request #18 from lestrrat-go/topic/fix-v2-go-mod</title>
+    <title>Release notes from backoff - v2.0.2: Merge pull request #18 from lestrrat-go/topic/fix-v2-go-mod</title>
     <updated>2021-01-06T03:00:05Z</updated>
-    <id>tag:github.com,2008:Repository/118608673/v2.0.3</id>
+    <id>tag:github.com,2008:Repository/118608673/v2.0.2</id>
     <content type="html">&lt;p&gt;Fix go.mod&lt;/p&gt;</content>
-    <link href="https://github.com/lestrrat-go/backoff/releases/tag/v2.0.3" rel="alternate"></link>
+    <link href="https://github.com/lestrrat-go/backoff/releases/tag/v2.0.2" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>lestrrat</name>
     </author>
   </entry>
   <entry>
-    <title>Release notes from backoff - v2.0.2: Merge pull request #18 from lestrrat-go/topic/fix-v2-go-mod</title>
+    <title>Release notes from backoff - v2.0.3: Merge pull request #18 from lestrrat-go/topic/fix-v2-go-mod</title>
     <updated>2021-01-06T03:00:05Z</updated>
-    <id>tag:github.com,2008:Repository/118608673/v2.0.2</id>
+    <id>tag:github.com,2008:Repository/118608673/v2.0.3</id>
     <content type="html">&lt;p&gt;Fix go.mod&lt;/p&gt;</content>
-    <link href="https://github.com/lestrrat-go/backoff/releases/tag/v2.0.2" rel="alternate"></link>
+    <link href="https://github.com/lestrrat-go/backoff/releases/tag/v2.0.3" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>lestrrat</name>
