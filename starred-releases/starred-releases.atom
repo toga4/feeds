@@ -1,8 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?><feed xmlns="http://www.w3.org/2005/Atom">
   <title>Releases from Starred by toga4</title>
   <id>https://toga4.github.io/feeds/starred-releases.atom</id>
-  <updated>2023-04-12T15:13:40Z</updated>
+  <updated>2023-04-12T18:20:24Z</updated>
   <link href="https://toga4.github.io/feeds/starred-releases.atom"></link>
+  <entry>
+    <title>Release notes from terraform - v1.4.5</title>
+    <updated>2023-04-12T18:20:24Z</updated>
+    <id>tag:github.com,2008:Repository/17728164/v1.4.5</id>
+    <content type="html">&lt;h2&gt;1.4.5 (April 12, 2023)&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Revert change from [&lt;a href=&#34;https://github.com/hashicorp/terraform/issues/32892&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/hashicorp/terraform/pull/32892/hovercard&#34;&gt;#32892&lt;/a&gt;] due to an upstream crash.&lt;/li&gt;&#xA;&lt;li&gt;Fix planned destroy value which would cause &lt;code&gt;terraform_data&lt;/code&gt; to fail when being replaced with &lt;code&gt;create_before_destroy&lt;/code&gt; (&lt;a href=&#34;https://github.com/hashicorp/terraform/issues/32988&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/hashicorp/terraform/pull/32988/hovercard&#34;&gt;#32988&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/hashicorp/terraform/releases/tag/v1.4.5" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>hc-github-team-es-release-engineering</name>
+    </author>
+  </entry>
   <entry>
     <title>Release notes from checkout - v3.5.1</title>
     <updated>2023-04-12T15:13:40Z</updated>
@@ -37,66 +48,11 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from opentelemetry-operations-go - example/trace/http/v0.37.1: Prepare v0.37.1/1.13.1 release (#623)</title>
+    <title>Release notes from opentelemetry-operations-go - exporter/collector/googlemanagedprometheus/v0.37.1: Prepare v0.37.1/1.13.1 release (#623)</title>
     <updated>2023-04-12T14:56:07Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/example/trace/http/v0.37.1</id>
+    <id>tag:github.com,2008:Repository/244484581/exporter/collector/googlemanagedprometheus/v0.37.1</id>
     <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Prepare release v0.37.1/1.13.1&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/example%2Ftrace%2Fhttp%2Fv0.37.1" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>damemi</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from opentelemetry-operations-go - exporter/metric/v0.37.1: Prepare v0.37.1/1.13.1 release (#623)</title>
-    <updated>2023-04-12T14:56:07Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/exporter/metric/v0.37.1</id>
-    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Prepare release v0.37.1/1.13.1&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/exporter%2Fmetric%2Fv0.37.1" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>damemi</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from opentelemetry-operations-go - propagator/v0.37.1: Prepare v0.37.1/1.13.1 release (#623)</title>
-    <updated>2023-04-12T14:56:07Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/propagator/v0.37.1</id>
-    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Prepare release v0.37.1/1.13.1&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/propagator%2Fv0.37.1" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>damemi</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from opentelemetry-operations-go - internal/resourcemapping/v0.37.1: Prepare v0.37.1/1.13.1 release (#623)</title>
-    <updated>2023-04-12T14:56:07Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/internal/resourcemapping/v0.37.1</id>
-    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Prepare release v0.37.1/1.13.1&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/internal%2Fresourcemapping%2Fv0.37.1" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>damemi</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from opentelemetry-operations-go - example/metric/v0.37.1: Prepare v0.37.1/1.13.1 release (#623)</title>
-    <updated>2023-04-12T14:56:07Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/example/metric/v0.37.1</id>
-    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Prepare release v0.37.1/1.13.1&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/example%2Fmetric%2Fv0.37.1" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>damemi</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from opentelemetry-operations-go - exporter/trace/v1.13.1: Prepare v0.37.1/1.13.1 release (#623)</title>
-    <updated>2023-04-12T14:56:07Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/exporter/trace/v1.13.1</id>
-    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Prepare release v0.37.1/1.13.1&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/exporter%2Ftrace%2Fv1.13.1" rel="alternate"></link>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/exporter%2Fcollector%2Fgooglemanagedprometheus%2Fv0.37.1" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>damemi</name>
@@ -114,11 +70,11 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from opentelemetry-operations-go - exporter/collector/googlemanagedprometheus/v0.37.1: Prepare v0.37.1/1.13.1 release (#623)</title>
+    <title>Release notes from opentelemetry-operations-go - propagator/v0.37.1: Prepare v0.37.1/1.13.1 release (#623)</title>
     <updated>2023-04-12T14:56:07Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/exporter/collector/googlemanagedprometheus/v0.37.1</id>
+    <id>tag:github.com,2008:Repository/244484581/propagator/v0.37.1</id>
     <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Prepare release v0.37.1/1.13.1&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/exporter%2Fcollector%2Fgooglemanagedprometheus%2Fv0.37.1" rel="alternate"></link>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/propagator%2Fv0.37.1" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>damemi</name>
@@ -130,6 +86,61 @@
     <id>tag:github.com,2008:Repository/244484581/exporter/collector/v0.37.1</id>
     <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Prepare release v0.37.1/1.13.1&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
     <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/exporter%2Fcollector%2Fv0.37.1" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>damemi</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from opentelemetry-operations-go - exporter/metric/v0.37.1: Prepare v0.37.1/1.13.1 release (#623)</title>
+    <updated>2023-04-12T14:56:07Z</updated>
+    <id>tag:github.com,2008:Repository/244484581/exporter/metric/v0.37.1</id>
+    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Prepare release v0.37.1/1.13.1&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/exporter%2Fmetric%2Fv0.37.1" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>damemi</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from opentelemetry-operations-go - exporter/trace/v1.13.1: Prepare v0.37.1/1.13.1 release (#623)</title>
+    <updated>2023-04-12T14:56:07Z</updated>
+    <id>tag:github.com,2008:Repository/244484581/exporter/trace/v1.13.1</id>
+    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Prepare release v0.37.1/1.13.1&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/exporter%2Ftrace%2Fv1.13.1" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>damemi</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from opentelemetry-operations-go - example/trace/http/v0.37.1: Prepare v0.37.1/1.13.1 release (#623)</title>
+    <updated>2023-04-12T14:56:07Z</updated>
+    <id>tag:github.com,2008:Repository/244484581/example/trace/http/v0.37.1</id>
+    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Prepare release v0.37.1/1.13.1&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/example%2Ftrace%2Fhttp%2Fv0.37.1" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>damemi</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from opentelemetry-operations-go - example/metric/v0.37.1: Prepare v0.37.1/1.13.1 release (#623)</title>
+    <updated>2023-04-12T14:56:07Z</updated>
+    <id>tag:github.com,2008:Repository/244484581/example/metric/v0.37.1</id>
+    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Prepare release v0.37.1/1.13.1&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/example%2Fmetric%2Fv0.37.1" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>damemi</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from opentelemetry-operations-go - internal/resourcemapping/v0.37.1: Prepare v0.37.1/1.13.1 release (#623)</title>
+    <updated>2023-04-12T14:56:07Z</updated>
+    <id>tag:github.com,2008:Repository/244484581/internal/resourcemapping/v0.37.1</id>
+    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Prepare release v0.37.1/1.13.1&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/internal%2Fresourcemapping%2Fv0.37.1" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>damemi</name>
@@ -917,22 +928,22 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from opentelemetry-go-contrib - samplers/jaegerremote/v0.10.0-rc.2</title>
+    <title>Release notes from opentelemetry-go-contrib - samplers/aws/xray/v0.10.0-rc.2</title>
     <updated>2023-03-23T15:43:21Z</updated>
-    <id>tag:github.com,2008:Repository/242202166/samplers/jaegerremote/v0.10.0-rc.2</id>
+    <id>tag:github.com,2008:Repository/242202166/samplers/aws/xray/v0.10.0-rc.2</id>
     <content type="html">&lt;p&gt;Module set experimental-samplers, Version v0.10.0-rc.2&lt;/p&gt;</content>
-    <link href="https://github.com/open-telemetry/opentelemetry-go-contrib/releases/tag/samplers%2Fjaegerremote%2Fv0.10.0-rc.2" rel="alternate"></link>
+    <link href="https://github.com/open-telemetry/opentelemetry-go-contrib/releases/tag/samplers%2Faws%2Fxray%2Fv0.10.0-rc.2" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>MrAlias</name>
     </author>
   </entry>
   <entry>
-    <title>Release notes from opentelemetry-go-contrib - samplers/aws/xray/v0.10.0-rc.2</title>
+    <title>Release notes from opentelemetry-go-contrib - samplers/jaegerremote/v0.10.0-rc.2</title>
     <updated>2023-03-23T15:43:21Z</updated>
-    <id>tag:github.com,2008:Repository/242202166/samplers/aws/xray/v0.10.0-rc.2</id>
+    <id>tag:github.com,2008:Repository/242202166/samplers/jaegerremote/v0.10.0-rc.2</id>
     <content type="html">&lt;p&gt;Module set experimental-samplers, Version v0.10.0-rc.2&lt;/p&gt;</content>
-    <link href="https://github.com/open-telemetry/opentelemetry-go-contrib/releases/tag/samplers%2Faws%2Fxray%2Fv0.10.0-rc.2" rel="alternate"></link>
+    <link href="https://github.com/open-telemetry/opentelemetry-go-contrib/releases/tag/samplers%2Fjaegerremote%2Fv0.10.0-rc.2" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>MrAlias</name>
@@ -1071,22 +1082,22 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from opentelemetry-go - exporters/stdout/stdouttrace/v1.15.0-rc.2</title>
+    <title>Release notes from opentelemetry-go - exporters/zipkin/v1.15.0-rc.2</title>
     <updated>2023-03-23T14:48:55Z</updated>
-    <id>tag:github.com,2008:Repository/187086161/exporters/stdout/stdouttrace/v1.15.0-rc.2</id>
+    <id>tag:github.com,2008:Repository/187086161/exporters/zipkin/v1.15.0-rc.2</id>
     <content type="html">&lt;p&gt;Module set stable-v1, Version v1.15.0-rc.2&lt;/p&gt;</content>
-    <link href="https://github.com/open-telemetry/opentelemetry-go/releases/tag/exporters%2Fstdout%2Fstdouttrace%2Fv1.15.0-rc.2" rel="alternate"></link>
+    <link href="https://github.com/open-telemetry/opentelemetry-go/releases/tag/exporters%2Fzipkin%2Fv1.15.0-rc.2" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>MrAlias</name>
     </author>
   </entry>
   <entry>
-    <title>Release notes from opentelemetry-go - exporters/zipkin/v1.15.0-rc.2</title>
+    <title>Release notes from opentelemetry-go - exporters/stdout/stdouttrace/v1.15.0-rc.2</title>
     <updated>2023-03-23T14:48:55Z</updated>
-    <id>tag:github.com,2008:Repository/187086161/exporters/zipkin/v1.15.0-rc.2</id>
+    <id>tag:github.com,2008:Repository/187086161/exporters/stdout/stdouttrace/v1.15.0-rc.2</id>
     <content type="html">&lt;p&gt;Module set stable-v1, Version v1.15.0-rc.2&lt;/p&gt;</content>
-    <link href="https://github.com/open-telemetry/opentelemetry-go/releases/tag/exporters%2Fzipkin%2Fv1.15.0-rc.2" rel="alternate"></link>
+    <link href="https://github.com/open-telemetry/opentelemetry-go/releases/tag/exporters%2Fstdout%2Fstdouttrace%2Fv1.15.0-rc.2" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>MrAlias</name>
@@ -2311,17 +2322,6 @@
     <summary type="html"></summary>
     <author>
       <name>thaJeztah</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from terraform - v1.4.0-beta1</title>
-    <updated>2023-02-09T18:59:35Z</updated>
-    <id>tag:github.com,2008:Repository/17728164/v1.4.0-beta1</id>
-    <content type="html">&lt;h2&gt;1.4.0 (Unreleased)&lt;/h2&gt;&#xA;&lt;p&gt;UPGRADE NOTES:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;config: The &lt;code&gt;textencodebase64&lt;/code&gt; function when called with encoding &#34;GB18030&#34; will now encode the euro symbol € as the two-byte sequence &lt;code&gt;0xA2,0xE3&lt;/code&gt;, as required by the GB18030 standard, before applying base64 encoding.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;config: The &lt;code&gt;textencodebase64&lt;/code&gt; function when called with encoding &#34;GBK&#34; or &#34;CP936&#34; will now encode the euro symbol € as the single byte &lt;code&gt;0x80&lt;/code&gt; before applying base64 encoding. This matches the behavior of the Windows API when encoding to this Windows-specific character encoding.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;code&gt;terraform init&lt;/code&gt;: When interpreting the hostname portion of a provider source address or the address of a module in a module registry, Terraform will now use &lt;em&gt;non-transitional&lt;/em&gt; IDNA2008 mapping rules instead of the transitional mapping rules previously used.&lt;/p&gt;&#xA;&lt;p&gt;This matches a change to &lt;a href=&#34;https://url.spec.whatwg.org/#concept-domain-to-ascii&#34; rel=&#34;nofollow&#34;&gt;the WHATWG URL spec&#39;s rules for interpreting non-ASCII domain names&lt;/a&gt; which is being gradually adopted by web browsers. Terraform aims to follow the interpretation of hostnames used by web browsers for consistency. For some hostnames containing non-ASCII characters this may cause Terraform to now request a different &#34;punycode&#34; hostname when resolving.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;The Terraform plan renderer has been completely rewritten to aid with future Terraform Cloud integration. Users should not see any material change in the plan output between 1.3 and 1.4. Users are encouraged to file reports if they notice material differences, or encounter any bugs or panics during their normal execution of Terraform.&lt;/p&gt;&#xA;&lt;p&gt;The diff computation and the rendering are now split into separate packages, while previously the rendering was handled as the diff was computed. Going forward, making small changes to the format of the plan will be easier and introducing new types of renderer will be simplified.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;BUG FIXES:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;The module installer will now record in its manifest a correct module source URL after normalization when the URL given as input contains both a query string portion and a subdirectory portion. Terraform itself doesn&#39;t currently make use of this information and so this is just a cosmetic fix to make the recorded metadata more correct. (&lt;a href=&#34;https://github.com/hashicorp/terraform/issues/31636&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/hashicorp/terraform/pull/31636/hovercard&#34;&gt;#31636&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;config: The &lt;code&gt;yamldecode&lt;/code&gt; function now correctly handles entirely-nil YAML documents. Previously it would incorrectly return an unknown value instead of a null value. It will now return a null value as documented. (&lt;a href=&#34;https://github.com/hashicorp/terraform/issues/32151&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/hashicorp/terraform/pull/32151/hovercard&#34;&gt;#32151&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;Ensure correct ordering between data sources and the deletion of managed resource dependencies. (&lt;a href=&#34;https://github.com/hashicorp/terraform/issues/32209&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/hashicorp/terraform/pull/32209/hovercard&#34;&gt;#32209&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;Fix Terraform creating objects that should not exist in variables that specify default attributes in optional objects. (&lt;a href=&#34;https://github.com/hashicorp/terraform/issues/32178&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/hashicorp/terraform/pull/32178/hovercard&#34;&gt;#32178&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;Fix several Terraform crashes that are caused by HCL creating objects that should not exist in variables that specify default attributes in optional objects within collections. (&lt;a href=&#34;https://github.com/hashicorp/terraform/issues/32178&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/hashicorp/terraform/pull/32178/hovercard&#34;&gt;#32178&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;Fix inconsistent behaviour in empty vs null collections. (&lt;a href=&#34;https://github.com/hashicorp/terraform/issues/32178&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/hashicorp/terraform/pull/32178/hovercard&#34;&gt;#32178&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;&lt;code&gt;terraform workspace&lt;/code&gt; now returns a non-zero exit when given an invalid argument (&lt;a href=&#34;https://github.com/hashicorp/terraform/issues/31318&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/hashicorp/terraform/pull/31318/hovercard&#34;&gt;#31318&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;Terraform would always plan changes when using a nested set attribute (&lt;a href=&#34;https://github.com/hashicorp/terraform/issues/32536&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/hashicorp/terraform/pull/32536/hovercard&#34;&gt;#32536&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;Terraform can now better detect when complex optional+computed object attributes are removed from configuration (&lt;a href=&#34;https://github.com/hashicorp/terraform/issues/32551&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/hashicorp/terraform/pull/32551/hovercard&#34;&gt;#32551&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;A new methodology for planning set elements can now better detect optional+computed changes within sets (&lt;a href=&#34;https://github.com/hashicorp/terraform/issues/32563&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/hashicorp/terraform/pull/32563/hovercard&#34;&gt;#32563&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;Fix state locking and releasing messages when in &lt;code&gt;-json&lt;/code&gt; mode, messages will now be written in JSON format (&lt;a href=&#34;https://github.com/hashicorp/terraform/issues/32451&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/hashicorp/terraform/pull/32451/hovercard&#34;&gt;#32451&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;ENHANCEMENTS:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;code&gt;terraform plan&lt;/code&gt; can now store a plan file even when encountering errors, which can later be inspected to help identify the source of the failures (&lt;a href=&#34;https://github.com/hashicorp/terraform/issues/32395&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/hashicorp/terraform/pull/32395/hovercard&#34;&gt;#32395&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;&lt;code&gt;terraform_data&lt;/code&gt; is a new builtin managed resource type, which can replace the use of &lt;code&gt;null_resource&lt;/code&gt;, and can store data of any type (&lt;a href=&#34;https://github.com/hashicorp/terraform/issues/31757&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/hashicorp/terraform/pull/31757/hovercard&#34;&gt;#31757&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;&lt;code&gt;terraform init&lt;/code&gt; will now ignore entries in the optional global provider cache directory unless they match a checksum already tracked in the current configuration&#39;s dependency lock file. This therefore avoids the long-standing problem that when installing a new provider for the first time from the cache we can&#39;t determine the full set of checksums to include in the lock file. Once the lock file has been updated to include a checksum covering the item in the global cache, Terraform will then use the cache entry for subsequent installation of the same provider package. There is an interim CLI configuration opt-out for those who rely on the previous incorrect behavior. (&lt;a href=&#34;https://github.com/hashicorp/terraform/issues/32129&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/hashicorp/terraform/pull/32129/hovercard&#34;&gt;#32129&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;Interactive input for sensitive variables is now masked in the UI (&lt;a href=&#34;https://github.com/hashicorp/terraform/issues/29520&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/hashicorp/terraform/pull/29520/hovercard&#34;&gt;#29520&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;A new &lt;code&gt;-or-create&lt;/code&gt; flag was added to &lt;code&gt;terraform workspace select&lt;/code&gt;, to aid in creating workspaces in automated situations (&lt;a href=&#34;https://github.com/hashicorp/terraform/issues/31633&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/hashicorp/terraform/pull/31633/hovercard&#34;&gt;#31633&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;The &#34;Failed to install provider&#34; error message now includes the reason a provider could not be installed. (&lt;a href=&#34;https://github.com/hashicorp/terraform/issues/31898&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/hashicorp/terraform/pull/31898/hovercard&#34;&gt;#31898&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;backend/gcs: Add &lt;code&gt;kms_encryption_key&lt;/code&gt; argument, to allow encryption of state files using Cloud KMS keys. (&lt;a href=&#34;https://github.com/hashicorp/terraform/issues/24967&#34; data-hovercard-type=&#34;issue&#34; data-hovercard-url=&#34;/hashicorp/terraform/issues/24967/hovercard&#34;&gt;#24967&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;backend/gcs: Add &lt;code&gt;storage_custom_endpoint&lt;/code&gt; argument, to allow communication with the backend via a Private Service Connect endpoint. (&lt;a href=&#34;https://github.com/hashicorp/terraform/issues/28856&#34; data-hovercard-type=&#34;issue&#34; data-hovercard-url=&#34;/hashicorp/terraform/issues/28856/hovercard&#34;&gt;#28856&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;backend/gcs: Update documentation for usage of &lt;code&gt;gcs&lt;/code&gt; with &lt;code&gt;terraform_remote_state&lt;/code&gt; (&lt;a href=&#34;https://github.com/hashicorp/terraform/issues/32065&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/hashicorp/terraform/pull/32065/hovercard&#34;&gt;#32065&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;backed/gcs: Update storage package to v1.28.0 (&lt;a href=&#34;https://github.com/hashicorp/terraform/issues/29656&#34; data-hovercard-type=&#34;issue&#34; data-hovercard-url=&#34;/hashicorp/terraform/issues/29656/hovercard&#34;&gt;#29656&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;When removing a workspace from the &lt;code&gt;cloud&lt;/code&gt; backend &lt;code&gt;terraform workspace delete&lt;/code&gt; will use Terraform Cloud&#39;s &lt;a href=&#34;https://developer.hashicorp.com/terraform/cloud-docs/api-docs/workspaces#safe-delete-a-workspace&#34; rel=&#34;nofollow&#34;&gt;Safe Delete&lt;/a&gt; API if the &lt;code&gt;-force&lt;/code&gt; flag is not provided. (&lt;a href=&#34;https://github.com/hashicorp/terraform/pull/31949&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/hashicorp/terraform/pull/31949/hovercard&#34;&gt;#31949&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;backend/oss: More robustly handle endpoint retrieval error (&lt;a href=&#34;https://github.com/hashicorp/terraform/issues/32295&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/hashicorp/terraform/pull/32295/hovercard&#34;&gt;#32295&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;local-exec provisioner: Added &lt;code&gt;quiet&lt;/code&gt; argument. If &lt;code&gt;quiet&lt;/code&gt; is set to &lt;code&gt;true&lt;/code&gt;, Terraform will not print the entire command to stdout during plan. (&lt;a href=&#34;https://github.com/hashicorp/terraform/issues/32116&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/hashicorp/terraform/pull/32116/hovercard&#34;&gt;#32116&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;backend/http: Add support for mTLS authentication. (&lt;a href=&#34;https://github.com/hashicorp/terraform/issues/31699&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/hashicorp/terraform/pull/31699/hovercard&#34;&gt;#31699&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;cloud: Add support for using the &lt;a href=&#34;https://developer.hashicorp.com/terraform/cloud-docs/registry/using#generic-hostname-terraform-enterprise&#34; rel=&#34;nofollow&#34;&gt;generic hostname&lt;/a&gt; localterraform.com in module and provider sources as a substitute for the currently configured cloud backend hostname. This enhancement was also applied to the remote backend.&lt;/li&gt;&#xA;&lt;li&gt;&lt;code&gt;terraform show&lt;/code&gt; will now print an explanation when called on a Terraform workspace with empty state detailing why no resources are shown. (&lt;a href=&#34;https://github.com/hashicorp/terraform/issues/32629&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/hashicorp/terraform/pull/32629/hovercard&#34;&gt;#32629&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;EXPERIMENTS:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Since its introduction the &lt;code&gt;yamlencode&lt;/code&gt; function&#39;s documentation carried a warning that it was experimental. This predated our more formalized idea of language experiments and so wasn&#39;t guarded by an explicit opt-in, but the intention was to allow for small adjustments to its behavior if we learned it was producing invalid YAML in some cases, due to the relative complexity of the YAML specification.&lt;/p&gt;&#xA;&lt;p&gt;From Terraform v1.4 onwards, &lt;code&gt;yamlencode&lt;/code&gt; is no longer documented as experimental and is now subject to the Terraform v1.x Compatibility Promises. There are no changes to its previous behavior in v1.3 and so no special action is required when upgrading.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/hashicorp/terraform/releases/tag/v1.4.0-beta1" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>hc-github-team-tf-core</name>
     </author>
   </entry>
   <entry>
