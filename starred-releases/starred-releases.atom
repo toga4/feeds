@@ -1,8 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?><feed xmlns="http://www.w3.org/2005/Atom">
   <title>Releases from Starred by toga4</title>
   <id>https://toga4.github.io/feeds/starred-releases.atom</id>
-  <updated>2023-04-15T18:47:36Z</updated>
+  <updated>2023-04-15T21:06:42Z</updated>
   <link href="https://toga4.github.io/feeds/starred-releases.atom"></link>
+  <entry>
+    <title>Release notes from task - v3.24.0</title>
+    <updated>2023-04-15T21:06:42Z</updated>
+    <id>tag:github.com,2008:Repository/83252983/v3.24.0</id>
+    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;Fix Fish shell completion for tasks with aliases (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1659638803&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/go-task/task/issues/1113&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/go-task/task/pull/1113/hovercard&#34; href=&#34;https://github.com/go-task/task/pull/1113&#34;&gt;#1113&lt;/a&gt; by &lt;a class=&#34;user-mention notranslate&#34; data-hovercard-type=&#34;user&#34; data-hovercard-url=&#34;/users/patricksjackson/hovercard&#34; data-octo-click=&#34;hovercard-link-click&#34; data-octo-dimensions=&#34;link_type:self&#34; href=&#34;https://github.com/patricksjackson&#34;&gt;@patricksjackson&lt;/a&gt;).&lt;/li&gt;&#xA;&lt;li&gt;The default branch was renamed from &lt;code&gt;master&lt;/code&gt; to &lt;code&gt;main&lt;/code&gt; (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1619749999&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/go-task/task/issues/1049&#34; data-hovercard-type=&#34;issue&#34; data-hovercard-url=&#34;/go-task/task/issues/1049/hovercard&#34; href=&#34;https://github.com/go-task/task/issues/1049&#34;&gt;#1049&lt;/a&gt;, &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1619749634&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/go-task/task/issues/1048&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/go-task/task/pull/1048/hovercard&#34; href=&#34;https://github.com/go-task/task/pull/1048&#34;&gt;#1048&lt;/a&gt; by &lt;a class=&#34;user-mention notranslate&#34; data-hovercard-type=&#34;user&#34; data-hovercard-url=&#34;/users/pd93/hovercard&#34; data-octo-click=&#34;hovercard-link-click&#34; data-octo-dimensions=&#34;link_type:self&#34; href=&#34;https://github.com/pd93&#34;&gt;@pd93&lt;/a&gt;).&lt;/li&gt;&#xA;&lt;li&gt;Fix bug where &#34;up-to-date&#34; logs were not being omitted for silent tasks (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;963374880&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/go-task/task/issues/546&#34; data-hovercard-type=&#34;issue&#34; data-hovercard-url=&#34;/go-task/task/issues/546/hovercard&#34; href=&#34;https://github.com/go-task/task/issues/546&#34;&gt;#546&lt;/a&gt;, &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1654628395&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/go-task/task/issues/1107&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/go-task/task/pull/1107/hovercard&#34; href=&#34;https://github.com/go-task/task/pull/1107&#34;&gt;#1107&lt;/a&gt; by &lt;a class=&#34;user-mention notranslate&#34; data-hovercard-type=&#34;user&#34; data-hovercard-url=&#34;/users/danquah/hovercard&#34; data-octo-click=&#34;hovercard-link-click&#34; data-octo-dimensions=&#34;link_type:self&#34; href=&#34;https://github.com/danquah&#34;&gt;@danquah&lt;/a&gt;).&lt;/li&gt;&#xA;&lt;li&gt;Add &lt;code&gt;.hg&lt;/code&gt; (Mercurial) to the list of ignored directories when using &lt;code&gt;--watch&lt;/code&gt; (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1646533962&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/go-task/task/issues/1098&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/go-task/task/pull/1098/hovercard&#34; href=&#34;https://github.com/go-task/task/pull/1098&#34;&gt;#1098&lt;/a&gt; by &lt;a class=&#34;user-mention notranslate&#34; data-hovercard-type=&#34;user&#34; data-hovercard-url=&#34;/users/misery/hovercard&#34; data-octo-click=&#34;hovercard-link-click&#34; data-octo-dimensions=&#34;link_type:self&#34; href=&#34;https://github.com/misery&#34;&gt;@misery&lt;/a&gt;).&lt;/li&gt;&#xA;&lt;li&gt;More improvements to the release tool (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1644673187&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/go-task/task/issues/1096&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/go-task/task/pull/1096/hovercard&#34; href=&#34;https://github.com/go-task/task/pull/1096&#34;&gt;#1096&lt;/a&gt; by &lt;a class=&#34;user-mention notranslate&#34; data-hovercard-type=&#34;user&#34; data-hovercard-url=&#34;/users/pd93/hovercard&#34; data-octo-click=&#34;hovercard-link-click&#34; data-octo-dimensions=&#34;link_type:self&#34; href=&#34;https://github.com/pd93&#34;&gt;@pd93&lt;/a&gt;).&lt;/li&gt;&#xA;&lt;li&gt;Enforce &lt;a href=&#34;https://github.com/mvdan/gofumpt&#34;&gt;gofumpt&lt;/a&gt; linter (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1648239068&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/go-task/task/issues/1099&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/go-task/task/pull/1099/hovercard&#34; href=&#34;https://github.com/go-task/task/pull/1099&#34;&gt;#1099&lt;/a&gt; by &lt;a class=&#34;user-mention notranslate&#34; data-hovercard-type=&#34;user&#34; data-hovercard-url=&#34;/users/pd93/hovercard&#34; data-octo-click=&#34;hovercard-link-click&#34; data-octo-dimensions=&#34;link_type:self&#34; href=&#34;https://github.com/pd93&#34;&gt;@pd93&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;Add &lt;code&gt;--sort&lt;/code&gt; flag for use with &lt;code&gt;--list&lt;/code&gt; and &lt;code&gt;--list-all&lt;/code&gt; (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1471800726&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/go-task/task/issues/946&#34; data-hovercard-type=&#34;issue&#34; data-hovercard-url=&#34;/go-task/task/issues/946/hovercard&#34; href=&#34;https://github.com/go-task/task/issues/946&#34;&gt;#946&lt;/a&gt;, &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1651028867&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/go-task/task/issues/1105&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/go-task/task/pull/1105/hovercard&#34; href=&#34;https://github.com/go-task/task/pull/1105&#34;&gt;#1105&lt;/a&gt; by &lt;a class=&#34;user-mention notranslate&#34; data-hovercard-type=&#34;user&#34; data-hovercard-url=&#34;/users/pd93/hovercard&#34; data-octo-click=&#34;hovercard-link-click&#34; data-octo-dimensions=&#34;link_type:self&#34; href=&#34;https://github.com/pd93&#34;&gt;@pd93&lt;/a&gt;).&lt;/li&gt;&#xA;&lt;li&gt;Task now has &lt;a href=&#34;https://taskfile.dev/api/#exit-codes&#34; rel=&#34;nofollow&#34;&gt;custom exit codes&lt;/a&gt; depending on the error (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1659740835&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/go-task/task/issues/1114&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/go-task/task/pull/1114/hovercard&#34; href=&#34;https://github.com/go-task/task/pull/1114&#34;&gt;#1114&lt;/a&gt; by &lt;a class=&#34;user-mention notranslate&#34; data-hovercard-type=&#34;user&#34; data-hovercard-url=&#34;/users/pd93/hovercard&#34; data-octo-click=&#34;hovercard-link-click&#34; data-octo-dimensions=&#34;link_type:self&#34; href=&#34;https://github.com/pd93&#34;&gt;@pd93&lt;/a&gt;).&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/go-task/task/releases/tag/v3.24.0" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>task-bot</name>
+    </author>
+  </entry>
   <entry>
     <title>Release notes from lima - v0.15.1</title>
     <updated>2023-04-15T18:47:36Z</updated>
@@ -290,61 +301,6 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from opentelemetry-operations-go - example/trace/http/v0.37.1: Prepare v0.37.1/1.13.1 release (#623)</title>
-    <updated>2023-04-12T14:56:07Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/example/trace/http/v0.37.1</id>
-    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Prepare release v0.37.1/1.13.1&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/example%2Ftrace%2Fhttp%2Fv0.37.1" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>damemi</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from opentelemetry-operations-go - exporter/metric/v0.37.1: Prepare v0.37.1/1.13.1 release (#623)</title>
-    <updated>2023-04-12T14:56:07Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/exporter/metric/v0.37.1</id>
-    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Prepare release v0.37.1/1.13.1&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/exporter%2Fmetric%2Fv0.37.1" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>damemi</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from opentelemetry-operations-go - exporter/collector/googlemanagedprometheus/v0.37.1: Prepare v0.37.1/1.13.1 release (#623)</title>
-    <updated>2023-04-12T14:56:07Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/exporter/collector/googlemanagedprometheus/v0.37.1</id>
-    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Prepare release v0.37.1/1.13.1&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/exporter%2Fcollector%2Fgooglemanagedprometheus%2Fv0.37.1" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>damemi</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from opentelemetry-operations-go - propagator/v0.37.1: Prepare v0.37.1/1.13.1 release (#623)</title>
-    <updated>2023-04-12T14:56:07Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/propagator/v0.37.1</id>
-    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Prepare release v0.37.1/1.13.1&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/propagator%2Fv0.37.1" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>damemi</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from opentelemetry-operations-go - internal/resourcemapping/v0.37.1: Prepare v0.37.1/1.13.1 release (#623)</title>
-    <updated>2023-04-12T14:56:07Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/internal/resourcemapping/v0.37.1</id>
-    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Prepare release v0.37.1/1.13.1&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/internal%2Fresourcemapping%2Fv0.37.1" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>damemi</name>
-    </author>
-  </entry>
-  <entry>
     <title>Release notes from opentelemetry-operations-go - internal/cloudmock/v0.37.1: Prepare v0.37.1/1.13.1 release (#623)</title>
     <updated>2023-04-12T14:56:07Z</updated>
     <id>tag:github.com,2008:Repository/244484581/internal/cloudmock/v0.37.1</id>
@@ -367,11 +323,11 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from opentelemetry-operations-go - example/metric/v0.37.1: Prepare v0.37.1/1.13.1 release (#623)</title>
+    <title>Release notes from opentelemetry-operations-go - exporter/metric/v0.37.1: Prepare v0.37.1/1.13.1 release (#623)</title>
     <updated>2023-04-12T14:56:07Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/example/metric/v0.37.1</id>
+    <id>tag:github.com,2008:Repository/244484581/exporter/metric/v0.37.1</id>
     <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Prepare release v0.37.1/1.13.1&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/example%2Fmetric%2Fv0.37.1" rel="alternate"></link>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/exporter%2Fmetric%2Fv0.37.1" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>damemi</name>
@@ -383,6 +339,61 @@
     <id>tag:github.com,2008:Repository/244484581/exporter/trace/v1.13.1</id>
     <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Prepare release v0.37.1/1.13.1&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
     <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/exporter%2Ftrace%2Fv1.13.1" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>damemi</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from opentelemetry-operations-go - example/trace/http/v0.37.1: Prepare v0.37.1/1.13.1 release (#623)</title>
+    <updated>2023-04-12T14:56:07Z</updated>
+    <id>tag:github.com,2008:Repository/244484581/example/trace/http/v0.37.1</id>
+    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Prepare release v0.37.1/1.13.1&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/example%2Ftrace%2Fhttp%2Fv0.37.1" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>damemi</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from opentelemetry-operations-go - exporter/collector/googlemanagedprometheus/v0.37.1: Prepare v0.37.1/1.13.1 release (#623)</title>
+    <updated>2023-04-12T14:56:07Z</updated>
+    <id>tag:github.com,2008:Repository/244484581/exporter/collector/googlemanagedprometheus/v0.37.1</id>
+    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Prepare release v0.37.1/1.13.1&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/exporter%2Fcollector%2Fgooglemanagedprometheus%2Fv0.37.1" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>damemi</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from opentelemetry-operations-go - example/metric/v0.37.1: Prepare v0.37.1/1.13.1 release (#623)</title>
+    <updated>2023-04-12T14:56:07Z</updated>
+    <id>tag:github.com,2008:Repository/244484581/example/metric/v0.37.1</id>
+    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Prepare release v0.37.1/1.13.1&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/example%2Fmetric%2Fv0.37.1" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>damemi</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from opentelemetry-operations-go - internal/resourcemapping/v0.37.1: Prepare v0.37.1/1.13.1 release (#623)</title>
+    <updated>2023-04-12T14:56:07Z</updated>
+    <id>tag:github.com,2008:Repository/244484581/internal/resourcemapping/v0.37.1</id>
+    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Prepare release v0.37.1/1.13.1&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/internal%2Fresourcemapping%2Fv0.37.1" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>damemi</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from opentelemetry-operations-go - propagator/v0.37.1: Prepare v0.37.1/1.13.1 release (#623)</title>
+    <updated>2023-04-12T14:56:07Z</updated>
+    <id>tag:github.com,2008:Repository/244484581/propagator/v0.37.1</id>
+    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Prepare release v0.37.1/1.13.1&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/propagator%2Fv0.37.1" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>damemi</name>
@@ -4877,17 +4888,6 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from task - v3.15.2</title>
-    <updated>2022-09-09T00:33:33Z</updated>
-    <id>tag:github.com,2008:Repository/83252983/v3.15.2</id>
-    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;Fix error when using variable in &lt;code&gt;env:&lt;/code&gt; introduced in the previous release (&lt;a href=&#34;https://github.com/go-task/task/issues/858&#34; data-hovercard-type=&#34;issue&#34; data-hovercard-url=&#34;/go-task/task/issues/858/hovercard&#34;&gt;#858&lt;/a&gt;, &lt;a href=&#34;https://github.com/go-task/task/pull/866&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/go-task/task/pull/866/hovercard&#34;&gt;#866&lt;/a&gt;).&lt;/li&gt;&#xA;&lt;li&gt;Fix handling of &lt;code&gt;CLI_ARGS&lt;/code&gt; (&lt;code&gt;--&lt;/code&gt;) in Bash completion (&lt;a href=&#34;https://github.com/go-task/task/pull/863&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/go-task/task/pull/863/hovercard&#34;&gt;#863&lt;/a&gt;).&lt;/li&gt;&#xA;&lt;li&gt;On zsh completion, add ability to replace &lt;code&gt;--list-all&lt;/code&gt; with &lt;code&gt;--list&lt;/code&gt; as already possible on the Bash completion (&lt;a href=&#34;https://github.com/go-task/task/pull/861&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/go-task/task/pull/861/hovercard&#34;&gt;#861&lt;/a&gt;).&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/go-task/task/releases/tag/v3.15.2" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>task-bot</name>
-    </author>
-  </entry>
-  <entry>
     <title>Release notes from secrets-store-csi-driver - v1.2.4</title>
     <updated>2022-09-07T23:53:46Z</updated>
     <id>tag:github.com,2008:Repository/163906733/v1.2.4</id>
@@ -7748,22 +7748,22 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from backoff - v2.0.2: Merge pull request #18 from lestrrat-go/topic/fix-v2-go-mod</title>
+    <title>Release notes from backoff - v2.0.3: Merge pull request #18 from lestrrat-go/topic/fix-v2-go-mod</title>
     <updated>2021-01-06T03:00:05Z</updated>
-    <id>tag:github.com,2008:Repository/118608673/v2.0.2</id>
+    <id>tag:github.com,2008:Repository/118608673/v2.0.3</id>
     <content type="html">&lt;p&gt;Fix go.mod&lt;/p&gt;</content>
-    <link href="https://github.com/lestrrat-go/backoff/releases/tag/v2.0.2" rel="alternate"></link>
+    <link href="https://github.com/lestrrat-go/backoff/releases/tag/v2.0.3" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>lestrrat</name>
     </author>
   </entry>
   <entry>
-    <title>Release notes from backoff - v2.0.3: Merge pull request #18 from lestrrat-go/topic/fix-v2-go-mod</title>
+    <title>Release notes from backoff - v2.0.2: Merge pull request #18 from lestrrat-go/topic/fix-v2-go-mod</title>
     <updated>2021-01-06T03:00:05Z</updated>
-    <id>tag:github.com,2008:Repository/118608673/v2.0.3</id>
+    <id>tag:github.com,2008:Repository/118608673/v2.0.2</id>
     <content type="html">&lt;p&gt;Fix go.mod&lt;/p&gt;</content>
-    <link href="https://github.com/lestrrat-go/backoff/releases/tag/v2.0.3" rel="alternate"></link>
+    <link href="https://github.com/lestrrat-go/backoff/releases/tag/v2.0.2" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>lestrrat</name>
