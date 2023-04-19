@@ -1,8 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?><feed xmlns="http://www.w3.org/2005/Atom">
   <title>Releases from Starred by toga4</title>
   <id>https://toga4.github.io/feeds/starred-releases.atom</id>
-  <updated>2023-04-19T13:26:45Z</updated>
+  <updated>2023-04-19T18:56:58Z</updated>
   <link href="https://toga4.github.io/feeds/starred-releases.atom"></link>
+  <entry>
+    <title>Release notes from connect-go - v1.7.0</title>
+    <updated>2023-04-19T18:56:58Z</updated>
+    <id>tag:github.com,2008:Repository/391811592/v1.7.0</id>
+    <content type="html">&lt;h2&gt;What&#39;s Changed&lt;/h2&gt;&#xA;&lt;p&gt;As of this release, the Connect protocol supports performing idempotent, side-effect free requests using HTTP GETs. This makes it easier to cache responses in the browser, on your CDN, or in proxies and other middleboxes.&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;span class=&#34;color-fg-accent&#34;&gt;&lt;svg class=&#34;octicon octicon-info mr-2&#34; viewBox=&#34;0 0 16 16&#34; version=&#34;1.1&#34; width=&#34;16&#34; height=&#34;16&#34; aria-hidden=&#34;true&#34;&gt;&lt;path d=&#34;M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8Zm8-6.5a6.5 6.5 0 1 0 0 13 6.5 6.5 0 0 0 0-13ZM6.5 7.75A.75.75 0 0 1 7.25 7h1a.75.75 0 0 1 .75.75v2.75h.25a.75.75 0 0 1 0 1.5h-2a.75.75 0 0 1 0-1.5h.25v-2h-.25a.75.75 0 0 1-.75-.75ZM8 6a1 1 0 1 1 0-2 1 1 0 0 1 0 2Z&#34;&gt;&lt;/path&gt;&lt;/svg&gt;Note&lt;/span&gt;&lt;br&gt;&#xA;This functionality is &lt;em&gt;only&lt;/em&gt; supported when using the Connect protocol—using a Connect client with a Connect server. When using &lt;code&gt;grpc-go&lt;/code&gt; clients, or &lt;code&gt;connect-go&lt;/code&gt; clients configured with the &lt;code&gt;WithGRPC&lt;/code&gt; or &lt;code&gt;WithGRPCWeb&lt;/code&gt; options, all requests will continue to be HTTP POSTs.&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;To opt into GET support for a given Protobuf RPC, you must mark it as being side-effect free using the &lt;a href=&#34;https://github.com/protocolbuffers/protobuf/blob/e5679c01e8f47e8a5e7172444676bda1c2ada875/src/google/protobuf/descriptor.proto#L795&#34;&gt;MethodOptions.IdempotencyLevel&lt;/a&gt; option:&lt;/p&gt;&#xA;&lt;div class=&#34;highlight highlight-source-proto notranslate position-relative overflow-auto&#34; data-snippet-clipboard-copy-content=&#34;service ElizaService {&#xA;  rpc Say(stream SayRequest) returns (SayResponse) {&#xA;    option idempotency_level = NO_SIDE_EFFECTS;&#xA;  }&#xA;}&#34;&gt;&lt;pre&gt;&lt;span class=&#34;pl-k&#34;&gt;service&lt;/span&gt; &lt;span class=&#34;pl-en&#34;&gt;ElizaService&lt;/span&gt; {&#xA;  &lt;span class=&#34;pl-k&#34;&gt;rpc&lt;/span&gt; &lt;span class=&#34;pl-en&#34;&gt;Say&lt;/span&gt;(&lt;span class=&#34;pl-k&#34;&gt;stream&lt;/span&gt; &lt;span class=&#34;pl-en&#34;&gt;SayRequest&lt;/span&gt;) &lt;span class=&#34;pl-k&#34;&gt;returns&lt;/span&gt; (&lt;span class=&#34;pl-en&#34;&gt;SayResponse&lt;/span&gt;) {&#xA;    &lt;span class=&#34;pl-k&#34;&gt;option&lt;/span&gt; &lt;span class=&#34;pl-c1&#34;&gt;idempotency_level&lt;/span&gt; &lt;span class=&#34;pl-k&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;pl-c1&#34;&gt;NO_SIDE_EFFECTS&lt;/span&gt;;&#xA;  }&#xA;}&lt;/pre&gt;&lt;/div&gt;&#xA;&lt;p&gt;With this schema change, handlers will automatically support both GET and POST requests for this RPC. However, clients will continue to use POST requests by default, even when GETs are possible. To make clients use GETs for side effect free RPCs, use the &lt;code&gt;WithHTTPGet&lt;/code&gt; option:&lt;/p&gt;&#xA;&lt;div class=&#34;highlight highlight-source-go notranslate position-relative overflow-auto&#34; data-snippet-clipboard-copy-content=&#34;client := elizav1connect.NewElizaServiceClient(&#xA;    http.DefaultClient,&#xA;    connect.WithHTTPGet(),&#xA;)&#34;&gt;&lt;pre&gt;&lt;span class=&#34;pl-s1&#34;&gt;client&lt;/span&gt; &lt;span class=&#34;pl-c1&#34;&gt;:=&lt;/span&gt; &lt;span class=&#34;pl-s1&#34;&gt;elizav1connect&lt;/span&gt;.&lt;span class=&#34;pl-en&#34;&gt;NewElizaServiceClient&lt;/span&gt;(&#xA;    &lt;span class=&#34;pl-s1&#34;&gt;http&lt;/span&gt;.&lt;span class=&#34;pl-c1&#34;&gt;DefaultClient&lt;/span&gt;,&#xA;    &lt;span class=&#34;pl-s1&#34;&gt;connect&lt;/span&gt;.&lt;span class=&#34;pl-en&#34;&gt;WithHTTPGet&lt;/span&gt;(),&#xA;)&lt;/pre&gt;&lt;/div&gt;&#xA;&lt;p&gt;This functionality is &lt;em&gt;not&lt;/em&gt; yet supported by other Connect implementations (including &lt;code&gt;connect-es&lt;/code&gt;), but hang tight! We&#39;re working on it. For more information, please check the &lt;a href=&#34;https://connect.build/docs/go/get-requests-and-caching&#34; rel=&#34;nofollow&#34;&gt;full documentation&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;h3&gt;Enhancements&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Connect HTTP Get support by &lt;a class=&#34;user-mention notranslate&#34; data-hovercard-type=&#34;user&#34; data-hovercard-url=&#34;/users/jchadwick-buf/hovercard&#34; data-octo-click=&#34;hovercard-link-click&#34; data-octo-dimensions=&#34;link_type:self&#34; href=&#34;https://github.com/jchadwick-buf&#34;&gt;@jchadwick-buf&lt;/a&gt; in &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1629716907&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/bufbuild/connect-go/issues/478&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/bufbuild/connect-go/pull/478/hovercard&#34; href=&#34;https://github.com/bufbuild/connect-go/pull/478&#34;&gt;#478&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Add APIs to make and handle conditional GETs by &lt;a class=&#34;user-mention notranslate&#34; data-hovercard-type=&#34;user&#34; data-hovercard-url=&#34;/users/akshayjshah/hovercard&#34; data-octo-click=&#34;hovercard-link-click&#34; data-octo-dimensions=&#34;link_type:self&#34; href=&#34;https://github.com/akshayjshah&#34;&gt;@akshayjshah&lt;/a&gt; in &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1659128431&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/bufbuild/connect-go/issues/494&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/bufbuild/connect-go/pull/494/hovercard&#34; href=&#34;https://github.com/bufbuild/connect-go/pull/494&#34;&gt;#494&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3&gt;Bugfixes&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Fix &lt;code&gt;WithCompression&lt;/code&gt; to match docs by &lt;a class=&#34;user-mention notranslate&#34; data-hovercard-type=&#34;user&#34; data-hovercard-url=&#34;/users/jhump/hovercard&#34; data-octo-click=&#34;hovercard-link-click&#34; data-octo-dimensions=&#34;link_type:self&#34; href=&#34;https://github.com/jhump&#34;&gt;@jhump&lt;/a&gt; in &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1657588698&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/bufbuild/connect-go/issues/493&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/bufbuild/connect-go/pull/493/hovercard&#34; href=&#34;https://github.com/bufbuild/connect-go/pull/493&#34;&gt;#493&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: &lt;a class=&#34;commit-link&#34; href=&#34;https://github.com/bufbuild/connect-go/compare/v1.6.0...v1.7.0&#34;&gt;&lt;tt&gt;v1.6.0...v1.7.0&lt;/tt&gt;&lt;/a&gt;&lt;/p&gt;</content>
+    <link href="https://github.com/bufbuild/connect-go/releases/tag/v1.7.0" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>jchadwick-buf</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from skaffold - v1.37.6</title>
+    <updated>2023-04-19T18:54:50Z</updated>
+    <id>tag:github.com,2008:Repository/118654121/v1.37.6</id>
+    <content type="html">&lt;p&gt;chore: force gke auth&lt;/p&gt;</content>
+    <link href="https://github.com/GoogleContainerTools/skaffold/releases/tag/v1.37.6" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>ericzzzzzzz</name>
+    </author>
+  </entry>
   <entry>
     <title>Release notes from skaffold - v1.37.5 Release</title>
     <updated>2023-04-19T13:26:45Z</updated>
@@ -422,77 +444,11 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from opentelemetry-operations-go - exporter/collector/googlemanagedprometheus/v0.37.1: Prepare v0.37.1/1.13.1 release (#623)</title>
+    <title>Release notes from opentelemetry-operations-go - example/metric/v0.37.1: Prepare v0.37.1/1.13.1 release (#623)</title>
     <updated>2023-04-12T14:56:07Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/exporter/collector/googlemanagedprometheus/v0.37.1</id>
+    <id>tag:github.com,2008:Repository/244484581/example/metric/v0.37.1</id>
     <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Prepare release v0.37.1/1.13.1&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/exporter%2Fcollector%2Fgooglemanagedprometheus%2Fv0.37.1" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>damemi</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from opentelemetry-operations-go - example/trace/http/v0.37.1: Prepare v0.37.1/1.13.1 release (#623)</title>
-    <updated>2023-04-12T14:56:07Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/example/trace/http/v0.37.1</id>
-    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Prepare release v0.37.1/1.13.1&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/example%2Ftrace%2Fhttp%2Fv0.37.1" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>damemi</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from opentelemetry-operations-go - exporter/collector/v0.37.1: Prepare v0.37.1/1.13.1 release (#623)</title>
-    <updated>2023-04-12T14:56:07Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/exporter/collector/v0.37.1</id>
-    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Prepare release v0.37.1/1.13.1&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/exporter%2Fcollector%2Fv0.37.1" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>damemi</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from opentelemetry-operations-go - exporter/metric/v0.37.1: Prepare v0.37.1/1.13.1 release (#623)</title>
-    <updated>2023-04-12T14:56:07Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/exporter/metric/v0.37.1</id>
-    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Prepare release v0.37.1/1.13.1&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/exporter%2Fmetric%2Fv0.37.1" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>damemi</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from opentelemetry-operations-go - exporter/trace/v1.13.1: Prepare v0.37.1/1.13.1 release (#623)</title>
-    <updated>2023-04-12T14:56:07Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/exporter/trace/v1.13.1</id>
-    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Prepare release v0.37.1/1.13.1&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/exporter%2Ftrace%2Fv1.13.1" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>damemi</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from opentelemetry-operations-go - internal/cloudmock/v0.37.1: Prepare v0.37.1/1.13.1 release (#623)</title>
-    <updated>2023-04-12T14:56:07Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/internal/cloudmock/v0.37.1</id>
-    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Prepare release v0.37.1/1.13.1&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/internal%2Fcloudmock%2Fv0.37.1" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>damemi</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from opentelemetry-operations-go - internal/resourcemapping/v0.37.1: Prepare v0.37.1/1.13.1 release (#623)</title>
-    <updated>2023-04-12T14:56:07Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/internal/resourcemapping/v0.37.1</id>
-    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Prepare release v0.37.1/1.13.1&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/internal%2Fresourcemapping%2Fv0.37.1" rel="alternate"></link>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/example%2Fmetric%2Fv0.37.1" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>damemi</name>
@@ -510,11 +466,77 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from opentelemetry-operations-go - example/metric/v0.37.1: Prepare v0.37.1/1.13.1 release (#623)</title>
+    <title>Release notes from opentelemetry-operations-go - exporter/collector/v0.37.1: Prepare v0.37.1/1.13.1 release (#623)</title>
     <updated>2023-04-12T14:56:07Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/example/metric/v0.37.1</id>
+    <id>tag:github.com,2008:Repository/244484581/exporter/collector/v0.37.1</id>
     <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Prepare release v0.37.1/1.13.1&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/example%2Fmetric%2Fv0.37.1" rel="alternate"></link>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/exporter%2Fcollector%2Fv0.37.1" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>damemi</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from opentelemetry-operations-go - internal/resourcemapping/v0.37.1: Prepare v0.37.1/1.13.1 release (#623)</title>
+    <updated>2023-04-12T14:56:07Z</updated>
+    <id>tag:github.com,2008:Repository/244484581/internal/resourcemapping/v0.37.1</id>
+    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Prepare release v0.37.1/1.13.1&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/internal%2Fresourcemapping%2Fv0.37.1" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>damemi</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from opentelemetry-operations-go - exporter/collector/googlemanagedprometheus/v0.37.1: Prepare v0.37.1/1.13.1 release (#623)</title>
+    <updated>2023-04-12T14:56:07Z</updated>
+    <id>tag:github.com,2008:Repository/244484581/exporter/collector/googlemanagedprometheus/v0.37.1</id>
+    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Prepare release v0.37.1/1.13.1&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/exporter%2Fcollector%2Fgooglemanagedprometheus%2Fv0.37.1" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>damemi</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from opentelemetry-operations-go - exporter/trace/v1.13.1: Prepare v0.37.1/1.13.1 release (#623)</title>
+    <updated>2023-04-12T14:56:07Z</updated>
+    <id>tag:github.com,2008:Repository/244484581/exporter/trace/v1.13.1</id>
+    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Prepare release v0.37.1/1.13.1&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/exporter%2Ftrace%2Fv1.13.1" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>damemi</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from opentelemetry-operations-go - example/trace/http/v0.37.1: Prepare v0.37.1/1.13.1 release (#623)</title>
+    <updated>2023-04-12T14:56:07Z</updated>
+    <id>tag:github.com,2008:Repository/244484581/example/trace/http/v0.37.1</id>
+    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Prepare release v0.37.1/1.13.1&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/example%2Ftrace%2Fhttp%2Fv0.37.1" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>damemi</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from opentelemetry-operations-go - exporter/metric/v0.37.1: Prepare v0.37.1/1.13.1 release (#623)</title>
+    <updated>2023-04-12T14:56:07Z</updated>
+    <id>tag:github.com,2008:Repository/244484581/exporter/metric/v0.37.1</id>
+    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Prepare release v0.37.1/1.13.1&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/exporter%2Fmetric%2Fv0.37.1" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>damemi</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from opentelemetry-operations-go - internal/cloudmock/v0.37.1: Prepare v0.37.1/1.13.1 release (#623)</title>
+    <updated>2023-04-12T14:56:07Z</updated>
+    <id>tag:github.com,2008:Repository/244484581/internal/cloudmock/v0.37.1</id>
+    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Prepare release v0.37.1/1.13.1&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/internal%2Fcloudmock%2Fv0.37.1" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>damemi</name>
@@ -2113,17 +2135,6 @@
     <summary type="html"></summary>
     <author>
       <name>aaron-prindle</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from skaffold - v1.37.3</title>
-    <updated>2023-03-03T13:51:33Z</updated>
-    <id>tag:github.com,2008:Repository/118654121/v1.37.3</id>
-    <content type="html">&lt;h1&gt;v1.37.3 Release - 3/03/2022&lt;/h1&gt;&#xA;&lt;p&gt;&lt;strong&gt;Linux amd64&lt;/strong&gt;&lt;br&gt;&#xA;&lt;code&gt;curl -Lo skaffold https://storage.googleapis.com/skaffold/releases/v1.37.3/skaffold-linux-amd64 &amp;amp;&amp;amp; chmod +x skaffold &amp;amp;&amp;amp; sudo mv skaffold /usr/local/bin&lt;/code&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Linux arm64&lt;/strong&gt;&lt;br&gt;&#xA;&lt;code&gt;curl -Lo skaffold https://storage.googleapis.com/skaffold/releases/v1.37.3/skaffold-linux-arm64 &amp;amp;&amp;amp; chmod +x skaffold &amp;amp;&amp;amp; sudo mv skaffold /usr/local/bin&lt;/code&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;macOS amd64&lt;/strong&gt;&lt;br&gt;&#xA;&lt;code&gt;curl -Lo skaffold https://storage.googleapis.com/skaffold/releases/v1.37.3/skaffold-darwin-amd64 &amp;amp;&amp;amp; chmod +x skaffold &amp;amp;&amp;amp; sudo mv skaffold /usr/local/bin&lt;/code&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;macOS arm64&lt;/strong&gt;&lt;br&gt;&#xA;&lt;code&gt;curl -Lo skaffold https://storage.googleapis.com/skaffold/releases/v1.37.3/skaffold-darwin-arm64 &amp;amp;&amp;amp; chmod +x skaffold &amp;amp;&amp;amp; sudo mv skaffold /usr/local/bin&lt;/code&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Windows&lt;/strong&gt;&lt;br&gt;&#xA;&lt;a href=&#34;https://storage.googleapis.com/skaffold/releases/v1.37.3/skaffold-windows-amd64.exe&#34; rel=&#34;nofollow&#34;&gt;https://storage.googleapis.com/skaffold/releases/v1.37.3/skaffold-windows-amd64.exe&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Docker image&lt;/strong&gt;&lt;br&gt;&#xA;&lt;code&gt;gcr.io/k8s-skaffold/skaffold:v1.37.3&lt;/code&gt;&lt;/p&gt;&#xA;&lt;h2&gt;What&#39;s Changed&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;This is a security patch release.&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/GoogleContainerTools/skaffold/releases/tag/v1.37.3" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>ericzzzzzzz</name>
     </author>
   </entry>
   <entry>
@@ -4126,17 +4137,6 @@
     <summary type="html"></summary>
     <author>
       <name>github-actions[bot]</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from connect-go - v1.2.0</title>
-    <updated>2022-11-26T00:17:35Z</updated>
-    <id>tag:github.com,2008:Repository/391811592/v1.2.0</id>
-    <content type="html">&lt;h2&gt;What&#39;s Changed&lt;/h2&gt;&#xA;&lt;h3&gt;Enhancements&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Allow streaming clients to only send headers by &lt;a class=&#34;user-mention notranslate&#34; data-hovercard-type=&#34;user&#34; data-hovercard-url=&#34;/users/Linniem/hovercard&#34; data-octo-click=&#34;hovercard-link-click&#34; data-octo-dimensions=&#34;link_type:self&#34; href=&#34;https://github.com/Linniem&#34;&gt;@Linniem&lt;/a&gt; in &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1434870345&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/bufbuild/connect-go/issues/386&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/bufbuild/connect-go/pull/386/hovercard&#34; href=&#34;https://github.com/bufbuild/connect-go/pull/386&#34;&gt;#386&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Add RPC protocol to Peer by &lt;a class=&#34;user-mention notranslate&#34; data-hovercard-type=&#34;user&#34; data-hovercard-url=&#34;/users/akshayjshah/hovercard&#34; data-octo-click=&#34;hovercard-link-click&#34; data-octo-dimensions=&#34;link_type:self&#34; href=&#34;https://github.com/akshayjshah&#34;&gt;@akshayjshah&lt;/a&gt; in &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1450381482&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/bufbuild/connect-go/issues/394&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/bufbuild/connect-go/pull/394/hovercard&#34; href=&#34;https://github.com/bufbuild/connect-go/pull/394&#34;&gt;#394&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3&gt;Bugfixes&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Fix potential panic receiving invalid error codes by &lt;a class=&#34;user-mention notranslate&#34; data-hovercard-type=&#34;user&#34; data-hovercard-url=&#34;/users/joshcarp/hovercard&#34; data-octo-click=&#34;hovercard-link-click&#34; data-octo-dimensions=&#34;link_type:self&#34; href=&#34;https://github.com/joshcarp&#34;&gt;@joshcarp&lt;/a&gt; in &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1455318371&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/bufbuild/connect-go/issues/398&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/bufbuild/connect-go/pull/398/hovercard&#34; href=&#34;https://github.com/bufbuild/connect-go/pull/398&#34;&gt;#398&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2&gt;New Contributors&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a class=&#34;user-mention notranslate&#34; data-hovercard-type=&#34;user&#34; data-hovercard-url=&#34;/users/Linniem/hovercard&#34; data-octo-click=&#34;hovercard-link-click&#34; data-octo-dimensions=&#34;link_type:self&#34; href=&#34;https://github.com/Linniem&#34;&gt;@Linniem&lt;/a&gt; made their first contribution in &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1434870345&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/bufbuild/connect-go/issues/386&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/bufbuild/connect-go/pull/386/hovercard&#34; href=&#34;https://github.com/bufbuild/connect-go/pull/386&#34;&gt;#386&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: &lt;a class=&#34;commit-link&#34; href=&#34;https://github.com/bufbuild/connect-go/compare/v1.1.0...v1.2.0&#34;&gt;&lt;tt&gt;v1.1.0...v1.2.0&lt;/tt&gt;&lt;/a&gt;&lt;/p&gt;</content>
-    <link href="https://github.com/bufbuild/connect-go/releases/tag/v1.2.0" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>akshayjshah</name>
     </author>
   </entry>
   <entry>
@@ -7396,22 +7396,22 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from triangula - v1.1.6</title>
+    <title>Release notes from triangula - v1.1.5</title>
     <updated>2021-05-11T13:31:09Z</updated>
-    <id>tag:github.com,2008:Repository/354015172/v1.1.6</id>
+    <id>tag:github.com,2008:Repository/354015172/v1.1.5</id>
     <content type="html">&lt;p&gt;Refactor for more flexibility&lt;/p&gt;</content>
-    <link href="https://github.com/rh12503/triangula/releases/tag/v1.1.6" rel="alternate"></link>
+    <link href="https://github.com/rh12503/triangula/releases/tag/v1.1.5" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>rh12503</name>
     </author>
   </entry>
   <entry>
-    <title>Release notes from triangula - v1.1.5</title>
+    <title>Release notes from triangula - v1.1.6</title>
     <updated>2021-05-11T13:31:09Z</updated>
-    <id>tag:github.com,2008:Repository/354015172/v1.1.5</id>
+    <id>tag:github.com,2008:Repository/354015172/v1.1.6</id>
     <content type="html">&lt;p&gt;Refactor for more flexibility&lt;/p&gt;</content>
-    <link href="https://github.com/rh12503/triangula/releases/tag/v1.1.5" rel="alternate"></link>
+    <link href="https://github.com/rh12503/triangula/releases/tag/v1.1.6" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>rh12503</name>
