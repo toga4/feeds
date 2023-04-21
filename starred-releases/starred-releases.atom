@@ -1,8 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?><feed xmlns="http://www.w3.org/2005/Atom">
   <title>Releases from Starred by toga4</title>
   <id>https://toga4.github.io/feeds/starred-releases.atom</id>
-  <updated>2023-04-20T19:33:10Z</updated>
+  <updated>2023-04-21T13:54:47Z</updated>
   <link href="https://toga4.github.io/feeds/starred-releases.atom"></link>
+  <entry>
+    <title>Release notes from go-github - v52.0.0</title>
+    <updated>2023-04-21T13:54:47Z</updated>
+    <id>tag:github.com,2008:Repository/10270722/v52.0.0</id>
+    <content type="html">&lt;p&gt;This release contains the following breaking API changes:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Update Create/Update methods to return the workflow (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1668306495&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/google/go-github/issues/2759&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/google/go-github/pull/2759/hovercard&#34; href=&#34;https://github.com/google/go-github/pull/2759&#34;&gt;#2759&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;and the following additional changes:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Bump go-github from 50.2.0 to 51.0.0 in /scrape (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1656030727&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/google/go-github/issues/2740&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/google/go-github/pull/2740/hovercard&#34; href=&#34;https://github.com/google/go-github/pull/2740&#34;&gt;#2740&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;Add Topics to PushEventRepository (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1659300306&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/google/go-github/issues/2742&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/google/go-github/pull/2742/hovercard&#34; href=&#34;https://github.com/google/go-github/pull/2742&#34;&gt;#2742&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;Add fields to Branch Protection endpoint (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1659644467&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/google/go-github/issues/2744&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/google/go-github/pull/2744/hovercard&#34; href=&#34;https://github.com/google/go-github/pull/2744&#34;&gt;#2744&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;Add GetTime method to Timestamp (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1659466846&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/google/go-github/issues/2743&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/google/go-github/pull/2743/hovercard&#34; href=&#34;https://github.com/google/go-github/pull/2743&#34;&gt;#2743&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;Bump golang.org/x/net from 0.8.0 to 0.9.0 in /scrape (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1661277575&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/google/go-github/issues/2748&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/google/go-github/pull/2748/hovercard&#34; href=&#34;https://github.com/google/go-github/pull/2748&#34;&gt;#2748&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;Bump golang.org/x/oauth2 from 0.6.0 to 0.7.0 (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1661277045&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/google/go-github/issues/2747&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/google/go-github/pull/2747/hovercard&#34; href=&#34;https://github.com/google/go-github/pull/2747&#34;&gt;#2747&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;Add DNS health checks support for GitHub Pages (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1659893358&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/google/go-github/issues/2746&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/google/go-github/pull/2746/hovercard&#34; href=&#34;https://github.com/google/go-github/pull/2746&#34;&gt;#2746&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;Add Owner to EditChange struct (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1665273402&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/google/go-github/issues/2750&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/google/go-github/pull/2750/hovercard&#34; href=&#34;https://github.com/google/go-github/pull/2750&#34;&gt;#2750&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;Bump codecov/codecov-action from 3.1.1 to 3.1.2 (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1671876303&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/google/go-github/issues/2761&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/google/go-github/pull/2761/hovercard&#34; href=&#34;https://github.com/google/go-github/pull/2761&#34;&gt;#2761&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;Add HeadBranch field to WorkflowJob (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1672855757&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/google/go-github/issues/2764&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/google/go-github/pull/2764/hovercard&#34; href=&#34;https://github.com/google/go-github/pull/2764&#34;&gt;#2764&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;Add requester to InstallationEvent (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1672852897&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/google/go-github/issues/2763&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/google/go-github/pull/2763/hovercard&#34; href=&#34;https://github.com/google/go-github/pull/2763&#34;&gt;#2763&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;Add InstallationsCount to App (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1674758221&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/google/go-github/issues/2765&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/google/go-github/pull/2765/hovercard&#34; href=&#34;https://github.com/google/go-github/pull/2765&#34;&gt;#2765&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;Bump version of go-github to v52.0.0 (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1678555288&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/google/go-github/issues/2766&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/google/go-github/pull/2766/hovercard&#34; href=&#34;https://github.com/google/go-github/pull/2766&#34;&gt;#2766&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/google/go-github/releases/tag/v52.0.0" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>gmlewis</name>
+    </author>
+  </entry>
   <entry>
     <title>Release notes from cli - GitHub CLI 2.28.0-pre0</title>
     <updated>2023-04-20T19:33:10Z</updated>
@@ -81,22 +92,22 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from datadog-agent - 6.43.1-dbm-oracle-beta-0.24</title>
+    <title>Release notes from datadog-agent - 7.43.1-dbm-oracle-beta-0.24</title>
     <updated>2023-04-20T15:55:22Z</updated>
-    <id>tag:github.com,2008:Repository/49970739/6.43.1-dbm-oracle-beta-0.24</id>
+    <id>tag:github.com,2008:Repository/49970739/7.43.1-dbm-oracle-beta-0.24</id>
     <content type="html">&lt;p&gt;oracle dbm beta 0.24&lt;/p&gt;</content>
-    <link href="https://github.com/DataDog/datadog-agent/releases/tag/6.43.1-dbm-oracle-beta-0.24" rel="alternate"></link>
+    <link href="https://github.com/DataDog/datadog-agent/releases/tag/7.43.1-dbm-oracle-beta-0.24" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>nenadnoveljic</name>
     </author>
   </entry>
   <entry>
-    <title>Release notes from datadog-agent - 7.43.1-dbm-oracle-beta-0.24</title>
+    <title>Release notes from datadog-agent - 6.43.1-dbm-oracle-beta-0.24</title>
     <updated>2023-04-20T15:55:22Z</updated>
-    <id>tag:github.com,2008:Repository/49970739/7.43.1-dbm-oracle-beta-0.24</id>
+    <id>tag:github.com,2008:Repository/49970739/6.43.1-dbm-oracle-beta-0.24</id>
     <content type="html">&lt;p&gt;oracle dbm beta 0.24&lt;/p&gt;</content>
-    <link href="https://github.com/DataDog/datadog-agent/releases/tag/7.43.1-dbm-oracle-beta-0.24" rel="alternate"></link>
+    <link href="https://github.com/DataDog/datadog-agent/releases/tag/6.43.1-dbm-oracle-beta-0.24" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>nenadnoveljic</name>
@@ -136,22 +147,22 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from datadog-agent - 6.43.1-dbm-oracle-beta-0.23</title>
+    <title>Release notes from datadog-agent - 7.43.1-dbm-oracle-beta-0.23</title>
     <updated>2023-04-20T10:11:48Z</updated>
-    <id>tag:github.com,2008:Repository/49970739/6.43.1-dbm-oracle-beta-0.23</id>
+    <id>tag:github.com,2008:Repository/49970739/7.43.1-dbm-oracle-beta-0.23</id>
     <content type="html">&lt;p&gt;dbm-oracle-beta-0.23&lt;/p&gt;</content>
-    <link href="https://github.com/DataDog/datadog-agent/releases/tag/6.43.1-dbm-oracle-beta-0.23" rel="alternate"></link>
+    <link href="https://github.com/DataDog/datadog-agent/releases/tag/7.43.1-dbm-oracle-beta-0.23" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>nenadnoveljic</name>
     </author>
   </entry>
   <entry>
-    <title>Release notes from datadog-agent - 7.43.1-dbm-oracle-beta-0.23</title>
+    <title>Release notes from datadog-agent - 6.43.1-dbm-oracle-beta-0.23</title>
     <updated>2023-04-20T10:11:48Z</updated>
-    <id>tag:github.com,2008:Repository/49970739/7.43.1-dbm-oracle-beta-0.23</id>
+    <id>tag:github.com,2008:Repository/49970739/6.43.1-dbm-oracle-beta-0.23</id>
     <content type="html">&lt;p&gt;dbm-oracle-beta-0.23&lt;/p&gt;</content>
-    <link href="https://github.com/DataDog/datadog-agent/releases/tag/7.43.1-dbm-oracle-beta-0.23" rel="alternate"></link>
+    <link href="https://github.com/DataDog/datadog-agent/releases/tag/6.43.1-dbm-oracle-beta-0.23" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>nenadnoveljic</name>
@@ -499,28 +510,6 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from opentelemetry-operations-go - exporter/metric/v0.37.1: Prepare v0.37.1/1.13.1 release (#623)</title>
-    <updated>2023-04-12T14:56:07Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/exporter/metric/v0.37.1</id>
-    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Prepare release v0.37.1/1.13.1&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/exporter%2Fmetric%2Fv0.37.1" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>damemi</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from opentelemetry-operations-go - exporter/trace/v1.13.1: Prepare v0.37.1/1.13.1 release (#623)</title>
-    <updated>2023-04-12T14:56:07Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/exporter/trace/v1.13.1</id>
-    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Prepare release v0.37.1/1.13.1&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/exporter%2Ftrace%2Fv1.13.1" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>damemi</name>
-    </author>
-  </entry>
-  <entry>
     <title>Release notes from opentelemetry-operations-go - propagator/v0.37.1: Prepare v0.37.1/1.13.1 release (#623)</title>
     <updated>2023-04-12T14:56:07Z</updated>
     <id>tag:github.com,2008:Repository/244484581/propagator/v0.37.1</id>
@@ -532,11 +521,33 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from opentelemetry-operations-go - exporter/collector/googlemanagedprometheus/v0.37.1: Prepare v0.37.1/1.13.1 release (#623)</title>
+    <title>Release notes from opentelemetry-operations-go - exporter/metric/v0.37.1: Prepare v0.37.1/1.13.1 release (#623)</title>
     <updated>2023-04-12T14:56:07Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/exporter/collector/googlemanagedprometheus/v0.37.1</id>
+    <id>tag:github.com,2008:Repository/244484581/exporter/metric/v0.37.1</id>
     <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Prepare release v0.37.1/1.13.1&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/exporter%2Fcollector%2Fgooglemanagedprometheus%2Fv0.37.1" rel="alternate"></link>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/exporter%2Fmetric%2Fv0.37.1" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>damemi</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from opentelemetry-operations-go - example/metric/v0.37.1: Prepare v0.37.1/1.13.1 release (#623)</title>
+    <updated>2023-04-12T14:56:07Z</updated>
+    <id>tag:github.com,2008:Repository/244484581/example/metric/v0.37.1</id>
+    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Prepare release v0.37.1/1.13.1&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/example%2Fmetric%2Fv0.37.1" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>damemi</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from opentelemetry-operations-go - example/trace/http/v0.37.1: Prepare v0.37.1/1.13.1 release (#623)</title>
+    <updated>2023-04-12T14:56:07Z</updated>
+    <id>tag:github.com,2008:Repository/244484581/example/trace/http/v0.37.1</id>
+    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Prepare release v0.37.1/1.13.1&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/example%2Ftrace%2Fhttp%2Fv0.37.1" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>damemi</name>
@@ -565,22 +576,22 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from opentelemetry-operations-go - example/trace/http/v0.37.1: Prepare v0.37.1/1.13.1 release (#623)</title>
+    <title>Release notes from opentelemetry-operations-go - exporter/trace/v1.13.1: Prepare v0.37.1/1.13.1 release (#623)</title>
     <updated>2023-04-12T14:56:07Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/example/trace/http/v0.37.1</id>
+    <id>tag:github.com,2008:Repository/244484581/exporter/trace/v1.13.1</id>
     <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Prepare release v0.37.1/1.13.1&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/example%2Ftrace%2Fhttp%2Fv0.37.1" rel="alternate"></link>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/exporter%2Ftrace%2Fv1.13.1" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>damemi</name>
     </author>
   </entry>
   <entry>
-    <title>Release notes from opentelemetry-operations-go - example/metric/v0.37.1: Prepare v0.37.1/1.13.1 release (#623)</title>
+    <title>Release notes from opentelemetry-operations-go - exporter/collector/googlemanagedprometheus/v0.37.1: Prepare v0.37.1/1.13.1 release (#623)</title>
     <updated>2023-04-12T14:56:07Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/example/metric/v0.37.1</id>
+    <id>tag:github.com,2008:Repository/244484581/exporter/collector/googlemanagedprometheus/v0.37.1</id>
     <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Prepare release v0.37.1/1.13.1&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/example%2Fmetric%2Fv0.37.1" rel="alternate"></link>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/exporter%2Fcollector%2Fgooglemanagedprometheus%2Fv0.37.1" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>damemi</name>
@@ -1401,22 +1412,22 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from opentelemetry-go - exporters/stdout/stdouttrace/v1.15.0-rc.2</title>
+    <title>Release notes from opentelemetry-go - exporters/zipkin/v1.15.0-rc.2</title>
     <updated>2023-03-23T14:48:55Z</updated>
-    <id>tag:github.com,2008:Repository/187086161/exporters/stdout/stdouttrace/v1.15.0-rc.2</id>
+    <id>tag:github.com,2008:Repository/187086161/exporters/zipkin/v1.15.0-rc.2</id>
     <content type="html">&lt;p&gt;Module set stable-v1, Version v1.15.0-rc.2&lt;/p&gt;</content>
-    <link href="https://github.com/open-telemetry/opentelemetry-go/releases/tag/exporters%2Fstdout%2Fstdouttrace%2Fv1.15.0-rc.2" rel="alternate"></link>
+    <link href="https://github.com/open-telemetry/opentelemetry-go/releases/tag/exporters%2Fzipkin%2Fv1.15.0-rc.2" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>MrAlias</name>
     </author>
   </entry>
   <entry>
-    <title>Release notes from opentelemetry-go - exporters/zipkin/v1.15.0-rc.2</title>
+    <title>Release notes from opentelemetry-go - exporters/stdout/stdouttrace/v1.15.0-rc.2</title>
     <updated>2023-03-23T14:48:55Z</updated>
-    <id>tag:github.com,2008:Repository/187086161/exporters/zipkin/v1.15.0-rc.2</id>
+    <id>tag:github.com,2008:Repository/187086161/exporters/stdout/stdouttrace/v1.15.0-rc.2</id>
     <content type="html">&lt;p&gt;Module set stable-v1, Version v1.15.0-rc.2&lt;/p&gt;</content>
-    <link href="https://github.com/open-telemetry/opentelemetry-go/releases/tag/exporters%2Fzipkin%2Fv1.15.0-rc.2" rel="alternate"></link>
+    <link href="https://github.com/open-telemetry/opentelemetry-go/releases/tag/exporters%2Fstdout%2Fstdouttrace%2Fv1.15.0-rc.2" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>MrAlias</name>
@@ -4855,17 +4866,6 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from go-github - v47.1.0</title>
-    <updated>2022-09-19T11:49:54Z</updated>
-    <id>tag:github.com,2008:Repository/10270722/v47.1.0</id>
-    <content type="html">&lt;p&gt;This minor release includes these changes:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Update scrape dependency to v47 (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1347086953&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/google/go-github/issues/2442&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/google/go-github/pull/2442/hovercard&#34; href=&#34;https://github.com/google/go-github/pull/2442&#34;&gt;#2442&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;Additional options name, default_branch_only for create a fork (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1357710318&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/google/go-github/issues/2448&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/google/go-github/pull/2448/hovercard&#34; href=&#34;https://github.com/google/go-github/pull/2448&#34;&gt;#2448&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;List Secret Scan Alerts with index-based pagination (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1351421265&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/google/go-github/issues/2446&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/google/go-github/pull/2446/hovercard&#34; href=&#34;https://github.com/google/go-github/pull/2446&#34;&gt;#2446&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;Add alphanumeric param to AutolinkOptions (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1358430983&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/google/go-github/issues/2450&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/google/go-github/pull/2450/hovercard&#34; href=&#34;https://github.com/google/go-github/pull/2450&#34;&gt;#2450&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;Remove GenerateReleaseNotes from RepositoriesService.EditRelease (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1349433443&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/google/go-github/issues/2445&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/google/go-github/pull/2445/hovercard&#34; href=&#34;https://github.com/google/go-github/pull/2445&#34;&gt;#2445&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;Add org permissions to InstallationPermissions (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1363898136&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/google/go-github/issues/2452&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/google/go-github/pull/2452/hovercard&#34; href=&#34;https://github.com/google/go-github/pull/2452&#34;&gt;#2452&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;Escape special characters in ref name for update ref (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1366864709&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/google/go-github/issues/2454&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/google/go-github/pull/2454/hovercard&#34; href=&#34;https://github.com/google/go-github/pull/2454&#34;&gt;#2454&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;Bump github.com/google/go-cmp from 0.5.8 to 0.5.9 (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1370396196&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/google/go-github/issues/2457&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/google/go-github/pull/2457/hovercard&#34; href=&#34;https://github.com/google/go-github/pull/2457&#34;&gt;#2457&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;Bump github.com/google/go-cmp from 0.5.8 to 0.5.9 in /scrape (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1370396255&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/google/go-github/issues/2458&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/google/go-github/pull/2458/hovercard&#34; href=&#34;https://github.com/google/go-github/pull/2458&#34;&gt;#2458&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;Bump github.com/google/go-cmp from 0.5.8 to 0.5.9 in /update-urls (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1370396471&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/google/go-github/issues/2459&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/google/go-github/pull/2459/hovercard&#34; href=&#34;https://github.com/google/go-github/pull/2459&#34;&gt;#2459&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;Fix unhandled error in actions_artifacts.go (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1371473853&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/google/go-github/issues/2460&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/google/go-github/pull/2460/hovercard&#34; href=&#34;https://github.com/google/go-github/pull/2460&#34;&gt;#2460&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;Add explicit error return (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1376788311&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/google/go-github/issues/2469&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/google/go-github/pull/2469/hovercard&#34; href=&#34;https://github.com/google/go-github/pull/2469&#34;&gt;#2469&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;Add org struct fields (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1376908667&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/google/go-github/issues/2471&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/google/go-github/pull/2471/hovercard&#34; href=&#34;https://github.com/google/go-github/pull/2471&#34;&gt;#2471&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;Always send &#39;checks&#39; field when creating branch protection (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1376776183&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/google/go-github/issues/2468&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/google/go-github/pull/2468/hovercard&#34; href=&#34;https://github.com/google/go-github/pull/2468&#34;&gt;#2468&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/google/go-github/releases/tag/v47.1.0" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>gmlewis</name>
-    </author>
-  </entry>
-  <entry>
     <title>Release notes from stern - v1.21.0</title>
     <updated>2022-09-18T07:07:03Z</updated>
     <id>tag:github.com,2008:Repository/306013800/v1.21.0</id>
@@ -7770,22 +7770,22 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from backoff - v2.0.2: Merge pull request #18 from lestrrat-go/topic/fix-v2-go-mod</title>
+    <title>Release notes from backoff - v2.0.3: Merge pull request #18 from lestrrat-go/topic/fix-v2-go-mod</title>
     <updated>2021-01-06T03:00:05Z</updated>
-    <id>tag:github.com,2008:Repository/118608673/v2.0.2</id>
+    <id>tag:github.com,2008:Repository/118608673/v2.0.3</id>
     <content type="html">&lt;p&gt;Fix go.mod&lt;/p&gt;</content>
-    <link href="https://github.com/lestrrat-go/backoff/releases/tag/v2.0.2" rel="alternate"></link>
+    <link href="https://github.com/lestrrat-go/backoff/releases/tag/v2.0.3" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>lestrrat</name>
     </author>
   </entry>
   <entry>
-    <title>Release notes from backoff - v2.0.3: Merge pull request #18 from lestrrat-go/topic/fix-v2-go-mod</title>
+    <title>Release notes from backoff - v2.0.2: Merge pull request #18 from lestrrat-go/topic/fix-v2-go-mod</title>
     <updated>2021-01-06T03:00:05Z</updated>
-    <id>tag:github.com,2008:Repository/118608673/v2.0.3</id>
+    <id>tag:github.com,2008:Repository/118608673/v2.0.2</id>
     <content type="html">&lt;p&gt;Fix go.mod&lt;/p&gt;</content>
-    <link href="https://github.com/lestrrat-go/backoff/releases/tag/v2.0.3" rel="alternate"></link>
+    <link href="https://github.com/lestrrat-go/backoff/releases/tag/v2.0.2" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>lestrrat</name>
