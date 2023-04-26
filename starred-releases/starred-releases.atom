@@ -1,8 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?><feed xmlns="http://www.w3.org/2005/Atom">
   <title>Releases from Starred by toga4</title>
   <id>https://toga4.github.io/feeds/starred-releases.atom</id>
-  <updated>2023-04-26T18:26:24Z</updated>
+  <updated>2023-04-26T19:57:15Z</updated>
   <link href="https://toga4.github.io/feeds/starred-releases.atom"></link>
+  <entry>
+    <title>Release notes from moby - v23.0.5</title>
+    <updated>2023-04-26T19:57:15Z</updated>
+    <id>tag:github.com,2008:Repository/7691631/v23.0.5</id>
+    <content type="html">&lt;h2&gt;23.0.5&lt;/h2&gt;&#xA;&lt;p&gt;For a full list of pull requests and changes in this release, refer to the relevant GitHub milestones:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/docker/cli/milestone/79?closed=1&#34;&gt;docker/cli, 23.0.5 milestone&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/moby/moby/milestone/118?closed=1&#34;&gt;moby/moby, 23.0.5 milestone&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3&gt;Bug fixes and enhancements&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Add the &lt;code&gt;--all&lt;/code&gt; / &lt;code&gt;-a&lt;/code&gt; option when pruning volumes. &lt;a href=&#34;https://github.com/docker/cli/pull/4229&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/docker/cli/pull/4229/hovercard&#34;&gt;docker/cli#4229&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Add &lt;code&gt;--format=json&lt;/code&gt; for &lt;code&gt;docker info&lt;/code&gt;. &lt;a href=&#34;https://github.com/docker/cli/pull/4230&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/docker/cli/pull/4230/hovercard&#34;&gt;docker/cli#4320&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Fix log loss with the AWSLogs log driver. &lt;a href=&#34;https://github.com/moby/moby/pull/45350&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/moby/moby/pull/45350/hovercard&#34;&gt;moby/moby#45350&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Fix a regression introduced in v23.0.4 where dockerd would refuse to start if the fixed-cidr config parameter is provided but not bip. &lt;a href=&#34;https://github.com/moby/moby/pull/45403&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/moby/moby/pull/45403/hovercard&#34;&gt;moby/moby#45403&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Fix a panic in libnetwork during daemon start &lt;a href=&#34;https://github.com/moby/moby/pull/45376&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/moby/moby/pull/45376/hovercard&#34;&gt;moby/moby#45376&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Fix &#34;tag&#34; event not being sent when an image is built with &lt;code&gt;buildx&lt;/code&gt;. &lt;a href=&#34;https://github.com/moby/moby/pull/45410&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/moby/moby/pull/45410/hovercard&#34;&gt;moby/moby#45410&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3&gt;Packaging Updates&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Upgrade Compose to &lt;code&gt;2.17.3&lt;/code&gt;. &lt;a href=&#34;https://github.com/docker/docker-ce-packaging/pull/883&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/docker/docker-ce-packaging/pull/883/hovercard&#34;&gt;docker/docker-ce-packaging#883&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/moby/moby/releases/tag/v23.0.5" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>thaJeztah</name>
+    </author>
+  </entry>
   <entry>
     <title>Release notes from terraform - v1.4.6</title>
     <updated>2023-04-26T18:26:24Z</updated>
@@ -609,17 +620,6 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from opentelemetry-operations-go - internal/resourcemapping/v0.37.1: Prepare v0.37.1/1.13.1 release (#623)</title>
-    <updated>2023-04-12T14:56:07Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/internal/resourcemapping/v0.37.1</id>
-    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Prepare release v0.37.1/1.13.1&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/internal%2Fresourcemapping%2Fv0.37.1" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>damemi</name>
-    </author>
-  </entry>
-  <entry>
     <title>Release notes from opentelemetry-operations-go - exporter/collector/googlemanagedprometheus/v0.37.1: Prepare v0.37.1/1.13.1 release (#623)</title>
     <updated>2023-04-12T14:56:07Z</updated>
     <id>tag:github.com,2008:Repository/244484581/exporter/collector/googlemanagedprometheus/v0.37.1</id>
@@ -631,11 +631,11 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from opentelemetry-operations-go - internal/cloudmock/v0.37.1: Prepare v0.37.1/1.13.1 release (#623)</title>
+    <title>Release notes from opentelemetry-operations-go - exporter/metric/v0.37.1: Prepare v0.37.1/1.13.1 release (#623)</title>
     <updated>2023-04-12T14:56:07Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/internal/cloudmock/v0.37.1</id>
+    <id>tag:github.com,2008:Repository/244484581/exporter/metric/v0.37.1</id>
     <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Prepare release v0.37.1/1.13.1&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/internal%2Fcloudmock%2Fv0.37.1" rel="alternate"></link>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/exporter%2Fmetric%2Fv0.37.1" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>damemi</name>
@@ -653,11 +653,22 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from opentelemetry-operations-go - exporter/metric/v0.37.1: Prepare v0.37.1/1.13.1 release (#623)</title>
+    <title>Release notes from opentelemetry-operations-go - internal/resourcemapping/v0.37.1: Prepare v0.37.1/1.13.1 release (#623)</title>
     <updated>2023-04-12T14:56:07Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/exporter/metric/v0.37.1</id>
+    <id>tag:github.com,2008:Repository/244484581/internal/resourcemapping/v0.37.1</id>
     <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Prepare release v0.37.1/1.13.1&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/exporter%2Fmetric%2Fv0.37.1" rel="alternate"></link>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/internal%2Fresourcemapping%2Fv0.37.1" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>damemi</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from opentelemetry-operations-go - internal/cloudmock/v0.37.1: Prepare v0.37.1/1.13.1 release (#623)</title>
+    <updated>2023-04-12T14:56:07Z</updated>
+    <id>tag:github.com,2008:Repository/244484581/internal/cloudmock/v0.37.1</id>
+    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Prepare release v0.37.1/1.13.1&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/internal%2Fcloudmock%2Fv0.37.1" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>damemi</name>
@@ -1434,22 +1445,22 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from opentelemetry-go - exporters/stdout/stdouttrace/v1.15.0-rc.2</title>
+    <title>Release notes from opentelemetry-go - exporters/zipkin/v1.15.0-rc.2</title>
     <updated>2023-03-23T14:48:55Z</updated>
-    <id>tag:github.com,2008:Repository/187086161/exporters/stdout/stdouttrace/v1.15.0-rc.2</id>
+    <id>tag:github.com,2008:Repository/187086161/exporters/zipkin/v1.15.0-rc.2</id>
     <content type="html">&lt;p&gt;Module set stable-v1, Version v1.15.0-rc.2&lt;/p&gt;</content>
-    <link href="https://github.com/open-telemetry/opentelemetry-go/releases/tag/exporters%2Fstdout%2Fstdouttrace%2Fv1.15.0-rc.2" rel="alternate"></link>
+    <link href="https://github.com/open-telemetry/opentelemetry-go/releases/tag/exporters%2Fzipkin%2Fv1.15.0-rc.2" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>MrAlias</name>
     </author>
   </entry>
   <entry>
-    <title>Release notes from opentelemetry-go - exporters/zipkin/v1.15.0-rc.2</title>
+    <title>Release notes from opentelemetry-go - exporters/stdout/stdouttrace/v1.15.0-rc.2</title>
     <updated>2023-03-23T14:48:55Z</updated>
-    <id>tag:github.com,2008:Repository/187086161/exporters/zipkin/v1.15.0-rc.2</id>
+    <id>tag:github.com,2008:Repository/187086161/exporters/stdout/stdouttrace/v1.15.0-rc.2</id>
     <content type="html">&lt;p&gt;Module set stable-v1, Version v1.15.0-rc.2&lt;/p&gt;</content>
-    <link href="https://github.com/open-telemetry/opentelemetry-go/releases/tag/exporters%2Fzipkin%2Fv1.15.0-rc.2" rel="alternate"></link>
+    <link href="https://github.com/open-telemetry/opentelemetry-go/releases/tag/exporters%2Fstdout%2Fstdouttrace%2Fv1.15.0-rc.2" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>MrAlias</name>
@@ -3092,17 +3103,6 @@
     <summary type="html"></summary>
     <author>
       <name>github-actions[bot]</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from moby - v23.0.0-rc.3</title>
-    <updated>2023-01-20T22:19:42Z</updated>
-    <id>tag:github.com,2008:Repository/7691631/v23.0.0-rc.3</id>
-    <content type="html">&lt;p&gt;This is a pre-release of the upcoming 23.0.0 release.&lt;/p&gt;&#xA;&lt;p&gt;Pre-releases are intended for testing new releases: &lt;strong&gt;only install in a test environment!&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;div class=&#34;highlight highlight-source-shell notranslate position-relative overflow-auto&#34; data-snippet-clipboard-copy-content=&#34;curl -fsSL https://get.docker.com -o get-docker.sh&#xA;sudo CHANNEL=test sh get-docker.sh&#34;&gt;&lt;pre&gt;curl -fsSL https://get.docker.com -o get-docker.sh&#xA;sudo CHANNEL=test sh get-docker.sh&lt;/pre&gt;&lt;/div&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;Starting with the 23.0.0 release, we&#39;re moving away from using CalVer versioning,&lt;br&gt;&#xA;and use versioning that&#39;s using SemVer &lt;em&gt;format&lt;/em&gt;. Changing the version format is&lt;br&gt;&#xA;a stepping-stone towards go module compatibility, but the repository does not&lt;br&gt;&#xA;yet use go-modules, and still requires using a &#34;+incompatible&#34; version; we&#39;ll&lt;br&gt;&#xA;be working towards go module compatibility in a future release.&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;h3&gt;Known issues:&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;There is no changelog yet; an overview of pull requests included in this release can be found on GitHub:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;docker cli: &lt;a href=&#34;https://github.com/docker/cli/pulls?q=is%3Apr+milestone%3A23.0.0+is%3Amerged&#34;&gt;all pull requests for 23.0.0&lt;/a&gt; / &lt;a href=&#34;https://github.com/docker/cli/pulls?q=is%3Apr+milestone%3A23.0.0+label%3Aimpact%2Fchangelog+is%3Amerged&#34;&gt;all &#34;changelog&#34; pull requests for 23.0.0&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;docker engine: &lt;a href=&#34;https://github.com/moby/moby/pulls?q=is%3Apr+milestone%3A23.0.0+is%3Amerged&#34;&gt;all pull requests for 23.0.0&lt;/a&gt; / &lt;a href=&#34;https://github.com/moby/moby/pulls?q=is%3Apr+milestone%3A23.0.0+label%3Aimpact%2Fchangelog+is%3Amerged&#34;&gt;all &#34;changelog&#34; pull requests for 23.0.0&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Static binaries (&lt;code&gt;.tar.gz&lt;/code&gt;) are no longer include cli plugins; use the deb/rpm packages, or manual installation instructions from the &lt;a href=&#34;https://github.com/docker/buildx#manual-download&#34;&gt;buildx github repository&lt;/a&gt; and  &lt;a href=&#34;https://github.com/docker/compose/#where-to-get-docker-compose&#34;&gt;docker compose github repository&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Static binaries for &lt;code&gt;dockerd&lt;/code&gt; are broken on &lt;code&gt;armel&lt;/code&gt; (32-bit).&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;There are no packages available yet for the s390x and ppc64le architectures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;The &lt;code&gt;docker-buildx-plugin&lt;/code&gt; &lt;code&gt;.deb&lt;/code&gt; package for  &lt;code&gt;0.10.0-rc2&lt;/code&gt; had an incorrectly formatted version-string, causing it to be installed instead of the &lt;code&gt;0.10.0&lt;/code&gt; (non-pre-release) version. To install v0.10.0 of buildx instead of the 0.10.0-rc2 pre-release, specify the version to install. For example, if you&#39;re on Ubuntu 22.04 &#34;jammy&#34;, use &lt;code&gt;apt-cache&lt;/code&gt; to find the available versions of the &lt;code&gt;docker-buildx-plugin&lt;/code&gt; package:&lt;/p&gt;&#xA;&lt;div class=&#34;highlight highlight-source-shell notranslate position-relative overflow-auto&#34; data-snippet-clipboard-copy-content=&#34;apt-cache madison docker-buildx-plugin&#xA;docker-buildx-plugin | 0.10.0-rc2~ubuntu-jammy | https://download-stage.docker.com/linux/ubuntu jammy/test amd64 Packages&#xA;docker-buildx-plugin | 0.10.0-1~ubuntu.22.04~jammy | https://download-stage.docker.com/linux/ubuntu jammy/test amd64 Packages&#xA;docker-buildx-plugin | 0.9.1~ubuntu-jammy | https://download-stage.docker.com/linux/ubuntu jammy/test amd64 Packages&#xA;...&#34;&gt;&lt;pre&gt;apt-cache madison docker-buildx-plugin&#xA;docker-buildx-plugin &lt;span class=&#34;pl-k&#34;&gt;|&lt;/span&gt; 0.10.0-rc2~ubuntu-jammy &lt;span class=&#34;pl-k&#34;&gt;|&lt;/span&gt; https://download-stage.docker.com/linux/ubuntu jammy/test amd64 Packages&#xA;docker-buildx-plugin &lt;span class=&#34;pl-k&#34;&gt;|&lt;/span&gt; 0.10.0-1~ubuntu.22.04~jammy &lt;span class=&#34;pl-k&#34;&gt;|&lt;/span&gt; https://download-stage.docker.com/linux/ubuntu jammy/test amd64 Packages&#xA;docker-buildx-plugin &lt;span class=&#34;pl-k&#34;&gt;|&lt;/span&gt; 0.9.1~ubuntu-jammy &lt;span class=&#34;pl-k&#34;&gt;|&lt;/span&gt; https://download-stage.docker.com/linux/ubuntu jammy/test amd64 Packages&#xA;...&lt;/pre&gt;&lt;/div&gt;&#xA;&lt;p&gt;In this case, the version to specify is &lt;code&gt;0.10.0-1~ubuntu.22.04~jammy&lt;/code&gt;;&lt;/p&gt;&#xA;&lt;div class=&#34;highlight highlight-source-shell notranslate position-relative overflow-auto&#34; data-snippet-clipboard-copy-content=&#34;apt-get install docker-buildx-plugin=0.10.0-rc2~ubuntu-jammy&#xA;Reading package lists... Done&#xA;Building dependency tree... Done&#xA;Reading state information... Done&#xA;The following packages will be DOWNGRADED:&#xA;  docker-buildx-plugin&#xA;0 upgraded, 0 newly installed, 1 downgraded, 0 to remove and 82 not upgraded.&#xA;Need to get 25.9 MB of archives.&#xA;After this operation, 34.8 kB of additional disk space will be used.&#xA;Do you want to continue? [Y/n]&#34;&gt;&lt;pre&gt;apt-get install docker-buildx-plugin=0.10.0-rc2~ubuntu-jammy&#xA;Reading package lists... Done&#xA;Building dependency tree... Done&#xA;Reading state information... Done&#xA;The following packages will be DOWNGRADED:&#xA;  docker-buildx-plugin&#xA;0 upgraded, 0 newly installed, 1 downgraded, 0 to remove and 82 not upgraded.&#xA;Need to get 25.9 MB of archives.&#xA;After this operation, 34.8 kB of additional disk space will be used.&#xA;Do you want to continue&lt;span class=&#34;pl-k&#34;&gt;?&lt;/span&gt; [Y/n]&lt;/pre&gt;&lt;/div&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Bugs and regressions can be reported in these issue trackers:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Related to the CLI: &lt;a href=&#34;https://github.com/docker/cli/issues&#34;&gt;https://github.com/docker/cli/issues&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Related to the Docker Engine &lt;a href=&#34;https://github.com/moby/moby/issues&#34;&gt;https://github.com/moby/moby/issues&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;When reporting issues, include &lt;code&gt;[23.0.0-rc]&lt;/code&gt; in the issue title&lt;/p&gt;</content>
-    <link href="https://github.com/moby/moby/releases/tag/v23.0.0-rc.3" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>thaJeztah</name>
     </author>
   </entry>
   <entry>
