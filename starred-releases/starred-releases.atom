@@ -1,8 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?><feed xmlns="http://www.w3.org/2005/Atom">
   <title>Releases from Starred by toga4</title>
   <id>https://toga4.github.io/feeds/starred-releases.atom</id>
-  <updated>2023-05-04T08:18:32Z</updated>
+  <updated>2023-05-04T11:48:01Z</updated>
   <link href="https://toga4.github.io/feeds/starred-releases.atom"></link>
+  <entry>
+    <title>Release notes from zinit - v3.11.0</title>
+    <updated>2023-05-04T11:48:01Z</updated>
+    <id>tag:github.com,2008:Repository/422751904/v3.11.0</id>
+    <content type="html">&lt;h1&gt;&lt;a href=&#34;https://github.com/zdharma-continuum/zinit/compare/v3.10.0...v3.11.0&#34;&gt;3.11.0&lt;/a&gt; (2023-05-04)&lt;/h1&gt;&#xA;&lt;h3&gt;Bug Fixes&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;add &lt;code&gt;.gitignore&lt;/code&gt; with &#39;*&#39; pattern in a plugins &lt;code&gt;._zinit/&lt;/code&gt; directory (&lt;a href=&#34;https://github.com/zdharma-continuum/zinit/issues/397&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/zdharma-continuum/zinit/pull/397/hovercard&#34;&gt;#397&lt;/a&gt;) (&lt;a href=&#34;https://github.com/zdharma-continuum/zinit/commit/fccb5080ab4b1df83f01906082eea444f218776f&#34;&gt;fccb508&lt;/a&gt;), closes &lt;a href=&#34;https://github.com/zdharma-continuum/zinit/issues/395&#34; data-hovercard-type=&#34;issue&#34; data-hovercard-url=&#34;/zdharma-continuum/zinit/issues/395/hovercard&#34;&gt;#395&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;broken update command (&lt;a href=&#34;https://github.com/zdharma-continuum/zinit/commit/336ca85ade5d4c5c99bd903610baf9961753192b&#34;&gt;336ca85&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;cleanup style, naming, and completion (&lt;a href=&#34;https://github.com/zdharma-continuum/zinit/commit/6c82d6788dec6a60c4c217d03c45c327bc0e59a1&#34;&gt;6c82d67&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;compile and completion log messages (&lt;a href=&#34;https://github.com/zdharma-continuum/zinit/commit/c4446da57e5375f4a89ea94e1e8c04eacfc4e494&#34;&gt;c4446da&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;csearch ignores lua files (&lt;a href=&#34;https://github.com/zdharma-continuum/zinit/commit/4d1840b883e86cc46df2050c01bd0731e29023aa&#34;&gt;4d1840b&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;makefile clean target less verbose (&lt;a href=&#34;https://github.com/zdharma-continuum/zinit/commit/3396f5e3aa1fb81d128d4f34b9ff868011d68981&#34;&gt;3396f5e&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;pin git-mkver gh-r test to v.1.2.2 (&lt;a href=&#34;https://github.com/zdharma-continuum/zinit/commit/a05cc1ab59db5b82c5a0f7ee0b6bbef84f0e8b0e&#34;&gt;a05cc1a&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;pin git-mkver unit test to v1.2.2 (&lt;a href=&#34;https://github.com/zdharma-continuum/zinit/commit/08f02e00d0fbc86b10d44d18f5b774c9c00806cc&#34;&gt;08f02e0&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;regenerate docs (&lt;a href=&#34;https://github.com/zdharma-continuum/zinit/commit/e0177e20382d8336d55bc2637a6f2c515d25ce19&#34;&gt;e0177e2&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3&gt;Features&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;expand gh-r zunit tests (&lt;a href=&#34;https://github.com/zdharma-continuum/zinit/commit/c3231164836c8ca3ca9ebded8d95c31c0a186567&#34;&gt;c323116&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;refactor debug commands (&lt;a href=&#34;https://github.com/zdharma-continuum/zinit/commit/930b25ee3c6cc66931eda0030c422fddd69ef9c4&#34;&gt;930b25e&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;refactor ls, list, and loaded commands (&lt;a href=&#34;https://github.com/zdharma-continuum/zinit/commit/a86590762ac2bb5244db5d3cd7d99d32a9dc11fe&#34;&gt;a865907&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/zdharma-continuum/zinit/releases/tag/v3.11.0" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>github-actions[bot]</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from swag - v2.0.0-rc3</title>
+    <updated>2023-05-04T11:32:54Z</updated>
+    <id>tag:github.com,2008:Repository/93928882/v2.0.0-rc3</id>
+    <content type="html">&lt;h2&gt;What&#39;s Changed&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;V2: Update Makefile by &lt;a class=&#34;user-mention notranslate&#34; data-hovercard-type=&#34;user&#34; data-hovercard-url=&#34;/users/Nerzal/hovercard&#34; data-octo-click=&#34;hovercard-link-click&#34; data-octo-dimensions=&#34;link_type:self&#34; href=&#34;https://github.com/Nerzal&#34;&gt;@Nerzal&lt;/a&gt; in &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1672780176&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/swaggo/swag/issues/1560&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/swaggo/swag/pull/1560/hovercard&#34; href=&#34;https://github.com/swaggo/swag/pull/1560&#34;&gt;#1560&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;V2: Fix template delims by &lt;a class=&#34;user-mention notranslate&#34; data-hovercard-type=&#34;user&#34; data-hovercard-url=&#34;/users/Nerzal/hovercard&#34; data-octo-click=&#34;hovercard-link-click&#34; data-octo-dimensions=&#34;link_type:self&#34; href=&#34;https://github.com/Nerzal&#34;&gt;@Nerzal&lt;/a&gt; in &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1693881789&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/swaggo/swag/issues/1572&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/swaggo/swag/pull/1572/hovercard&#34; href=&#34;https://github.com/swaggo/swag/pull/1572&#34;&gt;#1572&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;V2: Add Servers param by &lt;a class=&#34;user-mention notranslate&#34; data-hovercard-type=&#34;user&#34; data-hovercard-url=&#34;/users/Nerzal/hovercard&#34; data-octo-click=&#34;hovercard-link-click&#34; data-octo-dimensions=&#34;link_type:self&#34; href=&#34;https://github.com/Nerzal&#34;&gt;@Nerzal&lt;/a&gt; in &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1694002853&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/swaggo/swag/issues/1573&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/swaggo/swag/pull/1573/hovercard&#34; href=&#34;https://github.com/swaggo/swag/pull/1573&#34;&gt;#1573&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: &lt;a class=&#34;commit-link&#34; href=&#34;https://github.com/swaggo/swag/compare/v2.0.0-rc2...v2.0.0-rc3&#34;&gt;&lt;tt&gt;v2.0.0-rc2...v2.0.0-rc3&lt;/tt&gt;&lt;/a&gt;&lt;/p&gt;</content>
+    <link href="https://github.com/swaggo/swag/releases/tag/v2.0.0-rc3" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>Nerzal</name>
+    </author>
+  </entry>
   <entry>
     <title>Release notes from bigquery-emulator - 0.3.1</title>
     <updated>2023-05-04T08:18:32Z</updated>
@@ -917,66 +939,11 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from opentelemetry-operations-go - exporter/collector/v0.37.1: Prepare v0.37.1/1.13.1 release (#623)</title>
+    <title>Release notes from opentelemetry-operations-go - propagator/v0.37.1: Prepare v0.37.1/1.13.1 release (#623)</title>
     <updated>2023-04-12T14:56:07Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/exporter/collector/v0.37.1</id>
+    <id>tag:github.com,2008:Repository/244484581/propagator/v0.37.1</id>
     <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Prepare release v0.37.1/1.13.1&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/exporter%2Fcollector%2Fv0.37.1" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>damemi</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from opentelemetry-operations-go - example/metric/v0.37.1: Prepare v0.37.1/1.13.1 release (#623)</title>
-    <updated>2023-04-12T14:56:07Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/example/metric/v0.37.1</id>
-    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Prepare release v0.37.1/1.13.1&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/example%2Fmetric%2Fv0.37.1" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>damemi</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from opentelemetry-operations-go - example/trace/http/v0.37.1: Prepare v0.37.1/1.13.1 release (#623)</title>
-    <updated>2023-04-12T14:56:07Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/example/trace/http/v0.37.1</id>
-    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Prepare release v0.37.1/1.13.1&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/example%2Ftrace%2Fhttp%2Fv0.37.1" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>damemi</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from opentelemetry-operations-go - exporter/collector/googlemanagedprometheus/v0.37.1: Prepare v0.37.1/1.13.1 release (#623)</title>
-    <updated>2023-04-12T14:56:07Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/exporter/collector/googlemanagedprometheus/v0.37.1</id>
-    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Prepare release v0.37.1/1.13.1&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/exporter%2Fcollector%2Fgooglemanagedprometheus%2Fv0.37.1" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>damemi</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from opentelemetry-operations-go - exporter/metric/v0.37.1: Prepare v0.37.1/1.13.1 release (#623)</title>
-    <updated>2023-04-12T14:56:07Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/exporter/metric/v0.37.1</id>
-    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Prepare release v0.37.1/1.13.1&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/exporter%2Fmetric%2Fv0.37.1" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>damemi</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from opentelemetry-operations-go - exporter/trace/v1.13.1: Prepare v0.37.1/1.13.1 release (#623)</title>
-    <updated>2023-04-12T14:56:07Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/exporter/trace/v1.13.1</id>
-    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Prepare release v0.37.1/1.13.1&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/exporter%2Ftrace%2Fv1.13.1" rel="alternate"></link>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/propagator%2Fv0.37.1" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>damemi</name>
@@ -994,6 +961,28 @@
     </author>
   </entry>
   <entry>
+    <title>Release notes from opentelemetry-operations-go - exporter/collector/v0.37.1: Prepare v0.37.1/1.13.1 release (#623)</title>
+    <updated>2023-04-12T14:56:07Z</updated>
+    <id>tag:github.com,2008:Repository/244484581/exporter/collector/v0.37.1</id>
+    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Prepare release v0.37.1/1.13.1&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/exporter%2Fcollector%2Fv0.37.1" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>damemi</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from opentelemetry-operations-go - exporter/metric/v0.37.1: Prepare v0.37.1/1.13.1 release (#623)</title>
+    <updated>2023-04-12T14:56:07Z</updated>
+    <id>tag:github.com,2008:Repository/244484581/exporter/metric/v0.37.1</id>
+    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Prepare release v0.37.1/1.13.1&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/exporter%2Fmetric%2Fv0.37.1" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>damemi</name>
+    </author>
+  </entry>
+  <entry>
     <title>Release notes from opentelemetry-operations-go - internal/resourcemapping/v0.37.1: Prepare v0.37.1/1.13.1 release (#623)</title>
     <updated>2023-04-12T14:56:07Z</updated>
     <id>tag:github.com,2008:Repository/244484581/internal/resourcemapping/v0.37.1</id>
@@ -1005,11 +994,44 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from opentelemetry-operations-go - propagator/v0.37.1: Prepare v0.37.1/1.13.1 release (#623)</title>
+    <title>Release notes from opentelemetry-operations-go - exporter/collector/googlemanagedprometheus/v0.37.1: Prepare v0.37.1/1.13.1 release (#623)</title>
     <updated>2023-04-12T14:56:07Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/propagator/v0.37.1</id>
+    <id>tag:github.com,2008:Repository/244484581/exporter/collector/googlemanagedprometheus/v0.37.1</id>
     <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Prepare release v0.37.1/1.13.1&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/propagator%2Fv0.37.1" rel="alternate"></link>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/exporter%2Fcollector%2Fgooglemanagedprometheus%2Fv0.37.1" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>damemi</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from opentelemetry-operations-go - example/trace/http/v0.37.1: Prepare v0.37.1/1.13.1 release (#623)</title>
+    <updated>2023-04-12T14:56:07Z</updated>
+    <id>tag:github.com,2008:Repository/244484581/example/trace/http/v0.37.1</id>
+    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Prepare release v0.37.1/1.13.1&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/example%2Ftrace%2Fhttp%2Fv0.37.1" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>damemi</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from opentelemetry-operations-go - example/metric/v0.37.1: Prepare v0.37.1/1.13.1 release (#623)</title>
+    <updated>2023-04-12T14:56:07Z</updated>
+    <id>tag:github.com,2008:Repository/244484581/example/metric/v0.37.1</id>
+    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Prepare release v0.37.1/1.13.1&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/example%2Fmetric%2Fv0.37.1" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>damemi</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from opentelemetry-operations-go - exporter/trace/v1.13.1: Prepare v0.37.1/1.13.1 release (#623)</title>
+    <updated>2023-04-12T14:56:07Z</updated>
+    <id>tag:github.com,2008:Repository/244484581/exporter/trace/v1.13.1</id>
+    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Prepare release v0.37.1/1.13.1&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/exporter%2Ftrace%2Fv1.13.1" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>damemi</name>
@@ -4082,17 +4104,6 @@
     <summary type="html"></summary>
     <author>
       <name>akshayjshah</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from swag - v1.8.9-rc2</title>
-    <updated>2022-12-02T23:19:20Z</updated>
-    <id>tag:github.com,2008:Repository/93928882/v1.8.9-rc2</id>
-    <content type="html">&lt;h2&gt;Changelog&lt;/h2&gt;&#xA;&lt;p&gt;&lt;a class=&#34;commit-link&#34; data-hovercard-type=&#34;commit&#34; data-hovercard-url=&#34;https://github.com/swaggo/swag/commit/a10fb9ab99e41c9995e6fafef79befcb8ec2778c/hovercard&#34; href=&#34;https://github.com/swaggo/swag/commit/a10fb9ab99e41c9995e6fafef79befcb8ec2778c&#34;&gt;&lt;tt&gt;a10fb9a&lt;/tt&gt;&lt;/a&gt; Just optimize code about parsing extensions (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1465033571&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/swaggo/swag/issues/1399&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/swaggo/swag/pull/1399/hovercard&#34; href=&#34;https://github.com/swaggo/swag/pull/1399&#34;&gt;#1399&lt;/a&gt;)&lt;br&gt;&#xA;&lt;a class=&#34;commit-link&#34; data-hovercard-type=&#34;commit&#34; data-hovercard-url=&#34;https://github.com/swaggo/swag/commit/8139731b51819290bbbfd846f8f59aad9c4b64fe/hovercard&#34; href=&#34;https://github.com/swaggo/swag/commit/8139731b51819290bbbfd846f8f59aad9c4b64fe&#34;&gt;&lt;tt&gt;8139731&lt;/tt&gt;&lt;/a&gt; chore: parse escaped double colon (\:) example struct tag (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1467126085&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/swaggo/swag/issues/1402&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/swaggo/swag/pull/1402/hovercard&#34; href=&#34;https://github.com/swaggo/swag/pull/1402&#34;&gt;#1402&lt;/a&gt;)&lt;br&gt;&#xA;&lt;a class=&#34;commit-link&#34; data-hovercard-type=&#34;commit&#34; data-hovercard-url=&#34;https://github.com/swaggo/swag/commit/2c530ea0992fd3408174ca4e78cde944454cdb8e/hovercard&#34; href=&#34;https://github.com/swaggo/swag/commit/2c530ea0992fd3408174ca4e78cde944454cdb8e&#34;&gt;&lt;tt&gt;2c530ea&lt;/tt&gt;&lt;/a&gt; chore: release candidate (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1473563254&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/swaggo/swag/issues/1403&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/swaggo/swag/pull/1403/hovercard&#34; href=&#34;https://github.com/swaggo/swag/pull/1403&#34;&gt;#1403&lt;/a&gt;)&lt;br&gt;&#xA;&lt;a class=&#34;commit-link&#34; data-hovercard-type=&#34;commit&#34; data-hovercard-url=&#34;https://github.com/swaggo/swag/commit/e3151c18d873c5e3d2208569f0205ee6a8074feb/hovercard&#34; href=&#34;https://github.com/swaggo/swag/commit/e3151c18d873c5e3d2208569f0205ee6a8074feb&#34;&gt;&lt;tt&gt;e3151c1&lt;/tt&gt;&lt;/a&gt; chore: release candidate (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1473568165&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/swaggo/swag/issues/1404&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/swaggo/swag/pull/1404/hovercard&#34; href=&#34;https://github.com/swaggo/swag/pull/1404&#34;&gt;#1404&lt;/a&gt;)&lt;br&gt;&#xA;&lt;a class=&#34;commit-link&#34; data-hovercard-type=&#34;commit&#34; data-hovercard-url=&#34;https://github.com/swaggo/swag/commit/e50db3e95f8cda4430c3222dd03898b698227fd2/hovercard&#34; href=&#34;https://github.com/swaggo/swag/commit/e50db3e95f8cda4430c3222dd03898b698227fd2&#34;&gt;&lt;tt&gt;e50db3e&lt;/tt&gt;&lt;/a&gt; enhancement for enums (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1466732057&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/swaggo/swag/issues/1400&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/swaggo/swag/pull/1400/hovercard&#34; href=&#34;https://github.com/swaggo/swag/pull/1400&#34;&gt;#1400&lt;/a&gt;)&lt;br&gt;&#xA;&lt;a class=&#34;commit-link&#34; data-hovercard-type=&#34;commit&#34; data-hovercard-url=&#34;https://github.com/swaggo/swag/commit/80d522103ad6341cd26ecfc4c906df7a891943d6/hovercard&#34; href=&#34;https://github.com/swaggo/swag/commit/80d522103ad6341cd26ecfc4c906df7a891943d6&#34;&gt;&lt;tt&gt;80d5221&lt;/tt&gt;&lt;/a&gt; feat: support json tags in embedded structs (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1462838414&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/swaggo/swag/issues/1396&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/swaggo/swag/pull/1396/hovercard&#34; href=&#34;https://github.com/swaggo/swag/pull/1396&#34;&gt;#1396&lt;/a&gt;)&lt;br&gt;&#xA;&lt;a class=&#34;commit-link&#34; data-hovercard-type=&#34;commit&#34; data-hovercard-url=&#34;https://github.com/swaggo/swag/commit/30684a282a278952cff78125be3bacf808b134c2/hovercard&#34; href=&#34;https://github.com/swaggo/swag/commit/30684a282a278952cff78125be3bacf808b134c2&#34;&gt;&lt;tt&gt;30684a2&lt;/tt&gt;&lt;/a&gt; fix parsing bug affected by fmt (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1464504777&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/swaggo/swag/issues/1398&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/swaggo/swag/pull/1398/hovercard&#34; href=&#34;https://github.com/swaggo/swag/pull/1398&#34;&gt;#1398&lt;/a&gt;)&lt;br&gt;&#xA;&lt;a class=&#34;commit-link&#34; data-hovercard-type=&#34;commit&#34; data-hovercard-url=&#34;https://github.com/swaggo/swag/commit/ba5df8251775a71936e3c2a01b09b2049aea6a4e/hovercard&#34; href=&#34;https://github.com/swaggo/swag/commit/ba5df8251775a71936e3c2a01b09b2049aea6a4e&#34;&gt;&lt;tt&gt;ba5df82&lt;/tt&gt;&lt;/a&gt; record token.FileSet for every file so that the position of parsing error can be acquired (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1460002850&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/swaggo/swag/issues/1393&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/swaggo/swag/pull/1393/hovercard&#34; href=&#34;https://github.com/swaggo/swag/pull/1393&#34;&gt;#1393&lt;/a&gt;)&lt;/p&gt;</content>
-    <link href="https://github.com/swaggo/swag/releases/tag/v1.8.9-rc2" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>ubogdan</name>
     </author>
   </entry>
   <entry>
@@ -7396,22 +7407,22 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from triangula - v1.1.5</title>
+    <title>Release notes from triangula - v1.1.6</title>
     <updated>2021-05-11T13:31:09Z</updated>
-    <id>tag:github.com,2008:Repository/354015172/v1.1.5</id>
+    <id>tag:github.com,2008:Repository/354015172/v1.1.6</id>
     <content type="html">&lt;p&gt;Refactor for more flexibility&lt;/p&gt;</content>
-    <link href="https://github.com/rh12503/triangula/releases/tag/v1.1.5" rel="alternate"></link>
+    <link href="https://github.com/rh12503/triangula/releases/tag/v1.1.6" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>rh12503</name>
     </author>
   </entry>
   <entry>
-    <title>Release notes from triangula - v1.1.6</title>
+    <title>Release notes from triangula - v1.1.5</title>
     <updated>2021-05-11T13:31:09Z</updated>
-    <id>tag:github.com,2008:Repository/354015172/v1.1.6</id>
+    <id>tag:github.com,2008:Repository/354015172/v1.1.5</id>
     <content type="html">&lt;p&gt;Refactor for more flexibility&lt;/p&gt;</content>
-    <link href="https://github.com/rh12503/triangula/releases/tag/v1.1.6" rel="alternate"></link>
+    <link href="https://github.com/rh12503/triangula/releases/tag/v1.1.5" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>rh12503</name>
@@ -8526,17 +8537,6 @@
     <summary type="html"></summary>
     <author>
       <name>ericchiang</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from zinit - v2.3: Added has&#39;&#39;, cloneonly, notify&#39;&#39;, restet=prompt, on-update-of&#39;&#39;/subsc…</title>
-    <updated>2019-07-17T16:42:03Z</updated>
-    <id>tag:github.com,2008:Repository/422751904/v2.3</id>
-    <content type="html">&lt;p&gt;…ribe&#39;&#39;. Support for the zsh_loaded_plugins array. z-plugins – zplugin extensions (plugins). Empty wait&#39;&#39; ice now works like wait&#39;0&#39;. Support updating submodules of plugins. New readme from DundarGoc/zplugin_readme. The `times&#39; subcommand now displays the times in milliseconds. Full older (5.0.0) Zsh compatibility. Various bugs fixed like the unification of pick&#39;/dev/null&#39; ices. Refactoring.&lt;/p&gt;</content>
-    <link href="https://github.com/zdharma-continuum/zinit/releases/tag/v2.3" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>psprint</name>
     </author>
   </entry>
   <entry>
