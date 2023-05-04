@@ -1,8 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?><feed xmlns="http://www.w3.org/2005/Atom">
   <title>Releases from Starred by toga4</title>
   <id>https://toga4.github.io/feeds/starred-releases.atom</id>
-  <updated>2023-05-04T11:48:01Z</updated>
+  <updated>2023-05-04T17:16:59Z</updated>
   <link href="https://toga4.github.io/feeds/starred-releases.atom"></link>
+  <entry>
+    <title>Release notes from terraform - v1.5.0-alpha20230504</title>
+    <updated>2023-05-04T17:16:59Z</updated>
+    <id>tag:github.com,2008:Repository/17728164/v1.5.0-alpha20230504</id>
+    <content type="html">&lt;h2&gt;1.5.0-alpha20230504 (May 4, 2023)&lt;/h2&gt;&#xA;&lt;p&gt;NEW FEATURES:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;code&gt;check&lt;/code&gt; blocks for validating infrastructure: Module and configuration authors can now write independent check blocks within their configuration to validate assertions about their infrastructure.&lt;/p&gt;&#xA;&lt;p&gt;The new independent &lt;code&gt;check&lt;/code&gt; blocks must specify at least one &lt;code&gt;assert&lt;/code&gt; block, but possibly many, each one with a &lt;code&gt;condition&lt;/code&gt; expression and an &lt;code&gt;error_message&lt;/code&gt; expression matching the existing &lt;a href=&#34;https://developer.hashicorp.com/terraform/language/v1.4.x/expressions/custom-conditions&#34; rel=&#34;nofollow&#34;&gt;Custom Condition Checks&lt;/a&gt;.&lt;br&gt;&#xA;Additionally, check blocks can optionally load a scoped &lt;a href=&#34;https://developer.hashicorp.com/terraform/language/v1.4.x/data-sources&#34; rel=&#34;nofollow&#34;&gt;data source&lt;/a&gt;. Scoped data sources match the existing data sources with the exception that they can only be referenced from within their check block.&lt;/p&gt;&#xA;&lt;p&gt;Unlike the existing &lt;code&gt;precondition&lt;/code&gt; and &lt;code&gt;postcondition&lt;/code&gt; blocks, Terraform will not halt execution should the scoped data block fail or error or if any of the assertions fail.&lt;br&gt;&#xA;This allows practitioners to continually validate the state of their infrastructure outside the usual lifecycle management cycle.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Adds a new &lt;code&gt;plantimestamp&lt;/code&gt; function that returns the timestamp at plan time. This is similar to the &lt;code&gt;timestamp&lt;/code&gt; function which returns the timestamp at apply time.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Adds a new &lt;code&gt;strcontains&lt;/code&gt; function that checks whether a given string contains a given substring. [&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1678560038&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/hashicorp/terraform/issues/33069&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/hashicorp/terraform/pull/33069/hovercard&#34; href=&#34;https://github.com/hashicorp/terraform/pull/33069&#34;&gt;GH-33069&lt;/a&gt;]&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;UPGRADE NOTES:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;This is the last version of Terraform for which macOS 10.13 High Sierra or 10.14 Mojave are officially supported. Future Terraform versions may not function correctly on these older versions of macOS.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;This is the last version of Terraform for which Windows 7, 8, Server 2008, and Server 2012 are supported by Terraform&#39;s main implementation language, Go. We already ended explicit support for versions earlier than Windows 10 in Terraform v0.15.0, but future Terraform versions may malfunction in more significant ways on these older Windows versions.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;On Linux (and some other non-macOS Unix platforms we don&#39;t officially support), Terraform will now notice the &lt;code&gt;trust-ad&lt;/code&gt; option in &lt;code&gt;/etc/resolv.conf&lt;/code&gt; and, if set, will set the &#34;authentic data&#34; option in outgoing DNS requests in order to better match the behavior of the GNU libc resolver.&lt;/p&gt;&#xA;&lt;p&gt;Terraform does not pay any attention to the corresponding option in responses, but some DNSSEC-aware recursive resolvers return different responses when the request option isn&#39;t set. This should therefore avoid some potential situations where a DNS request from Terraform might get a different response than a similar request from other software on your system.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;ENHANCEMENTS:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Terraform CLI&#39;s local operations mode will now attempt to persist state snapshots to the state storage backend periodically during the apply step, thereby reducing the window for lost data if the Terraform process is aborted unexpectedly. [&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1583353717&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/hashicorp/terraform/issues/32680&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/hashicorp/terraform/pull/32680/hovercard&#34; href=&#34;https://github.com/hashicorp/terraform/pull/32680&#34;&gt;GH-32680&lt;/a&gt;]&lt;/li&gt;&#xA;&lt;li&gt;If Terraform CLI receives SIGINT (or its equivalent on non-Unix platforms) during the apply step then it will immediately try to persist the latest state snapshot to the state storage backend, with the assumption that a graceful shutdown request often typically followed by a hard abort some time later if the graceful shutdown doesn&#39;t complete fast enough. [&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1583353717&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/hashicorp/terraform/issues/32680&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/hashicorp/terraform/pull/32680/hovercard&#34; href=&#34;https://github.com/hashicorp/terraform/pull/32680&#34;&gt;GH-32680&lt;/a&gt;]&lt;/li&gt;&#xA;&lt;li&gt;&lt;code&gt;pg&lt;/code&gt; backend: Now supports the &lt;code&gt;PG_CONN_STR&lt;/code&gt;, &lt;code&gt;PG_SCHEMA_NAME&lt;/code&gt;, &lt;code&gt;PG_SKIP_SCHEMA_CREATION&lt;/code&gt;, &lt;code&gt;PG_SKIP_TABLE_CREATION&lt;/code&gt; and &lt;code&gt;PG_SKIP_INDEX_CREATION&lt;/code&gt; environment variables. [&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1670897187&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/hashicorp/terraform/issues/33045&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/hashicorp/terraform/pull/33045/hovercard&#34; href=&#34;https://github.com/hashicorp/terraform/pull/33045&#34;&gt;GH-33045&lt;/a&gt;]&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;BUG FIXES:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;code&gt;terraform init&lt;/code&gt;: Fixed crash with invalid blank module name. [&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1611530948&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/hashicorp/terraform/issues/32781&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/hashicorp/terraform/pull/32781/hovercard&#34; href=&#34;https://github.com/hashicorp/terraform/pull/32781&#34;&gt;GH-32781&lt;/a&gt;]&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2&gt;Previous Releases&lt;/h2&gt;&#xA;&lt;p&gt;For information on prior major and minor releases, see their changelogs:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/hashicorp/terraform/blob/v1.4/CHANGELOG.md&#34;&gt;v1.4&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/hashicorp/terraform/blob/v1.3/CHANGELOG.md&#34;&gt;v1.3&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/hashicorp/terraform/blob/v1.2/CHANGELOG.md&#34;&gt;v1.2&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/hashicorp/terraform/blob/v1.1/CHANGELOG.md&#34;&gt;v1.1&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/hashicorp/terraform/blob/v1.0/CHANGELOG.md&#34;&gt;v1.0&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/hashicorp/terraform/blob/v0.15/CHANGELOG.md&#34;&gt;v0.15&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/hashicorp/terraform/blob/v0.14/CHANGELOG.md&#34;&gt;v0.14&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/hashicorp/terraform/blob/v0.13/CHANGELOG.md&#34;&gt;v0.13&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/hashicorp/terraform/blob/v0.12/CHANGELOG.md&#34;&gt;v0.12&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/hashicorp/terraform/blob/v0.11/CHANGELOG.md&#34;&gt;v0.11 and earlier&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/hashicorp/terraform/releases/tag/v1.5.0-alpha20230504" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>hc-github-team-es-release-engineering</name>
+    </author>
+  </entry>
   <entry>
     <title>Release notes from zinit - v3.11.0</title>
     <updated>2023-05-04T11:48:01Z</updated>
@@ -939,50 +950,6 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from opentelemetry-operations-go - exporter/collector/v0.37.1: Prepare v0.37.1/1.13.1 release (#623)</title>
-    <updated>2023-04-12T14:56:07Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/exporter/collector/v0.37.1</id>
-    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Prepare release v0.37.1/1.13.1&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/exporter%2Fcollector%2Fv0.37.1" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>damemi</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from opentelemetry-operations-go - internal/cloudmock/v0.37.1: Prepare v0.37.1/1.13.1 release (#623)</title>
-    <updated>2023-04-12T14:56:07Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/internal/cloudmock/v0.37.1</id>
-    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Prepare release v0.37.1/1.13.1&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/internal%2Fcloudmock%2Fv0.37.1" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>damemi</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from opentelemetry-operations-go - internal/resourcemapping/v0.37.1: Prepare v0.37.1/1.13.1 release (#623)</title>
-    <updated>2023-04-12T14:56:07Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/internal/resourcemapping/v0.37.1</id>
-    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Prepare release v0.37.1/1.13.1&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/internal%2Fresourcemapping%2Fv0.37.1" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>damemi</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from opentelemetry-operations-go - example/metric/v0.37.1: Prepare v0.37.1/1.13.1 release (#623)</title>
-    <updated>2023-04-12T14:56:07Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/example/metric/v0.37.1</id>
-    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Prepare release v0.37.1/1.13.1&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/example%2Fmetric%2Fv0.37.1" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>damemi</name>
-    </author>
-  </entry>
-  <entry>
     <title>Release notes from opentelemetry-operations-go - example/trace/http/v0.37.1: Prepare v0.37.1/1.13.1 release (#623)</title>
     <updated>2023-04-12T14:56:07Z</updated>
     <id>tag:github.com,2008:Repository/244484581/example/trace/http/v0.37.1</id>
@@ -994,22 +961,11 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from opentelemetry-operations-go - exporter/collector/googlemanagedprometheus/v0.37.1: Prepare v0.37.1/1.13.1 release (#623)</title>
+    <title>Release notes from opentelemetry-operations-go - exporter/collector/v0.37.1: Prepare v0.37.1/1.13.1 release (#623)</title>
     <updated>2023-04-12T14:56:07Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/exporter/collector/googlemanagedprometheus/v0.37.1</id>
+    <id>tag:github.com,2008:Repository/244484581/exporter/collector/v0.37.1</id>
     <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Prepare release v0.37.1/1.13.1&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/exporter%2Fcollector%2Fgooglemanagedprometheus%2Fv0.37.1" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>damemi</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from opentelemetry-operations-go - exporter/metric/v0.37.1: Prepare v0.37.1/1.13.1 release (#623)</title>
-    <updated>2023-04-12T14:56:07Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/exporter/metric/v0.37.1</id>
-    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Prepare release v0.37.1/1.13.1&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/exporter%2Fmetric%2Fv0.37.1" rel="alternate"></link>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/exporter%2Fcollector%2Fv0.37.1" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>damemi</name>
@@ -1027,11 +983,66 @@
     </author>
   </entry>
   <entry>
+    <title>Release notes from opentelemetry-operations-go - internal/resourcemapping/v0.37.1: Prepare v0.37.1/1.13.1 release (#623)</title>
+    <updated>2023-04-12T14:56:07Z</updated>
+    <id>tag:github.com,2008:Repository/244484581/internal/resourcemapping/v0.37.1</id>
+    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Prepare release v0.37.1/1.13.1&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/internal%2Fresourcemapping%2Fv0.37.1" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>damemi</name>
+    </author>
+  </entry>
+  <entry>
     <title>Release notes from opentelemetry-operations-go - propagator/v0.37.1: Prepare v0.37.1/1.13.1 release (#623)</title>
     <updated>2023-04-12T14:56:07Z</updated>
     <id>tag:github.com,2008:Repository/244484581/propagator/v0.37.1</id>
     <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Prepare release v0.37.1/1.13.1&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
     <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/propagator%2Fv0.37.1" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>damemi</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from opentelemetry-operations-go - exporter/metric/v0.37.1: Prepare v0.37.1/1.13.1 release (#623)</title>
+    <updated>2023-04-12T14:56:07Z</updated>
+    <id>tag:github.com,2008:Repository/244484581/exporter/metric/v0.37.1</id>
+    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Prepare release v0.37.1/1.13.1&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/exporter%2Fmetric%2Fv0.37.1" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>damemi</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from opentelemetry-operations-go - internal/cloudmock/v0.37.1: Prepare v0.37.1/1.13.1 release (#623)</title>
+    <updated>2023-04-12T14:56:07Z</updated>
+    <id>tag:github.com,2008:Repository/244484581/internal/cloudmock/v0.37.1</id>
+    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Prepare release v0.37.1/1.13.1&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/internal%2Fcloudmock%2Fv0.37.1" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>damemi</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from opentelemetry-operations-go - example/metric/v0.37.1: Prepare v0.37.1/1.13.1 release (#623)</title>
+    <updated>2023-04-12T14:56:07Z</updated>
+    <id>tag:github.com,2008:Repository/244484581/example/metric/v0.37.1</id>
+    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Prepare release v0.37.1/1.13.1&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/example%2Fmetric%2Fv0.37.1" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>damemi</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from opentelemetry-operations-go - exporter/collector/googlemanagedprometheus/v0.37.1: Prepare v0.37.1/1.13.1 release (#623)</title>
+    <updated>2023-04-12T14:56:07Z</updated>
+    <id>tag:github.com,2008:Repository/244484581/exporter/collector/googlemanagedprometheus/v0.37.1</id>
+    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Prepare release v0.37.1/1.13.1&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/exporter%2Fcollector%2Fgooglemanagedprometheus%2Fv0.37.1" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>damemi</name>
@@ -2663,17 +2674,6 @@
     <summary type="html"></summary>
     <author>
       <name>tam7t</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from terraform - v1.4.0-beta2</title>
-    <updated>2023-02-15T15:34:43Z</updated>
-    <id>tag:github.com,2008:Repository/17728164/v1.4.0-beta2</id>
-    <content type="html">&lt;h2&gt;1.4.0 (Unreleased)&lt;/h2&gt;&#xA;&lt;p&gt;UPGRADE NOTES:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;config: The &lt;code&gt;textencodebase64&lt;/code&gt; function when called with encoding &#34;GB18030&#34; will now encode the euro symbol € as the two-byte sequence &lt;code&gt;0xA2,0xE3&lt;/code&gt;, as required by the GB18030 standard, before applying base64 encoding.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;config: The &lt;code&gt;textencodebase64&lt;/code&gt; function when called with encoding &#34;GBK&#34; or &#34;CP936&#34; will now encode the euro symbol € as the single byte &lt;code&gt;0x80&lt;/code&gt; before applying base64 encoding. This matches the behavior of the Windows API when encoding to this Windows-specific character encoding.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;code&gt;terraform init&lt;/code&gt;: When interpreting the hostname portion of a provider source address or the address of a module in a module registry, Terraform will now use &lt;em&gt;non-transitional&lt;/em&gt; IDNA2008 mapping rules instead of the transitional mapping rules previously used.&lt;/p&gt;&#xA;&lt;p&gt;This matches a change to &lt;a href=&#34;https://url.spec.whatwg.org/#concept-domain-to-ascii&#34; rel=&#34;nofollow&#34;&gt;the WHATWG URL spec&#39;s rules for interpreting non-ASCII domain names&lt;/a&gt; which is being gradually adopted by web browsers. Terraform aims to follow the interpretation of hostnames used by web browsers for consistency. For some hostnames containing non-ASCII characters this may cause Terraform to now request a different &#34;punycode&#34; hostname when resolving.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;The Terraform plan renderer has been completely rewritten to aid with future Terraform Cloud integration. Users should not see any material change in the plan output between 1.3 and 1.4. Users are encouraged to file reports if they notice material differences, or encounter any bugs or panics during their normal execution of Terraform.&lt;/p&gt;&#xA;&lt;p&gt;The diff computation and the rendering are now split into separate packages, while previously the rendering was handled as the diff was computed. Going forward, making small changes to the format of the plan will be easier and introducing new types of renderer will be simplified.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;BUG FIXES:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;The module installer will now record in its manifest a correct module source URL after normalization when the URL given as input contains both a query string portion and a subdirectory portion. Terraform itself doesn&#39;t currently make use of this information and so this is just a cosmetic fix to make the recorded metadata more correct. (&lt;a href=&#34;https://github.com/hashicorp/terraform/issues/31636&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/hashicorp/terraform/pull/31636/hovercard&#34;&gt;#31636&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;config: The &lt;code&gt;yamldecode&lt;/code&gt; function now correctly handles entirely-nil YAML documents. Previously it would incorrectly return an unknown value instead of a null value. It will now return a null value as documented. (&lt;a href=&#34;https://github.com/hashicorp/terraform/issues/32151&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/hashicorp/terraform/pull/32151/hovercard&#34;&gt;#32151&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;Ensure correct ordering between data sources and the deletion of managed resource dependencies. (&lt;a href=&#34;https://github.com/hashicorp/terraform/issues/32209&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/hashicorp/terraform/pull/32209/hovercard&#34;&gt;#32209&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;Fix Terraform creating objects that should not exist in variables that specify default attributes in optional objects. (&lt;a href=&#34;https://github.com/hashicorp/terraform/issues/32178&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/hashicorp/terraform/pull/32178/hovercard&#34;&gt;#32178&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;Fix several Terraform crashes that are caused by HCL creating objects that should not exist in variables that specify default attributes in optional objects within collections. (&lt;a href=&#34;https://github.com/hashicorp/terraform/issues/32178&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/hashicorp/terraform/pull/32178/hovercard&#34;&gt;#32178&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;Fix inconsistent behaviour in empty vs null collections. (&lt;a href=&#34;https://github.com/hashicorp/terraform/issues/32178&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/hashicorp/terraform/pull/32178/hovercard&#34;&gt;#32178&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;&lt;code&gt;terraform workspace&lt;/code&gt; now returns a non-zero exit when given an invalid argument (&lt;a href=&#34;https://github.com/hashicorp/terraform/issues/31318&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/hashicorp/terraform/pull/31318/hovercard&#34;&gt;#31318&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;Terraform would always plan changes when using a nested set attribute (&lt;a href=&#34;https://github.com/hashicorp/terraform/issues/32536&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/hashicorp/terraform/pull/32536/hovercard&#34;&gt;#32536&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;Terraform can now better detect when complex optional+computed object attributes are removed from configuration (&lt;a href=&#34;https://github.com/hashicorp/terraform/issues/32551&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/hashicorp/terraform/pull/32551/hovercard&#34;&gt;#32551&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;A new methodology for planning set elements can now better detect optional+computed changes within sets (&lt;a href=&#34;https://github.com/hashicorp/terraform/issues/32563&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/hashicorp/terraform/pull/32563/hovercard&#34;&gt;#32563&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;Fix state locking and releasing messages when in &lt;code&gt;-json&lt;/code&gt; mode, messages will now be written in JSON format (&lt;a href=&#34;https://github.com/hashicorp/terraform/issues/32451&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/hashicorp/terraform/pull/32451/hovercard&#34;&gt;#32451&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;ENHANCEMENTS:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;code&gt;terraform plan&lt;/code&gt; can now store a plan file even when encountering errors, which can later be inspected to help identify the source of the failures (&lt;a href=&#34;https://github.com/hashicorp/terraform/issues/32395&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/hashicorp/terraform/pull/32395/hovercard&#34;&gt;#32395&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;&lt;code&gt;terraform_data&lt;/code&gt; is a new builtin managed resource type, which can replace the use of &lt;code&gt;null_resource&lt;/code&gt;, and can store data of any type (&lt;a href=&#34;https://github.com/hashicorp/terraform/issues/31757&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/hashicorp/terraform/pull/31757/hovercard&#34;&gt;#31757&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;&lt;code&gt;terraform init&lt;/code&gt; will now ignore entries in the optional global provider cache directory unless they match a checksum already tracked in the current configuration&#39;s dependency lock file. This therefore avoids the long-standing problem that when installing a new provider for the first time from the cache we can&#39;t determine the full set of checksums to include in the lock file. Once the lock file has been updated to include a checksum covering the item in the global cache, Terraform will then use the cache entry for subsequent installation of the same provider package. There is an interim CLI configuration opt-out for those who rely on the previous incorrect behavior. (&lt;a href=&#34;https://github.com/hashicorp/terraform/issues/32129&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/hashicorp/terraform/pull/32129/hovercard&#34;&gt;#32129&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;Interactive input for sensitive variables is now masked in the UI (&lt;a href=&#34;https://github.com/hashicorp/terraform/issues/29520&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/hashicorp/terraform/pull/29520/hovercard&#34;&gt;#29520&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;A new &lt;code&gt;-or-create&lt;/code&gt; flag was added to &lt;code&gt;terraform workspace select&lt;/code&gt;, to aid in creating workspaces in automated situations (&lt;a href=&#34;https://github.com/hashicorp/terraform/issues/31633&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/hashicorp/terraform/pull/31633/hovercard&#34;&gt;#31633&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;A new command was added for exporting Terraform function signatures in machine-readable format: &lt;code&gt;terraform metadata functions -json&lt;/code&gt; (&lt;a href=&#34;https://github.com/hashicorp/terraform/issues/32487&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/hashicorp/terraform/pull/32487/hovercard&#34;&gt;#32487&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;The &#34;Failed to install provider&#34; error message now includes the reason a provider could not be installed. (&lt;a href=&#34;https://github.com/hashicorp/terraform/issues/31898&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/hashicorp/terraform/pull/31898/hovercard&#34;&gt;#31898&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;backend/gcs: Add &lt;code&gt;kms_encryption_key&lt;/code&gt; argument, to allow encryption of state files using Cloud KMS keys. (&lt;a href=&#34;https://github.com/hashicorp/terraform/issues/24967&#34; data-hovercard-type=&#34;issue&#34; data-hovercard-url=&#34;/hashicorp/terraform/issues/24967/hovercard&#34;&gt;#24967&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;backend/gcs: Add &lt;code&gt;storage_custom_endpoint&lt;/code&gt; argument, to allow communication with the backend via a Private Service Connect endpoint. (&lt;a href=&#34;https://github.com/hashicorp/terraform/issues/28856&#34; data-hovercard-type=&#34;issue&#34; data-hovercard-url=&#34;/hashicorp/terraform/issues/28856/hovercard&#34;&gt;#28856&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;backend/gcs: Update documentation for usage of &lt;code&gt;gcs&lt;/code&gt; with &lt;code&gt;terraform_remote_state&lt;/code&gt; (&lt;a href=&#34;https://github.com/hashicorp/terraform/issues/32065&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/hashicorp/terraform/pull/32065/hovercard&#34;&gt;#32065&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;backend/gcs: Update storage package to v1.28.0 (&lt;a href=&#34;https://github.com/hashicorp/terraform/issues/29656&#34; data-hovercard-type=&#34;issue&#34; data-hovercard-url=&#34;/hashicorp/terraform/issues/29656/hovercard&#34;&gt;#29656&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;When removing a workspace from the &lt;code&gt;cloud&lt;/code&gt; backend &lt;code&gt;terraform workspace delete&lt;/code&gt; will use Terraform Cloud&#39;s &lt;a href=&#34;https://developer.hashicorp.com/terraform/cloud-docs/api-docs/workspaces#safe-delete-a-workspace&#34; rel=&#34;nofollow&#34;&gt;Safe Delete&lt;/a&gt; API if the &lt;code&gt;-force&lt;/code&gt; flag is not provided. (&lt;a href=&#34;https://github.com/hashicorp/terraform/pull/31949&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/hashicorp/terraform/pull/31949/hovercard&#34;&gt;#31949&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;backend/oss: More robustly handle endpoint retrieval error (&lt;a href=&#34;https://github.com/hashicorp/terraform/issues/32295&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/hashicorp/terraform/pull/32295/hovercard&#34;&gt;#32295&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;local-exec provisioner: Added &lt;code&gt;quiet&lt;/code&gt; argument. If &lt;code&gt;quiet&lt;/code&gt; is set to &lt;code&gt;true&lt;/code&gt;, Terraform will not print the entire command to stdout during plan. (&lt;a href=&#34;https://github.com/hashicorp/terraform/issues/32116&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/hashicorp/terraform/pull/32116/hovercard&#34;&gt;#32116&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;backend/http: Add support for mTLS authentication. (&lt;a href=&#34;https://github.com/hashicorp/terraform/issues/31699&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/hashicorp/terraform/pull/31699/hovercard&#34;&gt;#31699&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;cloud: Add support for using the &lt;a href=&#34;https://developer.hashicorp.com/terraform/cloud-docs/registry/using#generic-hostname-terraform-enterprise&#34; rel=&#34;nofollow&#34;&gt;generic hostname&lt;/a&gt; localterraform.com in module and provider sources as a substitute for the currently configured cloud backend hostname. This enhancement was also applied to the remote backend.&lt;/li&gt;&#xA;&lt;li&gt;&lt;code&gt;terraform show&lt;/code&gt; will now print an explanation when called on a Terraform workspace with empty state detailing why no resources are shown. (&lt;a href=&#34;https://github.com/hashicorp/terraform/issues/32629&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/hashicorp/terraform/pull/32629/hovercard&#34;&gt;#32629&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;backend/gcs: Added support for &lt;code&gt;GOOGLE_BACKEND_IMPERSONATE_SERVICE_ACCOUNT&lt;/code&gt; env var to allow impersonating a different service account when &lt;code&gt;GOOGLE_IMPERSONATE_SERVICE_ACCOUNT&lt;/code&gt; is configured for the GCP provider. (&lt;a href=&#34;https://github.com/hashicorp/terraform/issues/32557&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/hashicorp/terraform/pull/32557/hovercard&#34;&gt;#32557&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;backend/cos: Add support for the &lt;code&gt;assume_role&lt;/code&gt; authentication method with the &lt;code&gt;tencentcloud&lt;/code&gt; provider. This can be configured via the Terraform config or environment variables.&lt;/li&gt;&#xA;&lt;li&gt;backend/cos: Add support for the &lt;code&gt;security_token&lt;/code&gt; authentication method with the &lt;code&gt;tencentcloud&lt;/code&gt; provider. This can be configured via the Terraform config or environment variables.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;EXPERIMENTS:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Since its introduction the &lt;code&gt;yamlencode&lt;/code&gt; function&#39;s documentation carried a warning that it was experimental. This predated our more formalized idea of language experiments and so wasn&#39;t guarded by an explicit opt-in, but the intention was to allow for small adjustments to its behavior if we learned it was producing invalid YAML in some cases, due to the relative complexity of the YAML specification.&lt;/p&gt;&#xA;&lt;p&gt;From Terraform v1.4 onwards, &lt;code&gt;yamlencode&lt;/code&gt; is no longer documented as experimental and is now subject to the Terraform v1.x Compatibility Promises. There are no changes to its previous behavior in v1.3 and so no special action is required when upgrading.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/hashicorp/terraform/releases/tag/v1.4.0-beta2" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>hc-github-team-tf-core</name>
     </author>
   </entry>
   <entry>
@@ -7407,22 +7407,22 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from triangula - v1.1.5</title>
+    <title>Release notes from triangula - v1.1.6</title>
     <updated>2021-05-11T13:31:09Z</updated>
-    <id>tag:github.com,2008:Repository/354015172/v1.1.5</id>
+    <id>tag:github.com,2008:Repository/354015172/v1.1.6</id>
     <content type="html">&lt;p&gt;Refactor for more flexibility&lt;/p&gt;</content>
-    <link href="https://github.com/rh12503/triangula/releases/tag/v1.1.5" rel="alternate"></link>
+    <link href="https://github.com/rh12503/triangula/releases/tag/v1.1.6" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>rh12503</name>
     </author>
   </entry>
   <entry>
-    <title>Release notes from triangula - v1.1.6</title>
+    <title>Release notes from triangula - v1.1.5</title>
     <updated>2021-05-11T13:31:09Z</updated>
-    <id>tag:github.com,2008:Repository/354015172/v1.1.6</id>
+    <id>tag:github.com,2008:Repository/354015172/v1.1.5</id>
     <content type="html">&lt;p&gt;Refactor for more flexibility&lt;/p&gt;</content>
-    <link href="https://github.com/rh12503/triangula/releases/tag/v1.1.6" rel="alternate"></link>
+    <link href="https://github.com/rh12503/triangula/releases/tag/v1.1.5" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>rh12503</name>
