@@ -1,8 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?><feed xmlns="http://www.w3.org/2005/Atom">
   <title>Releases from Starred by toga4</title>
   <id>https://toga4.github.io/feeds/starred-releases.atom</id>
-  <updated>2023-05-06T21:49:35Z</updated>
+  <updated>2023-05-07T17:03:17Z</updated>
   <link href="https://toga4.github.io/feeds/starred-releases.atom"></link>
+  <entry>
+    <title>Release notes from k9s - v0.27.4</title>
+    <updated>2023-05-07T17:03:17Z</updated>
+    <id>tag:github.com,2008:Repository/167596393/v0.27.4</id>
+    <content type="html">&lt;p&gt;&lt;a target=&#34;_blank&#34; rel=&#34;noopener noreferrer nofollow&#34; href=&#34;https://raw.githubusercontent.com/derailed/k9s/master/assets/k9s.png&#34;&gt;&lt;img src=&#34;https://raw.githubusercontent.com/derailed/k9s/master/assets/k9s.png&#34; align=&#34;center&#34; width=&#34;800&#34; height=&#34;auto&#34; style=&#34;max-width: 100%;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h1&gt;Release v0.27.4&lt;/h1&gt;&#xA;&lt;h2&gt;Notes&lt;/h2&gt;&#xA;&lt;p&gt;Thank you to all that contributed with flushing out issues and enhancements for K9s! I&#39;ll try to mark some of these issues as fixed. But if you don&#39;t mind grab the latest rev and see if we&#39;re happier with some of the fixes! If you&#39;ve filed an issue please help me verify and close. Your support, kindness and awesome suggestions to make K9s better are, as ever, very much noted and appreciated! Also big thanks to all that have allocated their own time to help others on both slack and on this repo!!&lt;/p&gt;&#xA;&lt;p&gt;As you may know, K9s is not pimped out by corps with deep pockets, thus if you feel K9s is helping your Kubernetes journey, please consider joining our &lt;a href=&#34;https://github.com/sponsors/derailed&#34;&gt;sponsorship program&lt;/a&gt; and/or make some noise on social! &lt;a href=&#34;https://twitter.com/kitesurfer&#34; rel=&#34;nofollow&#34;&gt;@kitesurfer&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;On Slack? Please join us &lt;a href=&#34;https://join.slack.com/t/k9sers/shared_invite/enQtOTA5MDEyNzI5MTU0LWQ1ZGI3MzliYzZhZWEyNzYxYzA3NjE0YTk1YmFmNzViZjIyNzhkZGI0MmJjYzhlNjdlMGJhYzE2ZGU1NjkyNTM&#34; rel=&#34;nofollow&#34;&gt;K9slackers&lt;/a&gt;&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2&gt;Core Team...&lt;/h2&gt;&#xA;&lt;p&gt;Please help me welcome Aleksei Romanenko(&lt;a href=&#34;https://github.com/slimus&#34;&gt;https://github.com/slimus&lt;/a&gt;) to the K9s contributor team!!&lt;br&gt;&#xA;Alex is very knowledgeable in this space, kind and a great human being!&lt;br&gt;&#xA;He has been instrumental with issues, prs and fielding questions in forums and slack.&lt;/p&gt;&#xA;&lt;p&gt;&lt;g-emoji class=&#34;g-emoji&#34; alias=&#34;tada&#34; fallback-src=&#34;https://github.githubassets.com/images/icons/emoji/unicode/1f389.png&#34;&gt;🎉&lt;/g-emoji&gt; Welcome Alex!!&lt;g-emoji class=&#34;g-emoji&#34; alias=&#34;tada&#34; fallback-src=&#34;https://github.githubassets.com/images/icons/emoji/unicode/1f389.png&#34;&gt;🎉&lt;/g-emoji&gt;&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2&gt;A Word From Our Sponsors...&lt;/h2&gt;&#xA;&lt;p&gt;To all the good folks below that opted to &lt;code&gt;pay it forward&lt;/code&gt; and join our sponsorship program, I salute you!!&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/jon-walton&#34;&gt;Jon Walton&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/gmbnomis&#34;&gt;gmbnomis&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/aexvir&#34;&gt;Alex Viscreanu&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/BjoernPetersen&#34;&gt;Björn Petersen&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/tannerwatson&#34;&gt;Tanner Watson&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/jabunovoty&#34;&gt;Jabunovoty&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/joeyguerra&#34;&gt;Joey Guerra&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/MaterializeInc&#34;&gt;Materialize Inc&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/kijanawoodard&#34;&gt;Kijana Woodard&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/tomsaleeba&#34;&gt;Tom Saleeba&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/carpetfuz&#34;&gt;William Alexander&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/sueddeutsche&#34;&gt;Süddeutsche Zeitung&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;Sponsorship cancellations since the last release: &lt;code&gt;12&lt;/code&gt; ;(&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2&gt;Maintenance Release&lt;/h2&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2&gt;Resolved Issues&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/derailed/k9s/issues/2072&#34; data-hovercard-type=&#34;issue&#34; data-hovercard-url=&#34;/derailed/k9s/issues/2072/hovercard&#34;&gt;Issue #2072&lt;/a&gt; Triggered Job from cronjob is missing annotations&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/derailed/k9s/issues/2024&#34; data-hovercard-type=&#34;issue&#34; data-hovercard-url=&#34;/derailed/k9s/issues/2024/hovercard&#34;&gt;Issue #2024&lt;/a&gt; Allow customization of log indicators with skin theme&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/derailed/k9s/issues/1971&#34; data-hovercard-type=&#34;issue&#34; data-hovercard-url=&#34;/derailed/k9s/issues/1971/hovercard&#34;&gt;Issue #1971&lt;/a&gt; Zip binary for windows&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2&gt;Contributed PRs&lt;/h2&gt;&#xA;&lt;p&gt;Please give &lt;code&gt;Big Thanks!&lt;/code&gt; and &lt;code&gt;ATTA Girls/Boys!&lt;/code&gt; to all the fine contributors for making K9s better for all of us!!&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/derailed/k9s/pull/2073&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/derailed/k9s/pull/2073/hovercard&#34;&gt;PR #2073&lt;/a&gt; Fix for missing Job annotations created from Cronjob&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/derailed/k9s/pull/2069&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/derailed/k9s/pull/2069/hovercard&#34;&gt;PR #2069&lt;/a&gt; Unify all go version to 1.20&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/derailed/k9s/pull/2067&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/derailed/k9s/pull/2067/hovercard&#34;&gt;PR #2067&lt;/a&gt; Create narsingh skin&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/derailed/k9s/pull/2054&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/derailed/k9s/pull/2054/hovercard&#34;&gt;PR #2054&lt;/a&gt; Update setup-go action, with caching&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/derailed/k9s/pull/2045&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/derailed/k9s/pull/2045/hovercard&#34;&gt;PR #2045&lt;/a&gt; Fix: (views) use saved context view when switching&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/derailed/k9s/pull/2041&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/derailed/k9s/pull/2041/hovercard&#34;&gt;PR #2041&lt;/a&gt; Feat: allow customization of log indicator toggles&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/derailed/k9s/pull/2030&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/derailed/k9s/pull/2030/hovercard&#34;&gt;PR #2030&lt;/a&gt; Updated monokai skin with help styles, and more monokai appropriate colors&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/derailed/k9s/pull/2027&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/derailed/k9s/pull/2027/hovercard&#34;&gt;PR #2027&lt;/a&gt; Roles are rendered using same colorer function from skin&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/derailed/k9s/pull/2045&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/derailed/k9s/pull/2045/hovercard&#34;&gt;PR #2045&lt;/a&gt; Fix: (views) use saved context view when switching\&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/derailed/k9s/pull/2011&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/derailed/k9s/pull/2011/hovercard&#34;&gt;PR #2011&lt;/a&gt; Fix &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1621951300&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/derailed/k9s/issues/2007&#34; data-hovercard-type=&#34;issue&#34; data-hovercard-url=&#34;/derailed/k9s/issues/2007/hovercard&#34; href=&#34;https://github.com/derailed/k9s/issues/2007&#34;&gt;#2007&lt;/a&gt;: Remove debug command&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;&lt;a target=&#34;_blank&#34; rel=&#34;noopener noreferrer nofollow&#34; href=&#34;https://raw.githubusercontent.com/derailed/k9s/master/assets/imhotep_logo.png&#34;&gt;&lt;img src=&#34;https://raw.githubusercontent.com/derailed/k9s/master/assets/imhotep_logo.png&#34; width=&#34;32&#34; height=&#34;auto&#34; style=&#34;max-width: 100%;&#34;&gt;&lt;/a&gt; © 2023 Imhotep Software LLC. All materials licensed under &lt;a href=&#34;http://www.apache.org/licenses/LICENSE-2.0&#34; rel=&#34;nofollow&#34;&gt;Apache v2.0&lt;/a&gt;&lt;/p&gt;</content>
+    <link href="https://github.com/derailed/k9s/releases/tag/v0.27.4" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>derailed</name>
+    </author>
+  </entry>
   <entry>
     <title>Release notes from alacritty - Alacritty Version 0.12.1 Release Candidate 1</title>
     <updated>2023-05-06T21:49:35Z</updated>
@@ -1027,66 +1038,11 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from opentelemetry-operations-go - exporter/metric/v0.37.1: Prepare v0.37.1/1.13.1 release (#623)</title>
-    <updated>2023-04-12T14:56:07Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/exporter/metric/v0.37.1</id>
-    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Prepare release v0.37.1/1.13.1&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/exporter%2Fmetric%2Fv0.37.1" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>damemi</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from opentelemetry-operations-go - internal/cloudmock/v0.37.1: Prepare v0.37.1/1.13.1 release (#623)</title>
-    <updated>2023-04-12T14:56:07Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/internal/cloudmock/v0.37.1</id>
-    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Prepare release v0.37.1/1.13.1&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/internal%2Fcloudmock%2Fv0.37.1" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>damemi</name>
-    </author>
-  </entry>
-  <entry>
     <title>Release notes from opentelemetry-operations-go - example/metric/v0.37.1: Prepare v0.37.1/1.13.1 release (#623)</title>
     <updated>2023-04-12T14:56:07Z</updated>
     <id>tag:github.com,2008:Repository/244484581/example/metric/v0.37.1</id>
     <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Prepare release v0.37.1/1.13.1&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
     <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/example%2Fmetric%2Fv0.37.1" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>damemi</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from opentelemetry-operations-go - example/trace/http/v0.37.1: Prepare v0.37.1/1.13.1 release (#623)</title>
-    <updated>2023-04-12T14:56:07Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/example/trace/http/v0.37.1</id>
-    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Prepare release v0.37.1/1.13.1&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/example%2Ftrace%2Fhttp%2Fv0.37.1" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>damemi</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from opentelemetry-operations-go - internal/resourcemapping/v0.37.1: Prepare v0.37.1/1.13.1 release (#623)</title>
-    <updated>2023-04-12T14:56:07Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/internal/resourcemapping/v0.37.1</id>
-    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Prepare release v0.37.1/1.13.1&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/internal%2Fresourcemapping%2Fv0.37.1" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>damemi</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from opentelemetry-operations-go - propagator/v0.37.1: Prepare v0.37.1/1.13.1 release (#623)</title>
-    <updated>2023-04-12T14:56:07Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/propagator/v0.37.1</id>
-    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Prepare release v0.37.1/1.13.1&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/propagator%2Fv0.37.1" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>damemi</name>
@@ -1115,11 +1071,66 @@
     </author>
   </entry>
   <entry>
+    <title>Release notes from opentelemetry-operations-go - exporter/metric/v0.37.1: Prepare v0.37.1/1.13.1 release (#623)</title>
+    <updated>2023-04-12T14:56:07Z</updated>
+    <id>tag:github.com,2008:Repository/244484581/exporter/metric/v0.37.1</id>
+    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Prepare release v0.37.1/1.13.1&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/exporter%2Fmetric%2Fv0.37.1" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>damemi</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from opentelemetry-operations-go - internal/resourcemapping/v0.37.1: Prepare v0.37.1/1.13.1 release (#623)</title>
+    <updated>2023-04-12T14:56:07Z</updated>
+    <id>tag:github.com,2008:Repository/244484581/internal/resourcemapping/v0.37.1</id>
+    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Prepare release v0.37.1/1.13.1&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/internal%2Fresourcemapping%2Fv0.37.1" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>damemi</name>
+    </author>
+  </entry>
+  <entry>
     <title>Release notes from opentelemetry-operations-go - exporter/collector/v0.37.1: Prepare v0.37.1/1.13.1 release (#623)</title>
     <updated>2023-04-12T14:56:07Z</updated>
     <id>tag:github.com,2008:Repository/244484581/exporter/collector/v0.37.1</id>
     <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Prepare release v0.37.1/1.13.1&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
     <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/exporter%2Fcollector%2Fv0.37.1" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>damemi</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from opentelemetry-operations-go - propagator/v0.37.1: Prepare v0.37.1/1.13.1 release (#623)</title>
+    <updated>2023-04-12T14:56:07Z</updated>
+    <id>tag:github.com,2008:Repository/244484581/propagator/v0.37.1</id>
+    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Prepare release v0.37.1/1.13.1&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/propagator%2Fv0.37.1" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>damemi</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from opentelemetry-operations-go - example/trace/http/v0.37.1: Prepare v0.37.1/1.13.1 release (#623)</title>
+    <updated>2023-04-12T14:56:07Z</updated>
+    <id>tag:github.com,2008:Repository/244484581/example/trace/http/v0.37.1</id>
+    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Prepare release v0.37.1/1.13.1&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/example%2Ftrace%2Fhttp%2Fv0.37.1" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>damemi</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from opentelemetry-operations-go - internal/cloudmock/v0.37.1: Prepare v0.37.1/1.13.1 release (#623)</title>
+    <updated>2023-04-12T14:56:07Z</updated>
+    <id>tag:github.com,2008:Repository/244484581/internal/cloudmock/v0.37.1</id>
+    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Prepare release v0.37.1/1.13.1&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/internal%2Fcloudmock%2Fv0.37.1" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>damemi</name>
@@ -5240,17 +5251,6 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from k9s - v0.26.2</title>
-    <updated>2022-08-03T19:54:40Z</updated>
-    <id>tag:github.com,2008:Repository/167596393/v0.26.2</id>
-    <content type="html">&lt;p&gt;&lt;a target=&#34;_blank&#34; rel=&#34;noopener noreferrer nofollow&#34; href=&#34;https://raw.githubusercontent.com/derailed/k9s/master/assets/k9s.png&#34;&gt;&lt;img src=&#34;https://raw.githubusercontent.com/derailed/k9s/master/assets/k9s.png&#34; align=&#34;center&#34; width=&#34;800&#34; height=&#34;auto&#34; style=&#34;max-width: 100%;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h1&gt;Release v0.26.2&lt;/h1&gt;&#xA;&lt;h2&gt;Notes&lt;/h2&gt;&#xA;&lt;p&gt;Thank you to all that contributed with flushing out issues and enhancements for K9s! I&#39;ll try to mark some of these issues as fixed. But if you don&#39;t mind grab the latest rev and see if we&#39;re happier with some of the fixes! If you&#39;ve filed an issue please help me verify and close. Your support, kindness and awesome suggestions to make K9s better are, as ever, very much noted and appreciated! Also big thanks to all that have allocated their own time to help others on both slack and on this repo!!&lt;/p&gt;&#xA;&lt;p&gt;As you may know, K9s is not pimped out by corps with deep pockets, thus if you feel K9s is helping your Kubernetes journey, please consider joining our &lt;a href=&#34;https://github.com/sponsors/derailed&#34;&gt;sponsorship program&lt;/a&gt; and/or make some noise on social! &lt;a href=&#34;https://twitter.com/kitesurfer&#34; rel=&#34;nofollow&#34;&gt;@kitesurfer&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;On Slack? Please join us &lt;a href=&#34;https://join.slack.com/t/k9sers/shared_invite/enQtOTA5MDEyNzI5MTU0LWQ1ZGI3MzliYzZhZWEyNzYxYzA3NjE0YTk1YmFmNzViZjIyNzhkZGI0MmJjYzhlNjdlMGJhYzE2ZGU1NjkyNTM&#34; rel=&#34;nofollow&#34;&gt;K9slackers&lt;/a&gt;&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2&gt;Maintenance Release&lt;/h2&gt;&#xA;&lt;p&gt;Doh! Looks like I&#39;ve broken windows on this last drop ;(&lt;/p&gt;&#xA;&lt;p&gt;NOTE: I currently don&#39;t have access to a windows/m1 box. So if you do please report back and help us zoom in on the issues below...&lt;br&gt;&#xA;Thank you!!&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2&gt;Resolved Issues (Wishfully...)&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/derailed/k9s/issues/1690&#34; data-hovercard-type=&#34;issue&#34; data-hovercard-url=&#34;/derailed/k9s/issues/1690/hovercard&#34;&gt;Issue #1690&lt;/a&gt; 0.26.1 stuck after exit from container shell, panels refreshed but arrow keys not works windows 10.&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/derailed/k9s/issues/1673&#34; data-hovercard-type=&#34;issue&#34; data-hovercard-url=&#34;/derailed/k9s/issues/1673/hovercard&#34;&gt;Issue #1673&lt;/a&gt; Screen goes blank after existing shell while running k9s on M1&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;&lt;a target=&#34;_blank&#34; rel=&#34;noopener noreferrer nofollow&#34; href=&#34;https://raw.githubusercontent.com/derailed/k9s/master/assets/imhotep_logo.png&#34;&gt;&lt;img src=&#34;https://raw.githubusercontent.com/derailed/k9s/master/assets/imhotep_logo.png&#34; width=&#34;32&#34; height=&#34;auto&#34; style=&#34;max-width: 100%;&#34;&gt;&lt;/a&gt; © 2022 Imhotep Software LLC. All materials licensed under &lt;a href=&#34;http://www.apache.org/licenses/LICENSE-2.0&#34; rel=&#34;nofollow&#34;&gt;Apache v2.0&lt;/a&gt;&lt;/p&gt;</content>
-    <link href="https://github.com/derailed/k9s/releases/tag/v0.26.2" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>derailed</name>
-    </author>
-  </entry>
-  <entry>
     <title>Release notes from lima - v0.11.3</title>
     <updated>2022-08-01T23:37:35Z</updated>
     <id>tag:github.com,2008:Repository/367284699/v0.11.3</id>
@@ -7407,22 +7407,22 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from triangula - v1.1.6</title>
+    <title>Release notes from triangula - v1.1.5</title>
     <updated>2021-05-11T13:31:09Z</updated>
-    <id>tag:github.com,2008:Repository/354015172/v1.1.6</id>
+    <id>tag:github.com,2008:Repository/354015172/v1.1.5</id>
     <content type="html">&lt;p&gt;Refactor for more flexibility&lt;/p&gt;</content>
-    <link href="https://github.com/rh12503/triangula/releases/tag/v1.1.6" rel="alternate"></link>
+    <link href="https://github.com/rh12503/triangula/releases/tag/v1.1.5" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>rh12503</name>
     </author>
   </entry>
   <entry>
-    <title>Release notes from triangula - v1.1.5</title>
+    <title>Release notes from triangula - v1.1.6</title>
     <updated>2021-05-11T13:31:09Z</updated>
-    <id>tag:github.com,2008:Repository/354015172/v1.1.5</id>
+    <id>tag:github.com,2008:Repository/354015172/v1.1.6</id>
     <content type="html">&lt;p&gt;Refactor for more flexibility&lt;/p&gt;</content>
-    <link href="https://github.com/rh12503/triangula/releases/tag/v1.1.5" rel="alternate"></link>
+    <link href="https://github.com/rh12503/triangula/releases/tag/v1.1.6" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>rh12503</name>
@@ -7781,22 +7781,22 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from backoff - v2.0.3: Merge pull request #18 from lestrrat-go/topic/fix-v2-go-mod</title>
+    <title>Release notes from backoff - v2.0.2: Merge pull request #18 from lestrrat-go/topic/fix-v2-go-mod</title>
     <updated>2021-01-06T03:00:05Z</updated>
-    <id>tag:github.com,2008:Repository/118608673/v2.0.3</id>
+    <id>tag:github.com,2008:Repository/118608673/v2.0.2</id>
     <content type="html">&lt;p&gt;Fix go.mod&lt;/p&gt;</content>
-    <link href="https://github.com/lestrrat-go/backoff/releases/tag/v2.0.3" rel="alternate"></link>
+    <link href="https://github.com/lestrrat-go/backoff/releases/tag/v2.0.2" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>lestrrat</name>
     </author>
   </entry>
   <entry>
-    <title>Release notes from backoff - v2.0.2: Merge pull request #18 from lestrrat-go/topic/fix-v2-go-mod</title>
+    <title>Release notes from backoff - v2.0.3: Merge pull request #18 from lestrrat-go/topic/fix-v2-go-mod</title>
     <updated>2021-01-06T03:00:05Z</updated>
-    <id>tag:github.com,2008:Repository/118608673/v2.0.2</id>
+    <id>tag:github.com,2008:Repository/118608673/v2.0.3</id>
     <content type="html">&lt;p&gt;Fix go.mod&lt;/p&gt;</content>
-    <link href="https://github.com/lestrrat-go/backoff/releases/tag/v2.0.2" rel="alternate"></link>
+    <link href="https://github.com/lestrrat-go/backoff/releases/tag/v2.0.3" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>lestrrat</name>
