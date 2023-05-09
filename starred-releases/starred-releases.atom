@@ -1,8 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?><feed xmlns="http://www.w3.org/2005/Atom">
   <title>Releases from Starred by toga4</title>
   <id>https://toga4.github.io/feeds/starred-releases.atom</id>
-  <updated>2023-05-08T18:23:20Z</updated>
+  <updated>2023-05-09T03:03:33Z</updated>
   <link href="https://toga4.github.io/feeds/starred-releases.atom"></link>
+  <entry>
+    <title>Release notes from fake-gcs-server - v1.45.0</title>
+    <updated>2023-05-09T03:03:33Z</updated>
+    <id>tag:github.com,2008:Repository/91218588/v1.45.0</id>
+    <content type="html">&lt;h2&gt;What&#39;s Changed&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;fix: make api copyTo return an object resource by &lt;a class=&#34;user-mention notranslate&#34; data-hovercard-type=&#34;user&#34; data-hovercard-url=&#34;/users/CanLe295/hovercard&#34; data-octo-click=&#34;hovercard-link-click&#34; data-octo-dimensions=&#34;link_type:self&#34; href=&#34;https://github.com/CanLe295&#34;&gt;@CanLe295&lt;/a&gt; in &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1659518693&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/fsouza/fake-gcs-server/issues/1126&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/fsouza/fake-gcs-server/pull/1126/hovercard&#34; href=&#34;https://github.com/fsouza/fake-gcs-server/pull/1126&#34;&gt;#1126&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Propagate ContentType field on create/modify ops by &lt;a class=&#34;user-mention notranslate&#34; data-hovercard-type=&#34;user&#34; data-hovercard-url=&#34;/users/alorlea/hovercard&#34; data-octo-click=&#34;hovercard-link-click&#34; data-octo-dimensions=&#34;link_type:self&#34; href=&#34;https://github.com/alorlea&#34;&gt;@alorlea&lt;/a&gt; in &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1686963945&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/fsouza/fake-gcs-server/issues/1141&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/fsouza/fake-gcs-server/pull/1141/hovercard&#34; href=&#34;https://github.com/fsouza/fake-gcs-server/pull/1141&#34;&gt;#1141&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Do not read the objects data on list by &lt;a class=&#34;user-mention notranslate&#34; data-hovercard-type=&#34;user&#34; data-hovercard-url=&#34;/users/ironsmile/hovercard&#34; data-octo-click=&#34;hovercard-link-click&#34; data-octo-dimensions=&#34;link_type:self&#34; href=&#34;https://github.com/ironsmile&#34;&gt;@ironsmile&lt;/a&gt; in &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1322023741&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/fsouza/fake-gcs-server/issues/873&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/fsouza/fake-gcs-server/pull/873/hovercard&#34; href=&#34;https://github.com/fsouza/fake-gcs-server/pull/873&#34;&gt;#873&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;github/workflows/main: run checkout before setup-go by &lt;a class=&#34;user-mention notranslate&#34; data-hovercard-type=&#34;user&#34; data-hovercard-url=&#34;/users/fsouza/hovercard&#34; data-octo-click=&#34;hovercard-link-click&#34; data-octo-dimensions=&#34;link_type:self&#34; href=&#34;https://github.com/fsouza&#34;&gt;@fsouza&lt;/a&gt; in &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1693359037&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/fsouza/fake-gcs-server/issues/1143&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/fsouza/fake-gcs-server/pull/1143/hovercard&#34; href=&#34;https://github.com/fsouza/fake-gcs-server/pull/1143&#34;&gt;#1143&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;feat(xml): add support for list objects by &lt;a class=&#34;user-mention notranslate&#34; data-hovercard-type=&#34;user&#34; data-hovercard-url=&#34;/users/goober/hovercard&#34; data-octo-click=&#34;hovercard-link-click&#34; data-octo-dimensions=&#34;link_type:self&#34; href=&#34;https://github.com/goober&#34;&gt;@goober&lt;/a&gt; in &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1650946372&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/fsouza/fake-gcs-server/issues/1115&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/fsouza/fake-gcs-server/pull/1115/hovercard&#34; href=&#34;https://github.com/fsouza/fake-gcs-server/pull/1115&#34;&gt;#1115&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Add GRPC Api by &lt;a class=&#34;user-mention notranslate&#34; data-hovercard-type=&#34;user&#34; data-hovercard-url=&#34;/users/RachitSharma2001/hovercard&#34; data-octo-click=&#34;hovercard-link-click&#34; data-octo-dimensions=&#34;link_type:self&#34; href=&#34;https://github.com/RachitSharma2001&#34;&gt;@RachitSharma2001&lt;/a&gt; in &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1679650900&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/fsouza/fake-gcs-server/issues/1138&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/fsouza/fake-gcs-server/pull/1138/hovercard&#34; href=&#34;https://github.com/fsouza/fake-gcs-server/pull/1138&#34;&gt;#1138&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;fakestorage/upload: handle the Content-Range used the C++ SDK by &lt;a class=&#34;user-mention notranslate&#34; data-hovercard-type=&#34;user&#34; data-hovercard-url=&#34;/users/fsouza/hovercard&#34; data-octo-click=&#34;hovercard-link-click&#34; data-octo-dimensions=&#34;link_type:self&#34; href=&#34;https://github.com/fsouza&#34;&gt;@fsouza&lt;/a&gt; in &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1698371873&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/fsouza/fake-gcs-server/issues/1150&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/fsouza/fake-gcs-server/pull/1150/hovercard&#34; href=&#34;https://github.com/fsouza/fake-gcs-server/pull/1150&#34;&gt;#1150&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;golangci: use gci instead of goimports by &lt;a class=&#34;user-mention notranslate&#34; data-hovercard-type=&#34;user&#34; data-hovercard-url=&#34;/users/fsouza/hovercard&#34; data-octo-click=&#34;hovercard-link-click&#34; data-octo-dimensions=&#34;link_type:self&#34; href=&#34;https://github.com/fsouza&#34;&gt;@fsouza&lt;/a&gt; in &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1701219827&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/fsouza/fake-gcs-server/issues/1153&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/fsouza/fake-gcs-server/pull/1153/hovercard&#34; href=&#34;https://github.com/fsouza/fake-gcs-server/pull/1153&#34;&gt;#1153&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2&gt;New Contributors&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a class=&#34;user-mention notranslate&#34; data-hovercard-type=&#34;user&#34; data-hovercard-url=&#34;/users/CanLe295/hovercard&#34; data-octo-click=&#34;hovercard-link-click&#34; data-octo-dimensions=&#34;link_type:self&#34; href=&#34;https://github.com/CanLe295&#34;&gt;@CanLe295&lt;/a&gt; made their first contribution in &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1659518693&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/fsouza/fake-gcs-server/issues/1126&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/fsouza/fake-gcs-server/pull/1126/hovercard&#34; href=&#34;https://github.com/fsouza/fake-gcs-server/pull/1126&#34;&gt;#1126&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a class=&#34;user-mention notranslate&#34; data-hovercard-type=&#34;user&#34; data-hovercard-url=&#34;/users/alorlea/hovercard&#34; data-octo-click=&#34;hovercard-link-click&#34; data-octo-dimensions=&#34;link_type:self&#34; href=&#34;https://github.com/alorlea&#34;&gt;@alorlea&lt;/a&gt; made their first contribution in &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1686963945&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/fsouza/fake-gcs-server/issues/1141&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/fsouza/fake-gcs-server/pull/1141/hovercard&#34; href=&#34;https://github.com/fsouza/fake-gcs-server/pull/1141&#34;&gt;#1141&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a class=&#34;user-mention notranslate&#34; data-hovercard-type=&#34;user&#34; data-hovercard-url=&#34;/users/goober/hovercard&#34; data-octo-click=&#34;hovercard-link-click&#34; data-octo-dimensions=&#34;link_type:self&#34; href=&#34;https://github.com/goober&#34;&gt;@goober&lt;/a&gt; made their first contribution in &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1650946372&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/fsouza/fake-gcs-server/issues/1115&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/fsouza/fake-gcs-server/pull/1115/hovercard&#34; href=&#34;https://github.com/fsouza/fake-gcs-server/pull/1115&#34;&gt;#1115&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: &lt;a class=&#34;commit-link&#34; href=&#34;https://github.com/fsouza/fake-gcs-server/compare/v1.44.2...v1.45.0&#34;&gt;&lt;tt&gt;v1.44.2...v1.45.0&lt;/tt&gt;&lt;/a&gt;&lt;/p&gt;</content>
+    <link href="https://github.com/fsouza/fake-gcs-server/releases/tag/v1.45.0" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>github-actions[bot]</name>
+    </author>
+  </entry>
   <entry>
     <title>Release notes from get-gke-credentials - v1.0.2</title>
     <updated>2023-05-08T18:23:20Z</updated>
@@ -1104,22 +1115,11 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from opentelemetry-operations-go - example/trace/http/v0.37.1: Prepare v0.37.1/1.13.1 release (#623)</title>
+    <title>Release notes from opentelemetry-operations-go - example/metric/v0.37.1: Prepare v0.37.1/1.13.1 release (#623)</title>
     <updated>2023-04-12T14:56:07Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/example/trace/http/v0.37.1</id>
+    <id>tag:github.com,2008:Repository/244484581/example/metric/v0.37.1</id>
     <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Prepare release v0.37.1/1.13.1&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/example%2Ftrace%2Fhttp%2Fv0.37.1" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>damemi</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from opentelemetry-operations-go - exporter/collector/googlemanagedprometheus/v0.37.1: Prepare v0.37.1/1.13.1 release (#623)</title>
-    <updated>2023-04-12T14:56:07Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/exporter/collector/googlemanagedprometheus/v0.37.1</id>
-    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Prepare release v0.37.1/1.13.1&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/exporter%2Fcollector%2Fgooglemanagedprometheus%2Fv0.37.1" rel="alternate"></link>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/example%2Fmetric%2Fv0.37.1" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>damemi</name>
@@ -1131,6 +1131,61 @@
     <id>tag:github.com,2008:Repository/244484581/internal/resourcemapping/v0.37.1</id>
     <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Prepare release v0.37.1/1.13.1&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
     <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/internal%2Fresourcemapping%2Fv0.37.1" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>damemi</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from opentelemetry-operations-go - exporter/metric/v0.37.1: Prepare v0.37.1/1.13.1 release (#623)</title>
+    <updated>2023-04-12T14:56:07Z</updated>
+    <id>tag:github.com,2008:Repository/244484581/exporter/metric/v0.37.1</id>
+    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Prepare release v0.37.1/1.13.1&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/exporter%2Fmetric%2Fv0.37.1" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>damemi</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from opentelemetry-operations-go - propagator/v0.37.1: Prepare v0.37.1/1.13.1 release (#623)</title>
+    <updated>2023-04-12T14:56:07Z</updated>
+    <id>tag:github.com,2008:Repository/244484581/propagator/v0.37.1</id>
+    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Prepare release v0.37.1/1.13.1&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/propagator%2Fv0.37.1" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>damemi</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from opentelemetry-operations-go - example/trace/http/v0.37.1: Prepare v0.37.1/1.13.1 release (#623)</title>
+    <updated>2023-04-12T14:56:07Z</updated>
+    <id>tag:github.com,2008:Repository/244484581/example/trace/http/v0.37.1</id>
+    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Prepare release v0.37.1/1.13.1&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/example%2Ftrace%2Fhttp%2Fv0.37.1" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>damemi</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from opentelemetry-operations-go - exporter/collector/v0.37.1: Prepare v0.37.1/1.13.1 release (#623)</title>
+    <updated>2023-04-12T14:56:07Z</updated>
+    <id>tag:github.com,2008:Repository/244484581/exporter/collector/v0.37.1</id>
+    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Prepare release v0.37.1/1.13.1&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/exporter%2Fcollector%2Fv0.37.1" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>damemi</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from opentelemetry-operations-go - exporter/collector/googlemanagedprometheus/v0.37.1: Prepare v0.37.1/1.13.1 release (#623)</title>
+    <updated>2023-04-12T14:56:07Z</updated>
+    <id>tag:github.com,2008:Repository/244484581/exporter/collector/googlemanagedprometheus/v0.37.1</id>
+    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Prepare release v0.37.1/1.13.1&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/exporter%2Fcollector%2Fgooglemanagedprometheus%2Fv0.37.1" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>damemi</name>
@@ -1153,50 +1208,6 @@
     <id>tag:github.com,2008:Repository/244484581/exporter/trace/v1.13.1</id>
     <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Prepare release v0.37.1/1.13.1&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
     <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/exporter%2Ftrace%2Fv1.13.1" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>damemi</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from opentelemetry-operations-go - exporter/metric/v0.37.1: Prepare v0.37.1/1.13.1 release (#623)</title>
-    <updated>2023-04-12T14:56:07Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/exporter/metric/v0.37.1</id>
-    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Prepare release v0.37.1/1.13.1&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/exporter%2Fmetric%2Fv0.37.1" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>damemi</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from opentelemetry-operations-go - exporter/collector/v0.37.1: Prepare v0.37.1/1.13.1 release (#623)</title>
-    <updated>2023-04-12T14:56:07Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/exporter/collector/v0.37.1</id>
-    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Prepare release v0.37.1/1.13.1&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/exporter%2Fcollector%2Fv0.37.1" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>damemi</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from opentelemetry-operations-go - example/metric/v0.37.1: Prepare v0.37.1/1.13.1 release (#623)</title>
-    <updated>2023-04-12T14:56:07Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/example/metric/v0.37.1</id>
-    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Prepare release v0.37.1/1.13.1&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/example%2Fmetric%2Fv0.37.1" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>damemi</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from opentelemetry-operations-go - propagator/v0.37.1: Prepare v0.37.1/1.13.1 release (#623)</title>
-    <updated>2023-04-12T14:56:07Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/propagator/v0.37.1</id>
-    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Prepare release v0.37.1/1.13.1&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/propagator%2Fv0.37.1" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>damemi</name>
@@ -4948,17 +4959,6 @@
     <id>tag:github.com,2008:Repository/529775188/v0.1.0</id>
     <content type="html">&lt;h2&gt;Changelog&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a class=&#34;commit-link&#34; data-hovercard-type=&#34;commit&#34; data-hovercard-url=&#34;https://github.com/noahgorstein/jqp/commit/07d4f273d5e103c0a43088b1b9b57fc16ca1eb0b/hovercard&#34; href=&#34;https://github.com/noahgorstein/jqp/commit/07d4f273d5e103c0a43088b1b9b57fc16ca1eb0b&#34;&gt;&lt;tt&gt;07d4f27&lt;/tt&gt;&lt;/a&gt; add demo gif to readme&lt;/li&gt;&#xA;&lt;li&gt;&lt;a class=&#34;commit-link&#34; data-hovercard-type=&#34;commit&#34; data-hovercard-url=&#34;https://github.com/noahgorstein/jqp/commit/64a7aadb8538dc3cf3160973efbd2d1938671a7c/hovercard&#34; href=&#34;https://github.com/noahgorstein/jqp/commit/64a7aadb8538dc3cf3160973efbd2d1938671a7c&#34;&gt;&lt;tt&gt;64a7aad&lt;/tt&gt;&lt;/a&gt; initial commit&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
     <link href="https://github.com/noahgorstein/jqp/releases/tag/v0.1.0" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>github-actions[bot]</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from fake-gcs-server - v1.40.2</title>
-    <updated>2022-09-19T16:14:02Z</updated>
-    <id>tag:github.com,2008:Repository/91218588/v1.40.2</id>
-    <content type="html">&lt;h2&gt;What&#39;s Changed&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Fix support resumable + fix incorrect handling of paths which start with a /  by &lt;a class=&#34;user-mention notranslate&#34; data-hovercard-type=&#34;user&#34; data-hovercard-url=&#34;/users/le0pard/hovercard&#34; data-octo-click=&#34;hovercard-link-click&#34; data-octo-dimensions=&#34;link_type:self&#34; href=&#34;https://github.com/le0pard&#34;&gt;@le0pard&lt;/a&gt; in &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1370268409&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/fsouza/fake-gcs-server/issues/918&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/fsouza/fake-gcs-server/pull/918/hovercard&#34; href=&#34;https://github.com/fsouza/fake-gcs-server/pull/918&#34;&gt;#918&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2&gt;New Contributors&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a class=&#34;user-mention notranslate&#34; data-hovercard-type=&#34;user&#34; data-hovercard-url=&#34;/users/le0pard/hovercard&#34; data-octo-click=&#34;hovercard-link-click&#34; data-octo-dimensions=&#34;link_type:self&#34; href=&#34;https://github.com/le0pard&#34;&gt;@le0pard&lt;/a&gt; made their first contribution in &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1370268409&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/fsouza/fake-gcs-server/issues/918&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/fsouza/fake-gcs-server/pull/918/hovercard&#34; href=&#34;https://github.com/fsouza/fake-gcs-server/pull/918&#34;&gt;#918&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: &lt;a class=&#34;commit-link&#34; href=&#34;https://github.com/fsouza/fake-gcs-server/compare/v1.40.1...v1.40.2&#34;&gt;&lt;tt&gt;v1.40.1...v1.40.2&lt;/tt&gt;&lt;/a&gt;&lt;/p&gt;</content>
-    <link href="https://github.com/fsouza/fake-gcs-server/releases/tag/v1.40.2" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>github-actions[bot]</name>
