@@ -1085,7 +1085,7 @@
     <title>Release notes from stern - v1.25.0</title>
     <updated>2023-04-13T23:37:13Z</updated>
     <id>tag:github.com,2008:Repository/306013800/v1.25.0</id>
-    <content type="html">&lt;h2&gt;&lt;g-emoji class=&#34;g-emoji&#34; alias=&#34;zap&#34; fallback-src=&#34;https://github.githubassets.com/images/icons/emoji/unicode/26a1.png&#34;&gt;⚡&lt;/g-emoji&gt; Notable Changes&lt;/h2&gt;&#xA;&lt;h3&gt;Add support for the config file&lt;/h3&gt;&#xA;&lt;p&gt;You can now use the config file to change the default values of stern options. The default config file path is &lt;code&gt;~/.config/stern/config.yaml&lt;/code&gt;.&lt;/p&gt;&#xA;&lt;div class=&#34;snippet-clipboard-content notranslate position-relative overflow-auto&#34; data-snippet-clipboard-copy-content=&#34;# &amp;lt;flag name&amp;gt;: &amp;lt;value&amp;gt;&#xA;tail: 10&#xA;max-log-requests: 999&#xA;timestamps: short&#34;&gt;&lt;pre lang=&#34;yaml&#34; class=&#34;notranslate&#34;&gt;&lt;code&gt;# &amp;lt;flag name&amp;gt;: &amp;lt;value&amp;gt;&#xA;tail: 10&#xA;max-log-requests: 999&#xA;timestamps: short&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&#xA;&lt;p&gt;You can change the config file path with &lt;code&gt;--config&lt;/code&gt; flag or &lt;code&gt;STERNCONFIG&lt;/code&gt; environment variable.&lt;/p&gt;&#xA;&lt;p&gt;&lt;a target=&#34;_blank&#34; rel=&#34;noopener noreferrer nofollow&#34; href=&#34;https://user-images.githubusercontent.com/230185/231905034-cea4eb88-454e-40f8-a71b-9836187c8fce.png&#34;&gt;&lt;img src=&#34;https://user-images.githubusercontent.com/230185/231905034-cea4eb88-454e-40f8-a71b-9836187c8fce.png&#34; alt=&#34;Example&#34; style=&#34;max-width: 100%;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h2&gt;Changes&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Fix the heading level in README.md (&lt;a href=&#34;https://github.com/stern/stern/pull/257&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/stern/stern/pull/257/hovercard&#34;&gt;#257&lt;/a&gt;) &lt;a href=&#34;https://github.com/stern/stern/commit/c2290b4&#34;&gt;c2290b4&lt;/a&gt; (Kazuki Suda)&lt;/li&gt;&#xA;&lt;li&gt;Update dependencies and tools (&lt;a href=&#34;https://github.com/stern/stern/pull/256&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/stern/stern/pull/256/hovercard&#34;&gt;#256&lt;/a&gt;) &lt;a href=&#34;https://github.com/stern/stern/commit/531f869&#34;&gt;531f869&lt;/a&gt; (Kazuki Suda)&lt;/li&gt;&#xA;&lt;li&gt;Allow an empty config file (&lt;a href=&#34;https://github.com/stern/stern/pull/255&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/stern/stern/pull/255/hovercard&#34;&gt;#255&lt;/a&gt;) &lt;a href=&#34;https://github.com/stern/stern/commit/c76ea87&#34;&gt;c76ea87&lt;/a&gt; (Takashi Kusumi)&lt;/li&gt;&#xA;&lt;li&gt;Add support for the config file (&lt;a href=&#34;https://github.com/stern/stern/pull/254&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/stern/stern/pull/254/hovercard&#34;&gt;#254&lt;/a&gt;) &lt;a href=&#34;https://github.com/stern/stern/commit/2fdc298&#34;&gt;2fdc298&lt;/a&gt; (Kazuki Suda)&lt;/li&gt;&#xA;&lt;li&gt;Make setup-go get Go version from go.mod (&lt;a href=&#34;https://github.com/stern/stern/pull/253&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/stern/stern/pull/253/hovercard&#34;&gt;#253&lt;/a&gt;) &lt;a href=&#34;https://github.com/stern/stern/commit/23feff7&#34;&gt;23feff7&lt;/a&gt; (Takashi Kusumi)&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <content type="html">&lt;h2&gt;&lt;g-emoji class=&#34;g-emoji&#34; alias=&#34;zap&#34; fallback-src=&#34;https://github.githubassets.com/images/icons/emoji/unicode/26a1.png&#34;&gt;⚡&lt;/g-emoji&gt; Notable Changes&lt;/h2&gt;&#xA;&lt;h3&gt;Add support for the config file&lt;/h3&gt;&#xA;&lt;p&gt;You can now use the config file to change the default values of stern options. The default config file path is &lt;code&gt;~/.config/stern/config.yaml&lt;/code&gt;.&lt;/p&gt;&#xA;&lt;div class=&#34;highlight highlight-source-yaml notranslate position-relative overflow-auto&#34; data-snippet-clipboard-copy-content=&#34;# &amp;lt;flag name&amp;gt;: &amp;lt;value&amp;gt;&#xA;tail: 10&#xA;max-log-requests: 999&#xA;timestamps: short&#34;&gt;&lt;pre&gt;&lt;span class=&#34;pl-c&#34;&gt;&lt;span class=&#34;pl-c&#34;&gt;#&lt;/span&gt; &amp;lt;flag name&amp;gt;: &amp;lt;value&amp;gt;&lt;/span&gt;&#xA;&lt;span class=&#34;pl-ent&#34;&gt;tail&lt;/span&gt;: &lt;span class=&#34;pl-c1&#34;&gt;10&lt;/span&gt;&#xA;&lt;span class=&#34;pl-ent&#34;&gt;max-log-requests&lt;/span&gt;: &lt;span class=&#34;pl-c1&#34;&gt;999&lt;/span&gt;&#xA;&lt;span class=&#34;pl-ent&#34;&gt;timestamps&lt;/span&gt;: &lt;span class=&#34;pl-s&#34;&gt;short&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;&#xA;&lt;p&gt;You can change the config file path with &lt;code&gt;--config&lt;/code&gt; flag or &lt;code&gt;STERNCONFIG&lt;/code&gt; environment variable.&lt;/p&gt;&#xA;&lt;p&gt;&lt;a target=&#34;_blank&#34; rel=&#34;noopener noreferrer nofollow&#34; href=&#34;https://user-images.githubusercontent.com/230185/231905034-cea4eb88-454e-40f8-a71b-9836187c8fce.png&#34;&gt;&lt;img src=&#34;https://user-images.githubusercontent.com/230185/231905034-cea4eb88-454e-40f8-a71b-9836187c8fce.png&#34; alt=&#34;Example&#34; style=&#34;max-width: 100%;&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h2&gt;Changes&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Fix the heading level in README.md (&lt;a href=&#34;https://github.com/stern/stern/pull/257&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/stern/stern/pull/257/hovercard&#34;&gt;#257&lt;/a&gt;) &lt;a href=&#34;https://github.com/stern/stern/commit/c2290b4&#34;&gt;c2290b4&lt;/a&gt; (Kazuki Suda)&lt;/li&gt;&#xA;&lt;li&gt;Update dependencies and tools (&lt;a href=&#34;https://github.com/stern/stern/pull/256&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/stern/stern/pull/256/hovercard&#34;&gt;#256&lt;/a&gt;) &lt;a href=&#34;https://github.com/stern/stern/commit/531f869&#34;&gt;531f869&lt;/a&gt; (Kazuki Suda)&lt;/li&gt;&#xA;&lt;li&gt;Allow an empty config file (&lt;a href=&#34;https://github.com/stern/stern/pull/255&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/stern/stern/pull/255/hovercard&#34;&gt;#255&lt;/a&gt;) &lt;a href=&#34;https://github.com/stern/stern/commit/c76ea87&#34;&gt;c76ea87&lt;/a&gt; (Takashi Kusumi)&lt;/li&gt;&#xA;&lt;li&gt;Add support for the config file (&lt;a href=&#34;https://github.com/stern/stern/pull/254&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/stern/stern/pull/254/hovercard&#34;&gt;#254&lt;/a&gt;) &lt;a href=&#34;https://github.com/stern/stern/commit/2fdc298&#34;&gt;2fdc298&lt;/a&gt; (Kazuki Suda)&lt;/li&gt;&#xA;&lt;li&gt;Make setup-go get Go version from go.mod (&lt;a href=&#34;https://github.com/stern/stern/pull/253&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/stern/stern/pull/253/hovercard&#34;&gt;#253&lt;/a&gt;) &lt;a href=&#34;https://github.com/stern/stern/commit/23feff7&#34;&gt;23feff7&lt;/a&gt; (Takashi Kusumi)&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
     <link href="https://github.com/stern/stern/releases/tag/v1.25.0" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
@@ -1192,66 +1192,22 @@
     </author>
   </entry>
   <entry>
+    <title>Release notes from opentelemetry-operations-go - internal/cloudmock/v0.37.1: Prepare v0.37.1/1.13.1 release (#623)</title>
+    <updated>2023-04-12T14:56:07Z</updated>
+    <id>tag:github.com,2008:Repository/244484581/internal/cloudmock/v0.37.1</id>
+    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Prepare release v0.37.1/1.13.1&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/internal%2Fcloudmock%2Fv0.37.1" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>damemi</name>
+    </author>
+  </entry>
+  <entry>
     <title>Release notes from opentelemetry-operations-go - exporter/collector/v0.37.1: Prepare v0.37.1/1.13.1 release (#623)</title>
     <updated>2023-04-12T14:56:07Z</updated>
     <id>tag:github.com,2008:Repository/244484581/exporter/collector/v0.37.1</id>
     <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Prepare release v0.37.1/1.13.1&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
     <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/exporter%2Fcollector%2Fv0.37.1" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>damemi</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from opentelemetry-operations-go - example/metric/v0.37.1: Prepare v0.37.1/1.13.1 release (#623)</title>
-    <updated>2023-04-12T14:56:07Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/example/metric/v0.37.1</id>
-    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Prepare release v0.37.1/1.13.1&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/example%2Fmetric%2Fv0.37.1" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>damemi</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from opentelemetry-operations-go - example/trace/http/v0.37.1: Prepare v0.37.1/1.13.1 release (#623)</title>
-    <updated>2023-04-12T14:56:07Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/example/trace/http/v0.37.1</id>
-    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Prepare release v0.37.1/1.13.1&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/example%2Ftrace%2Fhttp%2Fv0.37.1" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>damemi</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from opentelemetry-operations-go - exporter/collector/googlemanagedprometheus/v0.37.1: Prepare v0.37.1/1.13.1 release (#623)</title>
-    <updated>2023-04-12T14:56:07Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/exporter/collector/googlemanagedprometheus/v0.37.1</id>
-    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Prepare release v0.37.1/1.13.1&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/exporter%2Fcollector%2Fgooglemanagedprometheus%2Fv0.37.1" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>damemi</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from opentelemetry-operations-go - propagator/v0.37.1: Prepare v0.37.1/1.13.1 release (#623)</title>
-    <updated>2023-04-12T14:56:07Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/propagator/v0.37.1</id>
-    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Prepare release v0.37.1/1.13.1&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/propagator%2Fv0.37.1" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>damemi</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from opentelemetry-operations-go - internal/resourcemapping/v0.37.1: Prepare v0.37.1/1.13.1 release (#623)</title>
-    <updated>2023-04-12T14:56:07Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/internal/resourcemapping/v0.37.1</id>
-    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Prepare release v0.37.1/1.13.1&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/internal%2Fresourcemapping%2Fv0.37.1" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>damemi</name>
@@ -1269,6 +1225,17 @@
     </author>
   </entry>
   <entry>
+    <title>Release notes from opentelemetry-operations-go - example/trace/http/v0.37.1: Prepare v0.37.1/1.13.1 release (#623)</title>
+    <updated>2023-04-12T14:56:07Z</updated>
+    <id>tag:github.com,2008:Repository/244484581/example/trace/http/v0.37.1</id>
+    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Prepare release v0.37.1/1.13.1&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/example%2Ftrace%2Fhttp%2Fv0.37.1" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>damemi</name>
+    </author>
+  </entry>
+  <entry>
     <title>Release notes from opentelemetry-operations-go - exporter/trace/v1.13.1: Prepare v0.37.1/1.13.1 release (#623)</title>
     <updated>2023-04-12T14:56:07Z</updated>
     <id>tag:github.com,2008:Repository/244484581/exporter/trace/v1.13.1</id>
@@ -1280,11 +1247,44 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from opentelemetry-operations-go - internal/cloudmock/v0.37.1: Prepare v0.37.1/1.13.1 release (#623)</title>
+    <title>Release notes from opentelemetry-operations-go - internal/resourcemapping/v0.37.1: Prepare v0.37.1/1.13.1 release (#623)</title>
     <updated>2023-04-12T14:56:07Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/internal/cloudmock/v0.37.1</id>
+    <id>tag:github.com,2008:Repository/244484581/internal/resourcemapping/v0.37.1</id>
     <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Prepare release v0.37.1/1.13.1&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/internal%2Fcloudmock%2Fv0.37.1" rel="alternate"></link>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/internal%2Fresourcemapping%2Fv0.37.1" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>damemi</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from opentelemetry-operations-go - propagator/v0.37.1: Prepare v0.37.1/1.13.1 release (#623)</title>
+    <updated>2023-04-12T14:56:07Z</updated>
+    <id>tag:github.com,2008:Repository/244484581/propagator/v0.37.1</id>
+    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Prepare release v0.37.1/1.13.1&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/propagator%2Fv0.37.1" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>damemi</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from opentelemetry-operations-go - exporter/collector/googlemanagedprometheus/v0.37.1: Prepare v0.37.1/1.13.1 release (#623)</title>
+    <updated>2023-04-12T14:56:07Z</updated>
+    <id>tag:github.com,2008:Repository/244484581/exporter/collector/googlemanagedprometheus/v0.37.1</id>
+    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Prepare release v0.37.1/1.13.1&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/exporter%2Fcollector%2Fgooglemanagedprometheus%2Fv0.37.1" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>damemi</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from opentelemetry-operations-go - example/metric/v0.37.1: Prepare v0.37.1/1.13.1 release (#623)</title>
+    <updated>2023-04-12T14:56:07Z</updated>
+    <id>tag:github.com,2008:Repository/244484581/example/metric/v0.37.1</id>
+    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Prepare release v0.37.1/1.13.1&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/example%2Fmetric%2Fv0.37.1" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>damemi</name>
@@ -7407,22 +7407,22 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from triangula - v1.1.5</title>
+    <title>Release notes from triangula - v1.1.6</title>
     <updated>2021-05-11T13:31:09Z</updated>
-    <id>tag:github.com,2008:Repository/354015172/v1.1.5</id>
+    <id>tag:github.com,2008:Repository/354015172/v1.1.6</id>
     <content type="html">&lt;p&gt;Refactor for more flexibility&lt;/p&gt;</content>
-    <link href="https://github.com/rh12503/triangula/releases/tag/v1.1.5" rel="alternate"></link>
+    <link href="https://github.com/rh12503/triangula/releases/tag/v1.1.6" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>rh12503</name>
     </author>
   </entry>
   <entry>
-    <title>Release notes from triangula - v1.1.6</title>
+    <title>Release notes from triangula - v1.1.5</title>
     <updated>2021-05-11T13:31:09Z</updated>
-    <id>tag:github.com,2008:Repository/354015172/v1.1.6</id>
+    <id>tag:github.com,2008:Repository/354015172/v1.1.5</id>
     <content type="html">&lt;p&gt;Refactor for more flexibility&lt;/p&gt;</content>
-    <link href="https://github.com/rh12503/triangula/releases/tag/v1.1.6" rel="alternate"></link>
+    <link href="https://github.com/rh12503/triangula/releases/tag/v1.1.5" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>rh12503</name>
