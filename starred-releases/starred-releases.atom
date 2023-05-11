@@ -1,8 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?><feed xmlns="http://www.w3.org/2005/Atom">
   <title>Releases from Starred by toga4</title>
   <id>https://toga4.github.io/feeds/starred-releases.atom</id>
-  <updated>2023-05-11T20:07:52Z</updated>
+  <updated>2023-05-11T21:31:45Z</updated>
   <link href="https://toga4.github.io/feeds/starred-releases.atom"></link>
+  <entry>
+    <title>Release notes from moby - v24.0.0-rc.3</title>
+    <updated>2023-05-11T21:31:45Z</updated>
+    <id>tag:github.com,2008:Repository/7691631/v24.0.0-rc.3</id>
+    <content type="html">&lt;h2&gt;24.0.0-rc.3&lt;/h2&gt;&#xA;&lt;p&gt;This is a pre-release of the upcoming 24.0.0 release.&lt;/p&gt;&#xA;&lt;p&gt;Pre-releases are intended for testing new releases: &lt;strong&gt;only install in a test environment!&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;div class=&#34;highlight highlight-source-shell notranslate position-relative overflow-auto&#34; data-snippet-clipboard-copy-content=&#34;curl -fsSL https://get.docker.com -o get-docker.sh&#xA;sudo CHANNEL=test sh get-docker.sh&#34;&gt;&lt;pre&gt;curl -fsSL https://get.docker.com -o get-docker.sh&#xA;sudo CHANNEL=test sh get-docker.sh&lt;/pre&gt;&lt;/div&gt;&#xA;&lt;h3&gt;Known issues:&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;There is no changelog yet; an overview of pull requests included in this release can be found on GitHub:&#xA;&lt;ul&gt;&#xA;&lt;li&gt;docker cli: &lt;a href=&#34;https://github.com/docker/cli/pulls?q=is%3Apr+milestone%3A24.0.0+is%3Amerged&#34;&gt;all pull requests for 24.0.0&lt;/a&gt; / &lt;a href=&#34;https://github.com/docker/cli/pulls?q=is%3Apr+milestone%3A24.0.0+label%3Aimpact%2Fchangelog+is%3Amerged&#34;&gt;all &#34;changelog&#34; pull requests for 24.0.0&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;docker engine: &lt;a href=&#34;https://github.com/moby/moby/pulls?q=is%3Apr+milestone%3A24.0.0+is%3Amerged&#34;&gt;all pull requests for 24.0.0&lt;/a&gt; / &lt;a href=&#34;https://github.com/moby/moby/pulls?q=is%3Apr+milestone%3A24.0.0+label%3Aimpact%2Fchangelog+is%3Amerged&#34;&gt;all &#34;changelog&#34; pull requests for 24.0.0&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;There are no packages available yet for the s390x and ppc64le architectures&lt;/li&gt;&#xA;&lt;li&gt;There may be bugs! &lt;g-emoji class=&#34;g-emoji&#34; alias=&#34;warning&#34; fallback-src=&#34;https://github.githubassets.com/images/icons/emoji/unicode/26a0.png&#34;&gt;⚠️&lt;/g-emoji&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Bugs and regressions can be reported in these issue trackers:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Related to the CLI: &lt;a href=&#34;https://github.com/docker/cli/issues&#34;&gt;https://github.com/docker/cli/issues&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Related to the Docker Engine &lt;a href=&#34;https://github.com/moby/moby/issues&#34;&gt;https://github.com/moby/moby/issues&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;When reporting issues, include &lt;code&gt;[24.0.0-rc]&lt;/code&gt; in the issue title&lt;/p&gt;</content>
+    <link href="https://github.com/moby/moby/releases/tag/v24.0.0-rc.3" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>thaJeztah</name>
+    </author>
+  </entry>
   <entry>
     <title>Release notes from datadog-agent - 7.43.0-dbm-beta-obfuscation-0.1</title>
     <updated>2023-05-11T20:07:52Z</updated>
@@ -1203,66 +1214,11 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from opentelemetry-operations-go - example/metric/v0.37.1: Prepare v0.37.1/1.13.1 release (#623)</title>
-    <updated>2023-04-12T14:56:07Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/example/metric/v0.37.1</id>
-    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Prepare release v0.37.1/1.13.1&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/example%2Fmetric%2Fv0.37.1" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>damemi</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from opentelemetry-operations-go - exporter/collector/v0.37.1: Prepare v0.37.1/1.13.1 release (#623)</title>
-    <updated>2023-04-12T14:56:07Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/exporter/collector/v0.37.1</id>
-    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Prepare release v0.37.1/1.13.1&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/exporter%2Fcollector%2Fv0.37.1" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>damemi</name>
-    </author>
-  </entry>
-  <entry>
     <title>Release notes from opentelemetry-operations-go - propagator/v0.37.1: Prepare v0.37.1/1.13.1 release (#623)</title>
     <updated>2023-04-12T14:56:07Z</updated>
     <id>tag:github.com,2008:Repository/244484581/propagator/v0.37.1</id>
     <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Prepare release v0.37.1/1.13.1&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
     <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/propagator%2Fv0.37.1" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>damemi</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from opentelemetry-operations-go - internal/resourcemapping/v0.37.1: Prepare v0.37.1/1.13.1 release (#623)</title>
-    <updated>2023-04-12T14:56:07Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/internal/resourcemapping/v0.37.1</id>
-    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Prepare release v0.37.1/1.13.1&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/internal%2Fresourcemapping%2Fv0.37.1" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>damemi</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from opentelemetry-operations-go - internal/cloudmock/v0.37.1: Prepare v0.37.1/1.13.1 release (#623)</title>
-    <updated>2023-04-12T14:56:07Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/internal/cloudmock/v0.37.1</id>
-    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Prepare release v0.37.1/1.13.1&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/internal%2Fcloudmock%2Fv0.37.1" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>damemi</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from opentelemetry-operations-go - exporter/trace/v1.13.1: Prepare v0.37.1/1.13.1 release (#623)</title>
-    <updated>2023-04-12T14:56:07Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/exporter/trace/v1.13.1</id>
-    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Prepare release v0.37.1/1.13.1&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/exporter%2Ftrace%2Fv1.13.1" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>damemi</name>
@@ -1280,11 +1236,22 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from opentelemetry-operations-go - example/trace/http/v0.37.1: Prepare v0.37.1/1.13.1 release (#623)</title>
+    <title>Release notes from opentelemetry-operations-go - exporter/collector/v0.37.1: Prepare v0.37.1/1.13.1 release (#623)</title>
     <updated>2023-04-12T14:56:07Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/example/trace/http/v0.37.1</id>
+    <id>tag:github.com,2008:Repository/244484581/exporter/collector/v0.37.1</id>
     <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Prepare release v0.37.1/1.13.1&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/example%2Ftrace%2Fhttp%2Fv0.37.1" rel="alternate"></link>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/exporter%2Fcollector%2Fv0.37.1" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>damemi</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from opentelemetry-operations-go - exporter/trace/v1.13.1: Prepare v0.37.1/1.13.1 release (#623)</title>
+    <updated>2023-04-12T14:56:07Z</updated>
+    <id>tag:github.com,2008:Repository/244484581/exporter/trace/v1.13.1</id>
+    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Prepare release v0.37.1/1.13.1&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/exporter%2Ftrace%2Fv1.13.1" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>damemi</name>
@@ -1296,6 +1263,50 @@
     <id>tag:github.com,2008:Repository/244484581/exporter/collector/googlemanagedprometheus/v0.37.1</id>
     <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Prepare release v0.37.1/1.13.1&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
     <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/exporter%2Fcollector%2Fgooglemanagedprometheus%2Fv0.37.1" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>damemi</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from opentelemetry-operations-go - example/metric/v0.37.1: Prepare v0.37.1/1.13.1 release (#623)</title>
+    <updated>2023-04-12T14:56:07Z</updated>
+    <id>tag:github.com,2008:Repository/244484581/example/metric/v0.37.1</id>
+    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Prepare release v0.37.1/1.13.1&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/example%2Fmetric%2Fv0.37.1" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>damemi</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from opentelemetry-operations-go - internal/cloudmock/v0.37.1: Prepare v0.37.1/1.13.1 release (#623)</title>
+    <updated>2023-04-12T14:56:07Z</updated>
+    <id>tag:github.com,2008:Repository/244484581/internal/cloudmock/v0.37.1</id>
+    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Prepare release v0.37.1/1.13.1&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/internal%2Fcloudmock%2Fv0.37.1" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>damemi</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from opentelemetry-operations-go - example/trace/http/v0.37.1: Prepare v0.37.1/1.13.1 release (#623)</title>
+    <updated>2023-04-12T14:56:07Z</updated>
+    <id>tag:github.com,2008:Repository/244484581/example/trace/http/v0.37.1</id>
+    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Prepare release v0.37.1/1.13.1&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/example%2Ftrace%2Fhttp%2Fv0.37.1" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>damemi</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from opentelemetry-operations-go - internal/resourcemapping/v0.37.1: Prepare v0.37.1/1.13.1 release (#623)</title>
+    <updated>2023-04-12T14:56:07Z</updated>
+    <id>tag:github.com,2008:Repository/244484581/internal/resourcemapping/v0.37.1</id>
+    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Prepare release v0.37.1/1.13.1&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/internal%2Fresourcemapping%2Fv0.37.1" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>damemi</name>
@@ -1673,17 +1684,6 @@
     <summary type="html"></summary>
     <author>
       <name>buf-release-bot[bot]</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from moby - v23.0.2</title>
-    <updated>2023-03-28T12:16:51Z</updated>
-    <id>tag:github.com,2008:Repository/7691631/v23.0.2</id>
-    <content type="html">&lt;h2&gt;23.0.2&lt;/h2&gt;&#xA;&lt;p&gt;For a full list of pull requests and changes in this release, refer to the relevant GitHub milestones:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/docker/cli/milestone/75?closed=1&#34;&gt;docker/cli, 23.0.2 milestone&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/moby/moby/milestone/114?closed=1&#34;&gt;moby/moby, 23.0.2 milestone&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3&gt;Bug fixes and enhancements&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Fully resolve missing checks for &lt;code&gt;apparmor_parser&lt;/code&gt; when an AppArmor enabled kernel is detected. &lt;a href=&#34;https://github.com/containerd/containerd/pull/8087&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/containerd/containerd/pull/8087/hovercard&#34;&gt;containerd/containerd#8087&lt;/a&gt;, &lt;a href=&#34;https://github.com/moby/moby/pull/45043&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/moby/moby/pull/45043/hovercard&#34;&gt;moby/moby#45043&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Ensure that credentials are redacted from Git URLs when generating BuildKit buildinfo. Fixes &lt;a href=&#34;https://github.com/moby/buildkit/security/advisories/GHSA-gc89-7gcr-jxqc&#34;&gt;CVE-2023-26054&lt;/a&gt;. &lt;a href=&#34;https://github.com/moby/moby/pull/45110&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/moby/moby/pull/45110/hovercard&#34;&gt;moby/moby#45110&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Fix anonymous volumes created by a &lt;code&gt;VOLUME&lt;/code&gt; line in a Dockerfile being excluded from volume prune. &lt;a href=&#34;https://github.com/moby/moby/pull/45159&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/moby/moby/pull/45159/hovercard&#34;&gt;moby/moby#45159&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Fix a failure to properly propagate errors during removal of volumes on a Swarm node. &lt;a href=&#34;https://github.com/moby/moby/pull/45155&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/moby/moby/pull/45155/hovercard&#34;&gt;moby/moby#45155&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Temporarily work around a bug in BuildKit &lt;code&gt;COPY --link&lt;/code&gt; by disabling mergeop/diffop optimization. &lt;a href=&#34;https://github.com/moby/moby/pull/45112&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/moby/moby/pull/45112/hovercard&#34;&gt;moby/moby#45112&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Properly clean up child tasks when a parent Swarm job is removed. &lt;a href=&#34;https://github.com/moby/swarmkit/pull/3112&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/moby/swarmkit/pull/3112/hovercard&#34;&gt;moby/swarmkit#3112&lt;/a&gt;, &lt;a href=&#34;https://github.com/moby/moby/pull/45107&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/moby/moby/pull/45107/hovercard&#34;&gt;moby/moby#45107&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Fix Swarm service creation logic so that both a GenericResource and a non-default network can be used together. &lt;a href=&#34;https://github.com/moby/swarmkit/pull/3082&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/moby/swarmkit/pull/3082/hovercard&#34;&gt;moby/swarmkit#3082&lt;/a&gt;, &lt;a href=&#34;https://github.com/moby/moby/pull/45107&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/moby/moby/pull/45107/hovercard&#34;&gt;moby/moby#45107&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Fix Swarm CSI support requiring the CSI plugin to offer staging endpoints in order to publish a volume. &lt;a href=&#34;https://github.com/moby/swarmkit/pull/3116&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/moby/swarmkit/pull/3116/hovercard&#34;&gt;moby/swarmkit#3116&lt;/a&gt;, &lt;a href=&#34;https://github.com/moby/moby/pull/45107&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/moby/moby/pull/45107/hovercard&#34;&gt;moby/moby#45107&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Fix a panic caused by log buffering in some configurations. &lt;a href=&#34;https://github.com/containerd/fifo/pull/47&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/containerd/fifo/pull/47/hovercard&#34;&gt;containerd/fifo#47&lt;/a&gt;, &lt;a href=&#34;https://github.com/moby/moby/pull/45051&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/moby/moby/pull/45051/hovercard&#34;&gt;moby/moby#45051&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Log errors in the REST to Swarm gRPC API translation layer at the debug level to reduce redundancy and noise. &lt;a href=&#34;https://github.com/moby/moby/pull/45016&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/moby/moby/pull/45016/hovercard&#34;&gt;moby/moby#45016&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Fix a DNS resolution issue affecting containers created with &lt;code&gt;--dns-opt&lt;/code&gt; or &lt;code&gt;--dns-search&lt;/code&gt; when &lt;code&gt;systemd-resolved&lt;/code&gt; is used outside the container. &lt;a href=&#34;https://github.com/moby/moby/pull/45000&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/moby/moby/pull/45000/hovercard&#34;&gt;moby/moby#45000&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Fix a panic when logging errors in handling DNS queries originating from inside a container. &lt;a href=&#34;https://github.com/moby/moby/pull/44980&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/moby/moby/pull/44980/hovercard&#34;&gt;moby/moby#44980&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Improve the speed of &lt;code&gt;docker ps&lt;/code&gt; by allowing users to opt out of size calculations with &lt;code&gt;--size=false&lt;/code&gt;. &lt;a href=&#34;https://github.com/docker/cli/pull/4107&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/docker/cli/pull/4107/hovercard&#34;&gt;docker/cli#4107&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Extend support for Bash completion to all plugins. &lt;a href=&#34;https://github.com/docker/cli/pull/4092&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/docker/cli/pull/4092/hovercard&#34;&gt;docker/cli#4092&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Fix &lt;code&gt;docker stack deploy&lt;/code&gt; failing on Windows when special environment variables set by &lt;code&gt;cmd.exe&lt;/code&gt; are present. &lt;a href=&#34;https://github.com/docker/cli/pull/4083&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/docker/cli/pull/4083/hovercard&#34;&gt;docker/cli#4083&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Add forward compatibility for future API versions by considering empty image tags to be the same as &lt;code&gt;&amp;lt;none&amp;gt;&lt;/code&gt;. &lt;a href=&#34;https://github.com/docker/cli/pull/4065&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/docker/cli/pull/4065/hovercard&#34;&gt;docker/cli#4065&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Atomically write context files to greatly reduce the probability of corruption, and improve the error message for a corrupt context. &lt;a href=&#34;https://github.com/docker/cli/pull/4063&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/docker/cli/pull/4063/hovercard&#34;&gt;docker/cli#4063&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3&gt;Packaging&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Upgrade Go to &lt;code&gt;1.19.7&lt;/code&gt;. &lt;a href=&#34;https://github.com/docker/docker-ce-packaging/pull/857&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/docker/docker-ce-packaging/pull/857/hovercard&#34;&gt;docker/docker-ce-packaging#857&lt;/a&gt;, &lt;a href=&#34;https://github.com/docker/cli/pull/4086&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/docker/cli/pull/4086/hovercard&#34;&gt;docker/cli#4086&lt;/a&gt;, &lt;a href=&#34;https://github.com/moby/moby/pull/45137&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/moby/moby/pull/45137/hovercard&#34;&gt;moby/moby#45137&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Upgrade &lt;code&gt;containerd&lt;/code&gt; to &lt;code&gt;v1.6.19&lt;/code&gt;. &lt;a href=&#34;https://github.com/moby/moby/pull/45084&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/moby/moby/pull/45084/hovercard&#34;&gt;moby/moby#45084&lt;/a&gt;, &lt;a href=&#34;https://github.com/moby/moby/pull/45099&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/moby/moby/pull/45099/hovercard&#34;&gt;moby/moby#45099&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Upgrade Buildx to &lt;code&gt;v0.10.4&lt;/code&gt;. &lt;a href=&#34;https://github.com/docker/docker-ce-packaging/pull/855&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/docker/docker-ce-packaging/pull/855/hovercard&#34;&gt;docker/docker-ce-packaging#855&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Upgrade Compose to &lt;code&gt;v2.17.2&lt;/code&gt;. &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1641595870&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/docker/docker-ce-packaging/issues/867&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/docker/docker-ce-packaging/pull/867/hovercard&#34; href=&#34;https://github.com/docker/docker-ce-packaging/pull/867&#34;&gt;docker/docker-ce-packaging#867&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/moby/moby/releases/tag/v23.0.2" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>thaJeztah</name>
     </author>
   </entry>
   <entry>
