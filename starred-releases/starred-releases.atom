@@ -1,8 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?><feed xmlns="http://www.w3.org/2005/Atom">
   <title>Releases from Starred by toga4</title>
   <id>https://toga4.github.io/feeds/starred-releases.atom</id>
-  <updated>2023-05-11T21:31:45Z</updated>
+  <updated>2023-05-12T21:58:12Z</updated>
   <link href="https://toga4.github.io/feeds/starred-releases.atom"></link>
+  <entry>
+    <title>Release notes from moby - v24.0.0-rc.4</title>
+    <updated>2023-05-12T21:58:12Z</updated>
+    <id>tag:github.com,2008:Repository/7691631/v24.0.0-rc.4</id>
+    <content type="html">&lt;h2&gt;24.0.0-rc.4&lt;/h2&gt;&#xA;&lt;p&gt;This is a pre-release of the upcoming 24.0.0 release.&lt;/p&gt;&#xA;&lt;p&gt;Pre-releases are intended for testing new releases: &lt;strong&gt;only install in a test environment!&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;div class=&#34;highlight highlight-source-shell notranslate position-relative overflow-auto&#34; data-snippet-clipboard-copy-content=&#34;curl -fsSL https://get.docker.com -o get-docker.sh&#xA;sudo CHANNEL=test sh get-docker.sh&#34;&gt;&lt;pre&gt;curl -fsSL https://get.docker.com -o get-docker.sh&#xA;sudo CHANNEL=test sh get-docker.sh&lt;/pre&gt;&lt;/div&gt;&#xA;&lt;h3&gt;Known issues:&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;There is no changelog yet; an overview of pull requests included in this release can be found on GitHub:&#xA;&lt;ul&gt;&#xA;&lt;li&gt;docker cli: &lt;a href=&#34;https://github.com/docker/cli/pulls?q=is%3Apr+milestone%3A24.0.0+is%3Amerged&#34;&gt;all pull requests for 24.0.0&lt;/a&gt; / &lt;a href=&#34;https://github.com/docker/cli/pulls?q=is%3Apr+milestone%3A24.0.0+label%3Aimpact%2Fchangelog+is%3Amerged&#34;&gt;all &#34;changelog&#34; pull requests for 24.0.0&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;docker engine: &lt;a href=&#34;https://github.com/moby/moby/pulls?q=is%3Apr+milestone%3A24.0.0+is%3Amerged&#34;&gt;all pull requests for 24.0.0&lt;/a&gt; / &lt;a href=&#34;https://github.com/moby/moby/pulls?q=is%3Apr+milestone%3A24.0.0+label%3Aimpact%2Fchangelog+is%3Amerged&#34;&gt;all &#34;changelog&#34; pull requests for 24.0.0&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;There are no packages available yet for the s390x and ppc64le architectures&lt;/li&gt;&#xA;&lt;li&gt;There may be bugs! &lt;g-emoji class=&#34;g-emoji&#34; alias=&#34;warning&#34; fallback-src=&#34;https://github.githubassets.com/images/icons/emoji/unicode/26a0.png&#34;&gt;⚠️&lt;/g-emoji&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Bugs and regressions can be reported in these issue trackers:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Related to the CLI: &lt;a href=&#34;https://github.com/docker/cli/issues&#34;&gt;https://github.com/docker/cli/issues&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Related to the Docker Engine &lt;a href=&#34;https://github.com/moby/moby/issues&#34;&gt;https://github.com/moby/moby/issues&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;When reporting issues, include &lt;code&gt;[24.0.0-rc]&lt;/code&gt; in the issue title&lt;/p&gt;</content>
+    <link href="https://github.com/moby/moby/releases/tag/v24.0.0-rc.4" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>thaJeztah</name>
+    </author>
+  </entry>
   <entry>
     <title>Release notes from moby - v24.0.0-rc.3</title>
     <updated>2023-05-11T21:31:45Z</updated>
@@ -1225,11 +1236,55 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from opentelemetry-operations-go - example/trace/http/v0.37.1: Prepare v0.37.1/1.13.1 release (#623)</title>
+    <title>Release notes from opentelemetry-operations-go - internal/cloudmock/v0.37.1: Prepare v0.37.1/1.13.1 release (#623)</title>
     <updated>2023-04-12T14:56:07Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/example/trace/http/v0.37.1</id>
+    <id>tag:github.com,2008:Repository/244484581/internal/cloudmock/v0.37.1</id>
     <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Prepare release v0.37.1/1.13.1&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/example%2Ftrace%2Fhttp%2Fv0.37.1" rel="alternate"></link>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/internal%2Fcloudmock%2Fv0.37.1" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>damemi</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from opentelemetry-operations-go - exporter/trace/v1.13.1: Prepare v0.37.1/1.13.1 release (#623)</title>
+    <updated>2023-04-12T14:56:07Z</updated>
+    <id>tag:github.com,2008:Repository/244484581/exporter/trace/v1.13.1</id>
+    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Prepare release v0.37.1/1.13.1&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/exporter%2Ftrace%2Fv1.13.1" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>damemi</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from opentelemetry-operations-go - propagator/v0.37.1: Prepare v0.37.1/1.13.1 release (#623)</title>
+    <updated>2023-04-12T14:56:07Z</updated>
+    <id>tag:github.com,2008:Repository/244484581/propagator/v0.37.1</id>
+    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Prepare release v0.37.1/1.13.1&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/propagator%2Fv0.37.1" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>damemi</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from opentelemetry-operations-go - exporter/metric/v0.37.1: Prepare v0.37.1/1.13.1 release (#623)</title>
+    <updated>2023-04-12T14:56:07Z</updated>
+    <id>tag:github.com,2008:Repository/244484581/exporter/metric/v0.37.1</id>
+    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Prepare release v0.37.1/1.13.1&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/exporter%2Fmetric%2Fv0.37.1" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>damemi</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from opentelemetry-operations-go - example/metric/v0.37.1: Prepare v0.37.1/1.13.1 release (#623)</title>
+    <updated>2023-04-12T14:56:07Z</updated>
+    <id>tag:github.com,2008:Repository/244484581/example/metric/v0.37.1</id>
+    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Prepare release v0.37.1/1.13.1&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/example%2Fmetric%2Fv0.37.1" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>damemi</name>
@@ -1258,55 +1313,11 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from opentelemetry-operations-go - internal/cloudmock/v0.37.1: Prepare v0.37.1/1.13.1 release (#623)</title>
+    <title>Release notes from opentelemetry-operations-go - example/trace/http/v0.37.1: Prepare v0.37.1/1.13.1 release (#623)</title>
     <updated>2023-04-12T14:56:07Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/internal/cloudmock/v0.37.1</id>
+    <id>tag:github.com,2008:Repository/244484581/example/trace/http/v0.37.1</id>
     <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Prepare release v0.37.1/1.13.1&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/internal%2Fcloudmock%2Fv0.37.1" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>damemi</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from opentelemetry-operations-go - propagator/v0.37.1: Prepare v0.37.1/1.13.1 release (#623)</title>
-    <updated>2023-04-12T14:56:07Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/propagator/v0.37.1</id>
-    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Prepare release v0.37.1/1.13.1&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/propagator%2Fv0.37.1" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>damemi</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from opentelemetry-operations-go - exporter/trace/v1.13.1: Prepare v0.37.1/1.13.1 release (#623)</title>
-    <updated>2023-04-12T14:56:07Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/exporter/trace/v1.13.1</id>
-    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Prepare release v0.37.1/1.13.1&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/exporter%2Ftrace%2Fv1.13.1" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>damemi</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from opentelemetry-operations-go - example/metric/v0.37.1: Prepare v0.37.1/1.13.1 release (#623)</title>
-    <updated>2023-04-12T14:56:07Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/example/metric/v0.37.1</id>
-    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Prepare release v0.37.1/1.13.1&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/example%2Fmetric%2Fv0.37.1" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>damemi</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from opentelemetry-operations-go - exporter/metric/v0.37.1: Prepare v0.37.1/1.13.1 release (#623)</title>
-    <updated>2023-04-12T14:56:07Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/exporter/metric/v0.37.1</id>
-    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Prepare release v0.37.1/1.13.1&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/exporter%2Fmetric%2Fv0.37.1" rel="alternate"></link>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/example%2Ftrace%2Fhttp%2Fv0.37.1" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>damemi</name>
@@ -1596,17 +1607,6 @@
     <summary type="html"></summary>
     <author>
       <name>github-actions[bot]</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from moby - v24.0.0-beta.1</title>
-    <updated>2023-04-01T16:56:52Z</updated>
-    <id>tag:github.com,2008:Repository/7691631/v24.0.0-beta.1</id>
-    <content type="html">&lt;h2&gt;24.0.0-beta.1&lt;/h2&gt;&#xA;&lt;p&gt;This is a pre-release of the upcoming 24.0.0 release.&lt;/p&gt;&#xA;&lt;p&gt;Pre-releases are intended for testing new releases: &lt;strong&gt;only install in a test environment!&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;div class=&#34;highlight highlight-source-shell notranslate position-relative overflow-auto&#34; data-snippet-clipboard-copy-content=&#34;curl -fsSL https://get.docker.com -o get-docker.sh&#xA;sudo CHANNEL=test sh get-docker.sh&#34;&gt;&lt;pre&gt;curl -fsSL https://get.docker.com -o get-docker.sh&#xA;sudo CHANNEL=test sh get-docker.sh&lt;/pre&gt;&lt;/div&gt;&#xA;&lt;h3&gt;Known issues:&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;There is no changelog yet; an overview of pull requests included in this release can be found on GitHub:&#xA;&lt;ul&gt;&#xA;&lt;li&gt;docker cli: &lt;a href=&#34;https://github.com/docker/cli/pulls?q=is%3Apr+milestone%3A24.0.0+is%3Amerged&#34;&gt;all pull requests for 24.0.0&lt;/a&gt; / &lt;a href=&#34;https://github.com/docker/cli/pulls?q=is%3Apr+milestone%3A24.0.0+label%3Aimpact%2Fchangelog+is%3Amerged&#34;&gt;all &#34;changelog&#34; pull requests for 24.0.0&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;docker engine: &lt;a href=&#34;https://github.com/moby/moby/pulls?q=is%3Apr+milestone%3A24.0.0+is%3Amerged&#34;&gt;all pull requests for 24.0.0&lt;/a&gt; / &lt;a href=&#34;https://github.com/moby/moby/pulls?q=is%3Apr+milestone%3A24.0.0+label%3Aimpact%2Fchangelog+is%3Amerged&#34;&gt;all &#34;changelog&#34; pull requests for 24.0.0&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;There are no packages available yet for the s390x and ppc64le architectures&lt;/li&gt;&#xA;&lt;li&gt;There may be bugs! &lt;g-emoji class=&#34;g-emoji&#34; alias=&#34;warning&#34; fallback-src=&#34;https://github.githubassets.com/images/icons/emoji/unicode/26a0.png&#34;&gt;⚠️&lt;/g-emoji&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Bugs and regressions can be reported in these issue trackers:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Related to the CLI: &lt;a href=&#34;https://github.com/docker/cli/issues&#34;&gt;https://github.com/docker/cli/issues&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Related to the Docker Engine &lt;a href=&#34;https://github.com/moby/moby/issues&#34;&gt;https://github.com/moby/moby/issues&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;When reporting issues, include &lt;code&gt;[24.0.0-beta]&lt;/code&gt; in the issue title&lt;/p&gt;</content>
-    <link href="https://github.com/moby/moby/releases/tag/v24.0.0-beta.1" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>thaJeztah</name>
     </author>
   </entry>
   <entry>
