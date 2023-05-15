@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?><feed xmlns="http://www.w3.org/2005/Atom">
   <title>Releases from Starred by toga4</title>
   <id>https://toga4.github.io/feeds/starred-releases.atom</id>
-  <updated>2023-05-15T21:48:01Z</updated>
+  <updated>2023-05-15T22:45:15Z</updated>
   <link href="https://toga4.github.io/feeds/starred-releases.atom"></link>
   <entry>
     <title>Release notes from moby - v20.10.25</title>
-    <updated>2023-05-15T21:48:01Z</updated>
+    <updated>2023-05-15T22:45:15Z</updated>
     <id>tag:github.com,2008:Repository/7691631/v20.10.25</id>
-    <content type="html">&lt;p&gt;v20.10.25&lt;/p&gt;</content>
+    <content type="html">&lt;h2&gt;Bug fixes and enhancements&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Fix log loss with the AWSLogs log driver &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1671792424&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/moby/moby/issues/45349&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/moby/moby/pull/45349/hovercard&#34; href=&#34;https://github.com/moby/moby/pull/45349&#34;&gt;#45349&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Upgrade github.com/docker/libnetwork &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1683483481&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/moby/moby/issues/45398&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/moby/moby/pull/45398/hovercard&#34; href=&#34;https://github.com/moby/moby/pull/45398&#34;&gt;#45398&lt;/a&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Fix a panic in libnetwork during daemon start &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1683439346&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/moby/libnetwork/issues/2677&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/moby/libnetwork/pull/2677/hovercard&#34; href=&#34;https://github.com/moby/libnetwork/pull/2677&#34;&gt;moby/libnetwork#2677&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Fix a deadlock which can occur when attaching and detaching containers from a network &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1628183383&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/moby/libnetwork/issues/2674&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/moby/libnetwork/pull/2674/hovercard&#34; href=&#34;https://github.com/moby/libnetwork/pull/2674&#34;&gt;moby/libnetwork#2674&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2&gt;Packaging Updates&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Update Go runtime to &lt;a href=&#34;https://go.dev/doc/devel/release#go1.19.minor&#34; rel=&#34;nofollow&#34;&gt;1.19.9&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Update containerd to &lt;a href=&#34;https://github.com/containerd/containerd/releases/tag/v1.6.20&#34;&gt;v1.6.20&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Update runc to &lt;a href=&#34;https://github.com/opencontainers/runc/releases/tag/v1.1.5&#34;&gt;v1.1.5&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
     <link href="https://github.com/moby/moby/releases/tag/v20.10.25" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
@@ -1280,11 +1280,11 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from opentelemetry-operations-go - exporter/trace/v1.13.1: Prepare v0.37.1/1.13.1 release (#623)</title>
+    <title>Release notes from opentelemetry-operations-go - exporter/collector/v0.37.1: Prepare v0.37.1/1.13.1 release (#623)</title>
     <updated>2023-04-12T14:56:07Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/exporter/trace/v1.13.1</id>
+    <id>tag:github.com,2008:Repository/244484581/exporter/collector/v0.37.1</id>
     <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Prepare release v0.37.1/1.13.1&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/exporter%2Ftrace%2Fv1.13.1" rel="alternate"></link>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/exporter%2Fcollector%2Fv0.37.1" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>damemi</name>
@@ -1302,44 +1302,11 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from opentelemetry-operations-go - exporter/collector/googlemanagedprometheus/v0.37.1: Prepare v0.37.1/1.13.1 release (#623)</title>
-    <updated>2023-04-12T14:56:07Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/exporter/collector/googlemanagedprometheus/v0.37.1</id>
-    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Prepare release v0.37.1/1.13.1&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/exporter%2Fcollector%2Fgooglemanagedprometheus%2Fv0.37.1" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>damemi</name>
-    </author>
-  </entry>
-  <entry>
     <title>Release notes from opentelemetry-operations-go - example/metric/v0.37.1: Prepare v0.37.1/1.13.1 release (#623)</title>
     <updated>2023-04-12T14:56:07Z</updated>
     <id>tag:github.com,2008:Repository/244484581/example/metric/v0.37.1</id>
     <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Prepare release v0.37.1/1.13.1&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
     <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/example%2Fmetric%2Fv0.37.1" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>damemi</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from opentelemetry-operations-go - exporter/collector/v0.37.1: Prepare v0.37.1/1.13.1 release (#623)</title>
-    <updated>2023-04-12T14:56:07Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/exporter/collector/v0.37.1</id>
-    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Prepare release v0.37.1/1.13.1&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/exporter%2Fcollector%2Fv0.37.1" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>damemi</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from opentelemetry-operations-go - exporter/metric/v0.37.1: Prepare v0.37.1/1.13.1 release (#623)</title>
-    <updated>2023-04-12T14:56:07Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/exporter/metric/v0.37.1</id>
-    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Prepare release v0.37.1/1.13.1&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/exporter%2Fmetric%2Fv0.37.1" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>damemi</name>
@@ -1357,11 +1324,33 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from opentelemetry-operations-go - propagator/v0.37.1: Prepare v0.37.1/1.13.1 release (#623)</title>
+    <title>Release notes from opentelemetry-operations-go - exporter/collector/googlemanagedprometheus/v0.37.1: Prepare v0.37.1/1.13.1 release (#623)</title>
     <updated>2023-04-12T14:56:07Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/propagator/v0.37.1</id>
+    <id>tag:github.com,2008:Repository/244484581/exporter/collector/googlemanagedprometheus/v0.37.1</id>
     <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Prepare release v0.37.1/1.13.1&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/propagator%2Fv0.37.1" rel="alternate"></link>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/exporter%2Fcollector%2Fgooglemanagedprometheus%2Fv0.37.1" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>damemi</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from opentelemetry-operations-go - exporter/metric/v0.37.1: Prepare v0.37.1/1.13.1 release (#623)</title>
+    <updated>2023-04-12T14:56:07Z</updated>
+    <id>tag:github.com,2008:Repository/244484581/exporter/metric/v0.37.1</id>
+    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Prepare release v0.37.1/1.13.1&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/exporter%2Fmetric%2Fv0.37.1" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>damemi</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from opentelemetry-operations-go - exporter/trace/v1.13.1: Prepare v0.37.1/1.13.1 release (#623)</title>
+    <updated>2023-04-12T14:56:07Z</updated>
+    <id>tag:github.com,2008:Repository/244484581/exporter/trace/v1.13.1</id>
+    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Prepare release v0.37.1/1.13.1&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/exporter%2Ftrace%2Fv1.13.1" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>damemi</name>
@@ -1373,6 +1362,17 @@
     <id>tag:github.com,2008:Repository/244484581/internal/resourcemapping/v0.37.1</id>
     <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Prepare release v0.37.1/1.13.1&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
     <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/internal%2Fresourcemapping%2Fv0.37.1" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>damemi</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from opentelemetry-operations-go - propagator/v0.37.1: Prepare v0.37.1/1.13.1 release (#623)</title>
+    <updated>2023-04-12T14:56:07Z</updated>
+    <id>tag:github.com,2008:Repository/244484581/propagator/v0.37.1</id>
+    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Prepare release v0.37.1/1.13.1&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/propagator%2Fv0.37.1" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>damemi</name>
@@ -7803,22 +7803,22 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from backoff - v2.0.3: Merge pull request #18 from lestrrat-go/topic/fix-v2-go-mod</title>
+    <title>Release notes from backoff - v2.0.2: Merge pull request #18 from lestrrat-go/topic/fix-v2-go-mod</title>
     <updated>2021-01-06T03:00:05Z</updated>
-    <id>tag:github.com,2008:Repository/118608673/v2.0.3</id>
+    <id>tag:github.com,2008:Repository/118608673/v2.0.2</id>
     <content type="html">&lt;p&gt;Fix go.mod&lt;/p&gt;</content>
-    <link href="https://github.com/lestrrat-go/backoff/releases/tag/v2.0.3" rel="alternate"></link>
+    <link href="https://github.com/lestrrat-go/backoff/releases/tag/v2.0.2" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>lestrrat</name>
     </author>
   </entry>
   <entry>
-    <title>Release notes from backoff - v2.0.2: Merge pull request #18 from lestrrat-go/topic/fix-v2-go-mod</title>
+    <title>Release notes from backoff - v2.0.3: Merge pull request #18 from lestrrat-go/topic/fix-v2-go-mod</title>
     <updated>2021-01-06T03:00:05Z</updated>
-    <id>tag:github.com,2008:Repository/118608673/v2.0.2</id>
+    <id>tag:github.com,2008:Repository/118608673/v2.0.3</id>
     <content type="html">&lt;p&gt;Fix go.mod&lt;/p&gt;</content>
-    <link href="https://github.com/lestrrat-go/backoff/releases/tag/v2.0.2" rel="alternate"></link>
+    <link href="https://github.com/lestrrat-go/backoff/releases/tag/v2.0.3" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>lestrrat</name>
