@@ -1,8 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?><feed xmlns="http://www.w3.org/2005/Atom">
   <title>Releases from Starred by toga4</title>
   <id>https://toga4.github.io/feeds/starred-releases.atom</id>
-  <updated>2023-05-15T22:45:15Z</updated>
+  <updated>2023-05-16T01:40:19Z</updated>
   <link href="https://toga4.github.io/feeds/starred-releases.atom"></link>
+  <entry>
+    <title>Release notes from alacritty - Alacritty Version 0.12.1 Release Candidate 2</title>
+    <updated>2023-05-16T01:40:19Z</updated>
+    <id>tag:github.com,2008:Repository/51980455/v0.12.1-rc2</id>
+    <content type="html">&lt;h3&gt;Fixed&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Very long startup times on Wayland systems with broken xdg-portal setup&lt;/li&gt;&#xA;&lt;li&gt;Error on startup with &lt;code&gt;GLX&lt;/code&gt; when using old mesa platforms&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/alacritty/alacritty/releases/tag/v0.12.1-rc2" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>kchibisov</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from alacritty - alacritty_terminal_v0.19.0-rc2</title>
+    <updated>2023-05-16T01:17:27Z</updated>
+    <id>tag:github.com,2008:Repository/51980455/alacritty_terminal_v0.19.0-rc2</id>
+    <content type="html">&lt;p&gt;Alacritty Terminal 0.19.0-rc2&lt;/p&gt;</content>
+    <link href="https://github.com/alacritty/alacritty/releases/tag/alacritty_terminal_v0.19.0-rc2" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>kchibisov</name>
+    </author>
+  </entry>
   <entry>
     <title>Release notes from moby - v20.10.25</title>
     <updated>2023-05-15T22:45:15Z</updated>
@@ -125,22 +147,22 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from datadog-agent - 6.43.0-dbm-beta-obfuscation-0.1</title>
+    <title>Release notes from datadog-agent - 7.43.0-dbm-beta-obfuscation-0.1</title>
     <updated>2023-05-11T20:07:52Z</updated>
-    <id>tag:github.com,2008:Repository/49970739/6.43.0-dbm-beta-obfuscation-0.1</id>
+    <id>tag:github.com,2008:Repository/49970739/7.43.0-dbm-beta-obfuscation-0.1</id>
     <content type="html">&lt;p&gt;dbm-beta-obfuscation pin integrations-core&lt;/p&gt;</content>
-    <link href="https://github.com/DataDog/datadog-agent/releases/tag/6.43.0-dbm-beta-obfuscation-0.1" rel="alternate"></link>
+    <link href="https://github.com/DataDog/datadog-agent/releases/tag/7.43.0-dbm-beta-obfuscation-0.1" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>jmeunier28</name>
     </author>
   </entry>
   <entry>
-    <title>Release notes from datadog-agent - 7.43.0-dbm-beta-obfuscation-0.1</title>
+    <title>Release notes from datadog-agent - 6.43.0-dbm-beta-obfuscation-0.1</title>
     <updated>2023-05-11T20:07:52Z</updated>
-    <id>tag:github.com,2008:Repository/49970739/7.43.0-dbm-beta-obfuscation-0.1</id>
+    <id>tag:github.com,2008:Repository/49970739/6.43.0-dbm-beta-obfuscation-0.1</id>
     <content type="html">&lt;p&gt;dbm-beta-obfuscation pin integrations-core&lt;/p&gt;</content>
-    <link href="https://github.com/DataDog/datadog-agent/releases/tag/7.43.0-dbm-beta-obfuscation-0.1" rel="alternate"></link>
+    <link href="https://github.com/DataDog/datadog-agent/releases/tag/6.43.0-dbm-beta-obfuscation-0.1" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>jmeunier28</name>
@@ -1280,22 +1302,11 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from opentelemetry-operations-go - internal/cloudmock/v0.37.1: Prepare v0.37.1/1.13.1 release (#623)</title>
+    <title>Release notes from opentelemetry-operations-go - internal/resourcemapping/v0.37.1: Prepare v0.37.1/1.13.1 release (#623)</title>
     <updated>2023-04-12T14:56:07Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/internal/cloudmock/v0.37.1</id>
+    <id>tag:github.com,2008:Repository/244484581/internal/resourcemapping/v0.37.1</id>
     <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Prepare release v0.37.1/1.13.1&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/internal%2Fcloudmock%2Fv0.37.1" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>damemi</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from opentelemetry-operations-go - exporter/collector/googlemanagedprometheus/v0.37.1: Prepare v0.37.1/1.13.1 release (#623)</title>
-    <updated>2023-04-12T14:56:07Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/exporter/collector/googlemanagedprometheus/v0.37.1</id>
-    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Prepare release v0.37.1/1.13.1&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/exporter%2Fcollector%2Fgooglemanagedprometheus%2Fv0.37.1" rel="alternate"></link>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/internal%2Fresourcemapping%2Fv0.37.1" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>damemi</name>
@@ -1307,6 +1318,28 @@
     <id>tag:github.com,2008:Repository/244484581/propagator/v0.37.1</id>
     <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Prepare release v0.37.1/1.13.1&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
     <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/propagator%2Fv0.37.1" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>damemi</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from opentelemetry-operations-go - exporter/collector/v0.37.1: Prepare v0.37.1/1.13.1 release (#623)</title>
+    <updated>2023-04-12T14:56:07Z</updated>
+    <id>tag:github.com,2008:Repository/244484581/exporter/collector/v0.37.1</id>
+    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Prepare release v0.37.1/1.13.1&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/exporter%2Fcollector%2Fv0.37.1" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>damemi</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from opentelemetry-operations-go - internal/cloudmock/v0.37.1: Prepare v0.37.1/1.13.1 release (#623)</title>
+    <updated>2023-04-12T14:56:07Z</updated>
+    <id>tag:github.com,2008:Repository/244484581/internal/cloudmock/v0.37.1</id>
+    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Prepare release v0.37.1/1.13.1&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/internal%2Fcloudmock%2Fv0.37.1" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>damemi</name>
@@ -1335,17 +1368,6 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from opentelemetry-operations-go - internal/resourcemapping/v0.37.1: Prepare v0.37.1/1.13.1 release (#623)</title>
-    <updated>2023-04-12T14:56:07Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/internal/resourcemapping/v0.37.1</id>
-    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Prepare release v0.37.1/1.13.1&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/internal%2Fresourcemapping%2Fv0.37.1" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>damemi</name>
-    </author>
-  </entry>
-  <entry>
     <title>Release notes from opentelemetry-operations-go - exporter/trace/v1.13.1: Prepare v0.37.1/1.13.1 release (#623)</title>
     <updated>2023-04-12T14:56:07Z</updated>
     <id>tag:github.com,2008:Repository/244484581/exporter/trace/v1.13.1</id>
@@ -1368,11 +1390,11 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from opentelemetry-operations-go - exporter/collector/v0.37.1: Prepare v0.37.1/1.13.1 release (#623)</title>
+    <title>Release notes from opentelemetry-operations-go - exporter/collector/googlemanagedprometheus/v0.37.1: Prepare v0.37.1/1.13.1 release (#623)</title>
     <updated>2023-04-12T14:56:07Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/exporter/collector/v0.37.1</id>
+    <id>tag:github.com,2008:Repository/244484581/exporter/collector/googlemanagedprometheus/v0.37.1</id>
     <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Prepare release v0.37.1/1.13.1&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/exporter%2Fcollector%2Fv0.37.1" rel="alternate"></link>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/exporter%2Fcollector%2Fgooglemanagedprometheus%2Fv0.37.1" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>damemi</name>
@@ -5086,17 +5108,6 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from alacritty - Alacritty Version 0.11.0 Release Candidate 1</title>
-    <updated>2022-09-03T18:04:29Z</updated>
-    <id>tag:github.com,2008:Repository/51980455/v0.11.0-rc1</id>
-    <content type="html">&lt;h3&gt;Packaging&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Minimum Rust version has been bumped to 1.57.0&lt;/li&gt;&#xA;&lt;li&gt;Renamed &lt;code&gt;io.alacritty.Alacritty.appdata.xml&lt;/code&gt; to &lt;code&gt;org.alacritty.Alacritty.appdata.xml&lt;/code&gt;&lt;/li&gt;&#xA;&lt;li&gt;Renamed &lt;code&gt;io.alacritty&lt;/code&gt; to &lt;code&gt;org.alacritty&lt;/code&gt; for &lt;code&gt;Alacritty.app&lt;/code&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3&gt;Added&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Track and report surface damage information to Wayland compositors&lt;/li&gt;&#xA;&lt;li&gt;Escape sequence for undercurl, dotted and dashed underlines (&lt;code&gt;CSI 4 : [3-5] m&lt;/code&gt;)&lt;/li&gt;&#xA;&lt;li&gt;&lt;code&gt;ToggleMaximized&lt;/code&gt; key binding action to (un-)maximize the active window, not bound by default&lt;/li&gt;&#xA;&lt;li&gt;Support for OpenGL ES 2.0&lt;/li&gt;&#xA;&lt;li&gt;Escape sequence to set underline color (&lt;code&gt;CSI 58 : 2 : Ps : Ps : Ps m&lt;/code&gt;/&lt;code&gt;CSI 58 : 5 : Ps m&lt;/code&gt;)&lt;/li&gt;&#xA;&lt;li&gt;Escape sequence to reset underline color (&lt;code&gt;CSI 59 m&lt;/code&gt;)&lt;/li&gt;&#xA;&lt;li&gt;Vi mode keybinding (z) to center view around vi mode cursor&lt;/li&gt;&#xA;&lt;li&gt;Accept hexadecimal values starting with &lt;code&gt;0x&lt;/code&gt; for &lt;code&gt;--embed&lt;/code&gt;&lt;/li&gt;&#xA;&lt;li&gt;Config option &lt;code&gt;cursor.blink_timeout&lt;/code&gt; to timeout cursor blinking after inactivity&lt;/li&gt;&#xA;&lt;li&gt;Escape sequence to set hyperlinks (&lt;code&gt;OSC 8 ; params ; URI ST&lt;/code&gt;)&lt;/li&gt;&#xA;&lt;li&gt;Config &lt;code&gt;hints.enabled.hyperlinks&lt;/code&gt; for hyperlink escape sequence hint highlight&lt;/li&gt;&#xA;&lt;li&gt;&lt;code&gt;window.decorations_theme_variant&lt;/code&gt; to control both Wayland CSD and GTK theme variant on X11&lt;/li&gt;&#xA;&lt;li&gt;Support for inline input method&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3&gt;Changed&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;No longer renders to macos and x11 windows that are fully occluded / not directly visible&lt;/li&gt;&#xA;&lt;li&gt;The &lt;code&gt;--help&lt;/code&gt; output was reworked with a new colorful syntax&lt;/li&gt;&#xA;&lt;li&gt;OSC 52 is now disabled on unfocused windows&lt;/li&gt;&#xA;&lt;li&gt;&lt;code&gt;SpawnNewInstance&lt;/code&gt; no longer inherits initial &lt;code&gt;--command&lt;/code&gt;&lt;/li&gt;&#xA;&lt;li&gt;Blinking cursor will timeout after &lt;code&gt;5&lt;/code&gt; seconds by default&lt;/li&gt;&#xA;&lt;li&gt;Deprecated &lt;code&gt;colors.search.bar&lt;/code&gt;, use &lt;code&gt;colors.footer_bar&lt;/code&gt; instead&lt;/li&gt;&#xA;&lt;li&gt;On macOS, Alacritty now reads &lt;code&gt;AppleFontSmoothing&lt;/code&gt; from user defaults to control font smoothing&lt;/li&gt;&#xA;&lt;li&gt;Warn when either &lt;code&gt;columns&lt;/code&gt; or &lt;code&gt;lines&lt;/code&gt; is non-zero, but not both&lt;/li&gt;&#xA;&lt;li&gt;Client side decorations should have proper text rendering now on Wayland&lt;/li&gt;&#xA;&lt;li&gt;Config option &lt;code&gt;window.gtk_theme_variant&lt;/code&gt;, you should use &lt;code&gt;window.decorations_theme_variant&lt;/code&gt; instead&lt;/li&gt;&#xA;&lt;li&gt;&lt;code&gt;--class&lt;/code&gt; now sets both class part of WM_CLASS property and instance&lt;/li&gt;&#xA;&lt;li&gt;&lt;code&gt;--class&lt;/code&gt;&#39;s &lt;code&gt;general&lt;/code&gt; and &lt;code&gt;instance&lt;/code&gt; options were swapped&lt;/li&gt;&#xA;&lt;li&gt;Search bar is now respecting cursor thickness&lt;/li&gt;&#xA;&lt;li&gt;On X11 the IME popup window is stuck at the bottom of the window due to Xlib limitations&lt;/li&gt;&#xA;&lt;li&gt;IME no longer works in Vi mode when moving around&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3&gt;Fixed&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Creating the IPC socket failing if &lt;code&gt;WAYLAND_DISPLAY&lt;/code&gt; contains an absolute path&lt;/li&gt;&#xA;&lt;li&gt;Crash when resetting the terminal while in vi mode&lt;/li&gt;&#xA;&lt;li&gt;&lt;code&gt;font.glyph_offset&lt;/code&gt; not live reloading&lt;/li&gt;&#xA;&lt;li&gt;Failure when running on 10-bit color system&lt;/li&gt;&#xA;&lt;li&gt;The colors being slightly different when using srgb displays on macOS&lt;/li&gt;&#xA;&lt;li&gt;Vi cursor blinking not reset when navigating in search&lt;/li&gt;&#xA;&lt;li&gt;Scrolling and middle-clicking modifying the primary selection&lt;/li&gt;&#xA;&lt;li&gt;Bottom gap for certain builtin box drawing characters&lt;/li&gt;&#xA;&lt;li&gt;Incorrect built-in glyphs for &lt;code&gt;U+2567&lt;/code&gt; and &lt;code&gt;U+2568&lt;/code&gt;&lt;/li&gt;&#xA;&lt;li&gt;Character mappings in the DEC special graphics character set (line drawing)&lt;/li&gt;&#xA;&lt;li&gt;Window flickering on resize on Wayland&lt;/li&gt;&#xA;&lt;li&gt;Unnecessary config reload when using &lt;code&gt;/dev/null&lt;/code&gt; as a config file&lt;/li&gt;&#xA;&lt;li&gt;Windows &lt;code&gt;Open Alacritty Here&lt;/code&gt; on root of drive displaying error&lt;/li&gt;&#xA;&lt;li&gt;On macOS, &lt;code&gt;font.use_thin_strokes&lt;/code&gt; did not work since Big Sur&lt;/li&gt;&#xA;&lt;li&gt;On macOS, trying to load a disabled font would crash&lt;/li&gt;&#xA;&lt;li&gt;On macOS, Alacritty sessions did not appear in the list of tty sessions for &lt;code&gt;w&lt;/code&gt; and &lt;code&gt;who&lt;/code&gt;&lt;/li&gt;&#xA;&lt;li&gt;Cursor not hiding on GNOME Wayland&lt;/li&gt;&#xA;&lt;li&gt;Font having different scale factor after monitor powering off/on on X11&lt;/li&gt;&#xA;&lt;li&gt;Viewport not updating after opening a new tabbed window on macOS&lt;/li&gt;&#xA;&lt;li&gt;Terminal not exiting sometimes after closing all windows on macOS&lt;/li&gt;&#xA;&lt;li&gt;CPU usage spikes due to mouse movements for unfocused windows on X11/Windows&lt;/li&gt;&#xA;&lt;li&gt;First window on macOS not tabbed with system prefer tabs setting&lt;/li&gt;&#xA;&lt;li&gt;Window being treaten as focused by default on Wayland&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3&gt;Removed&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;code&gt;font.use_thin_strokes&lt;/code&gt; config field; to use thin strokes on macOS, set&lt;br&gt;&#xA;&lt;code&gt;AppleFontSmoothing&lt;/code&gt; to 0 with &lt;code&gt;$ defaults write -g AppleFontSmoothing -int 0&lt;/code&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/alacritty/alacritty/releases/tag/v0.11.0-rc1" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>github-actions[bot]</name>
-    </author>
-  </entry>
-  <entry>
     <title>Release notes from go-oidc - v3.3.0</title>
     <updated>2022-09-01T03:56:56Z</updated>
     <id>tag:github.com,2008:Repository/38275789/v3.3.0</id>
@@ -6194,17 +6205,6 @@
     <summary type="html"></summary>
     <author>
       <name>github-actions[bot]</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from alacritty - Alacritty Version 0.10.1</title>
-    <updated>2022-02-20T22:50:46Z</updated>
-    <id>tag:github.com,2008:Repository/51980455/v0.10.1</id>
-    <content type="html">&lt;h3&gt;Added&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Option &lt;code&gt;font.builtin_box_drawing&lt;/code&gt; to disable the built-in font for drawing box characters&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3&gt;Changed&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Builtin font thickness is now based on cell width instead of underline thickness&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3&gt;Fixed&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;OSC 4 not handling &lt;code&gt;?&lt;/code&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;code&gt;?&lt;/code&gt; in OSC strings reporting default colors instead of modified ones&lt;/li&gt;&#xA;&lt;li&gt;OSC 104 not clearing colors when second parameter is empty&lt;/li&gt;&#xA;&lt;li&gt;Builtin font lines not contiguous when &lt;code&gt;font.offset&lt;/code&gt; is used&lt;/li&gt;&#xA;&lt;li&gt;&lt;code&gt;font.glyph_offset&lt;/code&gt; is no longer applied on builtin font&lt;/li&gt;&#xA;&lt;li&gt;Buili-in font arcs alignment&lt;/li&gt;&#xA;&lt;li&gt;Repeated permission prompts on M1 macs&lt;/li&gt;&#xA;&lt;li&gt;Colors being slightly off when using &lt;code&gt;colors.transparent_background_colors&lt;/code&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/alacritty/alacritty/releases/tag/v0.10.1" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>kchibisov</name>
     </author>
   </entry>
   <entry>
@@ -7803,22 +7803,22 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from backoff - v2.0.2: Merge pull request #18 from lestrrat-go/topic/fix-v2-go-mod</title>
+    <title>Release notes from backoff - v2.0.3: Merge pull request #18 from lestrrat-go/topic/fix-v2-go-mod</title>
     <updated>2021-01-06T03:00:05Z</updated>
-    <id>tag:github.com,2008:Repository/118608673/v2.0.2</id>
+    <id>tag:github.com,2008:Repository/118608673/v2.0.3</id>
     <content type="html">&lt;p&gt;Fix go.mod&lt;/p&gt;</content>
-    <link href="https://github.com/lestrrat-go/backoff/releases/tag/v2.0.2" rel="alternate"></link>
+    <link href="https://github.com/lestrrat-go/backoff/releases/tag/v2.0.3" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>lestrrat</name>
     </author>
   </entry>
   <entry>
-    <title>Release notes from backoff - v2.0.3: Merge pull request #18 from lestrrat-go/topic/fix-v2-go-mod</title>
+    <title>Release notes from backoff - v2.0.2: Merge pull request #18 from lestrrat-go/topic/fix-v2-go-mod</title>
     <updated>2021-01-06T03:00:05Z</updated>
-    <id>tag:github.com,2008:Repository/118608673/v2.0.3</id>
+    <id>tag:github.com,2008:Repository/118608673/v2.0.2</id>
     <content type="html">&lt;p&gt;Fix go.mod&lt;/p&gt;</content>
-    <link href="https://github.com/lestrrat-go/backoff/releases/tag/v2.0.3" rel="alternate"></link>
+    <link href="https://github.com/lestrrat-go/backoff/releases/tag/v2.0.2" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>lestrrat</name>
