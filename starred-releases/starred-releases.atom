@@ -1,8 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?><feed xmlns="http://www.w3.org/2005/Atom">
   <title>Releases from Starred by toga4</title>
   <id>https://toga4.github.io/feeds/starred-releases.atom</id>
-  <updated>2023-05-16T13:55:30Z</updated>
+  <updated>2023-05-16T17:47:39Z</updated>
   <link href="https://toga4.github.io/feeds/starred-releases.atom"></link>
+  <entry>
+    <title>Release notes from moby - v24.0.0</title>
+    <updated>2023-05-16T17:47:39Z</updated>
+    <id>tag:github.com,2008:Repository/7691631/v24.0.0</id>
+    <content type="html">&lt;h2&gt;24.0.0&lt;/h2&gt;&#xA;&lt;p&gt;For a full list of pull requests and changes in this release, refer to the relevant GitHub milestones:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/docker/cli/issues?q=is%3Aclosed+milestone%3A24.0.0&#34;&gt;docker/cli, 24.0.0 milestone&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/moby/moby/issues?q=is%3Aclosed+milestone%3A24.0.0&#34;&gt;moby/moby, 24.0.0 milestone&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3&gt;New&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Introduce experimental support for containerd as the content store (replacing the existing storage drivers). &lt;a href=&#34;https://github.com/moby/moby/pull/43735&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/moby/moby/pull/43735/hovercard&#34;&gt;moby/moby#43735&lt;/a&gt;, &lt;a href=&#34;https://github.com/moby/moby/pulls?q=is%3Apr+is%3Amerged+milestone%3A24.0.0+-label%3Aprocess%2Fcherry-picked+label%3Acontainerd-integration+&#34;&gt;other moby/moby pull requests&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;The &lt;code&gt;--host&lt;/code&gt; CLI flag now supports a path component in a &lt;code&gt;ssh://&lt;/code&gt; host address, allowing use of an alternate socket path without configuration on the remote host. &lt;a href=&#34;https://github.com/docker/cli/pull/4073&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/docker/cli/pull/4073/hovercard&#34;&gt;docker/cli#4073&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;The &lt;code&gt;docker info&lt;/code&gt; CLI command now reports a version and platform field. &lt;a href=&#34;https://github.com/docker/cli/pull/4180&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/docker/cli/pull/4180/hovercard&#34;&gt;docker/cli#4180&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Introduce the daemon flag &lt;code&gt;--default-network-opt&lt;/code&gt; to configure options for newly created networks. &lt;a href=&#34;https://github.com/moby/moby/pull/43197&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/moby/moby/pull/43197/hovercard&#34;&gt;moby/moby#43197&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Restrict access to &lt;code&gt;AF_VSOCK&lt;/code&gt; in the &lt;code&gt;socket(2)&lt;/code&gt; family of syscalls in the default seccomp profile. &lt;a href=&#34;https://github.com/moby/moby/pull/44562&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/moby/moby/pull/44562/hovercard&#34;&gt;moby/moby#44562&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Introduce support for setting OCI runtime annotations on containers. &lt;a href=&#34;https://github.com/docker/cli/pull/4156&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/docker/cli/pull/4156/hovercard&#34;&gt;docker/cli#45025&lt;/a&gt;, &lt;a href=&#34;https://github.com/moby/moby/pull/45025&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/moby/moby/pull/45025/hovercard&#34;&gt;moby/moby#45025&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Alternative runtimes can now be configured in &lt;code&gt;daemon.json&lt;/code&gt;, enabling runtime names to be aliased and options to be passed. &lt;a href=&#34;https://github.com/moby/moby/pull/45032&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/moby/moby/pull/45032/hovercard&#34;&gt;moby/moby#45032&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;The &lt;code&gt;docker-init&lt;/code&gt; binary will now be discovered in FHS-compliant libexec directories, in addition to the &lt;code&gt;PATH&lt;/code&gt;. &lt;a href=&#34;https://github.com/moby/moby/pull/45198&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/moby/moby/pull/45198/hovercard&#34;&gt;moby/moby#45198&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;API: Surface the daemon-level &lt;code&gt;--no-new-privileges&lt;/code&gt; in &lt;code&gt;GET /info&lt;/code&gt;. &lt;a href=&#34;https://github.com/moby/moby/pull/45320&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/moby/moby/pull/45320/hovercard&#34;&gt;moby/moby#45320&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3&gt;Removed&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;code&gt;docker info&lt;/code&gt; no longer reports &lt;code&gt;IndexServiceAddress&lt;/code&gt;. &lt;a href=&#34;https://github.com/docker/cli/pull/4204&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/docker/cli/pull/4204/hovercard&#34;&gt;docker/cli#4204&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;libnetwork: Remove fallback code for obsolete kernel versions. &lt;a href=&#34;https://github.com/moby/moby/pull/44684&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/moby/moby/pull/44684/hovercard&#34;&gt;moby/moby#44684&lt;/a&gt;, &lt;a href=&#34;https://github.com/moby/moby/pull/44802&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/moby/moby/pull/44802/hovercard&#34;&gt;moby/moby#44802&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;libnetwork: Remove unused code related to classic Swarm. &lt;a href=&#34;https://github.com/moby/moby/pull/44965&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/moby/moby/pull/44965/hovercard&#34;&gt;moby/moby#44965&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;libnetwork: Remove usage of the &lt;code&gt;xt_u32&lt;/code&gt; kernel module from encrypted Swarm overlay networks. &lt;a href=&#34;https://github.com/moby/moby/pull/45281&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/moby/moby/pull/45281/hovercard&#34;&gt;moby/moby#45281&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Remove support for buildkit&#39;s deprecated &lt;code&gt;buildinfo&lt;/code&gt; in favor of standard provenance attestations. &lt;a href=&#34;https://github.com/moby/moby/pull/45097&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/moby/moby/pull/45097/hovercard&#34;&gt;moby/moby#45097&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Remove the deprecated AUFS and legacy &lt;code&gt;overlay&lt;/code&gt; storage drivers. &lt;a href=&#34;https://github.com/moby/moby/pull/45342&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/moby/moby/pull/45342/hovercard&#34;&gt;moby/moby#45342&lt;/a&gt;, &lt;a href=&#34;https://github.com/moby/moby/pull/45359&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/moby/moby/pull/45359/hovercard&#34;&gt;moby/moby#&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Remove the deprecated &lt;code&gt;overlay2.override_kernel_check&lt;/code&gt; storage driver option. &lt;a href=&#34;https://github.com/moby/moby/pull/45368&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/moby/moby/pull/45368/hovercard&#34;&gt;moby/moby#45368&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Remove workarounds for obsolete versions of &lt;code&gt;apparmor_parser&lt;/code&gt; from the AppArmor profiles. &lt;a href=&#34;https://github.com/moby/moby/pull/45500&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/moby/moby/pull/45500/hovercard&#34;&gt;moby/moby#45500&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;API:  &lt;code&gt;GET /images/json&lt;/code&gt; no longer represents empty RepoTags and RepoDigests as&lt;code&gt;&amp;lt;none&amp;gt;:&amp;lt;none&amp;gt;&lt;/code&gt;/&lt;code&gt;&amp;lt;none&amp;gt;@&amp;lt;none&amp;gt;&lt;/code&gt;. Empty arrays are be returned instead on API &amp;gt;= 1.43. &lt;a href=&#34;https://github.com/moby/moby/pull/45068&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/moby/moby/pull/45068/hovercard&#34;&gt;moby/moby#45068&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3&gt;Deprecated&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Deprecate the &lt;code&gt;--oom-score-adjust&lt;/code&gt; daemon option. &lt;a href=&#34;https://github.com/moby/moby/pull/45315&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/moby/moby/pull/45315/hovercard&#34;&gt;moby/moby#45315&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;API: Deprecate the &lt;code&gt;VirtualSize&lt;/code&gt; field in &lt;code&gt;GET /images/json&lt;/code&gt; and &lt;code&gt;GET /images/{id}/json&lt;/code&gt;. &lt;a href=&#34;https://github.com/moby/moby/pull/45346&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/moby/moby/pull/45346/hovercard&#34;&gt;moby/moby#45346&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3&gt;Bug fixes and enhancements&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;The &lt;code&gt;docker stack&lt;/code&gt; command no longer validates the &lt;code&gt;build&lt;/code&gt; section of Compose files. &lt;a href=&#34;https://github.com/docker/cli/pull/4214&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/docker/cli/pull/4214/hovercard&#34;&gt;docker/cli#4214&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Fix lingering healthcheck processes after timeout is reached. &lt;a href=&#34;https://github.com/moby/moby/pull/43739&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/moby/moby/pull/43739/hovercard&#34;&gt;moby/moby#43739&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Reduce the overhead of container startup when using the &lt;code&gt;overlay2&lt;/code&gt; storage driver. &lt;a href=&#34;https://github.com/moby/moby/pull/44285&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/moby/moby/pull/44285/hovercard&#34;&gt;moby/moby#44285&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;API: Handle multiple &lt;code&gt;before=&lt;/code&gt; and &lt;code&gt;since=&lt;/code&gt; filters in &lt;code&gt;GET /images&lt;/code&gt;. &lt;a href=&#34;https://github.com/moby/moby/pull/44503&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/moby/moby/pull/44503/hovercard&#34;&gt;moby/moby#44503&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Fix numerous bugs in the embedded DNS resolver implementation used by user-defined networks. &lt;a href=&#34;https://github.com/moby/moby/pull/44664&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/moby/moby/pull/44664/hovercard&#34;&gt;moby/moby#44664&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Add &lt;code&gt;execDuration&lt;/code&gt; field to the map of event attributes. &lt;a href=&#34;https://github.com/moby/moby/pull/45494&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/moby/moby/pull/45494/hovercard&#34;&gt;moby/moby#45494&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Swarm-level networks can now be created with the Windows &lt;code&gt;internal&lt;/code&gt;, &lt;code&gt;l2bridge&lt;/code&gt;, and &lt;code&gt;nat&lt;/code&gt; drivers. &lt;a href=&#34;https://github.com/moby/swarmkit/pull/3121&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/moby/swarmkit/pull/3121/hovercard&#34;&gt;moby/swarmkit#3121&lt;/a&gt;, &lt;a href=&#34;https://github.com/moby/moby/pull/45291&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/moby/moby/pull/45291/hovercard&#34;&gt;moby/moby#45291&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3&gt;Packaging updates&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Update Go to &lt;code&gt;1.20.4&lt;/code&gt;. &lt;a href=&#34;https://github.com/docker/cli/pull/4253&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/docker/cli/pull/4253/hovercard&#34;&gt;docker/cli#4253&lt;/a&gt;, &lt;a href=&#34;https://github.com/moby/moby/pull/45456&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/moby/moby/pull/45456/hovercard&#34;&gt;moby/moby#45456&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Update &lt;code&gt;containerd&lt;/code&gt; to &lt;a href=&#34;https://github.com/containerd/containerd/releases/tag/v1.7.1&#34;&gt;&lt;code&gt;v1.7.1&lt;/code&gt;&lt;/a&gt;. &lt;a href=&#34;https://github.com/moby/moby/pull/45537&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/moby/moby/pull/45537/hovercard&#34;&gt;moby/moby#45537&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Update &lt;code&gt;buildkit&lt;/code&gt; to &lt;a href=&#34;https://github.com/moby/buildkit/releases/v0.11.6&#34;&gt;&lt;code&gt;v0.11.6&lt;/code&gt;&lt;/a&gt;. &lt;a href=&#34;https://github.com/moby/moby/pull/45367&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/moby/moby/pull/45367/hovercard&#34;&gt;moby/moby#45367&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/moby/moby/releases/tag/v24.0.0" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>vvoland</name>
+    </author>
+  </entry>
   <entry>
     <title>Release notes from compose - v2.18.0</title>
     <updated>2023-05-16T13:55:30Z</updated>
@@ -1324,11 +1335,44 @@
     </author>
   </entry>
   <entry>
+    <title>Release notes from opentelemetry-operations-go - exporter/collector/googlemanagedprometheus/v0.37.1: Prepare v0.37.1/1.13.1 release (#623)</title>
+    <updated>2023-04-12T14:56:07Z</updated>
+    <id>tag:github.com,2008:Repository/244484581/exporter/collector/googlemanagedprometheus/v0.37.1</id>
+    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Prepare release v0.37.1/1.13.1&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/exporter%2Fcollector%2Fgooglemanagedprometheus%2Fv0.37.1" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>damemi</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from opentelemetry-operations-go - example/metric/v0.37.1: Prepare v0.37.1/1.13.1 release (#623)</title>
+    <updated>2023-04-12T14:56:07Z</updated>
+    <id>tag:github.com,2008:Repository/244484581/example/metric/v0.37.1</id>
+    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Prepare release v0.37.1/1.13.1&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/example%2Fmetric%2Fv0.37.1" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>damemi</name>
+    </author>
+  </entry>
+  <entry>
     <title>Release notes from opentelemetry-operations-go - propagator/v0.37.1: Prepare v0.37.1/1.13.1 release (#623)</title>
     <updated>2023-04-12T14:56:07Z</updated>
     <id>tag:github.com,2008:Repository/244484581/propagator/v0.37.1</id>
     <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Prepare release v0.37.1/1.13.1&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
     <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/propagator%2Fv0.37.1" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>damemi</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from opentelemetry-operations-go - example/trace/http/v0.37.1: Prepare v0.37.1/1.13.1 release (#623)</title>
+    <updated>2023-04-12T14:56:07Z</updated>
+    <id>tag:github.com,2008:Repository/244484581/example/trace/http/v0.37.1</id>
+    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Prepare release v0.37.1/1.13.1&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/example%2Ftrace%2Fhttp%2Fv0.37.1" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>damemi</name>
@@ -1357,17 +1401,6 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from opentelemetry-operations-go - exporter/trace/v1.13.1: Prepare v0.37.1/1.13.1 release (#623)</title>
-    <updated>2023-04-12T14:56:07Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/exporter/trace/v1.13.1</id>
-    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Prepare release v0.37.1/1.13.1&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/exporter%2Ftrace%2Fv1.13.1" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>damemi</name>
-    </author>
-  </entry>
-  <entry>
     <title>Release notes from opentelemetry-operations-go - exporter/collector/v0.37.1: Prepare v0.37.1/1.13.1 release (#623)</title>
     <updated>2023-04-12T14:56:07Z</updated>
     <id>tag:github.com,2008:Repository/244484581/exporter/collector/v0.37.1</id>
@@ -1379,33 +1412,11 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from opentelemetry-operations-go - exporter/collector/googlemanagedprometheus/v0.37.1: Prepare v0.37.1/1.13.1 release (#623)</title>
+    <title>Release notes from opentelemetry-operations-go - exporter/trace/v1.13.1: Prepare v0.37.1/1.13.1 release (#623)</title>
     <updated>2023-04-12T14:56:07Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/exporter/collector/googlemanagedprometheus/v0.37.1</id>
+    <id>tag:github.com,2008:Repository/244484581/exporter/trace/v1.13.1</id>
     <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Prepare release v0.37.1/1.13.1&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/exporter%2Fcollector%2Fgooglemanagedprometheus%2Fv0.37.1" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>damemi</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from opentelemetry-operations-go - example/trace/http/v0.37.1: Prepare v0.37.1/1.13.1 release (#623)</title>
-    <updated>2023-04-12T14:56:07Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/example/trace/http/v0.37.1</id>
-    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Prepare release v0.37.1/1.13.1&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/example%2Ftrace%2Fhttp%2Fv0.37.1" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>damemi</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from opentelemetry-operations-go - example/metric/v0.37.1: Prepare v0.37.1/1.13.1 release (#623)</title>
-    <updated>2023-04-12T14:56:07Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/example/metric/v0.37.1</id>
-    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Prepare release v0.37.1/1.13.1&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/example%2Fmetric%2Fv0.37.1" rel="alternate"></link>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/exporter%2Ftrace%2Fv1.13.1" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>damemi</name>
@@ -1563,17 +1574,6 @@
     <summary type="html"></summary>
     <author>
       <name>github-actions[bot]</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from moby - v23.0.3</title>
-    <updated>2023-04-05T00:25:10Z</updated>
-    <id>tag:github.com,2008:Repository/7691631/v23.0.3</id>
-    <content type="html">&lt;h2&gt;23.0.3&lt;/h2&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;span class=&#34;color-fg-accent&#34;&gt;&lt;svg class=&#34;octicon octicon-info mr-2&#34; viewBox=&#34;0 0 16 16&#34; version=&#34;1.1&#34; width=&#34;16&#34; height=&#34;16&#34; aria-hidden=&#34;true&#34;&gt;&lt;path d=&#34;M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8Zm8-6.5a6.5 6.5 0 1 0 0 13 6.5 6.5 0 0 0 0-13ZM6.5 7.75A.75.75 0 0 1 7.25 7h1a.75.75 0 0 1 .75.75v2.75h.25a.75.75 0 0 1 0 1.5h-2a.75.75 0 0 1 0-1.5h.25v-2h-.25a.75.75 0 0 1-.75-.75ZM8 6a1 1 0 1 1 0-2 1 1 0 0 1 0 2Z&#34;&gt;&lt;/path&gt;&lt;/svg&gt;Note&lt;/span&gt;&lt;/p&gt;&#xA;&lt;p&gt;Due to an issue with CentOS 9 Stream&#39;s package repositories, packages for&lt;br&gt;&#xA;CentOS 9 are currently unavailable. Packages for CentOS 9 may be added later,&lt;br&gt;&#xA;or as part of the next (23.0.4) patch release.&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;h3&gt;Bug fixes and enhancements&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Fixed a number of issues that can cause Swarm encrypted overlay networks&lt;br&gt;&#xA;to fail to uphold their guarantees, addressing &lt;a href=&#34;https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-28841&#34; rel=&#34;nofollow&#34;&gt;CVE-2023-28841&lt;/a&gt;,&lt;br&gt;&#xA;&lt;a href=&#34;https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-28840&#34; rel=&#34;nofollow&#34;&gt;CVE-2023-28840&lt;/a&gt;, and&lt;br&gt;&#xA;&lt;a href=&#34;https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-28842&#34; rel=&#34;nofollow&#34;&gt;CVE-2023-28842&lt;/a&gt;.&#xA;&lt;ul&gt;&#xA;&lt;li&gt;A lack of kernel support for encrypted overlay networks now reports&lt;br&gt;&#xA;as an error.&lt;/li&gt;&#xA;&lt;li&gt;Encrypted overlay networks are eagerly set up, rather than waiting for&lt;br&gt;&#xA;multiple nodes to attach.&lt;/li&gt;&#xA;&lt;li&gt;Encrypted overlay networks are now usable on Red Hat Enterprise Linux 9&lt;br&gt;&#xA;through the use of the &lt;code&gt;xt_bpf&lt;/code&gt; kernel module.&lt;/li&gt;&#xA;&lt;li&gt;Users of Swarm overlay networks should review &lt;a href=&#34;https://github.com/moby/moby/security/advisories/GHSA-vwm3-crmr-xfxw&#34;&gt;GHSA-vwm3-crmr-xfxw&lt;/a&gt;&lt;br&gt;&#xA;to ensure that unintentional exposure has not occurred.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3&gt;Packaging Updates&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Update containerd to &lt;a href=&#34;https://github.com/containerd/containerd/releases/tag/v1.6.20&#34;&gt;v1.6.20&lt;/a&gt;.&lt;/li&gt;&#xA;&lt;li&gt;Update runc to &lt;a href=&#34;https://github.com/opencontainers/runc/releases/tag/v1.1.5&#34;&gt;v1.1.5&lt;/a&gt;.&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/moby/moby/releases/tag/v23.0.3" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>thaJeztah</name>
     </author>
   </entry>
   <entry>
@@ -7803,22 +7803,22 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from backoff - v2.0.2: Merge pull request #18 from lestrrat-go/topic/fix-v2-go-mod</title>
+    <title>Release notes from backoff - v2.0.3: Merge pull request #18 from lestrrat-go/topic/fix-v2-go-mod</title>
     <updated>2021-01-06T03:00:05Z</updated>
-    <id>tag:github.com,2008:Repository/118608673/v2.0.2</id>
+    <id>tag:github.com,2008:Repository/118608673/v2.0.3</id>
     <content type="html">&lt;p&gt;Fix go.mod&lt;/p&gt;</content>
-    <link href="https://github.com/lestrrat-go/backoff/releases/tag/v2.0.2" rel="alternate"></link>
+    <link href="https://github.com/lestrrat-go/backoff/releases/tag/v2.0.3" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>lestrrat</name>
     </author>
   </entry>
   <entry>
-    <title>Release notes from backoff - v2.0.3: Merge pull request #18 from lestrrat-go/topic/fix-v2-go-mod</title>
+    <title>Release notes from backoff - v2.0.2: Merge pull request #18 from lestrrat-go/topic/fix-v2-go-mod</title>
     <updated>2021-01-06T03:00:05Z</updated>
-    <id>tag:github.com,2008:Repository/118608673/v2.0.3</id>
+    <id>tag:github.com,2008:Repository/118608673/v2.0.2</id>
     <content type="html">&lt;p&gt;Fix go.mod&lt;/p&gt;</content>
-    <link href="https://github.com/lestrrat-go/backoff/releases/tag/v2.0.3" rel="alternate"></link>
+    <link href="https://github.com/lestrrat-go/backoff/releases/tag/v2.0.2" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>lestrrat</name>
