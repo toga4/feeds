@@ -1,17 +1,50 @@
 <?xml version="1.0" encoding="UTF-8"?><feed xmlns="http://www.w3.org/2005/Atom">
   <title>Releases from Starred by toga4</title>
   <id>https://toga4.github.io/feeds/starred-releases.atom</id>
-  <updated>2023-05-17T21:00:40Z</updated>
+  <updated>2023-05-17T21:38:27Z</updated>
   <link href="https://toga4.github.io/feeds/starred-releases.atom"></link>
   <entry>
-    <title>Release notes from datadog-agent - 7.43.0-dbm-beta-psycopg2-0.2</title>
-    <updated>2023-05-17T21:00:40Z</updated>
-    <id>tag:github.com,2008:Repository/49970739/7.43.0-dbm-beta-psycopg2-0.2</id>
-    <content type="html">&lt;p&gt;pin integrations core to updated psycopg2 version &amp;amp;&amp;amp; require py 3.8&lt;/p&gt;</content>
-    <link href="https://github.com/DataDog/datadog-agent/releases/tag/7.43.0-dbm-beta-psycopg2-0.2" rel="alternate"></link>
+    <title>Release notes from buf - v1.19.0</title>
+    <updated>2023-05-17T21:38:27Z</updated>
+    <id>tag:github.com,2008:Repository/212465715/v1.19.0</id>
+    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;Add &lt;code&gt;--create&lt;/code&gt; flag to &lt;code&gt;buf push&lt;/code&gt; to create a repository if it does not exist. The user&lt;br&gt;&#xA;is also required to specify the visibility using &lt;code&gt;--create-visibility&lt;/code&gt;.&lt;/li&gt;&#xA;&lt;li&gt;Add &lt;code&gt;github-actions&lt;/code&gt; error format to print errors in a form parseable by GitHub Actions.&lt;/li&gt;&#xA;&lt;li&gt;Fix issue in &lt;code&gt;buf build&lt;/code&gt; and &lt;code&gt;buf generate&lt;/code&gt; where the use of type filtering (via&lt;br&gt;&#xA;&lt;code&gt;--type&lt;/code&gt; flags) would cause the resulting image to have no source code info, even&lt;br&gt;&#xA;when &lt;code&gt;--exclude-source-info&lt;/code&gt; was not specified. The main impact of the bug was that&lt;br&gt;&#xA;generated code would be missing comments.&lt;/li&gt;&#xA;&lt;li&gt;Fix issue in &lt;code&gt;buf curl&lt;/code&gt; when using &lt;code&gt;--user&lt;/code&gt; or &lt;code&gt;--netrc&lt;/code&gt; that would cause a malformed&lt;br&gt;&#xA;Authorization header to be sent.&lt;/li&gt;&#xA;&lt;li&gt;Update the module cache to use an optimized content addressable store. The cache is&lt;br&gt;&#xA;now self-healing and uses significantly less space. Users wishing to free unused space&lt;br&gt;&#xA;can run &lt;code&gt;buf mod --clear-cache&lt;/code&gt; once after upgrading to remove data stored in the&lt;br&gt;&#xA;previous module cache.&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/bufbuild/buf/releases/tag/v1.19.0" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
-      <name>jmeunier28</name>
+      <name>buf-release-bot[bot]</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from skaffold - v2.3.2 Release</title>
+    <updated>2023-05-17T21:17:33Z</updated>
+    <id>tag:github.com,2008:Repository/118654121/v2.3.2</id>
+    <content type="html">&lt;h1&gt;v2.3.2 Release - 5/17/2023&lt;/h1&gt;&#xA;&lt;p&gt;&lt;strong&gt;Linux amd64&lt;/strong&gt;&lt;br&gt;&#xA;&lt;code&gt;curl -Lo skaffold https://storage.googleapis.com/skaffold/releases/v2.3.2/skaffold-linux-amd64 &amp;amp;&amp;amp; chmod +x skaffold &amp;amp;&amp;amp; sudo mv skaffold /usr/local/bin&lt;/code&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Linux arm64&lt;/strong&gt;&lt;br&gt;&#xA;&lt;code&gt;curl -Lo skaffold https://storage.googleapis.com/skaffold/releases/v2.3.2/skaffold-linux-arm64 &amp;amp;&amp;amp; chmod +x skaffold &amp;amp;&amp;amp; sudo mv skaffold /usr/local/bin&lt;/code&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;macOS amd64&lt;/strong&gt;&lt;br&gt;&#xA;&lt;code&gt;curl -Lo skaffold https://storage.googleapis.com/skaffold/releases/v2.3.2/skaffold-darwin-amd64 &amp;amp;&amp;amp; chmod +x skaffold &amp;amp;&amp;amp; sudo mv skaffold /usr/local/bin&lt;/code&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;macOS arm64&lt;/strong&gt;&lt;br&gt;&#xA;&lt;code&gt;curl -Lo skaffold https://storage.googleapis.com/skaffold/releases/v2.3.2/skaffold-darwin-arm64 &amp;amp;&amp;amp; chmod +x skaffold &amp;amp;&amp;amp; sudo mv skaffold /usr/local/bin&lt;/code&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Windows&lt;/strong&gt;&lt;br&gt;&#xA;&lt;a href=&#34;https://storage.googleapis.com/skaffold/releases/v2.3.2/skaffold-windows-amd64.exe&#34; rel=&#34;nofollow&#34;&gt;https://storage.googleapis.com/skaffold/releases/v2.3.2/skaffold-windows-amd64.exe&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Docker image&lt;/strong&gt;&lt;br&gt;&#xA;&lt;code&gt;gcr.io/k8s-skaffold/skaffold:v2.3.2&lt;/code&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: &lt;a class=&#34;commit-link&#34; href=&#34;https://github.com/GoogleContainerTools/skaffold/compare/v2.3.1...v2.3.2&#34;&gt;&lt;tt&gt;v2.3.1...v2.3.2&lt;/tt&gt;&lt;/a&gt;&lt;/p&gt;</content>
+    <link href="https://github.com/GoogleContainerTools/skaffold/releases/tag/v2.3.2" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>aaron-prindle</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from skaffold - v2.0.11 Release</title>
+    <updated>2023-05-17T21:14:38Z</updated>
+    <id>tag:github.com,2008:Repository/118654121/v2.0.11</id>
+    <content type="html">&lt;h1&gt;v2.0.11 Release - 5/17/2023&lt;/h1&gt;&#xA;&lt;p&gt;&lt;strong&gt;Linux amd64&lt;/strong&gt;&lt;br&gt;&#xA;&lt;code&gt;curl -Lo skaffold https://storage.googleapis.com/skaffold/releases/v2.0.11/skaffold-linux-amd64 &amp;amp;&amp;amp; chmod +x skaffold &amp;amp;&amp;amp; sudo mv skaffold /usr/local/bin&lt;/code&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Linux arm64&lt;/strong&gt;&lt;br&gt;&#xA;&lt;code&gt;curl -Lo skaffold https://storage.googleapis.com/skaffold/releases/v2.0.11/skaffold-linux-arm64 &amp;amp;&amp;amp; chmod +x skaffold &amp;amp;&amp;amp; sudo mv skaffold /usr/local/bin&lt;/code&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;macOS amd64&lt;/strong&gt;&lt;br&gt;&#xA;&lt;code&gt;curl -Lo skaffold https://storage.googleapis.com/skaffold/releases/v2.0.11/skaffold-darwin-amd64 &amp;amp;&amp;amp; chmod +x skaffold &amp;amp;&amp;amp; sudo mv skaffold /usr/local/bin&lt;/code&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;macOS arm64&lt;/strong&gt;&lt;br&gt;&#xA;&lt;code&gt;curl -Lo skaffold https://storage.googleapis.com/skaffold/releases/v2.0.11/skaffold-darwin-arm64 &amp;amp;&amp;amp; chmod +x skaffold &amp;amp;&amp;amp; sudo mv skaffold /usr/local/bin&lt;/code&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Windows&lt;/strong&gt;&lt;br&gt;&#xA;&lt;a href=&#34;https://storage.googleapis.com/skaffold/releases/v2.0.11/skaffold-windows-amd64.exe&#34; rel=&#34;nofollow&#34;&gt;https://storage.googleapis.com/skaffold/releases/v2.0.11/skaffold-windows-amd64.exe&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Docker image&lt;/strong&gt;&lt;br&gt;&#xA;&lt;code&gt;gcr.io/k8s-skaffold/skaffold:v2.0.11&lt;/code&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: &lt;a class=&#34;commit-link&#34; href=&#34;https://github.com/GoogleContainerTools/skaffold/compare/v2.0.10...v2.0.11&#34;&gt;&lt;tt&gt;v2.0.10...v2.0.11&lt;/tt&gt;&lt;/a&gt;&lt;/p&gt;</content>
+    <link href="https://github.com/GoogleContainerTools/skaffold/releases/tag/v2.0.11" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>aaron-prindle</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from skaffold - v1.39.10 Release</title>
+    <updated>2023-05-17T21:13:06Z</updated>
+    <id>tag:github.com,2008:Repository/118654121/v1.39.10</id>
+    <content type="html">&lt;h1&gt;v1.39.10 Release - 5/17/2023&lt;/h1&gt;&#xA;&lt;p&gt;&lt;strong&gt;Linux amd64&lt;/strong&gt;&lt;br&gt;&#xA;&lt;code&gt;curl -Lo skaffold https://storage.googleapis.com/skaffold/releases/v1.39.10/skaffold-linux-amd64 &amp;amp;&amp;amp; chmod +x skaffold &amp;amp;&amp;amp; sudo mv skaffold /usr/local/bin&lt;/code&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Linux arm64&lt;/strong&gt;&lt;br&gt;&#xA;&lt;code&gt;curl -Lo skaffold https://storage.googleapis.com/skaffold/releases/v1.39.10/skaffold-linux-arm64 &amp;amp;&amp;amp; chmod +x skaffold &amp;amp;&amp;amp; sudo mv skaffold /usr/local/bin&lt;/code&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;macOS amd64&lt;/strong&gt;&lt;br&gt;&#xA;&lt;code&gt;curl -Lo skaffold https://storage.googleapis.com/skaffold/releases/v1.39.10/skaffold-darwin-amd64 &amp;amp;&amp;amp; chmod +x skaffold &amp;amp;&amp;amp; sudo mv skaffold /usr/local/bin&lt;/code&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;macOS arm64&lt;/strong&gt;&lt;br&gt;&#xA;&lt;code&gt;curl -Lo skaffold https://storage.googleapis.com/skaffold/releases/v1.39.10/skaffold-darwin-arm64 &amp;amp;&amp;amp; chmod +x skaffold &amp;amp;&amp;amp; sudo mv skaffold /usr/local/bin&lt;/code&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Windows&lt;/strong&gt;&lt;br&gt;&#xA;&lt;a href=&#34;https://storage.googleapis.com/skaffold/releases/v1.39.10/skaffold-windows-amd64.exe&#34; rel=&#34;nofollow&#34;&gt;https://storage.googleapis.com/skaffold/releases/v1.39.10/skaffold-windows-amd64.exe&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Docker image&lt;/strong&gt;&lt;br&gt;&#xA;&lt;code&gt;gcr.io/k8s-skaffold/skaffold:v1.39.10&lt;/code&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: &lt;a class=&#34;commit-link&#34; href=&#34;https://github.com/GoogleContainerTools/skaffold/compare/v1.39.9...v1.39.10&#34;&gt;&lt;tt&gt;v1.39.9...v1.39.10&lt;/tt&gt;&lt;/a&gt;&lt;/p&gt;</content>
+    <link href="https://github.com/GoogleContainerTools/skaffold/releases/tag/v1.39.10" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>aaron-prindle</name>
     </author>
   </entry>
   <entry>
@@ -20,6 +53,17 @@
     <id>tag:github.com,2008:Repository/49970739/6.43.0-dbm-beta-psycopg2-0.2</id>
     <content type="html">&lt;p&gt;pin integrations core to updated psycopg2 version &amp;amp;&amp;amp; require py 3.8&lt;/p&gt;</content>
     <link href="https://github.com/DataDog/datadog-agent/releases/tag/6.43.0-dbm-beta-psycopg2-0.2" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>jmeunier28</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from datadog-agent - 7.43.0-dbm-beta-psycopg2-0.2</title>
+    <updated>2023-05-17T21:00:40Z</updated>
+    <id>tag:github.com,2008:Repository/49970739/7.43.0-dbm-beta-psycopg2-0.2</id>
+    <content type="html">&lt;p&gt;pin integrations core to updated psycopg2 version &amp;amp;&amp;amp; require py 3.8&lt;/p&gt;</content>
+    <link href="https://github.com/DataDog/datadog-agent/releases/tag/7.43.0-dbm-beta-psycopg2-0.2" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>jmeunier28</name>
@@ -147,22 +191,22 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from datadog-agent - 6.43.0-dbm-beta-psycopg2-0.1</title>
+    <title>Release notes from datadog-agent - 7.43.0-dbm-beta-psycopg2-0.1</title>
     <updated>2023-05-17T17:04:55Z</updated>
-    <id>tag:github.com,2008:Repository/49970739/6.43.0-dbm-beta-psycopg2-0.1</id>
+    <id>tag:github.com,2008:Repository/49970739/7.43.0-dbm-beta-psycopg2-0.1</id>
     <content type="html">&lt;p&gt;pin integrations core to updated psycopg2 version&lt;/p&gt;</content>
-    <link href="https://github.com/DataDog/datadog-agent/releases/tag/6.43.0-dbm-beta-psycopg2-0.1" rel="alternate"></link>
+    <link href="https://github.com/DataDog/datadog-agent/releases/tag/7.43.0-dbm-beta-psycopg2-0.1" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>jmeunier28</name>
     </author>
   </entry>
   <entry>
-    <title>Release notes from datadog-agent - 7.43.0-dbm-beta-psycopg2-0.1</title>
+    <title>Release notes from datadog-agent - 6.43.0-dbm-beta-psycopg2-0.1</title>
     <updated>2023-05-17T17:04:55Z</updated>
-    <id>tag:github.com,2008:Repository/49970739/7.43.0-dbm-beta-psycopg2-0.1</id>
+    <id>tag:github.com,2008:Repository/49970739/6.43.0-dbm-beta-psycopg2-0.1</id>
     <content type="html">&lt;p&gt;pin integrations core to updated psycopg2 version&lt;/p&gt;</content>
-    <link href="https://github.com/DataDog/datadog-agent/releases/tag/7.43.0-dbm-beta-psycopg2-0.1" rel="alternate"></link>
+    <link href="https://github.com/DataDog/datadog-agent/releases/tag/6.43.0-dbm-beta-psycopg2-0.1" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>jmeunier28</name>
@@ -188,39 +232,6 @@
     <summary type="html"></summary>
     <author>
       <name>nenadnoveljic</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from skaffold - v1.39.10</title>
-    <updated>2023-05-17T02:20:39Z</updated>
-    <id>tag:github.com,2008:Repository/118654121/v1.39.10</id>
-    <content type="html">&lt;p&gt;v1.39.10 Release&lt;/p&gt;</content>
-    <link href="https://github.com/GoogleContainerTools/skaffold/releases/tag/v1.39.10" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>aaron-prindle</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from skaffold - v2.0.11</title>
-    <updated>2023-05-17T02:19:38Z</updated>
-    <id>tag:github.com,2008:Repository/118654121/v2.0.11</id>
-    <content type="html">&lt;p&gt;v2.0.11 Release&lt;/p&gt;</content>
-    <link href="https://github.com/GoogleContainerTools/skaffold/releases/tag/v2.0.11" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>aaron-prindle</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from skaffold - v2.3.2</title>
-    <updated>2023-05-16T22:06:31Z</updated>
-    <id>tag:github.com,2008:Repository/118654121/v2.3.2</id>
-    <content type="html">&lt;p&gt;v2.3.2 Release&lt;/p&gt;</content>
-    <link href="https://github.com/GoogleContainerTools/skaffold/releases/tag/v2.3.2" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>aaron-prindle</name>
     </author>
   </entry>
   <entry>
@@ -1346,44 +1357,11 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from opentelemetry-operations-go - example/metric/v0.37.1: Prepare v0.37.1/1.13.1 release (#623)</title>
+    <title>Release notes from opentelemetry-operations-go - example/trace/http/v0.37.1: Prepare v0.37.1/1.13.1 release (#623)</title>
     <updated>2023-04-12T14:56:07Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/example/metric/v0.37.1</id>
+    <id>tag:github.com,2008:Repository/244484581/example/trace/http/v0.37.1</id>
     <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Prepare release v0.37.1/1.13.1&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/example%2Fmetric%2Fv0.37.1" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>damemi</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from opentelemetry-operations-go - propagator/v0.37.1: Prepare v0.37.1/1.13.1 release (#623)</title>
-    <updated>2023-04-12T14:56:07Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/propagator/v0.37.1</id>
-    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Prepare release v0.37.1/1.13.1&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/propagator%2Fv0.37.1" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>damemi</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from opentelemetry-operations-go - internal/resourcemapping/v0.37.1: Prepare v0.37.1/1.13.1 release (#623)</title>
-    <updated>2023-04-12T14:56:07Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/internal/resourcemapping/v0.37.1</id>
-    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Prepare release v0.37.1/1.13.1&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/internal%2Fresourcemapping%2Fv0.37.1" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>damemi</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from opentelemetry-operations-go - internal/cloudmock/v0.37.1: Prepare v0.37.1/1.13.1 release (#623)</title>
-    <updated>2023-04-12T14:56:07Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/internal/cloudmock/v0.37.1</id>
-    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Prepare release v0.37.1/1.13.1&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/internal%2Fcloudmock%2Fv0.37.1" rel="alternate"></link>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/example%2Ftrace%2Fhttp%2Fv0.37.1" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>damemi</name>
@@ -1412,11 +1390,33 @@
     </author>
   </entry>
   <entry>
+    <title>Release notes from opentelemetry-operations-go - internal/cloudmock/v0.37.1: Prepare v0.37.1/1.13.1 release (#623)</title>
+    <updated>2023-04-12T14:56:07Z</updated>
+    <id>tag:github.com,2008:Repository/244484581/internal/cloudmock/v0.37.1</id>
+    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Prepare release v0.37.1/1.13.1&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/internal%2Fcloudmock%2Fv0.37.1" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>damemi</name>
+    </author>
+  </entry>
+  <entry>
     <title>Release notes from opentelemetry-operations-go - exporter/collector/v0.37.1: Prepare v0.37.1/1.13.1 release (#623)</title>
     <updated>2023-04-12T14:56:07Z</updated>
     <id>tag:github.com,2008:Repository/244484581/exporter/collector/v0.37.1</id>
     <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Prepare release v0.37.1/1.13.1&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
     <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/exporter%2Fcollector%2Fv0.37.1" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>damemi</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from opentelemetry-operations-go - propagator/v0.37.1: Prepare v0.37.1/1.13.1 release (#623)</title>
+    <updated>2023-04-12T14:56:07Z</updated>
+    <id>tag:github.com,2008:Repository/244484581/propagator/v0.37.1</id>
+    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Prepare release v0.37.1/1.13.1&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/propagator%2Fv0.37.1" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>damemi</name>
@@ -1434,11 +1434,22 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from opentelemetry-operations-go - example/trace/http/v0.37.1: Prepare v0.37.1/1.13.1 release (#623)</title>
+    <title>Release notes from opentelemetry-operations-go - internal/resourcemapping/v0.37.1: Prepare v0.37.1/1.13.1 release (#623)</title>
     <updated>2023-04-12T14:56:07Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/example/trace/http/v0.37.1</id>
+    <id>tag:github.com,2008:Repository/244484581/internal/resourcemapping/v0.37.1</id>
     <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Prepare release v0.37.1/1.13.1&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/example%2Ftrace%2Fhttp%2Fv0.37.1" rel="alternate"></link>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/internal%2Fresourcemapping%2Fv0.37.1" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>damemi</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from opentelemetry-operations-go - example/metric/v0.37.1: Prepare v0.37.1/1.13.1 release (#623)</title>
+    <updated>2023-04-12T14:56:07Z</updated>
+    <id>tag:github.com,2008:Repository/244484581/example/metric/v0.37.1</id>
+    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Prepare release v0.37.1/1.13.1&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/example%2Fmetric%2Fv0.37.1" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>damemi</name>
@@ -3928,17 +3939,6 @@
     <summary type="html"></summary>
     <author>
       <name>kazegusuri</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from buf - v1.11.0</title>
-    <updated>2022-12-19T18:25:14Z</updated>
-    <id>tag:github.com,2008:Repository/212465715/v1.11.0</id>
-    <content type="html">&lt;h2&gt;What&#39;s Changed&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;code&gt;buf generate&lt;/code&gt; now batches remote plugin generation calls for improved performance.&lt;/li&gt;&#xA;&lt;li&gt;Update &lt;code&gt;optimize_for&lt;/code&gt; option in managed mode, allowing a &lt;code&gt;default&lt;/code&gt; value for &lt;code&gt;optimize_for&lt;/code&gt;&lt;br&gt;&#xA;for all files, &lt;code&gt;except&lt;/code&gt; and &lt;code&gt;override&lt;/code&gt;, which both behave similarly to other &lt;code&gt;except&lt;/code&gt;&lt;br&gt;&#xA;and &lt;code&gt;override&lt;/code&gt; options. Specifying an &lt;code&gt;optimize_for&lt;/code&gt; value in the earlier versions is&lt;br&gt;&#xA;equivalent to having a &lt;code&gt;optimize_for&lt;/code&gt; with that value as default.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: &lt;a class=&#34;commit-link&#34; href=&#34;https://github.com/bufbuild/buf/compare/v1.10.0...v1.11.0&#34;&gt;&lt;tt&gt;v1.10.0...v1.11.0&lt;/tt&gt;&lt;/a&gt;&lt;/p&gt;</content>
-    <link href="https://github.com/bufbuild/buf/releases/tag/v1.11.0" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>buf-release-bot[bot]</name>
     </author>
   </entry>
   <entry>
@@ -7814,22 +7814,22 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from backoff - v2.0.2: Merge pull request #18 from lestrrat-go/topic/fix-v2-go-mod</title>
+    <title>Release notes from backoff - v2.0.3: Merge pull request #18 from lestrrat-go/topic/fix-v2-go-mod</title>
     <updated>2021-01-06T03:00:05Z</updated>
-    <id>tag:github.com,2008:Repository/118608673/v2.0.2</id>
+    <id>tag:github.com,2008:Repository/118608673/v2.0.3</id>
     <content type="html">&lt;p&gt;Fix go.mod&lt;/p&gt;</content>
-    <link href="https://github.com/lestrrat-go/backoff/releases/tag/v2.0.2" rel="alternate"></link>
+    <link href="https://github.com/lestrrat-go/backoff/releases/tag/v2.0.3" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>lestrrat</name>
     </author>
   </entry>
   <entry>
-    <title>Release notes from backoff - v2.0.3: Merge pull request #18 from lestrrat-go/topic/fix-v2-go-mod</title>
+    <title>Release notes from backoff - v2.0.2: Merge pull request #18 from lestrrat-go/topic/fix-v2-go-mod</title>
     <updated>2021-01-06T03:00:05Z</updated>
-    <id>tag:github.com,2008:Repository/118608673/v2.0.3</id>
+    <id>tag:github.com,2008:Repository/118608673/v2.0.2</id>
     <content type="html">&lt;p&gt;Fix go.mod&lt;/p&gt;</content>
-    <link href="https://github.com/lestrrat-go/backoff/releases/tag/v2.0.3" rel="alternate"></link>
+    <link href="https://github.com/lestrrat-go/backoff/releases/tag/v2.0.2" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>lestrrat</name>
