@@ -1,8 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?><feed xmlns="http://www.w3.org/2005/Atom">
   <title>Releases from Starred by toga4</title>
   <id>https://toga4.github.io/feeds/starred-releases.atom</id>
-  <updated>2023-05-17T07:51:07Z</updated>
+  <updated>2023-05-17T17:04:55Z</updated>
   <link href="https://toga4.github.io/feeds/starred-releases.atom"></link>
+  <entry>
+    <title>Release notes from datadog-agent - 6.43.0-dbm-beta-psycopg2-0.1</title>
+    <updated>2023-05-17T17:04:55Z</updated>
+    <id>tag:github.com,2008:Repository/49970739/6.43.0-dbm-beta-psycopg2-0.1</id>
+    <content type="html">&lt;p&gt;pin integrations core to updated psycopg2 version&lt;/p&gt;</content>
+    <link href="https://github.com/DataDog/datadog-agent/releases/tag/6.43.0-dbm-beta-psycopg2-0.1" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>jmeunier28</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from datadog-agent - 7.43.0-dbm-beta-psycopg2-0.1</title>
+    <updated>2023-05-17T17:04:55Z</updated>
+    <id>tag:github.com,2008:Repository/49970739/7.43.0-dbm-beta-psycopg2-0.1</id>
+    <content type="html">&lt;p&gt;pin integrations core to updated psycopg2 version&lt;/p&gt;</content>
+    <link href="https://github.com/DataDog/datadog-agent/releases/tag/7.43.0-dbm-beta-psycopg2-0.1" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>jmeunier28</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from compose - v2.18.1</title>
+    <updated>2023-05-17T16:59:12Z</updated>
+    <id>tag:github.com,2008:Repository/15045751/v2.18.1</id>
+    <content type="html">&lt;p&gt;v2.18.1&lt;/p&gt;</content>
+    <link href="https://github.com/docker/compose/releases/tag/v2.18.1" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>milas</name>
+    </author>
+  </entry>
   <entry>
     <title>Release notes from datadog-agent - 7.43.1-dbm-oracle-beta-0.25</title>
     <updated>2023-05-17T07:51:07Z</updated>
@@ -114,17 +147,6 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from datadog-agent - pkg/util/log/v0.44.1</title>
-    <updated>2023-05-16T12:37:48Z</updated>
-    <id>tag:github.com,2008:Repository/49970739/pkg/util/log/v0.44.1</id>
-    <content type="html">&lt;p&gt;pkg/util/log/v0.44.1&lt;/p&gt;</content>
-    <link href="https://github.com/DataDog/datadog-agent/releases/tag/pkg%2Futil%2Flog%2Fv0.44.1" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>kacper-murzyn</name>
-    </author>
-  </entry>
-  <entry>
     <title>Release notes from datadog-agent - pkg/util/scrubber/v0.45.0-rc.5</title>
     <updated>2023-05-16T12:34:29Z</updated>
     <id>tag:github.com,2008:Repository/49970739/pkg/util/scrubber/v0.45.0-rc.5</id>
@@ -141,17 +163,6 @@
     <id>tag:github.com,2008:Repository/49970739/pkg/util/pointer/v0.45.0-rc.5</id>
     <content type="html">&lt;p&gt;pkg/util/pointer/v0.45.0-rc.5&lt;/p&gt;</content>
     <link href="https://github.com/DataDog/datadog-agent/releases/tag/pkg%2Futil%2Fpointer%2Fv0.45.0-rc.5" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>kacper-murzyn</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from datadog-agent - pkg/util/log/v0.45.0-rc.5</title>
-    <updated>2023-05-16T12:34:24Z</updated>
-    <id>tag:github.com,2008:Repository/49970739/pkg/util/log/v0.45.0-rc.5</id>
-    <content type="html">&lt;p&gt;pkg/util/log/v0.45.0-rc.5&lt;/p&gt;</content>
-    <link href="https://github.com/DataDog/datadog-agent/releases/tag/pkg%2Futil%2Flog%2Fv0.45.0-rc.5" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>kacper-murzyn</name>
@@ -1346,44 +1357,11 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from opentelemetry-operations-go - propagator/v0.37.1: Prepare v0.37.1/1.13.1 release (#623)</title>
+    <title>Release notes from opentelemetry-operations-go - exporter/trace/v1.13.1: Prepare v0.37.1/1.13.1 release (#623)</title>
     <updated>2023-04-12T14:56:07Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/propagator/v0.37.1</id>
+    <id>tag:github.com,2008:Repository/244484581/exporter/trace/v1.13.1</id>
     <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Prepare release v0.37.1/1.13.1&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/propagator%2Fv0.37.1" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>damemi</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from opentelemetry-operations-go - example/trace/http/v0.37.1: Prepare v0.37.1/1.13.1 release (#623)</title>
-    <updated>2023-04-12T14:56:07Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/example/trace/http/v0.37.1</id>
-    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Prepare release v0.37.1/1.13.1&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/example%2Ftrace%2Fhttp%2Fv0.37.1" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>damemi</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from opentelemetry-operations-go - internal/resourcemapping/v0.37.1: Prepare v0.37.1/1.13.1 release (#623)</title>
-    <updated>2023-04-12T14:56:07Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/internal/resourcemapping/v0.37.1</id>
-    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Prepare release v0.37.1/1.13.1&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/internal%2Fresourcemapping%2Fv0.37.1" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>damemi</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from opentelemetry-operations-go - exporter/collector/googlemanagedprometheus/v0.37.1: Prepare v0.37.1/1.13.1 release (#623)</title>
-    <updated>2023-04-12T14:56:07Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/exporter/collector/googlemanagedprometheus/v0.37.1</id>
-    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Prepare release v0.37.1/1.13.1&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/exporter%2Fcollector%2Fgooglemanagedprometheus%2Fv0.37.1" rel="alternate"></link>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/exporter%2Ftrace%2Fv1.13.1" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>damemi</name>
@@ -1401,11 +1379,11 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from opentelemetry-operations-go - exporter/metric/v0.37.1: Prepare v0.37.1/1.13.1 release (#623)</title>
+    <title>Release notes from opentelemetry-operations-go - exporter/collector/googlemanagedprometheus/v0.37.1: Prepare v0.37.1/1.13.1 release (#623)</title>
     <updated>2023-04-12T14:56:07Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/exporter/metric/v0.37.1</id>
+    <id>tag:github.com,2008:Repository/244484581/exporter/collector/googlemanagedprometheus/v0.37.1</id>
     <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Prepare release v0.37.1/1.13.1&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/exporter%2Fmetric%2Fv0.37.1" rel="alternate"></link>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/exporter%2Fcollector%2Fgooglemanagedprometheus%2Fv0.37.1" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>damemi</name>
@@ -1423,11 +1401,44 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from opentelemetry-operations-go - exporter/trace/v1.13.1: Prepare v0.37.1/1.13.1 release (#623)</title>
+    <title>Release notes from opentelemetry-operations-go - exporter/metric/v0.37.1: Prepare v0.37.1/1.13.1 release (#623)</title>
     <updated>2023-04-12T14:56:07Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/exporter/trace/v1.13.1</id>
+    <id>tag:github.com,2008:Repository/244484581/exporter/metric/v0.37.1</id>
     <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Prepare release v0.37.1/1.13.1&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/exporter%2Ftrace%2Fv1.13.1" rel="alternate"></link>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/exporter%2Fmetric%2Fv0.37.1" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>damemi</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from opentelemetry-operations-go - propagator/v0.37.1: Prepare v0.37.1/1.13.1 release (#623)</title>
+    <updated>2023-04-12T14:56:07Z</updated>
+    <id>tag:github.com,2008:Repository/244484581/propagator/v0.37.1</id>
+    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Prepare release v0.37.1/1.13.1&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/propagator%2Fv0.37.1" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>damemi</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from opentelemetry-operations-go - internal/resourcemapping/v0.37.1: Prepare v0.37.1/1.13.1 release (#623)</title>
+    <updated>2023-04-12T14:56:07Z</updated>
+    <id>tag:github.com,2008:Repository/244484581/internal/resourcemapping/v0.37.1</id>
+    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Prepare release v0.37.1/1.13.1&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/internal%2Fresourcemapping%2Fv0.37.1" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>damemi</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from opentelemetry-operations-go - example/trace/http/v0.37.1: Prepare v0.37.1/1.13.1 release (#623)</title>
+    <updated>2023-04-12T14:56:07Z</updated>
+    <id>tag:github.com,2008:Repository/244484581/example/trace/http/v0.37.1</id>
+    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Prepare release v0.37.1/1.13.1&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/example%2Ftrace%2Fhttp%2Fv0.37.1" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>damemi</name>
@@ -3906,17 +3917,6 @@
     <summary type="html"></summary>
     <author>
       <name>akshayjshah</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from compose - v2.14.2</title>
-    <updated>2022-12-20T09:36:02Z</updated>
-    <id>tag:github.com,2008:Repository/15045751/v2.14.2</id>
-    <content type="html">&lt;h2&gt;What&#39;s Changed&lt;/h2&gt;&#xA;&lt;h3&gt;&lt;g-emoji class=&#34;g-emoji&#34; alias=&#34;sparkles&#34; fallback-src=&#34;https://github.githubassets.com/images/icons/emoji/unicode/2728.png&#34;&gt;✨&lt;/g-emoji&gt; Enhancements&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Use &lt;code&gt;DOCKER_DEFAULT_PLATFORM&lt;/code&gt; to determine platform when creating container by &lt;a class=&#34;user-mention notranslate&#34; data-hovercard-type=&#34;user&#34; data-hovercard-url=&#34;/users/laurazard/hovercard&#34; data-octo-click=&#34;hovercard-link-click&#34; data-octo-dimensions=&#34;link_type:self&#34; href=&#34;https://github.com/laurazard&#34;&gt;@laurazard&lt;/a&gt; in &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1502829943&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/docker/compose/issues/10099&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/docker/compose/pull/10099/hovercard&#34; href=&#34;https://github.com/docker/compose/pull/10099&#34;&gt;#10099&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;detect dependency failed to start by &lt;a class=&#34;user-mention notranslate&#34; data-hovercard-type=&#34;user&#34; data-hovercard-url=&#34;/users/ndeloof/hovercard&#34; data-octo-click=&#34;hovercard-link-click&#34; data-octo-dimensions=&#34;link_type:self&#34; href=&#34;https://github.com/ndeloof&#34;&gt;@ndeloof&lt;/a&gt; in &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1503078906&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/docker/compose/issues/10101&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/docker/compose/pull/10101/hovercard&#34; href=&#34;https://github.com/docker/compose/pull/10101&#34;&gt;#10101&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3&gt;&lt;g-emoji class=&#34;g-emoji&#34; alias=&#34;bug&#34; fallback-src=&#34;https://github.githubassets.com/images/icons/emoji/unicode/1f41b.png&#34;&gt;🐛&lt;/g-emoji&gt; Fixes&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;volume: fix WCOW volume mounts by &lt;a class=&#34;user-mention notranslate&#34; data-hovercard-type=&#34;user&#34; data-hovercard-url=&#34;/users/milas/hovercard&#34; data-octo-click=&#34;hovercard-link-click&#34; data-octo-dimensions=&#34;link_type:self&#34; href=&#34;https://github.com/milas&#34;&gt;@milas&lt;/a&gt; in &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1500344494&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/docker/compose/issues/10090&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/docker/compose/pull/10090/hovercard&#34; href=&#34;https://github.com/docker/compose/pull/10090&#34;&gt;#10090&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;only list running containers when --all=false by &lt;a class=&#34;user-mention notranslate&#34; data-hovercard-type=&#34;user&#34; data-hovercard-url=&#34;/users/ndeloof/hovercard&#34; data-octo-click=&#34;hovercard-link-click&#34; data-octo-dimensions=&#34;link_type:self&#34; href=&#34;https://github.com/ndeloof&#34;&gt;@ndeloof&lt;/a&gt; in &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1499774706&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/docker/compose/issues/10086&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/docker/compose/pull/10086/hovercard&#34; href=&#34;https://github.com/docker/compose/pull/10086&#34;&gt;#10086&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;fix regression &lt;g-emoji class=&#34;g-emoji&#34; alias=&#34;sweat&#34; fallback-src=&#34;https://github.githubassets.com/images/icons/emoji/unicode/1f613.png&#34;&gt;😓&lt;/g-emoji&gt; running pull --ignore-pull-failures by &lt;a class=&#34;user-mention notranslate&#34; data-hovercard-type=&#34;user&#34; data-hovercard-url=&#34;/users/ndeloof/hovercard&#34; data-octo-click=&#34;hovercard-link-click&#34; data-octo-dimensions=&#34;link_type:self&#34; href=&#34;https://github.com/ndeloof&#34;&gt;@ndeloof&lt;/a&gt; in &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1502588444&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/docker/compose/issues/10098&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/docker/compose/pull/10098/hovercard&#34; href=&#34;https://github.com/docker/compose/pull/10098&#34;&gt;#10098&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;set CPU quota by &lt;a class=&#34;user-mention notranslate&#34; data-hovercard-type=&#34;user&#34; data-hovercard-url=&#34;/users/ndeloof/hovercard&#34; data-octo-click=&#34;hovercard-link-click&#34; data-octo-dimensions=&#34;link_type:self&#34; href=&#34;https://github.com/ndeloof&#34;&gt;@ndeloof&lt;/a&gt; in &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1503015463&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/docker/compose/issues/10100&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/docker/compose/pull/10100/hovercard&#34; href=&#34;https://github.com/docker/compose/pull/10100&#34;&gt;#10100&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;fix race condition on compose logs by &lt;a class=&#34;user-mention notranslate&#34; data-hovercard-type=&#34;user&#34; data-hovercard-url=&#34;/users/ndeloof/hovercard&#34; data-octo-click=&#34;hovercard-link-click&#34; data-octo-dimensions=&#34;link_type:self&#34; href=&#34;https://github.com/ndeloof&#34;&gt;@ndeloof&lt;/a&gt; in &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1504165619&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/docker/compose/issues/10104&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/docker/compose/pull/10104/hovercard&#34; href=&#34;https://github.com/docker/compose/pull/10104&#34;&gt;#10104&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3&gt;&lt;g-emoji class=&#34;g-emoji&#34; alias=&#34;wrench&#34; fallback-src=&#34;https://github.githubassets.com/images/icons/emoji/unicode/1f527.png&#34;&gt;🔧&lt;/g-emoji&gt; Internal&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;update &lt;code&gt;projectOptions&lt;/code&gt; to be public by renaming it to &lt;code&gt;ProjectOptions&lt;/code&gt; by &lt;a class=&#34;user-mention notranslate&#34; data-hovercard-type=&#34;user&#34; data-hovercard-url=&#34;/users/tigerinus/hovercard&#34; data-octo-click=&#34;hovercard-link-click&#34; data-octo-dimensions=&#34;link_type:self&#34; href=&#34;https://github.com/tigerinus&#34;&gt;@tigerinus&lt;/a&gt; in &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1503269424&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/docker/compose/issues/10103&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/docker/compose/pull/10103/hovercard&#34; href=&#34;https://github.com/docker/compose/pull/10103&#34;&gt;#10103&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3&gt;Changelog&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;build(deps): bump github.com/containerd/containerd from 1.6.12 to 1.6.14 by &lt;a class=&#34;user-mention notranslate&#34; data-hovercard-type=&#34;organization&#34; data-hovercard-url=&#34;/orgs/dependabot/hovercard&#34; data-octo-click=&#34;hovercard-link-click&#34; data-octo-dimensions=&#34;link_type:self&#34; href=&#34;https://github.com/dependabot&#34;&gt;@dependabot&lt;/a&gt; in &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1504216148&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/docker/compose/issues/10105&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/docker/compose/pull/10105/hovercard&#34; href=&#34;https://github.com/docker/compose/pull/10105&#34;&gt;#10105&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2&gt;New Contributors&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a class=&#34;user-mention notranslate&#34; data-hovercard-type=&#34;user&#34; data-hovercard-url=&#34;/users/tigerinus/hovercard&#34; data-octo-click=&#34;hovercard-link-click&#34; data-octo-dimensions=&#34;link_type:self&#34; href=&#34;https://github.com/tigerinus&#34;&gt;@tigerinus&lt;/a&gt; made their first contribution in &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1503269424&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/docker/compose/issues/10103&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/docker/compose/pull/10103/hovercard&#34; href=&#34;https://github.com/docker/compose/pull/10103&#34;&gt;#10103&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: &lt;a class=&#34;commit-link&#34; href=&#34;https://github.com/docker/compose/compare/v2.14.1...v2.14.2&#34;&gt;&lt;tt&gt;v2.14.1...v2.14.2&lt;/tt&gt;&lt;/a&gt;&lt;/p&gt;</content>
-    <link href="https://github.com/docker/compose/releases/tag/v2.14.2" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>github-actions[bot]</name>
     </author>
   </entry>
   <entry>
@@ -7440,22 +7440,22 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from triangula - v1.1.6</title>
+    <title>Release notes from triangula - v1.1.5</title>
     <updated>2021-05-11T13:31:09Z</updated>
-    <id>tag:github.com,2008:Repository/354015172/v1.1.6</id>
+    <id>tag:github.com,2008:Repository/354015172/v1.1.5</id>
     <content type="html">&lt;p&gt;Refactor for more flexibility&lt;/p&gt;</content>
-    <link href="https://github.com/rh12503/triangula/releases/tag/v1.1.6" rel="alternate"></link>
+    <link href="https://github.com/rh12503/triangula/releases/tag/v1.1.5" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>rh12503</name>
     </author>
   </entry>
   <entry>
-    <title>Release notes from triangula - v1.1.5</title>
+    <title>Release notes from triangula - v1.1.6</title>
     <updated>2021-05-11T13:31:09Z</updated>
-    <id>tag:github.com,2008:Repository/354015172/v1.1.5</id>
+    <id>tag:github.com,2008:Repository/354015172/v1.1.6</id>
     <content type="html">&lt;p&gt;Refactor for more flexibility&lt;/p&gt;</content>
-    <link href="https://github.com/rh12503/triangula/releases/tag/v1.1.5" rel="alternate"></link>
+    <link href="https://github.com/rh12503/triangula/releases/tag/v1.1.6" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>rh12503</name>
