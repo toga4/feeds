@@ -1,8 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?><feed xmlns="http://www.w3.org/2005/Atom">
   <title>Releases from Starred by toga4</title>
   <id>https://toga4.github.io/feeds/starred-releases.atom</id>
-  <updated>2023-05-21T18:53:46Z</updated>
+  <updated>2023-05-21T22:30:08Z</updated>
   <link href="https://toga4.github.io/feeds/starred-releases.atom"></link>
+  <entry>
+    <title>Release notes from alacritty - Alacritty Version 0.12.1</title>
+    <updated>2023-05-21T22:30:08Z</updated>
+    <id>tag:github.com,2008:Repository/51980455/v0.12.1</id>
+    <content type="html">&lt;h3&gt;Fixed&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Very long startup times on Wayland systems with broken xdg-portal setup&lt;/li&gt;&#xA;&lt;li&gt;Error on startup with &lt;code&gt;GLX&lt;/code&gt; when using old mesa platforms&lt;/li&gt;&#xA;&lt;li&gt;Character &lt;code&gt;;&lt;/code&gt; inside the &lt;code&gt;URI&lt;/code&gt; in &lt;code&gt;OSC 8&lt;/code&gt; sequence breaking the URI&lt;/li&gt;&#xA;&lt;li&gt;Selection on last line not updating correctly on resize&lt;/li&gt;&#xA;&lt;li&gt;Keyboard input not working on macOS with some IMEs like Fig.io&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/alacritty/alacritty/releases/tag/v0.12.1" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>kchibisov</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from alacritty - alacritty_terminal_v0.19.0</title>
+    <updated>2023-05-21T22:17:26Z</updated>
+    <id>tag:github.com,2008:Repository/51980455/alacritty_terminal_v0.19.0</id>
+    <content type="html">&lt;p&gt;Alacritty Terminal 0.19.0&lt;/p&gt;</content>
+    <link href="https://github.com/alacritty/alacritty/releases/tag/alacritty_terminal_v0.19.0" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>kchibisov</name>
+    </author>
+  </entry>
   <entry>
     <title>Release notes from datadog-agent - pkg/util/scrubber/v0.45.0-rc.6</title>
     <updated>2023-05-21T18:53:46Z</updated>
@@ -1401,22 +1423,11 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from opentelemetry-operations-go - example/metric/v0.37.1: Prepare v0.37.1/1.13.1 release (#623)</title>
+    <title>Release notes from opentelemetry-operations-go - example/trace/http/v0.37.1: Prepare v0.37.1/1.13.1 release (#623)</title>
     <updated>2023-04-12T14:56:07Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/example/metric/v0.37.1</id>
+    <id>tag:github.com,2008:Repository/244484581/example/trace/http/v0.37.1</id>
     <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Prepare release v0.37.1/1.13.1&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/example%2Fmetric%2Fv0.37.1" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>damemi</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from opentelemetry-operations-go - exporter/trace/v1.13.1: Prepare v0.37.1/1.13.1 release (#623)</title>
-    <updated>2023-04-12T14:56:07Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/exporter/trace/v1.13.1</id>
-    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Prepare release v0.37.1/1.13.1&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/exporter%2Ftrace%2Fv1.13.1" rel="alternate"></link>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/example%2Ftrace%2Fhttp%2Fv0.37.1" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>damemi</name>
@@ -1445,17 +1456,6 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from opentelemetry-operations-go - internal/cloudmock/v0.37.1: Prepare v0.37.1/1.13.1 release (#623)</title>
-    <updated>2023-04-12T14:56:07Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/internal/cloudmock/v0.37.1</id>
-    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Prepare release v0.37.1/1.13.1&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/internal%2Fcloudmock%2Fv0.37.1" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>damemi</name>
-    </author>
-  </entry>
-  <entry>
     <title>Release notes from opentelemetry-operations-go - exporter/collector/googlemanagedprometheus/v0.37.1: Prepare v0.37.1/1.13.1 release (#623)</title>
     <updated>2023-04-12T14:56:07Z</updated>
     <id>tag:github.com,2008:Repository/244484581/exporter/collector/googlemanagedprometheus/v0.37.1</id>
@@ -1467,11 +1467,22 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from opentelemetry-operations-go - example/trace/http/v0.37.1: Prepare v0.37.1/1.13.1 release (#623)</title>
+    <title>Release notes from opentelemetry-operations-go - exporter/trace/v1.13.1: Prepare v0.37.1/1.13.1 release (#623)</title>
     <updated>2023-04-12T14:56:07Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/example/trace/http/v0.37.1</id>
+    <id>tag:github.com,2008:Repository/244484581/exporter/trace/v1.13.1</id>
     <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Prepare release v0.37.1/1.13.1&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/example%2Ftrace%2Fhttp%2Fv0.37.1" rel="alternate"></link>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/exporter%2Ftrace%2Fv1.13.1" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>damemi</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from opentelemetry-operations-go - internal/cloudmock/v0.37.1: Prepare v0.37.1/1.13.1 release (#623)</title>
+    <updated>2023-04-12T14:56:07Z</updated>
+    <id>tag:github.com,2008:Repository/244484581/internal/cloudmock/v0.37.1</id>
+    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Prepare release v0.37.1/1.13.1&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/internal%2Fcloudmock%2Fv0.37.1" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>damemi</name>
@@ -1494,6 +1505,17 @@
     <id>tag:github.com,2008:Repository/244484581/propagator/v0.37.1</id>
     <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Prepare release v0.37.1/1.13.1&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
     <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/propagator%2Fv0.37.1" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>damemi</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from opentelemetry-operations-go - example/metric/v0.37.1: Prepare v0.37.1/1.13.1 release (#623)</title>
+    <updated>2023-04-12T14:56:07Z</updated>
+    <id>tag:github.com,2008:Repository/244484581/example/metric/v0.37.1</id>
+    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Prepare release v0.37.1/1.13.1&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/example%2Fmetric%2Fv0.37.1" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>damemi</name>
@@ -4767,17 +4789,6 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from alacritty - Alacritty Version 0.11.0 Release Candidate 3</title>
-    <updated>2022-10-10T00:00:42Z</updated>
-    <id>tag:github.com,2008:Repository/51980455/v0.11.0-rc3</id>
-    <content type="html">&lt;h2&gt;Fixed&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Missing window icon on X11&lt;/li&gt;&#xA;&lt;li&gt;Crash when closing IME on X11&lt;/li&gt;&#xA;&lt;li&gt;Alt key handling on Windows&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/alacritty/alacritty/releases/tag/v0.11.0-rc3" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>chrisduerr</name>
-    </author>
-  </entry>
-  <entry>
     <title>Release notes from excelize - v2.4.0</title>
     <updated>2022-10-09T06:55:10Z</updated>
     <id>tag:github.com,2008:Repository/66841911/v2.4.0</id>
@@ -5058,17 +5069,6 @@
     <id>tag:github.com,2008:Repository/306013800/v1.21.0</id>
     <content type="html">&lt;h2&gt;News&lt;/h2&gt;&#xA;&lt;p&gt;You can now use &lt;a href=&#34;https://krew.sigs.k8s.io/&#34; rel=&#34;nofollow&#34;&gt;krew, the kubectl plugin manager&lt;/a&gt;, to install stern &lt;g-emoji class=&#34;g-emoji&#34; alias=&#34;tada&#34; fallback-src=&#34;https://github.githubassets.com/images/icons/emoji/unicode/1f389.png&#34;&gt;🎉&lt;/g-emoji&gt;&lt;/p&gt;&#xA;&lt;div class=&#34;snippet-clipboard-content notranslate position-relative overflow-auto&#34; data-snippet-clipboard-copy-content=&#34;kubectl krew install stern&#34;&gt;&lt;pre class=&#34;notranslate&#34;&gt;&lt;code&gt;kubectl krew install stern&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&#xA;&lt;p&gt;stern has support for darwin/arm64 and windows/arm64 &lt;g-emoji class=&#34;g-emoji&#34; alias=&#34;partying_face&#34; fallback-src=&#34;https://github.githubassets.com/images/icons/emoji/unicode/1f973.png&#34;&gt;🥳&lt;/g-emoji&gt;&lt;/p&gt;&#xA;&lt;p&gt;You can now parse JSON logs by using &lt;code&gt;parseJSON&lt;/code&gt; function in &lt;code&gt;--template&lt;/code&gt; flag. See &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1000723457&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/stern/stern/issues/160&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/stern/stern/pull/160/hovercard&#34; href=&#34;https://github.com/stern/stern/pull/160&#34;&gt;#160&lt;/a&gt; for more details.&lt;/p&gt;&#xA;&lt;div class=&#34;snippet-clipboard-content notranslate position-relative overflow-auto&#34; data-snippet-clipboard-copy-content=&#34;stern --template=&#39;{{.PodName}}/{{.ContainerName}} {{with $d := .Message | parseJSON}}[{{$d.level}}] {{$d.message}}{{end}}{{&amp;quot;\n&amp;quot;}}&#39; backend&#34;&gt;&lt;pre class=&#34;notranslate&#34;&gt;&lt;code&gt;stern --template=&#39;{{.PodName}}/{{.ContainerName}} {{with $d := .Message | parseJSON}}[{{$d.level}}] {{$d.message}}{{end}}{{&#34;\n&#34;}}&#39; backend&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&#xA;&lt;h2&gt;Breaking changes&lt;/h2&gt;&#xA;&lt;p&gt;Since this version, the archive files will no longer be wrapped in a directory.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Before&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;div class=&#34;snippet-clipboard-content notranslate position-relative overflow-auto&#34; data-snippet-clipboard-copy-content=&#34;$ tar -tf stern_1.20.1_darwin_amd64.tar.gz&#xA;stern_1.20.1_darwin_amd64/LICENSE&#xA;stern_1.20.1_darwin_amd64/stern&#34;&gt;&lt;pre class=&#34;notranslate&#34;&gt;&lt;code&gt;$ tar -tf stern_1.20.1_darwin_amd64.tar.gz&#xA;stern_1.20.1_darwin_amd64/LICENSE&#xA;stern_1.20.1_darwin_amd64/stern&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&#xA;&lt;p&gt;&lt;strong&gt;After&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;div class=&#34;snippet-clipboard-content notranslate position-relative overflow-auto&#34; data-snippet-clipboard-copy-content=&#34;$ tar -tf stern_1.21.0_darwin_amd64.tar.gz&#xA;LICENSE&#xA;stern&#34;&gt;&lt;pre class=&#34;notranslate&#34;&gt;&lt;code&gt;$ tar -tf stern_1.21.0_darwin_amd64.tar.gz&#xA;LICENSE&#xA;stern&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&#xA;&lt;h2&gt;Changelog&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Disable uploading the krew plugin manifest using goreleaser (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1081087853&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/stern/stern/issues/175&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/stern/stern/pull/175/hovercard&#34; href=&#34;https://github.com/stern/stern/pull/175&#34;&gt;#175&lt;/a&gt;) &lt;a class=&#34;commit-link&#34; data-hovercard-type=&#34;commit&#34; data-hovercard-url=&#34;https://github.com/stern/stern/commit/cadf4399f174c04f81f002b5a79905971d2df6a3/hovercard&#34; href=&#34;https://github.com/stern/stern/commit/cadf4399f174c04f81f002b5a79905971d2df6a3&#34;&gt;&lt;tt&gt;cadf439&lt;/tt&gt;&lt;/a&gt; (Kazuki Suda)&lt;/li&gt;&#xA;&lt;li&gt;Update Kubernetes vendors to v1.23.0 (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1075602065&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/stern/stern/issues/173&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/stern/stern/pull/173/hovercard&#34; href=&#34;https://github.com/stern/stern/pull/173&#34;&gt;#173&lt;/a&gt;) &lt;a class=&#34;commit-link&#34; data-hovercard-type=&#34;commit&#34; data-hovercard-url=&#34;https://github.com/stern/stern/commit/4a9acc894c1245198cd5b8c0dda7278c854c1f53/hovercard&#34; href=&#34;https://github.com/stern/stern/commit/4a9acc894c1245198cd5b8c0dda7278c854c1f53&#34;&gt;&lt;tt&gt;4a9acc8&lt;/tt&gt;&lt;/a&gt; (Kazuki Suda)&lt;/li&gt;&#xA;&lt;li&gt;Validate a krew plugin manifest file in the CI workflow (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1071383226&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/stern/stern/issues/171&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/stern/stern/pull/171/hovercard&#34; href=&#34;https://github.com/stern/stern/pull/171&#34;&gt;#171&lt;/a&gt;) &lt;a class=&#34;commit-link&#34; data-hovercard-type=&#34;commit&#34; data-hovercard-url=&#34;https://github.com/stern/stern/commit/97c5837f2ec6ee717cbb9d6de9439193fe33301d/hovercard&#34; href=&#34;https://github.com/stern/stern/commit/97c5837f2ec6ee717cbb9d6de9439193fe33301d&#34;&gt;&lt;tt&gt;97c5837&lt;/tt&gt;&lt;/a&gt; (Kazuki Suda)&lt;/li&gt;&#xA;&lt;li&gt;Allow to use stern as a kubectl plugin (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1071207798&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/stern/stern/issues/170&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/stern/stern/pull/170/hovercard&#34; href=&#34;https://github.com/stern/stern/pull/170&#34;&gt;#170&lt;/a&gt;) &lt;a class=&#34;commit-link&#34; data-hovercard-type=&#34;commit&#34; data-hovercard-url=&#34;https://github.com/stern/stern/commit/f98f14933bb217f44eaf55961ea663629f44dd47/hovercard&#34; href=&#34;https://github.com/stern/stern/commit/f98f14933bb217f44eaf55961ea663629f44dd47&#34;&gt;&lt;tt&gt;f98f149&lt;/tt&gt;&lt;/a&gt; (Kazuki Suda)&lt;/li&gt;&#xA;&lt;li&gt;Use &#34;go install&#34; instead of &#34;go get&#34; (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1068337372&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/stern/stern/issues/169&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/stern/stern/pull/169/hovercard&#34; href=&#34;https://github.com/stern/stern/pull/169&#34;&gt;#169&lt;/a&gt;) &lt;a class=&#34;commit-link&#34; data-hovercard-type=&#34;commit&#34; data-hovercard-url=&#34;https://github.com/stern/stern/commit/7e53a338f48ced1228e2b4e34ca9f9af5ffbdb9d/hovercard&#34; href=&#34;https://github.com/stern/stern/commit/7e53a338f48ced1228e2b4e34ca9f9af5ffbdb9d&#34;&gt;&lt;tt&gt;7e53a33&lt;/tt&gt;&lt;/a&gt; (Kazuki Suda)&lt;/li&gt;&#xA;&lt;li&gt;Remove the pinned version of klog (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1068319364&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/stern/stern/issues/168&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/stern/stern/pull/168/hovercard&#34; href=&#34;https://github.com/stern/stern/pull/168&#34;&gt;#168&lt;/a&gt;) &lt;a class=&#34;commit-link&#34; data-hovercard-type=&#34;commit&#34; data-hovercard-url=&#34;https://github.com/stern/stern/commit/cad366822c70dcc58f5e97fff2afc5cc51a15ef3/hovercard&#34; href=&#34;https://github.com/stern/stern/commit/cad366822c70dcc58f5e97fff2afc5cc51a15ef3&#34;&gt;&lt;tt&gt;cad3668&lt;/tt&gt;&lt;/a&gt; (Kazuki Suda)&lt;/li&gt;&#xA;&lt;li&gt;Add and export follow option to TailOptions (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1016561962&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/stern/stern/issues/162&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/stern/stern/pull/162/hovercard&#34; href=&#34;https://github.com/stern/stern/pull/162&#34;&gt;#162&lt;/a&gt;) &lt;a class=&#34;commit-link&#34; data-hovercard-type=&#34;commit&#34; data-hovercard-url=&#34;https://github.com/stern/stern/commit/5240615eed4891bbae618301db113913a1a188f0/hovercard&#34; href=&#34;https://github.com/stern/stern/commit/5240615eed4891bbae618301db113913a1a188f0&#34;&gt;&lt;tt&gt;5240615&lt;/tt&gt;&lt;/a&gt; (Arthur Coelho)&lt;/li&gt;&#xA;&lt;li&gt;Add a new function &lt;code&gt;parseJSON&lt;/code&gt; to --template flag (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1000723457&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/stern/stern/issues/160&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/stern/stern/pull/160/hovercard&#34; href=&#34;https://github.com/stern/stern/pull/160&#34;&gt;#160&lt;/a&gt;) &lt;a class=&#34;commit-link&#34; data-hovercard-type=&#34;commit&#34; data-hovercard-url=&#34;https://github.com/stern/stern/commit/60e2a7763212519c555f886baf18076c21c8e7ba/hovercard&#34; href=&#34;https://github.com/stern/stern/commit/60e2a7763212519c555f886baf18076c21c8e7ba&#34;&gt;&lt;tt&gt;60e2a77&lt;/tt&gt;&lt;/a&gt; (Kazuki Suda)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2&gt;Docker images&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;code&gt;docker pull ghcr.io/stern/stern:1&lt;/code&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;code&gt;docker pull ghcr.io/stern/stern:1.21&lt;/code&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;code&gt;docker pull ghcr.io/stern/stern:1.21.0&lt;/code&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
     <link href="https://github.com/stern/stern/releases/tag/v1.21.0" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>github-actions[bot]</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from alacritty - Alacritty Version 0.11.0 Release Candidate 2</title>
-    <updated>2022-09-17T18:04:16Z</updated>
-    <id>tag:github.com,2008:Repository/51980455/v0.11.0-rc2</id>
-    <content type="html">&lt;h1&gt;Added&lt;/h1&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Unicode 15 support&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h1&gt;Fixed&lt;/h1&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;IPC config options overwriting each other&lt;/li&gt;&#xA;&lt;li&gt;Preedit text removal with inline IME&lt;/li&gt;&#xA;&lt;li&gt;Hyperlink preview obscuring text cursor&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/alacritty/alacritty/releases/tag/v0.11.0-rc2" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>github-actions[bot]</name>
