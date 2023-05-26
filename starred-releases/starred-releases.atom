@@ -1,8 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?><feed xmlns="http://www.w3.org/2005/Atom">
   <title>Releases from Starred by toga4</title>
   <id>https://toga4.github.io/feeds/starred-releases.atom</id>
-  <updated>2023-05-26T19:01:20Z</updated>
+  <updated>2023-05-26T20:59:11Z</updated>
   <link href="https://toga4.github.io/feeds/starred-releases.atom"></link>
+  <entry>
+    <title>Release notes from skaffold - v2.5.0 Release</title>
+    <updated>2023-05-26T20:59:11Z</updated>
+    <id>tag:github.com,2008:Repository/118654121/v2.5.0</id>
+    <content type="html">&lt;h1&gt;v2.5.0 Release - 05/25/2023&lt;/h1&gt;&#xA;&lt;p&gt;&lt;strong&gt;Linux amd64&lt;/strong&gt;&lt;br&gt;&#xA;&lt;code&gt;curl -Lo skaffold https://storage.googleapis.com/skaffold/releases/v2.5.0/skaffold-linux-amd64 &amp;amp;&amp;amp; chmod +x skaffold &amp;amp;&amp;amp; sudo mv skaffold /usr/local/bin&lt;/code&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Linux arm64&lt;/strong&gt;&lt;br&gt;&#xA;&lt;code&gt;curl -Lo skaffold https://storage.googleapis.com/skaffold/releases/v2.5.0/skaffold-linux-arm64 &amp;amp;&amp;amp; chmod +x skaffold &amp;amp;&amp;amp; sudo mv skaffold /usr/local/bin&lt;/code&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;macOS amd64&lt;/strong&gt;&lt;br&gt;&#xA;&lt;code&gt;curl -Lo skaffold https://storage.googleapis.com/skaffold/releases/v2.5.0/skaffold-darwin-amd64 &amp;amp;&amp;amp; chmod +x skaffold &amp;amp;&amp;amp; sudo mv skaffold /usr/local/bin&lt;/code&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;macOS arm64&lt;/strong&gt;&lt;br&gt;&#xA;&lt;code&gt;curl -Lo skaffold https://storage.googleapis.com/skaffold/releases/v2.5.0/skaffold-darwin-arm64 &amp;amp;&amp;amp; chmod +x skaffold &amp;amp;&amp;amp; sudo mv skaffold /usr/local/bin&lt;/code&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Windows&lt;/strong&gt;&lt;br&gt;&#xA;&lt;a href=&#34;https://storage.googleapis.com/skaffold/releases/v2.5.0/skaffold-windows-amd64.exe&#34; rel=&#34;nofollow&#34;&gt;https://storage.googleapis.com/skaffold/releases/v2.5.0/skaffold-windows-amd64.exe&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Docker image&lt;/strong&gt;&lt;br&gt;&#xA;&lt;code&gt;gcr.io/k8s-skaffold/skaffold:v2.5.0&lt;/code&gt;&lt;/p&gt;&#xA;&lt;p&gt;New Features and Additions:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;feat: new k8s task and exec env for custom actions &lt;a href=&#34;https://github.com/GoogleContainerTools/skaffold/pull/8755&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleContainerTools/skaffold/pull/8755/hovercard&#34;&gt;#8755&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Updates and Refactors:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;chore: update various container deps. &lt;a href=&#34;https://github.com/GoogleContainerTools/skaffold/pull/8810&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleContainerTools/skaffold/pull/8810/hovercard&#34;&gt;#8810&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;test: disable failing buildpacks tests &lt;a href=&#34;https://github.com/GoogleContainerTools/skaffold/pull/8812&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleContainerTools/skaffold/pull/8812/hovercard&#34;&gt;#8812&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;chore: add script to update lts dependencies &lt;a href=&#34;https://github.com/GoogleContainerTools/skaffold/pull/8773&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleContainerTools/skaffold/pull/8773/hovercard&#34;&gt;#8773&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;chore: update go deps &lt;a href=&#34;https://github.com/GoogleContainerTools/skaffold/pull/8789&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleContainerTools/skaffold/pull/8789/hovercard&#34;&gt;#8789&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;chore: update Dockerfile bin deps &lt;a href=&#34;https://github.com/GoogleContainerTools/skaffold/pull/8774&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleContainerTools/skaffold/pull/8774/hovercard&#34;&gt;#8774&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;chore: bump github.com/cloudflare/circl from 1.1.0 to 1.3.3 &lt;a href=&#34;https://github.com/GoogleContainerTools/skaffold/pull/8771&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleContainerTools/skaffold/pull/8771/hovercard&#34;&gt;#8771&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;chore: bump github.com/docker/distribution from 2.8.1+incompatible to 2.8.2+incompatible &lt;a href=&#34;https://github.com/GoogleContainerTools/skaffold/pull/8772&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleContainerTools/skaffold/pull/8772/hovercard&#34;&gt;#8772&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;chore: Upload deps lisences &lt;a href=&#34;https://github.com/GoogleContainerTools/skaffold/pull/8747&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleContainerTools/skaffold/pull/8747/hovercard&#34;&gt;#8747&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;chore: updated examples/ to updated schema version &lt;a href=&#34;https://github.com/GoogleContainerTools/skaffold/pull/8748&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleContainerTools/skaffold/pull/8748/hovercard&#34;&gt;#8748&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;chore: bump flask from 2.3.1 to 2.3.2 in /integration/examples &lt;a href=&#34;https://github.com/GoogleContainerTools/skaffold/pull/8734&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleContainerTools/skaffold/pull/8734/hovercard&#34;&gt;#8734&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;chore: bump flask from 2.3.1 to 2.3.2 in /examples &lt;a href=&#34;https://github.com/GoogleContainerTools/skaffold/pull/8735&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleContainerTools/skaffold/pull/8735/hovercard&#34;&gt;#8735&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;chore: bump flask from 1.0 to 2.2.5 in /examples/hot-reload/python &lt;a href=&#34;https://github.com/GoogleContainerTools/skaffold/pull/8744&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleContainerTools/skaffold/pull/8744/hovercard&#34;&gt;#8744&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;chore: bump peter-evans/create-or-update-comment from 3.0.0 to 3.0.1 &lt;a href=&#34;https://github.com/GoogleContainerTools/skaffold/pull/8736&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleContainerTools/skaffold/pull/8736/hovercard&#34;&gt;#8736&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;chore: bump flask from 1.0 to 2.2.5 in /integration/examples/hot-reload/python &lt;a href=&#34;https://github.com/GoogleContainerTools/skaffold/pull/8738&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleContainerTools/skaffold/pull/8738/hovercard&#34;&gt;#8738&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;chore: bump github.com/sigstore/rekor from 1.0.1 to 1.1.1 &lt;a href=&#34;https://github.com/GoogleContainerTools/skaffold/pull/8741&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleContainerTools/skaffold/pull/8741/hovercard&#34;&gt;#8741&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Docs, Test, and Release Updates:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;docs: doc page for Custom Actions and skaffold exec &lt;a href=&#34;https://github.com/GoogleContainerTools/skaffold/pull/8809&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleContainerTools/skaffold/pull/8809/hovercard&#34;&gt;#8809&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;docs: fix reference to dateTime tagger &lt;a href=&#34;https://github.com/GoogleContainerTools/skaffold/pull/8813&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleContainerTools/skaffold/pull/8813/hovercard&#34;&gt;#8813&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;docs: update skaffold.yaml page to show latest schema version &lt;a href=&#34;https://github.com/GoogleContainerTools/skaffold/pull/8808&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleContainerTools/skaffold/pull/8808/hovercard&#34;&gt;#8808&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;docs: add &lt;code&gt;overrides&lt;/code&gt; and &lt;code&gt;jobManifestPath&lt;/code&gt; to verify docs &lt;a href=&#34;https://github.com/GoogleContainerTools/skaffold/pull/8762&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleContainerTools/skaffold/pull/8762/hovercard&#34;&gt;#8762&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;fix: resolve issue where hack/release.sh wouldn&#39;t mark schema as released &lt;a href=&#34;https://github.com/GoogleContainerTools/skaffold/pull/8752&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleContainerTools/skaffold/pull/8752/hovercard&#34;&gt;#8752&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;fix: resolve issues with hack/new-version.sh so it works w/ no manual changes necessary &lt;a href=&#34;https://github.com/GoogleContainerTools/skaffold/pull/8750&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleContainerTools/skaffold/pull/8750/hovercard&#34;&gt;#8750&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;fix: scanning filter not working properly due to version sorting &lt;a href=&#34;https://github.com/GoogleContainerTools/skaffold/pull/8727&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleContainerTools/skaffold/pull/8727/hovercard&#34;&gt;#8727&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Huge thanks goes out to all of our contributors for this release:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Aaron Prindle&lt;/li&gt;&#xA;&lt;li&gt;Benjamin Petersen&lt;/li&gt;&#xA;&lt;li&gt;dependabot[bot]&lt;/li&gt;&#xA;&lt;li&gt;ericzzzzzzz&lt;/li&gt;&#xA;&lt;li&gt;Maggie Neterval&lt;/li&gt;&#xA;&lt;li&gt;Michael Plump&lt;/li&gt;&#xA;&lt;li&gt;Renzo Rojas&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: &lt;a class=&#34;commit-link&#34; href=&#34;https://github.com/GoogleContainerTools/skaffold/compare/v2.4.0...v2.5.0&#34;&gt;&lt;tt&gt;v2.4.0...v2.5.0&lt;/tt&gt;&lt;/a&gt;&lt;/p&gt;</content>
+    <link href="https://github.com/GoogleContainerTools/skaffold/releases/tag/v2.5.0" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>plumpy</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from skaffold - v1.39.13 Release</title>
+    <updated>2023-05-26T20:59:01Z</updated>
+    <id>tag:github.com,2008:Repository/118654121/v1.39.13</id>
+    <content type="html">&lt;h1&gt;v1.39.13 Release - 05/25/2023&lt;/h1&gt;&#xA;&lt;p&gt;&lt;strong&gt;Linux amd64&lt;/strong&gt;&lt;br&gt;&#xA;&lt;code&gt;curl -Lo skaffold https://storage.googleapis.com/skaffold/releases/v1.39.13/skaffold-linux-amd64 &amp;amp;&amp;amp; chmod +x skaffold &amp;amp;&amp;amp; sudo mv skaffold /usr/local/bin&lt;/code&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Linux arm64&lt;/strong&gt;&lt;br&gt;&#xA;&lt;code&gt;curl -Lo skaffold https://storage.googleapis.com/skaffold/releases/v1.39.13/skaffold-linux-arm64 &amp;amp;&amp;amp; chmod +x skaffold &amp;amp;&amp;amp; sudo mv skaffold /usr/local/bin&lt;/code&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;macOS amd64&lt;/strong&gt;&lt;br&gt;&#xA;&lt;code&gt;curl -Lo skaffold https://storage.googleapis.com/skaffold/releases/v1.39.13/skaffold-darwin-amd64 &amp;amp;&amp;amp; chmod +x skaffold &amp;amp;&amp;amp; sudo mv skaffold /usr/local/bin&lt;/code&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;macOS arm64&lt;/strong&gt;&lt;br&gt;&#xA;&lt;code&gt;curl -Lo skaffold https://storage.googleapis.com/skaffold/releases/v1.39.13/skaffold-darwin-arm64 &amp;amp;&amp;amp; chmod +x skaffold &amp;amp;&amp;amp; sudo mv skaffold /usr/local/bin&lt;/code&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Windows&lt;/strong&gt;&lt;br&gt;&#xA;&lt;a href=&#34;https://storage.googleapis.com/skaffold/releases/v1.39.13/skaffold-windows-amd64.exe&#34; rel=&#34;nofollow&#34;&gt;https://storage.googleapis.com/skaffold/releases/v1.39.13/skaffold-windows-amd64.exe&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Docker image&lt;/strong&gt;&lt;br&gt;&#xA;&lt;code&gt;gcr.io/k8s-skaffold/skaffold:v1.39.13&lt;/code&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: &lt;a class=&#34;commit-link&#34; href=&#34;https://github.com/GoogleContainerTools/skaffold/compare/v1.39.12...v1.39.13&#34;&gt;&lt;tt&gt;v1.39.12...v1.39.13&lt;/tt&gt;&lt;/a&gt;&lt;/p&gt;</content>
+    <link href="https://github.com/GoogleContainerTools/skaffold/releases/tag/v1.39.13" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>plumpy</name>
+    </author>
+  </entry>
   <entry>
     <title>Release notes from skaffold - v2.0.13 Release</title>
     <updated>2023-05-26T19:01:20Z</updated>
@@ -67,17 +89,6 @@
     <summary type="html"></summary>
     <author>
       <name>thaJeztah</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from skaffold - v2.5.0</title>
-    <updated>2023-05-25T23:09:34Z</updated>
-    <id>tag:github.com,2008:Repository/118654121/v2.5.0</id>
-    <content type="html">&lt;p&gt;v2.5.0 Release&lt;/p&gt;</content>
-    <link href="https://github.com/GoogleContainerTools/skaffold/releases/tag/v2.5.0" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>actions-user</name>
     </author>
   </entry>
   <entry>
@@ -345,22 +356,22 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from opentelemetry-go - sdk/v1.16.0</title>
+    <title>Release notes from opentelemetry-go - metric/v1.16.0</title>
     <updated>2023-05-22T19:07:19Z</updated>
-    <id>tag:github.com,2008:Repository/187086161/sdk/v1.16.0</id>
+    <id>tag:github.com,2008:Repository/187086161/metric/v1.16.0</id>
     <content type="html">&lt;p&gt;Module set stable-v1, Version v1.16.0&lt;/p&gt;</content>
-    <link href="https://github.com/open-telemetry/opentelemetry-go/releases/tag/sdk%2Fv1.16.0" rel="alternate"></link>
+    <link href="https://github.com/open-telemetry/opentelemetry-go/releases/tag/metric%2Fv1.16.0" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>MrAlias</name>
     </author>
   </entry>
   <entry>
-    <title>Release notes from opentelemetry-go - metric/v1.16.0</title>
+    <title>Release notes from opentelemetry-go - sdk/v1.16.0</title>
     <updated>2023-05-22T19:07:19Z</updated>
-    <id>tag:github.com,2008:Repository/187086161/metric/v1.16.0</id>
+    <id>tag:github.com,2008:Repository/187086161/sdk/v1.16.0</id>
     <content type="html">&lt;p&gt;Module set stable-v1, Version v1.16.0&lt;/p&gt;</content>
-    <link href="https://github.com/open-telemetry/opentelemetry-go/releases/tag/metric%2Fv1.16.0" rel="alternate"></link>
+    <link href="https://github.com/open-telemetry/opentelemetry-go/releases/tag/sdk%2Fv1.16.0" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>MrAlias</name>
@@ -804,17 +815,6 @@
     <summary type="html"></summary>
     <author>
       <name>pohly</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from skaffold - test-v0.0.0</title>
-    <updated>2023-05-10T22:26:52Z</updated>
-    <id>tag:github.com,2008:Repository/118654121/test-v0.0.0</id>
-    <content type="html">&lt;p&gt;release: v2.4.1 (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1704666819&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/GoogleContainerTools/skaffold/issues/8769&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleContainerTools/skaffold/pull/8769/hovercard&#34; href=&#34;https://github.com/GoogleContainerTools/skaffold/pull/8769&#34;&gt;#8769&lt;/a&gt;)&lt;/p&gt;</content>
-    <link href="https://github.com/GoogleContainerTools/skaffold/releases/tag/test-v0.0.0" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>renzodavid9</name>
     </author>
   </entry>
   <entry>
@@ -1555,55 +1555,22 @@
     </author>
   </entry>
   <entry>
+    <title>Release notes from opentelemetry-operations-go - internal/resourcemapping/v0.37.1: Prepare v0.37.1/1.13.1 release (#623)</title>
+    <updated>2023-04-12T14:56:07Z</updated>
+    <id>tag:github.com,2008:Repository/244484581/internal/resourcemapping/v0.37.1</id>
+    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Prepare release v0.37.1/1.13.1&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/internal%2Fresourcemapping%2Fv0.37.1" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>damemi</name>
+    </author>
+  </entry>
+  <entry>
     <title>Release notes from opentelemetry-operations-go - example/metric/v0.37.1: Prepare v0.37.1/1.13.1 release (#623)</title>
     <updated>2023-04-12T14:56:07Z</updated>
     <id>tag:github.com,2008:Repository/244484581/example/metric/v0.37.1</id>
     <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Prepare release v0.37.1/1.13.1&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
     <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/example%2Fmetric%2Fv0.37.1" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>damemi</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from opentelemetry-operations-go - example/trace/http/v0.37.1: Prepare v0.37.1/1.13.1 release (#623)</title>
-    <updated>2023-04-12T14:56:07Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/example/trace/http/v0.37.1</id>
-    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Prepare release v0.37.1/1.13.1&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/example%2Ftrace%2Fhttp%2Fv0.37.1" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>damemi</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from opentelemetry-operations-go - exporter/collector/googlemanagedprometheus/v0.37.1: Prepare v0.37.1/1.13.1 release (#623)</title>
-    <updated>2023-04-12T14:56:07Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/exporter/collector/googlemanagedprometheus/v0.37.1</id>
-    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Prepare release v0.37.1/1.13.1&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/exporter%2Fcollector%2Fgooglemanagedprometheus%2Fv0.37.1" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>damemi</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from opentelemetry-operations-go - exporter/collector/v0.37.1: Prepare v0.37.1/1.13.1 release (#623)</title>
-    <updated>2023-04-12T14:56:07Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/exporter/collector/v0.37.1</id>
-    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Prepare release v0.37.1/1.13.1&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/exporter%2Fcollector%2Fv0.37.1" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>damemi</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from opentelemetry-operations-go - exporter/metric/v0.37.1: Prepare v0.37.1/1.13.1 release (#623)</title>
-    <updated>2023-04-12T14:56:07Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/exporter/metric/v0.37.1</id>
-    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Prepare release v0.37.1/1.13.1&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/exporter%2Fmetric%2Fv0.37.1" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>damemi</name>
@@ -1632,6 +1599,28 @@
     </author>
   </entry>
   <entry>
+    <title>Release notes from opentelemetry-operations-go - exporter/metric/v0.37.1: Prepare v0.37.1/1.13.1 release (#623)</title>
+    <updated>2023-04-12T14:56:07Z</updated>
+    <id>tag:github.com,2008:Repository/244484581/exporter/metric/v0.37.1</id>
+    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Prepare release v0.37.1/1.13.1&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/exporter%2Fmetric%2Fv0.37.1" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>damemi</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from opentelemetry-operations-go - exporter/collector/v0.37.1: Prepare v0.37.1/1.13.1 release (#623)</title>
+    <updated>2023-04-12T14:56:07Z</updated>
+    <id>tag:github.com,2008:Repository/244484581/exporter/collector/v0.37.1</id>
+    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Prepare release v0.37.1/1.13.1&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/exporter%2Fcollector%2Fv0.37.1" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>damemi</name>
+    </author>
+  </entry>
+  <entry>
     <title>Release notes from opentelemetry-operations-go - propagator/v0.37.1: Prepare v0.37.1/1.13.1 release (#623)</title>
     <updated>2023-04-12T14:56:07Z</updated>
     <id>tag:github.com,2008:Repository/244484581/propagator/v0.37.1</id>
@@ -1643,11 +1632,22 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from opentelemetry-operations-go - internal/resourcemapping/v0.37.1: Prepare v0.37.1/1.13.1 release (#623)</title>
+    <title>Release notes from opentelemetry-operations-go - exporter/collector/googlemanagedprometheus/v0.37.1: Prepare v0.37.1/1.13.1 release (#623)</title>
     <updated>2023-04-12T14:56:07Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/internal/resourcemapping/v0.37.1</id>
+    <id>tag:github.com,2008:Repository/244484581/exporter/collector/googlemanagedprometheus/v0.37.1</id>
     <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Prepare release v0.37.1/1.13.1&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/internal%2Fresourcemapping%2Fv0.37.1" rel="alternate"></link>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/exporter%2Fcollector%2Fgooglemanagedprometheus%2Fv0.37.1" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>damemi</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from opentelemetry-operations-go - example/trace/http/v0.37.1: Prepare v0.37.1/1.13.1 release (#623)</title>
+    <updated>2023-04-12T14:56:07Z</updated>
+    <id>tag:github.com,2008:Repository/244484581/example/trace/http/v0.37.1</id>
+    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Prepare release v0.37.1/1.13.1&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/example%2Ftrace%2Fhttp%2Fv0.37.1" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>damemi</name>
@@ -7440,22 +7440,22 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from triangula - v1.1.5</title>
+    <title>Release notes from triangula - v1.1.6</title>
     <updated>2021-05-11T13:31:09Z</updated>
-    <id>tag:github.com,2008:Repository/354015172/v1.1.5</id>
+    <id>tag:github.com,2008:Repository/354015172/v1.1.6</id>
     <content type="html">&lt;p&gt;Refactor for more flexibility&lt;/p&gt;</content>
-    <link href="https://github.com/rh12503/triangula/releases/tag/v1.1.5" rel="alternate"></link>
+    <link href="https://github.com/rh12503/triangula/releases/tag/v1.1.6" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>rh12503</name>
     </author>
   </entry>
   <entry>
-    <title>Release notes from triangula - v1.1.6</title>
+    <title>Release notes from triangula - v1.1.5</title>
     <updated>2021-05-11T13:31:09Z</updated>
-    <id>tag:github.com,2008:Repository/354015172/v1.1.6</id>
+    <id>tag:github.com,2008:Repository/354015172/v1.1.5</id>
     <content type="html">&lt;p&gt;Refactor for more flexibility&lt;/p&gt;</content>
-    <link href="https://github.com/rh12503/triangula/releases/tag/v1.1.6" rel="alternate"></link>
+    <link href="https://github.com/rh12503/triangula/releases/tag/v1.1.5" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>rh12503</name>
@@ -7814,22 +7814,22 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from backoff - v2.0.3: Merge pull request #18 from lestrrat-go/topic/fix-v2-go-mod</title>
+    <title>Release notes from backoff - v2.0.2: Merge pull request #18 from lestrrat-go/topic/fix-v2-go-mod</title>
     <updated>2021-01-06T03:00:05Z</updated>
-    <id>tag:github.com,2008:Repository/118608673/v2.0.3</id>
+    <id>tag:github.com,2008:Repository/118608673/v2.0.2</id>
     <content type="html">&lt;p&gt;Fix go.mod&lt;/p&gt;</content>
-    <link href="https://github.com/lestrrat-go/backoff/releases/tag/v2.0.3" rel="alternate"></link>
+    <link href="https://github.com/lestrrat-go/backoff/releases/tag/v2.0.2" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>lestrrat</name>
     </author>
   </entry>
   <entry>
-    <title>Release notes from backoff - v2.0.2: Merge pull request #18 from lestrrat-go/topic/fix-v2-go-mod</title>
+    <title>Release notes from backoff - v2.0.3: Merge pull request #18 from lestrrat-go/topic/fix-v2-go-mod</title>
     <updated>2021-01-06T03:00:05Z</updated>
-    <id>tag:github.com,2008:Repository/118608673/v2.0.2</id>
+    <id>tag:github.com,2008:Repository/118608673/v2.0.3</id>
     <content type="html">&lt;p&gt;Fix go.mod&lt;/p&gt;</content>
-    <link href="https://github.com/lestrrat-go/backoff/releases/tag/v2.0.2" rel="alternate"></link>
+    <link href="https://github.com/lestrrat-go/backoff/releases/tag/v2.0.3" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>lestrrat</name>
