@@ -1,8 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?><feed xmlns="http://www.w3.org/2005/Atom">
   <title>Releases from Starred by toga4</title>
   <id>https://toga4.github.io/feeds/starred-releases.atom</id>
-  <updated>2023-05-25T23:09:34Z</updated>
+  <updated>2023-05-26T08:55:54Z</updated>
   <link href="https://toga4.github.io/feeds/starred-releases.atom"></link>
+  <entry>
+    <title>Release notes from moby - v24.0.2</title>
+    <updated>2023-05-26T08:55:54Z</updated>
+    <id>tag:github.com,2008:Repository/7691631/v24.0.2</id>
+    <content type="html">&lt;h2&gt;24.0.2&lt;/h2&gt;&#xA;&lt;p&gt;For a full list of pull requests and changes in this release, refer to the relevant GitHub milestones:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/docker/cli/issues?q=is%3Aclosed+milestone%3A24.0.2&#34;&gt;docker/cli, 24.0.2 milestone&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/moby/moby/issues?q=is%3Aclosed+milestone%3A24.0.2&#34;&gt;moby/moby, 24.0.2 milestone&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3&gt;Bug fixes and enhancements&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Fix a panic during build when referencing locally tagged images. &lt;a href=&#34;https://github.com/moby/buildkit/pull/3899&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/moby/buildkit/pull/3899/hovercard&#34;&gt;moby/buildkit#3899&lt;/a&gt;, &lt;a href=&#34;https://github.com/moby/moby/pull/45582&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/moby/moby/pull/45582/hovercard&#34;&gt;moby/moby#45582&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Fix builds potentially failing with &lt;code&gt;exit code: 4294967295&lt;/code&gt; when performing many concurrent build stages. &lt;a href=&#34;https://github.com/moby/moby/pull/45620&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/moby/moby/pull/45620/hovercard&#34;&gt;moby/moby#45620&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Fix DNS resolution on Windows ignoring &lt;code&gt;etc/hosts&lt;/code&gt; (&lt;code&gt;%WINDIR%\System32\Drivers\etc\hosts&lt;/code&gt;), including resolution of &lt;code&gt;localhost&lt;/code&gt;. &lt;a href=&#34;https://github.com/moby/moby/pull/45562&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/moby/moby/pull/45562/hovercard&#34;&gt;moby/moby#45562&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Apply a workaround for a containerd bug that causes concurrent &lt;code&gt;docker exec&lt;/code&gt; commands to take significantly longer than expected. &lt;a href=&#34;https://github.com/moby/moby/pull/45625&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/moby/moby/pull/45625/hovercard&#34;&gt;moby/moby#45625&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;containerd image store: Fix an issue where the image &lt;code&gt;Created&lt;/code&gt; field would contain an incorrect value. &lt;a href=&#34;https://github.com/moby/moby/pull/45623&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/moby/moby/pull/45623/hovercard&#34;&gt;moby/moby#45623&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;containerd image store: Adjust the output of image pull progress to match the output without the containerd image store enabled. &lt;a href=&#34;https://github.com/moby/moby/pull/45602&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/moby/moby/pull/45602/hovercard&#34;&gt;moby/moby#45602&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;containerd image store: Prevent switching the containerd image store feature without restarting the daemon. &lt;a href=&#34;https://github.com/moby/moby/pull/45616&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/moby/moby/pull/45616/hovercard&#34;&gt;moby/moby#45616&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3&gt;Packaging updates&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Upgrade Buildx to &lt;code&gt;v0.10.5&lt;/code&gt;. &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1721562402&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/docker/docker-ce-packaging/issues/900&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/docker/docker-ce-packaging/pull/900/hovercard&#34; href=&#34;https://github.com/docker/docker-ce-packaging/pull/900&#34;&gt;docker/docker-ce-packaging#900&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/moby/moby/releases/tag/v24.0.2" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>thaJeztah</name>
+    </author>
+  </entry>
   <entry>
     <title>Release notes from skaffold - v2.5.0</title>
     <updated>2023-05-25T23:09:34Z</updated>
@@ -1324,17 +1335,6 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from moby - v23.0.4</title>
-    <updated>2023-04-17T19:56:03Z</updated>
-    <id>tag:github.com,2008:Repository/7691631/v23.0.4</id>
-    <content type="html">&lt;h2&gt;23.0.4&lt;/h2&gt;&#xA;&lt;p&gt;For a full list of pull requests and changes in this release, refer to the relevant GitHub milestones:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/docker/cli/milestone/77?closed=1&#34;&gt;docker/cli, 23.0.4 milestone&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/moby/moby/milestone/117?closed=1&#34;&gt;moby/moby, 23.0.4 milestone&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3&gt;Bug fixes and enhancements&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Fix a performance regression in Docker CLI 23.0.0 &lt;a href=&#34;https://github.com/docker/cli/pull/4141&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/docker/cli/pull/4141/hovercard&#34;&gt;docker/cli#4141&lt;/a&gt;.&lt;/li&gt;&#xA;&lt;li&gt;Fix progress indicator on &lt;code&gt;docker cp&lt;/code&gt; not functioning as intended &lt;a href=&#34;https://github.com/docker/cli/pull/4157&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/docker/cli/pull/4157/hovercard&#34;&gt;docker/cli#4157&lt;/a&gt;.&lt;/li&gt;&#xA;&lt;li&gt;Fix shell completion for &lt;code&gt;docker compose --file&lt;/code&gt; &lt;a href=&#34;https://github.com/docker/cli/pull/4177&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/docker/cli/pull/4177/hovercard&#34;&gt;docker/cli#4177&lt;/a&gt;.&lt;/li&gt;&#xA;&lt;li&gt;Fix an error caused by incorrect handling of &#34;default-address-pools&#34; in &lt;code&gt;daemon.json&lt;/code&gt; &lt;a href=&#34;https://github.com/moby/moby/pull/45246&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/moby/moby/pull/45246/hovercard&#34;&gt;moby/moby#45246&lt;/a&gt;.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3&gt;Packaging Updates&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Fix missing packages for CentOS 9 Stream.&lt;/li&gt;&#xA;&lt;li&gt;Upgrade Go to &lt;code&gt;1.19.8&lt;/code&gt;. &lt;a href=&#34;https://github.com/docker/docker-ce-packaging/pull/878&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/docker/docker-ce-packaging/pull/878/hovercard&#34;&gt;docker/docker-ce-packaging#878&lt;/a&gt;,&lt;br&gt;&#xA;&lt;a href=&#34;https://github.com/docker/cli/pull/4164&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/docker/cli/pull/4164/hovercard&#34;&gt;docker/cli#4164&lt;/a&gt;, &lt;a href=&#34;https://github.com/moby/moby/pull/45277&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/moby/moby/pull/45277/hovercard&#34;&gt;moby/moby#45277&lt;/a&gt;,&lt;br&gt;&#xA;which contains fixes for &lt;a href=&#34;https://github.com/advisories/GHSA-fp86-2355-v99r&#34;&gt;CVE-2023-24537&lt;/a&gt;,&lt;br&gt;&#xA;&lt;a href=&#34;https://github.com/advisories/GHSA-v4m2-x4rp-hv22&#34;&gt;CVE-2023-24538&lt;/a&gt;,&lt;br&gt;&#xA;&lt;a href=&#34;https://github.com/advisories/GHSA-8v5j-pwr7-w5f8&#34;&gt;CVE-2023-24534&lt;/a&gt;,&lt;br&gt;&#xA;and &lt;a href=&#34;https://github.com/advisories/GHSA-9f7g-gqwh-jpf5&#34;&gt;CVE-2023-24536&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/moby/moby/releases/tag/v23.0.4" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>thaJeztah</name>
-    </author>
-  </entry>
-  <entry>
     <title>Release notes from swag - v2.0.0-rc1</title>
     <updated>2023-04-17T17:03:00Z</updated>
     <id>tag:github.com,2008:Repository/93928882/v2.0.0-rc1</id>
@@ -1544,22 +1544,11 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from opentelemetry-operations-go - propagator/v0.37.1: Prepare v0.37.1/1.13.1 release (#623)</title>
+    <title>Release notes from opentelemetry-operations-go - exporter/trace/v1.13.1: Prepare v0.37.1/1.13.1 release (#623)</title>
     <updated>2023-04-12T14:56:07Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/propagator/v0.37.1</id>
+    <id>tag:github.com,2008:Repository/244484581/exporter/trace/v1.13.1</id>
     <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Prepare release v0.37.1/1.13.1&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/propagator%2Fv0.37.1" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>damemi</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from opentelemetry-operations-go - example/trace/http/v0.37.1: Prepare v0.37.1/1.13.1 release (#623)</title>
-    <updated>2023-04-12T14:56:07Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/example/trace/http/v0.37.1</id>
-    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Prepare release v0.37.1/1.13.1&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/example%2Ftrace%2Fhttp%2Fv0.37.1" rel="alternate"></link>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/exporter%2Ftrace%2Fv1.13.1" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>damemi</name>
@@ -1577,44 +1566,22 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from opentelemetry-operations-go - internal/cloudmock/v0.37.1: Prepare v0.37.1/1.13.1 release (#623)</title>
+    <title>Release notes from opentelemetry-operations-go - example/metric/v0.37.1: Prepare v0.37.1/1.13.1 release (#623)</title>
     <updated>2023-04-12T14:56:07Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/internal/cloudmock/v0.37.1</id>
+    <id>tag:github.com,2008:Repository/244484581/example/metric/v0.37.1</id>
     <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Prepare release v0.37.1/1.13.1&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/internal%2Fcloudmock%2Fv0.37.1" rel="alternate"></link>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/example%2Fmetric%2Fv0.37.1" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>damemi</name>
     </author>
   </entry>
   <entry>
-    <title>Release notes from opentelemetry-operations-go - exporter/trace/v1.13.1: Prepare v0.37.1/1.13.1 release (#623)</title>
+    <title>Release notes from opentelemetry-operations-go - example/trace/http/v0.37.1: Prepare v0.37.1/1.13.1 release (#623)</title>
     <updated>2023-04-12T14:56:07Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/exporter/trace/v1.13.1</id>
+    <id>tag:github.com,2008:Repository/244484581/example/trace/http/v0.37.1</id>
     <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Prepare release v0.37.1/1.13.1&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/exporter%2Ftrace%2Fv1.13.1" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>damemi</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from opentelemetry-operations-go - exporter/metric/v0.37.1: Prepare v0.37.1/1.13.1 release (#623)</title>
-    <updated>2023-04-12T14:56:07Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/exporter/metric/v0.37.1</id>
-    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Prepare release v0.37.1/1.13.1&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/exporter%2Fmetric%2Fv0.37.1" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>damemi</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from opentelemetry-operations-go - exporter/collector/v0.37.1: Prepare v0.37.1/1.13.1 release (#623)</title>
-    <updated>2023-04-12T14:56:07Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/exporter/collector/v0.37.1</id>
-    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Prepare release v0.37.1/1.13.1&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/exporter%2Fcollector%2Fv0.37.1" rel="alternate"></link>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/example%2Ftrace%2Fhttp%2Fv0.37.1" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>damemi</name>
@@ -1632,11 +1599,44 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from opentelemetry-operations-go - example/metric/v0.37.1: Prepare v0.37.1/1.13.1 release (#623)</title>
+    <title>Release notes from opentelemetry-operations-go - exporter/collector/v0.37.1: Prepare v0.37.1/1.13.1 release (#623)</title>
     <updated>2023-04-12T14:56:07Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/example/metric/v0.37.1</id>
+    <id>tag:github.com,2008:Repository/244484581/exporter/collector/v0.37.1</id>
     <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Prepare release v0.37.1/1.13.1&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/example%2Fmetric%2Fv0.37.1" rel="alternate"></link>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/exporter%2Fcollector%2Fv0.37.1" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>damemi</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from opentelemetry-operations-go - exporter/metric/v0.37.1: Prepare v0.37.1/1.13.1 release (#623)</title>
+    <updated>2023-04-12T14:56:07Z</updated>
+    <id>tag:github.com,2008:Repository/244484581/exporter/metric/v0.37.1</id>
+    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Prepare release v0.37.1/1.13.1&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/exporter%2Fmetric%2Fv0.37.1" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>damemi</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from opentelemetry-operations-go - internal/cloudmock/v0.37.1: Prepare v0.37.1/1.13.1 release (#623)</title>
+    <updated>2023-04-12T14:56:07Z</updated>
+    <id>tag:github.com,2008:Repository/244484581/internal/cloudmock/v0.37.1</id>
+    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Prepare release v0.37.1/1.13.1&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/internal%2Fcloudmock%2Fv0.37.1" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>damemi</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from opentelemetry-operations-go - propagator/v0.37.1: Prepare v0.37.1/1.13.1 release (#623)</title>
+    <updated>2023-04-12T14:56:07Z</updated>
+    <id>tag:github.com,2008:Repository/244484581/propagator/v0.37.1</id>
+    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Prepare release v0.37.1/1.13.1&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;make fixtures&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/propagator%2Fv0.37.1" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>damemi</name>
@@ -7814,22 +7814,22 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from backoff - v2.0.2: Merge pull request #18 from lestrrat-go/topic/fix-v2-go-mod</title>
+    <title>Release notes from backoff - v2.0.3: Merge pull request #18 from lestrrat-go/topic/fix-v2-go-mod</title>
     <updated>2021-01-06T03:00:05Z</updated>
-    <id>tag:github.com,2008:Repository/118608673/v2.0.2</id>
+    <id>tag:github.com,2008:Repository/118608673/v2.0.3</id>
     <content type="html">&lt;p&gt;Fix go.mod&lt;/p&gt;</content>
-    <link href="https://github.com/lestrrat-go/backoff/releases/tag/v2.0.2" rel="alternate"></link>
+    <link href="https://github.com/lestrrat-go/backoff/releases/tag/v2.0.3" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>lestrrat</name>
     </author>
   </entry>
   <entry>
-    <title>Release notes from backoff - v2.0.3: Merge pull request #18 from lestrrat-go/topic/fix-v2-go-mod</title>
+    <title>Release notes from backoff - v2.0.2: Merge pull request #18 from lestrrat-go/topic/fix-v2-go-mod</title>
     <updated>2021-01-06T03:00:05Z</updated>
-    <id>tag:github.com,2008:Repository/118608673/v2.0.3</id>
+    <id>tag:github.com,2008:Repository/118608673/v2.0.2</id>
     <content type="html">&lt;p&gt;Fix go.mod&lt;/p&gt;</content>
-    <link href="https://github.com/lestrrat-go/backoff/releases/tag/v2.0.3" rel="alternate"></link>
+    <link href="https://github.com/lestrrat-go/backoff/releases/tag/v2.0.2" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>lestrrat</name>
