@@ -1,8 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?><feed xmlns="http://www.w3.org/2005/Atom">
   <title>Releases from Starred by toga4</title>
   <id>https://toga4.github.io/feeds/starred-releases.atom</id>
-  <updated>2023-05-31T14:14:31Z</updated>
+  <updated>2023-05-31T19:27:05Z</updated>
   <link href="https://toga4.github.io/feeds/starred-releases.atom"></link>
+  <entry>
+    <title>Release notes from connect-go - v1.8.0</title>
+    <updated>2023-05-31T19:27:05Z</updated>
+    <id>tag:github.com,2008:Repository/391811592/v1.8.0</id>
+    <content type="html">&lt;h2&gt;What&#39;s Changed&lt;/h2&gt;&#xA;&lt;h3&gt;Enhancements&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Expose HTTP method of unary requests (see &lt;a href=&#34;https://connect.build/docs/go/get-requests-and-caching#distinguishing-get-requests&#34; rel=&#34;nofollow&#34;&gt;documentation&lt;/a&gt;) by &lt;a class=&#34;user-mention notranslate&#34; data-hovercard-type=&#34;user&#34; data-hovercard-url=&#34;/users/jhump/hovercard&#34; data-octo-click=&#34;hovercard-link-click&#34; data-octo-dimensions=&#34;link_type:self&#34; href=&#34;https://github.com/jhump&#34;&gt;@jhump&lt;/a&gt; and &lt;a class=&#34;user-mention notranslate&#34; data-hovercard-type=&#34;user&#34; data-hovercard-url=&#34;/users/akshayjshah/hovercard&#34; data-octo-click=&#34;hovercard-link-click&#34; data-octo-dimensions=&#34;link_type:self&#34; href=&#34;https://github.com/akshayjshah&#34;&gt;@akshayjshah&lt;/a&gt; in &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1696618373&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/bufbuild/connect-go/issues/502&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/bufbuild/connect-go/pull/502/hovercard&#34; href=&#34;https://github.com/bufbuild/connect-go/pull/502&#34;&gt;#502&lt;/a&gt; and &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1714085523&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/bufbuild/connect-go/issues/509&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/bufbuild/connect-go/pull/509/hovercard&#34; href=&#34;https://github.com/bufbuild/connect-go/pull/509&#34;&gt;#509&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Implement &lt;code&gt;fmt.Stringer&lt;/code&gt; interface for StreamType to improve debug logging by &lt;a class=&#34;user-mention notranslate&#34; data-hovercard-type=&#34;user&#34; data-hovercard-url=&#34;/users/svrana/hovercard&#34; data-octo-click=&#34;hovercard-link-click&#34; data-octo-dimensions=&#34;link_type:self&#34; href=&#34;https://github.com/svrana&#34;&gt;@svrana&lt;/a&gt; in &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1659581409&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/bufbuild/connect-go/issues/495&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/bufbuild/connect-go/pull/495/hovercard&#34; href=&#34;https://github.com/bufbuild/connect-go/pull/495&#34;&gt;#495&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3&gt;Bugfixes&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Fix documentation comments to use correct identifier name by &lt;a class=&#34;user-mention notranslate&#34; data-hovercard-type=&#34;user&#34; data-hovercard-url=&#34;/users/cuishuang/hovercard&#34; data-octo-click=&#34;hovercard-link-click&#34; data-octo-dimensions=&#34;link_type:self&#34; href=&#34;https://github.com/cuishuang&#34;&gt;@cuishuang&lt;/a&gt; in &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1678151165&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/bufbuild/connect-go/issues/498&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/bufbuild/connect-go/pull/498/hovercard&#34; href=&#34;https://github.com/bufbuild/connect-go/pull/498&#34;&gt;#498&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Fix Makefile quotes to handle paths with spaces by &lt;a class=&#34;user-mention notranslate&#34; data-hovercard-type=&#34;user&#34; data-hovercard-url=&#34;/users/bufdev/hovercard&#34; data-octo-click=&#34;hovercard-link-click&#34; data-octo-dimensions=&#34;link_type:self&#34; href=&#34;https://github.com/bufdev&#34;&gt;@bufdev&lt;/a&gt; in &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1707834416&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/bufbuild/connect-go/issues/508&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/bufbuild/connect-go/pull/508/hovercard&#34; href=&#34;https://github.com/bufbuild/connect-go/pull/508&#34;&gt;#508&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Always close response body in &lt;code&gt;CloseRead&lt;/code&gt; by &lt;a class=&#34;user-mention notranslate&#34; data-hovercard-type=&#34;user&#34; data-hovercard-url=&#34;/users/pkwarren/hovercard&#34; data-octo-click=&#34;hovercard-link-click&#34; data-octo-dimensions=&#34;link_type:self&#34; href=&#34;https://github.com/pkwarren&#34;&gt;@pkwarren&lt;/a&gt; in &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1732523149&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/bufbuild/connect-go/issues/515&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/bufbuild/connect-go/pull/515/hovercard&#34; href=&#34;https://github.com/bufbuild/connect-go/pull/515&#34;&gt;#515&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2&gt;New Contributors&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a class=&#34;user-mention notranslate&#34; data-hovercard-type=&#34;user&#34; data-hovercard-url=&#34;/users/cuishuang/hovercard&#34; data-octo-click=&#34;hovercard-link-click&#34; data-octo-dimensions=&#34;link_type:self&#34; href=&#34;https://github.com/cuishuang&#34;&gt;@cuishuang&lt;/a&gt; made their first contribution in &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1678151165&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/bufbuild/connect-go/issues/498&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/bufbuild/connect-go/pull/498/hovercard&#34; href=&#34;https://github.com/bufbuild/connect-go/pull/498&#34;&gt;#498&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a class=&#34;user-mention notranslate&#34; data-hovercard-type=&#34;user&#34; data-hovercard-url=&#34;/users/svrana/hovercard&#34; data-octo-click=&#34;hovercard-link-click&#34; data-octo-dimensions=&#34;link_type:self&#34; href=&#34;https://github.com/svrana&#34;&gt;@svrana&lt;/a&gt; made their first contribution in &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1659581409&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/bufbuild/connect-go/issues/495&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/bufbuild/connect-go/pull/495/hovercard&#34; href=&#34;https://github.com/bufbuild/connect-go/pull/495&#34;&gt;#495&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: &lt;a class=&#34;commit-link&#34; href=&#34;https://github.com/bufbuild/connect-go/compare/v1.7.0...v1.8.0&#34;&gt;&lt;tt&gt;v1.7.0...v1.8.0&lt;/tt&gt;&lt;/a&gt;&lt;/p&gt;</content>
+    <link href="https://github.com/bufbuild/connect-go/releases/tag/v1.8.0" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>jchadwick-buf</name>
+    </author>
+  </entry>
   <entry>
     <title>Release notes from miniredis - ZMSCORE, lua error_reply, lua cache</title>
     <updated>2023-05-31T14:14:31Z</updated>
@@ -70,17 +81,6 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from opentelemetry-operations-go - propagator/v0.39.0</title>
-    <updated>2023-05-30T18:54:22Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/propagator/v0.39.0</id>
-    <content type="html">&lt;p&gt;Prepare release v0.39.0/1.15.0 (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1732716916&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/636&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleCloudPlatform/opentelemetry-operations-go/pull/636/hovercard&#34; href=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/pull/636&#34;&gt;#636&lt;/a&gt;)&lt;/p&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/propagator%2Fv0.39.0" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>damemi</name>
-    </author>
-  </entry>
-  <entry>
     <title>Release notes from opentelemetry-operations-go - internal/resourcemapping/v0.39.0</title>
     <updated>2023-05-30T18:54:22Z</updated>
     <id>tag:github.com,2008:Repository/244484581/internal/resourcemapping/v0.39.0</id>
@@ -108,6 +108,17 @@
     <id>tag:github.com,2008:Repository/244484581/internal/cloudmock/v0.39.0</id>
     <content type="html">&lt;p&gt;Prepare release v0.39.0/1.15.0 (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1732716916&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/636&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleCloudPlatform/opentelemetry-operations-go/pull/636/hovercard&#34; href=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/pull/636&#34;&gt;#636&lt;/a&gt;)&lt;/p&gt;</content>
     <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/internal%2Fcloudmock%2Fv0.39.0" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>damemi</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from opentelemetry-operations-go - propagator/v0.39.0</title>
+    <updated>2023-05-30T18:54:22Z</updated>
+    <id>tag:github.com,2008:Repository/244484581/propagator/v0.39.0</id>
+    <content type="html">&lt;p&gt;Prepare release v0.39.0/1.15.0 (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1732716916&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/636&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleCloudPlatform/opentelemetry-operations-go/pull/636/hovercard&#34; href=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/pull/636&#34;&gt;#636&lt;/a&gt;)&lt;/p&gt;</content>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/propagator%2Fv0.39.0" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>damemi</name>
@@ -4423,17 +4434,6 @@
     <summary type="html"></summary>
     <author>
       <name>dmitry-shibanov</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from connect-go - v1.3.0</title>
-    <updated>2022-11-30T22:28:59Z</updated>
-    <id>tag:github.com,2008:Repository/391811592/v1.3.0</id>
-    <content type="html">&lt;h2&gt;What&#39;s Changed&lt;/h2&gt;&#xA;&lt;h3&gt;Enhancements&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Ensure streaming &lt;code&gt;http.ResponseWriters&lt;/code&gt; implement &lt;code&gt;http.Flusher&lt;/code&gt; by &lt;a class=&#34;user-mention notranslate&#34; data-hovercard-type=&#34;user&#34; data-hovercard-url=&#34;/users/akshayjshah/hovercard&#34; data-octo-click=&#34;hovercard-link-click&#34; data-octo-dimensions=&#34;link_type:self&#34; href=&#34;https://github.com/akshayjshah&#34;&gt;@akshayjshah&lt;/a&gt; in &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1466868656&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/bufbuild/connect-go/issues/406&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/bufbuild/connect-go/pull/406/hovercard&#34; href=&#34;https://github.com/bufbuild/connect-go/pull/406&#34;&gt;#406&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Close TLS connection when HTTP/1.1 clients call bidi methods by &lt;a class=&#34;user-mention notranslate&#34; data-hovercard-type=&#34;user&#34; data-hovercard-url=&#34;/users/akshayjshah/hovercard&#34; data-octo-click=&#34;hovercard-link-click&#34; data-octo-dimensions=&#34;link_type:self&#34; href=&#34;https://github.com/akshayjshah&#34;&gt;@akshayjshah&lt;/a&gt; in &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1470127979&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/bufbuild/connect-go/issues/408&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/bufbuild/connect-go/pull/408/hovercard&#34; href=&#34;https://github.com/bufbuild/connect-go/pull/408&#34;&gt;#408&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: &lt;a class=&#34;commit-link&#34; href=&#34;https://github.com/bufbuild/connect-go/compare/v1.2.0...v1.3.0&#34;&gt;&lt;tt&gt;v1.2.0...v1.3.0&lt;/tt&gt;&lt;/a&gt;&lt;/p&gt;</content>
-    <link href="https://github.com/bufbuild/connect-go/releases/tag/v1.3.0" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>akshayjshah</name>
     </author>
   </entry>
   <entry>
