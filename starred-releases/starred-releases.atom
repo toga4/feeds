@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?><feed xmlns="http://www.w3.org/2005/Atom">
   <title>Releases from Starred by toga4</title>
   <id>https://toga4.github.io/feeds/starred-releases.atom</id>
-  <updated>2023-06-02T09:01:43Z</updated>
+  <updated>2023-06-02T09:25:33Z</updated>
   <link href="https://toga4.github.io/feeds/starred-releases.atom"></link>
   <entry>
-    <title>Release notes from golangci-lint - v1.53.1: importas: fix duplication detection when aliases use regular expressi…</title>
-    <updated>2023-06-02T09:01:43Z</updated>
+    <title>Release notes from golangci-lint - v1.53.1</title>
+    <updated>2023-06-02T09:25:33Z</updated>
     <id>tag:github.com,2008:Repository/132145189/v1.53.1</id>
-    <content type="html">&lt;p&gt;…on replacement pattern (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1737738302&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/golangci/golangci-lint/issues/3869&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/golangci/golangci-lint/pull/3869/hovercard&#34; href=&#34;https://github.com/golangci/golangci-lint/pull/3869&#34;&gt;#3869&lt;/a&gt;)&lt;/p&gt;</content>
+    <content type="html">&lt;p&gt;golangci-lint is a free and open-source project, built by people in their free time.&lt;br&gt;&#xA;Also, the &lt;a href=&#34;https://golangci-lint.run/product/thanks/&#34; rel=&#34;nofollow&#34;&gt;linter authors&lt;/a&gt; are an important part of golangci-lint.&lt;br&gt;&#xA;If you use and appreciate golangci-lint please think to support us (golangci-lint maintainers and linters authors). &lt;g-emoji class=&#34;g-emoji&#34; alias=&#34;heart&#34; fallback-src=&#34;https://github.githubassets.com/images/icons/emoji/unicode/2764.png&#34;&gt;❤️&lt;/g-emoji&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://golangci-lint.run/product/thanks/&#34; rel=&#34;nofollow&#34;&gt;https://golangci-lint.run/product/thanks/&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h2&gt;Changelog&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a class=&#34;commit-link&#34; data-hovercard-type=&#34;commit&#34; data-hovercard-url=&#34;https://github.com/golangci/golangci-lint/commit/dd7c3d1a0fb90ee9a8f57b4c38b77d76930dc4de/hovercard&#34; href=&#34;https://github.com/golangci/golangci-lint/commit/dd7c3d1a0fb90ee9a8f57b4c38b77d76930dc4de&#34;&gt;&lt;tt&gt;dd7c3d1&lt;/tt&gt;&lt;/a&gt; depguard: fix GOROOT detection (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1737263875&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/golangci/golangci-lint/issues/3866&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/golangci/golangci-lint/pull/3866/hovercard&#34; href=&#34;https://github.com/golangci/golangci-lint/pull/3866&#34;&gt;#3866&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;&lt;a class=&#34;commit-link&#34; data-hovercard-type=&#34;commit&#34; data-hovercard-url=&#34;https://github.com/golangci/golangci-lint/commit/e5243324a620daa5f0b52231f08526eec60597fe/hovercard&#34; href=&#34;https://github.com/golangci/golangci-lint/commit/e5243324a620daa5f0b52231f08526eec60597fe&#34;&gt;&lt;tt&gt;e524332&lt;/tt&gt;&lt;/a&gt; importas: fix duplication detection when aliases use regular expression replacement pattern (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1737738302&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/golangci/golangci-lint/issues/3869&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/golangci/golangci-lint/pull/3869/hovercard&#34; href=&#34;https://github.com/golangci/golangci-lint/pull/3869&#34;&gt;#3869&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
     <link href="https://github.com/golangci/golangci-lint/releases/tag/v1.53.1" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
-      <name>ldez</name>
+      <name>golangci-releaser</name>
     </author>
   </entry>
   <entry>
@@ -147,11 +147,22 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from opentelemetry-operations-go - exporter/trace/v1.15.0</title>
+    <title>Release notes from opentelemetry-operations-go - propagator/v0.39.0</title>
     <updated>2023-05-30T18:54:22Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/exporter/trace/v1.15.0</id>
+    <id>tag:github.com,2008:Repository/244484581/propagator/v0.39.0</id>
     <content type="html">&lt;p&gt;Prepare release v0.39.0/1.15.0 (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1732716916&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/636&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleCloudPlatform/opentelemetry-operations-go/pull/636/hovercard&#34; href=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/pull/636&#34;&gt;#636&lt;/a&gt;)&lt;/p&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/exporter%2Ftrace%2Fv1.15.0" rel="alternate"></link>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/propagator%2Fv0.39.0" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>damemi</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from opentelemetry-operations-go - internal/resourcemapping/v0.39.0</title>
+    <updated>2023-05-30T18:54:22Z</updated>
+    <id>tag:github.com,2008:Repository/244484581/internal/resourcemapping/v0.39.0</id>
+    <content type="html">&lt;p&gt;Prepare release v0.39.0/1.15.0 (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1732716916&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/636&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleCloudPlatform/opentelemetry-operations-go/pull/636/hovercard&#34; href=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/pull/636&#34;&gt;#636&lt;/a&gt;)&lt;/p&gt;</content>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/internal%2Fresourcemapping%2Fv0.39.0" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>damemi</name>
@@ -169,22 +180,11 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from opentelemetry-operations-go - propagator/v0.39.0</title>
+    <title>Release notes from opentelemetry-operations-go - exporter/trace/v1.15.0</title>
     <updated>2023-05-30T18:54:22Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/propagator/v0.39.0</id>
+    <id>tag:github.com,2008:Repository/244484581/exporter/trace/v1.15.0</id>
     <content type="html">&lt;p&gt;Prepare release v0.39.0/1.15.0 (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1732716916&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/636&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleCloudPlatform/opentelemetry-operations-go/pull/636/hovercard&#34; href=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/pull/636&#34;&gt;#636&lt;/a&gt;)&lt;/p&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/propagator%2Fv0.39.0" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>damemi</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from opentelemetry-operations-go - internal/resourcemapping/v0.39.0</title>
-    <updated>2023-05-30T18:54:22Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/internal/resourcemapping/v0.39.0</id>
-    <content type="html">&lt;p&gt;Prepare release v0.39.0/1.15.0 (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1732716916&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/636&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleCloudPlatform/opentelemetry-operations-go/pull/636/hovercard&#34; href=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/pull/636&#34;&gt;#636&lt;/a&gt;)&lt;/p&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/internal%2Fresourcemapping%2Fv0.39.0" rel="alternate"></link>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/exporter%2Ftrace%2Fv1.15.0" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>damemi</name>
@@ -235,6 +235,17 @@
     </author>
   </entry>
   <entry>
+    <title>Release notes from opentelemetry-operations-go - internal/resourcemapping/v0.38.0</title>
+    <updated>2023-05-30T16:48:20Z</updated>
+    <id>tag:github.com,2008:Repository/244484581/internal/resourcemapping/v0.38.0</id>
+    <content type="html">&lt;p&gt;Prepare release v0.38.0/v1.14.0 (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1732547465&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/634&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleCloudPlatform/opentelemetry-operations-go/pull/634/hovercard&#34; href=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/pull/634&#34;&gt;#634&lt;/a&gt;)&lt;/p&gt;</content>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/internal%2Fresourcemapping%2Fv0.38.0" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>damemi</name>
+    </author>
+  </entry>
+  <entry>
     <title>Release notes from opentelemetry-operations-go - internal/cloudmock/v0.38.0</title>
     <updated>2023-05-30T16:48:20Z</updated>
     <id>tag:github.com,2008:Repository/244484581/internal/cloudmock/v0.38.0</id>
@@ -251,17 +262,6 @@
     <id>tag:github.com,2008:Repository/244484581/exporter/trace/v1.14.0</id>
     <content type="html">&lt;p&gt;Prepare release v0.38.0/v1.14.0 (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1732547465&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/634&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleCloudPlatform/opentelemetry-operations-go/pull/634/hovercard&#34; href=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/pull/634&#34;&gt;#634&lt;/a&gt;)&lt;/p&gt;</content>
     <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/exporter%2Ftrace%2Fv1.14.0" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>damemi</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from opentelemetry-operations-go - internal/resourcemapping/v0.38.0</title>
-    <updated>2023-05-30T16:48:20Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/internal/resourcemapping/v0.38.0</id>
-    <content type="html">&lt;p&gt;Prepare release v0.38.0/v1.14.0 (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1732547465&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/634&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleCloudPlatform/opentelemetry-operations-go/pull/634/hovercard&#34; href=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/pull/634&#34;&gt;#634&lt;/a&gt;)&lt;/p&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/internal%2Fresourcemapping%2Fv0.38.0" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>damemi</name>
