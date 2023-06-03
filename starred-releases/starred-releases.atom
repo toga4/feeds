@@ -1,8 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?><feed xmlns="http://www.w3.org/2005/Atom">
   <title>Releases from Starred by toga4</title>
   <id>https://toga4.github.io/feeds/starred-releases.atom</id>
-  <updated>2023-06-02T15:54:54Z</updated>
+  <updated>2023-06-03T08:24:13Z</updated>
   <link href="https://toga4.github.io/feeds/starred-releases.atom"></link>
+  <entry>
+    <title>Release notes from handy-spanner - v0.7.2</title>
+    <updated>2023-06-03T08:24:13Z</updated>
+    <id>tag:github.com,2008:Repository/212796897/v0.7.2</id>
+    <content type="html">&lt;h2&gt;What&#39;s Changed&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;support current_timestamp() and current_date() in default by &lt;a class=&#34;user-mention notranslate&#34; data-hovercard-type=&#34;user&#34; data-hovercard-url=&#34;/users/kazegusuri/hovercard&#34; data-octo-click=&#34;hovercard-link-click&#34; data-octo-dimensions=&#34;link_type:self&#34; href=&#34;https://github.com/kazegusuri&#34;&gt;@kazegusuri&lt;/a&gt; in &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1701754264&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/gcpug/handy-spanner/issues/91&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/gcpug/handy-spanner/pull/91/hovercard&#34; href=&#34;https://github.com/gcpug/handy-spanner/pull/91&#34;&gt;#91&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;free inline transaction when the request failed by &lt;a class=&#34;user-mention notranslate&#34; data-hovercard-type=&#34;user&#34; data-hovercard-url=&#34;/users/kazegusuri/hovercard&#34; data-octo-click=&#34;hovercard-link-click&#34; data-octo-dimensions=&#34;link_type:self&#34; href=&#34;https://github.com/kazegusuri&#34;&gt;@kazegusuri&lt;/a&gt; in &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1739278086&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/gcpug/handy-spanner/issues/94&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/gcpug/handy-spanner/pull/94/hovercard&#34; href=&#34;https://github.com/gcpug/handy-spanner/pull/94&#34;&gt;#94&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: &lt;a class=&#34;commit-link&#34; href=&#34;https://github.com/gcpug/handy-spanner/compare/v0.7.1...v0.7.2&#34;&gt;&lt;tt&gt;v0.7.1...v0.7.2&lt;/tt&gt;&lt;/a&gt;&lt;/p&gt;</content>
+    <link href="https://github.com/gcpug/handy-spanner/releases/tag/v0.7.2" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>kazegusuri</name>
+    </author>
+  </entry>
   <entry>
     <title>Release notes from air - v1.44.0</title>
     <updated>2023-06-02T15:54:54Z</updated>
@@ -158,17 +169,6 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from opentelemetry-operations-go - internal/resourcemapping/v0.39.0</title>
-    <updated>2023-05-30T18:54:22Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/internal/resourcemapping/v0.39.0</id>
-    <content type="html">&lt;p&gt;Prepare release v0.39.0/1.15.0 (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1732716916&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/636&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleCloudPlatform/opentelemetry-operations-go/pull/636/hovercard&#34; href=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/pull/636&#34;&gt;#636&lt;/a&gt;)&lt;/p&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/internal%2Fresourcemapping%2Fv0.39.0" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>damemi</name>
-    </author>
-  </entry>
-  <entry>
     <title>Release notes from opentelemetry-operations-go - exporter/trace/v1.15.0</title>
     <updated>2023-05-30T18:54:22Z</updated>
     <id>tag:github.com,2008:Repository/244484581/exporter/trace/v1.15.0</id>
@@ -180,22 +180,33 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from opentelemetry-operations-go - propagator/v0.39.0</title>
+    <title>Release notes from opentelemetry-operations-go - internal/cloudmock/v0.39.0</title>
     <updated>2023-05-30T18:54:22Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/propagator/v0.39.0</id>
+    <id>tag:github.com,2008:Repository/244484581/internal/cloudmock/v0.39.0</id>
     <content type="html">&lt;p&gt;Prepare release v0.39.0/1.15.0 (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1732716916&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/636&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleCloudPlatform/opentelemetry-operations-go/pull/636/hovercard&#34; href=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/pull/636&#34;&gt;#636&lt;/a&gt;)&lt;/p&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/propagator%2Fv0.39.0" rel="alternate"></link>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/internal%2Fcloudmock%2Fv0.39.0" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>damemi</name>
     </author>
   </entry>
   <entry>
-    <title>Release notes from opentelemetry-operations-go - internal/cloudmock/v0.39.0</title>
+    <title>Release notes from opentelemetry-operations-go - internal/resourcemapping/v0.39.0</title>
     <updated>2023-05-30T18:54:22Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/internal/cloudmock/v0.39.0</id>
+    <id>tag:github.com,2008:Repository/244484581/internal/resourcemapping/v0.39.0</id>
     <content type="html">&lt;p&gt;Prepare release v0.39.0/1.15.0 (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1732716916&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/636&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleCloudPlatform/opentelemetry-operations-go/pull/636/hovercard&#34; href=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/pull/636&#34;&gt;#636&lt;/a&gt;)&lt;/p&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/internal%2Fcloudmock%2Fv0.39.0" rel="alternate"></link>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/internal%2Fresourcemapping%2Fv0.39.0" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>damemi</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from opentelemetry-operations-go - propagator/v0.39.0</title>
+    <updated>2023-05-30T18:54:22Z</updated>
+    <id>tag:github.com,2008:Repository/244484581/propagator/v0.39.0</id>
+    <content type="html">&lt;p&gt;Prepare release v0.39.0/1.15.0 (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1732716916&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/636&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleCloudPlatform/opentelemetry-operations-go/pull/636/hovercard&#34; href=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/pull/636&#34;&gt;#636&lt;/a&gt;)&lt;/p&gt;</content>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/propagator%2Fv0.39.0" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>damemi</name>
@@ -235,28 +246,6 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from opentelemetry-operations-go - propagator/v0.38.0</title>
-    <updated>2023-05-30T16:48:20Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/propagator/v0.38.0</id>
-    <content type="html">&lt;p&gt;Prepare release v0.38.0/v1.14.0 (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1732547465&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/634&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleCloudPlatform/opentelemetry-operations-go/pull/634/hovercard&#34; href=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/pull/634&#34;&gt;#634&lt;/a&gt;)&lt;/p&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/propagator%2Fv0.38.0" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>damemi</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from opentelemetry-operations-go - internal/resourcemapping/v0.38.0</title>
-    <updated>2023-05-30T16:48:20Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/internal/resourcemapping/v0.38.0</id>
-    <content type="html">&lt;p&gt;Prepare release v0.38.0/v1.14.0 (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1732547465&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/634&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleCloudPlatform/opentelemetry-operations-go/pull/634/hovercard&#34; href=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/pull/634&#34;&gt;#634&lt;/a&gt;)&lt;/p&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/internal%2Fresourcemapping%2Fv0.38.0" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>damemi</name>
-    </author>
-  </entry>
-  <entry>
     <title>Release notes from opentelemetry-operations-go - internal/cloudmock/v0.38.0</title>
     <updated>2023-05-30T16:48:20Z</updated>
     <id>tag:github.com,2008:Repository/244484581/internal/cloudmock/v0.38.0</id>
@@ -273,6 +262,28 @@
     <id>tag:github.com,2008:Repository/244484581/exporter/trace/v1.14.0</id>
     <content type="html">&lt;p&gt;Prepare release v0.38.0/v1.14.0 (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1732547465&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/634&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleCloudPlatform/opentelemetry-operations-go/pull/634/hovercard&#34; href=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/pull/634&#34;&gt;#634&lt;/a&gt;)&lt;/p&gt;</content>
     <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/exporter%2Ftrace%2Fv1.14.0" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>damemi</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from opentelemetry-operations-go - propagator/v0.38.0</title>
+    <updated>2023-05-30T16:48:20Z</updated>
+    <id>tag:github.com,2008:Repository/244484581/propagator/v0.38.0</id>
+    <content type="html">&lt;p&gt;Prepare release v0.38.0/v1.14.0 (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1732547465&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/634&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleCloudPlatform/opentelemetry-operations-go/pull/634/hovercard&#34; href=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/pull/634&#34;&gt;#634&lt;/a&gt;)&lt;/p&gt;</content>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/propagator%2Fv0.38.0" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>damemi</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from opentelemetry-operations-go - internal/resourcemapping/v0.38.0</title>
+    <updated>2023-05-30T16:48:20Z</updated>
+    <id>tag:github.com,2008:Repository/244484581/internal/resourcemapping/v0.38.0</id>
+    <content type="html">&lt;p&gt;Prepare release v0.38.0/v1.14.0 (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1732547465&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/634&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleCloudPlatform/opentelemetry-operations-go/pull/634/hovercard&#34; href=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/pull/634&#34;&gt;#634&lt;/a&gt;)&lt;/p&gt;</content>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/internal%2Fresourcemapping%2Fv0.38.0" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>damemi</name>
@@ -7462,22 +7473,22 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from triangula - v1.1.6</title>
+    <title>Release notes from triangula - v1.1.5</title>
     <updated>2021-05-11T13:31:09Z</updated>
-    <id>tag:github.com,2008:Repository/354015172/v1.1.6</id>
+    <id>tag:github.com,2008:Repository/354015172/v1.1.5</id>
     <content type="html">&lt;p&gt;Refactor for more flexibility&lt;/p&gt;</content>
-    <link href="https://github.com/rh12503/triangula/releases/tag/v1.1.6" rel="alternate"></link>
+    <link href="https://github.com/rh12503/triangula/releases/tag/v1.1.5" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>rh12503</name>
     </author>
   </entry>
   <entry>
-    <title>Release notes from triangula - v1.1.5</title>
+    <title>Release notes from triangula - v1.1.6</title>
     <updated>2021-05-11T13:31:09Z</updated>
-    <id>tag:github.com,2008:Repository/354015172/v1.1.5</id>
+    <id>tag:github.com,2008:Repository/354015172/v1.1.6</id>
     <content type="html">&lt;p&gt;Refactor for more flexibility&lt;/p&gt;</content>
-    <link href="https://github.com/rh12503/triangula/releases/tag/v1.1.5" rel="alternate"></link>
+    <link href="https://github.com/rh12503/triangula/releases/tag/v1.1.6" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>rh12503</name>
@@ -8281,17 +8292,6 @@
     <id>tag:github.com,2008:Repository/212796897/v0.6.2</id>
     <content type="html">&lt;p&gt;Fix data race when creating a table&lt;/p&gt;</content>
     <link href="https://github.com/gcpug/handy-spanner/releases/tag/v0.6.2" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>kazegusuri</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from handy-spanner - v0.6.1</title>
-    <updated>2020-04-29T11:08:10Z</updated>
-    <id>tag:github.com,2008:Repository/212796897/v0.6.1</id>
-    <content type="html">&lt;p&gt;Fix a boundary bug cause by &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;608811312&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/gcpug/handy-spanner/issues/63&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/gcpug/handy-spanner/pull/63/hovercard&#34; href=&#34;https://github.com/gcpug/handy-spanner/pull/63&#34;&gt;#63&lt;/a&gt;&lt;/p&gt;</content>
-    <link href="https://github.com/gcpug/handy-spanner/releases/tag/v0.6.1" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>kazegusuri</name>
