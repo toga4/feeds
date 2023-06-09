@@ -1,8 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?><feed xmlns="http://www.w3.org/2005/Atom">
   <title>Releases from Starred by toga4</title>
   <id>https://toga4.github.io/feeds/starred-releases.atom</id>
-  <updated>2023-06-08T10:54:27Z</updated>
+  <updated>2023-06-09T10:52:04Z</updated>
   <link href="https://toga4.github.io/feeds/starred-releases.atom"></link>
+  <entry>
+    <title>Release notes from build-push-action - v4.1.0</title>
+    <updated>2023-06-09T10:52:04Z</updated>
+    <id>tag:github.com,2008:Repository/241092383/v4.1.0</id>
+    <content type="html">&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;span class=&#34;color-fg-accent&#34;&gt;&lt;svg class=&#34;octicon octicon-info mr-2&#34; viewBox=&#34;0 0 16 16&#34; version=&#34;1.1&#34; width=&#34;16&#34; height=&#34;16&#34; aria-hidden=&#34;true&#34;&gt;&lt;path d=&#34;M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8Zm8-6.5a6.5 6.5 0 1 0 0 13 6.5 6.5 0 0 0 0-13ZM6.5 7.75A.75.75 0 0 1 7.25 7h1a.75.75 0 0 1 .75.75v2.75h.25a.75.75 0 0 1 0 1.5h-2a.75.75 0 0 1 0-1.5h.25v-2h-.25a.75.75 0 0 1-.75-.75ZM8 6a1 1 0 1 1 0-2 1 1 0 0 1 0 2Z&#34;&gt;&lt;/path&gt;&lt;/svg&gt;Note&lt;/span&gt;&lt;/p&gt;&#xA;&lt;p&gt;Buildx v0.10 enables support for a minimal &lt;a href=&#34;https://slsa.dev/provenance/&#34; rel=&#34;nofollow&#34;&gt;SLSA Provenance&lt;/a&gt; attestation, which requires support for &lt;a href=&#34;https://github.com/opencontainers/image-spec&#34;&gt;OCI-compliant&lt;/a&gt; multi-platform images. This may introduce issues with registry and runtime support (e.g. &lt;a href=&#34;https://github.com/docker/buildx/issues/1533&#34; data-hovercard-type=&#34;issue&#34; data-hovercard-url=&#34;/docker/buildx/issues/1533/hovercard&#34;&gt;Google Cloud Run and AWS Lambda&lt;/a&gt;). You can optionally disable the default provenance attestation functionality using &lt;code&gt;provenance: false&lt;/code&gt;.&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Switch to actions-toolkit implementation by &lt;a class=&#34;user-mention notranslate&#34; data-hovercard-type=&#34;user&#34; data-hovercard-url=&#34;/users/crazy-max/hovercard&#34; data-octo-click=&#34;hovercard-link-click&#34; data-octo-dimensions=&#34;link_type:self&#34; href=&#34;https://github.com/crazy-max&#34;&gt;@crazy-max&lt;/a&gt; in &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1591518289&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/docker/build-push-action/issues/811&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/docker/build-push-action/pull/811/hovercard&#34; href=&#34;https://github.com/docker/build-push-action/pull/811&#34;&gt;#811&lt;/a&gt;  &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1620523779&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/docker/build-push-action/issues/838&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/docker/build-push-action/pull/838/hovercard&#34; href=&#34;https://github.com/docker/build-push-action/pull/838&#34;&gt;#838&lt;/a&gt; &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1662325852&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/docker/build-push-action/issues/855&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/docker/build-push-action/pull/855/hovercard&#34; href=&#34;https://github.com/docker/build-push-action/pull/855&#34;&gt;#855&lt;/a&gt; &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1674753237&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/docker/build-push-action/issues/860&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/docker/build-push-action/pull/860/hovercard&#34; href=&#34;https://github.com/docker/build-push-action/pull/860&#34;&gt;#860&lt;/a&gt; &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1746049169&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/docker/build-push-action/issues/875&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/docker/build-push-action/pull/875/hovercard&#34; href=&#34;https://github.com/docker/build-push-action/pull/875&#34;&gt;#875&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;e2e: quay.io by &lt;a class=&#34;user-mention notranslate&#34; data-hovercard-type=&#34;user&#34; data-hovercard-url=&#34;/users/crazy-max/hovercard&#34; data-octo-click=&#34;hovercard-link-click&#34; data-octo-dimensions=&#34;link_type:self&#34; href=&#34;https://github.com/crazy-max&#34;&gt;@crazy-max&lt;/a&gt; in &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1577752031&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/docker/build-push-action/issues/799&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/docker/build-push-action/pull/799/hovercard&#34; href=&#34;https://github.com/docker/build-push-action/pull/799&#34;&gt;#799&lt;/a&gt; &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1586336812&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/docker/build-push-action/issues/805&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/docker/build-push-action/pull/805/hovercard&#34; href=&#34;https://github.com/docker/build-push-action/pull/805&#34;&gt;#805&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;e2e: local harbor and nexus by &lt;a class=&#34;user-mention notranslate&#34; data-hovercard-type=&#34;user&#34; data-hovercard-url=&#34;/users/crazy-max/hovercard&#34; data-octo-click=&#34;hovercard-link-click&#34; data-octo-dimensions=&#34;link_type:self&#34; href=&#34;https://github.com/crazy-max&#34;&gt;@crazy-max&lt;/a&gt; in &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1579008068&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/docker/build-push-action/issues/800&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/docker/build-push-action/pull/800/hovercard&#34; href=&#34;https://github.com/docker/build-push-action/pull/800&#34;&gt;#800&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;e2e: add artifactory container registry to test against by &lt;a class=&#34;user-mention notranslate&#34; data-hovercard-type=&#34;user&#34; data-hovercard-url=&#34;/users/jedevc/hovercard&#34; data-octo-click=&#34;hovercard-link-click&#34; data-octo-dimensions=&#34;link_type:self&#34; href=&#34;https://github.com/jedevc&#34;&gt;@jedevc&lt;/a&gt; in &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1585635648&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/docker/build-push-action/issues/804&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/docker/build-push-action/pull/804/hovercard&#34; href=&#34;https://github.com/docker/build-push-action/pull/804&#34;&gt;#804&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;e2e: add distribution tests by &lt;a class=&#34;user-mention notranslate&#34; data-hovercard-type=&#34;user&#34; data-hovercard-url=&#34;/users/jedevc/hovercard&#34; data-octo-click=&#34;hovercard-link-click&#34; data-octo-dimensions=&#34;link_type:self&#34; href=&#34;https://github.com/jedevc&#34;&gt;@jedevc&lt;/a&gt; in &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1594979746&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/docker/build-push-action/issues/814&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/docker/build-push-action/pull/814/hovercard&#34; href=&#34;https://github.com/docker/build-push-action/pull/814&#34;&gt;#814&lt;/a&gt; &lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1595036452&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/docker/build-push-action/issues/815&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/docker/build-push-action/pull/815/hovercard&#34; href=&#34;https://github.com/docker/build-push-action/pull/815&#34;&gt;#815&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: &lt;a class=&#34;commit-link&#34; href=&#34;https://github.com/docker/build-push-action/compare/v4.0.0...v4.1.0&#34;&gt;&lt;tt&gt;v4.0.0...v4.1.0&lt;/tt&gt;&lt;/a&gt;&lt;/p&gt;</content>
+    <link href="https://github.com/docker/build-push-action/releases/tag/v4.1.0" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>crazy-max</name>
+    </author>
+  </entry>
   <entry>
     <title>Release notes from cloud-spanner-emulator - v1.5.6</title>
     <updated>2023-06-08T10:54:27Z</updated>
@@ -12,6 +23,17 @@
     <summary type="html"></summary>
     <author>
       <name>gauravpurohit06</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from build-push-action - v4: Merge pull request #875 from docker/dependabot/npm_and_yarn/docker/ac…</title>
+    <updated>2023-06-07T14:44:03Z</updated>
+    <id>tag:github.com,2008:Repository/241092383/v4</id>
+    <content type="html">&lt;p&gt;…tions-toolkit-0.3.0&lt;/p&gt;&#xA;&lt;p&gt;chore(deps): Bump @docker/actions-toolkit from 0.2.0 to 0.3.0&lt;/p&gt;</content>
+    <link href="https://github.com/docker/build-push-action/releases/tag/v4" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>crazy-max</name>
     </author>
   </entry>
   <entry>
@@ -455,28 +477,6 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from opentelemetry-operations-go - exporter/trace/v1.15.0</title>
-    <updated>2023-05-30T18:54:22Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/exporter/trace/v1.15.0</id>
-    <content type="html">&lt;p&gt;Prepare release v0.39.0/1.15.0 (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1732716916&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/636&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleCloudPlatform/opentelemetry-operations-go/pull/636/hovercard&#34; href=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/pull/636&#34;&gt;#636&lt;/a&gt;)&lt;/p&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/exporter%2Ftrace%2Fv1.15.0" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>damemi</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from opentelemetry-operations-go - internal/cloudmock/v0.39.0</title>
-    <updated>2023-05-30T18:54:22Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/internal/cloudmock/v0.39.0</id>
-    <content type="html">&lt;p&gt;Prepare release v0.39.0/1.15.0 (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1732716916&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/636&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleCloudPlatform/opentelemetry-operations-go/pull/636/hovercard&#34; href=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/pull/636&#34;&gt;#636&lt;/a&gt;)&lt;/p&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/internal%2Fcloudmock%2Fv0.39.0" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>damemi</name>
-    </author>
-  </entry>
-  <entry>
     <title>Release notes from opentelemetry-operations-go - propagator/v0.39.0</title>
     <updated>2023-05-30T18:54:22Z</updated>
     <id>tag:github.com,2008:Repository/244484581/propagator/v0.39.0</id>
@@ -488,11 +488,33 @@
     </author>
   </entry>
   <entry>
+    <title>Release notes from opentelemetry-operations-go - exporter/trace/v1.15.0</title>
+    <updated>2023-05-30T18:54:22Z</updated>
+    <id>tag:github.com,2008:Repository/244484581/exporter/trace/v1.15.0</id>
+    <content type="html">&lt;p&gt;Prepare release v0.39.0/1.15.0 (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1732716916&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/636&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleCloudPlatform/opentelemetry-operations-go/pull/636/hovercard&#34; href=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/pull/636&#34;&gt;#636&lt;/a&gt;)&lt;/p&gt;</content>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/exporter%2Ftrace%2Fv1.15.0" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>damemi</name>
+    </author>
+  </entry>
+  <entry>
     <title>Release notes from opentelemetry-operations-go - internal/resourcemapping/v0.39.0</title>
     <updated>2023-05-30T18:54:22Z</updated>
     <id>tag:github.com,2008:Repository/244484581/internal/resourcemapping/v0.39.0</id>
     <content type="html">&lt;p&gt;Prepare release v0.39.0/1.15.0 (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1732716916&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/636&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleCloudPlatform/opentelemetry-operations-go/pull/636/hovercard&#34; href=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/pull/636&#34;&gt;#636&lt;/a&gt;)&lt;/p&gt;</content>
     <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/internal%2Fresourcemapping%2Fv0.39.0" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>damemi</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from opentelemetry-operations-go - internal/cloudmock/v0.39.0</title>
+    <updated>2023-05-30T18:54:22Z</updated>
+    <id>tag:github.com,2008:Repository/244484581/internal/cloudmock/v0.39.0</id>
+    <content type="html">&lt;p&gt;Prepare release v0.39.0/1.15.0 (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1732716916&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/636&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleCloudPlatform/opentelemetry-operations-go/pull/636/hovercard&#34; href=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/pull/636&#34;&gt;#636&lt;/a&gt;)&lt;/p&gt;</content>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/internal%2Fcloudmock%2Fv0.39.0" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>damemi</name>
@@ -532,22 +554,11 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from opentelemetry-operations-go - internal/resourcemapping/v0.38.0</title>
+    <title>Release notes from opentelemetry-operations-go - exporter/trace/v1.14.0</title>
     <updated>2023-05-30T16:48:20Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/internal/resourcemapping/v0.38.0</id>
+    <id>tag:github.com,2008:Repository/244484581/exporter/trace/v1.14.0</id>
     <content type="html">&lt;p&gt;Prepare release v0.38.0/v1.14.0 (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1732547465&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/634&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleCloudPlatform/opentelemetry-operations-go/pull/634/hovercard&#34; href=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/pull/634&#34;&gt;#634&lt;/a&gt;)&lt;/p&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/internal%2Fresourcemapping%2Fv0.38.0" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>damemi</name>
-    </author>
-  </entry>
-  <entry>
-    <title>Release notes from opentelemetry-operations-go - propagator/v0.38.0</title>
-    <updated>2023-05-30T16:48:20Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/propagator/v0.38.0</id>
-    <content type="html">&lt;p&gt;Prepare release v0.38.0/v1.14.0 (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1732547465&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/634&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleCloudPlatform/opentelemetry-operations-go/pull/634/hovercard&#34; href=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/pull/634&#34;&gt;#634&lt;/a&gt;)&lt;/p&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/propagator%2Fv0.38.0" rel="alternate"></link>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/exporter%2Ftrace%2Fv1.14.0" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>damemi</name>
@@ -565,11 +576,22 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from opentelemetry-operations-go - exporter/trace/v1.14.0</title>
+    <title>Release notes from opentelemetry-operations-go - propagator/v0.38.0</title>
     <updated>2023-05-30T16:48:20Z</updated>
-    <id>tag:github.com,2008:Repository/244484581/exporter/trace/v1.14.0</id>
+    <id>tag:github.com,2008:Repository/244484581/propagator/v0.38.0</id>
     <content type="html">&lt;p&gt;Prepare release v0.38.0/v1.14.0 (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1732547465&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/634&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleCloudPlatform/opentelemetry-operations-go/pull/634/hovercard&#34; href=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/pull/634&#34;&gt;#634&lt;/a&gt;)&lt;/p&gt;</content>
-    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/exporter%2Ftrace%2Fv1.14.0" rel="alternate"></link>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/propagator%2Fv0.38.0" rel="alternate"></link>
+    <summary type="html"></summary>
+    <author>
+      <name>damemi</name>
+    </author>
+  </entry>
+  <entry>
+    <title>Release notes from opentelemetry-operations-go - internal/resourcemapping/v0.38.0</title>
+    <updated>2023-05-30T16:48:20Z</updated>
+    <id>tag:github.com,2008:Repository/244484581/internal/resourcemapping/v0.38.0</id>
+    <content type="html">&lt;p&gt;Prepare release v0.38.0/v1.14.0 (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1732547465&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/issues/634&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/GoogleCloudPlatform/opentelemetry-operations-go/pull/634/hovercard&#34; href=&#34;https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/pull/634&#34;&gt;#634&lt;/a&gt;)&lt;/p&gt;</content>
+    <link href="https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/releases/tag/internal%2Fresourcemapping%2Fv0.38.0" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>damemi</name>
@@ -3535,17 +3557,6 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from build-push-action - v4: Merge pull request #784 from crazy-max/enable-provenance</title>
-    <updated>2023-01-30T18:25:07Z</updated>
-    <id>tag:github.com,2008:Repository/241092383/v4</id>
-    <content type="html">&lt;p&gt;revert disable provenance by default if not set&lt;/p&gt;</content>
-    <link href="https://github.com/docker/build-push-action/releases/tag/v4" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>crazy-max</name>
-    </author>
-  </entry>
-  <entry>
     <title>Release notes from build-push-action - v3.3.1</title>
     <updated>2023-01-30T18:11:50Z</updated>
     <id>tag:github.com,2008:Repository/241092383/v3.3.1</id>
@@ -6076,17 +6087,6 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from build-push-action - v2.10.0</title>
-    <updated>2022-03-14T19:19:35Z</updated>
-    <id>tag:github.com,2008:Repository/241092383/v2.10.0</id>
-    <content type="html">&lt;ul&gt;&#xA;&lt;li&gt;Add &lt;code&gt;imageid&lt;/code&gt; output and use metadata to set &lt;code&gt;digest&lt;/code&gt; output (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1160711149&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/docker/build-push-action/issues/569&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/docker/build-push-action/pull/569/hovercard&#34; href=&#34;https://github.com/docker/build-push-action/pull/569&#34;&gt;#569&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;Add &lt;code&gt;build-contexts&lt;/code&gt; input (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1153409070&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/docker/build-push-action/issues/563&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/docker/build-push-action/pull/563/hovercard&#34; href=&#34;https://github.com/docker/build-push-action/pull/563&#34;&gt;#563&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;Enhance outputs display (&lt;a class=&#34;issue-link js-issue-link&#34; data-error-text=&#34;Failed to load title&#34; data-id=&#34;1128345188&#34; data-permission-text=&#34;Title is private&#34; data-url=&#34;https://github.com/docker/build-push-action/issues/559&#34; data-hovercard-type=&#34;pull_request&#34; data-hovercard-url=&#34;/docker/build-push-action/pull/559/hovercard&#34; href=&#34;https://github.com/docker/build-push-action/pull/559&#34;&gt;#559&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;/ul&gt;</content>
-    <link href="https://github.com/docker/build-push-action/releases/tag/v2.10.0" rel="alternate"></link>
-    <summary type="html"></summary>
-    <author>
-      <name>crazy-max</name>
-    </author>
-  </entry>
-  <entry>
     <title>Release notes from go-binsize-treemap - v0.2.0</title>
     <updated>2022-03-09T11:43:10Z</updated>
     <id>tag:github.com,2008:Repository/450664461/v0.2.0</id>
@@ -7407,22 +7407,22 @@
     </author>
   </entry>
   <entry>
-    <title>Release notes from triangula - v1.1.6</title>
+    <title>Release notes from triangula - v1.1.5</title>
     <updated>2021-05-11T13:31:09Z</updated>
-    <id>tag:github.com,2008:Repository/354015172/v1.1.6</id>
+    <id>tag:github.com,2008:Repository/354015172/v1.1.5</id>
     <content type="html">&lt;p&gt;Refactor for more flexibility&lt;/p&gt;</content>
-    <link href="https://github.com/rh12503/triangula/releases/tag/v1.1.6" rel="alternate"></link>
+    <link href="https://github.com/rh12503/triangula/releases/tag/v1.1.5" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>rh12503</name>
     </author>
   </entry>
   <entry>
-    <title>Release notes from triangula - v1.1.5</title>
+    <title>Release notes from triangula - v1.1.6</title>
     <updated>2021-05-11T13:31:09Z</updated>
-    <id>tag:github.com,2008:Repository/354015172/v1.1.5</id>
+    <id>tag:github.com,2008:Repository/354015172/v1.1.6</id>
     <content type="html">&lt;p&gt;Refactor for more flexibility&lt;/p&gt;</content>
-    <link href="https://github.com/rh12503/triangula/releases/tag/v1.1.5" rel="alternate"></link>
+    <link href="https://github.com/rh12503/triangula/releases/tag/v1.1.6" rel="alternate"></link>
     <summary type="html"></summary>
     <author>
       <name>rh12503</name>
