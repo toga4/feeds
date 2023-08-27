@@ -7,3 +7,19 @@ pages:
     item_link_selector: a.link-thumbnail
     item_title_selector: a.thumbnail-title
     item_time_selector: time
+  - id: googleapis-google-cloud-go-spanner
+    title: googleapis/google-cloud-go/spanner Issues and PRs
+    description: Issues and PRs for googleapis/google-cloud-go/spanner
+    url: https://github.com/googleapis/google-cloud-go/issues?q=label%3A%22api%3A+spanner%22+-author%3Aapp%2Fflaky-bot
+    item_selector: div.js-issue-row
+    item_link_selector: a.js-navigation-open
+    item_title_selector: a.js-navigation-open
+    item_time_selector: relative-time
+  - id: googlecloud-golang-samples-spanner
+    title: GoogleCloudPlatform/golang-samples/spanner Issues and PRs
+    description: Issues and PRs for GoogleCloudPlatform/golang-samples/spanner
+    url: https://github.com/GoogleCloudPlatform/golang-samples/issues?page=1&q=label%3A%22api%3A+spanner%22+-author%3Aapp%2Fflaky-bot
+    item_selector: div.js-issue-row
+    item_link_selector: a.js-navigation-open
+    item_title_selector: a.js-navigation-open
+    item_time_selector: relative-time
