@@ -58,11 +58,17 @@ jobs:
       - starred-releases
       - weneedfeed
     steps:
-      - name: Download all workflow run artifacts
+      - name: Download artifacts of starred-releases
         uses: actions/download-artifact@v4
         with:
-          path: dist
-          merge-multiple: true
+          name: starred-releases
+          path: dist/starred-releases
+
+      - name: Download artifacts of weneedfeed
+        uses: actions/download-artifact@v4
+        with:
+          name: weneedfeed
+          path: dist/weneedfeed
 
       - name: List all files
         run: find ./dist
