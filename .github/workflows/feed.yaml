@@ -12,9 +12,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Setup Go
-        uses: actions/setup-go@v2
+        uses: actions/setup-go@v5
         with:
-          go-version: ^1.17
+          go-version: stable
 
       - name: Install feedle
         run: go install github.com/toga4/feedle/cmd/feedle@main
@@ -30,7 +30,7 @@ jobs:
         run: feedle -title "Releases from Starred by toga4" -link https://toga4.github.io/feeds/starred-releases.atom < feed.txt > dist/starred-releases.atom
 
       - name: Upload feed as artifact
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v4
         with:
           name: starred-releases
           path: dist/starred-releases.atom
@@ -39,14 +39,14 @@ jobs:
   weneedfeed:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v4
 
       - uses: r7kamura/weneedfeed-action@v3
         with:
           base_url: https://toga4.github.io/feeds/weneedfeed
 
       - name: Upload feed as artifact
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v4
         with:
           name: weneedfeed
           path: output
@@ -59,16 +59,17 @@ jobs:
       - weneedfeed
     steps:
       - name: Download all workflow run artifacts
-        uses: actions/download-artifact@v2
+        uses: actions/download-artifact@v4
         with:
           path: dist
+          merge-multiple: true
 
       - name: List all files
         run: find ./dist
 
-      - uses: peaceiris/actions-gh-pages@v3
+      - uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./dist
-          user_name: 'github-actions[bot]'
-          user_email: 'github-actions[bot]@users.noreply.github.com'
+          user_name: "github-actions[bot]"
+          user_email: "github-actions[bot]@users.noreply.github.com"
