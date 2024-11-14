@@ -7,7 +7,31 @@
     <link>https://github.com/googleapis/google-cloud-go/issues?q=label%3A%22api%3A+spanner%22+-author%3Aapp%2Fflaky-bot</link>
     <atom:link href="https://toga4.github.io/feeds/weneedfeed/feeds/googleapis-google-cloud-go-spanner.xml" rel="self"/>
     <description><![CDATA[Issues and PRs for googleapis/google-cloud-go/spanner]]></description>
-    <lastBuildDate>Thu, 14 Nov 2024 08:16:18 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 14 Nov 2024 09:13:05 +0000</lastBuildDate>
+    
+    <item>
+      <title><![CDATA[spanner: Poor handling of high conflict transactional workloads]]></title>
+      <link>https://github.com/googleapis/google-cloud-go/issues/11017</link>
+      
+        <pubDate>Thu, 14 Nov 2024 09:02:03 -0000</pubDate>
+      
+      <description><![CDATA[]]></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <guid isPermaLink="true">https://github.com/googleapis/google-cloud-go/issues/11017</guid>
+      
+    </item>
+    
+    <item>
+      <title><![CDATA[fix(spanner): add safecheck to avoid deadlock when creating multiplex session]]></title>
+      <link>https://github.com/googleapis/google-cloud-go/pull/11131</link>
+      
+        <pubDate>Thu, 14 Nov 2024 08:59:22 -0000</pubDate>
+      
+      <description><![CDATA[]]></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <guid isPermaLink="true">https://github.com/googleapis/google-cloud-go/pull/11131</guid>
+      
+    </item>
     
     <item>
       <title><![CDATA[fix(spanner): allow non default service account only when direct path is enabled]]></title>
@@ -102,30 +126,6 @@
       <description><![CDATA[]]></description>
       <content:encoded><![CDATA[]]></content:encoded>
       <guid isPermaLink="true">https://github.com/googleapis/google-cloud-go/pull/11096</guid>
-      
-    </item>
-    
-    <item>
-      <title><![CDATA[spanner: panic on native metrics]]></title>
-      <link>https://github.com/googleapis/google-cloud-go/issues/11080</link>
-      
-        <pubDate>Thu, 07 Nov 2024 06:33:59 -0000</pubDate>
-      
-      <description><![CDATA[]]></description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <guid isPermaLink="true">https://github.com/googleapis/google-cloud-go/issues/11080</guid>
-      
-    </item>
-    
-    <item>
-      <title><![CDATA[fix(spanner): skip exporting metrics if attempt or operation is not captured.]]></title>
-      <link>https://github.com/googleapis/google-cloud-go/pull/11095</link>
-      
-        <pubDate>Thu, 07 Nov 2024 06:33:58 -0000</pubDate>
-      
-      <description><![CDATA[]]></description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <guid isPermaLink="true">https://github.com/googleapis/google-cloud-go/pull/11095</guid>
       
     </item>
     
