@@ -7,7 +7,31 @@
     <link>https://github.com/googleapis/google-cloud-go/issues?q=label%3A%22api%3A+spanner%22+-author%3Aapp%2Fflaky-bot</link>
     <atom:link href="https://toga4.github.io/feeds/weneedfeed/feeds/googleapis-google-cloud-go-spanner.xml" rel="self"/>
     <description><![CDATA[Issues and PRs for googleapis/google-cloud-go/spanner]]></description>
-    <lastBuildDate>Wed, 18 Dec 2024 13:21:40 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 18 Dec 2024 14:12:06 +0000</lastBuildDate>
+    
+    <item>
+      <title><![CDATA[test(spanner): temporarily skip TestRequestIDHeader if using multiplexedSessions]]></title>
+      <link>https://github.com/googleapis/google-cloud-go/pull/11309</link>
+      
+        <pubDate>Wed, 18 Dec 2024 14:00:37 -0000</pubDate>
+      
+      <description><![CDATA[]]></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <guid isPermaLink="true">https://github.com/googleapis/google-cloud-go/pull/11309</guid>
+      
+    </item>
+    
+    <item>
+      <title><![CDATA[spanner: examine test results for RequestIDHeader when environment variable GOOGLE_CLOUD_SPANNER_MULTIPLEXED_SESSIONS=true]]></title>
+      <link>https://github.com/googleapis/google-cloud-go/issues/11308</link>
+      
+        <pubDate>Wed, 18 Dec 2024 13:26:57 -0000</pubDate>
+      
+      <description><![CDATA[]]></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <guid isPermaLink="true">https://github.com/googleapis/google-cloud-go/issues/11308</guid>
+      
+    </item>
     
     <item>
       <title><![CDATA[spanner/spansql: NOT NULL protobuf columns concatenate NOT NULL into protobuf type-name]]></title>
@@ -102,30 +126,6 @@
       <description><![CDATA[]]></description>
       <content:encoded><![CDATA[]]></content:encoded>
       <guid isPermaLink="true">https://github.com/googleapis/google-cloud-go/pull/11244</guid>
-      
-    </item>
-    
-    <item>
-      <title><![CDATA[ci(spanner): fix failing tests due to t.Parallel]]></title>
-      <link>https://github.com/googleapis/google-cloud-go/pull/11243</link>
-      
-        <pubDate>Sun, 08 Dec 2024 17:40:44 -0000</pubDate>
-      
-      <description><![CDATA[]]></description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <guid isPermaLink="true">https://github.com/googleapis/google-cloud-go/pull/11243</guid>
-      
-    </item>
-    
-    <item>
-      <title><![CDATA[chore(spanner): remove deprecated usages of internal/trace from tests]]></title>
-      <link>https://github.com/googleapis/google-cloud-go/pull/11233</link>
-      
-        <pubDate>Fri, 06 Dec 2024 16:22:56 -0000</pubDate>
-      
-      <description><![CDATA[]]></description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <guid isPermaLink="true">https://github.com/googleapis/google-cloud-go/pull/11233</guid>
       
     </item>
     
