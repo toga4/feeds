@@ -12,7 +12,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Setup Go
-        uses: actions/setup-go@v5
+        uses: actions/setup-go@v7
         with:
           go-version: stable
 
@@ -30,7 +30,7 @@ jobs:
         run: feedle -title "Releases from Starred by toga4" -link https://toga4.github.io/feeds/starred-releases.atom < feed.txt > dist/starred-releases.atom
 
       - name: Upload feed as artifact
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: starred-releases
           path: dist/starred-releases.atom
@@ -39,14 +39,14 @@ jobs:
   weneedfeed:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
 
       - uses: r7kamura/weneedfeed-action@v3
         with:
           base_url: https://toga4.github.io/feeds/weneedfeed
 
       - name: Upload feed as artifact
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: weneedfeed
           path: output
@@ -59,13 +59,13 @@ jobs:
       - weneedfeed
     steps:
       - name: Download artifacts of starred-releases
-        uses: actions/download-artifact@v4
+        uses: actions/download-artifact@v8
         with:
           name: starred-releases
           path: dist/starred-releases
 
       - name: Download artifacts of weneedfeed
-        uses: actions/download-artifact@v4
+        uses: actions/download-artifact@v8
         with:
           name: weneedfeed
           path: dist/weneedfeed
