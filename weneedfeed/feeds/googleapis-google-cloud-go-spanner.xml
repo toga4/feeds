@@ -7,7 +7,127 @@
     <link>https://github.com/googleapis/google-cloud-go/issues?q=label%3A%22api%3A+spanner%22+-author%3Aapp%2Fflaky-bot</link>
     <atom:link href="https://toga4.github.io/feeds/weneedfeed/feeds/googleapis-google-cloud-go-spanner.xml" rel="self"/>
     <description><![CDATA[Issues and PRs for googleapis/google-cloud-go/spanner]]></description>
-    <lastBuildDate>Wed, 09 Sep 2026 21:26:29 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 09 Sep 2026 23:04:11 +0000</lastBuildDate>
+    
+    <item>
+      <title><![CDATA[fix(spanner/spansql): support ARRAY of PROTO types in DDL]]></title>
+      <link>https://github.com/googleapis/google-cloud-go/pull/20463</link>
+      
+        <pubDate>Wed, 09 Sep 2026 00:00:00 +0000</pubDate>
+      
+      <description><![CDATA[]]></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <guid isPermaLink="true">https://github.com/googleapis/google-cloud-go/pull/20463</guid>
+      
+    </item>
+    
+    <item>
+      <title><![CDATA[spansql: parser error when parsing Array of PROTO]]></title>
+      <link>https://github.com/googleapis/google-cloud-go/issues/20462</link>
+      
+        <pubDate>Wed, 09 Sep 2026 00:00:00 +0000</pubDate>
+      
+      <description><![CDATA[]]></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <guid isPermaLink="true">https://github.com/googleapis/google-cloud-go/issues/20462</guid>
+      
+    </item>
+    
+    <item>
+      <title><![CDATA[fix(spanner): prevent fastpath tablet routing flaps]]></title>
+      <link>https://github.com/googleapis/google-cloud-go/pull/20417</link>
+      
+        <pubDate>Mon, 24 Aug 2026 00:00:00 +0000</pubDate>
+      
+      <description><![CDATA[]]></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <guid isPermaLink="true">https://github.com/googleapis/google-cloud-go/pull/20417</guid>
+      
+    </item>
+    
+    <item>
+      <title><![CDATA[fix(spanner): stop leaking endpointLatencyRegistry cleanup goroutine]]></title>
+      <link>https://github.com/googleapis/google-cloud-go/pull/20416</link>
+      
+        <pubDate>Mon, 24 Aug 2026 00:00:00 +0000</pubDate>
+      
+      <description><![CDATA[]]></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <guid isPermaLink="true">https://github.com/googleapis/google-cloud-go/pull/20416</guid>
+      
+    </item>
+    
+    <item>
+      <title><![CDATA[feat(spanner): penalize channels that returned Unavailable or ResourceExhausted in the dynamic channel pool picker]]></title>
+      <link>https://github.com/googleapis/google-cloud-go/pull/20390</link>
+      
+        <pubDate>Mon, 24 Aug 2026 00:00:00 +0000</pubDate>
+      
+      <description><![CDATA[]]></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <guid isPermaLink="true">https://github.com/googleapis/google-cloud-go/pull/20390</guid>
+      
+    </item>
+    
+    <item>
+      <title><![CDATA[feat(spanner): support caller-owned OpenTelemetry client metrics]]></title>
+      <link>https://github.com/googleapis/google-cloud-go/pull/20388</link>
+      
+        <pubDate>Mon, 24 Aug 2026 00:00:00 +0000</pubDate>
+      
+      <description><![CDATA[]]></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <guid isPermaLink="true">https://github.com/googleapis/google-cloud-go/pull/20388</guid>
+      
+    </item>
+    
+    <item>
+      <title><![CDATA[feat(spanner): experimental build-tagged opaque streaming decode path]]></title>
+      <link>https://github.com/googleapis/google-cloud-go/pull/20414</link>
+      
+        <pubDate>Sat, 22 Aug 2026 00:00:00 +0000</pubDate>
+      
+      <description><![CDATA[]]></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <guid isPermaLink="true">https://github.com/googleapis/google-cloud-go/pull/20414</guid>
+      
+    </item>
+    
+    <item>
+      <title><![CDATA[chore(spanner): add sample for using vtprotobuf]]></title>
+      <link>https://github.com/googleapis/google-cloud-go/pull/20389</link>
+      
+        <pubDate>Tue, 18 Aug 2026 00:00:00 +0000</pubDate>
+      
+      <description><![CDATA[]]></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <guid isPermaLink="true">https://github.com/googleapis/google-cloud-go/pull/20389</guid>
+      
+    </item>
+    
+    <item>
+      <title><![CDATA[chore(spanner/benchmarks): cleanup local replace directive]]></title>
+      <link>https://github.com/googleapis/google-cloud-go/pull/20316</link>
+      
+        <pubDate>Thu, 06 Aug 2026 00:00:00 +0000</pubDate>
+      
+      <description><![CDATA[]]></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <guid isPermaLink="true">https://github.com/googleapis/google-cloud-go/pull/20316</guid>
+      
+    </item>
+    
+    <item>
+      <title><![CDATA[fix(spanner): excise a stale test reference to old genproto paths]]></title>
+      <link>https://github.com/googleapis/google-cloud-go/pull/20245</link>
+      
+        <pubDate>Tue, 28 Jul 2026 00:00:00 +0000</pubDate>
+      
+      <description><![CDATA[]]></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <guid isPermaLink="true">https://github.com/googleapis/google-cloud-go/pull/20245</guid>
+      
+    </item>
     
   </channel>
 </rss>
