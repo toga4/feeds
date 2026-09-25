@@ -7,7 +7,31 @@
     <link>https://github.com/googleapis/google-cloud-go/issues?q=label%3A%22api%3A+spanner%22+-author%3Aapp%2Fflaky-bot</link>
     <atom:link href="https://toga4.github.io/feeds/weneedfeed/feeds/googleapis-google-cloud-go-spanner.xml" rel="self"/>
     <description><![CDATA[Issues and PRs for googleapis/google-cloud-go/spanner]]></description>
-    <lastBuildDate>Fri, 25 Sep 2026 17:41:56 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 25 Sep 2026 20:58:01 +0000</lastBuildDate>
+    
+    <item>
+      <title><![CDATA[perf(spanner): avoid waiting for stream headers when no latency sink is enabled]]></title>
+      <link>https://github.com/googleapis/google-cloud-go/pull/20583</link>
+      
+        <pubDate>Fri, 25 Sep 2026 00:00:00 +0000</pubDate>
+      
+      <description><![CDATA[]]></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <guid isPermaLink="true">https://github.com/googleapis/google-cloud-go/pull/20583</guid>
+      
+    </item>
+    
+    <item>
+      <title><![CDATA[perf(spanner): skip builtin metrics tracer allocation when metrics are disabled]]></title>
+      <link>https://github.com/googleapis/google-cloud-go/pull/20582</link>
+      
+        <pubDate>Fri, 25 Sep 2026 00:00:00 +0000</pubDate>
+      
+      <description><![CDATA[]]></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+      <guid isPermaLink="true">https://github.com/googleapis/google-cloud-go/pull/20582</guid>
+      
+    </item>
     
     <item>
       <title><![CDATA[chore(spanner): generate private vtprotobuf copy of google.spanner.v1 under internal/vtpb]]></title>
@@ -102,30 +126,6 @@
       <description><![CDATA[]]></description>
       <content:encoded><![CDATA[]]></content:encoded>
       <guid isPermaLink="true">https://github.com/googleapis/google-cloud-go/issues/20462</guid>
-      
-    </item>
-    
-    <item>
-      <title><![CDATA[fix(spanner): prevent fastpath tablet routing flaps]]></title>
-      <link>https://github.com/googleapis/google-cloud-go/pull/20417</link>
-      
-        <pubDate>Mon, 24 Aug 2026 00:00:00 +0000</pubDate>
-      
-      <description><![CDATA[]]></description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <guid isPermaLink="true">https://github.com/googleapis/google-cloud-go/pull/20417</guid>
-      
-    </item>
-    
-    <item>
-      <title><![CDATA[fix(spanner): stop leaking endpointLatencyRegistry cleanup goroutine]]></title>
-      <link>https://github.com/googleapis/google-cloud-go/pull/20416</link>
-      
-        <pubDate>Mon, 24 Aug 2026 00:00:00 +0000</pubDate>
-      
-      <description><![CDATA[]]></description>
-      <content:encoded><![CDATA[]]></content:encoded>
-      <guid isPermaLink="true">https://github.com/googleapis/google-cloud-go/pull/20416</guid>
       
     </item>
     
